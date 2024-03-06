@@ -19,6 +19,7 @@
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
+	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
@@ -67,6 +68,7 @@
 	- [\#12781](https://github.com/AliceO2Group/AliceO2/pull/12781) 2024-02-29: DPL: allow a given buffer to be deserialised multiple times by [@ktf](https://github.com/ktf)
 	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 	- [\#12806](https://github.com/AliceO2Group/AliceO2/pull/12806) 2024-03-04: Add guards to DefaultsHelpers header by [@shahor02](https://github.com/shahor02)
+	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 	- [\#12817](https://github.com/AliceO2Group/AliceO2/pull/12817) 2024-03-06: DPL: improve processing of logs from devices by [@ktf](https://github.com/ktf)
 	- [\#12818](https://github.com/AliceO2Group/AliceO2/pull/12818) 2024-03-06: DPL TestWorkflows: add example for two synchronized timers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
