@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-29T14:11:04Z",
-            "title": "Common/PWGHF: fix smearing of sigmaYZ cov. matrix term in TrackTuner, and add protection.",
-            "number": 4917,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackPropagation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-29T08:32:13Z",
             "title": "added histograms TPC only",
             "number": 4918,
@@ -2716,8 +2691,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-03-06T13:06:07Z",
             "title": "Fix ITS clsize cut + set additional track selection for run 2 (SPD hit + pileup rejection of V0)",
             "number": 5014,
             "author": {
@@ -2773,6 +2748,31 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetfinderhfQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EventFiltering/PWGHF: first implementation of SigmaC++K-, SigmaC0K0 triggers",
+            "number": 5017,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
                   }
                 }
               ]
