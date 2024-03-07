@@ -73,6 +73,7 @@
 	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 	- [\#12817](https://github.com/AliceO2Group/AliceO2/pull/12817) 2024-03-06: DPL: improve processing of logs from devices by [@ktf](https://github.com/ktf)
 	- [\#12818](https://github.com/AliceO2Group/AliceO2/pull/12818) 2024-03-06: DPL TestWorkflows: add example for two synchronized timers by [@ktf](https://github.com/ktf)
+	- [\#12820](https://github.com/AliceO2Group/AliceO2/pull/12820) 2024-03-07: DPL: correctly propagate timers with the same description by [@ktf](https://github.com/ktf)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
