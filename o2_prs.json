@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-20T14:10:02Z",
-            "title": "TPC residual aggregator stores unbinned residuals by default",
-            "number": 12728,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-residual-aggregator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-19T16:01:08Z",
             "title": "Fixes in CTP digitizer for anchored MC",
             "number": 12729,
@@ -4091,6 +4071,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Workflow: Fix bug with TPC double-threaded pipeline getting stuck at Start/Stop/Start",
+            "number": 12829,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowPipeline.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]

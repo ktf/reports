@@ -28,7 +28,6 @@
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-	- [\#12728](https://github.com/AliceO2Group/AliceO2/pull/12728) 2024-02-20: TPC residual aggregator stores unbinned residuals by default by [@martenole](https://github.com/martenole)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12733](https://github.com/AliceO2Group/AliceO2/pull/12733) 2024-02-20: Add README.md to `Detectors/AOD` by [@cholmcc](https://github.com/cholmcc)
 	- [\#12737](https://github.com/AliceO2Group/AliceO2/pull/12737) 2024-02-20: Update README.md with link to docs. by [@cholmcc](https://github.com/cholmcc)
