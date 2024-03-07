@@ -5,7 +5,6 @@
 	- [\#12775](https://github.com/AliceO2Group/AliceO2/pull/12775) 2024-02-28: GPU: And again more commits for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
@@ -56,7 +55,6 @@
 	- [\#12819](https://github.com/AliceO2Group/AliceO2/pull/12819) 2024-03-06: TPC: Adding option to add time offset when writing pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
 	- [\#12747](https://github.com/AliceO2Group/AliceO2/pull/12747) 2024-02-27: DPL: drop support for serialising / deserializing schema by [@ktf](https://github.com/ktf)
 	- [\#12748](https://github.com/AliceO2Group/AliceO2/pull/12748) 2024-03-05: [O2-4578] DPL: attempt at removing a race condition in the rate limiting by [@ktf](https://github.com/ktf)
