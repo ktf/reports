@@ -22,13 +22,11 @@
 	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
-	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12733](https://github.com/AliceO2Group/AliceO2/pull/12733) 2024-02-20: Add README.md to `Detectors/AOD` by [@cholmcc](https://github.com/cholmcc)
 	- [\#12737](https://github.com/AliceO2Group/AliceO2/pull/12737) 2024-02-20: Update README.md with link to docs. by [@cholmcc](https://github.com/cholmcc)
 	- [\#12738](https://github.com/AliceO2Group/AliceO2/pull/12738) 2024-02-21: ALICE 3: Add FWD and BWD RICH + Fixes to TOFs and cosmetics by [@mconcas](https://github.com/mconcas)
@@ -78,7 +76,6 @@
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
 	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 	- [\#12769](https://github.com/AliceO2Group/AliceO2/pull/12769) 2024-03-05: IT3: Support lightweight GeometryTGeo by [@f3sch](https://github.com/f3sch)
 	- [\#12783](https://github.com/AliceO2Group/AliceO2/pull/12783) 2024-02-29: Set mFirstOrbitTF before updateTimeDependentParams by [@shahor02](https://github.com/shahor02)
