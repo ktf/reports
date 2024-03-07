@@ -27,6 +27,7 @@
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
+	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 	- [\#12725](https://github.com/AliceO2Group/AliceO2/pull/12725) 2024-02-17: Adding chamber information in the AOD by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
