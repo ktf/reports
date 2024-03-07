@@ -8,6 +8,7 @@
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
+	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
@@ -71,6 +72,7 @@
 	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 	- [\#12806](https://github.com/AliceO2Group/AliceO2/pull/12806) 2024-03-04: Add guards to DefaultsHelpers header by [@shahor02](https://github.com/shahor02)
 	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
+	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12817](https://github.com/AliceO2Group/AliceO2/pull/12817) 2024-03-06: DPL: improve processing of logs from devices by [@ktf](https://github.com/ktf)
 	- [\#12818](https://github.com/AliceO2Group/AliceO2/pull/12818) 2024-03-06: DPL TestWorkflows: add example for two synchronized timers by [@ktf](https://github.com/ktf)
 	- [\#12820](https://github.com/AliceO2Group/AliceO2/pull/12820) 2024-03-07: DPL: correctly propagate timers with the same description by [@ktf](https://github.com/ktf)
