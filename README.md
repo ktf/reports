@@ -53,6 +53,7 @@
 	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
 	- [\#12830](https://github.com/AliceO2Group/AliceO2/pull/12830) 2024-03-08: ctpdev: raw decoder output size protection  by [@lietava](https://github.com/lietava)
 	- [\#12833](https://github.com/AliceO2Group/AliceO2/pull/12833) 2024-03-08: Calculate L1phase when statistics reached value by [@peressounko](https://github.com/peressounko)
+	- [\#12838](https://github.com/AliceO2Group/AliceO2/pull/12838) 2024-03-08: Make o2-tpc-file-reader to use the HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
 	- [\#12747](https://github.com/AliceO2Group/AliceO2/pull/12747) 2024-02-27: DPL: drop support for serialising / deserializing schema by [@ktf](https://github.com/ktf)
