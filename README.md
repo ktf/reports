@@ -69,6 +69,7 @@
 	- [\#12820](https://github.com/AliceO2Group/AliceO2/pull/12820) 2024-03-07: DPL: correctly propagate timers with the same description by [@ktf](https://github.com/ktf)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 	- [\#12823](https://github.com/AliceO2Group/AliceO2/pull/12823) 2024-03-07: DPL Test: use some float numbers that don't require optimization-specific rounding by [@davidrohr](https://github.com/davidrohr)
+	- [\#12834](https://github.com/AliceO2Group/AliceO2/pull/12834) 2024-03-08: DPL: drop some more code from the main header by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
