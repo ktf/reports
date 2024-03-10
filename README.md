@@ -21,6 +21,7 @@
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
+	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
@@ -74,6 +75,7 @@
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 	- [\#12823](https://github.com/AliceO2Group/AliceO2/pull/12823) 2024-03-07: DPL Test: use some float numbers that don't require optimization-specific rounding by [@davidrohr](https://github.com/davidrohr)
 	- [\#12834](https://github.com/AliceO2Group/AliceO2/pull/12834) 2024-03-08: DPL: drop some more code from the main header by [@ktf](https://github.com/ktf)
+	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
