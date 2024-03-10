@@ -9,7 +9,6 @@
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12741](https://github.com/AliceO2Group/AliceO2/pull/12741) 2024-02-21: GPU: Replace double constants by float constants by [@davidrohr](https://github.com/davidrohr)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12745](https://github.com/AliceO2Group/AliceO2/pull/12745) 2024-03-08: [FEAT] Drop support for Tracy by [@ktf](https://github.com/ktf)
 	- [\#12748](https://github.com/AliceO2Group/AliceO2/pull/12748) 2024-03-05: [O2-4578] DPL: attempt at removing a race condition in the rate limiting by [@ktf](https://github.com/ktf)
