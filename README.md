@@ -9,7 +9,6 @@
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12745](https://github.com/AliceO2Group/AliceO2/pull/12745) 2024-03-08: [FEAT] Drop support for Tracy by [@ktf](https://github.com/ktf)
 	- [\#12748](https://github.com/AliceO2Group/AliceO2/pull/12748) 2024-03-05: [O2-4578] DPL: attempt at removing a race condition in the rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
@@ -53,7 +52,6 @@
 	- [\#12838](https://github.com/AliceO2Group/AliceO2/pull/12838) 2024-03-08: Make o2-tpc-file-reader to use the HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 	- [\#12839](https://github.com/AliceO2Group/AliceO2/pull/12839) 2024-03-08: [EMCAL-795]: Add protection for TRUs when cheking HW address by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Framework
-	- [\#12745](https://github.com/AliceO2Group/AliceO2/pull/12745) 2024-03-08: [FEAT] Drop support for Tracy by [@ktf](https://github.com/ktf)
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
 	- [\#12747](https://github.com/AliceO2Group/AliceO2/pull/12747) 2024-02-27: DPL: drop support for serialising / deserializing schema by [@ktf](https://github.com/ktf)
 	- [\#12748](https://github.com/AliceO2Group/AliceO2/pull/12748) 2024-03-05: [O2-4578] DPL: attempt at removing a race condition in the rate limiting by [@ktf](https://github.com/ktf)
