@@ -9,7 +9,6 @@
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12745](https://github.com/AliceO2Group/AliceO2/pull/12745) 2024-03-08: [FEAT] Drop support for Tracy by [@ktf](https://github.com/ktf)
 	- [\#12748](https://github.com/AliceO2Group/AliceO2/pull/12748) 2024-03-05: [O2-4578] DPL: attempt at removing a race condition in the rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
@@ -23,13 +22,10 @@
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
-	- [\#12743](https://github.com/AliceO2Group/AliceO2/pull/12743) 2024-02-24: GPU TPC Work on Cluster Error Estimation (New IFC formula + occupancy term for stochastic error) by [@davidrohr](https://github.com/davidrohr)
 	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 	- [\#12749](https://github.com/AliceO2Group/AliceO2/pull/12749) 2024-02-29: TRD: DCS Chamber Status post production update by [@leo-barreto](https://github.com/leo-barreto)
 	- [\#12755](https://github.com/AliceO2Group/AliceO2/pull/12755) 2024-02-28: Hotfix for PID Hypothesis - switch to disable Canvas by [@HorstMa](https://github.com/HorstMa)
