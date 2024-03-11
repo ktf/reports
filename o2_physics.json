@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-06T12:06:35Z",
-            "title": "Common/PWGLF: coll assoc + mult debug extras",
-            "number": 5003,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/strangederivedbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-06T20:19:46Z",
             "title": "PWGHF: Add ML inference class for Dstar->D0Pi and related modifications to the Dstar selector",
             "number": 5004,
@@ -2510,16 +2475,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/cefpTask.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGLF/TableProducer/zdcSP.cxx"
                   }
                 }
@@ -2561,6 +2516,31 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/strangederivedbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Strangeness filter: fill table even when rejecting events",
+            "number": 5103,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/cefpTask.cxx"
                   }
                 }
               ]
