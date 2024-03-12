@@ -44,6 +44,7 @@
 	- [\#12809](https://github.com/AliceO2Group/AliceO2/pull/12809) 2024-03-05: Do not delete singleton instance of adopted ITS/MFT GeometryTGeo by [@shahor02](https://github.com/shahor02)
 	- [\#12819](https://github.com/AliceO2Group/AliceO2/pull/12819) 2024-03-06: TPC: Adding option to add time offset when writing pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
+	- [\#12828](https://github.com/AliceO2Group/AliceO2/pull/12828) 2024-03-12: ITSMFT DeadMapBuilder ccdb upload when EoS not processed by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12830](https://github.com/AliceO2Group/AliceO2/pull/12830) 2024-03-08: ctpdev: raw decoder output size protection  by [@lietava](https://github.com/lietava)
 	- [\#12833](https://github.com/AliceO2Group/AliceO2/pull/12833) 2024-03-08: Calculate L1phase when statistics reached value by [@peressounko](https://github.com/peressounko)
 	- [\#12838](https://github.com/AliceO2Group/AliceO2/pull/12838) 2024-03-08: Make o2-tpc-file-reader to use the HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
