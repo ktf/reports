@@ -23,7 +23,6 @@
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-	- [\#12749](https://github.com/AliceO2Group/AliceO2/pull/12749) 2024-02-29: TRD: DCS Chamber Status post production update by [@leo-barreto](https://github.com/leo-barreto)
 	- [\#12755](https://github.com/AliceO2Group/AliceO2/pull/12755) 2024-02-28: Hotfix for PID Hypothesis - switch to disable Canvas by [@HorstMa](https://github.com/HorstMa)
 	- [\#12758](https://github.com/AliceO2Group/AliceO2/pull/12758) 2024-02-24: outputs for the  ccdb-populator must be sporadic by [@shahor02](https://github.com/shahor02)
 	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
