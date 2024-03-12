@@ -68,6 +68,7 @@
 	- [\#12823](https://github.com/AliceO2Group/AliceO2/pull/12823) 2024-03-07: DPL Test: use some float numbers that don't require optimization-specific rounding by [@davidrohr](https://github.com/davidrohr)
 	- [\#12834](https://github.com/AliceO2Group/AliceO2/pull/12834) 2024-03-08: DPL: drop some more code from the main header by [@ktf](https://github.com/ktf)
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
+	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
