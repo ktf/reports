@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-06T13:06:07Z",
-            "title": "Fix ITS clsize cut + set additional track selection for run 2 (SPD hit + pileup rejection of V0)",
-            "number": 5014,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antidLambdaEbye.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-06T11:45:31Z",
             "title": "PWG-UD: introduce configurables to save only PV tracks and reject collisions at TF boundaries",
             "number": 5015,
@@ -2441,6 +2421,41 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskSingleMuonSource.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGUD: new task for central barrel J/Psi",
+            "number": 5114,
+            "author": {
+              "login": "Edingrast"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDFSParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UPCJpsiCentralBarrelCorrHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcJpsiCentralBarrelCorr.cxx"
                   }
                 }
               ]
