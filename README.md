@@ -7,7 +7,6 @@
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
 	- [\#12775](https://github.com/AliceO2Group/AliceO2/pull/12775) 2024-02-28: GPU: And again more commits for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
@@ -23,7 +22,6 @@
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 	- [\#12855](https://github.com/AliceO2Group/AliceO2/pull/12855) 2024-03-13: Some cleanup / minor fixes / fixing of compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
 	- [\#12769](https://github.com/AliceO2Group/AliceO2/pull/12769) 2024-03-05: IT3: Support lightweight GeometryTGeo by [@f3sch](https://github.com/f3sch)
 	- [\#12772](https://github.com/AliceO2Group/AliceO2/pull/12772) 2024-02-27: GPU: Next set of fixes / debug options for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
@@ -48,6 +46,7 @@
 	- [\#12838](https://github.com/AliceO2Group/AliceO2/pull/12838) 2024-03-08: Make o2-tpc-file-reader to use the HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 	- [\#12839](https://github.com/AliceO2Group/AliceO2/pull/12839) 2024-03-08: [EMCAL-795]: Add protection for TRUs when cheking HW address by [@jokonig](https://github.com/jokonig)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
+	- [\#12851](https://github.com/AliceO2Group/AliceO2/pull/12851) 2024-03-13: GPU CMake: Don't create hipified source files in source tree but in CMake files folder by [@davidrohr](https://github.com/davidrohr)
 	- [\#12852](https://github.com/AliceO2Group/AliceO2/pull/12852) 2024-03-13: ALICE 3: Add ECal endcap and fix TRK services by [@mconcas](https://github.com/mconcas)
 	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
