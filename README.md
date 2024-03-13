@@ -49,6 +49,7 @@
 	- [\#12839](https://github.com/AliceO2Group/AliceO2/pull/12839) 2024-03-08: [EMCAL-795]: Add protection for TRUs when cheking HW address by [@jokonig](https://github.com/jokonig)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 	- [\#12852](https://github.com/AliceO2Group/AliceO2/pull/12852) 2024-03-13: ALICE 3: Add ECal endcap and fix TRK services by [@mconcas](https://github.com/mconcas)
+	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 	- [\#12768](https://github.com/AliceO2Group/AliceO2/pull/12768) 2024-02-26: Fix odc_expendable_task requirement in DDS XML by [@ktf](https://github.com/ktf)
 	- [\#12781](https://github.com/AliceO2Group/AliceO2/pull/12781) 2024-02-29: DPL: allow a given buffer to be deserialised multiple times by [@ktf](https://github.com/ktf)
