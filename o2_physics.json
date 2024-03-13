@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-08T14:04:59Z",
-            "title": "PWGHF: Ds-h correlation, process efficiency",
-            "number": 5043,
-            "author": {
-              "login": "scattaru"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-03-07T15:45:06Z",
-            "title": "PWGLF: event selection using border cuts added",
-            "number": 5044,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-03-07T14:55:03Z",
-            "title": "PWGJE: Adding Timeframe border cut as default for all jet analyses",
-            "number": 5045,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-07T16:38:09Z",
             "title": "PWGHF: fix Ds template in flow task",
             "number": 5046,
@@ -2385,6 +2320,86 @@
                 {
                   "node": {
                     "path": "PWGMM/Lumi/Tasks/LumiFDDFT0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Charmed resonance candidate creator",
+            "number": 5143,
+            "author": {
+              "login": "Luca610"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorDV0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorDV0Reduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EventFiltering/PWGHF: add configurable to force TOF proton PID in femto",
+            "number": 5144,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "K0s: Add TPC info of daughters",
+            "number": 5145,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/V0Cascades/perfK0sResolution.cxx"
                   }
                 }
               ]
