@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[QC-1008] shm-metadata-msg-size parameter mapped",
-            "number": 12763,
-            "author": {
-              "login": "justonedev1"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToDDS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2FairMQHeaderSizeTest.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-02-27T09:30:42Z",
             "title": "TPC: Add occupancy histogram bins +/-2 / uncorrected track yz and cluster x to debug streamers",
@@ -3956,6 +3916,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/StepTHn.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TPC: Protect debugVals export for debugstreamer from nullptr if called not from TPC Refit",
+            "number": 12863,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
                   }
                 }
               ]
