@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: move StringLiteral to FunctionalHelpers",
-            "number": 12766,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AlgorithmSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/FunctionalHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-02-27T09:31:09Z",
             "title": "GPU TPC: Fix parallel linking of global tracks to local tracks",
@@ -3991,6 +3966,71 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-refitter-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TPC: Add extra cluster errors for CSide Sector 1/2",
+            "number": 12866,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingSliceTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.h"
                   }
                 }
               ]
