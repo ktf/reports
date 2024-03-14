@@ -50,7 +50,6 @@
 	- [\#12852](https://github.com/AliceO2Group/AliceO2/pull/12852) 2024-03-13: ALICE 3: Add ECal endcap and fix TRK services by [@mconcas](https://github.com/mconcas)
 	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
-	- [\#12768](https://github.com/AliceO2Group/AliceO2/pull/12768) 2024-02-26: Fix odc_expendable_task requirement in DDS XML by [@ktf](https://github.com/ktf)
 	- [\#12781](https://github.com/AliceO2Group/AliceO2/pull/12781) 2024-02-29: DPL: allow a given buffer to be deserialised multiple times by [@ktf](https://github.com/ktf)
 	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 	- [\#12801](https://github.com/AliceO2Group/AliceO2/pull/12801) 2024-03-11: DPL CCDB: handle the Cache-Valid-Until header by [@ktf](https://github.com/ktf)
