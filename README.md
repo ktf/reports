@@ -67,7 +67,6 @@
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
-	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Steer
 	- [\#12769](https://github.com/AliceO2Group/AliceO2/pull/12769) 2024-03-05: IT3: Support lightweight GeometryTGeo by [@f3sch](https://github.com/f3sch)
