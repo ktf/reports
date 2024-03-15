@@ -22,7 +22,6 @@
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 	- [\#12855](https://github.com/AliceO2Group/AliceO2/pull/12855) 2024-03-13: Some cleanup / minor fixes / fixing of compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12772](https://github.com/AliceO2Group/AliceO2/pull/12772) 2024-02-27: GPU: Next set of fixes / debug options for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 	- [\#12782](https://github.com/AliceO2Group/AliceO2/pull/12782) 2024-03-01: ITS NoiseCalib: Lifetime TimeFrame to Sporadic for 2 inputs by [@iravasen](https://github.com/iravasen)
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
