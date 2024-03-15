@@ -35,6 +35,7 @@
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
+	- [\#12808](https://github.com/AliceO2Group/AliceO2/pull/12808) 2024-03-15: [EMCAL-565] Add check to mask entire SM/FEC if a certain fraction is masked by [@jokonig](https://github.com/jokonig)
 	- [\#12809](https://github.com/AliceO2Group/AliceO2/pull/12809) 2024-03-05: Do not delete singleton instance of adopted ITS/MFT GeometryTGeo by [@shahor02](https://github.com/shahor02)
 	- [\#12819](https://github.com/AliceO2Group/AliceO2/pull/12819) 2024-03-06: TPC: Adding option to add time offset when writing pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
