@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Update runDataProcessing.cxx to allow for `-` and `_` in (`Process`?)`Configurable<bool>` names",
-            "number": 12771,
-            "author": {
-              "login": "cholmcc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-02-27T19:06:47Z",
             "title": "GPU: Next set of fixes / debug options for deterministic GPU mode",
@@ -4141,6 +4121,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GLOQC: Reduce memory footprint",
+            "number": 12871,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchITSTPCQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
                   }
                 }
               ]
