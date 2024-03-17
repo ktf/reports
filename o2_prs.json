@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-28T08:18:00Z",
-            "title": "GPU: And again more commits for deterministic GPU mode",
-            "number": 12775,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMSliceTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSectorDebugSortKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackerDump.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-28T12:01:41Z",
             "title": "GPU: deterministic Mode must use more robust soft for border ranges and merged tracks",
             "number": 12776,
@@ -4116,6 +4066,91 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/cmake/kernel_helpers.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Solve problems with magnetic field initialization in GPURecoWorkflowSpec and realted changes",
+            "number": 12875,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]

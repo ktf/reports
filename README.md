@@ -1,13 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-	- [\#12775](https://github.com/AliceO2Group/AliceO2/pull/12775) 2024-02-28: GPU: And again more commits for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12775](https://github.com/AliceO2Group/AliceO2/pull/12775) 2024-02-28: GPU: And again more commits for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12796](https://github.com/AliceO2Group/AliceO2/pull/12796) 2024-03-10: DebugStreamer: remove suffix from tree name by [@matthias-kleiner](https://github.com/matthias-kleiner)
