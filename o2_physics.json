@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-15T09:57:46Z",
-            "title": "PWGHF: remove old DMesonPairs code and rename Testing code",
-            "number": 5112,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DMesonPairsTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DMesonPairsTablesTesting.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairsTesting.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDMesonPairs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDMesonPairsTesting.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-13T14:31:58Z",
             "title": "PWGHF: Add the NumberOfCluster in MFT information in the outputs of HFL single muon source task",
             "number": 5113,
@@ -2401,8 +2346,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-03-17T13:06:55Z",
             "title": "PWGEM/PhotonMeson: reduce skimmed MC data size",
             "number": 5211,
             "author": {
@@ -2548,6 +2493,46 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Replace cos3PiK with its absolute value in HfMlResponseDsToKKPi",
+            "number": 5212,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseDsToKKPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorDsToKKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
                   }
                 }
               ]
