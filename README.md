@@ -47,6 +47,7 @@
 	- [\#12851](https://github.com/AliceO2Group/AliceO2/pull/12851) 2024-03-13: GPU CMake: Don't create hipified source files in source tree but in CMake files folder by [@davidrohr](https://github.com/davidrohr)
 	- [\#12852](https://github.com/AliceO2Group/AliceO2/pull/12852) 2024-03-13: ALICE 3: Add ECal endcap and fix TRK services by [@mconcas](https://github.com/mconcas)
 	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
+	- [\#12865](https://github.com/AliceO2Group/AliceO2/pull/12865) 2024-03-17: code to refit tracks with different correction maps e.g. by [@wiechula](https://github.com/wiechula)
 	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
 	- [\#12872](https://github.com/AliceO2Group/AliceO2/pull/12872) 2024-03-15: Fix Z bias of TRD-matched tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
