@@ -20,7 +20,6 @@
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 	- [\#12855](https://github.com/AliceO2Group/AliceO2/pull/12855) 2024-03-13: Some cleanup / minor fixes / fixing of compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12782](https://github.com/AliceO2Group/AliceO2/pull/12782) 2024-03-01: ITS NoiseCalib: Lifetime TimeFrame to Sporadic for 2 inputs by [@iravasen](https://github.com/iravasen)
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 	- [\#12789](https://github.com/AliceO2Group/AliceO2/pull/12789) 2024-03-01: Handling of wrong Alpide chip_on_module ID by [@shahor02](https://github.com/shahor02)
 	- [\#12790](https://github.com/AliceO2Group/AliceO2/pull/12790) 2024-03-01: ITS DCS Parser workflow: fixing defult url for rct object by [@atriolo](https://github.com/atriolo)
@@ -52,7 +51,6 @@
 	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
 	- [\#12872](https://github.com/AliceO2Group/AliceO2/pull/12872) 2024-03-15: Fix Z bias of TRD-matched tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12781](https://github.com/AliceO2Group/AliceO2/pull/12781) 2024-02-29: DPL: allow a given buffer to be deserialised multiple times by [@ktf](https://github.com/ktf)
 	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 	- [\#12801](https://github.com/AliceO2Group/AliceO2/pull/12801) 2024-03-11: DPL CCDB: handle the Cache-Valid-Until header by [@ktf](https://github.com/ktf)
 	- [\#12806](https://github.com/AliceO2Group/AliceO2/pull/12806) 2024-03-04: Add guards to DefaultsHelpers header by [@shahor02](https://github.com/shahor02)
