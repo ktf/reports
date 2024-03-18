@@ -5,121 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-29T20:27:37Z",
-            "title": "GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs",
-            "number": 12784,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionIncludesDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionIncludesDeviceAll.template.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAIncludes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAKernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAkernel.template.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl-common/GPUReconstructionOCL.cl"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUDefGPUParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/ITS/GPUITSFitterKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/ITS/GPUITSFitterKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/CfUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinderKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/cmake/kernel_helpers.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/kernels.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-01T16:59:35Z",
             "title": "Add ITS/MFT time-dependent DeadMaps calibration",
             "number": 12785,
@@ -4406,6 +4291,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/GlobalMapping/src/global-mapper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: drop need for ms_gsl",
+            "number": 12884,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TMessageSerializer.h"
                   }
                 }
               ]
