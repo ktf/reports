@@ -69,5 +69,3 @@
 	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
-## Recent developments in O2 - Steer
-	- [\#12783](https://github.com/AliceO2Group/AliceO2/pull/12783) 2024-02-29: Set mFirstOrbitTF before updateTimeDependentParams by [@shahor02](https://github.com/shahor02)
