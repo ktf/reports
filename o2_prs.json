@@ -4451,13 +4451,28 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix case sensitiveness for CMAKE_BUILD_TYPE",
+            "title": "Follow conventions for CMAKE_BUILD_TYPE and MinSizeRel",
             "number": 12886,
             "author": {
               "login": "ktf"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/CMakeLists.txt"
+                  }
+                },
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
@@ -4476,6 +4491,11 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/CMakeLists.txt"
                   }
                 },
                 {
