@@ -49,6 +49,7 @@
 	- [\#12872](https://github.com/AliceO2Group/AliceO2/pull/12872) 2024-03-15: Fix Z bias of TRD-matched tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12875](https://github.com/AliceO2Group/AliceO2/pull/12875) 2024-03-18: Solve problems with magnetic field initialization in GPURecoWorkflowSpec and realted changes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
+	- [\#12882](https://github.com/AliceO2Group/AliceO2/pull/12882) 2024-03-19: [EMCAL-1112] CCDB object for EMCAL pedestal calibration by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 	- [\#12801](https://github.com/AliceO2Group/AliceO2/pull/12801) 2024-03-11: DPL CCDB: handle the Cache-Valid-Until header by [@ktf](https://github.com/ktf)
