@@ -12,13 +12,11 @@
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 	- [\#12825](https://github.com/AliceO2Group/AliceO2/pull/12825) 2024-03-07: GPU: Fix rotation in getXYZGlo by [@mconcas](https://github.com/mconcas)
 	- [\#12855](https://github.com/AliceO2Group/AliceO2/pull/12855) 2024-03-13: Some cleanup / minor fixes / fixing of compiler warnings by [@davidrohr](https://github.com/davidrohr)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12792](https://github.com/AliceO2Group/AliceO2/pull/12792) 2024-03-01: Discard afterburner tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12794](https://github.com/AliceO2Group/AliceO2/pull/12794) 2024-03-02: TPC: Fixing inverse for M-Shape distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
