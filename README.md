@@ -65,6 +65,7 @@
 	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
 	- [\#12862](https://github.com/AliceO2Group/AliceO2/pull/12862) 2024-03-14: moving Merge to public by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
+	- [\#12884](https://github.com/AliceO2Group/AliceO2/pull/12884) 2024-03-19: DPL: drop need for ms_gsl by [@ktf](https://github.com/ktf)
 	- [\#12885](https://github.com/AliceO2Group/AliceO2/pull/12885) 2024-03-18: Fix condition to recheck CCDB object by the DPL fetcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
