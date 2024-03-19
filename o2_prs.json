@@ -4451,7 +4451,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix case sensitiveness",
+            "title": "Fix case sensitiveness for CMAKE_BUILD_TYPE",
             "number": 12886,
             "author": {
               "login": "ktf"
@@ -4461,6 +4461,16 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 },
                 {
