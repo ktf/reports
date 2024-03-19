@@ -18,7 +18,6 @@
 	- [\#12855](https://github.com/AliceO2Group/AliceO2/pull/12855) 2024-03-13: Some cleanup / minor fixes / fixing of compiler warnings by [@davidrohr](https://github.com/davidrohr)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 	- [\#12789](https://github.com/AliceO2Group/AliceO2/pull/12789) 2024-03-01: Handling of wrong Alpide chip_on_module ID by [@shahor02](https://github.com/shahor02)
 	- [\#12790](https://github.com/AliceO2Group/AliceO2/pull/12790) 2024-03-01: ITS DCS Parser workflow: fixing defult url for rct object by [@atriolo](https://github.com/atriolo)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
