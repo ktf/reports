@@ -17,7 +17,6 @@
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12891](https://github.com/AliceO2Group/AliceO2/pull/12891) 2024-03-19: MCTrack: Calculate energy in double by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
