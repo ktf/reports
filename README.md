@@ -18,7 +18,6 @@
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12891](https://github.com/AliceO2Group/AliceO2/pull/12891) 2024-03-19: MCTrack: Calculate energy in double by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12792](https://github.com/AliceO2Group/AliceO2/pull/12792) 2024-03-01: Discard afterburner tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12794](https://github.com/AliceO2Group/AliceO2/pull/12794) 2024-03-02: TPC: Fixing inverse for M-Shape distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
@@ -49,6 +48,7 @@
 	- [\#12882](https://github.com/AliceO2Group/AliceO2/pull/12882) 2024-03-19: [EMCAL-1112] CCDB object for EMCAL pedestal calibration by [@mfasDa](https://github.com/mfasDa)
 	- [\#12883](https://github.com/AliceO2Group/AliceO2/pull/12883) 2024-03-19: [MCH] use DsIndex type for DS indices by [@pillot](https://github.com/pillot)
 	- [\#12886](https://github.com/AliceO2Group/AliceO2/pull/12886) 2024-03-20: Follow conventions for CMAKE_BUILD_TYPE by [@ktf](https://github.com/ktf)
+	- [\#12887](https://github.com/AliceO2Group/AliceO2/pull/12887) 2024-03-20: Fixes in GRP DCS processor by [@shahor02](https://github.com/shahor02)
 	- [\#12888](https://github.com/AliceO2Group/AliceO2/pull/12888) 2024-03-20: [EMCAL-582] Add support for pedestals in CalibDB by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 	- [\#12801](https://github.com/AliceO2Group/AliceO2/pull/12801) 2024-03-11: DPL CCDB: handle the Cache-Valid-Until header by [@ktf](https://github.com/ktf)
