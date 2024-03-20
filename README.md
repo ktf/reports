@@ -19,7 +19,6 @@
 	- [\#12891](https://github.com/AliceO2Group/AliceO2/pull/12891) 2024-03-19: MCTrack: Calculate energy in double by [@sawenzel](https://github.com/sawenzel)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 	- [\#12808](https://github.com/AliceO2Group/AliceO2/pull/12808) 2024-03-15: [EMCAL-565] Add check to mask entire SM/FEC if a certain fraction is masked by [@jokonig](https://github.com/jokonig)
