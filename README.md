@@ -4,7 +4,6 @@
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12796](https://github.com/AliceO2Group/AliceO2/pull/12796) 2024-03-10: DebugStreamer: remove suffix from tree name by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
@@ -18,7 +17,6 @@
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12891](https://github.com/AliceO2Group/AliceO2/pull/12891) 2024-03-19: MCTrack: Calculate energy in double by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12794](https://github.com/AliceO2Group/AliceO2/pull/12794) 2024-03-02: TPC: Fixing inverse for M-Shape distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
