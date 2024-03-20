@@ -41,6 +41,7 @@
 	- [\#12872](https://github.com/AliceO2Group/AliceO2/pull/12872) 2024-03-15: Fix Z bias of TRD-matched tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12875](https://github.com/AliceO2Group/AliceO2/pull/12875) 2024-03-18: Solve problems with magnetic field initialization in GPURecoWorkflowSpec and realted changes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
+	- [\#12881](https://github.com/AliceO2Group/AliceO2/pull/12881) 2024-03-20: ctpdev: checking input size instead of output size by [@lietava](https://github.com/lietava)
 	- [\#12882](https://github.com/AliceO2Group/AliceO2/pull/12882) 2024-03-19: [EMCAL-1112] CCDB object for EMCAL pedestal calibration by [@mfasDa](https://github.com/mfasDa)
 	- [\#12883](https://github.com/AliceO2Group/AliceO2/pull/12883) 2024-03-19: [MCH] use DsIndex type for DS indices by [@pillot](https://github.com/pillot)
 	- [\#12886](https://github.com/AliceO2Group/AliceO2/pull/12886) 2024-03-20: Follow conventions for CMAKE_BUILD_TYPE by [@ktf](https://github.com/ktf)
