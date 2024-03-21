@@ -46,6 +46,7 @@
 	- [\#12886](https://github.com/AliceO2Group/AliceO2/pull/12886) 2024-03-20: Follow conventions for CMAKE_BUILD_TYPE by [@ktf](https://github.com/ktf)
 	- [\#12887](https://github.com/AliceO2Group/AliceO2/pull/12887) 2024-03-20: Fixes in GRP DCS processor by [@shahor02](https://github.com/shahor02)
 	- [\#12888](https://github.com/AliceO2Group/AliceO2/pull/12888) 2024-03-20: [EMCAL-582] Add support for pedestals in CalibDB by [@mfasDa](https://github.com/mfasDa)
+	- [\#12901](https://github.com/AliceO2Group/AliceO2/pull/12901) 2024-03-21: Ctpdev by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 	- [\#12806](https://github.com/AliceO2Group/AliceO2/pull/12806) 2024-03-04: Add guards to DefaultsHelpers header by [@shahor02](https://github.com/shahor02)
 	- [\#12807](https://github.com/AliceO2Group/AliceO2/pull/12807) 2024-03-06: GPU: Compile with -ffast-math by [@davidrohr](https://github.com/davidrohr)
