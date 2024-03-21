@@ -18,7 +18,6 @@
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12808](https://github.com/AliceO2Group/AliceO2/pull/12808) 2024-03-15: [EMCAL-565] Add check to mask entire SM/FEC if a certain fraction is masked by [@jokonig](https://github.com/jokonig)
 	- [\#12809](https://github.com/AliceO2Group/AliceO2/pull/12809) 2024-03-05: Do not delete singleton instance of adopted ITS/MFT GeometryTGeo by [@shahor02](https://github.com/shahor02)
 	- [\#12819](https://github.com/AliceO2Group/AliceO2/pull/12819) 2024-03-06: TPC: Adding option to add time offset when writing pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
@@ -46,6 +45,7 @@
 	- [\#12887](https://github.com/AliceO2Group/AliceO2/pull/12887) 2024-03-20: Fixes in GRP DCS processor by [@shahor02](https://github.com/shahor02)
 	- [\#12888](https://github.com/AliceO2Group/AliceO2/pull/12888) 2024-03-20: [EMCAL-582] Add support for pedestals in CalibDB by [@mfasDa](https://github.com/mfasDa)
 	- [\#12901](https://github.com/AliceO2Group/AliceO2/pull/12901) 2024-03-21: Ctpdev by [@lietava](https://github.com/lietava)
+	- [\#12908](https://github.com/AliceO2Group/AliceO2/pull/12908) 2024-03-21: Fix condition to load full geom in SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12816](https://github.com/AliceO2Group/AliceO2/pull/12816) 2024-03-07: DPL Analysis: update slice index by [@aalkin](https://github.com/aalkin)
 	- [\#12817](https://github.com/AliceO2Group/AliceO2/pull/12817) 2024-03-06: DPL: improve processing of logs from devices by [@ktf](https://github.com/ktf)
