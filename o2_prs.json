@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-11T07:42:36Z",
-            "title": "DPL CCDB: handle the Cache-Valid-Until header",
-            "number": 12801,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-04T22:08:17Z",
             "title": "GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP]",
             "number": 12802,
@@ -4279,8 +4259,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-03-21T08:56:46Z",
             "title": "CMake: Release builds should not decrease the -O level below something requested externally via CXXFLAGS",
             "number": 12900,
             "author": {
@@ -4296,6 +4276,31 @@
                 {
                   "node": {
                     "path": "dependencies/O2CompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Ctpdev",
+            "number": 12901,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/ctp-ccdb-orbit.cxx"
                   }
                 }
               ]
