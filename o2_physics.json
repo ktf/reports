@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF:  Dstar hadron correlation",
-            "number": 5184,
-            "author": {
-              "login": "deependra170598"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDstarHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-03-15T16:34:25Z",
             "title": "pefK0sTask update",
@@ -2516,6 +2466,41 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/k892analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Incorporated the electrons and muons also to the PID QC",
+            "number": 5284,
+            "author": {
+              "login": "victor-gonzalez"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptdptfilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/dptdptcorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/efficiencyAndQc.cxx"
                   }
                 }
               ]
