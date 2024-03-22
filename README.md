@@ -1,9 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Analysis
-	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 	- [\#12895](https://github.com/AliceO2Group/AliceO2/pull/12895) 2024-03-20: GPU TPC: Fix formula and use box instead of exp error for C12 by [@davidrohr](https://github.com/davidrohr)
@@ -50,7 +47,6 @@
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 	- [\#12823](https://github.com/AliceO2Group/AliceO2/pull/12823) 2024-03-07: DPL Test: use some float numbers that don't require optimization-specific rounding by [@davidrohr](https://github.com/davidrohr)
 	- [\#12834](https://github.com/AliceO2Group/AliceO2/pull/12834) 2024-03-08: DPL: drop some more code from the main header by [@ktf](https://github.com/ktf)
 	- [\#12835](https://github.com/AliceO2Group/AliceO2/pull/12835) 2024-03-13: DPL: cleanup HistogramRegistry::fill function by [@ktf](https://github.com/ktf)
