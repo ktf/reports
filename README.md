@@ -51,7 +51,6 @@
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12817](https://github.com/AliceO2Group/AliceO2/pull/12817) 2024-03-06: DPL: improve processing of logs from devices by [@ktf](https://github.com/ktf)
 	- [\#12818](https://github.com/AliceO2Group/AliceO2/pull/12818) 2024-03-06: DPL TestWorkflows: add example for two synchronized timers by [@ktf](https://github.com/ktf)
 	- [\#12820](https://github.com/AliceO2Group/AliceO2/pull/12820) 2024-03-07: DPL: correctly propagate timers with the same description by [@ktf](https://github.com/ktf)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
