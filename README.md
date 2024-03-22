@@ -45,6 +45,7 @@
 	- [\#12907](https://github.com/AliceO2Group/AliceO2/pull/12907) 2024-03-21: Fix dbg output creation in the PVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12908](https://github.com/AliceO2Group/AliceO2/pull/12908) 2024-03-21: Fix condition to load full geom in SVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
+	- [\#12913](https://github.com/AliceO2Group/AliceO2/pull/12913) 2024-03-22: [MCH] add functionality and protections in mapping by [@pillot](https://github.com/pillot)
 	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
 	- [\#12921](https://github.com/AliceO2Group/AliceO2/pull/12921) 2024-03-22: Removing protection for 22c, d, fixed in O2-3684 by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
