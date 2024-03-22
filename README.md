@@ -44,6 +44,7 @@
 	- [\#12887](https://github.com/AliceO2Group/AliceO2/pull/12887) 2024-03-20: Fixes in GRP DCS processor by [@shahor02](https://github.com/shahor02)
 	- [\#12888](https://github.com/AliceO2Group/AliceO2/pull/12888) 2024-03-20: [EMCAL-582] Add support for pedestals in CalibDB by [@mfasDa](https://github.com/mfasDa)
 	- [\#12901](https://github.com/AliceO2Group/AliceO2/pull/12901) 2024-03-21: Ctpdev by [@lietava](https://github.com/lietava)
+	- [\#12904](https://github.com/AliceO2Group/AliceO2/pull/12904) 2024-03-22: Switch to turn off uncessary histos for async by [@lauraser](https://github.com/lauraser)
 	- [\#12907](https://github.com/AliceO2Group/AliceO2/pull/12907) 2024-03-21: Fix dbg output creation in the PVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12908](https://github.com/AliceO2Group/AliceO2/pull/12908) 2024-03-21: Fix condition to load full geom in SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
