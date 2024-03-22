@@ -19,7 +19,6 @@
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12819](https://github.com/AliceO2Group/AliceO2/pull/12819) 2024-03-06: TPC: Adding option to add time offset when writing pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
 	- [\#12828](https://github.com/AliceO2Group/AliceO2/pull/12828) 2024-03-12: ITSMFT DeadMapBuilder ccdb upload when EoS not processed by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12830](https://github.com/AliceO2Group/AliceO2/pull/12830) 2024-03-08: ctpdev: raw decoder output size protection  by [@lietava](https://github.com/lietava)
@@ -51,7 +50,6 @@
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12820](https://github.com/AliceO2Group/AliceO2/pull/12820) 2024-03-07: DPL: correctly propagate timers with the same description by [@ktf](https://github.com/ktf)
 	- [\#12821](https://github.com/AliceO2Group/AliceO2/pull/12821) 2024-03-07: DPL Analysis: consteval compile_time_hash by [@aalkin](https://github.com/aalkin)
 	- [\#12823](https://github.com/AliceO2Group/AliceO2/pull/12823) 2024-03-07: DPL Test: use some float numbers that don't require optimization-specific rounding by [@davidrohr](https://github.com/davidrohr)
 	- [\#12834](https://github.com/AliceO2Group/AliceO2/pull/12834) 2024-03-08: DPL: drop some more code from the main header by [@ktf](https://github.com/ktf)
