@@ -16,7 +16,6 @@
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12824](https://github.com/AliceO2Group/AliceO2/pull/12824) 2024-03-07: ITS: Fix GPU standalone compilation by [@davidrohr](https://github.com/davidrohr)
 	- [\#12828](https://github.com/AliceO2Group/AliceO2/pull/12828) 2024-03-12: ITSMFT DeadMapBuilder ccdb upload when EoS not processed by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12830](https://github.com/AliceO2Group/AliceO2/pull/12830) 2024-03-08: ctpdev: raw decoder output size protection  by [@lietava](https://github.com/lietava)
 	- [\#12833](https://github.com/AliceO2Group/AliceO2/pull/12833) 2024-03-08: Calculate L1phase when statistics reached value by [@peressounko](https://github.com/peressounko)
