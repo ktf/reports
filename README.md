@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
@@ -53,6 +55,7 @@
 	- [\#12835](https://github.com/AliceO2Group/AliceO2/pull/12835) 2024-03-13: DPL: cleanup HistogramRegistry::fill function by [@ktf](https://github.com/ktf)
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
+	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 	- [\#12862](https://github.com/AliceO2Group/AliceO2/pull/12862) 2024-03-14: moving Merge to public by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
 	- [\#12873](https://github.com/AliceO2Group/AliceO2/pull/12873) 2024-03-19: DPL: escape arguments with '&' character in CommandInfo by [@knopers8](https://github.com/knopers8)
