@@ -4236,7 +4236,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL GUI: fix issues with backspace",
+            "title": "DPL GUI: fix issues with special keys (e.g. Backspace)",
             "number": 12930,
             "author": {
               "login": "ktf"
@@ -4245,7 +4245,27 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Framework/Core/include/Framework/DebugGUI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLWebSocket.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/Plugin.cxx"
                   }
                 }
               ]
