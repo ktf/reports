@@ -33,6 +33,7 @@
 	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
 	- [\#12865](https://github.com/AliceO2Group/AliceO2/pull/12865) 2024-03-17: code to refit tracks with different correction maps e.g. by [@wiechula](https://github.com/wiechula)
 	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
+	- [\#12871](https://github.com/AliceO2Group/AliceO2/pull/12871) 2024-03-25: GLOQC: Reduce memory footprint by [@f3sch](https://github.com/f3sch)
 	- [\#12872](https://github.com/AliceO2Group/AliceO2/pull/12872) 2024-03-15: Fix Z bias of TRD-matched tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12875](https://github.com/AliceO2Group/AliceO2/pull/12875) 2024-03-18: Solve problems with magnetic field initialization in GPURecoWorkflowSpec and realted changes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)

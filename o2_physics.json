@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Macros for data preparation and ML training",
-            "number": 5248,
-            "author": {
-              "login": "AlexBigO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/PrepareSamples.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/config_preparation_DplusToPiKPi.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/config_training_DplusToPiKPi.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/train_d2h.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-03-19T19:54:05Z",
-            "title": "new FT0 Async QC task was added",
-            "number": 5249,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/FT0/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/FT0/qaFT0TrgBased.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-03-19T19:48:52Z",
             "title": "[PWGDQ] Optimizing histograms for flow analysis",
@@ -2224,7 +2159,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "PWGLF: declarative eta window for speed in MC finding",
             "number": 5334,
@@ -2556,6 +2491,196 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/antidLambdaEbye.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix some compilation warnings (and never have them again)",
+            "number": 5348,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGJE/fullJetFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGJE/jetFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/IdentifiedMeanPtFluctuations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/RobustFluctuationObservables.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/BootstrapProfile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-MemberFunctions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/MCtemplates.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosNbar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcEfficiencyToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/LFResonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/LFStrangeTreeCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/epvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hyhe4builder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lithium4analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/threebodyRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/f0980analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1520analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/LumiFDDFT0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/TableProducer/trackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/vertexing-fwd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "VtxZ precision vs T0M mult, nContrib vs bc",
+            "number": 5349,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
                   }
                 }
               ]
