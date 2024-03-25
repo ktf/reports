@@ -20,7 +20,6 @@
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-	- [\#12828](https://github.com/AliceO2Group/AliceO2/pull/12828) 2024-03-12: ITSMFT DeadMapBuilder ccdb upload when EoS not processed by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12830](https://github.com/AliceO2Group/AliceO2/pull/12830) 2024-03-08: ctpdev: raw decoder output size protection  by [@lietava](https://github.com/lietava)
 	- [\#12833](https://github.com/AliceO2Group/AliceO2/pull/12833) 2024-03-08: Calculate L1phase when statistics reached value by [@peressounko](https://github.com/peressounko)
 	- [\#12838](https://github.com/AliceO2Group/AliceO2/pull/12838) 2024-03-08: Make o2-tpc-file-reader to use the HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
