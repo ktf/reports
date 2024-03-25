@@ -72,6 +72,7 @@
 	- [\#12893](https://github.com/AliceO2Group/AliceO2/pull/12893) 2024-03-21: DPL: enable environment variables for signposts by [@ktf](https://github.com/ktf)
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
 	- [\#12926](https://github.com/AliceO2Group/AliceO2/pull/12926) 2024-03-25: DPL: add reproducer for dropped consecutive timeframes issue by [@ktf](https://github.com/ktf)
+	- [\#12930](https://github.com/AliceO2Group/AliceO2/pull/12930) 2024-03-25: DPL GUI: fix keyboard support in remote GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
