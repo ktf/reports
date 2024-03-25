@@ -18,6 +18,7 @@
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
+	- [\#12923](https://github.com/AliceO2Group/AliceO2/pull/12923) 2024-03-25: [O2-4791] ITS-squasher: fix undefined behaviour + fix incomplete squashing by [@mconcas](https://github.com/mconcas)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 	- [\#12833](https://github.com/AliceO2Group/AliceO2/pull/12833) 2024-03-08: Calculate L1phase when statistics reached value by [@peressounko](https://github.com/peressounko)
@@ -51,6 +52,7 @@
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
 	- [\#12921](https://github.com/AliceO2Group/AliceO2/pull/12921) 2024-03-22: Removing protection for 22c, d, fixed in O2-3684 by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12922](https://github.com/AliceO2Group/AliceO2/pull/12922) 2024-03-25: Impose def. TOffset 7.3TB on laser calib, use actual value for VDriftTgl by [@shahor02](https://github.com/shahor02)
+	- [\#12923](https://github.com/AliceO2Group/AliceO2/pull/12923) 2024-03-25: [O2-4791] ITS-squasher: fix undefined behaviour + fix incomplete squashing by [@mconcas](https://github.com/mconcas)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 	- [\#12834](https://github.com/AliceO2Group/AliceO2/pull/12834) 2024-03-08: DPL: drop some more code from the main header by [@ktf](https://github.com/ktf)
