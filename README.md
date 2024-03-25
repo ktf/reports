@@ -55,6 +55,7 @@
 	- [\#12921](https://github.com/AliceO2Group/AliceO2/pull/12921) 2024-03-22: Removing protection for 22c, d, fixed in O2-3684 by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12922](https://github.com/AliceO2Group/AliceO2/pull/12922) 2024-03-25: Impose def. TOffset 7.3TB on laser calib, use actual value for VDriftTgl by [@shahor02](https://github.com/shahor02)
 	- [\#12923](https://github.com/AliceO2Group/AliceO2/pull/12923) 2024-03-25: [O2-4791] ITS-squasher: fix undefined behaviour + fix incomplete squashing by [@mconcas](https://github.com/mconcas)
+	- [\#12924](https://github.com/AliceO2Group/AliceO2/pull/12924) 2024-03-25: Workflow to update RCT with ts of 1st/last TFs seen by [@shahor02](https://github.com/shahor02)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
