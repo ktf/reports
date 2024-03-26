@@ -74,6 +74,7 @@
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 	- [\#12926](https://github.com/AliceO2Group/AliceO2/pull/12926) 2024-03-25: DPL: add reproducer for dropped consecutive timeframes issue by [@ktf](https://github.com/ktf)
+	- [\#12929](https://github.com/AliceO2Group/AliceO2/pull/12929) 2024-03-26: DPL: use requires rather than call_if_defined by [@ktf](https://github.com/ktf)
 	- [\#12930](https://github.com/AliceO2Group/AliceO2/pull/12930) 2024-03-25: DPL GUI: fix keyboard support in remote GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
