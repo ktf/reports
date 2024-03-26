@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-08T21:21:37Z",
-            "title": "[EMCAL-795]: Add protection for TRUs when cheking HW address",
-            "number": 12839,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-10T07:09:04Z",
             "title": "DPL: fix leak in rate limiting",
             "number": 12840,
@@ -4341,6 +4321,26 @@
                 {
                   "node": {
                     "path": "Common/MathUtils/include/MathUtils/detail/StatAccumulator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Delay \"Maximum number of TF in flight reached\" alarm by 15 seconds in online mode",
+            "number": 12939,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/RateLimiter.cxx"
                   }
                 }
               ]

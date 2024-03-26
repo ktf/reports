@@ -25,7 +25,6 @@
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
-	- [\#12839](https://github.com/AliceO2Group/AliceO2/pull/12839) 2024-03-08: [EMCAL-795]: Add protection for TRUs when cheking HW address by [@jokonig](https://github.com/jokonig)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 	- [\#12844](https://github.com/AliceO2Group/AliceO2/pull/12844) 2024-03-18: Fix merging of FT0 time offset container by [@martenole](https://github.com/martenole)
 	- [\#12846](https://github.com/AliceO2Group/AliceO2/pull/12846) 2024-03-18: Disable using dedx in the SVertexer until improvement of response in MC by [@shahor02](https://github.com/shahor02)
