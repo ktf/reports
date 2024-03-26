@@ -4,7 +4,6 @@
 	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 	- [\#12895](https://github.com/AliceO2Group/AliceO2/pull/12895) 2024-03-20: GPU TPC: Fix formula and use box instead of exp error for C12 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
@@ -64,7 +63,6 @@
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
-	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
 	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 	- [\#12862](https://github.com/AliceO2Group/AliceO2/pull/12862) 2024-03-14: moving Merge to public by [@jgrosseo](https://github.com/jgrosseo)
