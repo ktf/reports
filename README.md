@@ -23,6 +23,7 @@
 	- [\#12923](https://github.com/AliceO2Group/AliceO2/pull/12923) 2024-03-25: [O2-4791] ITS-squasher: fix undefined behaviour + fix incomplete squashing by [@mconcas](https://github.com/mconcas)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
+	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
 	- [\#12839](https://github.com/AliceO2Group/AliceO2/pull/12839) 2024-03-08: [EMCAL-795]: Add protection for TRUs when cheking HW address by [@jokonig](https://github.com/jokonig)
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
@@ -61,6 +62,7 @@
 	- [\#12924](https://github.com/AliceO2Group/AliceO2/pull/12924) 2024-03-25: Workflow to update RCT with ts of 1st/last TFs seen by [@shahor02](https://github.com/shahor02)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
+	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
