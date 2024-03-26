@@ -50,6 +50,7 @@
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12913](https://github.com/AliceO2Group/AliceO2/pull/12913) 2024-03-22: [MCH] add functionality and protections in mapping by [@pillot](https://github.com/pillot)
 	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
+	- [\#12917](https://github.com/AliceO2Group/AliceO2/pull/12917) 2024-03-26: GPU: Make external o2::Propagator on GPU also available for HIP and use it in ITS tracking, + some related improvements by [@davidrohr](https://github.com/davidrohr)
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
 	- [\#12921](https://github.com/AliceO2Group/AliceO2/pull/12921) 2024-03-22: Removing protection for 22c, d, fixed in O2-3684 by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12922](https://github.com/AliceO2Group/AliceO2/pull/12922) 2024-03-25: Impose def. TOffset 7.3TB on laser calib, use actual value for VDriftTgl by [@shahor02](https://github.com/shahor02)
