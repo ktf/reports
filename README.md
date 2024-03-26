@@ -62,7 +62,6 @@
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
-	- [\#12835](https://github.com/AliceO2Group/AliceO2/pull/12835) 2024-03-13: DPL: cleanup HistogramRegistry::fill function by [@ktf](https://github.com/ktf)
 	- [\#12840](https://github.com/AliceO2Group/AliceO2/pull/12840) 2024-03-10: DPL: fix leak in rate limiting by [@ktf](https://github.com/ktf)
 	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
 	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
