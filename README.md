@@ -63,7 +63,6 @@
 	- [\#12936](https://github.com/AliceO2Group/AliceO2/pull/12936) 2024-03-26: Alice 3: Make ECal endcap optional by [@mconcas](https://github.com/mconcas)
 	- [\#12941](https://github.com/AliceO2Group/AliceO2/pull/12941) 2024-03-27: Fix bug in MIP dE/dx vs sector plot by [@lauraser](https://github.com/lauraser)
 ## Recent developments in O2 - Framework
-	- [\#12847](https://github.com/AliceO2Group/AliceO2/pull/12847) 2024-03-12: DPL Analysis: update iterator comparisons to comply with c++20 by [@aalkin](https://github.com/aalkin)
 	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 	- [\#12862](https://github.com/AliceO2Group/AliceO2/pull/12862) 2024-03-14: moving Merge to public by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
