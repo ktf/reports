@@ -5,7 +5,6 @@
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 	- [\#12895](https://github.com/AliceO2Group/AliceO2/pull/12895) 2024-03-20: GPU TPC: Fix formula and use box instead of exp error for C12 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
@@ -25,8 +24,6 @@
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
-	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
-	- [\#12844](https://github.com/AliceO2Group/AliceO2/pull/12844) 2024-03-18: Fix merging of FT0 time offset container by [@martenole](https://github.com/martenole)
 	- [\#12846](https://github.com/AliceO2Group/AliceO2/pull/12846) 2024-03-18: Disable using dedx in the SVertexer until improvement of response in MC by [@shahor02](https://github.com/shahor02)
 	- [\#12848](https://github.com/AliceO2Group/AliceO2/pull/12848) 2024-03-18: [EMCAL-565, EMCAL-566]: Differentiate between run type and max time d… by [@jokonig](https://github.com/jokonig)
 	- [\#12851](https://github.com/AliceO2Group/AliceO2/pull/12851) 2024-03-13: GPU CMake: Don't create hipified source files in source tree but in CMake files folder by [@davidrohr](https://github.com/davidrohr)
