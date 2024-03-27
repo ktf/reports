@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
+	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12843](https://github.com/AliceO2Group/AliceO2/pull/12843) 2024-03-13: Port all TPC Cluster Error changes from dev to stable-async + other needed commits by [@davidrohr](https://github.com/davidrohr)
 	- [\#12895](https://github.com/AliceO2Group/AliceO2/pull/12895) 2024-03-20: GPU TPC: Fix formula and use box instead of exp error for C12 by [@davidrohr](https://github.com/davidrohr)
@@ -79,6 +80,7 @@
 	- [\#12929](https://github.com/AliceO2Group/AliceO2/pull/12929) 2024-03-26: DPL: use requires rather than call_if_defined by [@ktf](https://github.com/ktf)
 	- [\#12930](https://github.com/AliceO2Group/AliceO2/pull/12930) 2024-03-25: DPL GUI: fix keyboard support in remote GUI by [@ktf](https://github.com/ktf)
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
+	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
