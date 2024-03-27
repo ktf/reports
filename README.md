@@ -25,7 +25,6 @@
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
-	- [\#12848](https://github.com/AliceO2Group/AliceO2/pull/12848) 2024-03-18: [EMCAL-565, EMCAL-566]: Differentiate between run type and max time d… by [@jokonig](https://github.com/jokonig)
 	- [\#12851](https://github.com/AliceO2Group/AliceO2/pull/12851) 2024-03-13: GPU CMake: Don't create hipified source files in source tree but in CMake files folder by [@davidrohr](https://github.com/davidrohr)
 	- [\#12852](https://github.com/AliceO2Group/AliceO2/pull/12852) 2024-03-13: ALICE 3: Add ECal endcap and fix TRK services by [@mconcas](https://github.com/mconcas)
 	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
