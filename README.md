@@ -79,7 +79,6 @@
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
-	- [\#12845](https://github.com/AliceO2Group/AliceO2/pull/12845) 2024-03-13: Update GeneratorPythia8.cxx for Pythia 8.310+ by [@cholmcc](https://github.com/cholmcc)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
