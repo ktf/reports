@@ -63,6 +63,7 @@
 	- [\#12936](https://github.com/AliceO2Group/AliceO2/pull/12936) 2024-03-26: Alice 3: Make ECal endcap optional by [@mconcas](https://github.com/mconcas)
 	- [\#12941](https://github.com/AliceO2Group/AliceO2/pull/12941) 2024-03-27: Fix bug in MIP dE/dx vs sector plot by [@lauraser](https://github.com/lauraser)
 	- [\#12944](https://github.com/AliceO2Group/AliceO2/pull/12944) 2024-03-28: [EMCAL-1115] Fix container size for LEDMONs by [@mfasDa](https://github.com/mfasDa)
+	- [\#12948](https://github.com/AliceO2Group/AliceO2/pull/12948) 2024-03-28: ITS GPU: INVALID_TRIGGER_ERROR_NO_HOST_CODE should not be defined away but GPUg() should only be used in GPUCode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#12853](https://github.com/AliceO2Group/AliceO2/pull/12853) 2024-03-24: DPL Analysis: remove string-based schema matching by [@aalkin](https://github.com/aalkin)
 	- [\#12862](https://github.com/AliceO2Group/AliceO2/pull/12862) 2024-03-14: moving Merge to public by [@jgrosseo](https://github.com/jgrosseo)
@@ -79,6 +80,7 @@
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
 	- [\#12939](https://github.com/AliceO2Group/AliceO2/pull/12939) 2024-03-27: DPL: Delay "Maximum number of TF in flight reached" alarm by 15 seconds in online mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
+	- [\#12946](https://github.com/AliceO2Group/AliceO2/pull/12946) 2024-03-28: DPL Rate Limiter: Fix typo by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
