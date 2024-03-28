@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-13T23:38:02Z",
-            "title": "GPU CMake: Don't create hipified source files in source tree but in CMake files folder",
-            "number": 12851,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/hip/.gitignore"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUbenchmark/hip/.gitignore"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddHipifiedExecutable.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddHipifiedLibrary.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-13T07:06:05Z",
             "title": "ALICE 3: Add ECal endcap and fix TRK services",
             "number": 12852,
@@ -4196,6 +4156,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add none option for its tracking",
+            "number": 12951,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/its-reco-workflow.cxx"
                   }
                 }
               ]
