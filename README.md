@@ -5,6 +5,7 @@
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
+	- [\#12859](https://github.com/AliceO2Group/AliceO2/pull/12859) 2024-03-28: Its-gpu to use o2::Propagator in tracking by [@mconcas](https://github.com/mconcas)
 	- [\#12895](https://github.com/AliceO2Group/AliceO2/pull/12895) 2024-03-20: GPU TPC: Fix formula and use box instead of exp error for C12 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
@@ -13,6 +14,7 @@
 	- [\#12943](https://github.com/AliceO2Group/AliceO2/pull/12943) 2024-03-27: GPU: CMake improvements towards porting all CUDA features to HIP and some related cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12855](https://github.com/AliceO2Group/AliceO2/pull/12855) 2024-03-13: Some cleanup / minor fixes / fixing of compiler warnings by [@davidrohr](https://github.com/davidrohr)
+	- [\#12859](https://github.com/AliceO2Group/AliceO2/pull/12859) 2024-03-28: Its-gpu to use o2::Propagator in tracking by [@mconcas](https://github.com/mconcas)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12891](https://github.com/AliceO2Group/AliceO2/pull/12891) 2024-03-19: MCTrack: Calculate energy in double by [@sawenzel](https://github.com/sawenzel)
 	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
@@ -28,6 +30,7 @@
 	- [\#12851](https://github.com/AliceO2Group/AliceO2/pull/12851) 2024-03-13: GPU CMake: Don't create hipified source files in source tree but in CMake files folder by [@davidrohr](https://github.com/davidrohr)
 	- [\#12852](https://github.com/AliceO2Group/AliceO2/pull/12852) 2024-03-13: ALICE 3: Add ECal endcap and fix TRK services by [@mconcas](https://github.com/mconcas)
 	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
+	- [\#12859](https://github.com/AliceO2Group/AliceO2/pull/12859) 2024-03-28: Its-gpu to use o2::Propagator in tracking by [@mconcas](https://github.com/mconcas)
 	- [\#12865](https://github.com/AliceO2Group/AliceO2/pull/12865) 2024-03-17: code to refit tracks with different correction maps e.g. by [@wiechula](https://github.com/wiechula)
 	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
 	- [\#12871](https://github.com/AliceO2Group/AliceO2/pull/12871) 2024-03-25: GLOQC: Reduce memory footprint by [@f3sch](https://github.com/f3sch)
