@@ -67,7 +67,6 @@
 	- [\#12957](https://github.com/AliceO2Group/AliceO2/pull/12957) 2024-03-29: GPU: Make HIP RTC fully work + some other fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 	- [\#12961](https://github.com/AliceO2Group/AliceO2/pull/12961) 2024-03-29: ctpdev : fatal changed to error by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
-	- [\#12862](https://github.com/AliceO2Group/AliceO2/pull/12862) 2024-03-14: moving Merge to public by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
 	- [\#12873](https://github.com/AliceO2Group/AliceO2/pull/12873) 2024-03-19: DPL: escape arguments with '&' character in CommandInfo by [@knopers8](https://github.com/knopers8)
 	- [\#12884](https://github.com/AliceO2Group/AliceO2/pull/12884) 2024-03-19: DPL: drop need for ms_gsl by [@ktf](https://github.com/ktf)
