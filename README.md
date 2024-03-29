@@ -24,6 +24,7 @@
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
+	- [\#12960](https://github.com/AliceO2Group/AliceO2/pull/12960) 2024-03-29: GPU: Several minor fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 	- [\#12865](https://github.com/AliceO2Group/AliceO2/pull/12865) 2024-03-17: code to refit tracks with different correction maps e.g. by [@wiechula](https://github.com/wiechula)
 	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
