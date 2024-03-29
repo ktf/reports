@@ -27,7 +27,6 @@
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
-	- [\#12858](https://github.com/AliceO2Group/AliceO2/pull/12858) 2024-03-13: ALICE 3: Homologate colors with previous schema by [@mconcas](https://github.com/mconcas)
 	- [\#12859](https://github.com/AliceO2Group/AliceO2/pull/12859) 2024-03-28: Its-gpu to use o2::Propagator in tracking by [@mconcas](https://github.com/mconcas)
 	- [\#12865](https://github.com/AliceO2Group/AliceO2/pull/12865) 2024-03-17: code to refit tracks with different correction maps e.g. by [@wiechula](https://github.com/wiechula)
 	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
