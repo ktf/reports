@@ -14,6 +14,7 @@
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
+	- [\#12889](https://github.com/AliceO2Group/AliceO2/pull/12889) 2024-04-01: ITS efficiency maps protection for digitization out of range by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12891](https://github.com/AliceO2Group/AliceO2/pull/12891) 2024-03-19: MCTrack: Calculate energy in double by [@sawenzel](https://github.com/sawenzel)
 	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
@@ -37,6 +38,7 @@
 	- [\#12886](https://github.com/AliceO2Group/AliceO2/pull/12886) 2024-03-20: Follow conventions for CMAKE_BUILD_TYPE by [@ktf](https://github.com/ktf)
 	- [\#12887](https://github.com/AliceO2Group/AliceO2/pull/12887) 2024-03-20: Fixes in GRP DCS processor by [@shahor02](https://github.com/shahor02)
 	- [\#12888](https://github.com/AliceO2Group/AliceO2/pull/12888) 2024-03-20: [EMCAL-582] Add support for pedestals in CalibDB by [@mfasDa](https://github.com/mfasDa)
+	- [\#12889](https://github.com/AliceO2Group/AliceO2/pull/12889) 2024-04-01: ITS efficiency maps protection for digitization out of range by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12901](https://github.com/AliceO2Group/AliceO2/pull/12901) 2024-03-21: Ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12903](https://github.com/AliceO2Group/AliceO2/pull/12903) 2024-03-27: [EMCAL-1115] Processing workflow for EMCAL pedestal run by [@mfasDa](https://github.com/mfasDa)
 	- [\#12904](https://github.com/AliceO2Group/AliceO2/pull/12904) 2024-03-22: Switch to turn off uncessary histos for async by [@lauraser](https://github.com/lauraser)
