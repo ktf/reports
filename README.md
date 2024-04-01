@@ -68,8 +68,8 @@
 	- [\#12961](https://github.com/AliceO2Group/AliceO2/pull/12961) 2024-03-29: ctpdev : fatal changed to error by [@lietava](https://github.com/lietava)
 	- [\#12963](https://github.com/AliceO2Group/AliceO2/pull/12963) 2024-04-01: onnxruntime upstream uses onnxruntime::onnxruntime: Adhere to that and remain compatible with our custom onnxruntime build by [@davidrohr](https://github.com/davidrohr)
 	- [\#12966](https://github.com/AliceO2Group/AliceO2/pull/12966) 2024-04-01: GPU: More fixes for the HIP CMake code and for GCC13 by [@davidrohr](https://github.com/davidrohr)
+	- [\#12968](https://github.com/AliceO2Group/AliceO2/pull/12968) 2024-04-01: Fix in the RCT updater deployment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
 	- [\#12873](https://github.com/AliceO2Group/AliceO2/pull/12873) 2024-03-19: DPL: escape arguments with '&' character in CommandInfo by [@knopers8](https://github.com/knopers8)
 	- [\#12884](https://github.com/AliceO2Group/AliceO2/pull/12884) 2024-03-19: DPL: drop need for ms_gsl by [@ktf](https://github.com/ktf)
 	- [\#12885](https://github.com/AliceO2Group/AliceO2/pull/12885) 2024-03-18: Fix condition to recheck CCDB object by the DPL fetcher by [@shahor02](https://github.com/shahor02)
