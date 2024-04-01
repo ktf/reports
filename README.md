@@ -60,6 +60,7 @@
 	- [\#12936](https://github.com/AliceO2Group/AliceO2/pull/12936) 2024-03-26: Alice 3: Make ECal endcap optional by [@mconcas](https://github.com/mconcas)
 	- [\#12941](https://github.com/AliceO2Group/AliceO2/pull/12941) 2024-03-27: Fix bug in MIP dE/dx vs sector plot by [@lauraser](https://github.com/lauraser)
 	- [\#12944](https://github.com/AliceO2Group/AliceO2/pull/12944) 2024-03-28: [EMCAL-1115] Fix container size for LEDMONs by [@mfasDa](https://github.com/mfasDa)
+	- [\#12945](https://github.com/AliceO2Group/AliceO2/pull/12945) 2024-04-01: [MCH] new functionalities to fill the status map by [@pillot](https://github.com/pillot)
 	- [\#12948](https://github.com/AliceO2Group/AliceO2/pull/12948) 2024-03-28: ITS GPU: INVALID_TRIGGER_ERROR_NO_HOST_CODE should not be defined away but GPUg() should only be used in GPUCode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12953](https://github.com/AliceO2Group/AliceO2/pull/12953) 2024-03-29: [EMCAL-741] Fix number of LEDMON channels in pedestal extraction by [@mfasDa](https://github.com/mfasDa)
 	- [\#12955](https://github.com/AliceO2Group/AliceO2/pull/12955) 2024-03-28: ITS GPU: Remove hip_runtime.h include from headers, include cuda/hip runtime in source files by [@davidrohr](https://github.com/davidrohr)
