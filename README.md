@@ -65,6 +65,7 @@
 	- [\#12955](https://github.com/AliceO2Group/AliceO2/pull/12955) 2024-03-28: ITS GPU: Remove hip_runtime.h include from headers, include cuda/hip runtime in source files by [@davidrohr](https://github.com/davidrohr)
 	- [\#12957](https://github.com/AliceO2Group/AliceO2/pull/12957) 2024-03-29: GPU: Make HIP RTC fully work + some other fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 	- [\#12961](https://github.com/AliceO2Group/AliceO2/pull/12961) 2024-03-29: ctpdev : fatal changed to error by [@lietava](https://github.com/lietava)
+	- [\#12966](https://github.com/AliceO2Group/AliceO2/pull/12966) 2024-04-01: GPU: More fixes for the HIP CMake code and for GCC13 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#12868](https://github.com/AliceO2Group/AliceO2/pull/12868) 2024-03-15: [FEAT] DPL: use Signposts everywhere in DataProcessingDevice by [@ktf](https://github.com/ktf)
 	- [\#12873](https://github.com/AliceO2Group/AliceO2/pull/12873) 2024-03-19: DPL: escape arguments with '&' character in CommandInfo by [@knopers8](https://github.com/knopers8)
