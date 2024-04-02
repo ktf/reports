@@ -27,7 +27,6 @@
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12960](https://github.com/AliceO2Group/AliceO2/pull/12960) 2024-03-29: GPU: Several minor fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12870](https://github.com/AliceO2Group/AliceO2/pull/12870) 2024-03-17: Do not use std::MATH code in GPU code but o2::gpu::CAMath by [@davidrohr](https://github.com/davidrohr)
 	- [\#12871](https://github.com/AliceO2Group/AliceO2/pull/12871) 2024-03-25: GLOQC: Reduce memory footprint by [@f3sch](https://github.com/f3sch)
 	- [\#12872](https://github.com/AliceO2Group/AliceO2/pull/12872) 2024-03-15: Fix Z bias of TRD-matched tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12875](https://github.com/AliceO2Group/AliceO2/pull/12875) 2024-03-18: Solve problems with magnetic field initialization in GPURecoWorkflowSpec and realted changes by [@davidrohr](https://github.com/davidrohr)
