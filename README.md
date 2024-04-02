@@ -70,6 +70,7 @@
 	- [\#12959](https://github.com/AliceO2Group/AliceO2/pull/12959) 2024-04-02: [EMCAL-752] Fix number of LEDMON channel in Pedestal object by [@jokonig](https://github.com/jokonig)
 	- [\#12961](https://github.com/AliceO2Group/AliceO2/pull/12961) 2024-03-29: ctpdev : fatal changed to error by [@lietava](https://github.com/lietava)
 	- [\#12963](https://github.com/AliceO2Group/AliceO2/pull/12963) 2024-04-01: onnxruntime upstream uses onnxruntime::onnxruntime: Adhere to that and remain compatible with our custom onnxruntime build by [@davidrohr](https://github.com/davidrohr)
+	- [\#12964](https://github.com/AliceO2Group/AliceO2/pull/12964) 2024-04-02: Some fixes for onnxruntime in TRD, but disabling it since still broken and untested by [@davidrohr](https://github.com/davidrohr)
 	- [\#12966](https://github.com/AliceO2Group/AliceO2/pull/12966) 2024-04-01: GPU: More fixes for the HIP CMake code and for GCC13 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12968](https://github.com/AliceO2Group/AliceO2/pull/12968) 2024-04-01: Fix in the RCT updater deployment by [@shahor02](https://github.com/shahor02)
 	- [\#12969](https://github.com/AliceO2Group/AliceO2/pull/12969) 2024-04-02: Mute stray debug log in o2-raw-tf-reader by [@shahor02](https://github.com/shahor02)
