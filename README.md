@@ -28,7 +28,6 @@
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12960](https://github.com/AliceO2Group/AliceO2/pull/12960) 2024-03-29: GPU: Several minor fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12875](https://github.com/AliceO2Group/AliceO2/pull/12875) 2024-03-18: Solve problems with magnetic field initialization in GPURecoWorkflowSpec and realted changes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12876](https://github.com/AliceO2Group/AliceO2/pull/12876) 2024-03-19: [FIT] Add documentation by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12881](https://github.com/AliceO2Group/AliceO2/pull/12881) 2024-03-20: ctpdev: checking input size instead of output size by [@lietava](https://github.com/lietava)
 	- [\#12882](https://github.com/AliceO2Group/AliceO2/pull/12882) 2024-03-19: [EMCAL-1112] CCDB object for EMCAL pedestal calibration by [@mfasDa](https://github.com/mfasDa)
