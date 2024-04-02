@@ -72,7 +72,6 @@
 	- [\#12968](https://github.com/AliceO2Group/AliceO2/pull/12968) 2024-04-01: Fix in the RCT updater deployment by [@shahor02](https://github.com/shahor02)
 	- [\#12969](https://github.com/AliceO2Group/AliceO2/pull/12969) 2024-04-02: Mute stray debug log in o2-raw-tf-reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12873](https://github.com/AliceO2Group/AliceO2/pull/12873) 2024-03-19: DPL: escape arguments with '&' character in CommandInfo by [@knopers8](https://github.com/knopers8)
 	- [\#12884](https://github.com/AliceO2Group/AliceO2/pull/12884) 2024-03-19: DPL: drop need for ms_gsl by [@ktf](https://github.com/ktf)
 	- [\#12885](https://github.com/AliceO2Group/AliceO2/pull/12885) 2024-03-18: Fix condition to recheck CCDB object by the DPL fetcher by [@shahor02](https://github.com/shahor02)
 	- [\#12893](https://github.com/AliceO2Group/AliceO2/pull/12893) 2024-03-21: DPL: enable environment variables for signposts by [@ktf](https://github.com/ktf)

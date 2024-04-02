@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-19T07:51:02Z",
-            "title": "DPL: escape arguments with '&' character in CommandInfo",
-            "number": 12873,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommandInfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-18T08:49:16Z",
             "title": "GPU: Some internal optimizations",
             "number": 12874,
@@ -3797,6 +3777,11 @@
                   "node": {
                     "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "macro/runTPCRefit.C"
+                  }
                 }
               ]
             }
@@ -3951,6 +3936,26 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix AliRoot build without GPU",
+            "number": 12973,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
                   }
                 }
               ]
