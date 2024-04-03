@@ -12,6 +12,7 @@
 	- [\#12938](https://github.com/AliceO2Group/AliceO2/pull/12938) 2024-03-26: Add number of entries in operator+= by [@mfasDa](https://github.com/mfasDa)
 	- [\#12943](https://github.com/AliceO2Group/AliceO2/pull/12943) 2024-03-27: GPU: CMake improvements towards porting all CUDA features to HIP and some related cleanup by [@davidrohr](https://github.com/davidrohr)
 	- [\#12947](https://github.com/AliceO2Group/AliceO2/pull/12947) 2024-03-28: DPL: replace LOG with Signposts by [@ktf](https://github.com/ktf)
+	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12889](https://github.com/AliceO2Group/AliceO2/pull/12889) 2024-04-01: ITS efficiency maps protection for digitization out of range by [@nicolovalle](https://github.com/nicolovalle)
@@ -26,6 +27,7 @@
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12960](https://github.com/AliceO2Group/AliceO2/pull/12960) 2024-03-29: GPU: Several minor fixes / improvements by [@davidrohr](https://github.com/davidrohr)
+	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 	- [\#12881](https://github.com/AliceO2Group/AliceO2/pull/12881) 2024-03-20: ctpdev: checking input size instead of output size by [@lietava](https://github.com/lietava)
 	- [\#12882](https://github.com/AliceO2Group/AliceO2/pull/12882) 2024-03-19: [EMCAL-1112] CCDB object for EMCAL pedestal calibration by [@mfasDa](https://github.com/mfasDa)
@@ -91,5 +93,6 @@
 	- [\#12977](https://github.com/AliceO2Group/AliceO2/pull/12977) 2024-04-03: DPL: Improve warning message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
+	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
