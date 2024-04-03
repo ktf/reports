@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-20T17:27:50Z",
-            "title": "ctpdev: checking input size instead of output size",
-            "number": 12881,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/include/CTPWorkflow/RawDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-19T08:35:52Z",
             "title": "[EMCAL-1112] CCDB object for EMCAL pedestal calibration",
             "number": 12882,
@@ -3155,6 +3130,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTOF.h"
                   }
                 },
@@ -3220,6 +3200,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TPC/workflow/src/FileReaderWorkflow.cxx"
                   }
                 },
@@ -3241,6 +3226,16 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/SVertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.h"
                   }
                 },
                 {
@@ -3271,6 +3266,16 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceUtils.h"
                   }
                 },
                 {
@@ -3766,6 +3771,26 @@
                 {
                   "node": {
                     "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Do not run pipeline finalization (e.g. fractional QC) when terminating",
+            "number": 12981,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
                   }
                 }
               ]
