@@ -74,7 +74,6 @@
 	- [\#12972](https://github.com/AliceO2Group/AliceO2/pull/12972) 2024-04-03: ITS: Factorise whole tracking behind a single interface by [@mconcas](https://github.com/mconcas)
 	- [\#12978](https://github.com/AliceO2Group/AliceO2/pull/12978) 2024-04-03: ClusterSharingMapSpec loads GRPECS for NHBFPerTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12884](https://github.com/AliceO2Group/AliceO2/pull/12884) 2024-03-19: DPL: drop need for ms_gsl by [@ktf](https://github.com/ktf)
 	- [\#12885](https://github.com/AliceO2Group/AliceO2/pull/12885) 2024-03-18: Fix condition to recheck CCDB object by the DPL fetcher by [@shahor02](https://github.com/shahor02)
 	- [\#12893](https://github.com/AliceO2Group/AliceO2/pull/12893) 2024-03-21: DPL: enable environment variables for signposts by [@ktf](https://github.com/ktf)
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
