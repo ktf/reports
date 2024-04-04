@@ -29,7 +29,6 @@
 	- [\#12960](https://github.com/AliceO2Group/AliceO2/pull/12960) 2024-03-29: GPU: Several minor fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12886](https://github.com/AliceO2Group/AliceO2/pull/12886) 2024-03-20: Follow conventions for CMAKE_BUILD_TYPE by [@ktf](https://github.com/ktf)
 	- [\#12887](https://github.com/AliceO2Group/AliceO2/pull/12887) 2024-03-20: Fixes in GRP DCS processor by [@shahor02](https://github.com/shahor02)
 	- [\#12888](https://github.com/AliceO2Group/AliceO2/pull/12888) 2024-03-20: [EMCAL-582] Add support for pedestals in CalibDB by [@mfasDa](https://github.com/mfasDa)
 	- [\#12889](https://github.com/AliceO2Group/AliceO2/pull/12889) 2024-04-01: ITS efficiency maps protection for digitization out of range by [@nicolovalle](https://github.com/nicolovalle)
