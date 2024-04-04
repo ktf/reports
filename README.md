@@ -75,7 +75,6 @@
 	- [\#12978](https://github.com/AliceO2Group/AliceO2/pull/12978) 2024-04-03: ClusterSharingMapSpec loads GRPECS for NHBFPerTF by [@shahor02](https://github.com/shahor02)
 	- [\#12983](https://github.com/AliceO2Group/AliceO2/pull/12983) 2024-04-04: [EMCAL-1116] Fix in mapping for pedestal calibration by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Framework
-	- [\#12885](https://github.com/AliceO2Group/AliceO2/pull/12885) 2024-03-18: Fix condition to recheck CCDB object by the DPL fetcher by [@shahor02](https://github.com/shahor02)
 	- [\#12893](https://github.com/AliceO2Group/AliceO2/pull/12893) 2024-03-21: DPL: enable environment variables for signposts by [@ktf](https://github.com/ktf)
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
