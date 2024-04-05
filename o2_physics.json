@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-27T18:48:52Z",
-            "title": "adding TimeFrame cut and TPC Ncls fraction cut",
-            "number": 5394,
-            "author": {
-              "login": "glromane"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/DataModel/singletrackselector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/femto3dPairTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/femto3dPairTaskMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/femto3dQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-03-27T19:38:34Z",
-            "title": "[PWGDQ] Adding flow extra table from central Q-vector framework",
-            "number": 5395,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqFlow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-28T07:01:55Z",
             "title": "Fix iteration on particles",
             "number": 5396,
@@ -2483,8 +2408,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-04-05T13:51:09Z",
             "title": "Update for QAHistTask & NucleiHistTask",
             "number": 5491,
             "author": {
@@ -2555,6 +2480,51 @@
                 {
                   "node": {
                     "path": "Common/Core/TableHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix default filling flag for MultsExtraMC in multiplicityTable",
+            "number": 5494,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGCF: add final event selection bit to FemtoDream",
+            "number": 5495,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamCollisionSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
                   }
                 }
               ]
