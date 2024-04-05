@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-01T19:50:52Z",
-            "title": "ITS efficiency maps protection for digitization out of range",
-            "number": 12889,
-            "author": {
-              "login": "nicolovalle"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/TimeDeadMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-20T08:00:26Z",
             "title": "GPU: Improve argument passing to kernel backend",
             "number": 12890,
@@ -3716,6 +3691,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/qc/src/PID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC cluster finder: Refactor device wide scan function.",
+            "number": 12989,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFStreamCompaction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFStreamCompaction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
                   }
                 }
               ]
