@@ -90,3 +90,5 @@
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
+## Recent developments in O2 - Utilities
+	- [\#12987](https://github.com/AliceO2Group/AliceO2/pull/12987) 2024-04-05: EPN Stderr monitor: Prepend messages from syslog with [GLOBAL SYSLOG] by [@davidrohr](https://github.com/davidrohr)
