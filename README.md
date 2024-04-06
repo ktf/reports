@@ -25,6 +25,7 @@
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12960](https://github.com/AliceO2Group/AliceO2/pull/12960) 2024-03-29: GPU: Several minor fixes / improvements by [@davidrohr](https://github.com/davidrohr)
+	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 	- [\#12901](https://github.com/AliceO2Group/AliceO2/pull/12901) 2024-03-21: Ctpdev by [@lietava](https://github.com/lietava)
@@ -64,6 +65,7 @@
 	- [\#12967](https://github.com/AliceO2Group/AliceO2/pull/12967) 2024-04-03: ONNXRuntime: some fixes to use onnxruntime >= 1.16 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12968](https://github.com/AliceO2Group/AliceO2/pull/12968) 2024-04-01: Fix in the RCT updater deployment by [@shahor02](https://github.com/shahor02)
 	- [\#12969](https://github.com/AliceO2Group/AliceO2/pull/12969) 2024-04-02: Mute stray debug log in o2-raw-tf-reader by [@shahor02](https://github.com/shahor02)
+	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12971](https://github.com/AliceO2Group/AliceO2/pull/12971) 2024-04-03: [EMCAL-1116] Add possibility to push pedestals to DCS ccdb by [@jokonig](https://github.com/jokonig)
 	- [\#12972](https://github.com/AliceO2Group/AliceO2/pull/12972) 2024-04-03: ITS: Factorise whole tracking behind a single interface by [@mconcas](https://github.com/mconcas)
 	- [\#12978](https://github.com/AliceO2Group/AliceO2/pull/12978) 2024-04-03: ClusterSharingMapSpec loads GRPECS for NHBFPerTF by [@shahor02](https://github.com/shahor02)
