@@ -4,7 +4,6 @@
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12895](https://github.com/AliceO2Group/AliceO2/pull/12895) 2024-03-20: GPU TPC: Fix formula and use box instead of exp error for C12 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12920](https://github.com/AliceO2Group/AliceO2/pull/12920) 2024-04-02: More flexibel use of event setup from collisioncontext by [@sawenzel](https://github.com/sawenzel)
@@ -74,6 +73,7 @@
 	- [\#12984](https://github.com/AliceO2Group/AliceO2/pull/12984) 2024-04-05: SV study: fix in eta cut application, store matching info by [@shahor02](https://github.com/shahor02)
 	- [\#12985](https://github.com/AliceO2Group/AliceO2/pull/12985) 2024-04-05: [EMCAL-1116] Minor improvemts to pedestal calibrator by [@jokonig](https://github.com/jokonig)
 	- [\#12994](https://github.com/AliceO2Group/AliceO2/pull/12994) 2024-04-07: Group refitted V0s per PV, add extra info by [@shahor02](https://github.com/shahor02)
+	- [\#12995](https://github.com/AliceO2Group/AliceO2/pull/12995) 2024-04-07: Do not create RCT entry at EOR, update only SOR version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)

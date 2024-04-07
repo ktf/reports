@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-20T18:24:27Z",
-            "title": "GPU TPC: Fix formula and use box instead of exp error for C12",
-            "number": 12895,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUParam.inc"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-22T15:05:04Z",
             "title": "ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8",
             "number": 12896,
@@ -3551,6 +3521,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/study/src/V0Ext.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-04-07T20:03:33Z",
+            "title": "Do not create RCT entry at EOR, update only SOR version",
+            "number": 12995,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GRP/workflows/src/create-grp-ecs.cxx"
                   }
                 }
               ]
