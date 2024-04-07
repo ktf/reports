@@ -73,6 +73,7 @@
 	- [\#12983](https://github.com/AliceO2Group/AliceO2/pull/12983) 2024-04-04: [EMCAL-1116] Fix in mapping for pedestal calibration by [@jokonig](https://github.com/jokonig)
 	- [\#12984](https://github.com/AliceO2Group/AliceO2/pull/12984) 2024-04-05: SV study: fix in eta cut application, store matching info by [@shahor02](https://github.com/shahor02)
 	- [\#12985](https://github.com/AliceO2Group/AliceO2/pull/12985) 2024-04-05: [EMCAL-1116] Minor improvemts to pedestal calibrator by [@jokonig](https://github.com/jokonig)
+	- [\#12994](https://github.com/AliceO2Group/AliceO2/pull/12994) 2024-04-07: Group refitted V0s per PV, add extra info by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
