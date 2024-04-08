@@ -15,7 +15,6 @@
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
@@ -94,7 +93,5 @@
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-	- [\#12896](https://github.com/AliceO2Group/AliceO2/pull/12896) 2024-03-22: ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 by [@BongHwi](https://github.com/BongHwi)
 ## Recent developments in O2 - Utilities
 	- [\#12987](https://github.com/AliceO2Group/AliceO2/pull/12987) 2024-04-05: EPN Stderr monitor: Prepend messages from syslog with [GLOBAL SYSLOG] by [@davidrohr](https://github.com/davidrohr)
