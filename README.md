@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
+	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 	- [\#12897](https://github.com/AliceO2Group/AliceO2/pull/12897) 2024-03-20: GPU: compile-time-disable all printing on GPU if GPUCA_GPU_DEBUG_PRINT not set by [@davidrohr](https://github.com/davidrohr)
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
@@ -87,6 +88,7 @@
 	- [\#12947](https://github.com/AliceO2Group/AliceO2/pull/12947) 2024-03-28: DPL: replace LOG with Signposts by [@ktf](https://github.com/ktf)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 	- [\#12977](https://github.com/AliceO2Group/AliceO2/pull/12977) 2024-04-03: DPL: Improve warning message by [@davidrohr](https://github.com/davidrohr)
+	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 	- [\#12993](https://github.com/AliceO2Group/AliceO2/pull/12993) 2024-04-06: reserve bit of mc particle flag for OOB pileup tagging by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Generators
 	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
