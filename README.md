@@ -23,7 +23,6 @@
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12901](https://github.com/AliceO2Group/AliceO2/pull/12901) 2024-03-21: Ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12903](https://github.com/AliceO2Group/AliceO2/pull/12903) 2024-03-27: [EMCAL-1115] Processing workflow for EMCAL pedestal run by [@mfasDa](https://github.com/mfasDa)
 	- [\#12904](https://github.com/AliceO2Group/AliceO2/pull/12904) 2024-03-22: Switch to turn off uncessary histos for async by [@lauraser](https://github.com/lauraser)
 	- [\#12905](https://github.com/AliceO2Group/AliceO2/pull/12905) 2024-03-26: [Strangeness tracking] Add Decay3Body strangeness tracking by [@creetz16](https://github.com/creetz16)
