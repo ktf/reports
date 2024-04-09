@@ -88,5 +88,7 @@
 ## Recent developments in O2 - Generators
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Steer
+	- [\#13000](https://github.com/AliceO2Group/AliceO2/pull/13000) 2024-04-09: Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#12987](https://github.com/AliceO2Group/AliceO2/pull/12987) 2024-04-05: EPN Stderr monitor: Prepend messages from syslog with [GLOBAL SYSLOG] by [@davidrohr](https://github.com/davidrohr)
