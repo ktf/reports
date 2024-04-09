@@ -5,7 +5,6 @@
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
-	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12920](https://github.com/AliceO2Group/AliceO2/pull/12920) 2024-04-02: More flexibel use of event setup from collisioncontext by [@sawenzel](https://github.com/sawenzel)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
 	- [\#12938](https://github.com/AliceO2Group/AliceO2/pull/12938) 2024-03-26: Add number of entries in operator+= by [@mfasDa](https://github.com/mfasDa)
@@ -14,7 +13,6 @@
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
 	- [\#12923](https://github.com/AliceO2Group/AliceO2/pull/12923) 2024-03-25: [O2-4791] ITS-squasher: fix undefined behaviour + fix incomplete squashing by [@mconcas](https://github.com/mconcas)
@@ -72,6 +70,7 @@
 	- [\#12985](https://github.com/AliceO2Group/AliceO2/pull/12985) 2024-04-05: [EMCAL-1116] Minor improvemts to pedestal calibrator by [@jokonig](https://github.com/jokonig)
 	- [\#12994](https://github.com/AliceO2Group/AliceO2/pull/12994) 2024-04-07: Group refitted V0s per PV, add extra info by [@shahor02](https://github.com/shahor02)
 	- [\#12995](https://github.com/AliceO2Group/AliceO2/pull/12995) 2024-04-07: Do not create RCT entry at EOR, update only SOR version by [@shahor02](https://github.com/shahor02)
+	- [\#12997](https://github.com/AliceO2Group/AliceO2/pull/12997) 2024-04-09: Optionally store ref.track together with moved one. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12906](https://github.com/AliceO2Group/AliceO2/pull/12906) 2024-03-21: Reset DPL fetcher cacheValidUntil when loading new object by [@shahor02](https://github.com/shahor02)
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
@@ -88,7 +87,6 @@
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 	- [\#12993](https://github.com/AliceO2Group/AliceO2/pull/12993) 2024-04-06: reserve bit of mc particle flag for OOB pileup tagging by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Generators
-	- [\#12899](https://github.com/AliceO2Group/AliceO2/pull/12899) 2024-03-21: Some changes needed to improve decoupling event generation from GEANT transport by [@sawenzel](https://github.com/sawenzel)
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
