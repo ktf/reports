@@ -23,8 +23,6 @@
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12904](https://github.com/AliceO2Group/AliceO2/pull/12904) 2024-03-22: Switch to turn off uncessary histos for async by [@lauraser](https://github.com/lauraser)
-	- [\#12905](https://github.com/AliceO2Group/AliceO2/pull/12905) 2024-03-26: [Strangeness tracking] Add Decay3Body strangeness tracking by [@creetz16](https://github.com/creetz16)
 	- [\#12907](https://github.com/AliceO2Group/AliceO2/pull/12907) 2024-03-21: Fix dbg output creation in the PVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12908](https://github.com/AliceO2Group/AliceO2/pull/12908) 2024-03-21: Fix condition to load full geom in SVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
