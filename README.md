@@ -24,7 +24,6 @@
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12908](https://github.com/AliceO2Group/AliceO2/pull/12908) 2024-03-21: Fix condition to load full geom in SVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12911](https://github.com/AliceO2Group/AliceO2/pull/12911) 2024-03-22: CTP configuration fix input name level by [@martenole](https://github.com/martenole)
 	- [\#12913](https://github.com/AliceO2Group/AliceO2/pull/12913) 2024-03-22: [MCH] add functionality and protections in mapping by [@pillot](https://github.com/pillot)
 	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
