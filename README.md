@@ -27,7 +27,6 @@
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12914](https://github.com/AliceO2Group/AliceO2/pull/12914) 2024-03-22: cd to the output file before writing debug trees by [@shahor02](https://github.com/shahor02)
 	- [\#12917](https://github.com/AliceO2Group/AliceO2/pull/12917) 2024-03-26: GPU: Make external o2::Propagator on GPU also available for HIP and use it in ITS tracking, + some related improvements by [@davidrohr](https://github.com/davidrohr)
 	- [\#12918](https://github.com/AliceO2Group/AliceO2/pull/12918) 2024-03-26: TPC average map fix Y2X binning for non-uniform binning and add test … by [@martenole](https://github.com/martenole)
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
