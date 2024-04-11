@@ -70,6 +70,7 @@
 	- [\#12985](https://github.com/AliceO2Group/AliceO2/pull/12985) 2024-04-05: [EMCAL-1116] Minor improvemts to pedestal calibrator by [@jokonig](https://github.com/jokonig)
 	- [\#12994](https://github.com/AliceO2Group/AliceO2/pull/12994) 2024-04-07: Group refitted V0s per PV, add extra info by [@shahor02](https://github.com/shahor02)
 	- [\#12995](https://github.com/AliceO2Group/AliceO2/pull/12995) 2024-04-07: Do not create RCT entry at EOR, update only SOR version by [@shahor02](https://github.com/shahor02)
+	- [\#12996](https://github.com/AliceO2Group/AliceO2/pull/12996) 2024-04-11: [EMCAL-1120] Encode trailer in decimal format instead of hex format. by [@mfasDa](https://github.com/mfasDa)
 	- [\#12997](https://github.com/AliceO2Group/AliceO2/pull/12997) 2024-04-09: Optionally store ref.track together with moved one. by [@shahor02](https://github.com/shahor02)
 	- [\#13001](https://github.com/AliceO2Group/AliceO2/pull/13001) 2024-04-10: Fix in passing TPC t0 to vdrift calibrations by [@shahor02](https://github.com/shahor02)
 	- [\#13002](https://github.com/AliceO2Group/AliceO2/pull/13002) 2024-04-10: Warn about current and TPC scaler object runNumbers only once by [@shahor02](https://github.com/shahor02)
