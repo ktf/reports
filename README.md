@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
+	- [\#12927](https://github.com/AliceO2Group/AliceO2/pull/12927) 2024-04-11: Add missing std namespace specifier in AnalysisDataModel by [@vkucera](https://github.com/vkucera)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
@@ -46,6 +47,7 @@
 	- [\#12944](https://github.com/AliceO2Group/AliceO2/pull/12944) 2024-03-28: [EMCAL-1115] Fix container size for LEDMONs by [@mfasDa](https://github.com/mfasDa)
 	- [\#12945](https://github.com/AliceO2Group/AliceO2/pull/12945) 2024-04-01: [MCH] new functionalities to fill the status map by [@pillot](https://github.com/pillot)
 	- [\#12948](https://github.com/AliceO2Group/AliceO2/pull/12948) 2024-03-28: ITS GPU: INVALID_TRIGGER_ERROR_NO_HOST_CODE should not be defined away but GPUg() should only be used in GPUCode by [@davidrohr](https://github.com/davidrohr)
+	- [\#12952](https://github.com/AliceO2Group/AliceO2/pull/12952) 2024-04-11: ITSMFT: check on strobe length for STFDecoder by [@IsakovAD](https://github.com/IsakovAD)
 	- [\#12953](https://github.com/AliceO2Group/AliceO2/pull/12953) 2024-03-29: [EMCAL-741] Fix number of LEDMON channels in pedestal extraction by [@mfasDa](https://github.com/mfasDa)
 	- [\#12955](https://github.com/AliceO2Group/AliceO2/pull/12955) 2024-03-28: ITS GPU: Remove hip_runtime.h include from headers, include cuda/hip runtime in source files by [@davidrohr](https://github.com/davidrohr)
 	- [\#12957](https://github.com/AliceO2Group/AliceO2/pull/12957) 2024-03-29: GPU: Make HIP RTC fully work + some other fixes / improvements by [@davidrohr](https://github.com/davidrohr)
@@ -72,9 +74,11 @@
 	- [\#13001](https://github.com/AliceO2Group/AliceO2/pull/13001) 2024-04-10: Fix in passing TPC t0 to vdrift calibrations by [@shahor02](https://github.com/shahor02)
 	- [\#13002](https://github.com/AliceO2Group/AliceO2/pull/13002) 2024-04-10: Warn about current and TPC scaler object runNumbers only once by [@shahor02](https://github.com/shahor02)
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
+	- [\#13009](https://github.com/AliceO2Group/AliceO2/pull/13009) 2024-04-11: rct-updater defines dummy output to bind ccdb-populator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12915](https://github.com/AliceO2Group/AliceO2/pull/12915) 2024-03-26: DPL Analysis: Analysis task rework by [@aalkin](https://github.com/aalkin)
 	- [\#12926](https://github.com/AliceO2Group/AliceO2/pull/12926) 2024-03-25: DPL: add reproducer for dropped consecutive timeframes issue by [@ktf](https://github.com/ktf)
+	- [\#12927](https://github.com/AliceO2Group/AliceO2/pull/12927) 2024-04-11: Add missing std namespace specifier in AnalysisDataModel by [@vkucera](https://github.com/vkucera)
 	- [\#12929](https://github.com/AliceO2Group/AliceO2/pull/12929) 2024-03-26: DPL: use requires rather than call_if_defined by [@ktf](https://github.com/ktf)
 	- [\#12930](https://github.com/AliceO2Group/AliceO2/pull/12930) 2024-03-25: DPL GUI: fix keyboard support in remote GUI by [@ktf](https://github.com/ktf)
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
