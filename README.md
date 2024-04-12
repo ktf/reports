@@ -23,6 +23,7 @@
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
+	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 	- [\#12921](https://github.com/AliceO2Group/AliceO2/pull/12921) 2024-03-22: Removing protection for 22c, d, fixed in O2-3684 by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12922](https://github.com/AliceO2Group/AliceO2/pull/12922) 2024-03-25: Impose def. TOffset 7.3TB on laser calib, use actual value for VDriftTgl by [@shahor02](https://github.com/shahor02)
@@ -69,6 +70,7 @@
 	- [\#13010](https://github.com/AliceO2Group/AliceO2/pull/13010) 2024-04-11: Send CTF size report for QC monitoring by [@martenole](https://github.com/martenole)
 	- [\#13011](https://github.com/AliceO2Group/AliceO2/pull/13011) 2024-04-11: Alice3: add minimal documentation + Magnetic field macro by [@mconcas](https://github.com/mconcas)
 	- [\#13012](https://github.com/AliceO2Group/AliceO2/pull/13012) 2024-04-11: Add support for ONNXRuntime 1.17.1 by [@ktf](https://github.com/ktf)
+	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 	- [\#13019](https://github.com/AliceO2Group/AliceO2/pull/13019) 2024-04-12: Fix RCTUpdater warning message by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 	- [\#12926](https://github.com/AliceO2Group/AliceO2/pull/12926) 2024-03-25: DPL: add reproducer for dropped consecutive timeframes issue by [@ktf](https://github.com/ktf)
