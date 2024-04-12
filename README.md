@@ -70,6 +70,7 @@
 	- [\#13010](https://github.com/AliceO2Group/AliceO2/pull/13010) 2024-04-11: Send CTF size report for QC monitoring by [@martenole](https://github.com/martenole)
 	- [\#13011](https://github.com/AliceO2Group/AliceO2/pull/13011) 2024-04-11: Alice3: add minimal documentation + Magnetic field macro by [@mconcas](https://github.com/mconcas)
 	- [\#13012](https://github.com/AliceO2Group/AliceO2/pull/13012) 2024-04-11: Add support for ONNXRuntime 1.17.1 by [@ktf](https://github.com/ktf)
+	- [\#13019](https://github.com/AliceO2Group/AliceO2/pull/13019) 2024-04-12: Fix RCTUpdater warning message by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 	- [\#12926](https://github.com/AliceO2Group/AliceO2/pull/12926) 2024-03-25: DPL: add reproducer for dropped consecutive timeframes issue by [@ktf](https://github.com/ktf)
 	- [\#12927](https://github.com/AliceO2Group/AliceO2/pull/12927) 2024-04-11: Add missing std namespace specifier in AnalysisDataModel by [@vkucera](https://github.com/vkucera)
