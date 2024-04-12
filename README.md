@@ -26,7 +26,6 @@
 	- [\#12979](https://github.com/AliceO2Group/AliceO2/pull/12979) 2024-04-03: print function for MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12918](https://github.com/AliceO2Group/AliceO2/pull/12918) 2024-03-26: TPC average map fix Y2X binning for non-uniform binning and add test … by [@martenole](https://github.com/martenole)
 	- [\#12919](https://github.com/AliceO2Group/AliceO2/pull/12919) 2024-03-24: Custom workflow to study the v0s by [@shahor02](https://github.com/shahor02)
 	- [\#12921](https://github.com/AliceO2Group/AliceO2/pull/12921) 2024-03-22: Removing protection for 22c, d, fixed in O2-3684 by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12922](https://github.com/AliceO2Group/AliceO2/pull/12922) 2024-03-25: Impose def. TOffset 7.3TB on laser calib, use actual value for VDriftTgl by [@shahor02](https://github.com/shahor02)
