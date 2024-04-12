@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-05T15:21:02Z",
-            "title": "Fix default filling flag for MultsExtraMC in multiplicityTable",
-            "number": 5494,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-05T21:11:00Z",
             "title": "PWGCF: add final event selection bit to FemtoDream",
             "number": 5495,
@@ -2921,6 +2901,46 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Low Pt Track Selection",
+            "number": 5594,
+            "author": {
+              "login": "fkrizek"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGJE/jetFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/ChJetTriggerQATask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/triggerCorrelations.cxx"
                   }
                 }
               ]
