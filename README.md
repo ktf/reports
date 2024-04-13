@@ -25,7 +25,6 @@
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12922](https://github.com/AliceO2Group/AliceO2/pull/12922) 2024-03-25: Impose def. TOffset 7.3TB on laser calib, use actual value for VDriftTgl by [@shahor02](https://github.com/shahor02)
 	- [\#12923](https://github.com/AliceO2Group/AliceO2/pull/12923) 2024-03-25: [O2-4791] ITS-squasher: fix undefined behaviour + fix incomplete squashing by [@mconcas](https://github.com/mconcas)
 	- [\#12924](https://github.com/AliceO2Group/AliceO2/pull/12924) 2024-03-25: Workflow to update RCT with ts of 1st/last TFs seen by [@shahor02](https://github.com/shahor02)
 	- [\#12925](https://github.com/AliceO2Group/AliceO2/pull/12925) 2024-03-25: ALICE 3: Fix hit creation for TF3 et al + minor fixes by [@mconcas](https://github.com/mconcas)
