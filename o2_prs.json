@@ -3291,13 +3291,18 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC Cluster Finder: Fix invalid write in peak finder.",
+            "title": "TPC Cluster Finder: Fix invalid writes in peak finder and deconvolution.",
             "number": 13020,
             "author": {
               "login": "fweig"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDeconvolution.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFPeakFinder.cxx"
