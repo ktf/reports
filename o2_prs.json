@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-25T17:59:45Z",
-            "title": "Workflow to update RCT with ts of 1st/last TFs seen",
-            "number": 12924,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/BasicCCDBManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/create-grp-ecs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/rct-updater-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-25T08:20:06Z",
             "title": "ALICE 3: Fix hit creation for TF3 et al + minor fixes",
             "number": 12925,
@@ -3351,6 +3296,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Skip empty ROFs only with no-empty-rof option in digi2raw",
+            "number": 13024,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/digi2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/simulation/src/digi2raw.cxx"
                   }
                 }
               ]
