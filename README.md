@@ -55,6 +55,7 @@
 	- [\#12983](https://github.com/AliceO2Group/AliceO2/pull/12983) 2024-04-04: [EMCAL-1116] Fix in mapping for pedestal calibration by [@jokonig](https://github.com/jokonig)
 	- [\#12984](https://github.com/AliceO2Group/AliceO2/pull/12984) 2024-04-05: SV study: fix in eta cut application, store matching info by [@shahor02](https://github.com/shahor02)
 	- [\#12985](https://github.com/AliceO2Group/AliceO2/pull/12985) 2024-04-05: [EMCAL-1116] Minor improvemts to pedestal calibrator by [@jokonig](https://github.com/jokonig)
+	- [\#12992](https://github.com/AliceO2Group/AliceO2/pull/12992) 2024-04-15: Allow specifying different track source for TPC map extraction by [@martenole](https://github.com/martenole)
 	- [\#12994](https://github.com/AliceO2Group/AliceO2/pull/12994) 2024-04-07: Group refitted V0s per PV, add extra info by [@shahor02](https://github.com/shahor02)
 	- [\#12995](https://github.com/AliceO2Group/AliceO2/pull/12995) 2024-04-07: Do not create RCT entry at EOR, update only SOR version by [@shahor02](https://github.com/shahor02)
 	- [\#12996](https://github.com/AliceO2Group/AliceO2/pull/12996) 2024-04-11: [EMCAL-1120] Encode trailer in decimal format instead of hex format. by [@mfasDa](https://github.com/mfasDa)
