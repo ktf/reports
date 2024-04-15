@@ -22,6 +22,7 @@
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 	- [\#13021](https://github.com/AliceO2Group/AliceO2/pull/13021) 2024-04-15: trivial fix in one TOF setter by [@noferini](https://github.com/noferini)
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
+	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 	- [\#12932](https://github.com/AliceO2Group/AliceO2/pull/12932) 2024-03-25: [EMCAL-688] Fix ClusterLabel.h constructor by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
@@ -73,6 +74,7 @@
 	- [\#13024](https://github.com/AliceO2Group/AliceO2/pull/13024) 2024-04-14: Skip empty ROFs only with no-empty-rof option in digi2raw by [@shahor02](https://github.com/shahor02)
 	- [\#13025](https://github.com/AliceO2Group/AliceO2/pull/13025) 2024-04-15: macro to dump volumes ideal and real origins in lab frame by [@shahor02](https://github.com/shahor02)
 	- [\#13026](https://github.com/AliceO2Group/AliceO2/pull/13026) 2024-04-15: Add debug output to TRD gain calibration by [@martenole](https://github.com/martenole)
+	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
 	- [\#12939](https://github.com/AliceO2Group/AliceO2/pull/12939) 2024-03-27: DPL: Delay "Maximum number of TF in flight reached" alarm by 15 seconds in online mode by [@davidrohr](https://github.com/davidrohr)
