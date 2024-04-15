@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC Timeseries: Adding cov and delta track params at vertex",
-            "number": 12928,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-03-26T11:10:35Z",
             "title": "DPL: use requires rather than call_if_defined",
@@ -3291,6 +3271,36 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/EMCAL/src/ErrorTypeFEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC Cluster finder: Update debug mode.",
+            "number": 13028,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinderDump.cxx"
                   }
                 }
               ]
