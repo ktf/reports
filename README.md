@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#12927](https://github.com/AliceO2Group/AliceO2/pull/12927) 2024-04-11: Add missing std namespace specifier in AnalysisDataModel by [@vkucera](https://github.com/vkucera)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
@@ -73,7 +72,6 @@
 	- [\#13024](https://github.com/AliceO2Group/AliceO2/pull/13024) 2024-04-14: Skip empty ROFs only with no-empty-rof option in digi2raw by [@shahor02](https://github.com/shahor02)
 	- [\#13025](https://github.com/AliceO2Group/AliceO2/pull/13025) 2024-04-15: macro to dump volumes ideal and real origins in lab frame by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12927](https://github.com/AliceO2Group/AliceO2/pull/12927) 2024-04-11: Add missing std namespace specifier in AnalysisDataModel by [@vkucera](https://github.com/vkucera)
 	- [\#12929](https://github.com/AliceO2Group/AliceO2/pull/12929) 2024-03-26: DPL: use requires rather than call_if_defined by [@ktf](https://github.com/ktf)
 	- [\#12930](https://github.com/AliceO2Group/AliceO2/pull/12930) 2024-03-25: DPL GUI: fix keyboard support in remote GUI by [@ktf](https://github.com/ktf)
 	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
