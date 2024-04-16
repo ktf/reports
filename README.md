@@ -24,7 +24,6 @@
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
 	- [\#12934](https://github.com/AliceO2Group/AliceO2/pull/12934) 2024-03-26: [EMCAL-688] ClusterLabel - Fix sorting and idexing by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12936](https://github.com/AliceO2Group/AliceO2/pull/12936) 2024-03-26: Alice 3: Make ECal endcap optional by [@mconcas](https://github.com/mconcas)
 	- [\#12941](https://github.com/AliceO2Group/AliceO2/pull/12941) 2024-03-27: Fix bug in MIP dE/dx vs sector plot by [@lauraser](https://github.com/lauraser)
@@ -75,7 +74,6 @@
 	- [\#13026](https://github.com/AliceO2Group/AliceO2/pull/13026) 2024-04-15: Add debug output to TRD gain calibration by [@martenole](https://github.com/martenole)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
-	- [\#12933](https://github.com/AliceO2Group/AliceO2/pull/12933) 2024-03-26: Do not print infologger warnings for CRORC detector missing data by [@davidrohr](https://github.com/davidrohr)
 	- [\#12939](https://github.com/AliceO2Group/AliceO2/pull/12939) 2024-03-27: DPL: Delay "Maximum number of TF in flight reached" alarm by 15 seconds in online mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
 	- [\#12946](https://github.com/AliceO2Group/AliceO2/pull/12946) 2024-03-28: DPL Rate Limiter: Fix typo by [@davidrohr](https://github.com/davidrohr)
