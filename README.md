@@ -72,6 +72,7 @@
 	- [\#13026](https://github.com/AliceO2Group/AliceO2/pull/13026) 2024-04-15: Add debug output to TRD gain calibration by [@martenole](https://github.com/martenole)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
+	- [\#13035](https://github.com/AliceO2Group/AliceO2/pull/13035) 2024-04-17: Option to manage ROF length reporting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12939](https://github.com/AliceO2Group/AliceO2/pull/12939) 2024-03-27: DPL: Delay "Maximum number of TF in flight reached" alarm by 15 seconds in online mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12942](https://github.com/AliceO2Group/AliceO2/pull/12942) 2024-03-27: DPL Analysis: fix off-by-one when looking up filter info by [@aalkin](https://github.com/aalkin)
