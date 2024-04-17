@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-15T13:57:04Z",
-            "title": "PWGHF: adding THnSparse for BDT and cutVariation to Xic task",
-            "number": 5580,
-            "author": {
-              "login": "cterrevo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-12T17:35:28Z",
             "title": "PWGHF: Add raw prompt fraction to compute_fraction_cutvar.py output",
             "number": 5581,
@@ -3590,7 +3570,17 @@
                 },
                 {
                   "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGUD/Tasks/SGSpectraAnalyzer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/SGTrackSelector.h"
                   }
                 },
                 {
@@ -3601,6 +3591,11 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/SG_FIT_Analyzer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/SG_FourPi_Analyzer.cxx"
                   }
                 }
               ]
@@ -4736,6 +4731,31 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/TableProducer/skimmerDalitzEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Fix LabeledArray of std::string",
+            "number": 5680,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
