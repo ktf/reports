@@ -22,7 +22,6 @@
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#12941](https://github.com/AliceO2Group/AliceO2/pull/12941) 2024-03-27: Fix bug in MIP dE/dx vs sector plot by [@lauraser](https://github.com/lauraser)
 	- [\#12944](https://github.com/AliceO2Group/AliceO2/pull/12944) 2024-03-28: [EMCAL-1115] Fix container size for LEDMONs by [@mfasDa](https://github.com/mfasDa)
 	- [\#12945](https://github.com/AliceO2Group/AliceO2/pull/12945) 2024-04-01: [MCH] new functionalities to fill the status map by [@pillot](https://github.com/pillot)
 	- [\#12948](https://github.com/AliceO2Group/AliceO2/pull/12948) 2024-03-28: ITS GPU: INVALID_TRIGGER_ERROR_NO_HOST_CODE should not be defined away but GPUg() should only be used in GPUCode by [@davidrohr](https://github.com/davidrohr)
@@ -69,6 +68,7 @@
 	- [\#13025](https://github.com/AliceO2Group/AliceO2/pull/13025) 2024-04-15: macro to dump volumes ideal and real origins in lab frame by [@shahor02](https://github.com/shahor02)
 	- [\#13026](https://github.com/AliceO2Group/AliceO2/pull/13026) 2024-04-15: Add debug output to TRD gain calibration by [@martenole](https://github.com/martenole)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
+	- [\#13032](https://github.com/AliceO2Group/AliceO2/pull/13032) 2024-04-17: EMCAL increase check interval for bad channel and time calibrations by [@martenole](https://github.com/martenole)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
 	- [\#13035](https://github.com/AliceO2Group/AliceO2/pull/13035) 2024-04-17: Option to manage ROF length reporting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
