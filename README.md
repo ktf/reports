@@ -6,7 +6,6 @@
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12938](https://github.com/AliceO2Group/AliceO2/pull/12938) 2024-03-26: Add number of entries in operator+= by [@mfasDa](https://github.com/mfasDa)
 	- [\#12943](https://github.com/AliceO2Group/AliceO2/pull/12943) 2024-03-27: GPU: CMake improvements towards porting all CUDA features to HIP and some related cleanup by [@davidrohr](https://github.com/davidrohr)
 	- [\#12947](https://github.com/AliceO2Group/AliceO2/pull/12947) 2024-03-28: DPL: replace LOG with Signposts by [@ktf](https://github.com/ktf)
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
