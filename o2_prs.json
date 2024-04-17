@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-26T22:21:19Z",
-            "title": "Alice 3: Make ECal endcap optional",
-            "number": 12936,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ECal/base/include/ECalBase/ECalBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ECal/simulation/include/ECalSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ECal/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-27T12:15:52Z",
             "title": "GPU CUDA CMake: Explicitly set CUDA_SEPARABLE_COMPILATION in all cases",
             "number": 12937,
@@ -3281,6 +3251,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Demote exit transition timeout error to warning",
+            "number": 13036,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]

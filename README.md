@@ -23,7 +23,6 @@
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#12936](https://github.com/AliceO2Group/AliceO2/pull/12936) 2024-03-26: Alice 3: Make ECal endcap optional by [@mconcas](https://github.com/mconcas)
 	- [\#12941](https://github.com/AliceO2Group/AliceO2/pull/12941) 2024-03-27: Fix bug in MIP dE/dx vs sector plot by [@lauraser](https://github.com/lauraser)
 	- [\#12944](https://github.com/AliceO2Group/AliceO2/pull/12944) 2024-03-28: [EMCAL-1115] Fix container size for LEDMONs by [@mfasDa](https://github.com/mfasDa)
 	- [\#12945](https://github.com/AliceO2Group/AliceO2/pull/12945) 2024-04-01: [MCH] new functionalities to fill the status map by [@pillot](https://github.com/pillot)
