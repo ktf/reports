@@ -70,6 +70,7 @@
 	- [\#13025](https://github.com/AliceO2Group/AliceO2/pull/13025) 2024-04-15: macro to dump volumes ideal and real origins in lab frame by [@shahor02](https://github.com/shahor02)
 	- [\#13026](https://github.com/AliceO2Group/AliceO2/pull/13026) 2024-04-15: Add debug output to TRD gain calibration by [@martenole](https://github.com/martenole)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
+	- [\#13030](https://github.com/AliceO2Group/AliceO2/pull/13030) 2024-04-18: fix missing fitting of HV in HMPIDDCSProcessor by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#13032](https://github.com/AliceO2Group/AliceO2/pull/13032) 2024-04-17: EMCAL increase check interval for bad channel and time calibrations by [@martenole](https://github.com/martenole)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
 	- [\#13034](https://github.com/AliceO2Group/AliceO2/pull/13034) 2024-04-17: [MCH] new options to add channels from DE Ids and HV/LV DCS aliases by [@pillot](https://github.com/pillot)
