@@ -4,6 +4,7 @@
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
+	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 	- [\#12998](https://github.com/AliceO2Group/AliceO2/pull/12998) 2024-04-11: QC-1143 Merge objects before publishing at End Of Stream by [@knopers8](https://github.com/knopers8)
@@ -85,6 +86,7 @@
 	- [\#13007](https://github.com/AliceO2Group/AliceO2/pull/13007) 2024-04-11: Add comment to labelledArray types by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
+	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Generators
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
