@@ -76,6 +76,7 @@
 	- [\#13034](https://github.com/AliceO2Group/AliceO2/pull/13034) 2024-04-17: [MCH] new options to add channels from DE Ids and HV/LV DCS aliases by [@pillot](https://github.com/pillot)
 	- [\#13035](https://github.com/AliceO2Group/AliceO2/pull/13035) 2024-04-17: Option to manage ROF length reporting by [@shahor02](https://github.com/shahor02)
 	- [\#13039](https://github.com/AliceO2Group/AliceO2/pull/13039) 2024-04-17: [EMCAL-565] Fix axis for time histogram in bad channel calibration by [@jokonig](https://github.com/jokonig)
+	- [\#13045](https://github.com/AliceO2Group/AliceO2/pull/13045) 2024-04-19: [EMCAL-565, EMCAL-566] Prevent saving/overwriting calib multiple times at EOR by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Framework
 	- [\#12947](https://github.com/AliceO2Group/AliceO2/pull/12947) 2024-03-28: DPL: replace LOG with Signposts by [@ktf](https://github.com/ktf)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
