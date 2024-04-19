@@ -5,7 +5,6 @@
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 	- [\#12998](https://github.com/AliceO2Group/AliceO2/pull/12998) 2024-04-11: QC-1143 Merge objects before publishing at End Of Stream by [@knopers8](https://github.com/knopers8)
 	- [\#13018](https://github.com/AliceO2Group/AliceO2/pull/13018) 2024-04-17: [EMCAL-565] Add cut on pre and post trigger pile-up by [@jokonig](https://github.com/jokonig)
@@ -85,7 +84,6 @@
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
-	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#13000](https://github.com/AliceO2Group/AliceO2/pull/13000) 2024-04-09: Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… by [@sawenzel](https://github.com/sawenzel)
