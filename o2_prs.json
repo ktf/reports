@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-28T08:22:49Z",
-            "title": "ITS GPU: INVALID_TRIGGER_ERROR_NO_HOST_CODE should not be defined away but GPUg() should only be used in GPUCode",
-            "number": 12948,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-03-28T08:20:12Z",
             "title": "GPU: Improvements and fixes for run-time-compilation",
             "number": 12949,
@@ -3336,6 +3311,31 @@
                 {
                   "node": {
                     "path": "DataFormats/QualityControl/etc/flagReasons.csv"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC/simulation: Add PT correction to gas density using configurable p…",
+            "number": 13048,
+            "author": {
+              "login": "tubagundem"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterGas.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
                   }
                 }
               ]
