@@ -21,7 +21,6 @@
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#12953](https://github.com/AliceO2Group/AliceO2/pull/12953) 2024-03-29: [EMCAL-741] Fix number of LEDMON channels in pedestal extraction by [@mfasDa](https://github.com/mfasDa)
 	- [\#12955](https://github.com/AliceO2Group/AliceO2/pull/12955) 2024-03-28: ITS GPU: Remove hip_runtime.h include from headers, include cuda/hip runtime in source files by [@davidrohr](https://github.com/davidrohr)
 	- [\#12957](https://github.com/AliceO2Group/AliceO2/pull/12957) 2024-03-29: GPU: Make HIP RTC fully work + some other fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 	- [\#12958](https://github.com/AliceO2Group/AliceO2/pull/12958) 2024-04-03: [EMCAL-1116] Add maximum value for pedestal calib by [@jokonig](https://github.com/jokonig)

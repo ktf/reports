@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-29T09:28:10Z",
-            "title": "[EMCAL-741] Fix number of LEDMON channels in pedestal extraction",
-            "number": 12953,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibExtractor.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-03T14:44:18Z",
             "title": "More consistent MCHeader forwarding when using GeneratorFromFile",
             "number": 12954,
@@ -3386,6 +3366,61 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/ErrorTypeFEE.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Allow for smooth move to the new naming of QC flags",
+            "number": 13053,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/FlagType.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/FlagTypeFactory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/QualityControlFlag.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/QualityControlFlagCollection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/test/testFlagReasons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/test/testTimeRangeFlag.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/test/testTimeRangeFlagCollection.cxx"
                   }
                 }
               ]
