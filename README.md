@@ -5,7 +5,6 @@
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12947](https://github.com/AliceO2Group/AliceO2/pull/12947) 2024-03-28: DPL: replace LOG with Signposts by [@ktf](https://github.com/ktf)
 	- [\#12954](https://github.com/AliceO2Group/AliceO2/pull/12954) 2024-04-03: More consistent MCHeader forwarding when using GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 	- [\#12998](https://github.com/AliceO2Group/AliceO2/pull/12998) 2024-04-11: QC-1143 Merge objects before publishing at End Of Stream by [@knopers8](https://github.com/knopers8)
@@ -79,7 +78,6 @@
 	- [\#13045](https://github.com/AliceO2Group/AliceO2/pull/13045) 2024-04-19: [EMCAL-565, EMCAL-566] Prevent saving/overwriting calib multiple times at EOR by [@jokonig](https://github.com/jokonig)
 	- [\#13046](https://github.com/AliceO2Group/AliceO2/pull/13046) 2024-04-19: Fix bug when reading input string for chamber fixing by [@Elros60](https://github.com/Elros60)
 ## Recent developments in O2 - Framework
-	- [\#12947](https://github.com/AliceO2Group/AliceO2/pull/12947) 2024-03-28: DPL: replace LOG with Signposts by [@ktf](https://github.com/ktf)
 	- [\#12956](https://github.com/AliceO2Group/AliceO2/pull/12956) 2024-03-28: DPL: fix spurios error message and wrong update. by [@ktf](https://github.com/ktf)
 	- [\#12977](https://github.com/AliceO2Group/AliceO2/pull/12977) 2024-04-03: DPL: Improve warning message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
