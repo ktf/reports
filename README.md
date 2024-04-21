@@ -24,7 +24,6 @@
 	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12958](https://github.com/AliceO2Group/AliceO2/pull/12958) 2024-04-03: [EMCAL-1116] Add maximum value for pedestal calib by [@jokonig](https://github.com/jokonig)
 	- [\#12959](https://github.com/AliceO2Group/AliceO2/pull/12959) 2024-04-02: [EMCAL-752] Fix number of LEDMON channel in Pedestal object by [@jokonig](https://github.com/jokonig)
 	- [\#12961](https://github.com/AliceO2Group/AliceO2/pull/12961) 2024-03-29: ctpdev : fatal changed to error by [@lietava](https://github.com/lietava)
 	- [\#12963](https://github.com/AliceO2Group/AliceO2/pull/12963) 2024-04-01: onnxruntime upstream uses onnxruntime::onnxruntime: Adhere to that and remain compatible with our custom onnxruntime build by [@davidrohr](https://github.com/davidrohr)
