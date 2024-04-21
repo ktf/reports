@@ -76,6 +76,7 @@
 	- [\#13046](https://github.com/AliceO2Group/AliceO2/pull/13046) 2024-04-19: Fix bug when reading input string for chamber fixing by [@Elros60](https://github.com/Elros60)
 	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
+	- [\#13056](https://github.com/AliceO2Group/AliceO2/pull/13056) 2024-04-21: GPU ITS tracking: make tracking mode available in configKeyVals + fixes by [@mconcas](https://github.com/mconcas)
 	- [\#13057](https://github.com/AliceO2Group/AliceO2/pull/13057) 2024-04-21: ITS: Add track writer workflow by [@mconcas](https://github.com/mconcas)
 	- [\#13059](https://github.com/AliceO2Group/AliceO2/pull/13059) 2024-04-21: Name debug stream according to the lane rules by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
