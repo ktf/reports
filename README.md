@@ -24,7 +24,6 @@
 	- [\#13053](https://github.com/AliceO2Group/AliceO2/pull/13053) 2024-04-22: Allow for smooth move to the new naming of QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12963](https://github.com/AliceO2Group/AliceO2/pull/12963) 2024-04-01: onnxruntime upstream uses onnxruntime::onnxruntime: Adhere to that and remain compatible with our custom onnxruntime build by [@davidrohr](https://github.com/davidrohr)
 	- [\#12964](https://github.com/AliceO2Group/AliceO2/pull/12964) 2024-04-02: Some fixes for onnxruntime in TRD, but disabling it since still broken and untested by [@davidrohr](https://github.com/davidrohr)
 	- [\#12966](https://github.com/AliceO2Group/AliceO2/pull/12966) 2024-04-01: GPU: More fixes for the HIP CMake code and for GCC13 by [@davidrohr](https://github.com/davidrohr)
 	- [\#12967](https://github.com/AliceO2Group/AliceO2/pull/12967) 2024-04-03: ONNXRuntime: some fixes to use onnxruntime >= 1.16 by [@davidrohr](https://github.com/davidrohr)
