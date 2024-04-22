@@ -77,6 +77,7 @@
 	- [\#13056](https://github.com/AliceO2Group/AliceO2/pull/13056) 2024-04-21: GPU ITS tracking: make tracking mode available in configKeyVals + fixes by [@mconcas](https://github.com/mconcas)
 	- [\#13057](https://github.com/AliceO2Group/AliceO2/pull/13057) 2024-04-21: ITS: Add track writer workflow by [@mconcas](https://github.com/mconcas)
 	- [\#13059](https://github.com/AliceO2Group/AliceO2/pull/13059) 2024-04-21: Name debug stream according to the lane rules by [@shahor02](https://github.com/shahor02)
+	- [\#13060](https://github.com/AliceO2Group/AliceO2/pull/13060) 2024-04-22: [EMCAL-630] Improve documentation of RawToCellConverterSpec by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 	- [\#12977](https://github.com/AliceO2Group/AliceO2/pull/12977) 2024-04-03: DPL: Improve warning message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
