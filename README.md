@@ -90,6 +90,7 @@
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
 	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
+	- [\#13051](https://github.com/AliceO2Group/AliceO2/pull/13051) 2024-04-22: DPL: Fix memory leak in variant_helper by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12980](https://github.com/AliceO2Group/AliceO2/pull/12980) 2024-04-05: Providing an box generator natively for ALICEO2. by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
