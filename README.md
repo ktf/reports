@@ -25,7 +25,6 @@
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12971](https://github.com/AliceO2Group/AliceO2/pull/12971) 2024-04-03: [EMCAL-1116] Add possibility to push pedestals to DCS ccdb by [@jokonig](https://github.com/jokonig)
 	- [\#12972](https://github.com/AliceO2Group/AliceO2/pull/12972) 2024-04-03: ITS: Factorise whole tracking behind a single interface by [@mconcas](https://github.com/mconcas)
 	- [\#12974](https://github.com/AliceO2Group/AliceO2/pull/12974) 2024-04-18: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12978](https://github.com/AliceO2Group/AliceO2/pull/12978) 2024-04-03: ClusterSharingMapSpec loads GRPECS for NHBFPerTF by [@shahor02](https://github.com/shahor02)

@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add complete resolution factors for SP and EP with 3 subevents using full TPC, FT0A, FT0C",
-            "number": 5727,
-            "author": {
-              "login": "Elros60"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqFlow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-04-20T16:10:30Z",
             "title": "K*(892)pm analysis: added cut for primary track eta",
@@ -2407,7 +2357,7 @@
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/converters/v0sconverter.cxx"
+                    "path": "PWGLF/TableProducer/converters/v0coresconverter.cxx"
                   }
                 },
                 {
@@ -2718,6 +2668,31 @@
                 {
                   "node": {
                     "path": "PWGJE/TableProducer/secondaryVertexReconstruction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Phi and K982 task add TOF bypass option",
+            "number": 5827,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phianalysis.cxx"
                   }
                 }
               ]
