@@ -26,7 +26,6 @@
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12969](https://github.com/AliceO2Group/AliceO2/pull/12969) 2024-04-02: Mute stray debug log in o2-raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12971](https://github.com/AliceO2Group/AliceO2/pull/12971) 2024-04-03: [EMCAL-1116] Add possibility to push pedestals to DCS ccdb by [@jokonig](https://github.com/jokonig)
 	- [\#12972](https://github.com/AliceO2Group/AliceO2/pull/12972) 2024-04-03: ITS: Factorise whole tracking behind a single interface by [@mconcas](https://github.com/mconcas)
