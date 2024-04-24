@@ -10,6 +10,7 @@
 	- [\#13018](https://github.com/AliceO2Group/AliceO2/pull/13018) 2024-04-17: [EMCAL-565] Add cut on pre and post trigger pile-up by [@jokonig](https://github.com/jokonig)
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
+	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12974](https://github.com/AliceO2Group/AliceO2/pull/12974) 2024-04-18: ctpdev by [@lietava](https://github.com/lietava)
@@ -23,10 +24,8 @@
 	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13053](https://github.com/AliceO2Group/AliceO2/pull/13053) 2024-04-22: Allow for smooth move to the new naming of QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
+	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12966](https://github.com/AliceO2Group/AliceO2/pull/12966) 2024-04-01: GPU: More fixes for the HIP CMake code and for GCC13 by [@davidrohr](https://github.com/davidrohr)
-	- [\#12967](https://github.com/AliceO2Group/AliceO2/pull/12967) 2024-04-03: ONNXRuntime: some fixes to use onnxruntime >= 1.16 by [@davidrohr](https://github.com/davidrohr)
-	- [\#12968](https://github.com/AliceO2Group/AliceO2/pull/12968) 2024-04-01: Fix in the RCT updater deployment by [@shahor02](https://github.com/shahor02)
 	- [\#12969](https://github.com/AliceO2Group/AliceO2/pull/12969) 2024-04-02: Mute stray debug log in o2-raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12970](https://github.com/AliceO2Group/AliceO2/pull/12970) 2024-04-06: TPC: Use qmax/time contributions to cluster error and occupancy estimators - not yet final, don't merge by [@davidrohr](https://github.com/davidrohr)
 	- [\#12971](https://github.com/AliceO2Group/AliceO2/pull/12971) 2024-04-03: [EMCAL-1116] Add possibility to push pedestals to DCS ccdb by [@jokonig](https://github.com/jokonig)
@@ -71,6 +70,7 @@
 	- [\#13040](https://github.com/AliceO2Group/AliceO2/pull/13040) 2024-04-21: [EMCAL-916, EMCAL-537, EMCAL-550, EMCAL-911] Integrate TRU decoding into sync reco by [@mfasDa](https://github.com/mfasDa)
 	- [\#13045](https://github.com/AliceO2Group/AliceO2/pull/13045) 2024-04-19: [EMCAL-565, EMCAL-566] Prevent saving/overwriting calib multiple times at EOR by [@jokonig](https://github.com/jokonig)
 	- [\#13046](https://github.com/AliceO2Group/AliceO2/pull/13046) 2024-04-19: Fix bug when reading input string for chamber fixing by [@Elros60](https://github.com/Elros60)
+	- [\#13048](https://github.com/AliceO2Group/AliceO2/pull/13048) 2024-04-23: TPC/simulation: Add PT correction to gas density using configurable p… by [@tubagundem](https://github.com/tubagundem)
 	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13056](https://github.com/AliceO2Group/AliceO2/pull/13056) 2024-04-21: GPU ITS tracking: make tracking mode available in configKeyVals + fixes by [@mconcas](https://github.com/mconcas)
@@ -78,6 +78,8 @@
 	- [\#13059](https://github.com/AliceO2Group/AliceO2/pull/13059) 2024-04-21: Name debug stream according to the lane rules by [@shahor02](https://github.com/shahor02)
 	- [\#13060](https://github.com/AliceO2Group/AliceO2/pull/13060) 2024-04-22: [EMCAL-630] Improve documentation of RawToCellConverterSpec by [@mfasDa](https://github.com/mfasDa)
 	- [\#13062](https://github.com/AliceO2Group/AliceO2/pull/13062) 2024-04-22: Account ITS/MFT ROF start shift in AOD ITS/MFT standalone tracks time by [@shahor02](https://github.com/shahor02)
+	- [\#13064](https://github.com/AliceO2Group/AliceO2/pull/13064) 2024-04-23: Add mult estimators to matching debug output by [@shahor02](https://github.com/shahor02)
+	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#12977](https://github.com/AliceO2Group/AliceO2/pull/12977) 2024-04-03: DPL: Improve warning message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
@@ -87,6 +89,7 @@
 	- [\#13007](https://github.com/AliceO2Group/AliceO2/pull/13007) 2024-04-11: Add comment to labelledArray types by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
+	- [\#13036](https://github.com/AliceO2Group/AliceO2/pull/13036) 2024-04-23: Demote exit transition timeout error to warning by [@martenole](https://github.com/martenole)
 	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
 	- [\#13051](https://github.com/AliceO2Group/AliceO2/pull/13051) 2024-04-22: DPL: Fix memory leak in variant_helper by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
