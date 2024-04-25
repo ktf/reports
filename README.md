@@ -75,6 +75,7 @@
 	- [\#13064](https://github.com/AliceO2Group/AliceO2/pull/13064) 2024-04-23: Add mult estimators to matching debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13066](https://github.com/AliceO2Group/AliceO2/pull/13066) 2024-04-25: PHS: publish pedestal vector at PHS/PedestalRun/Pedestals in the CCDB by [@sevdokim](https://github.com/sevdokim)
+	- [\#13075](https://github.com/AliceO2Group/AliceO2/pull/13075) 2024-04-25: fix mult. estimator for ITSMFT debug output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12976](https://github.com/AliceO2Group/AliceO2/pull/12976) 2024-04-24: DPL: disable cpu_usage_fraction for proxies by [@ktf](https://github.com/ktf)
 	- [\#12977](https://github.com/AliceO2Group/AliceO2/pull/12977) 2024-04-03: DPL: Improve warning message by [@davidrohr](https://github.com/davidrohr)
