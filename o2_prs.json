@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-05T12:54:43Z",
-            "title": "[EMCAL-1116] Minor improvemts to pedestal calibrator",
-            "number": 12985,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALPedestalHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALPedestalHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/PedestalCalibDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-05T08:48:21Z",
             "title": "TPC cluster finder: Fix off-by-one error in scan.",
             "number": 12986,
@@ -3311,6 +3281,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/reconstruction/test/testTRUDataHandler.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restore discarded VDrift calib. creation time after imposing winner p…",
+            "number": 13085,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/VDriftHelper.cxx"
                   }
                 }
               ]
