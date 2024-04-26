@@ -76,6 +76,7 @@
 	- [\#13066](https://github.com/AliceO2Group/AliceO2/pull/13066) 2024-04-25: PHS: publish pedestal vector at PHS/PedestalRun/Pedestals in the CCDB by [@sevdokim](https://github.com/sevdokim)
 	- [\#13075](https://github.com/AliceO2Group/AliceO2/pull/13075) 2024-04-25: fix mult. estimator for ITSMFT debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
+	- [\#13080](https://github.com/AliceO2Group/AliceO2/pull/13080) 2024-04-26: ctpdev by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 	- [\#12990](https://github.com/AliceO2Group/AliceO2/pull/12990) 2024-04-08: Add missing energy column in StoredTracksIU by [@vkucera](https://github.com/vkucera)
 	- [\#12991](https://github.com/AliceO2Group/AliceO2/pull/12991) 2024-04-11: Add momentum vector in track tables by [@vkucera](https://github.com/vkucera)
