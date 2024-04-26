@@ -11,6 +11,7 @@
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
+	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
@@ -84,6 +85,7 @@
 	- [\#13036](https://github.com/AliceO2Group/AliceO2/pull/13036) 2024-04-23: Demote exit transition timeout error to warning by [@martenole](https://github.com/martenole)
 	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
 	- [\#13051](https://github.com/AliceO2Group/AliceO2/pull/13051) 2024-04-22: DPL: Fix memory leak in variant_helper by [@ktf](https://github.com/ktf)
+	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#13000](https://github.com/AliceO2Group/AliceO2/pull/13000) 2024-04-09: Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… by [@sawenzel](https://github.com/sawenzel)
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
