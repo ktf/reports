@@ -12,6 +12,7 @@
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
+	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
