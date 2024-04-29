@@ -54,6 +54,7 @@
 	- [\#13033](https://github.com/AliceO2Group/AliceO2/pull/13033) 2024-04-16: Fixe TPC clusters extraction for millepede, decrease verbosity of RootTreeReader by [@shahor02](https://github.com/shahor02)
 	- [\#13034](https://github.com/AliceO2Group/AliceO2/pull/13034) 2024-04-17: [MCH] new options to add channels from DE Ids and HV/LV DCS aliases by [@pillot](https://github.com/pillot)
 	- [\#13035](https://github.com/AliceO2Group/AliceO2/pull/13035) 2024-04-17: Option to manage ROF length reporting by [@shahor02](https://github.com/shahor02)
+	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
 	- [\#13039](https://github.com/AliceO2Group/AliceO2/pull/13039) 2024-04-17: [EMCAL-565] Fix axis for time histogram in bad channel calibration by [@jokonig](https://github.com/jokonig)
 	- [\#13040](https://github.com/AliceO2Group/AliceO2/pull/13040) 2024-04-21: [EMCAL-916, EMCAL-537, EMCAL-550, EMCAL-911] Integrate TRU decoding into sync reco by [@mfasDa](https://github.com/mfasDa)
 	- [\#13045](https://github.com/AliceO2Group/AliceO2/pull/13045) 2024-04-19: [EMCAL-565, EMCAL-566] Prevent saving/overwriting calib multiple times at EOR by [@jokonig](https://github.com/jokonig)
@@ -91,5 +92,6 @@
 ## Recent developments in O2 - Steer
 	- [\#13000](https://github.com/AliceO2Group/AliceO2/pull/13000) 2024-04-09: Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… by [@sawenzel](https://github.com/sawenzel)
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
+	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
 ## Recent developments in O2 - Utilities
 	- [\#12998](https://github.com/AliceO2Group/AliceO2/pull/12998) 2024-04-11: QC-1143 Merge objects before publishing at End Of Stream by [@knopers8](https://github.com/knopers8)
