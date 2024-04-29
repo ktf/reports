@@ -80,7 +80,6 @@
 	- [\#13085](https://github.com/AliceO2Group/AliceO2/pull/13085) 2024-04-26: Restore discarded VDrift calib. creation time after imposing winner p… by [@shahor02](https://github.com/shahor02)
 	- [\#13087](https://github.com/AliceO2Group/AliceO2/pull/13087) 2024-04-28: Do not propagate to refX in TPC refitter when not not needed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12993](https://github.com/AliceO2Group/AliceO2/pull/12993) 2024-04-06: reserve bit of mc particle flag for OOB pileup tagging by [@maciacco](https://github.com/maciacco)
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
 	- [\#13007](https://github.com/AliceO2Group/AliceO2/pull/13007) 2024-04-11: Add comment to labelledArray types by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
