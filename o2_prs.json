@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-09T11:35:42Z",
-            "title": "Optionally store ref.track together with moved one.",
-            "number": 12997,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TPCTrackStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-04-11T07:33:50Z",
-            "title": "QC-1143 Merge objects before publishing at End Of Stream",
-            "number": 12998,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/include/Mergers/IntegratingMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/src/FullHistoryMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/src/IntegratingMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/test/common.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/test/customTopologyCommon.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/test/histosTopologyCommon.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/test/test_MergerTopologyHistosFullHistory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/test/vectorTopologyCommon.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-09T12:51:26Z",
             "title": "Add Michal to the codeowners of QC-related code",
             "number": 12999,
@@ -3326,6 +3251,56 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optional TRD/TOF tracks request for PV used for interpolation",
+            "number": 13097,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] ITS Fix for online dead map builder",
+            "number": 13098,
+            "author": {
+              "login": "nicolovalle"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RUDecodeData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
                   }
                 }
               ]
