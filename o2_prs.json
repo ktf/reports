@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-15T07:50:16Z",
-            "title": "Allow specifying different track source for TPC map extraction",
-            "number": 12992,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCInterpolationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-interpolation-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-06T20:42:42Z",
             "title": "reserve bit of mc particle flag for OOB pileup tagging",
             "number": 12993,
@@ -3341,6 +3296,36 @@
                 {
                   "node": {
                     "path": "DataFormats/QualityControl/README.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "QC-1163 Update QC flag type list to be in sync with BKP",
+            "number": 13092,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/etc/flagTypes.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/test/testFlagTypes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/test/testQualityControlFlagCollection.cxx"
                   }
                 }
               ]
