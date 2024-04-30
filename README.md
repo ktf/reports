@@ -95,6 +95,5 @@
 	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 	- [\#13096](https://github.com/AliceO2Group/AliceO2/pull/13096) 2024-04-30: DPL: improve Signposts implementation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-	- [\#13000](https://github.com/AliceO2Group/AliceO2/pull/13000) 2024-04-09: Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… by [@sawenzel](https://github.com/sawenzel)
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
