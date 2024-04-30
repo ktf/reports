@@ -81,6 +81,9 @@
 	- [\#13093](https://github.com/AliceO2Group/AliceO2/pull/13093) 2024-04-29: [MCH] add dsIndex key for muonview by [@pillot](https://github.com/pillot)
 	- [\#13095](https://github.com/AliceO2Group/AliceO2/pull/13095) 2024-04-30: [EMCAL-604] Initialize Unit Tests for the EMCal Geometry class by [@nstrangm](https://github.com/nstrangm)
 	- [\#13097](https://github.com/AliceO2Group/AliceO2/pull/13097) 2024-04-30: Optional TRD/TOF tracks request for PV used for interpolation by [@shahor02](https://github.com/shahor02)
+	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
+## Recent developments in O2 - Examples
+	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
 	- [\#13007](https://github.com/AliceO2Group/AliceO2/pull/13007) 2024-04-11: Add comment to labelledArray types by [@jgrosseo](https://github.com/jgrosseo)
