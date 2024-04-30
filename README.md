@@ -77,6 +77,7 @@
 	- [\#13087](https://github.com/AliceO2Group/AliceO2/pull/13087) 2024-04-28: Do not propagate to refX in TPC refitter when not not needed by [@shahor02](https://github.com/shahor02)
 	- [\#13090](https://github.com/AliceO2Group/AliceO2/pull/13090) 2024-04-29: add to debug output original TPC tracks tree by [@shahor02](https://github.com/shahor02)
 	- [\#13093](https://github.com/AliceO2Group/AliceO2/pull/13093) 2024-04-29: [MCH] add dsIndex key for muonview by [@pillot](https://github.com/pillot)
+	- [\#13097](https://github.com/AliceO2Group/AliceO2/pull/13097) 2024-04-30: Optional TRD/TOF tracks request for PV used for interpolation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#13006](https://github.com/AliceO2Group/AliceO2/pull/13006) 2024-04-10: DPL Analysis: add ability to have ConfigurableGroup produce prefixed options by [@aalkin](https://github.com/aalkin)
 	- [\#13007](https://github.com/AliceO2Group/AliceO2/pull/13007) 2024-04-11: Add comment to labelledArray types by [@jgrosseo](https://github.com/jgrosseo)
