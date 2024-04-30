@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-25T00:04:57Z",
-            "title": "PWGLF: Phi and K982 task add TOF bypass option",
-            "number": 5827,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/k892analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-24T16:37:03Z",
             "title": "fix tpc and its refit cuts + add dcaXY cuts + make lifetime cut configurable",
             "number": 5828,
@@ -2494,8 +2469,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-04-30T18:12:21Z",
             "title": "PWGJE: removing need for extra v0 constituent coloumn",
             "number": 5925,
             "author": {
@@ -2546,6 +2521,41 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/lambdav2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add magnetic field in event mixing + use magnetic field variable for …",
+            "number": 5927,
+            "author": {
+              "login": "rbailhac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/MCtemplates.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/emEfficiencyEE.cxx"
                   }
                 }
               ]
