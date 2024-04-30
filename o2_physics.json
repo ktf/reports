@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-25T09:23:41Z",
-            "title": "Add particle MC ID + ITS chi2/Ncls in derived data + extra event selections in the analysis task",
-            "number": 5816,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzeromcbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/converters/stradautracksextraconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/converters/stradautrackstofpidconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/converters/strarawcentsconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/converters/v0coresconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-24T09:09:04Z",
             "title": "[PWGDQ] Fixing issue with table-maker process function and updating dimuon histograms",
             "number": 5817,
@@ -2646,6 +2586,31 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adding phi-k0s correlation analysis task",
+            "number": 5916,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
                   }
                 }
               ]
