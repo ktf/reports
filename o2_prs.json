@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-10T15:27:01Z",
-            "title": "Warn about current and TPC scaler object runNumbers only once",
-            "number": 13002,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCScalerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-10T22:32:45Z",
             "title": "Group tracks per vertex in the TrackingStudy output, extra info",
             "number": 13003,
@@ -3461,6 +3441,36 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add test to verify crashing workflows",
+            "number": 13102,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AllCrashTypes.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_CrashingWorkflow.cxx"
                   }
                 }
               ]
