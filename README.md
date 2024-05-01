@@ -11,7 +11,6 @@
 	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 	- [\#13021](https://github.com/AliceO2Group/AliceO2/pull/13021) 2024-04-15: trivial fix in one TOF setter by [@noferini](https://github.com/noferini)
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
@@ -26,7 +25,6 @@
 	- [\#13092](https://github.com/AliceO2Group/AliceO2/pull/13092) 2024-04-30: QC-1163 Update QC flag type list to be in sync with BKP by [@knopers8](https://github.com/knopers8)
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13003](https://github.com/AliceO2Group/AliceO2/pull/13003) 2024-04-10: Group tracks per vertex in the TrackingStudy output, extra info by [@shahor02](https://github.com/shahor02)
 	- [\#13004](https://github.com/AliceO2Group/AliceO2/pull/13004) 2024-04-15: Uniform A-side X coordinate sign with the reconstructed one by [@coppedis](https://github.com/coppedis)
 	- [\#13009](https://github.com/AliceO2Group/AliceO2/pull/13009) 2024-04-11: rct-updater defines dummy output to bind ccdb-populator by [@shahor02](https://github.com/shahor02)
 	- [\#13010](https://github.com/AliceO2Group/AliceO2/pull/13010) 2024-04-11: Send CTF size report for QC monitoring by [@martenole](https://github.com/martenole)
@@ -82,6 +80,7 @@
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 	- [\#13100](https://github.com/AliceO2Group/AliceO2/pull/13100) 2024-04-30: V0: Fix wrong V0 Photon TPConly cut by [@f3sch](https://github.com/f3sch)
 	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
+	- [\#13103](https://github.com/AliceO2Group/AliceO2/pull/13103) 2024-05-01: Fix: copy original v0 if refit is not required by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
