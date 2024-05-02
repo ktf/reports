@@ -24,6 +24,7 @@
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
 	- [\#13092](https://github.com/AliceO2Group/AliceO2/pull/13092) 2024-04-30: QC-1163 Update QC flag type list to be in sync with BKP by [@knopers8](https://github.com/knopers8)
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
+	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Detectors
 	- [\#13009](https://github.com/AliceO2Group/AliceO2/pull/13009) 2024-04-11: rct-updater defines dummy output to bind ccdb-populator by [@shahor02](https://github.com/shahor02)
 	- [\#13010](https://github.com/AliceO2Group/AliceO2/pull/13010) 2024-04-11: Send CTF size report for QC monitoring by [@martenole](https://github.com/martenole)
@@ -76,6 +77,7 @@
 	- [\#13093](https://github.com/AliceO2Group/AliceO2/pull/13093) 2024-04-29: [MCH] add dsIndex key for muonview by [@pillot](https://github.com/pillot)
 	- [\#13095](https://github.com/AliceO2Group/AliceO2/pull/13095) 2024-04-30: [EMCAL-604] Initialize Unit Tests for the EMCal Geometry class by [@nstrangm](https://github.com/nstrangm)
 	- [\#13097](https://github.com/AliceO2Group/AliceO2/pull/13097) 2024-04-30: Optional TRD/TOF tracks request for PV used for interpolation by [@shahor02](https://github.com/shahor02)
+	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 	- [\#13100](https://github.com/AliceO2Group/AliceO2/pull/13100) 2024-04-30: V0: Fix wrong V0 Photon TPConly cut by [@f3sch](https://github.com/f3sch)
 	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
