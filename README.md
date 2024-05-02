@@ -25,7 +25,6 @@
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Detectors
-	- [\#13009](https://github.com/AliceO2Group/AliceO2/pull/13009) 2024-04-11: rct-updater defines dummy output to bind ccdb-populator by [@shahor02](https://github.com/shahor02)
 	- [\#13010](https://github.com/AliceO2Group/AliceO2/pull/13010) 2024-04-11: Send CTF size report for QC monitoring by [@martenole](https://github.com/martenole)
 	- [\#13011](https://github.com/AliceO2Group/AliceO2/pull/13011) 2024-04-11: Alice3: add minimal documentation + Magnetic field macro by [@mconcas](https://github.com/mconcas)
 	- [\#13012](https://github.com/AliceO2Group/AliceO2/pull/13012) 2024-04-11: Add support for ONNXRuntime 1.17.1 by [@ktf](https://github.com/ktf)
