@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-11T19:19:25Z",
-            "title": "Add support for ONNXRuntime 1.17.1",
-            "number": 13012,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/ML.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/ML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/include/FastSimulations.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/include/Processors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindONNXRuntime.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-15T15:55:55Z",
             "title": "Account EmptyChips in active chips status",
             "number": 13013,
@@ -3526,6 +3481,51 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-1134, EMCAL-1135] Handle TRU decoding errors",
+            "number": 13112,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/ErrorTypeFEE.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/ErrorTypeFEE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/ReconstructionErrors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/src/ReconstructionErrors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
