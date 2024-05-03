@@ -25,7 +25,6 @@
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Detectors
-	- [\#13013](https://github.com/AliceO2Group/AliceO2/pull/13013) 2024-04-15: Account EmptyChips in active chips status by [@shahor02](https://github.com/shahor02)
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 	- [\#13018](https://github.com/AliceO2Group/AliceO2/pull/13018) 2024-04-17: [EMCAL-565] Add cut on pre and post trigger pile-up by [@jokonig](https://github.com/jokonig)
