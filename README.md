@@ -79,6 +79,7 @@
 	- [\#13100](https://github.com/AliceO2Group/AliceO2/pull/13100) 2024-04-30: V0: Fix wrong V0 Photon TPConly cut by [@f3sch](https://github.com/f3sch)
 	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
 	- [\#13103](https://github.com/AliceO2Group/AliceO2/pull/13103) 2024-05-01: Fix: copy original v0 if refit is not required by [@shahor02](https://github.com/shahor02)
+	- [\#13106](https://github.com/AliceO2Group/AliceO2/pull/13106) 2024-05-03: ALICE3: Beam pipe update and TRK & FT3 modifications that follow from it by [@Cas1997](https://github.com/Cas1997)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
