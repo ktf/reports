@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-29T15:17:10Z",
-            "title": "Add trackProbQA and avoid memory problem as dividing histograms",
-            "number": 5884,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jettaggerhf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jettaggerhfQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-29T08:54:53Z",
             "title": "Added histos for tvx, collision and MC collision vs bc in TF",
             "number": 5885,
@@ -2408,8 +2383,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-05-03T15:43:50Z",
             "title": "PWGLF: Fixed dependency conflict",
             "number": 5973,
             "author": {
@@ -2720,6 +2695,56 @@
                 {
                   "node": {
                     "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE: Adding WTA recombination scheme jets to the jet finder",
+            "number": 5984,
+            "author": {
+              "login": "dajones2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/Jet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderdatachargedalt.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcdchargedalt.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcpchargedalt.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]
