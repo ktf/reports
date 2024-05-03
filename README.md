@@ -25,7 +25,6 @@
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Detectors
-	- [\#13011](https://github.com/AliceO2Group/AliceO2/pull/13011) 2024-04-11: Alice3: add minimal documentation + Magnetic field macro by [@mconcas](https://github.com/mconcas)
 	- [\#13012](https://github.com/AliceO2Group/AliceO2/pull/13012) 2024-04-11: Add support for ONNXRuntime 1.17.1 by [@ktf](https://github.com/ktf)
 	- [\#13013](https://github.com/AliceO2Group/AliceO2/pull/13013) 2024-04-15: Account EmptyChips in active chips status by [@shahor02](https://github.com/shahor02)
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
