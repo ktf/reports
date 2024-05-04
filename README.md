@@ -1,7 +1,10 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
+	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#13018](https://github.com/AliceO2Group/AliceO2/pull/13018) 2024-04-17: [EMCAL-565] Add cut on pre and post trigger pile-up by [@jokonig](https://github.com/jokonig)
 	- [\#13031](https://github.com/AliceO2Group/AliceO2/pull/13031) 2024-04-16: DPL: Fix orderedCompletionPolicy getting stuck when oldestPossibleTimeslice message jumps by > 1 at once, and any but the last TF in the jump range is missing by [@davidrohr](https://github.com/davidrohr)
@@ -9,6 +12,7 @@
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
+	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
 	- [\#13021](https://github.com/AliceO2Group/AliceO2/pull/13021) 2024-04-15: trivial fix in one TOF setter by [@noferini](https://github.com/noferini)
@@ -90,6 +94,7 @@
 	- [\#13096](https://github.com/AliceO2Group/AliceO2/pull/13096) 2024-04-30: DPL: improve Signposts implementation by [@ktf](https://github.com/ktf)
 	- [\#13102](https://github.com/AliceO2Group/AliceO2/pull/13102) 2024-05-02: DPL: add test to verify crashing workflows by [@ktf](https://github.com/ktf)
 	- [\#13104](https://github.com/AliceO2Group/AliceO2/pull/13104) 2024-05-02: DPL: improve instrumentation for the preProcessingCallbacks by [@ktf](https://github.com/ktf)
+	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
