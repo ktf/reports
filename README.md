@@ -91,6 +91,7 @@
 	- [\#13043](https://github.com/AliceO2Group/AliceO2/pull/13043) 2024-04-19: Add pVector in McParticles by [@vkucera](https://github.com/vkucera)
 	- [\#13051](https://github.com/AliceO2Group/AliceO2/pull/13051) 2024-04-22: DPL: Fix memory leak in variant_helper by [@ktf](https://github.com/ktf)
 	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
+	- [\#13082](https://github.com/AliceO2Group/AliceO2/pull/13082) 2024-05-05: DPL: improve messages on caught exceptions by [@ktf](https://github.com/ktf)
 	- [\#13096](https://github.com/AliceO2Group/AliceO2/pull/13096) 2024-04-30: DPL: improve Signposts implementation by [@ktf](https://github.com/ktf)
 	- [\#13102](https://github.com/AliceO2Group/AliceO2/pull/13102) 2024-05-02: DPL: add test to verify crashing workflows by [@ktf](https://github.com/ktf)
 	- [\#13104](https://github.com/AliceO2Group/AliceO2/pull/13104) 2024-05-02: DPL: improve instrumentation for the preProcessingCallbacks by [@ktf](https://github.com/ktf)
