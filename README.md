@@ -25,9 +25,11 @@
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13073](https://github.com/AliceO2Group/AliceO2/pull/13073) 2024-04-26: QC-1160 Move to the new names for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
+	- [\#13091](https://github.com/AliceO2Group/AliceO2/pull/13091) 2024-05-06: QC-1163 Rework and update the documentation for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13092](https://github.com/AliceO2Group/AliceO2/pull/13092) 2024-04-30: QC-1163 Update QC flag type list to be in sync with BKP by [@knopers8](https://github.com/knopers8)
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
+	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 	- [\#13015](https://github.com/AliceO2Group/AliceO2/pull/13015) 2024-04-18: Simdigitizer by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#13016](https://github.com/AliceO2Group/AliceO2/pull/13016) 2024-04-12: TOF matching debug mode improvements by [@noferini](https://github.com/noferini)
@@ -82,6 +84,7 @@
 	- [\#13103](https://github.com/AliceO2Group/AliceO2/pull/13103) 2024-05-01: Fix: copy original v0 if refit is not required by [@shahor02](https://github.com/shahor02)
 	- [\#13106](https://github.com/AliceO2Group/AliceO2/pull/13106) 2024-05-03: ALICE3: Beam pipe update and TRK & FT3 modifications that follow from it by [@Cas1997](https://github.com/Cas1997)
 	- [\#13110](https://github.com/AliceO2Group/AliceO2/pull/13110) 2024-05-03: TrackIndices are simple counters, not GlobalTrackID by [@shahor02](https://github.com/shahor02)
+	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
