@@ -28,6 +28,7 @@
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
+	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13023](https://github.com/AliceO2Group/AliceO2/pull/13023) 2024-04-13: Use detectror-specific AlpideParam for ROF-rate check by [@shahor02](https://github.com/shahor02)
@@ -81,6 +82,7 @@
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13114](https://github.com/AliceO2Group/AliceO2/pull/13114) 2024-05-07: ITS Calib: s-curve points for threshold scans in the root trees by [@iravasen](https://github.com/iravasen)
 	- [\#13115](https://github.com/AliceO2Group/AliceO2/pull/13115) 2024-05-06: [EMCAL-1134] Handle leftover case by [@mfasDa](https://github.com/mfasDa)
+	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
