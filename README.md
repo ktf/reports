@@ -13,8 +13,6 @@
 	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#13021](https://github.com/AliceO2Group/AliceO2/pull/13021) 2024-04-15: trivial fix in one TOF setter by [@noferini](https://github.com/noferini)
-	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 	- [\#13040](https://github.com/AliceO2Group/AliceO2/pull/13040) 2024-04-21: [EMCAL-916, EMCAL-537, EMCAL-550, EMCAL-911] Integrate TRU decoding into sync reco by [@mfasDa](https://github.com/mfasDa)
 	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
@@ -30,7 +28,6 @@
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13022](https://github.com/AliceO2Group/AliceO2/pull/13022) 2024-04-15: Do not store failed laser calib, ignore in VDriftHelper by [@shahor02](https://github.com/shahor02)
 	- [\#13023](https://github.com/AliceO2Group/AliceO2/pull/13023) 2024-04-13: Use detectror-specific AlpideParam for ROF-rate check by [@shahor02](https://github.com/shahor02)
 	- [\#13024](https://github.com/AliceO2Group/AliceO2/pull/13024) 2024-04-14: Skip empty ROFs only with no-empty-rof option in digi2raw by [@shahor02](https://github.com/shahor02)
 	- [\#13025](https://github.com/AliceO2Group/AliceO2/pull/13025) 2024-04-15: macro to dump volumes ideal and real origins in lab frame by [@shahor02](https://github.com/shahor02)
@@ -84,6 +81,7 @@
 	- [\#13114](https://github.com/AliceO2Group/AliceO2/pull/13114) 2024-05-07: ITS Calib: s-curve points for threshold scans in the root trees by [@iravasen](https://github.com/iravasen)
 	- [\#13115](https://github.com/AliceO2Group/AliceO2/pull/13115) 2024-05-06: [EMCAL-1134] Handle leftover case by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
+	- [\#13121](https://github.com/AliceO2Group/AliceO2/pull/13121) 2024-05-08: more informative report from sv-reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
