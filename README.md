@@ -66,6 +66,7 @@
 	- [\#13080](https://github.com/AliceO2Group/AliceO2/pull/13080) 2024-04-26: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#13081](https://github.com/AliceO2Group/AliceO2/pull/13081) 2024-04-29: Fix multiplicity accumulator for debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13085](https://github.com/AliceO2Group/AliceO2/pull/13085) 2024-04-26: Restore discarded VDrift calib. creation time after imposing winner p… by [@shahor02](https://github.com/shahor02)
+	- [\#13086](https://github.com/AliceO2Group/AliceO2/pull/13086) 2024-05-08: TRD gain calibration don't create TCanvas by [@martenole](https://github.com/martenole)
 	- [\#13087](https://github.com/AliceO2Group/AliceO2/pull/13087) 2024-04-28: Do not propagate to refX in TPC refitter when not not needed by [@shahor02](https://github.com/shahor02)
 	- [\#13088](https://github.com/AliceO2Group/AliceO2/pull/13088) 2024-04-30: return dca in fast propagator and fix issue with TPC track length by [@noferini](https://github.com/noferini)
 	- [\#13090](https://github.com/AliceO2Group/AliceO2/pull/13090) 2024-04-29: add to debug output original TPC tracks tree by [@shahor02](https://github.com/shahor02)
