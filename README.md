@@ -96,5 +96,6 @@
 	- [\#13102](https://github.com/AliceO2Group/AliceO2/pull/13102) 2024-05-02: DPL: add test to verify crashing workflows by [@ktf](https://github.com/ktf)
 	- [\#13104](https://github.com/AliceO2Group/AliceO2/pull/13104) 2024-05-02: DPL: improve instrumentation for the preProcessingCallbacks by [@ktf](https://github.com/ktf)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
+	- [\#13120](https://github.com/AliceO2Group/AliceO2/pull/13120) 2024-05-09: Data: Change default compression mode to recommended settings by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Steer
 	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
