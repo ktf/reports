@@ -81,6 +81,7 @@
 	- [\#13115](https://github.com/AliceO2Group/AliceO2/pull/13115) 2024-05-06: [EMCAL-1134] Handle leftover case by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 	- [\#13121](https://github.com/AliceO2Group/AliceO2/pull/13121) 2024-05-08: more informative report from sv-reader by [@shahor02](https://github.com/shahor02)
+	- [\#13123](https://github.com/AliceO2Group/AliceO2/pull/13123) 2024-05-10: reducing log severity for TOF compressor by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
