@@ -13,7 +13,6 @@
 	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 	- [\#13040](https://github.com/AliceO2Group/AliceO2/pull/13040) 2024-04-21: [EMCAL-916, EMCAL-537, EMCAL-550, EMCAL-911] Integrate TRU decoding into sync reco by [@mfasDa](https://github.com/mfasDa)
 	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13053](https://github.com/AliceO2Group/AliceO2/pull/13053) 2024-04-22: Allow for smooth move to the new naming of QC flags by [@knopers8](https://github.com/knopers8)
@@ -28,7 +27,6 @@
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 	- [\#13029](https://github.com/AliceO2Group/AliceO2/pull/13029) 2024-04-18: add protection in TOF geo by [@noferini](https://github.com/noferini)
 	- [\#13030](https://github.com/AliceO2Group/AliceO2/pull/13030) 2024-04-18: fix missing fitting of HV in HMPIDDCSProcessor by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#13032](https://github.com/AliceO2Group/AliceO2/pull/13032) 2024-04-17: EMCAL increase check interval for bad channel and time calibrations by [@martenole](https://github.com/martenole)
