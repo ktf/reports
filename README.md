@@ -79,6 +79,7 @@
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 	- [\#13121](https://github.com/AliceO2Group/AliceO2/pull/13121) 2024-05-08: more informative report from sv-reader by [@shahor02](https://github.com/shahor02)
 	- [\#13123](https://github.com/AliceO2Group/AliceO2/pull/13123) 2024-05-10: reducing log severity for TOF compressor by [@noferini](https://github.com/noferini)
+	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
@@ -95,5 +96,8 @@
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13116](https://github.com/AliceO2Group/AliceO2/pull/13116) 2024-05-10: DPL: mark o2-dpl-input-proxy as a proxy by [@ktf](https://github.com/ktf)
 	- [\#13120](https://github.com/AliceO2Group/AliceO2/pull/13120) 2024-05-09: Data: Change default compression mode to recommended settings by [@f3sch](https://github.com/f3sch)
+	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
+## Recent developments in O2 - Utilities
+	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
