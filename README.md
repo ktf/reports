@@ -28,7 +28,6 @@
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13026](https://github.com/AliceO2Group/AliceO2/pull/13026) 2024-04-15: Add debug output to TRD gain calibration by [@martenole](https://github.com/martenole)
 	- [\#13027](https://github.com/AliceO2Group/AliceO2/pull/13027) 2024-04-15: [EMCAL-710] Fix namespace in stream operator by [@mfasDa](https://github.com/mfasDa)
 	- [\#13029](https://github.com/AliceO2Group/AliceO2/pull/13029) 2024-04-18: add protection in TOF geo by [@noferini](https://github.com/noferini)
 	- [\#13030](https://github.com/AliceO2Group/AliceO2/pull/13030) 2024-04-18: fix missing fitting of HV in HMPIDDCSProcessor by [@gvolpe79](https://github.com/gvolpe79)
