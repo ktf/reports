@@ -56,6 +56,7 @@
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
 	- [\#13080](https://github.com/AliceO2Group/AliceO2/pull/13080) 2024-04-26: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#13081](https://github.com/AliceO2Group/AliceO2/pull/13081) 2024-04-29: Fix multiplicity accumulator for debug output by [@shahor02](https://github.com/shahor02)
+	- [\#13084](https://github.com/AliceO2Group/AliceO2/pull/13084) 2024-05-13: [EMCAL-1136] Unit tests for trigger reconstruction by [@mfasDa](https://github.com/mfasDa)
 	- [\#13085](https://github.com/AliceO2Group/AliceO2/pull/13085) 2024-04-26: Restore discarded VDrift calib. creation time after imposing winner p… by [@shahor02](https://github.com/shahor02)
 	- [\#13086](https://github.com/AliceO2Group/AliceO2/pull/13086) 2024-05-08: TRD gain calibration don't create TCanvas by [@martenole](https://github.com/martenole)
 	- [\#13087](https://github.com/AliceO2Group/AliceO2/pull/13087) 2024-04-28: Do not propagate to refX in TPC refitter when not not needed by [@shahor02](https://github.com/shahor02)
