@@ -28,7 +28,6 @@
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13034](https://github.com/AliceO2Group/AliceO2/pull/13034) 2024-04-17: [MCH] new options to add channels from DE Ids and HV/LV DCS aliases by [@pillot](https://github.com/pillot)
 	- [\#13035](https://github.com/AliceO2Group/AliceO2/pull/13035) 2024-04-17: Option to manage ROF length reporting by [@shahor02](https://github.com/shahor02)
 	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
 	- [\#13039](https://github.com/AliceO2Group/AliceO2/pull/13039) 2024-04-17: [EMCAL-565] Fix axis for time histogram in bad channel calibration by [@jokonig](https://github.com/jokonig)
