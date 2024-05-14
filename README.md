@@ -28,7 +28,6 @@
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
 	- [\#13039](https://github.com/AliceO2Group/AliceO2/pull/13039) 2024-04-17: [EMCAL-565] Fix axis for time histogram in bad channel calibration by [@jokonig](https://github.com/jokonig)
 	- [\#13040](https://github.com/AliceO2Group/AliceO2/pull/13040) 2024-04-21: [EMCAL-916, EMCAL-537, EMCAL-550, EMCAL-911] Integrate TRU decoding into sync reco by [@mfasDa](https://github.com/mfasDa)
 	- [\#13045](https://github.com/AliceO2Group/AliceO2/pull/13045) 2024-04-19: [EMCAL-565, EMCAL-566] Prevent saving/overwriting calib multiple times at EOR by [@jokonig](https://github.com/jokonig)
@@ -93,7 +92,5 @@
 	- [\#13120](https://github.com/AliceO2Group/AliceO2/pull/13120) 2024-05-09: Data: Change default compression mode to recommended settings by [@f3sch](https://github.com/f3sch)
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13136](https://github.com/AliceO2Group/AliceO2/pull/13136) 2024-05-14: DPL: use idiomatic C++ to get rid of whitespaces by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-	- [\#13038](https://github.com/AliceO2Group/AliceO2/pull/13038) 2024-04-29: Inclination angle effects in MCH digitizer by [@mwinn2](https://github.com/mwinn2)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
