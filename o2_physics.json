@@ -6,36 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "[event plane] q-vector calculation for different harmonics in one task",
-            "number": 6059,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qVectorsCorrection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "PWGHF: add selectors and tree creators for new omegac0 channels",
             "number": 6060,
             "author": {
@@ -2889,6 +2859,36 @@
                 {
                   "node": {
                     "path": "PWGEM/Tasks/phosElId.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: use dedicated func for track quality checks xic omegac",
+            "number": 6159,
+            "author": {
+              "login": "ZFederica"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaKa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorToXiPi.cxx"
                   }
                 }
               ]
