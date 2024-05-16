@@ -27,6 +27,7 @@
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
+	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#13045](https://github.com/AliceO2Group/AliceO2/pull/13045) 2024-04-19: [EMCAL-565, EMCAL-566] Prevent saving/overwriting calib multiple times at EOR by [@jokonig](https://github.com/jokonig)
 	- [\#13046](https://github.com/AliceO2Group/AliceO2/pull/13046) 2024-04-19: Fix bug when reading input string for chamber fixing by [@Elros60](https://github.com/Elros60)
@@ -92,6 +93,7 @@
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13136](https://github.com/AliceO2Group/AliceO2/pull/13136) 2024-05-14: DPL: use idiomatic C++ to get rid of whitespaces by [@ktf](https://github.com/ktf)
+	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
