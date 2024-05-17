@@ -6,6 +6,7 @@
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
+	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
@@ -75,6 +76,7 @@
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13128](https://github.com/AliceO2Group/AliceO2/pull/13128) 2024-05-12: Add to TrackingStudy output tracks w/o ITS and occ. estimator by [@shahor02](https://github.com/shahor02)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
+	- [\#13140](https://github.com/AliceO2Group/AliceO2/pull/13140) 2024-05-17: MeanVertex calibrator sends CSV MeanVertex object to DCS CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
@@ -94,6 +96,7 @@
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13136](https://github.com/AliceO2Group/AliceO2/pull/13136) 2024-05-14: DPL: use idiomatic C++ to get rid of whitespaces by [@ktf](https://github.com/ktf)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
+	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
