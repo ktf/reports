@@ -15,7 +15,6 @@
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13053](https://github.com/AliceO2Group/AliceO2/pull/13053) 2024-04-22: Allow for smooth move to the new naming of QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
@@ -31,7 +30,6 @@
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#13048](https://github.com/AliceO2Group/AliceO2/pull/13048) 2024-04-23: TPC/simulation: Add PT correction to gas density using configurable p… by [@tubagundem](https://github.com/tubagundem)
-	- [\#13052](https://github.com/AliceO2Group/AliceO2/pull/13052) 2024-04-19: [EMCAL-710] Fix number of error types after adding STU decoder errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13056](https://github.com/AliceO2Group/AliceO2/pull/13056) 2024-04-21: GPU ITS tracking: make tracking mode available in configKeyVals + fixes by [@mconcas](https://github.com/mconcas)
 	- [\#13057](https://github.com/AliceO2Group/AliceO2/pull/13057) 2024-04-21: ITS: Add track writer workflow by [@mconcas](https://github.com/mconcas)
