@@ -93,6 +93,7 @@
 	- [\#13136](https://github.com/AliceO2Group/AliceO2/pull/13136) 2024-05-14: DPL: use idiomatic C++ to get rid of whitespaces by [@ktf](https://github.com/ktf)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
+	- [\#13143](https://github.com/AliceO2Group/AliceO2/pull/13143) 2024-05-19: DPL: print channel name when tracing messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
