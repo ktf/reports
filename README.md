@@ -18,6 +18,7 @@
 ## Recent developments in O2 - DataFormats
 	- [\#13053](https://github.com/AliceO2Group/AliceO2/pull/13053) 2024-04-22: Allow for smooth move to the new naming of QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
+	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13073](https://github.com/AliceO2Group/AliceO2/pull/13073) 2024-04-26: QC-1160 Move to the new names for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
@@ -34,6 +35,7 @@
 	- [\#13055](https://github.com/AliceO2Group/AliceO2/pull/13055) 2024-04-20: multiple fixes for mp alignment framework by [@shahor02](https://github.com/shahor02)
 	- [\#13056](https://github.com/AliceO2Group/AliceO2/pull/13056) 2024-04-21: GPU ITS tracking: make tracking mode available in configKeyVals + fixes by [@mconcas](https://github.com/mconcas)
 	- [\#13057](https://github.com/AliceO2Group/AliceO2/pull/13057) 2024-04-21: ITS: Add track writer workflow by [@mconcas](https://github.com/mconcas)
+	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13059](https://github.com/AliceO2Group/AliceO2/pull/13059) 2024-04-21: Name debug stream according to the lane rules by [@shahor02](https://github.com/shahor02)
 	- [\#13060](https://github.com/AliceO2Group/AliceO2/pull/13060) 2024-04-22: [EMCAL-630] Improve documentation of RawToCellConverterSpec by [@mfasDa](https://github.com/mfasDa)
 	- [\#13062](https://github.com/AliceO2Group/AliceO2/pull/13062) 2024-04-22: Account ITS/MFT ROF start shift in AOD ITS/MFT standalone tracks time by [@shahor02](https://github.com/shahor02)
