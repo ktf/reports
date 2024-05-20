@@ -29,7 +29,6 @@
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#13048](https://github.com/AliceO2Group/AliceO2/pull/13048) 2024-04-23: TPC/simulation: Add PT correction to gas density using configurable p… by [@tubagundem](https://github.com/tubagundem)
 	- [\#13056](https://github.com/AliceO2Group/AliceO2/pull/13056) 2024-04-21: GPU ITS tracking: make tracking mode available in configKeyVals + fixes by [@mconcas](https://github.com/mconcas)
 	- [\#13057](https://github.com/AliceO2Group/AliceO2/pull/13057) 2024-04-21: ITS: Add track writer workflow by [@mconcas](https://github.com/mconcas)
 	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
