@@ -69,6 +69,7 @@
 	- [\#13128](https://github.com/AliceO2Group/AliceO2/pull/13128) 2024-05-12: Add to TrackingStudy output tracks w/o ITS and occ. estimator by [@shahor02](https://github.com/shahor02)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13140](https://github.com/AliceO2Group/AliceO2/pull/13140) 2024-05-17: MeanVertex calibrator sends CSV MeanVertex object to DCS CCDB by [@shahor02](https://github.com/shahor02)
+	- [\#13149](https://github.com/AliceO2Group/AliceO2/pull/13149) 2024-05-21: add lane ID to debug file name if more than 1 lanes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
