@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-22T06:29:20Z",
-            "title": "Allow for smooth move to the new naming of QC flags",
-            "number": 13053,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/FlagType.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/FlagTypeFactory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/QualityControlFlag.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/QualityControlFlagCollection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/test/testFlagReasons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/test/testTimeRangeFlag.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/test/testTimeRangeFlagCollection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-21T17:52:10Z",
             "title": "GPU: Add HIP per-kernel compilation mode",
             "number": 13054,
@@ -3906,7 +3851,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Remove the obsolete NotBadFlagExample",
+            "title": "[WIP] Remove the obsolete NotBadFlagExample",
             "number": 13152,
             "author": {
               "login": "knopers8"
@@ -3921,6 +3866,51 @@
                 {
                   "node": {
                     "path": "DataFormats/QualityControl/test/testQualityControlFlagCollection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-78, FOCAL-84] First commit for the geometry helper class for the FOCAL detector",
+            "number": 13153,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/include/FOCALBase/Composition.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/include/FOCALBase/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/src/Composition.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/src/FOCALBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/src/Geometry.cxx"
                   }
                 }
               ]
