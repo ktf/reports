@@ -15,7 +15,6 @@
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#13053](https://github.com/AliceO2Group/AliceO2/pull/13053) 2024-04-22: Allow for smooth move to the new naming of QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13073](https://github.com/AliceO2Group/AliceO2/pull/13073) 2024-04-26: QC-1160 Move to the new names for QC flags by [@knopers8](https://github.com/knopers8)
@@ -30,8 +29,6 @@
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
-	- [\#13060](https://github.com/AliceO2Group/AliceO2/pull/13060) 2024-04-22: [EMCAL-630] Improve documentation of RawToCellConverterSpec by [@mfasDa](https://github.com/mfasDa)
-	- [\#13062](https://github.com/AliceO2Group/AliceO2/pull/13062) 2024-04-22: Account ITS/MFT ROF start shift in AOD ITS/MFT standalone tracks time by [@shahor02](https://github.com/shahor02)
 	- [\#13064](https://github.com/AliceO2Group/AliceO2/pull/13064) 2024-04-23: Add mult estimators to matching debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13065](https://github.com/AliceO2Group/AliceO2/pull/13065) 2024-04-23: GPU: Do not use printf in GPU code if GPUCA_GPU_DEBUG_PRINT is not defined by [@davidrohr](https://github.com/davidrohr)
 	- [\#13066](https://github.com/AliceO2Group/AliceO2/pull/13066) 2024-04-25: PHS: publish pedestal vector at PHS/PedestalRun/Pedestals in the CCDB by [@sevdokim](https://github.com/sevdokim)
