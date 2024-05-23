@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-05-15T22:06:13Z",
-            "title": "PWGCF: Added plots of N-sigma, wrong species tracking, and removed unused particles",
-            "number": 6165,
-            "author": {
-              "login": "bghanley1995"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/identifiedbf.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-05-15T19:59:53Z",
             "title": "[PWG-LF] Update dca selection to new dm",
             "number": 6166,
@@ -2444,8 +2414,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-05-23T19:08:36Z",
             "title": "V2occupancy",
             "number": 6263,
             "author": {
@@ -2486,6 +2456,41 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: add occupancy in time range to str. der. data",
+            "number": 6265,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/converters/strarawcentsconverter2v4.cxx"
                   }
                 }
               ]
