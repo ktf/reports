@@ -14,7 +14,6 @@
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13073](https://github.com/AliceO2Group/AliceO2/pull/13073) 2024-04-26: QC-1160 Move to the new names for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
 	- [\#13091](https://github.com/AliceO2Group/AliceO2/pull/13091) 2024-05-06: QC-1163 Rework and update the documentation for QC flags by [@knopers8](https://github.com/knopers8)
@@ -26,7 +25,6 @@
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13066](https://github.com/AliceO2Group/AliceO2/pull/13066) 2024-04-25: PHS: publish pedestal vector at PHS/PedestalRun/Pedestals in the CCDB by [@sevdokim](https://github.com/sevdokim)
 	- [\#13072](https://github.com/AliceO2Group/AliceO2/pull/13072) 2024-04-26: Additional changes for newer versions of ONNXRuntime by [@pzhristov](https://github.com/pzhristov)
 	- [\#13075](https://github.com/AliceO2Group/AliceO2/pull/13075) 2024-04-25: fix mult. estimator for ITSMFT debug output by [@shahor02](https://github.com/shahor02)
