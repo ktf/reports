@@ -88,6 +88,7 @@
 	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13143](https://github.com/AliceO2Group/AliceO2/pull/13143) 2024-05-19: DPL: print channel name when tracing messages by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
+	- [\#13155](https://github.com/AliceO2Group/AliceO2/pull/13155) 2024-05-24: DPL: avoid memory churn when pushing variable state by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
