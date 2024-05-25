@@ -26,9 +26,7 @@
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13066](https://github.com/AliceO2Group/AliceO2/pull/13066) 2024-04-25: PHS: publish pedestal vector at PHS/PedestalRun/Pedestals in the CCDB by [@sevdokim](https://github.com/sevdokim)
 	- [\#13072](https://github.com/AliceO2Group/AliceO2/pull/13072) 2024-04-26: Additional changes for newer versions of ONNXRuntime by [@pzhristov](https://github.com/pzhristov)
-	- [\#13075](https://github.com/AliceO2Group/AliceO2/pull/13075) 2024-04-25: fix mult. estimator for ITSMFT debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13077](https://github.com/AliceO2Group/AliceO2/pull/13077) 2024-04-29: MID efficiency: ensure that the spanned vector exists for the full processing by [@dstocco](https://github.com/dstocco)
 	- [\#13078](https://github.com/AliceO2Group/AliceO2/pull/13078) 2024-04-26: [EMCAL-741] Use std::round for pedestal ADC extraction by [@mfasDa](https://github.com/mfasDa)
 	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
