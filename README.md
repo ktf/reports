@@ -9,13 +9,10 @@
 	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#13073](https://github.com/AliceO2Group/AliceO2/pull/13073) 2024-04-26: QC-1160 Move to the new names for QC flags by [@knopers8](https://github.com/knopers8)
-	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
 	- [\#13091](https://github.com/AliceO2Group/AliceO2/pull/13091) 2024-05-06: QC-1163 Rework and update the documentation for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13092](https://github.com/AliceO2Group/AliceO2/pull/13092) 2024-04-30: QC-1163 Update QC flag type list to be in sync with BKP by [@knopers8](https://github.com/knopers8)
 	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
@@ -26,14 +23,9 @@
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13072](https://github.com/AliceO2Group/AliceO2/pull/13072) 2024-04-26: Additional changes for newer versions of ONNXRuntime by [@pzhristov](https://github.com/pzhristov)
 	- [\#13077](https://github.com/AliceO2Group/AliceO2/pull/13077) 2024-04-29: MID efficiency: ensure that the spanned vector exists for the full processing by [@dstocco](https://github.com/dstocco)
-	- [\#13078](https://github.com/AliceO2Group/AliceO2/pull/13078) 2024-04-26: [EMCAL-741] Use std::round for pedestal ADC extraction by [@mfasDa](https://github.com/mfasDa)
-	- [\#13079](https://github.com/AliceO2Group/AliceO2/pull/13079) 2024-04-26: TPC: several unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
-	- [\#13080](https://github.com/AliceO2Group/AliceO2/pull/13080) 2024-04-26: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#13081](https://github.com/AliceO2Group/AliceO2/pull/13081) 2024-04-29: Fix multiplicity accumulator for debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13084](https://github.com/AliceO2Group/AliceO2/pull/13084) 2024-05-13: [EMCAL-1136] Unit tests for trigger reconstruction by [@mfasDa](https://github.com/mfasDa)
-	- [\#13085](https://github.com/AliceO2Group/AliceO2/pull/13085) 2024-04-26: Restore discarded VDrift calib. creation time after imposing winner p… by [@shahor02](https://github.com/shahor02)
 	- [\#13086](https://github.com/AliceO2Group/AliceO2/pull/13086) 2024-05-08: TRD gain calibration don't create TCanvas by [@martenole](https://github.com/martenole)
 	- [\#13087](https://github.com/AliceO2Group/AliceO2/pull/13087) 2024-04-28: Do not propagate to refX in TPC refitter when not not needed by [@shahor02](https://github.com/shahor02)
 	- [\#13088](https://github.com/AliceO2Group/AliceO2/pull/13088) 2024-04-30: return dca in fast propagator and fix issue with TPC track length by [@noferini](https://github.com/noferini)
@@ -70,7 +62,6 @@
 ## Recent developments in O2 - Examples
 	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
-	- [\#13076](https://github.com/AliceO2Group/AliceO2/pull/13076) 2024-04-26: DPL: force flushing of the metrics at the end of processing by [@ktf](https://github.com/ktf)
 	- [\#13082](https://github.com/AliceO2Group/AliceO2/pull/13082) 2024-05-05: DPL: improve messages on caught exceptions by [@ktf](https://github.com/ktf)
 	- [\#13096](https://github.com/AliceO2Group/AliceO2/pull/13096) 2024-04-30: DPL: improve Signposts implementation by [@ktf](https://github.com/ktf)
 	- [\#13102](https://github.com/AliceO2Group/AliceO2/pull/13102) 2024-05-02: DPL: add test to verify crashing workflows by [@ktf](https://github.com/ktf)
