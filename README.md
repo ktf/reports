@@ -57,6 +57,7 @@
 	- [\#13150](https://github.com/AliceO2Group/AliceO2/pull/13150) 2024-05-22: FT0: Delete unused variables by [@sawenzel](https://github.com/sawenzel)
 	- [\#13151](https://github.com/AliceO2Group/AliceO2/pull/13151) 2024-05-21: ITS: new default ranges for vcasn scan + fix of trivial bug  by [@iravasen](https://github.com/iravasen)
 	- [\#13153](https://github.com/AliceO2Group/AliceO2/pull/13153) 2024-05-24: [FOCAL-78, FOCAL-84] First commit for the geometry helper class for the FOCAL detector by [@iarsene](https://github.com/iarsene)
+	- [\#13161](https://github.com/AliceO2Group/AliceO2/pull/13161) 2024-05-26: Check for ITS cableID mapper out of bound access by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
