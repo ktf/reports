@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-23T13:44:47Z",
-            "title": "CCDBApi: avoid leaking curl handle.",
-            "number": 13061,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CCDBDownloader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testCcdbApiDownloader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-22T21:02:20Z",
             "title": "Account ITS/MFT ROF start shift in AOD ITS/MFT standalone tracks time",
             "number": 13062,
@@ -3726,6 +3691,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataAllocator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Check for ITS cableID mapper out of bound access",
+            "number": 13161,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingITS.h"
                   }
                 }
               ]
