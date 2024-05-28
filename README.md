@@ -37,6 +37,7 @@
 	- [\#13100](https://github.com/AliceO2Group/AliceO2/pull/13100) 2024-04-30: V0: Fix wrong V0 Photon TPConly cut by [@f3sch](https://github.com/f3sch)
 	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
 	- [\#13103](https://github.com/AliceO2Group/AliceO2/pull/13103) 2024-05-01: Fix: copy original v0 if refit is not required by [@shahor02](https://github.com/shahor02)
+	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
 	- [\#13106](https://github.com/AliceO2Group/AliceO2/pull/13106) 2024-05-03: ALICE3: Beam pipe update and TRK & FT3 modifications that follow from it by [@Cas1997](https://github.com/Cas1997)
 	- [\#13109](https://github.com/AliceO2Group/AliceO2/pull/13109) 2024-05-21: [MCH] add StatusMap IO and a converter to RejectList by [@pillot](https://github.com/pillot)
 	- [\#13110](https://github.com/AliceO2Group/AliceO2/pull/13110) 2024-05-03: TrackIndices are simple counters, not GlobalTrackID by [@shahor02](https://github.com/shahor02)
