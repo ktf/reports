@@ -60,6 +60,7 @@
 	- [\#13153](https://github.com/AliceO2Group/AliceO2/pull/13153) 2024-05-24: [FOCAL-78, FOCAL-84] First commit for the geometry helper class for the FOCAL detector by [@iarsene](https://github.com/iarsene)
 	- [\#13159](https://github.com/AliceO2Group/AliceO2/pull/13159) 2024-05-28: [AOD] Fix the AOD stored MC collision time relative to the BC by [@njacazio](https://github.com/njacazio)
 	- [\#13161](https://github.com/AliceO2Group/AliceO2/pull/13161) 2024-05-26: Check for ITS cableID mapper out of bound access by [@shahor02](https://github.com/shahor02)
+	- [\#13168](https://github.com/AliceO2Group/AliceO2/pull/13168) 2024-05-28: Cleanup headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
