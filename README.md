@@ -84,6 +84,7 @@
 	- [\#13155](https://github.com/AliceO2Group/AliceO2/pull/13155) 2024-05-24: DPL: avoid memory churn when pushing variable state by [@ktf](https://github.com/ktf)
 	- [\#13157](https://github.com/AliceO2Group/AliceO2/pull/13157) 2024-05-24: DPL: adapt to support new FairLogger by [@ktf](https://github.com/ktf)
 	- [\#13160](https://github.com/AliceO2Group/AliceO2/pull/13160) 2024-05-25: DPL: improve signposts for adding parts by [@ktf](https://github.com/ktf)
+	- [\#13167](https://github.com/AliceO2Group/AliceO2/pull/13167) 2024-05-28: DPL: drop unneeded signpost protection by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
