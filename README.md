@@ -9,7 +9,6 @@
 	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#13089](https://github.com/AliceO2Group/AliceO2/pull/13089) 2024-04-28: Open TreeStream file with recreate, write with kOverwrite by [@shahor02](https://github.com/shahor02)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -27,7 +26,6 @@
 	- [\#13081](https://github.com/AliceO2Group/AliceO2/pull/13081) 2024-04-29: Fix multiplicity accumulator for debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13084](https://github.com/AliceO2Group/AliceO2/pull/13084) 2024-05-13: [EMCAL-1136] Unit tests for trigger reconstruction by [@mfasDa](https://github.com/mfasDa)
 	- [\#13086](https://github.com/AliceO2Group/AliceO2/pull/13086) 2024-05-08: TRD gain calibration don't create TCanvas by [@martenole](https://github.com/martenole)
-	- [\#13087](https://github.com/AliceO2Group/AliceO2/pull/13087) 2024-04-28: Do not propagate to refX in TPC refitter when not not needed by [@shahor02](https://github.com/shahor02)
 	- [\#13088](https://github.com/AliceO2Group/AliceO2/pull/13088) 2024-04-30: return dca in fast propagator and fix issue with TPC track length by [@noferini](https://github.com/noferini)
 	- [\#13090](https://github.com/AliceO2Group/AliceO2/pull/13090) 2024-04-29: add to debug output original TPC tracks tree by [@shahor02](https://github.com/shahor02)
 	- [\#13093](https://github.com/AliceO2Group/AliceO2/pull/13093) 2024-04-29: [MCH] add dsIndex key for muonview by [@pillot](https://github.com/pillot)
