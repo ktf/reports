@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-04-25T09:00:09Z",
-            "title": "PHS: publish pedestal vector at PHS/PedestalRun/Pedestals in the CCDB",
-            "number": 13066,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSPedestalCalibDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Add getter for Afterburner tracks",
@@ -3671,6 +3651,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/DCSParserSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MatRepStdGPU and SMatrixImpCUDA tests",
+            "number": 13166,
+            "author": {
+              "login": "avojarot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/test/testMatRepStdGPU.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/test/testSMatrixImp.cu"
                   }
                 }
               ]
