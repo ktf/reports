@@ -15,7 +15,6 @@
 ## Recent developments in O2 - DataFormats
 	- [\#13091](https://github.com/AliceO2Group/AliceO2/pull/13091) 2024-05-06: QC-1163 Rework and update the documentation for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13092](https://github.com/AliceO2Group/AliceO2/pull/13092) 2024-04-30: QC-1163 Update QC flag type list to be in sync with BKP by [@knopers8](https://github.com/knopers8)
-	- [\#13094](https://github.com/AliceO2Group/AliceO2/pull/13094) 2024-04-29: Add some aux methods for interactive track drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
@@ -23,13 +22,9 @@
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13077](https://github.com/AliceO2Group/AliceO2/pull/13077) 2024-04-29: MID efficiency: ensure that the spanned vector exists for the full processing by [@dstocco](https://github.com/dstocco)
-	- [\#13081](https://github.com/AliceO2Group/AliceO2/pull/13081) 2024-04-29: Fix multiplicity accumulator for debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13084](https://github.com/AliceO2Group/AliceO2/pull/13084) 2024-05-13: [EMCAL-1136] Unit tests for trigger reconstruction by [@mfasDa](https://github.com/mfasDa)
 	- [\#13086](https://github.com/AliceO2Group/AliceO2/pull/13086) 2024-05-08: TRD gain calibration don't create TCanvas by [@martenole](https://github.com/martenole)
 	- [\#13088](https://github.com/AliceO2Group/AliceO2/pull/13088) 2024-04-30: return dca in fast propagator and fix issue with TPC track length by [@noferini](https://github.com/noferini)
-	- [\#13090](https://github.com/AliceO2Group/AliceO2/pull/13090) 2024-04-29: add to debug output original TPC tracks tree by [@shahor02](https://github.com/shahor02)
-	- [\#13093](https://github.com/AliceO2Group/AliceO2/pull/13093) 2024-04-29: [MCH] add dsIndex key for muonview by [@pillot](https://github.com/pillot)
 	- [\#13095](https://github.com/AliceO2Group/AliceO2/pull/13095) 2024-04-30: [EMCAL-604] Initialize Unit Tests for the EMCal Geometry class by [@nstrangm](https://github.com/nstrangm)
 	- [\#13097](https://github.com/AliceO2Group/AliceO2/pull/13097) 2024-04-30: Optional TRD/TOF tracks request for PV used for interpolation by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
