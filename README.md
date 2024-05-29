@@ -58,6 +58,7 @@
 	- [\#13161](https://github.com/AliceO2Group/AliceO2/pull/13161) 2024-05-26: Check for ITS cableID mapper out of bound access by [@shahor02](https://github.com/shahor02)
 	- [\#13168](https://github.com/AliceO2Group/AliceO2/pull/13168) 2024-05-28: Cleanup headers by [@ktf](https://github.com/ktf)
 	- [\#13171](https://github.com/AliceO2Group/AliceO2/pull/13171) 2024-05-29: o2-sim: Apply dynamic detector lib loading to all detectors by [@sawenzel](https://github.com/sawenzel)
+	- [\#13176](https://github.com/AliceO2Group/AliceO2/pull/13176) 2024-05-29: #13173 - fixing DCA for combined tracking + adding nshared clusters by [@miranov25](https://github.com/miranov25)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
