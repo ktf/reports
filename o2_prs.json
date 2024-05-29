@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-29T09:13:25Z",
-            "title": "MID efficiency: ensure that the spanned vector exists for the full processing",
-            "number": 13077,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Workflow/src/ChamberEfficiencySpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-04-26T09:07:40Z",
             "title": "[EMCAL-741] Use std::round for pedestal ADC extraction",
             "number": 13078,
@@ -3445,6 +3425,31 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TPC: Track time constrain must consider TPCFastTransform::getT0()",
+            "number": 13178,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
                   }
                 }
               ]
