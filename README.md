@@ -14,7 +14,6 @@
 	- [\#13148](https://github.com/AliceO2Group/AliceO2/pull/13148) 2024-05-28: SIM: Adding experiment versions and dynamic library loading by [@f3sch](https://github.com/f3sch)
 	- [\#13172](https://github.com/AliceO2Group/AliceO2/pull/13172) 2024-05-29: SIM: fix detector list parsing by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
-	- [\#13091](https://github.com/AliceO2Group/AliceO2/pull/13091) 2024-05-06: QC-1163 Rework and update the documentation for QC flags by [@knopers8](https://github.com/knopers8)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
@@ -57,6 +56,7 @@
 	- [\#13177](https://github.com/AliceO2Group/AliceO2/pull/13177) 2024-05-29: PHS: fix seg faults in TRU decoding (AltroDecoder.cxx) by [@sevdokim](https://github.com/sevdokim)
 	- [\#13184](https://github.com/AliceO2Group/AliceO2/pull/13184) 2024-05-30: Revert "o2-sim: Apply dynamic detector lib loading to all detectors" by [@sawenzel](https://github.com/sawenzel)
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
+	- [\#13192](https://github.com/AliceO2Group/AliceO2/pull/13192) 2024-05-30: TPCTrackStudy extracts final scaled correction instead of nominal map by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
