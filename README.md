@@ -15,7 +15,6 @@
 	- [\#13172](https://github.com/AliceO2Group/AliceO2/pull/13172) 2024-05-29: SIM: fix detector list parsing by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 	- [\#13091](https://github.com/AliceO2Group/AliceO2/pull/13091) 2024-05-06: QC-1163 Rework and update the documentation for QC flags by [@knopers8](https://github.com/knopers8)
-	- [\#13092](https://github.com/AliceO2Group/AliceO2/pull/13092) 2024-04-30: QC-1163 Update QC flag type list to be in sync with BKP by [@knopers8](https://github.com/knopers8)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13119](https://github.com/AliceO2Group/AliceO2/pull/13119) 2024-05-07: Do not const_cast/modify sh.mem. objetcs from upstream procsesses by [@shahor02](https://github.com/shahor02)
@@ -25,12 +24,7 @@
 ## Recent developments in O2 - Detectors
 	- [\#13084](https://github.com/AliceO2Group/AliceO2/pull/13084) 2024-05-13: [EMCAL-1136] Unit tests for trigger reconstruction by [@mfasDa](https://github.com/mfasDa)
 	- [\#13086](https://github.com/AliceO2Group/AliceO2/pull/13086) 2024-05-08: TRD gain calibration don't create TCanvas by [@martenole](https://github.com/martenole)
-	- [\#13088](https://github.com/AliceO2Group/AliceO2/pull/13088) 2024-04-30: return dca in fast propagator and fix issue with TPC track length by [@noferini](https://github.com/noferini)
-	- [\#13095](https://github.com/AliceO2Group/AliceO2/pull/13095) 2024-04-30: [EMCAL-604] Initialize Unit Tests for the EMCal Geometry class by [@nstrangm](https://github.com/nstrangm)
-	- [\#13097](https://github.com/AliceO2Group/AliceO2/pull/13097) 2024-04-30: Optional TRD/TOF tracks request for PV used for interpolation by [@shahor02](https://github.com/shahor02)
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
-	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
-	- [\#13100](https://github.com/AliceO2Group/AliceO2/pull/13100) 2024-04-30: V0: Fix wrong V0 Photon TPConly cut by [@f3sch](https://github.com/f3sch)
 	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
 	- [\#13103](https://github.com/AliceO2Group/AliceO2/pull/13103) 2024-05-01: Fix: copy original v0 if refit is not required by [@shahor02](https://github.com/shahor02)
 	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
@@ -63,11 +57,8 @@
 	- [\#13177](https://github.com/AliceO2Group/AliceO2/pull/13177) 2024-05-29: PHS: fix seg faults in TRU decoding (AltroDecoder.cxx) by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Examples
-	- [\#13099](https://github.com/AliceO2Group/AliceO2/pull/13099) 2024-04-30: Doxygen fixes by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
 	- [\#13082](https://github.com/AliceO2Group/AliceO2/pull/13082) 2024-05-05: DPL: improve messages on caught exceptions by [@ktf](https://github.com/ktf)
-	- [\#13096](https://github.com/AliceO2Group/AliceO2/pull/13096) 2024-04-30: DPL: improve Signposts implementation by [@ktf](https://github.com/ktf)
 	- [\#13102](https://github.com/AliceO2Group/AliceO2/pull/13102) 2024-05-02: DPL: add test to verify crashing workflows by [@ktf](https://github.com/ktf)
 	- [\#13104](https://github.com/AliceO2Group/AliceO2/pull/13104) 2024-05-02: DPL: improve instrumentation for the preProcessingCallbacks by [@ktf](https://github.com/ktf)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
