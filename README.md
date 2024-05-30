@@ -21,6 +21,7 @@
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
+	- [\#13189](https://github.com/AliceO2Group/AliceO2/pull/13189) 2024-05-30: Fix typo in getPhiAt method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
