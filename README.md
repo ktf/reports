@@ -58,7 +58,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#13082](https://github.com/AliceO2Group/AliceO2/pull/13082) 2024-05-05: DPL: improve messages on caught exceptions by [@ktf](https://github.com/ktf)
 	- [\#13102](https://github.com/AliceO2Group/AliceO2/pull/13102) 2024-05-02: DPL: add test to verify crashing workflows by [@ktf](https://github.com/ktf)
 	- [\#13104](https://github.com/AliceO2Group/AliceO2/pull/13104) 2024-05-02: DPL: improve instrumentation for the preProcessingCallbacks by [@ktf](https://github.com/ktf)
 	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
