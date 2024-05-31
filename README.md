@@ -25,8 +25,6 @@
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 	- [\#13098](https://github.com/AliceO2Group/AliceO2/pull/13098) 2024-05-02: ITS Fix for online dead map builder by [@nicolovalle](https://github.com/nicolovalle)
-	- [\#13101](https://github.com/AliceO2Group/AliceO2/pull/13101) 2024-05-01: Optionally skip PV validation by interacting BC, extra stat printed. by [@shahor02](https://github.com/shahor02)
-	- [\#13103](https://github.com/AliceO2Group/AliceO2/pull/13103) 2024-05-01: Fix: copy original v0 if refit is not required by [@shahor02](https://github.com/shahor02)
 	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
 	- [\#13106](https://github.com/AliceO2Group/AliceO2/pull/13106) 2024-05-03: ALICE3: Beam pipe update and TRK & FT3 modifications that follow from it by [@Cas1997](https://github.com/Cas1997)
 	- [\#13109](https://github.com/AliceO2Group/AliceO2/pull/13109) 2024-05-21: [MCH] add StatusMap IO and a converter to RejectList by [@pillot](https://github.com/pillot)
