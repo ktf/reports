@@ -76,6 +76,7 @@
 	- [\#13175](https://github.com/AliceO2Group/AliceO2/pull/13175) 2024-05-30: DPL: introduce helper functions to detect only timers / generate by [@ktf](https://github.com/ktf)
 	- [\#13185](https://github.com/AliceO2Group/AliceO2/pull/13185) 2024-05-30: DPL: add signposts for forwarding by [@ktf](https://github.com/ktf)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
+	- [\#13199](https://github.com/AliceO2Group/AliceO2/pull/13199) 2024-06-01: DPL: improve message when signpost is enabled by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
