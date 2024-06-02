@@ -24,9 +24,7 @@
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
-	- [\#13106](https://github.com/AliceO2Group/AliceO2/pull/13106) 2024-05-03: ALICE3: Beam pipe update and TRK & FT3 modifications that follow from it by [@Cas1997](https://github.com/Cas1997)
 	- [\#13109](https://github.com/AliceO2Group/AliceO2/pull/13109) 2024-05-21: [MCH] add StatusMap IO and a converter to RejectList by [@pillot](https://github.com/pillot)
-	- [\#13110](https://github.com/AliceO2Group/AliceO2/pull/13110) 2024-05-03: TrackIndices are simple counters, not GlobalTrackID by [@shahor02](https://github.com/shahor02)
 	- [\#13112](https://github.com/AliceO2Group/AliceO2/pull/13112) 2024-05-06: [EMCAL-1134, EMCAL-1135] Handle TRU decoding errors by [@mfasDa](https://github.com/mfasDa)
 	- [\#13114](https://github.com/AliceO2Group/AliceO2/pull/13114) 2024-05-07: ITS Calib: s-curve points for threshold scans in the root trees by [@iravasen](https://github.com/iravasen)
 	- [\#13115](https://github.com/AliceO2Group/AliceO2/pull/13115) 2024-05-06: [EMCAL-1134] Handle leftover case by [@mfasDa](https://github.com/mfasDa)
