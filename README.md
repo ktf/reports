@@ -1,15 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 	- [\#13148](https://github.com/AliceO2Group/AliceO2/pull/13148) 2024-05-28: SIM: Adding experiment versions and dynamic library loading by [@f3sch](https://github.com/f3sch)
 	- [\#13172](https://github.com/AliceO2Group/AliceO2/pull/13172) 2024-05-29: SIM: fix detector list parsing by [@f3sch](https://github.com/f3sch)
@@ -56,7 +52,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#13113](https://github.com/AliceO2Group/AliceO2/pull/13113) 2024-05-04: DPL: refactor plugin manager by [@ktf](https://github.com/ktf)
 	- [\#13116](https://github.com/AliceO2Group/AliceO2/pull/13116) 2024-05-10: DPL: mark o2-dpl-input-proxy as a proxy by [@ktf](https://github.com/ktf)
 	- [\#13120](https://github.com/AliceO2Group/AliceO2/pull/13120) 2024-05-09: Data: Change default compression mode to recommended settings by [@f3sch](https://github.com/f3sch)
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
