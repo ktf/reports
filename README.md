@@ -18,6 +18,7 @@
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13189](https://github.com/AliceO2Group/AliceO2/pull/13189) 2024-05-30: Fix typo in getPhiAt method by [@shahor02](https://github.com/shahor02)
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
+	- [\#13201](https://github.com/AliceO2Group/AliceO2/pull/13201) 2024-06-03: Do not throw on merging non-initialized flat histors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
 	- [\#13109](https://github.com/AliceO2Group/AliceO2/pull/13109) 2024-05-21: [MCH] add StatusMap IO and a converter to RejectList by [@pillot](https://github.com/pillot)
