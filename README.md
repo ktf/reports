@@ -46,6 +46,7 @@
 	- [\#13176](https://github.com/AliceO2Group/AliceO2/pull/13176) 2024-05-29: #13173 - fixing DCA for combined tracking + adding nshared clusters by [@miranov25](https://github.com/miranov25)
 	- [\#13177](https://github.com/AliceO2Group/AliceO2/pull/13177) 2024-05-29: PHS: fix seg faults in TRU decoding (AltroDecoder.cxx) by [@sevdokim](https://github.com/sevdokim)
 	- [\#13180](https://github.com/AliceO2Group/AliceO2/pull/13180) 2024-06-03: [EMCAL-1144] Fix operator+ in EMCAL Hit by [@mfasDa](https://github.com/mfasDa)
+	- [\#13181](https://github.com/AliceO2Group/AliceO2/pull/13181) 2024-06-03: [FOCAL-77] First version of the FOCAL hit by [@mfasDa](https://github.com/mfasDa)
 	- [\#13184](https://github.com/AliceO2Group/AliceO2/pull/13184) 2024-05-30: Revert "o2-sim: Apply dynamic detector lib loading to all detectors" by [@sawenzel](https://github.com/sawenzel)
 	- [\#13188](https://github.com/AliceO2Group/AliceO2/pull/13188) 2024-05-30: Correctly set WITH_OPENMP to ITS tracking lib by [@mconcas](https://github.com/mconcas)
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
