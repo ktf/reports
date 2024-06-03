@@ -45,6 +45,7 @@
 	- [\#13171](https://github.com/AliceO2Group/AliceO2/pull/13171) 2024-05-29: o2-sim: Apply dynamic detector lib loading to all detectors by [@sawenzel](https://github.com/sawenzel)
 	- [\#13176](https://github.com/AliceO2Group/AliceO2/pull/13176) 2024-05-29: #13173 - fixing DCA for combined tracking + adding nshared clusters by [@miranov25](https://github.com/miranov25)
 	- [\#13177](https://github.com/AliceO2Group/AliceO2/pull/13177) 2024-05-29: PHS: fix seg faults in TRU decoding (AltroDecoder.cxx) by [@sevdokim](https://github.com/sevdokim)
+	- [\#13180](https://github.com/AliceO2Group/AliceO2/pull/13180) 2024-06-03: [EMCAL-1144] Fix operator+ in EMCAL Hit by [@mfasDa](https://github.com/mfasDa)
 	- [\#13184](https://github.com/AliceO2Group/AliceO2/pull/13184) 2024-05-30: Revert "o2-sim: Apply dynamic detector lib loading to all detectors" by [@sawenzel](https://github.com/sawenzel)
 	- [\#13188](https://github.com/AliceO2Group/AliceO2/pull/13188) 2024-05-30: Correctly set WITH_OPENMP to ITS tracking lib by [@mconcas](https://github.com/mconcas)
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
@@ -70,6 +71,8 @@
 	- [\#13185](https://github.com/AliceO2Group/AliceO2/pull/13185) 2024-05-30: DPL: add signposts for forwarding by [@ktf](https://github.com/ktf)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
 	- [\#13199](https://github.com/AliceO2Group/AliceO2/pull/13199) 2024-06-01: DPL: improve message when signpost is enabled by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
