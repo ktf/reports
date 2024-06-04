@@ -71,6 +71,7 @@
 	- [\#13160](https://github.com/AliceO2Group/AliceO2/pull/13160) 2024-05-25: DPL: improve signposts for adding parts by [@ktf](https://github.com/ktf)
 	- [\#13167](https://github.com/AliceO2Group/AliceO2/pull/13167) 2024-05-28: DPL: drop unneeded signpost protection by [@ktf](https://github.com/ktf)
 	- [\#13175](https://github.com/AliceO2Group/AliceO2/pull/13175) 2024-05-30: DPL: introduce helper functions to detect only timers / generate by [@ktf](https://github.com/ktf)
+	- [\#13183](https://github.com/AliceO2Group/AliceO2/pull/13183) 2024-06-04: OCTRL-870 DPL: correctly double-escape argument values in ECS templates by [@knopers8](https://github.com/knopers8)
 	- [\#13185](https://github.com/AliceO2Group/AliceO2/pull/13185) 2024-05-30: DPL: add signposts for forwarding by [@ktf](https://github.com/ktf)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
 	- [\#13199](https://github.com/AliceO2Group/AliceO2/pull/13199) 2024-06-01: DPL: improve message when signpost is enabled by [@ktf](https://github.com/ktf)
