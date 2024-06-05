@@ -51,6 +51,7 @@
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
 	- [\#13192](https://github.com/AliceO2Group/AliceO2/pull/13192) 2024-05-30: TPCTrackStudy extracts final scaled correction instead of nominal map by [@shahor02](https://github.com/shahor02)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
+	- [\#13205](https://github.com/AliceO2Group/AliceO2/pull/13205) 2024-06-05: ATO-615 - TimeSeries increase number of bins in phi, and decrease multiplicity range by [@miranov25](https://github.com/miranov25)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
