@@ -78,6 +78,7 @@
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Generators
 	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
+	- [\#13206](https://github.com/AliceO2Group/AliceO2/pull/13206) 2024-06-05: Prevent segfault in GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
