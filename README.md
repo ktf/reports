@@ -12,6 +12,7 @@
 	- [\#13172](https://github.com/AliceO2Group/AliceO2/pull/13172) 2024-05-29: SIM: fix detector list parsing by [@f3sch](https://github.com/f3sch)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
+	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
@@ -73,6 +74,7 @@
 	- [\#13199](https://github.com/AliceO2Group/AliceO2/pull/13199) 2024-06-01: DPL: improve message when signpost is enabled by [@ktf](https://github.com/ktf)
 	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
+	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
 	- [\#13206](https://github.com/AliceO2Group/AliceO2/pull/13206) 2024-06-05: Prevent segfault in GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
