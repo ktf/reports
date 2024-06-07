@@ -49,6 +49,7 @@
 	- [\#13192](https://github.com/AliceO2Group/AliceO2/pull/13192) 2024-05-30: TPCTrackStudy extracts final scaled correction instead of nominal map by [@shahor02](https://github.com/shahor02)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13205](https://github.com/AliceO2Group/AliceO2/pull/13205) 2024-06-05: ATO-615 - TimeSeries increase number of bins in phi, and decrease multiplicity range by [@miranov25](https://github.com/miranov25)
+	- [\#13208](https://github.com/AliceO2Group/AliceO2/pull/13208) 2024-06-07: [FOCAL-66,  FOCAL-67, FOCAL-68] Skeleton for FOCAL detector simulation by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
