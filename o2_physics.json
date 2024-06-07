@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-05-29T12:14:30Z",
-            "title": "[PWG-LF] Update HMPID task",
-            "number": 6323,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/AntimatterAbsorptionHMPID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-05-29T13:24:39Z",
             "title": "[PWGUD] Added TOF selection for Inclusice Jpsi",
             "number": 6324,
@@ -2655,6 +2635,36 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "move occupancy code from evSelQa task to new task",
+            "number": 6423,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
                   }
                 }
               ]
