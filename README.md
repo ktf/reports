@@ -54,7 +54,6 @@
 	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#13116](https://github.com/AliceO2Group/AliceO2/pull/13116) 2024-05-10: DPL: mark o2-dpl-input-proxy as a proxy by [@ktf](https://github.com/ktf)
-	- [\#13120](https://github.com/AliceO2Group/AliceO2/pull/13120) 2024-05-09: Data: Change default compression mode to recommended settings by [@f3sch](https://github.com/f3sch)
 	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
