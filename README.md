@@ -7,23 +7,18 @@
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#13127](https://github.com/AliceO2Group/AliceO2/pull/13127) 2024-05-10: ignore empty lines in the FileFetcher input list by [@shahor02](https://github.com/shahor02)
 	- [\#13148](https://github.com/AliceO2Group/AliceO2/pull/13148) 2024-05-28: SIM: Adding experiment versions and dynamic library loading by [@f3sch](https://github.com/f3sch)
 	- [\#13172](https://github.com/AliceO2Group/AliceO2/pull/13172) 2024-05-29: SIM: fix detector list parsing by [@f3sch](https://github.com/f3sch)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13189](https://github.com/AliceO2Group/AliceO2/pull/13189) 2024-05-30: Fix typo in getPhiAt method by [@shahor02](https://github.com/shahor02)
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
 	- [\#13201](https://github.com/AliceO2Group/AliceO2/pull/13201) 2024-06-03: Do not throw on merging non-initialized flat histors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13123](https://github.com/AliceO2Group/AliceO2/pull/13123) 2024-05-10: reducing log severity for TOF compressor by [@noferini](https://github.com/noferini)
-	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
-	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 	- [\#13128](https://github.com/AliceO2Group/AliceO2/pull/13128) 2024-05-12: Add to TrackingStudy output tracks w/o ITS and occ. estimator by [@shahor02](https://github.com/shahor02)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13137](https://github.com/AliceO2Group/AliceO2/pull/13137) 2024-05-21: PHS: fix segfault when reading TRU flags in AltroDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
@@ -50,11 +45,7 @@
 	- [\#13205](https://github.com/AliceO2Group/AliceO2/pull/13205) 2024-06-05: ATO-615 - TimeSeries increase number of bins in phi, and decrease multiplicity range by [@miranov25](https://github.com/miranov25)
 	- [\#13208](https://github.com/AliceO2Group/AliceO2/pull/13208) 2024-06-07: [FOCAL-66,  FOCAL-67, FOCAL-68] Skeleton for FOCAL detector simulation by [@mfasDa](https://github.com/mfasDa)
 	- [\#13211](https://github.com/AliceO2Group/AliceO2/pull/13211) 2024-06-07: Add MCtruth + extra info to SVStudy and TrackMCStudy output by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - EventVisualisation
-	- [\#13126](https://github.com/AliceO2Group/AliceO2/pull/13126) 2024-05-10: Fix typo: requestPrimaryVertertices -> requestPrimaryVertices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#13116](https://github.com/AliceO2Group/AliceO2/pull/13116) 2024-05-10: DPL: mark o2-dpl-input-proxy as a proxy by [@ktf](https://github.com/ktf)
-	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13136](https://github.com/AliceO2Group/AliceO2/pull/13136) 2024-05-14: DPL: use idiomatic C++ to get rid of whitespaces by [@ktf](https://github.com/ktf)
@@ -78,5 +69,4 @@
 	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
 	- [\#13206](https://github.com/AliceO2Group/AliceO2/pull/13206) 2024-06-05: Prevent segfault in GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-	- [\#13124](https://github.com/AliceO2Group/AliceO2/pull/13124) 2024-05-10: DPL: mark input proxies with the correct label by [@ktf](https://github.com/ktf)
 	- [\#13134](https://github.com/AliceO2Group/AliceO2/pull/13134) 2024-05-15: QC-1172 Do not use sampling policies which are turned off by [@knopers8](https://github.com/knopers8)
