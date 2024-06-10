@@ -13,13 +13,17 @@
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
+	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13158](https://github.com/AliceO2Group/AliceO2/pull/13158) 2024-05-24: track getDCAY/Z (slow) method for interactive tree drawing by [@shahor02](https://github.com/shahor02)
 	- [\#13189](https://github.com/AliceO2Group/AliceO2/pull/13189) 2024-05-30: Fix typo in getPhiAt method by [@shahor02](https://github.com/shahor02)
 	- [\#13191](https://github.com/AliceO2Group/AliceO2/pull/13191) 2024-05-30: ZDC: Demote bogus error message to warning by [@davidrohr](https://github.com/davidrohr)
 	- [\#13201](https://github.com/AliceO2Group/AliceO2/pull/13201) 2024-06-03: Do not throw on merging non-initialized flat histors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#13128](https://github.com/AliceO2Group/AliceO2/pull/13128) 2024-05-12: Add to TrackingStudy output tracks w/o ITS and occ. estimator by [@shahor02](https://github.com/shahor02)
+	- [\#12988](https://github.com/AliceO2Group/AliceO2/pull/12988) 2024-06-06: Separation power for Pions and Electrons by [@HorstMa](https://github.com/HorstMa)
+	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
+	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
+	- [\#13109](https://github.com/AliceO2Group/AliceO2/pull/13109) 2024-05-21: [MCH] add StatusMap IO and a converter to RejectList by [@pillot](https://github.com/pillot)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13137](https://github.com/AliceO2Group/AliceO2/pull/13137) 2024-05-21: PHS: fix segfault when reading TRU flags in AltroDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 	- [\#13140](https://github.com/AliceO2Group/AliceO2/pull/13140) 2024-05-17: MeanVertex calibrator sends CSV MeanVertex object to DCS CCDB by [@shahor02](https://github.com/shahor02)
@@ -48,7 +52,6 @@
 ## Recent developments in O2 - Framework
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
-	- [\#13136](https://github.com/AliceO2Group/AliceO2/pull/13136) 2024-05-14: DPL: use idiomatic C++ to get rid of whitespaces by [@ktf](https://github.com/ktf)
 	- [\#13141](https://github.com/AliceO2Group/AliceO2/pull/13141) 2024-05-16: DPL: improve save in slot message by [@ktf](https://github.com/ktf)
 	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13143](https://github.com/AliceO2Group/AliceO2/pull/13143) 2024-05-19: DPL: print channel name when tracing messages by [@ktf](https://github.com/ktf)
