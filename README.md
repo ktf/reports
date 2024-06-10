@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
-	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -52,7 +51,6 @@
 ## Recent developments in O2 - Framework
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
-	- [\#13142](https://github.com/AliceO2Group/AliceO2/pull/13142) 2024-05-17: DPL: allow reading metadata from alien files by [@ktf](https://github.com/ktf)
 	- [\#13143](https://github.com/AliceO2Group/AliceO2/pull/13143) 2024-05-19: DPL: print channel name when tracing messages by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13155](https://github.com/AliceO2Group/AliceO2/pull/13155) 2024-05-24: DPL: avoid memory churn when pushing variable state by [@ktf](https://github.com/ktf)
