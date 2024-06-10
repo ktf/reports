@@ -65,7 +65,7 @@ jobs:
         query: |
               {
                 repository(name: "AliceO2", owner: "AliceO2Group") {
-                  pullRequests(last: 100) {
+                  pullRequests(last: 100, orderBy: {field: UPDATED_AT, direction: ASC}) {
                     edges {
                       node {
                         state
@@ -95,7 +95,7 @@ jobs:
         query: |
               {
                 repository(name: "O2Physics", owner: "AliceO2Group") {
-                  pullRequests(last: 100) {
+                  pullRequests(last: 100, orderBy: {field: UPDATED_AT, direction: ASC}) {
                     edges {
                       node {
                         state
