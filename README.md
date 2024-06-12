@@ -5,6 +5,7 @@
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
+	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#13148](https://github.com/AliceO2Group/AliceO2/pull/13148) 2024-05-28: SIM: Adding experiment versions and dynamic library loading by [@f3sch](https://github.com/f3sch)
 	- [\#13172](https://github.com/AliceO2Group/AliceO2/pull/13172) 2024-05-29: SIM: fix detector list parsing by [@f3sch](https://github.com/f3sch)
@@ -67,6 +68,7 @@
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 	- [\#13210](https://github.com/AliceO2Group/AliceO2/pull/13210) 2024-06-09: AOD: Fix aod-thinner for new-ish datamodel changes by [@f3sch](https://github.com/f3sch)
+	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
 	- [\#13206](https://github.com/AliceO2Group/AliceO2/pull/13206) 2024-06-05: Prevent segfault in GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
