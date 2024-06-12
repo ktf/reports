@@ -2472,43 +2472,63 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-06-12T10:12:35Z",
-            "title": "PWGUD: Fix compilation warnings",
-            "number": 6480,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update SpectraTOF.cxx for secondary estimation",
+            "number": 6492,
             "author": {
-              "login": "vkucera"
+              "login": "RD0407"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/AQC/udQCmidRap.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Add configurable option for DCA histogram",
+            "number": 6493,
+            "author": {
+              "login": "Roberta-Ferioli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-06-12T11:13:43Z",
+            "title": "PWGHF: add task to monitor charm-hadron dca resolution and remove obsolete task from compilation",
+            "number": 6484,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGUD/Core/SGSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/exclusiveTwoProtons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcJpsiCentralBarrelCorr.cxx"
+                    "path": "PWGHF/Tasks/taskCharmHadImpactPar.cxx"
                   }
                 }
               ]
@@ -2592,63 +2612,43 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Update SpectraTOF.cxx for secondary estimation",
-            "number": 6492,
-            "author": {
-              "login": "RD0407"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGLF: Add configurable option for DCA histogram",
-            "number": 6493,
-            "author": {
-              "login": "Roberta-Ferioli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-12T11:13:43Z",
-            "title": "PWGHF: add task to monitor charm-hadron dca resolution and remove obsolete task from compilation",
-            "number": 6484,
+            "mergedAt": "2024-06-12T10:12:35Z",
+            "title": "PWGUD: Fix compilation warnings",
+            "number": 6480,
             "author": {
-              "login": "fgrosa"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                    "path": "PWGUD/AQC/udQCmidRap.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Tasks/taskCharmHadImpactPar.cxx"
+                    "path": "PWGUD/Core/SGSelector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/exclusiveTwoProtons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcJpsiCentralBarrelCorr.cxx"
                   }
                 }
               ]
