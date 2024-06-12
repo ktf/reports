@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-07T15:51:45Z",
-            "title": "Update spectraTOF.cxx ",
-            "number": 6380,
-            "author": {
-              "login": "RD0407"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-07T18:32:54Z",
             "title": "move occupancy code from evSelQa task to new task",
             "number": 6423,
@@ -2630,6 +2610,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGJE: Match between particle and detector level implemented",
+            "number": 6498,
+            "author": {
+              "login": "christianreckziegel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/hffragmentationfunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGCF: add Lc-p correlations in femtodream",
             "number": 5631,
             "author": {
@@ -2705,16 +2705,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGJE: Match between particle and detector level implemented",
-            "number": 6498,
+            "title": "PWGEM/PhotonMeson: implement self index array for amb ele",
+            "number": 6499,
             "author": {
-              "login": "christianreckziegel"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/hffragmentationfunction.cxx"
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGammaMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/converters/ambElectronIdconverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/dielectronQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/EMTrack.h"
                   }
                 }
               ]
