@@ -27,7 +27,6 @@
 	- [\#13137](https://github.com/AliceO2Group/AliceO2/pull/13137) 2024-05-21: PHS: fix segfault when reading TRU flags in AltroDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13148](https://github.com/AliceO2Group/AliceO2/pull/13148) 2024-05-28: SIM: Adding experiment versions and dynamic library loading by [@f3sch](https://github.com/f3sch)
-	- [\#13149](https://github.com/AliceO2Group/AliceO2/pull/13149) 2024-05-21: add lane ID to debug file name if more than 1 lanes by [@shahor02](https://github.com/shahor02)
 	- [\#13150](https://github.com/AliceO2Group/AliceO2/pull/13150) 2024-05-22: FT0: Delete unused variables by [@sawenzel](https://github.com/sawenzel)
 	- [\#13151](https://github.com/AliceO2Group/AliceO2/pull/13151) 2024-05-21: ITS: new default ranges for vcasn scan + fix of trivial bug  by [@iravasen](https://github.com/iravasen)
 	- [\#13153](https://github.com/AliceO2Group/AliceO2/pull/13153) 2024-05-24: [FOCAL-78, FOCAL-84] First commit for the geometry helper class for the FOCAL detector by [@iarsene](https://github.com/iarsene)
