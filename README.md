@@ -47,6 +47,7 @@
 	- [\#13211](https://github.com/AliceO2Group/AliceO2/pull/13211) 2024-06-07: Add MCtruth + extra info to SVStudy and TrackMCStudy output by [@shahor02](https://github.com/shahor02)
 	- [\#13213](https://github.com/AliceO2Group/AliceO2/pull/13213) 2024-06-11: [EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib. by [@jokonig](https://github.com/jokonig)
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
+	- [\#13220](https://github.com/AliceO2Group/AliceO2/pull/13220) 2024-06-13: Add shared cluster number to debug output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
