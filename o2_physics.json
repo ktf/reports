@@ -2108,31 +2108,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGCF - add task for flow analysis with Generic Framework",
-            "number": 6462,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowAnalysisGF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-12T11:52:01Z",
             "title": "Update SpectraTOF.cxx for secondary estimation",
@@ -2578,9 +2553,34 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-04-04T16:30:06Z",
+            "title": "PWGUD: UPC task using MFT tracks",
+            "number": 2235,
+            "author": {
+              "login": "diana0x0f"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcMft.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PwGHF: Add a condition to fill Toward, Transverse, and Away regions.",
+            "title": "PWGHF: taskCorrelationD0Hadrons.cxx: Add a condition to fill Toward, Transverse, and Away regions.",
             "number": 6503,
             "author": {
               "login": "1481014945"
@@ -2600,61 +2600,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPG/AOTTrack: add possibility to apply a dowsampling of tags when producing the trees for ML trainings",
-            "number": 6504,
+            "title": "PWGCF - add task for flow analysis with Generic Framework",
+            "number": 6462,
             "author": {
-              "login": "fgrosa"
+              "login": "cnkoster"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/tagAndProbeDmesons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGLF : add event selection QA",
-            "number": 6491,
-            "author": {
-              "login": "Yunseul-Bae"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/collisionCuts.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-04-04T16:30:06Z",
-            "title": "PWGUD: UPC task using MFT tracks",
-            "number": 2235,
-            "author": {
-              "login": "diana0x0f"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/upcMft.cxx"
+                    "path": "PWGCF/Flow/Tasks/flowAnalysisGF.cxx"
                   }
                 }
               ]
@@ -2730,6 +2690,46 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/femtoDreamPairTaskCharmHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-06-13T09:38:56Z",
+            "title": "DPG/AOTTrack: add possibility to apply a dowsampling of tags when producing the trees for ML trainings",
+            "number": 6504,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/tagAndProbeDmesons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF : add event selection QA",
+            "number": 6491,
+            "author": {
+              "login": "Yunseul-Bae"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/collisionCuts.h"
                   }
                 }
               ]
