@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
-	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
 	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -53,7 +52,6 @@
 ## Recent developments in O2 - Framework
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
-	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13155](https://github.com/AliceO2Group/AliceO2/pull/13155) 2024-05-24: DPL: avoid memory churn when pushing variable state by [@ktf](https://github.com/ktf)
 	- [\#13157](https://github.com/AliceO2Group/AliceO2/pull/13157) 2024-05-24: DPL: adapt to support new FairLogger by [@ktf](https://github.com/ktf)
 	- [\#13160](https://github.com/AliceO2Group/AliceO2/pull/13160) 2024-05-25: DPL: improve signposts for adding parts by [@ktf](https://github.com/ktf)
