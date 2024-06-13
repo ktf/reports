@@ -22,7 +22,6 @@
 	- [\#12988](https://github.com/AliceO2Group/AliceO2/pull/12988) 2024-06-06: Separation power for Pions and Electrons by [@HorstMa](https://github.com/HorstMa)
 	- [\#13058](https://github.com/AliceO2Group/AliceO2/pull/13058) 2024-05-19: add trk res in TOF match chi2 by [@noferini](https://github.com/noferini)
 	- [\#13105](https://github.com/AliceO2Group/AliceO2/pull/13105) 2024-05-28: AOD: Disable MC tables for data by [@f3sch](https://github.com/f3sch)
-	- [\#13109](https://github.com/AliceO2Group/AliceO2/pull/13109) 2024-05-21: [MCH] add StatusMap IO and a converter to RejectList by [@pillot](https://github.com/pillot)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13148](https://github.com/AliceO2Group/AliceO2/pull/13148) 2024-05-28: SIM: Adding experiment versions and dynamic library loading by [@f3sch](https://github.com/f3sch)
