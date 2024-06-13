@@ -53,7 +53,6 @@
 ## Recent developments in O2 - Framework
 	- [\#13130](https://github.com/AliceO2Group/AliceO2/pull/13130) 2024-05-16: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#13131](https://github.com/AliceO2Group/AliceO2/pull/13131) 2024-05-16: AOD: Add TPC time0 option B by [@f3sch](https://github.com/f3sch)
-	- [\#13143](https://github.com/AliceO2Group/AliceO2/pull/13143) 2024-05-19: DPL: print channel name when tracing messages by [@ktf](https://github.com/ktf)
 	- [\#13146](https://github.com/AliceO2Group/AliceO2/pull/13146) 2024-05-19: DPL: fix reading of metadata by [@ktf](https://github.com/ktf)
 	- [\#13155](https://github.com/AliceO2Group/AliceO2/pull/13155) 2024-05-24: DPL: avoid memory churn when pushing variable state by [@ktf](https://github.com/ktf)
 	- [\#13157](https://github.com/AliceO2Group/AliceO2/pull/13157) 2024-05-24: DPL: adapt to support new FairLogger by [@ktf](https://github.com/ktf)
