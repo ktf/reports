@@ -64,6 +64,7 @@
 	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 	- [\#13210](https://github.com/AliceO2Group/AliceO2/pull/13210) 2024-06-09: AOD: Fix aod-thinner for new-ish datamodel changes by [@f3sch](https://github.com/f3sch)
 	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
+	- [\#13216](https://github.com/AliceO2Group/AliceO2/pull/13216) 2024-06-14: DPL: correctly handle aod-metadata-table if more than one workflow is involved by [@ktf](https://github.com/ktf)
 	- [\#13217](https://github.com/AliceO2Group/AliceO2/pull/13217) 2024-06-14: Add include to please ROOT 6.32 by [@Barthelemy](https://github.com/Barthelemy)
 ## Recent developments in O2 - Generators
 	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
