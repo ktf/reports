@@ -6,51 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "Add PhotonIsolationQA.cxx tast",
-            "number": 6457,
-            "author": {
-              "login": "berend01"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/PhotonIsolationQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-06-10T11:49:02Z",
-            "title": "Fix filling of MC multiplicity",
-            "number": 6453,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "Add PhotonIsolationQA.cxx task",
             "number": 6459,
             "author": {
@@ -2164,31 +2119,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Event selection fix",
-            "number": 6523,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosNbar.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosPi0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-14T10:24:51Z",
             "title": "Add occupancy selections (+ extra event selections) in MC",
@@ -2766,6 +2696,91 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetfinderQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Common: add metadata helper",
+            "number": 6536,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/MetadataHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/MetadataHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/Dilepton: add a task to create single electron for QA",
+            "number": 6537,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorSingleElectronQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event selection fix",
+            "number": 6523,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosNbar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosPi0.cxx"
                   }
                 }
               ]
