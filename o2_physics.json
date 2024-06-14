@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-10T11:15:52Z",
-            "title": "[PWGUD] new topologies phi->ee, configurable pid selections",
-            "number": 6449,
-            "author": {
-              "login": "siragoni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/exclusivePhiLeptons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-06-10T12:56:50Z",
-            "title": "Add Occupancy distribution plot",
-            "number": 6448,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-10T13:25:34Z",
             "title": "fixed track index",
             "number": 6455,
@@ -2686,6 +2646,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Multiplicity] Add inelgt0 and inelgt1 in MC table",
+            "number": 6538,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: use ZORRO utility to selected triggered events in HF code",
             "number": 6533,
             "author": {
@@ -2766,16 +2746,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Multiplicity] Add inelgt0 and inelgt1 in MC table",
-            "number": 6538,
+            "title": "PWGHF: templetize process to remove Bayes PID table, if not used.",
+            "number": 6539,
             "author": {
-              "login": "njacazio"
+              "login": "mfaggin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
+                    "path": "PWGHF/TableProducer/candidateSelectorLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Add TOF condition",
+            "number": 6540,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0postprocessing.cxx"
                   }
                 }
               ]
