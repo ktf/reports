@@ -2416,26 +2416,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Trigger compilation errors on warnings",
-            "number": 5445,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGLF: add some switches and bug fix",
             "number": 6550,
             "author": {
@@ -2559,31 +2539,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ ]Adding extra table to compute Q-vectors",
-            "number": 6555,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-17T09:27:29Z",
             "title": "[PWGLF] update mult",
@@ -2601,6 +2556,116 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DO NOT MERGE: PID: Refactor TPC/TPCFull table producers to single task",
+            "number": 6005,
+            "author": {
+              "login": "jezwilkinson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/handleParamBase.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "added histos for pions + bug fix",
+            "number": 6556,
+            "author": {
+              "login": "alcaliva"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/tracked_cascade_properties.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangeness_in_jets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-06-17T10:25:11Z",
+            "title": "PWGHF: candidateSelectorLc: templatize process to remove Bayes PID table, if not used.",
+            "number": 6539,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-06-17T11:43:00Z",
+            "title": "[PWGDQ ]Adding extra table to compute Q-vectors",
+            "number": 6555,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqFlow.cxx"
                   }
                 }
               ]
@@ -2691,81 +2756,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DO NOT MERGE: PID: Refactor TPC/TPCFull table producers to single task",
-            "number": 6005,
+            "title": "Trigger compilation errors on warnings",
+            "number": 5445,
             "author": {
-              "login": "jezwilkinson"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/handleParamBase.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "added histos for pions + bug fix",
-            "number": 6556,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/tracked_cascade_properties.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangeness_in_jets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-06-17T10:25:11Z",
-            "title": "PWGHF: candidateSelectorLc: templatize process to remove Bayes PID table, if not used.",
-            "number": 6539,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLc.cxx"
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
                   }
                 }
               ]
