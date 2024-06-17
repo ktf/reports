@@ -27,6 +27,7 @@
 	- [\#13213](https://github.com/AliceO2Group/AliceO2/pull/13213) 2024-06-11: [EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib. by [@jokonig](https://github.com/jokonig)
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
 	- [\#13220](https://github.com/AliceO2Group/AliceO2/pull/13220) 2024-06-13: Add shared cluster number to debug output by [@shahor02](https://github.com/shahor02)
+	- [\#13226](https://github.com/AliceO2Group/AliceO2/pull/13226) 2024-06-17: Store side ID in the TPC study output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#13160](https://github.com/AliceO2Group/AliceO2/pull/13160) 2024-05-25: DPL: improve signposts for adding parts by [@ktf](https://github.com/ktf)
 	- [\#13183](https://github.com/AliceO2Group/AliceO2/pull/13183) 2024-06-04: OCTRL-870 DPL: correctly double-escape argument values in ECS templates by [@knopers8](https://github.com/knopers8)
