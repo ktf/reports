@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-11T14:48:23Z",
-            "title": "Common: F to D for counting large data volumes",
-            "number": 6451,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/integrationTest.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-11T14:53:44Z",
             "title": "PWGLF: Updates in Sigma0 datamodel",
             "number": 6461,
@@ -1609,46 +1589,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DO NOT MERGE: PID: Refactor TPC/TPCFull table producers to single task",
-            "number": 6005,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/handleParamBase.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "PWGHF: LambdaB task, add normalisation to likelihood",
@@ -2641,6 +2581,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ ]Adding extra table to compute Q-vectors",
+            "number": 6555,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-06-17T09:27:29Z",
+            "title": "[PWGLF] update mult",
+            "number": 6551,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/spectraTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: use ZORRO utility to selected triggered events in HF code",
             "number": 6533,
             "author": {
@@ -2721,21 +2711,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ ]Adding extra table to compute Q-vectors",
-            "number": 6555,
+            "title": "DO NOT MERGE: PID: Refactor TPC/TPCFull table producers to single task",
+            "number": 6005,
             "author": {
-              "login": "lucamicheletti93"
+              "login": "jezwilkinson"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                    "path": "Common/DataModel/PIDResponse.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/handleParamBase.h"
                   }
                 }
               ]
@@ -2744,23 +2749,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-06-17T09:27:29Z",
-            "title": "[PWGLF] update mult",
-            "number": 6551,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "added histos for pions + bug fix",
+            "number": 6556,
             "author": {
-              "login": "njacazio"
+              "login": "alcaliva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/spectraTOF.h"
+                    "path": "PWGLF/Tasks/QC/tracked_cascade_properties.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/strangeness_in_jets.cxx"
                   }
                 }
               ]
