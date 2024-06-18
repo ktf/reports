@@ -41,5 +41,4 @@
 	- [\#13217](https://github.com/AliceO2Group/AliceO2/pull/13217) 2024-06-14: Add include to please ROOT 6.32 by [@Barthelemy](https://github.com/Barthelemy)
 	- [\#13223](https://github.com/AliceO2Group/AliceO2/pull/13223) 2024-06-14: DPL: improve Graphviz topology visualization by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#13193](https://github.com/AliceO2Group/AliceO2/pull/13193) 2024-06-03: Fix for HepMC: Actually take into account mEventsToSkip by [@sawenzel](https://github.com/sawenzel)
 	- [\#13206](https://github.com/AliceO2Group/AliceO2/pull/13206) 2024-06-05: Prevent segfault in GeneratorFromFile by [@sawenzel](https://github.com/sawenzel)
