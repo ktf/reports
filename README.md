@@ -26,6 +26,7 @@
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
 	- [\#13220](https://github.com/AliceO2Group/AliceO2/pull/13220) 2024-06-13: Add shared cluster number to debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13226](https://github.com/AliceO2Group/AliceO2/pull/13226) 2024-06-17: Store side ID in the TPC study output by [@shahor02](https://github.com/shahor02)
+	- [\#13228](https://github.com/AliceO2Group/AliceO2/pull/13228) 2024-06-18: Fix access to CCDB for ITS DCSParserSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#13183](https://github.com/AliceO2Group/AliceO2/pull/13183) 2024-06-04: OCTRL-870 DPL: correctly double-escape argument values in ECS templates by [@knopers8](https://github.com/knopers8)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
