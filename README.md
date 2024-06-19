@@ -16,8 +16,6 @@
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13159](https://github.com/AliceO2Group/AliceO2/pull/13159) 2024-05-28: [AOD] Fix the AOD stored MC collision time relative to the BC by [@njacazio](https://github.com/njacazio)
 	- [\#13176](https://github.com/AliceO2Group/AliceO2/pull/13176) 2024-05-29: #13173 - fixing DCA for combined tracking + adding nshared clusters by [@miranov25](https://github.com/miranov25)
-	- [\#13180](https://github.com/AliceO2Group/AliceO2/pull/13180) 2024-06-03: [EMCAL-1144] Fix operator+ in EMCAL Hit by [@mfasDa](https://github.com/mfasDa)
-	- [\#13181](https://github.com/AliceO2Group/AliceO2/pull/13181) 2024-06-03: [FOCAL-77] First version of the FOCAL hit by [@mfasDa](https://github.com/mfasDa)
 	- [\#13188](https://github.com/AliceO2Group/AliceO2/pull/13188) 2024-05-30: Correctly set WITH_OPENMP to ITS tracking lib by [@mconcas](https://github.com/mconcas)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13205](https://github.com/AliceO2Group/AliceO2/pull/13205) 2024-06-05: ATO-615 - TimeSeries increase number of bins in phi, and decrease multiplicity range by [@miranov25](https://github.com/miranov25)
