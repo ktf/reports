@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
 	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
@@ -29,7 +28,6 @@
 ## Recent developments in O2 - Framework
 	- [\#13183](https://github.com/AliceO2Group/AliceO2/pull/13183) 2024-06-04: OCTRL-870 DPL: correctly double-escape argument values in ECS templates by [@knopers8](https://github.com/knopers8)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
-	- [\#13200](https://github.com/AliceO2Group/AliceO2/pull/13200) 2024-06-03: DPL Analysis: disable metadata lookup if not found immediately by [@ktf](https://github.com/ktf)
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 	- [\#13210](https://github.com/AliceO2Group/AliceO2/pull/13210) 2024-06-09: AOD: Fix aod-thinner for new-ish datamodel changes by [@f3sch](https://github.com/f3sch)
