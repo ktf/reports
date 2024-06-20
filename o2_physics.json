@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-14T07:36:27Z",
-            "title": "[PWG-DQ] Adding extra tables with event multiplicity information",
-            "number": 6516,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-14T07:57:27Z",
             "title": "flow measurement for identified particle in Pb-Pb collision",
             "number": 6489,
@@ -2304,46 +2254,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Macros for data preparation and ML training",
-            "number": 5248,
-            "author": {
-              "login": "AlexBigO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/PrepareSamples.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/config_preparation_DplusToPiKPi.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/config_training_DplusToPiKPi.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/ML/train_d2h.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-20T11:21:18Z",
             "title": "Update qaEfficiency.cxx",
@@ -2356,26 +2266,6 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "EventFiltering/PWGHF: Fix typo in indices for Ds* selection",
-            "number": 6596,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
                   }
                 }
               ]
@@ -2401,6 +2291,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/kaonkaonanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-05-28T13:15:48Z",
+            "title": "PWGHF: Ds-h correlation: Solving a bug with Ds daughters removal",
+            "number": 6267,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Multiplicity] Auto enable the processMC",
+            "number": 6597,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
                   }
                 }
               ]
@@ -2450,17 +2380,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-05-28T13:15:48Z",
-            "title": "PWGHF: Ds-h correlation: Solving a bug with Ds daughters removal",
-            "number": 6267,
+            "mergedAt": "2024-06-20T12:18:40Z",
+            "title": "EventFiltering/PWGHF: Fix typo in indices for Ds* selection",
+            "number": 6596,
             "author": {
-              "login": "scattaru"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
                   }
                 }
               ]
@@ -2471,8 +2401,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Multiplicity] Auto enable the processMC",
-            "number": 6597,
+            "title": "[Multiplicity] use metadata from AOD",
+            "number": 6598,
             "author": {
               "login": "njacazio"
             },
@@ -2481,6 +2411,46 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Macros for data preparation and ML training",
+            "number": 5248,
+            "author": {
+              "login": "AlexBigO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/ML/PrepareSamples.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/ML/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/ML/config_preparation_DplusToPiKPi.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/ML/config_training_DplusToPiKPi.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/ML/train_d2h.py"
                   }
                 }
               ]
