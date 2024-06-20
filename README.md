@@ -7,9 +7,11 @@
 	- [\#13202](https://github.com/AliceO2Group/AliceO2/pull/13202) 2024-06-04: Updates to compile with gcc14 by [@wiechula](https://github.com/wiechula)
 	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 	- [\#13212](https://github.com/AliceO2Group/AliceO2/pull/13212) 2024-06-10: Fix memory leak related to SerializedInfo/RootSerializableKeyValues by [@sawenzel](https://github.com/sawenzel)
+	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - DataFormats
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
+	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
 	- [\#12988](https://github.com/AliceO2Group/AliceO2/pull/12988) 2024-06-06: Separation power for Pions and Electrons by [@HorstMa](https://github.com/HorstMa)
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -23,6 +25,7 @@
 	- [\#13213](https://github.com/AliceO2Group/AliceO2/pull/13213) 2024-06-11: [EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib. by [@jokonig](https://github.com/jokonig)
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
 	- [\#13220](https://github.com/AliceO2Group/AliceO2/pull/13220) 2024-06-13: Add shared cluster number to debug output by [@shahor02](https://github.com/shahor02)
+	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13226](https://github.com/AliceO2Group/AliceO2/pull/13226) 2024-06-17: Store side ID in the TPC study output by [@shahor02](https://github.com/shahor02)
 	- [\#13228](https://github.com/AliceO2Group/AliceO2/pull/13228) 2024-06-18: Fix access to CCDB for ITS DCSParserSpec by [@shahor02](https://github.com/shahor02)
 	- [\#13230](https://github.com/AliceO2Group/AliceO2/pull/13230) 2024-06-18: Prevent calling fatal on query for non-existing CCDB by [@shahor02](https://github.com/shahor02)
