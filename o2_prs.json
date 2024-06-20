@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-04T09:32:45Z",
-            "title": "OCTRL-870 DPL: correctly double-escape argument values in ECS templates",
-            "number": 13183,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-05T16:14:03Z",
             "title": "Prevent segfault in GeneratorFromFile",
             "number": 13206,
@@ -3176,6 +3151,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/stf-decoder-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CCDB: Ensure CCDBDownloader's libuv loop is properly deleted",
+            "number": 13238,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
                   }
                 }
               ]
