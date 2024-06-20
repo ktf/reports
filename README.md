@@ -26,6 +26,7 @@
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13226](https://github.com/AliceO2Group/AliceO2/pull/13226) 2024-06-17: Store side ID in the TPC study output by [@shahor02](https://github.com/shahor02)
 	- [\#13228](https://github.com/AliceO2Group/AliceO2/pull/13228) 2024-06-18: Fix access to CCDB for ITS DCSParserSpec by [@shahor02](https://github.com/shahor02)
+	- [\#13229](https://github.com/AliceO2Group/AliceO2/pull/13229) 2024-06-20: ITS: Fix placement of REGION HEADERS during ALPIDE data encoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13230](https://github.com/AliceO2Group/AliceO2/pull/13230) 2024-06-18: Prevent calling fatal on query for non-existing CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#13183](https://github.com/AliceO2Group/AliceO2/pull/13183) 2024-06-04: OCTRL-870 DPL: correctly double-escape argument values in ECS templates by [@knopers8](https://github.com/knopers8)
