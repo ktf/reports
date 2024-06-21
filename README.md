@@ -23,6 +23,7 @@
 	- [\#13213](https://github.com/AliceO2Group/AliceO2/pull/13213) 2024-06-11: [EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib. by [@jokonig](https://github.com/jokonig)
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
 	- [\#13220](https://github.com/AliceO2Group/AliceO2/pull/13220) 2024-06-13: Add shared cluster number to debug output by [@shahor02](https://github.com/shahor02)
+	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13226](https://github.com/AliceO2Group/AliceO2/pull/13226) 2024-06-17: Store side ID in the TPC study output by [@shahor02](https://github.com/shahor02)
 	- [\#13228](https://github.com/AliceO2Group/AliceO2/pull/13228) 2024-06-18: Fix access to CCDB for ITS DCSParserSpec by [@shahor02](https://github.com/shahor02)
