@@ -4,7 +4,6 @@
 	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
-	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 	- [\#13212](https://github.com/AliceO2Group/AliceO2/pull/13212) 2024-06-10: Fix memory leak related to SerializedInfo/RootSerializableKeyValues by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
@@ -32,7 +31,6 @@
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
-	- [\#13207](https://github.com/AliceO2Group/AliceO2/pull/13207) 2024-06-06: DPL: do not print internal error in case we rewinded by [@ktf](https://github.com/ktf)
 	- [\#13210](https://github.com/AliceO2Group/AliceO2/pull/13210) 2024-06-09: AOD: Fix aod-thinner for new-ish datamodel changes by [@f3sch](https://github.com/f3sch)
 	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 	- [\#13216](https://github.com/AliceO2Group/AliceO2/pull/13216) 2024-06-14: DPL: correctly handle aod-metadata-table if more than one workflow is involved by [@ktf](https://github.com/ktf)
