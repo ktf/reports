@@ -8,6 +8,7 @@
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - DataFormats
+	- [\#13152](https://github.com/AliceO2Group/AliceO2/pull/13152) 2024-06-21: Remove the obsolete NotBadFlagExample by [@knopers8](https://github.com/knopers8)
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
