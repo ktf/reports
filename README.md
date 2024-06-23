@@ -29,6 +29,7 @@
 	- [\#13228](https://github.com/AliceO2Group/AliceO2/pull/13228) 2024-06-18: Fix access to CCDB for ITS DCSParserSpec by [@shahor02](https://github.com/shahor02)
 	- [\#13229](https://github.com/AliceO2Group/AliceO2/pull/13229) 2024-06-20: ITS: Fix placement of REGION HEADERS during ALPIDE data encoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13230](https://github.com/AliceO2Group/AliceO2/pull/13230) 2024-06-18: Prevent calling fatal on query for non-existing CCDB by [@shahor02](https://github.com/shahor02)
+	- [\#13240](https://github.com/AliceO2Group/AliceO2/pull/13240) 2024-06-23: Bug fixes (bool --> float, histo filling) and a few improvements by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
