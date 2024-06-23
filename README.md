@@ -12,7 +12,6 @@
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
-	- [\#12988](https://github.com/AliceO2Group/AliceO2/pull/12988) 2024-06-06: Separation power for Pions and Electrons by [@HorstMa](https://github.com/HorstMa)
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13159](https://github.com/AliceO2Group/AliceO2/pull/13159) 2024-05-28: [AOD] Fix the AOD stored MC collision time relative to the BC by [@njacazio](https://github.com/njacazio)
 	- [\#13176](https://github.com/AliceO2Group/AliceO2/pull/13176) 2024-05-29: #13173 - fixing DCA for combined tracking + adding nshared clusters by [@miranov25](https://github.com/miranov25)
