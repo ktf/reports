@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-07T08:38:28Z",
-            "title": "[FOCAL-66,  FOCAL-67, FOCAL-68] Skeleton for FOCAL detector simulation",
-            "number": 13208,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/include/FOCALSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/src/FOCALSimulationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-05-29T19:40:45Z",
             "title": "#13173 - fixing DCA for combined tracking + adding nshared clusters",
             "number": 13176,
@@ -3331,6 +3291,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "SIM: Prefer detector list by default",
+            "number": 13243,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPTool.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: check for the maximum number of members supported for tasks",
             "number": 12704,
             "author": {
@@ -3351,21 +3336,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "SIM: Prefer detector list by default",
-            "number": 13243,
+            "title": "Sort hits addresses before adding to raw stream",
+            "number": 13244,
             "author": {
-              "login": "f3sch"
+              "login": "shahor02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPTool.cxx"
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/AlpideCoder.cxx"
                   }
                 }
               ]

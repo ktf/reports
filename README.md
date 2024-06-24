@@ -17,7 +17,6 @@
 	- [\#13176](https://github.com/AliceO2Group/AliceO2/pull/13176) 2024-05-29: #13173 - fixing DCA for combined tracking + adding nshared clusters by [@miranov25](https://github.com/miranov25)
 	- [\#13188](https://github.com/AliceO2Group/AliceO2/pull/13188) 2024-05-30: Correctly set WITH_OPENMP to ITS tracking lib by [@mconcas](https://github.com/mconcas)
 	- [\#13205](https://github.com/AliceO2Group/AliceO2/pull/13205) 2024-06-05: ATO-615 - TimeSeries increase number of bins in phi, and decrease multiplicity range by [@miranov25](https://github.com/miranov25)
-	- [\#13208](https://github.com/AliceO2Group/AliceO2/pull/13208) 2024-06-07: [FOCAL-66,  FOCAL-67, FOCAL-68] Skeleton for FOCAL detector simulation by [@mfasDa](https://github.com/mfasDa)
 	- [\#13211](https://github.com/AliceO2Group/AliceO2/pull/13211) 2024-06-07: Add MCtruth + extra info to SVStudy and TrackMCStudy output by [@shahor02](https://github.com/shahor02)
 	- [\#13213](https://github.com/AliceO2Group/AliceO2/pull/13213) 2024-06-11: [EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib. by [@jokonig](https://github.com/jokonig)
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
