@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-17T10:25:11Z",
-            "title": "PWGHF: candidateSelectorLc: templatize process to remove Bayes PID table, if not used.",
-            "number": 6539,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-17T12:23:49Z",
             "title": "Primary spectrum, event selection fix",
             "number": 6554,
@@ -2314,41 +2294,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWG-UD: Updates of  DGCutparHolder, DGPIDSelector.cxx, and DGCandProducer.cxx",
-            "number": 6625,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGCutparHolder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-24T10:50:49Z",
             "title": "PWGHF: Add quarkonium decay muon histograms in HFL muon source task",
@@ -2426,51 +2371,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] add qa fake hits",
-            "number": 6627,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaFakeHits.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] add eff. in same event",
-            "number": 6628,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
                   }
                 }
               ]
@@ -2561,6 +2461,111 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-06-24T12:23:40Z",
+            "title": "PWG-UD: Updates of  DGCutparHolder, DGPIDSelector.cxx, and DGCandProducer.cxx",
+            "number": 6625,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGCutparHolder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGPIDSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGPIDSelector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adapt kink task to svPoolCreator",
+            "number": 6632,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperKinkRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] add qa fake hits",
+            "number": 6627,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaFakeHits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] add eff. in same event",
+            "number": 6628,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
                   }
                 }
               ]
