@@ -7,10 +7,12 @@
 	- [\#13212](https://github.com/AliceO2Group/AliceO2/pull/13212) 2024-06-10: Fix memory leak related to SerializedInfo/RootSerializableKeyValues by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
+	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 	- [\#13152](https://github.com/AliceO2Group/AliceO2/pull/13152) 2024-06-21: Remove the obsolete NotBadFlagExample by [@knopers8](https://github.com/knopers8)
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
+	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13159](https://github.com/AliceO2Group/AliceO2/pull/13159) 2024-05-28: [AOD] Fix the AOD stored MC collision time relative to the BC by [@njacazio](https://github.com/njacazio)
