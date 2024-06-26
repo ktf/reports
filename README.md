@@ -24,6 +24,7 @@
 	- [\#13230](https://github.com/AliceO2Group/AliceO2/pull/13230) 2024-06-18: Prevent calling fatal on query for non-existing CCDB by [@shahor02](https://github.com/shahor02)
 	- [\#13240](https://github.com/AliceO2Group/AliceO2/pull/13240) 2024-06-23: Bug fixes (bool --> float, histo filling) and a few improvements by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13244](https://github.com/AliceO2Group/AliceO2/pull/13244) 2024-06-25: Sort hits addresses before adding to raw stream by [@shahor02](https://github.com/shahor02)
+	- [\#13251](https://github.com/AliceO2Group/AliceO2/pull/13251) 2024-06-26: ITS: Report error in the decoder if missing CHIP_TRAILER by [@KirillVNaumov](https://github.com/KirillVNaumov)
 ## Recent developments in O2 - Examples
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
