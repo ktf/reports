@@ -16,7 +16,6 @@
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13159](https://github.com/AliceO2Group/AliceO2/pull/13159) 2024-05-28: [AOD] Fix the AOD stored MC collision time relative to the BC by [@njacazio](https://github.com/njacazio)
 	- [\#13188](https://github.com/AliceO2Group/AliceO2/pull/13188) 2024-05-30: Correctly set WITH_OPENMP to ITS tracking lib by [@mconcas](https://github.com/mconcas)
-	- [\#13213](https://github.com/AliceO2Group/AliceO2/pull/13213) 2024-06-11: [EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib. by [@jokonig](https://github.com/jokonig)
 	- [\#13215](https://github.com/AliceO2Group/AliceO2/pull/13215) 2024-06-13: rct-updater discards TFs with creationtime-vs-orbit inonsistencies by [@shahor02](https://github.com/shahor02)
 	- [\#13220](https://github.com/AliceO2Group/AliceO2/pull/13220) 2024-06-13: Add shared cluster number to debug output by [@shahor02](https://github.com/shahor02)
 	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
