@@ -33,7 +33,6 @@
 ## Recent developments in O2 - Framework
 	- [\#12704](https://github.com/AliceO2Group/AliceO2/pull/12704) 2024-06-26: DPL: check for the maximum number of members supported for tasks by [@ktf](https://github.com/ktf)
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
-	- [\#13210](https://github.com/AliceO2Group/AliceO2/pull/13210) 2024-06-09: AOD: Fix aod-thinner for new-ish datamodel changes by [@f3sch](https://github.com/f3sch)
 	- [\#13214](https://github.com/AliceO2Group/AliceO2/pull/13214) 2024-06-12: DPL Analysis: provide dpl-metadata-tables by [@ktf](https://github.com/ktf)
 	- [\#13216](https://github.com/AliceO2Group/AliceO2/pull/13216) 2024-06-14: DPL: correctly handle aod-metadata-table if more than one workflow is involved by [@ktf](https://github.com/ktf)
 	- [\#13217](https://github.com/AliceO2Group/AliceO2/pull/13217) 2024-06-14: Add include to please ROOT 6.32 by [@Barthelemy](https://github.com/Barthelemy)
