@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-10T15:41:35Z",
-            "title": "Fix memory leak related to SerializedInfo/RootSerializableKeyValues",
-            "number": 13212,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/RootSerializableKeyValueStore.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-11T08:37:07Z",
             "title": "[EMCAL-565, EMCAL-566] Keep start TS info in case of across-run calib.",
             "number": 13213,
@@ -3356,6 +3336,26 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: Report error in the decoder if missing CHIP_TRAILER",
+            "number": 13251,
+            "author": {
+              "login": "KirillVNaumov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/AlpideCoder.h"
                   }
                 }
               ]
