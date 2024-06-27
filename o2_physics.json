@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-19T06:50:21Z",
-            "title": "PID: Refactor TPC/TPCFull table producers to single task",
-            "number": 6005,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/handleParamBase.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-05-22T12:24:39Z",
             "title": "PWGLF: Added INELGt0 selection and per-event normalization to phik0sanalysis.cxx",
             "number": 6234,
@@ -2601,26 +2561,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Centrality] add metadata information",
-            "number": 6677,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/centralityTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWG-LF] add MC BC info in mcParticlePrediction",
             "number": 6675,
             "author": {
@@ -2631,6 +2571,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Removing debug printouts in tableMakerMC_withassoc",
+            "number": 6678,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Centrality] add metadata information",
+            "number": 6677,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/centralityTable.cxx"
                   }
                 }
               ]
