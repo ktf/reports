@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+	- [\#13254](https://github.com/AliceO2Group/AliceO2/pull/13254) 2024-06-28: DPL Analyis: introduce value based has_type by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#13190](https://github.com/AliceO2Group/AliceO2/pull/13190) 2024-05-30: DPL: Fix "Dropping lifetime::timeframe" due to incorrect detection of isFirstInTopology by [@davidrohr](https://github.com/davidrohr)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
@@ -35,5 +37,6 @@
 	- [\#13242](https://github.com/AliceO2Group/AliceO2/pull/13242) 2024-06-24: Use voids to select packs by [@ktf](https://github.com/ktf)
 	- [\#13246](https://github.com/AliceO2Group/AliceO2/pull/13246) 2024-06-27: DPL Analysis: optimise compilation by [@ktf](https://github.com/ktf)
 	- [\#13247](https://github.com/AliceO2Group/AliceO2/pull/13247) 2024-06-26: Add support for Track_IU by [@ktf](https://github.com/ktf)
+	- [\#13254](https://github.com/AliceO2Group/AliceO2/pull/13254) 2024-06-28: DPL Analyis: introduce value based has_type by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#13231](https://github.com/AliceO2Group/AliceO2/pull/13231) 2024-06-19: [Gen] Abort if sub-generator is not configured correctly by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
