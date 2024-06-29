@@ -35,5 +35,6 @@
 	- [\#13247](https://github.com/AliceO2Group/AliceO2/pull/13247) 2024-06-26: Add support for Track_IU by [@ktf](https://github.com/ktf)
 	- [\#13252](https://github.com/AliceO2Group/AliceO2/pull/13252) 2024-06-28: Fix variant for std::vector string by [@ktf](https://github.com/ktf)
 	- [\#13254](https://github.com/AliceO2Group/AliceO2/pull/13254) 2024-06-28: DPL Analyis: introduce value based has_type by [@ktf](https://github.com/ktf)
+	- [\#13257](https://github.com/AliceO2Group/AliceO2/pull/13257) 2024-06-29: DPL Analysis: speedup prune_voids_pack by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#13231](https://github.com/AliceO2Group/AliceO2/pull/13231) 2024-06-19: [Gen] Abort if sub-generator is not configured correctly by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
