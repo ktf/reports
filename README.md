@@ -28,7 +28,6 @@
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
 	- [\#12704](https://github.com/AliceO2Group/AliceO2/pull/12704) 2024-06-26: DPL: check for the maximum number of members supported for tasks by [@ktf](https://github.com/ktf)
-	- [\#13216](https://github.com/AliceO2Group/AliceO2/pull/13216) 2024-06-14: DPL: correctly handle aod-metadata-table if more than one workflow is involved by [@ktf](https://github.com/ktf)
 	- [\#13217](https://github.com/AliceO2Group/AliceO2/pull/13217) 2024-06-14: Add include to please ROOT 6.32 by [@Barthelemy](https://github.com/Barthelemy)
 	- [\#13223](https://github.com/AliceO2Group/AliceO2/pull/13223) 2024-06-14: DPL: improve Graphviz topology visualization by [@ktf](https://github.com/ktf)
 	- [\#13242](https://github.com/AliceO2Group/AliceO2/pull/13242) 2024-06-24: Use voids to select packs by [@ktf](https://github.com/ktf)
