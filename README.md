@@ -6,11 +6,13 @@
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
 	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
+	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 	- [\#13152](https://github.com/AliceO2Group/AliceO2/pull/13152) 2024-06-21: Remove the obsolete NotBadFlagExample by [@knopers8](https://github.com/knopers8)
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
+	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#13144](https://github.com/AliceO2Group/AliceO2/pull/13144) 2024-06-12: Adding K0s Qc to GLO matching QC, and move to a different location by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
@@ -24,6 +26,7 @@
 	- [\#13244](https://github.com/AliceO2Group/AliceO2/pull/13244) 2024-06-25: Sort hits addresses before adding to raw stream by [@shahor02](https://github.com/shahor02)
 	- [\#13251](https://github.com/AliceO2Group/AliceO2/pull/13251) 2024-06-26: ITS: Report error in the decoder if missing CHIP_TRAILER by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13253](https://github.com/AliceO2Group/AliceO2/pull/13253) 2024-06-27: ITS: Fix the case of the pixel firing several times by [@KirillVNaumov](https://github.com/KirillVNaumov)
+	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
@@ -38,3 +41,5 @@
 	- [\#13257](https://github.com/AliceO2Group/AliceO2/pull/13257) 2024-06-29: DPL Analysis: speedup prune_voids_pack by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#13231](https://github.com/AliceO2Group/AliceO2/pull/13231) 2024-06-19: [Gen] Abort if sub-generator is not configured correctly by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+## Recent developments in O2 - Utilities
+	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
