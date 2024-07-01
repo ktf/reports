@@ -31,7 +31,6 @@
 ## Recent developments in O2 - Framework
 	- [\#12704](https://github.com/AliceO2Group/AliceO2/pull/12704) 2024-06-26: DPL: check for the maximum number of members supported for tasks by [@ktf](https://github.com/ktf)
 	- [\#13217](https://github.com/AliceO2Group/AliceO2/pull/13217) 2024-06-14: Add include to please ROOT 6.32 by [@Barthelemy](https://github.com/Barthelemy)
-	- [\#13223](https://github.com/AliceO2Group/AliceO2/pull/13223) 2024-06-14: DPL: improve Graphviz topology visualization by [@ktf](https://github.com/ktf)
 	- [\#13242](https://github.com/AliceO2Group/AliceO2/pull/13242) 2024-06-24: Use voids to select packs by [@ktf](https://github.com/ktf)
 	- [\#13246](https://github.com/AliceO2Group/AliceO2/pull/13246) 2024-06-27: DPL Analysis: optimise compilation by [@ktf](https://github.com/ktf)
 	- [\#13247](https://github.com/AliceO2Group/AliceO2/pull/13247) 2024-06-26: Add support for Track_IU by [@ktf](https://github.com/ktf)
