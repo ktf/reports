@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-24T10:50:49Z",
-            "title": "PWGHF: Add quarkonium decay muon histograms in HFL muon source task",
-            "number": 6619,
-            "author": {
-              "login": "MaolinZH"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleMuonReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleMuonSource.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-24T11:10:09Z",
             "title": "added the competing lambda rejection cut and rapidity histograms for …",
             "number": 6580,
@@ -2536,6 +2511,51 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/trackEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE: Adding tracking efficiency to jet finders",
+            "number": 6707,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFindingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderv0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/eventwiseConstituentSubtractor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/rhoEstimator.cxx"
                   }
                 }
               ]
