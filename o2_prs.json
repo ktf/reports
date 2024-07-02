@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-05-07T18:03:07Z",
-            "title": "Do not const_cast/modify sh.mem. objetcs from upstream procsesses",
-            "number": 13119,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCCompLabel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/TrackCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ImpactParameter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/TrackCheck.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ROframe.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-05-09T14:05:52Z",
             "title": "Data: Change default compression mode to recommended settings",
             "number": 13120,
@@ -3331,6 +3291,41 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflowScalers/src/ctp-proxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: Refactoring iteration over decoder and chip errors",
+            "number": 13261,
+            "author": {
+              "login": "KirillVNaumov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/AlpideCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/DecodingStat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/PixelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/DecodingStat.cxx"
                   }
                 }
               ]
