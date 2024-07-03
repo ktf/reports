@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 	- [\#13254](https://github.com/AliceO2Group/AliceO2/pull/13254) 2024-06-28: DPL Analyis: introduce value based has_type by [@ktf](https://github.com/ktf)
 	- [\#13260](https://github.com/AliceO2Group/AliceO2/pull/13260) 2024-07-02: DPL Analysis: add support for ProducesGroup by [@ktf](https://github.com/ktf)
+	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
@@ -41,6 +42,7 @@
 	- [\#13257](https://github.com/AliceO2Group/AliceO2/pull/13257) 2024-06-29: DPL Analysis: speedup prune_voids_pack by [@ktf](https://github.com/ktf)
 	- [\#13259](https://github.com/AliceO2Group/AliceO2/pull/13259) 2024-07-01: DPL: properly handle getting non-existing bindinds by [@ktf](https://github.com/ktf)
 	- [\#13260](https://github.com/AliceO2Group/AliceO2/pull/13260) 2024-07-02: DPL Analysis: add support for ProducesGroup by [@ktf](https://github.com/ktf)
+	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#13231](https://github.com/AliceO2Group/AliceO2/pull/13231) 2024-06-19: [Gen] Abort if sub-generator is not configured correctly by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
