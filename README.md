@@ -30,6 +30,7 @@
 	- [\#13253](https://github.com/AliceO2Group/AliceO2/pull/13253) 2024-06-27: ITS: Fix the case of the pixel firing several times by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
+	- [\#13268](https://github.com/AliceO2Group/AliceO2/pull/13268) 2024-07-03: fix warning for signed/unsigned comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
