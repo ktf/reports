@@ -32,6 +32,7 @@
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13261](https://github.com/AliceO2Group/AliceO2/pull/13261) 2024-07-03: ITS: Refactoring iteration over decoder and chip errors by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13262](https://github.com/AliceO2Group/AliceO2/pull/13262) 2024-07-03: ITS: Refactoring checks for data words identification by [@KirillVNaumov](https://github.com/KirillVNaumov)
+	- [\#13263](https://github.com/AliceO2Group/AliceO2/pull/13263) 2024-07-04: ITS: Introducing framework for handling chip errors during decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
 	- [\#13268](https://github.com/AliceO2Group/AliceO2/pull/13268) 2024-07-03: fix warning for signed/unsigned comparison by [@shahor02](https://github.com/shahor02)
 	- [\#13269](https://github.com/AliceO2Group/AliceO2/pull/13269) 2024-07-03: ITS: Add errored chips separately for the decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
