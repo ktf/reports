@@ -17,6 +17,7 @@
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
+	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13226](https://github.com/AliceO2Group/AliceO2/pull/13226) 2024-06-17: Store side ID in the TPC study output by [@shahor02](https://github.com/shahor02)
