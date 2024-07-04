@@ -48,6 +48,7 @@
 	- [\#13259](https://github.com/AliceO2Group/AliceO2/pull/13259) 2024-07-01: DPL: properly handle getting non-existing bindinds by [@ktf](https://github.com/ktf)
 	- [\#13260](https://github.com/AliceO2Group/AliceO2/pull/13260) 2024-07-02: DPL Analysis: add support for ProducesGroup by [@ktf](https://github.com/ktf)
 	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
+	- [\#13270](https://github.com/AliceO2Group/AliceO2/pull/13270) 2024-07-04: DPL: Avoid uninitialized values in DataProcessingStats by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Generators
 	- [\#13231](https://github.com/AliceO2Group/AliceO2/pull/13231) 2024-06-19: [Gen] Abort if sub-generator is not configured correctly by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
