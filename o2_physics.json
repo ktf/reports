@@ -1891,41 +1891,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGLF: KFParticle implementation for hyper triton 3body reconstruction in decay3bodybuilder",
-            "number": 6730,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/KFparticle/KFUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Trigger compilation errors on warnings",
             "number": 5445,
             "author": {
@@ -2291,41 +2256,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Add task for the SigmaCInCascade channel",
-            "number": 6649,
+            "title": "Task for determining best v0 topological cuts",
+            "number": 6742,
             "author": {
-              "login": "rutuparnarath"
+              "login": "Astronica-Software"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmacToCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplusCascade.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/v0topologicalcuts.cxx"
                   }
                 }
               ]
@@ -2396,21 +2341,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Task for determining best v0 topological cuts",
-            "number": 6742,
+            "title": "PWGHF: Add task for the SigmaCInCascade channel",
+            "number": 6649,
             "author": {
-              "login": "Astronica-Software"
+              "login": "rutuparnarath"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                    "path": "PWGHF/Core/HfHelper.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/v0topologicalcuts.cxx"
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskSigmacToCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplusCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-05T12:20:24Z",
+            "title": "PWGLF: KFParticle implementation for hyper triton 3body reconstruction in decay3bodybuilder",
+            "number": 6730,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/KFparticle/KFUtilities.h"
                   }
                 }
               ]
