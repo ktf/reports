@@ -37,6 +37,7 @@
 	- [\#13268](https://github.com/AliceO2Group/AliceO2/pull/13268) 2024-07-03: fix warning for signed/unsigned comparison by [@shahor02](https://github.com/shahor02)
 	- [\#13269](https://github.com/AliceO2Group/AliceO2/pull/13269) 2024-07-03: ITS: Add errored chips separately for the decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13271](https://github.com/AliceO2Group/AliceO2/pull/13271) 2024-07-04: ARM Support: use correct _MAX type by [@ktf](https://github.com/ktf)
+	- [\#13275](https://github.com/AliceO2Group/AliceO2/pull/13275) 2024-07-05: ITS: Accounting for empty chipID vector after decoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
 ## Recent developments in O2 - Examples
 	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
