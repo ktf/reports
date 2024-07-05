@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-26T13:12:06Z",
-            "title": "[DPG] add qa fake hits",
-            "number": 6627,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaFakeHits.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-26T13:45:54Z",
             "title": "added QC histograms",
             "number": 6658,
@@ -2316,6 +2291,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGHF: Add task for the SigmaCInCascade channel",
+            "number": 6649,
+            "author": {
+              "login": "rutuparnarath"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskSigmacToCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplusCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: Add XicPlus to Xi Pi Pi workflow",
             "number": 6604,
             "author": {
@@ -2376,41 +2396,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Add task for the SigmaCInCascade channel",
-            "number": 6649,
+            "title": "Task for determining best v0 topological cuts",
+            "number": 6742,
             "author": {
-              "login": "rutuparnarath"
+              "login": "Astronica-Software"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmacToCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplusCascade.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/v0topologicalcuts.cxx"
                   }
                 }
               ]
