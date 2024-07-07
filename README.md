@@ -33,11 +33,14 @@
 	- [\#13261](https://github.com/AliceO2Group/AliceO2/pull/13261) 2024-07-03: ITS: Refactoring iteration over decoder and chip errors by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13262](https://github.com/AliceO2Group/AliceO2/pull/13262) 2024-07-03: ITS: Refactoring checks for data words identification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13263](https://github.com/AliceO2Group/AliceO2/pull/13263) 2024-07-04: ITS: Introducing framework for handling chip errors during decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
+	- [\#13266](https://github.com/AliceO2Group/AliceO2/pull/13266) 2024-07-07: TRD Fix sim to raw data conversion by [@bazinski](https://github.com/bazinski)
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
 	- [\#13268](https://github.com/AliceO2Group/AliceO2/pull/13268) 2024-07-03: fix warning for signed/unsigned comparison by [@shahor02](https://github.com/shahor02)
 	- [\#13269](https://github.com/AliceO2Group/AliceO2/pull/13269) 2024-07-03: ITS: Add errored chips separately for the decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13271](https://github.com/AliceO2Group/AliceO2/pull/13271) 2024-07-04: ARM Support: use correct _MAX type by [@ktf](https://github.com/ktf)
+	- [\#13274](https://github.com/AliceO2Group/AliceO2/pull/13274) 2024-07-07: ITS: Fixing reporting of TrailerAfterHeader error in decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13275](https://github.com/AliceO2Group/AliceO2/pull/13275) 2024-07-05: ITS: Accounting for empty chipID vector after decoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
+	- [\#13276](https://github.com/AliceO2Group/AliceO2/pull/13276) 2024-07-07: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
