@@ -41,6 +41,7 @@
 	- [\#13274](https://github.com/AliceO2Group/AliceO2/pull/13274) 2024-07-07: ITS: Fixing reporting of TrailerAfterHeader error in decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13275](https://github.com/AliceO2Group/AliceO2/pull/13275) 2024-07-05: ITS: Accounting for empty chipID vector after decoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13276](https://github.com/AliceO2Group/AliceO2/pull/13276) 2024-07-07: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
+	- [\#13280](https://github.com/AliceO2Group/AliceO2/pull/13280) 2024-07-08: V0: cleanup unused AP cuts by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
