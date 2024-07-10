@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-17T13:27:11Z",
-            "title": "ITSMFT time-evolving dead maps, builder and simulation",
-            "number": 12525,
-            "author": {
-              "login": "nicolovalle"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/NoiseMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/TimeDeadMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/src/ITSMFTDataFormatsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DeadMapBuilderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/SteerLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-19T18:49:48Z",
             "title": "First orbit should be unsigned int",
             "number": 12565,
@@ -2119,26 +2059,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fixes of bugs in class mask calculation",
-            "number": 13282,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-08T14:42:35Z",
             "title": "V0: cleanup unused AP cuts",
@@ -2251,26 +2171,6 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "SIM: ALICE3 add missing TF3 to default",
-            "number": 13283,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/o2simdefaultdetectorlist.json"
                   }
                 }
               ]
@@ -3131,26 +3031,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "[FOCAL-66] ECAL geoemetry and step manager for pads",
+            "number": 13249,
             "author": {
-              "login": "github-actions"
+              "login": "amatyja"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Detectors/FOCAL/simulation/include/FOCALSimulation/Detector.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2024-07-o2_prs.json"
+                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-10T08:14:33Z",
+            "title": "Fixes of bugs in class mask calculation",
+            "number": 13282,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add EP angle to McCollisions for debugging",
+            "number": 13287,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODMcProducerHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2024-07-o2_releases.json"
+                    "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
                   }
                 }
               ]
@@ -3184,23 +3134,48 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[FOCAL-66] ECAL geoemetry and step manager for pads",
-            "number": 13249,
+            "state": "MERGED",
+            "mergedAt": "2024-07-10T08:20:30Z",
+            "title": "SIM: ALICE3 add missing TF3 to default",
+            "number": 13283,
             "author": {
-              "login": "amatyja"
+              "login": "f3sch"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/FOCAL/simulation/include/FOCALSimulation/Detector.h"
+                    "path": "run/o2simdefaultdetectorlist.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
+                    "path": "doc/data/2024-07-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2024-07-o2_releases.json"
                   }
                 }
               ]
