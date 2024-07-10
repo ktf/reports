@@ -2086,36 +2086,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Pythia8 seeding improvements",
-            "number": 13281,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorPythia8.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[MCH] change settings for MUON_SYNC_RECO",
             "number": 13139,
             "author": {
@@ -3024,31 +2994,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[FOCAL-66] ECAL geoemetry and step manager for pads",
-            "number": 13249,
-            "author": {
-              "login": "amatyja"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/include/FOCALSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-10T08:57:26Z",
             "title": "CCDB: ensure the right number of bytes is deleted for libuv handlers",
@@ -3074,36 +3019,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2024-07-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2024-07-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-28T19:35:34Z",
             "title": "Fix variant for std::vector string",
@@ -3121,6 +3036,66 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/Variant.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add EP angle to McCollisions for debugging",
+            "number": 13287,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODMcProducerHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-66] ECAL geoemetry and step manager for pads",
+            "number": 13249,
+            "author": {
+              "login": "amatyja"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/simulation/include/FOCALSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
                   }
                 }
               ]
@@ -3164,33 +3139,58 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add EP angle to McCollisions for debugging",
-            "number": 13287,
+            "state": "MERGED",
+            "mergedAt": "2024-07-10T12:17:22Z",
+            "title": "Pythia8 seeding improvements",
+            "number": 13281,
             "author": {
-              "login": "ddobrigk"
+              "login": "sawenzel"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/AOD/src/AODMcProducerHelpers.cxx"
+                    "path": "Generators/include/Generators/GeneratorPythia8.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                    "path": "Generators/src/GeneratorFactory.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2024-07-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2024-07-o2_releases.json"
                   }
                 }
               ]

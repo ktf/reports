@@ -3345,41 +3345,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] use float type for statistic histograms",
-            "number": 6802,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/filterPP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/filterPPwithAssociation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Dependency finder: Add protection against non-Unicode characters in JSON",
             "number": 6806,
             "author": {
@@ -3523,6 +3488,56 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-10T11:58:24Z",
+            "title": "PWGLF: Fix compilation warnings",
+            "number": 6805,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Trigger compilation errors on warnings",
+            "number": 5445,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsDefineOptions.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "PWGHF: Add vertexing protection in XicToXiPiPi",
@@ -3603,48 +3618,33 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-07-10T11:58:24Z",
-            "title": "PWGLF: Fix compilation warnings",
-            "number": 6805,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Trigger compilation errors on warnings",
-            "number": 5445,
+            "title": "[PWGDQ] use float type for statistic histograms",
+            "number": 6802,
             "author": {
-              "login": "vkucera"
+              "login": "feisenhu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "cmake/O2PhysicsDefineOptions.cmake"
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/filterPP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/filterPPwithAssociation.cxx"
                   }
                 }
               ]
