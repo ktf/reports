@@ -28,6 +28,7 @@
 	- [\#13236](https://github.com/AliceO2Group/AliceO2/pull/13236) 2024-06-28: ITS: Introducing verifier for the ALPIDE decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13240](https://github.com/AliceO2Group/AliceO2/pull/13240) 2024-06-23: Bug fixes (bool --> float, histo filling) and a few improvements by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13244](https://github.com/AliceO2Group/AliceO2/pull/13244) 2024-06-25: Sort hits addresses before adding to raw stream by [@shahor02](https://github.com/shahor02)
+	- [\#13249](https://github.com/AliceO2Group/AliceO2/pull/13249) 2024-07-10: [FOCAL-66] ECAL geoemetry and step manager for pads by [@amatyja](https://github.com/amatyja)
 	- [\#13251](https://github.com/AliceO2Group/AliceO2/pull/13251) 2024-06-26: ITS: Report error in the decoder if missing CHIP_TRAILER by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13253](https://github.com/AliceO2Group/AliceO2/pull/13253) 2024-06-27: ITS: Fix the case of the pixel firing several times by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
