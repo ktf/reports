@@ -67,6 +67,7 @@
 ## Recent developments in O2 - Generators
 	- [\#13231](https://github.com/AliceO2Group/AliceO2/pull/13231) 2024-06-19: [Gen] Abort if sub-generator is not configured correctly by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#13281](https://github.com/AliceO2Group/AliceO2/pull/13281) 2024-07-10: Pythia8 seeding improvements by [@sawenzel](https://github.com/sawenzel)
+	- [\#13289](https://github.com/AliceO2Group/AliceO2/pull/13289) 2024-07-10: make function protected by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13284](https://github.com/AliceO2Group/AliceO2/pull/13284) 2024-07-10: Mergers: avoid a crash if STOP happens without having received inputs by [@knopers8](https://github.com/knopers8)
