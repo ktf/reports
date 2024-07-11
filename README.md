@@ -50,6 +50,7 @@
 	- [\#13282](https://github.com/AliceO2Group/AliceO2/pull/13282) 2024-07-10: Fixes of bugs in class mask calculation by [@mfasDa](https://github.com/mfasDa)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
+	- [\#13292](https://github.com/AliceO2Group/AliceO2/pull/13292) 2024-07-11: TPCQC: fix for magnitude of charge with TPC mom for  dEdx for He3 plots by [@sbhawani](https://github.com/sbhawani)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13241](https://github.com/AliceO2Group/AliceO2/pull/13241) 2024-07-10: o2-eve: implementation of *.eve binary format, many fixes by [@jmyrcha](https://github.com/jmyrcha)
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
