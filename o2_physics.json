@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-05T12:20:24Z",
-            "title": "PWGLF: KFParticle implementation for hyper triton 3body reconstruction in decay3bodybuilder",
-            "number": 6730,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/KFparticle/KFUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-05T14:02:30Z",
             "title": "Common: fix typo",
             "number": 6743,
@@ -3588,46 +3553,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: add OmegaC0 reconstruction workflows that used KFParticle.",
-            "number": 6327,
-            "author": {
-              "login": "Yunfan-Liu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-11T11:36:46Z",
             "title": "PWGCF: FemtoUniverse -- Changes in the two track cuts for the h-Phi analysis",
@@ -3740,6 +3665,66 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ/EM] track propagation to associated vtx in tableMaker",
+            "number": 6824,
+            "author": {
+              "login": "feisenhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: add OmegaC0 reconstruction workflows that used KFParticle.",
+            "number": 6327,
+            "author": {
+              "login": "Yunfan-Liu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
                   }
                 }
               ]
