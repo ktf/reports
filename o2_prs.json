@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[EMCAL-539,EMCAL-696,EMCAL-697] FIT-CTP-EMCAL trigger simulation",
-            "number": 13227,
-            "author": {
-              "login": "siragoni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/DigitizerTRU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/LZEROElectronics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/DigitsWriteoutBufferTRU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/LZEROElectronics.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EMCALDigitizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/EMCALDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-06-18T13:34:29Z",
             "title": "Prevent calling fatal on query for non-existing CCDB",
@@ -3506,6 +3456,36 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/ITS3DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-98] Optimizing the hit processing in FOCAL",
+            "number": 13297,
+            "author": {
+              "login": "hahassan7"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/include/FOCALBase/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/simulation/include/FOCALSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
                   }
                 }
               ]
