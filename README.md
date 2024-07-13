@@ -26,7 +26,6 @@
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13228](https://github.com/AliceO2Group/AliceO2/pull/13228) 2024-06-18: Fix access to CCDB for ITS DCSParserSpec by [@shahor02](https://github.com/shahor02)
 	- [\#13229](https://github.com/AliceO2Group/AliceO2/pull/13229) 2024-06-20: ITS: Fix placement of REGION HEADERS during ALPIDE data encoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
-	- [\#13230](https://github.com/AliceO2Group/AliceO2/pull/13230) 2024-06-18: Prevent calling fatal on query for non-existing CCDB by [@shahor02](https://github.com/shahor02)
 	- [\#13236](https://github.com/AliceO2Group/AliceO2/pull/13236) 2024-06-28: ITS: Introducing verifier for the ALPIDE decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13240](https://github.com/AliceO2Group/AliceO2/pull/13240) 2024-06-23: Bug fixes (bool --> float, histo filling) and a few improvements by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13244](https://github.com/AliceO2Group/AliceO2/pull/13244) 2024-06-25: Sort hits addresses before adding to raw stream by [@shahor02](https://github.com/shahor02)
