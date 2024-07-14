@@ -12,6 +12,7 @@
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
+	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13152](https://github.com/AliceO2Group/AliceO2/pull/13152) 2024-06-21: Remove the obsolete NotBadFlagExample by [@knopers8](https://github.com/knopers8)
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
@@ -20,6 +21,7 @@
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
 	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
@@ -76,6 +78,8 @@
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13288](https://github.com/AliceO2Group/AliceO2/pull/13288) 2024-07-12: Add Flow Mapper for synthetic v2 addition by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13289](https://github.com/AliceO2Group/AliceO2/pull/13289) 2024-07-10: make function protected by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Steer
+	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13284](https://github.com/AliceO2Group/AliceO2/pull/13284) 2024-07-10: Mergers: avoid a crash if STOP happens without having received inputs by [@knopers8](https://github.com/knopers8)
