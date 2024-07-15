@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: fix selection of MC reco candidates in correlatorDMesonPairs",
-            "number": 6794,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-09T15:34:14Z",
             "title": "PWGJE: Fix compilation warnings",
@@ -2548,36 +2528,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGEM/Dilepton: select wide rapidity range for vector mesons",
-            "number": 6870,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/associateMCinfoDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dielectronQCMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dimuonQCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-15T19:59:11Z",
             "title": "Use std::isnan",
@@ -2680,6 +2630,166 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/trackEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-15T21:10:48Z",
+            "title": "PWGEM/Dilepton: select wide rapidity range for vector mesons",
+            "number": 6870,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/associateMCinfoDilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dielectronQCMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dimuonQCMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/Dilepton: make separate EMPhotonEventCut",
+            "number": 6871,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/EMEventCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/EMEventCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMPhotonEventCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMPhotonEventCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/PWGEMPhotonMesonCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGammaMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/MaterialBudget.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/MaterialBudgetMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/SinglePhoton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/SinglePhotonMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/TagAndProbe.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/TaggingPi0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/TaggingPi0MC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/dalitzEEQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/dalitzEEQCMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/pcmQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/pcmQCMC.cxx"
                   }
                 }
               ]
