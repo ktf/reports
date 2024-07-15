@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-09T14:03:53Z",
-            "title": "PWGDQ: add a cut for Jpsi study",
-            "number": 6774,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-09T14:23:31Z",
             "title": "PWGEM: Fix compilation warnings",
             "number": 6783,
@@ -2675,36 +2655,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[event plane' update labeling for TPC",
-            "number": 6861,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qVectorsCorrection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGHF: taskFlow.cxx: Uniformization of the name of the correlation containers",
             "number": 6715,
             "author": {
@@ -2790,6 +2740,61 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use std::isnan",
+            "number": 6864,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[event plane' update labeling for TPC",
+            "number": 6861,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
                   }
                 }
               ]
