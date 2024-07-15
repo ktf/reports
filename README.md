@@ -43,6 +43,7 @@
 	- [\#13268](https://github.com/AliceO2Group/AliceO2/pull/13268) 2024-07-03: fix warning for signed/unsigned comparison by [@shahor02](https://github.com/shahor02)
 	- [\#13269](https://github.com/AliceO2Group/AliceO2/pull/13269) 2024-07-03: ITS: Add errored chips separately for the decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13271](https://github.com/AliceO2Group/AliceO2/pull/13271) 2024-07-04: ARM Support: use correct _MAX type by [@ktf](https://github.com/ktf)
+	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
 	- [\#13274](https://github.com/AliceO2Group/AliceO2/pull/13274) 2024-07-07: ITS: Fixing reporting of TrailerAfterHeader error in decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13275](https://github.com/AliceO2Group/AliceO2/pull/13275) 2024-07-05: ITS: Accounting for empty chipID vector after decoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13276](https://github.com/AliceO2Group/AliceO2/pull/13276) 2024-07-07: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
