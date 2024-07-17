@@ -6,7 +6,6 @@
 	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
@@ -14,7 +13,6 @@
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13152](https://github.com/AliceO2Group/AliceO2/pull/13152) 2024-06-21: Remove the obsolete NotBadFlagExample by [@knopers8](https://github.com/knopers8)
 	- [\#13209](https://github.com/AliceO2Group/AliceO2/pull/13209) 2024-06-18: More consistently apply external ion pdg table by [@sawenzel](https://github.com/sawenzel)
-	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
@@ -24,7 +22,6 @@
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
 	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
-	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
 	- [\#13236](https://github.com/AliceO2Group/AliceO2/pull/13236) 2024-06-28: ITS: Introducing verifier for the ALPIDE decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13240](https://github.com/AliceO2Group/AliceO2/pull/13240) 2024-06-23: Bug fixes (bool --> float, histo filling) and a few improvements by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13244](https://github.com/AliceO2Group/AliceO2/pull/13244) 2024-06-25: Sort hits addresses before adding to raw stream by [@shahor02](https://github.com/shahor02)
