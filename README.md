@@ -7,7 +7,6 @@
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 	- [\#13225](https://github.com/AliceO2Group/AliceO2/pull/13225) 2024-06-20: [FOCAL-97, FOCAL-98] Construction of the FOCAL-H geometry and Hit simulation by [@hahassan7](https://github.com/hahassan7)
-	- [\#13235](https://github.com/AliceO2Group/AliceO2/pull/13235) 2024-06-20: Common/Constants: Add K*(892)0,+ masses by [@fgrosa](https://github.com/fgrosa)
 	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
