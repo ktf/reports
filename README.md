@@ -52,8 +52,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#13241](https://github.com/AliceO2Group/AliceO2/pull/13241) 2024-07-10: o2-eve: implementation of *.eve binary format, many fixes by [@jmyrcha](https://github.com/jmyrcha)
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
-## Recent developments in O2 - Examples
-	- [\#13237](https://github.com/AliceO2Group/AliceO2/pull/13237) 2024-06-20: MC: Remove unsupported parameter from Pythia 8 example by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Framework
 	- [\#12704](https://github.com/AliceO2Group/AliceO2/pull/12704) 2024-06-26: DPL: check for the maximum number of members supported for tasks by [@ktf](https://github.com/ktf)
 	- [\#13242](https://github.com/AliceO2Group/AliceO2/pull/13242) 2024-06-24: Use voids to select packs by [@ktf](https://github.com/ktf)
