@@ -19,7 +19,6 @@
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
 	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
-	- [\#13222](https://github.com/AliceO2Group/AliceO2/pull/13222) 2024-06-21: ITS Calib: log changes in noisecalib + new finalize-eor flag for thr calibration by [@iravasen](https://github.com/iravasen)
 	- [\#13236](https://github.com/AliceO2Group/AliceO2/pull/13236) 2024-06-28: ITS: Introducing verifier for the ALPIDE decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13240](https://github.com/AliceO2Group/AliceO2/pull/13240) 2024-06-23: Bug fixes (bool --> float, histo filling) and a few improvements by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#13244](https://github.com/AliceO2Group/AliceO2/pull/13244) 2024-06-25: Sort hits addresses before adding to raw stream by [@shahor02](https://github.com/shahor02)
