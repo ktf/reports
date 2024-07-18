@@ -15,6 +15,7 @@
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
+	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
@@ -47,6 +48,7 @@
 	- [\#13292](https://github.com/AliceO2Group/AliceO2/pull/13292) 2024-07-11: TPCQC: fix for magnitude of charge with TPC mom for  dEdx for He3 plots by [@sbhawani](https://github.com/sbhawani)
 	- [\#13298](https://github.com/AliceO2Group/AliceO2/pull/13298) 2024-07-14: change TOF LOG severity in decoding by [@noferini](https://github.com/noferini)
 	- [\#13305](https://github.com/AliceO2Group/AliceO2/pull/13305) 2024-07-17: Do not init refitter if no TPC tracks available by [@shahor02](https://github.com/shahor02)
+	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13241](https://github.com/AliceO2Group/AliceO2/pull/13241) 2024-07-10: o2-eve: implementation of *.eve binary format, many fixes by [@jmyrcha](https://github.com/jmyrcha)
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
