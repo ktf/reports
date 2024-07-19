@@ -2683,26 +2683,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGCF: Fix bug in fillMCParticle, check if motherparticlesMC is empty",
-            "number": 6905,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-19T10:40:21Z",
             "title": "PWGEM/Dilepton: update polarization",
@@ -2760,16 +2740,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGJE: Fixing index on mcdielcollision",
-            "number": 6909,
+            "title": "Add PDGInformation on daughters",
+            "number": 6910,
             "author": {
-              "login": "nzardosh"
+              "login": "Katrin-Greve"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataDQ.h"
+                    "path": "PWGLF/DataModel/LFSlimStrangeTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/LFStrangeTreeCreator.cxx"
                   }
                 }
               ]
@@ -2805,21 +2790,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add PDGInformation on daughters",
-            "number": 6910,
+            "title": "PWGCF: Fix bug in fillMCParticle, check if motherparticlesMC is empty",
+            "number": 6905,
             "author": {
-              "login": "Katrin-Greve"
+              "login": "alicja-pp"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFSlimStrangeTables.h"
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-19T12:25:55Z",
+            "title": "PWGJE: Fixing index on mcdielcollision",
+            "number": 6909,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/LFStrangeTreeCreator.cxx"
+                    "path": "PWGJE/DataModel/JetReducedDataDQ.h"
                   }
                 }
               ]
