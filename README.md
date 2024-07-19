@@ -65,6 +65,7 @@
 	- [\#13260](https://github.com/AliceO2Group/AliceO2/pull/13260) 2024-07-02: DPL Analysis: add support for ProducesGroup by [@ktf](https://github.com/ktf)
 	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 	- [\#13270](https://github.com/AliceO2Group/AliceO2/pull/13270) 2024-07-04: DPL: Avoid uninitialized values in DataProcessingStats by [@knopers8](https://github.com/knopers8)
+	- [\#13285](https://github.com/AliceO2Group/AliceO2/pull/13285) 2024-07-19: DPL Analysis: modernize expressions by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13291](https://github.com/AliceO2Group/AliceO2/pull/13291) 2024-07-15: DPL Analysis: data model: allow to specify the column/branch name explicitly for an index column by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
