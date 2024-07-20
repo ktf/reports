@@ -6,12 +6,10 @@
 	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
-	- [\#13243](https://github.com/AliceO2Group/AliceO2/pull/13243) 2024-06-25: SIM: Prefer detector list by default by [@f3sch](https://github.com/f3sch)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
