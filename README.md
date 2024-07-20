@@ -8,12 +8,14 @@
 ## Recent developments in O2 - Common
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
+	- [\#13310](https://github.com/AliceO2Group/AliceO2/pull/13310) 2024-07-20: Trying to get ROOT 6.32.0 to digest the type by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
+	- [\#13310](https://github.com/AliceO2Group/AliceO2/pull/13310) 2024-07-20: Trying to get ROOT 6.32.0 to digest the type by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
