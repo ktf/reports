@@ -47,6 +47,7 @@
 	- [\#13292](https://github.com/AliceO2Group/AliceO2/pull/13292) 2024-07-11: TPCQC: fix for magnitude of charge with TPC mom for  dEdx for He3 plots by [@sbhawani](https://github.com/sbhawani)
 	- [\#13297](https://github.com/AliceO2Group/AliceO2/pull/13297) 2024-07-19: [FOCAL-98] Optimizing the hit processing in FOCAL by [@hahassan7](https://github.com/hahassan7)
 	- [\#13298](https://github.com/AliceO2Group/AliceO2/pull/13298) 2024-07-14: change TOF LOG severity in decoding by [@noferini](https://github.com/noferini)
+	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
 	- [\#13305](https://github.com/AliceO2Group/AliceO2/pull/13305) 2024-07-17: Do not init refitter if no TPC tracks available by [@shahor02](https://github.com/shahor02)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
@@ -74,6 +75,7 @@
 	- [\#13311](https://github.com/AliceO2Group/AliceO2/pull/13311) 2024-07-19: Add EP angle only if available from the generator by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Steer
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
+	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Utilities
 	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13284](https://github.com/AliceO2Group/AliceO2/pull/13284) 2024-07-10: Mergers: avoid a crash if STOP happens without having received inputs by [@knopers8](https://github.com/knopers8)
