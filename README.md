@@ -53,7 +53,6 @@
 	- [\#13241](https://github.com/AliceO2Group/AliceO2/pull/13241) 2024-07-10: o2-eve: implementation of *.eve binary format, many fixes by [@jmyrcha](https://github.com/jmyrcha)
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#12704](https://github.com/AliceO2Group/AliceO2/pull/12704) 2024-06-26: DPL: check for the maximum number of members supported for tasks by [@ktf](https://github.com/ktf)
 	- [\#13246](https://github.com/AliceO2Group/AliceO2/pull/13246) 2024-06-27: DPL Analysis: optimise compilation by [@ktf](https://github.com/ktf)
 	- [\#13247](https://github.com/AliceO2Group/AliceO2/pull/13247) 2024-06-26: Add support for Track_IU by [@ktf](https://github.com/ktf)
 	- [\#13248](https://github.com/AliceO2Group/AliceO2/pull/13248) 2024-07-05: AOD: Fix thinner for tracked 2023pp by [@f3sch](https://github.com/f3sch)
