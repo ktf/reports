@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-23T05:53:52Z",
-            "title": "Bug fixes (bool --> float, histo filling) and a few improvements",
-            "number": 13240,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GLOQC/include/GLOQC/ITSTPCMatchingQCParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GLOQC/include/GLOQC/MatchITSTPCQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/qc/src/ITSTPCMatchingQCSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-06-26T17:55:22Z",
             "title": "ITS: Report error in the decoder if missing CHIP_TRAILER",
             "number": 13251,
@@ -3421,31 +3386,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "add creation of default MCH/Calib/HV object",
-            "number": 13313,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Add getter for Afterburner tracks",
             "number": 13067,
             "author": {
@@ -3571,6 +3511,71 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflowScalers/src/ctpCCDBManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add creation of default MCH/Calib/HV object",
+            "number": 13313,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Data Model: introduce bit to keep track of data created after EoS",
+            "number": 13315,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TimingInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataAllocator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
