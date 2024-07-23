@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-13T16:33:34Z",
-            "title": "PWGEM/Dilepton: ccdb for smearing task",
-            "number": 6511,
-            "author": {
-              "login": "DanielSamitz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/smearing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/MomentumSmearer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-07-12T13:09:40Z",
-            "title": "PWGEM: properly add HF Cocktail task",
-            "number": 6838,
-            "author": {
-              "login": "DanielSamitz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-15T17:19:02Z",
             "title": "PWGJE: Fixing reference spectrum dphi selection",
             "number": 6862,
@@ -2775,6 +2730,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] add process function for SameSideMixing  Barrel only",
+            "number": 6945,
+            "author": {
+              "login": "feisenhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM: fix HF cocktail task",
+            "number": 6947,
+            "author": {
+              "login": "DanielSamitz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/lmeeHFCocktail.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Small Fix for flow analysis",
             "number": 6946,
             "author": {
@@ -2800,16 +2795,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] add process function for SameSideMixing  Barrel only",
-            "number": 6945,
+            "title": "PWGEM: fix seg fault in MomentumSmearer",
+            "number": 6948,
             "author": {
-              "login": "feisenhu"
+              "login": "DanielSamitz"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                    "path": "PWGEM/Dilepton/Utils/MomentumSmearer.h"
                   }
                 }
               ]
