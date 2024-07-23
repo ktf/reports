@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#13254](https://github.com/AliceO2Group/AliceO2/pull/13254) 2024-06-28: DPL Analyis: introduce value based has_type by [@ktf](https://github.com/ktf)
 	- [\#13260](https://github.com/AliceO2Group/AliceO2/pull/13260) 2024-07-02: DPL Analysis: add support for ProducesGroup by [@ktf](https://github.com/ktf)
 	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
@@ -56,7 +55,6 @@
 ## Recent developments in O2 - Framework
 	- [\#13248](https://github.com/AliceO2Group/AliceO2/pull/13248) 2024-07-05: AOD: Fix thinner for tracked 2023pp by [@f3sch](https://github.com/f3sch)
 	- [\#13252](https://github.com/AliceO2Group/AliceO2/pull/13252) 2024-06-28: Fix variant for std::vector string by [@ktf](https://github.com/ktf)
-	- [\#13254](https://github.com/AliceO2Group/AliceO2/pull/13254) 2024-06-28: DPL Analyis: introduce value based has_type by [@ktf](https://github.com/ktf)
 	- [\#13257](https://github.com/AliceO2Group/AliceO2/pull/13257) 2024-06-29: DPL Analysis: speedup prune_voids_pack by [@ktf](https://github.com/ktf)
 	- [\#13259](https://github.com/AliceO2Group/AliceO2/pull/13259) 2024-07-01: DPL: properly handle getting non-existing bindinds by [@ktf](https://github.com/ktf)
 	- [\#13260](https://github.com/AliceO2Group/AliceO2/pull/13260) 2024-07-02: DPL Analysis: add support for ProducesGroup by [@ktf](https://github.com/ktf)
