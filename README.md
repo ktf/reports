@@ -67,6 +67,7 @@
 	- [\#13285](https://github.com/AliceO2Group/AliceO2/pull/13285) 2024-07-19: DPL Analysis: modernize expressions by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13291](https://github.com/AliceO2Group/AliceO2/pull/13291) 2024-07-15: DPL Analysis: data model: allow to specify the column/branch name explicitly for an index column by [@aalkin](https://github.com/aalkin)
+	- [\#13316](https://github.com/AliceO2Group/AliceO2/pull/13316) 2024-07-23: DPL Analysis: signed comparison fix by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#13281](https://github.com/AliceO2Group/AliceO2/pull/13281) 2024-07-10: Pythia8 seeding improvements by [@sawenzel](https://github.com/sawenzel)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
