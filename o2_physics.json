@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-14T23:33:18Z",
-            "title": "PWGEM/Dilepton: update dielectron MC task",
-            "number": 6856,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dielectronQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dielectronQCMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-15T06:35:47Z",
             "title": "PWGDQ: Adding missing moption for processBarrelOnlyWithCollSkimmed",
             "number": 6850,
@@ -2149,36 +2109,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-22T14:06:54Z",
-            "title": "PWGHF: DhCorr task update with ML option",
-            "number": 6929,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-22T14:26:49Z",
             "title": "PWGLF : Added configurable binning for axes (mass, pT, centrality).",
             "number": 6915,
@@ -2775,6 +2705,96 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskDstarToD0Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Attention model evaluation in PIDML adjustments",
+            "number": 6942,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/KaonPidTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLBatchEffAndPurProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLEffAndPurProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidOnnxInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidOnnxModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/qaPidML.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/simpleApplyPidOnnxInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/simpleApplyPidOnnxModel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-22T14:06:54Z",
+            "title": "PWGHF: DhCorr task update with ML option",
+            "number": 6929,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusHadrons.cxx"
                   }
                 }
               ]
