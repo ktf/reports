@@ -16,6 +16,7 @@
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 	- [\#13310](https://github.com/AliceO2Group/AliceO2/pull/13310) 2024-07-20: Trying to get ROOT 6.32.0 to digest the type by [@ktf](https://github.com/ktf)
+	- [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
@@ -63,6 +64,7 @@
 	- [\#13285](https://github.com/AliceO2Group/AliceO2/pull/13285) 2024-07-19: DPL Analysis: modernize expressions by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13291](https://github.com/AliceO2Group/AliceO2/pull/13291) 2024-07-15: DPL Analysis: data model: allow to specify the column/branch name explicitly for an index column by [@aalkin](https://github.com/aalkin)
+	- [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
 	- [\#13316](https://github.com/AliceO2Group/AliceO2/pull/13316) 2024-07-23: DPL Analysis: signed comparison fix by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#13281](https://github.com/AliceO2Group/AliceO2/pull/13281) 2024-07-10: Pythia8 seeding improvements by [@sawenzel](https://github.com/sawenzel)
