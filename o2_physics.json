@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-17T01:20:50Z",
-            "title": "PWGEM/Dilepton: add getSubGeneratorId for gap triggered MC",
-            "number": 6881,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/singleElectronQCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-16T11:48:55Z",
             "title": "PWGHF: fix filling of Lc->pKpi background table filling in polarization analysis.",
             "number": 6865,
@@ -2644,6 +2619,51 @@
         {
           "node": {
             "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: fix generated candidate flagging &  add cand. creator MC process w/o centrality sel.",
+            "number": 6967,
+            "author": {
+              "login": "stefanopolitano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Update CMakeLists.txt",
             "number": 6966,
