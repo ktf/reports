@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-06-29T17:44:14Z",
-            "title": "DPL Analysis: speedup prune_voids_pack",
-            "number": 13257,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/Pack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/test/test_FunctionalHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-01T13:38:45Z",
             "title": "DPL: properly handle getting non-existing bindinds",
             "number": 13259,
@@ -3526,6 +3496,31 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/workflow/ccdb-populator-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add dummy workflow mimicking CCDB populator behaviour",
+            "number": 13322,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2DummyPopulatorWorkflow.cxx"
                   }
                 }
               ]
