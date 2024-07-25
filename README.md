@@ -4,14 +4,12 @@
 	- [\#13264](https://github.com/AliceO2Group/AliceO2/pull/13264) 2024-07-03: DPL Analysis: do not copy the Configurable<> when creating PlaceholderNode in filter by [@aalkin](https://github.com/aalkin)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13310](https://github.com/AliceO2Group/AliceO2/pull/13310) 2024-07-20: Trying to get ROOT 6.32.0 to digest the type by [@ktf](https://github.com/ktf)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
 	- [\#13324](https://github.com/AliceO2Group/AliceO2/pull/13324) 2024-07-24: DPL: demote error to warning when dropping on a stop transition by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
-	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
@@ -23,7 +21,6 @@
 	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13249](https://github.com/AliceO2Group/AliceO2/pull/13249) 2024-07-10: [FOCAL-66] ECAL geoemetry and step manager for pads by [@amatyja](https://github.com/amatyja)
 	- [\#13250](https://github.com/AliceO2Group/AliceO2/pull/13250) 2024-07-11: AOD: Add thinner option to producer by [@f3sch](https://github.com/f3sch)
-	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13261](https://github.com/AliceO2Group/AliceO2/pull/13261) 2024-07-03: ITS: Refactoring iteration over decoder and chip errors by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13262](https://github.com/AliceO2Group/AliceO2/pull/13262) 2024-07-03: ITS: Refactoring checks for data words identification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13263](https://github.com/AliceO2Group/AliceO2/pull/13263) 2024-07-04: ITS: Introducing framework for handling chip errors during decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
@@ -77,5 +74,4 @@
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Utilities
-	- [\#13258](https://github.com/AliceO2Group/AliceO2/pull/13258) 2024-06-30: Fix for packing/unpacking constant or size 1 stream by [@shahor02](https://github.com/shahor02)
 	- [\#13284](https://github.com/AliceO2Group/AliceO2/pull/13284) 2024-07-10: Mergers: avoid a crash if STOP happens without having received inputs by [@knopers8](https://github.com/knopers8)
