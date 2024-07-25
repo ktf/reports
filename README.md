@@ -20,7 +20,6 @@
 	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13249](https://github.com/AliceO2Group/AliceO2/pull/13249) 2024-07-10: [FOCAL-66] ECAL geoemetry and step manager for pads by [@amatyja](https://github.com/amatyja)
 	- [\#13250](https://github.com/AliceO2Group/AliceO2/pull/13250) 2024-07-11: AOD: Add thinner option to producer by [@f3sch](https://github.com/f3sch)
-	- [\#13261](https://github.com/AliceO2Group/AliceO2/pull/13261) 2024-07-03: ITS: Refactoring iteration over decoder and chip errors by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13262](https://github.com/AliceO2Group/AliceO2/pull/13262) 2024-07-03: ITS: Refactoring checks for data words identification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13263](https://github.com/AliceO2Group/AliceO2/pull/13263) 2024-07-04: ITS: Introducing framework for handling chip errors during decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13266](https://github.com/AliceO2Group/AliceO2/pull/13266) 2024-07-07: TRD Fix sim to raw data conversion by [@bazinski](https://github.com/bazinski)
