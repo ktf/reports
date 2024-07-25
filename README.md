@@ -25,7 +25,6 @@
 	- [\#13263](https://github.com/AliceO2Group/AliceO2/pull/13263) 2024-07-04: ITS: Introducing framework for handling chip errors during decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13266](https://github.com/AliceO2Group/AliceO2/pull/13266) 2024-07-07: TRD Fix sim to raw data conversion by [@bazinski](https://github.com/bazinski)
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
-	- [\#13268](https://github.com/AliceO2Group/AliceO2/pull/13268) 2024-07-03: fix warning for signed/unsigned comparison by [@shahor02](https://github.com/shahor02)
 	- [\#13269](https://github.com/AliceO2Group/AliceO2/pull/13269) 2024-07-03: ITS: Add errored chips separately for the decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13271](https://github.com/AliceO2Group/AliceO2/pull/13271) 2024-07-04: ARM Support: use correct _MAX type by [@ktf](https://github.com/ktf)
 	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
