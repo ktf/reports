@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-03T17:57:08Z",
-            "title": "ITS: Add errored chips separately for the decoder verification",
-            "number": 13269,
-            "author": {
-              "login": "KirillVNaumov"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RUDecodeData.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-04T07:20:56Z",
             "title": "DPL: Avoid uninitialized values in DataProcessingStats",
             "number": 13270,
@@ -3631,6 +3611,36 @@
                 {
                   "node": {
                     "path": "doc/data/2024-07-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: Added structure for ITS data simulator",
+            "number": 13332,
+            "author": {
+              "login": "KirillVNaumov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/ITSDataSimulator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/ITSDataSimulator.cxx"
                   }
                 }
               ]
