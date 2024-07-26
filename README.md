@@ -62,6 +62,7 @@
 	- [\#13322](https://github.com/AliceO2Group/AliceO2/pull/13322) 2024-07-24: DPL: add dummy workflow mimicking CCDB populator behaviour by [@ktf](https://github.com/ktf)
 	- [\#13324](https://github.com/AliceO2Group/AliceO2/pull/13324) 2024-07-24: DPL: demote error to warning when dropping on a stop transition by [@ktf](https://github.com/ktf)
 	- [\#13327](https://github.com/AliceO2Group/AliceO2/pull/13327) 2024-07-25: DPL: run data processing on separate thread by [@ktf](https://github.com/ktf)
+	- [\#13333](https://github.com/AliceO2Group/AliceO2/pull/13333) 2024-07-26: DPL: factorise out backtrace support by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#13281](https://github.com/AliceO2Group/AliceO2/pull/13281) 2024-07-10: Pythia8 seeding improvements by [@sawenzel](https://github.com/sawenzel)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
