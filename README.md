@@ -41,6 +41,7 @@
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 	- [\#13308](https://github.com/AliceO2Group/AliceO2/pull/13308) 2024-07-24: [MCH] filter digits based on HV status by [@pillot](https://github.com/pillot)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
+	- [\#13328](https://github.com/AliceO2Group/AliceO2/pull/13328) 2024-07-26: Use rejectlist in MID reconstruction by [@dstocco](https://github.com/dstocco)
 	- [\#13329](https://github.com/AliceO2Group/AliceO2/pull/13329) 2024-07-26: Improve macro to handle the MID calibration CCDB objects by [@dstocco](https://github.com/dstocco)
 	- [\#13335](https://github.com/AliceO2Group/AliceO2/pull/13335) 2024-07-26: Allow CTP scalers to work also on mac by [@ktf](https://github.com/ktf)
 	- [\#13337](https://github.com/AliceO2Group/AliceO2/pull/13337) 2024-07-26: ITS Threshold: new logic for row-by-row data extraction by [@iravasen](https://github.com/iravasen)
