@@ -43,6 +43,7 @@
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
 	- [\#13329](https://github.com/AliceO2Group/AliceO2/pull/13329) 2024-07-26: Improve macro to handle the MID calibration CCDB objects by [@dstocco](https://github.com/dstocco)
 	- [\#13335](https://github.com/AliceO2Group/AliceO2/pull/13335) 2024-07-26: Allow CTP scalers to work also on mac by [@ktf](https://github.com/ktf)
+	- [\#13337](https://github.com/AliceO2Group/AliceO2/pull/13337) 2024-07-26: ITS Threshold: new logic for row-by-row data extraction by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13241](https://github.com/AliceO2Group/AliceO2/pull/13241) 2024-07-10: o2-eve: implementation of *.eve binary format, many fixes by [@jmyrcha](https://github.com/jmyrcha)
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
