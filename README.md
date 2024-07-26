@@ -18,14 +18,11 @@
 ## Recent developments in O2 - Detectors
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
-	- [\#13187](https://github.com/AliceO2Group/AliceO2/pull/13187) 2024-07-04: TPC: automatizing creation of IDC scalers during synchronous reco by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 	- [\#13249](https://github.com/AliceO2Group/AliceO2/pull/13249) 2024-07-10: [FOCAL-66] ECAL geoemetry and step manager for pads by [@amatyja](https://github.com/amatyja)
 	- [\#13250](https://github.com/AliceO2Group/AliceO2/pull/13250) 2024-07-11: AOD: Add thinner option to producer by [@f3sch](https://github.com/f3sch)
-	- [\#13263](https://github.com/AliceO2Group/AliceO2/pull/13263) 2024-07-04: ITS: Introducing framework for handling chip errors during decoder verification by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13266](https://github.com/AliceO2Group/AliceO2/pull/13266) 2024-07-07: TRD Fix sim to raw data conversion by [@bazinski](https://github.com/bazinski)
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
-	- [\#13271](https://github.com/AliceO2Group/AliceO2/pull/13271) 2024-07-04: ARM Support: use correct _MAX type by [@ktf](https://github.com/ktf)
 	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
 	- [\#13274](https://github.com/AliceO2Group/AliceO2/pull/13274) 2024-07-07: ITS: Fixing reporting of TrailerAfterHeader error in decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13275](https://github.com/AliceO2Group/AliceO2/pull/13275) 2024-07-05: ITS: Accounting for empty chipID vector after decoding by [@KirillVNaumov](https://github.com/KirillVNaumov)
@@ -46,6 +43,7 @@
 	- [\#13308](https://github.com/AliceO2Group/AliceO2/pull/13308) 2024-07-24: [MCH] filter digits based on HV status by [@pillot](https://github.com/pillot)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
 	- [\#13329](https://github.com/AliceO2Group/AliceO2/pull/13329) 2024-07-26: Improve macro to handle the MID calibration CCDB objects by [@dstocco](https://github.com/dstocco)
+	- [\#13335](https://github.com/AliceO2Group/AliceO2/pull/13335) 2024-07-26: Allow CTP scalers to work also on mac by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13241](https://github.com/AliceO2Group/AliceO2/pull/13241) 2024-07-10: o2-eve: implementation of *.eve binary format, many fixes by [@jmyrcha](https://github.com/jmyrcha)
 	- [\#13278](https://github.com/AliceO2Group/AliceO2/pull/13278) 2024-07-07: o2-eve-export-workflow: reduce amount of created data to given thresh… by [@jmyrcha](https://github.com/jmyrcha)
