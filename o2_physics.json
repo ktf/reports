@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-24T18:28:44Z",
-            "title": "feat: Add ZorroHelper class and update Zorro code to use it",
-            "number": 6975,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/EventFilteringUtilsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/Zorro.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/Zorro.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/uploadOTSobjects.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-24T19:32:04Z",
             "title": "DPG/AOTTrack: add configurables for the ML cut application",
             "number": 6979,
@@ -2345,33 +2310,23 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF, PWGCF: charm hadron MC implementation",
-            "number": 6832,
+            "state": "MERGED",
+            "mergedAt": "2024-04-28T07:33:29Z",
+            "title": "PWGHF: Ds-h correlation, Modified the tracking efficiency and the sideband histograms",
+            "number": 5820,
             "author": {
-              "login": "1994ra"
+              "login": "scattaru"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/femtoDreamPairTaskCharmHadrons.cxx"
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
                   }
                 }
               ]
@@ -2450,23 +2405,53 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-04-28T07:33:29Z",
-            "title": "PWGHF: Ds-h correlation, Modified the tracking efficiency and the sideband histograms",
-            "number": 5820,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update Zorro init for the nuclei spectra analysis",
+            "number": 7042,
             "author": {
-              "login": "scattaru"
+              "login": "mpuccio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF, PWGCF: charm hadron MC implementation",
+            "number": 6832,
+            "author": {
+              "login": "1994ra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/femtoDreamPairTaskCharmHadrons.cxx"
                   }
                 }
               ]
