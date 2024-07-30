@@ -957,41 +957,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Small fixes and additions to XicToXiPiPi workflow",
-            "number": 7002,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGCF: Add process function for V0antiV0 analysis to efficiency task, fix problems with configurables",
             "number": 7036,
             "author": {
@@ -2279,26 +2244,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGCF:FemtoUniverse -- Adding a possibility to perform Kaon PID with loose TPC NSigmas",
-            "number": 7072,
-            "author": {
-              "login": "zchochul"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-30T13:07:35Z",
             "title": "[PWGDQ] Apply zorro selections for DQ analyses",
@@ -2411,6 +2356,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Improve histo handling for multi-run analyses",
+            "number": 7064,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/Zorro.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/Zorro.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: add histogram for generated candidates counting",
             "number": 7067,
             "author": {
@@ -2431,8 +2401,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Improve histo handling for multi-run analyses",
-            "number": 7064,
+            "title": "Add information for the Xi/Omega polarisation analysis",
+            "number": 7075,
             "author": {
               "login": "mpuccio"
             },
@@ -2440,12 +2410,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "EventFiltering/Zorro.cxx"
+                    "path": "PWGLF/DataModel/cascqaanalysis.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "EventFiltering/Zorro.h"
+                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
                   }
                 }
               ]
@@ -2501,21 +2471,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add information for the Xi/Omega polarisation analysis",
-            "number": 7075,
+            "title": "PWGCF:FemtoUniverse -- Adding a possibility to perform Kaon PID with loose TPC NSigmas",
+            "number": 7072,
             "author": {
-              "login": "mpuccio"
+              "login": "zchochul"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/cascqaanalysis.h"
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Small fixes and additions to XicToXiPiPi workflow",
+            "number": 7002,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
                   }
                 }
               ]
