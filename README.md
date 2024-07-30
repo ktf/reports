@@ -24,7 +24,6 @@
 	- [\#13266](https://github.com/AliceO2Group/AliceO2/pull/13266) 2024-07-07: TRD Fix sim to raw data conversion by [@bazinski](https://github.com/bazinski)
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
 	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
-	- [\#13274](https://github.com/AliceO2Group/AliceO2/pull/13274) 2024-07-07: ITS: Fixing reporting of TrailerAfterHeader error in decoder by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13277](https://github.com/AliceO2Group/AliceO2/pull/13277) 2024-07-11: TPC: adding cluster occupancy to timeseries by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13280](https://github.com/AliceO2Group/AliceO2/pull/13280) 2024-07-08: V0: cleanup unused AP cuts by [@f3sch](https://github.com/f3sch)
 	- [\#13282](https://github.com/AliceO2Group/AliceO2/pull/13282) 2024-07-10: Fixes of bugs in class mask calculation by [@mfasDa](https://github.com/mfasDa)
