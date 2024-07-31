@@ -24,7 +24,6 @@
 	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
 	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
 	- [\#13277](https://github.com/AliceO2Group/AliceO2/pull/13277) 2024-07-11: TPC: adding cluster occupancy to timeseries by [@matthias-kleiner](https://github.com/matthias-kleiner)
-	- [\#13280](https://github.com/AliceO2Group/AliceO2/pull/13280) 2024-07-08: V0: cleanup unused AP cuts by [@f3sch](https://github.com/f3sch)
 	- [\#13282](https://github.com/AliceO2Group/AliceO2/pull/13282) 2024-07-10: Fixes of bugs in class mask calculation by [@mfasDa](https://github.com/mfasDa)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
