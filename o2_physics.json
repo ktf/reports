@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-07-29T21:22:59Z",
-            "title": "Update Zorro init for the nuclei spectra analysis",
-            "number": 7042,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": " Add THnsparse output for polarization and rapidity differential studies",
@@ -2500,6 +2480,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Production of more histograms in PIDML producers",
+            "number": 7115,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLProducerData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLProducerMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: DpHCorr, efficiency from ccdb",
             "number": 7111,
             "author": {
@@ -2520,21 +2525,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Production of more histograms in PIDML producers",
-            "number": 7115,
+            "title": "fixed method to get track attached to cascade + removed 3d histos",
+            "number": 7116,
             "author": {
-              "login": "mytkom"
+              "login": "alcaliva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Tools/PIDML/pidMLProducerData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMLProducerMC.cxx"
+                    "path": "PWGLF/Tasks/QC/tracked_cascade_properties.cxx"
                   }
                 }
               ]
