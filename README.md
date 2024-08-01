@@ -68,6 +68,7 @@
 	- [\#13288](https://github.com/AliceO2Group/AliceO2/pull/13288) 2024-07-12: Add Flow Mapper for synthetic v2 addition by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13289](https://github.com/AliceO2Group/AliceO2/pull/13289) 2024-07-10: make function protected by [@sawenzel](https://github.com/sawenzel)
 	- [\#13311](https://github.com/AliceO2Group/AliceO2/pull/13311) 2024-07-19: Add EP angle only if available from the generator by [@pzhristov](https://github.com/pzhristov)
+	- [\#13320](https://github.com/AliceO2Group/AliceO2/pull/13320) 2024-08-01: Flow mapper tool: improve handling of input objects by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Steer
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
