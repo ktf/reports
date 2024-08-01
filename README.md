@@ -21,7 +21,6 @@
 	- [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 	- [\#13249](https://github.com/AliceO2Group/AliceO2/pull/13249) 2024-07-10: [FOCAL-66] ECAL geoemetry and step manager for pads by [@amatyja](https://github.com/amatyja)
 	- [\#13250](https://github.com/AliceO2Group/AliceO2/pull/13250) 2024-07-11: AOD: Add thinner option to producer by [@f3sch](https://github.com/f3sch)
-	- [\#13267](https://github.com/AliceO2Group/AliceO2/pull/13267) 2024-07-02: Fix setting dump flag for corrupted raw data by [@shahor02](https://github.com/shahor02)
 	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
 	- [\#13277](https://github.com/AliceO2Group/AliceO2/pull/13277) 2024-07-11: TPC: adding cluster occupancy to timeseries by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13282](https://github.com/AliceO2Group/AliceO2/pull/13282) 2024-07-10: Fixes of bugs in class mask calculation by [@mfasDa](https://github.com/mfasDa)
