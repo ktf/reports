@@ -72,5 +72,3 @@
 ## Recent developments in O2 - Steer
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
-## Recent developments in O2 - Utilities
-	- [\#13284](https://github.com/AliceO2Group/AliceO2/pull/13284) 2024-07-10: Mergers: avoid a crash if STOP happens without having received inputs by [@knopers8](https://github.com/knopers8)
