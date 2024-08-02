@@ -36,6 +36,7 @@
 	- [\#13308](https://github.com/AliceO2Group/AliceO2/pull/13308) 2024-07-24: [MCH] filter digits based on HV status by [@pillot](https://github.com/pillot)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
 	- [\#13319](https://github.com/AliceO2Group/AliceO2/pull/13319) 2024-07-29: impose CompletionOrder::Timeslice policy on CCDBPopulator by [@shahor02](https://github.com/shahor02)
+	- [\#13326](https://github.com/AliceO2Group/AliceO2/pull/13326) 2024-08-02: [EMCAL-1135] Throw exception in case of to large starttime for TRU channel by [@jokonig](https://github.com/jokonig)
 	- [\#13328](https://github.com/AliceO2Group/AliceO2/pull/13328) 2024-07-26: Use rejectlist in MID reconstruction by [@dstocco](https://github.com/dstocco)
 	- [\#13329](https://github.com/AliceO2Group/AliceO2/pull/13329) 2024-07-26: Improve macro to handle the MID calibration CCDB objects by [@dstocco](https://github.com/dstocco)
 	- [\#13330](https://github.com/AliceO2Group/AliceO2/pull/13330) 2024-07-27: Macro to build the rejectlist for MID by [@dstocco](https://github.com/dstocco)
