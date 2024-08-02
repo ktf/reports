@@ -63,7 +63,6 @@
 	- [\#13334](https://github.com/AliceO2Group/AliceO2/pull/13334) 2024-07-26: DPL: drop obsolete TRACY_PORT by [@ktf](https://github.com/ktf)
 	- [\#13336](https://github.com/AliceO2Group/AliceO2/pull/13336) 2024-07-26: Limit number of file descriptors which might be closed by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#13281](https://github.com/AliceO2Group/AliceO2/pull/13281) 2024-07-10: Pythia8 seeding improvements by [@sawenzel](https://github.com/sawenzel)
 	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13288](https://github.com/AliceO2Group/AliceO2/pull/13288) 2024-07-12: Add Flow Mapper for synthetic v2 addition by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13289](https://github.com/AliceO2Group/AliceO2/pull/13289) 2024-07-10: make function protected by [@sawenzel](https://github.com/sawenzel)
