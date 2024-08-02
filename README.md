@@ -17,7 +17,6 @@
 	- [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
-	- [\#13182](https://github.com/AliceO2Group/AliceO2/pull/13182) 2024-07-03: [Strangeness tracking] Enable 3body strangeness tracking by default by [@creetz16](https://github.com/creetz16)
 	- [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 	- [\#13249](https://github.com/AliceO2Group/AliceO2/pull/13249) 2024-07-10: [FOCAL-66] ECAL geoemetry and step manager for pads by [@amatyja](https://github.com/amatyja)
 	- [\#13250](https://github.com/AliceO2Group/AliceO2/pull/13250) 2024-07-11: AOD: Add thinner option to producer by [@f3sch](https://github.com/f3sch)
