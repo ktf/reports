@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
@@ -24,7 +23,6 @@
 	- [\#13273](https://github.com/AliceO2Group/AliceO2/pull/13273) 2024-07-15: Attempt at fixing errors with the new ROOT by [@ktf](https://github.com/ktf)
 	- [\#13277](https://github.com/AliceO2Group/AliceO2/pull/13277) 2024-07-11: TPC: adding cluster occupancy to timeseries by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13282](https://github.com/AliceO2Group/AliceO2/pull/13282) 2024-07-10: Fixes of bugs in class mask calculation by [@mfasDa](https://github.com/mfasDa)
-	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13292](https://github.com/AliceO2Group/AliceO2/pull/13292) 2024-07-11: TPCQC: fix for magnitude of charge with TPC mom for  dEdx for He3 plots by [@sbhawani](https://github.com/sbhawani)
 	- [\#13297](https://github.com/AliceO2Group/AliceO2/pull/13297) 2024-07-19: [FOCAL-98] Optimizing the hit processing in FOCAL by [@hahassan7](https://github.com/hahassan7)
@@ -54,7 +52,6 @@
 	- [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 	- [\#13285](https://github.com/AliceO2Group/AliceO2/pull/13285) 2024-07-19: DPL Analysis: modernize expressions by [@aalkin](https://github.com/aalkin)
-	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13291](https://github.com/AliceO2Group/AliceO2/pull/13291) 2024-07-15: DPL Analysis: data model: allow to specify the column/branch name explicitly for an index column by [@aalkin](https://github.com/aalkin)
 	- [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
 	- [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
@@ -69,7 +66,6 @@
 	- [\#13334](https://github.com/AliceO2Group/AliceO2/pull/13334) 2024-07-26: DPL: drop obsolete TRACY_PORT by [@ktf](https://github.com/ktf)
 	- [\#13336](https://github.com/AliceO2Group/AliceO2/pull/13336) 2024-07-26: Limit number of file descriptors which might be closed by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#13287](https://github.com/AliceO2Group/AliceO2/pull/13287) 2024-07-11: Add EP angle to McCollisions for debugging by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13288](https://github.com/AliceO2Group/AliceO2/pull/13288) 2024-07-12: Add Flow Mapper for synthetic v2 addition by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13311](https://github.com/AliceO2Group/AliceO2/pull/13311) 2024-07-19: Add EP angle only if available from the generator by [@pzhristov](https://github.com/pzhristov)
 	- [\#13320](https://github.com/AliceO2Group/AliceO2/pull/13320) 2024-08-01: Flow mapper tool: improve handling of input objects by [@ddobrigk](https://github.com/ddobrigk)
