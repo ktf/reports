@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-07-31T15:42:56Z",
-            "title": "PWGHF: Add OmegaC0 workflows that use KFParticle",
-            "number": 6327,
-            "author": {
-              "login": "Yunfan-Liu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "phosElId DCA cut",
@@ -2401,6 +2361,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGLF / h-Str correlations: allow for subwagons for systematics",
+            "number": 7155,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHStrangeCorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-05T12:09:50Z",
+            "title": "PWGCF: Remove timestamps from MC process",
+            "number": 7154,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PIDML: evaluate FSE + self-attention network",
             "number": 7162,
             "author": {
@@ -2451,46 +2461,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGLF / h-Str correlations: allow for subwagons for systematics",
-            "number": 7155,
+            "title": "PWGMM: Mult: percentile calibrator update phase 1",
+            "number": 7163,
             "author": {
-              "login": "ddobrigk"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFHStrangeCorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-05T12:09:50Z",
-            "title": "PWGCF: Remove timestamps from MC process",
-            "number": 7154,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                    "path": "PWGMM/Mult/TableProducer/percentiles.cxx"
                   }
                 }
               ]
