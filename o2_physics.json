@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-01T07:55:03Z",
-            "title": "Fixing minor issue: the MC mean must be subtracted to reco-gen DCA di…",
-            "number": 7009,
-            "author": {
-              "login": "arossi81"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Update HistogramsLibrary.cxx",
@@ -2324,6 +2304,76 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-05T22:18:10Z",
+            "title": "Add heavily ionising particle trigger for ITS",
+            "number": 7166,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/cefpTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-05T23:07:00Z",
+            "title": "PWGLF: Updated MC processes ",
+            "number": 7133,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-05T23:54:32Z",
+            "title": "PWGEM/Dilepton: fix for accessing files on CCDB",
+            "number": 7168,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/smearing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Labeling changed",
@@ -2444,60 +2494,10 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-05T22:18:10Z",
-            "title": "Add heavily ionising particle trigger for ITS",
-            "number": 7166,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/cefpTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-05T23:07:00Z",
-            "title": "PWGLF: Updated MC processes ",
-            "number": 7133,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-05T23:54:32Z",
-            "title": "PWGEM/Dilepton: fix for accessing files on CCDB",
-            "number": 7168,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/Dilepton: fix Join table in MC skimming task",
+            "number": 7173,
             "author": {
               "login": "dsekihat"
             },
@@ -2505,7 +2505,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Tasks/smearing.cxx"
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerSecondaryElectron.cxx"
                   }
                 }
               ]
