@@ -12,6 +12,7 @@
 	- [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
+	- [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 	- [\#13310](https://github.com/AliceO2Group/AliceO2/pull/13310) 2024-07-20: Trying to get ROOT 6.32.0 to digest the type by [@ktf](https://github.com/ktf)
 	- [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
@@ -26,6 +27,8 @@
 	- [\#13282](https://github.com/AliceO2Group/AliceO2/pull/13282) 2024-07-10: Fixes of bugs in class mask calculation by [@mfasDa](https://github.com/mfasDa)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13292](https://github.com/AliceO2Group/AliceO2/pull/13292) 2024-07-11: TPCQC: fix for magnitude of charge with TPC mom for  dEdx for He3 plots by [@sbhawani](https://github.com/sbhawani)
+	- [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
+	- [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 	- [\#13297](https://github.com/AliceO2Group/AliceO2/pull/13297) 2024-07-19: [FOCAL-98] Optimizing the hit processing in FOCAL by [@hahassan7](https://github.com/hahassan7)
 	- [\#13298](https://github.com/AliceO2Group/AliceO2/pull/13298) 2024-07-14: change TOF LOG severity in decoding by [@noferini](https://github.com/noferini)
 	- [\#13299](https://github.com/AliceO2Group/AliceO2/pull/13299) 2024-07-23: ITS: Fix for verification of TrailerAfterHeader error by [@KirillVNaumov](https://github.com/KirillVNaumov)
@@ -72,4 +75,6 @@
 	- [\#13320](https://github.com/AliceO2Group/AliceO2/pull/13320) 2024-08-01: Flow mapper tool: improve handling of input objects by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Steer
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
+	- [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
+	- [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
