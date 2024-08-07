@@ -70,7 +70,6 @@
 	- [\#13336](https://github.com/AliceO2Group/AliceO2/pull/13336) 2024-07-26: Limit number of file descriptors which might be closed by [@ktf](https://github.com/ktf)
 	- [\#13338](https://github.com/AliceO2Group/AliceO2/pull/13338) 2024-08-07: DPL: provide stacktrace for errors also on Linux, if requested. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#13288](https://github.com/AliceO2Group/AliceO2/pull/13288) 2024-07-12: Add Flow Mapper for synthetic v2 addition by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#13311](https://github.com/AliceO2Group/AliceO2/pull/13311) 2024-07-19: Add EP angle only if available from the generator by [@pzhristov](https://github.com/pzhristov)
 	- [\#13320](https://github.com/AliceO2Group/AliceO2/pull/13320) 2024-08-01: Flow mapper tool: improve handling of input objects by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Steer
