@@ -10,7 +10,6 @@
 ## Recent developments in O2 - DataFormats
 	- [\#13069](https://github.com/AliceO2Group/AliceO2/pull/13069) 2024-07-14: IT3: Full simulation + Glo-tracking by [@f3sch](https://github.com/f3sch)
 	- [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
-	- [\#13279](https://github.com/AliceO2Group/AliceO2/pull/13279) 2024-07-08: Add Armenteros-Podolanski parameters calculation methods to V0 by [@shahor02](https://github.com/shahor02)
 	- [\#13290](https://github.com/AliceO2Group/AliceO2/pull/13290) 2024-07-11: Fix return value for rANS packing bug recovery by [@shahor02](https://github.com/shahor02)
 	- [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
