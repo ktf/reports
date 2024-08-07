@@ -1835,46 +1835,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGCF: FemtoUniverse - Changing mLambda to mParticle in FemtoDerived and adding bachelor track type",
-            "number": 6823,
-            "author": {
-              "login": "basiach"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PIDML: evaluate FSE + self-attention network",
             "number": 7162,
             "author": {
@@ -2363,26 +2323,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "added QA histos for events with jetPt = 0",
-            "number": 7195,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-08-07T07:23:38Z",
             "title": "PWGHF: Adding HF event selection in resolution process function for flow analyses",
@@ -2429,6 +2369,116 @@
         {
           "node": {
             "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add O2 linter",
+            "number": 7066,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/o2-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Scripts/o2_linter.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "(PWGCF) Event plane flow analysis",
+            "number": 6894,
+            "author": {
+              "login": "MaximVirta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Core/JCORRANLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Core/JEPFlowAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Core/JEPFlowAnalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "PWGCF: FemtoUniverse - Changing mLambda to mParticle in FemtoDerived and adding bachelor track type",
+            "number": 6823,
+            "author": {
+              "login": "basiach"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Labeling changed",
             "number": 7165,
@@ -2550,66 +2600,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add O2 linter",
-            "number": 7066,
+            "title": "added QA histos for events with jetPt = 0",
+            "number": 7195,
             "author": {
-              "login": "vkucera"
+              "login": "alcaliva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": ".github/workflows/o2-linter.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Scripts/o2_linter.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "(PWGCF) Event plane flow analysis",
-            "number": 6894,
-            "author": {
-              "login": "MaximVirta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/JCORRANLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/JEPFlowAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/JEPFlowAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
                   }
                 }
               ]
