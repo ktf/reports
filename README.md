@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 	- [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
+	- [\#13166](https://github.com/AliceO2Group/AliceO2/pull/13166) 2024-08-08: MatRepStdGPU and SMatrixImpCUDA tests by [@avojarot](https://github.com/avojarot)
 	- [\#13310](https://github.com/AliceO2Group/AliceO2/pull/13310) 2024-07-20: Trying to get ROOT 6.32.0 to digest the type by [@ktf](https://github.com/ktf)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
 	- [\#13324](https://github.com/AliceO2Group/AliceO2/pull/13324) 2024-07-24: DPL: demote error to warning when dropping on a stop transition by [@ktf](https://github.com/ktf)
