@@ -24,7 +24,6 @@
 	- [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 	- [\#13297](https://github.com/AliceO2Group/AliceO2/pull/13297) 2024-07-19: [FOCAL-98] Optimizing the hit processing in FOCAL by [@hahassan7](https://github.com/hahassan7)
-	- [\#13298](https://github.com/AliceO2Group/AliceO2/pull/13298) 2024-07-14: change TOF LOG severity in decoding by [@noferini](https://github.com/noferini)
 	- [\#13299](https://github.com/AliceO2Group/AliceO2/pull/13299) 2024-07-23: ITS: Fix for verification of TrailerAfterHeader error by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13302](https://github.com/AliceO2Group/AliceO2/pull/13302) 2024-07-23: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
