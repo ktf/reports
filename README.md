@@ -47,6 +47,7 @@
 	- [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#13350](https://github.com/AliceO2Group/AliceO2/pull/13350) 2024-08-06: Ctpdev: counters to QCDB by [@lietava](https://github.com/lietava)
+	- [\#13362](https://github.com/AliceO2Group/AliceO2/pull/13362) 2024-08-08: Fix compiler warnings for FATAL -> fatal by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 	- [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
