@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: dEdx calculation class is extended",
-            "number": 13255,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-02T20:43:50Z",
             "title": "Fix setting dump flag for corrupted raw data",
@@ -3851,6 +3826,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Consistency fix in G4 physics model - fix EMCAL sampling factor",
+            "number": 13359,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/G4Params.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/Geometry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources",
             "number": 13358,
             "author": {
@@ -3860,7 +3865,22 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 },
                 {
