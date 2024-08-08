@@ -46,6 +46,7 @@
 	- [\#13339](https://github.com/AliceO2Group/AliceO2/pull/13339) 2024-07-29: GLO: Revert changes on CMakeLists by [@f3sch](https://github.com/f3sch)
 	- [\#13341](https://github.com/AliceO2Group/AliceO2/pull/13341) 2024-07-31: [MCH] add possibility to update existing objects by [@pillot](https://github.com/pillot)
 	- [\#13343](https://github.com/AliceO2Group/AliceO2/pull/13343) 2024-07-31: Improve README for MID reject list macro by [@dstocco](https://github.com/dstocco)
+	- [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#13350](https://github.com/AliceO2Group/AliceO2/pull/13350) 2024-08-06: Ctpdev: counters to QCDB by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - EventVisualisation
@@ -75,3 +76,4 @@
 	- [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
+	- [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
