@@ -54,7 +54,6 @@
 	- [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 	- [\#13285](https://github.com/AliceO2Group/AliceO2/pull/13285) 2024-07-19: DPL Analysis: modernize expressions by [@aalkin](https://github.com/aalkin)
-	- [\#13291](https://github.com/AliceO2Group/AliceO2/pull/13291) 2024-07-15: DPL Analysis: data model: allow to specify the column/branch name explicitly for an index column by [@aalkin](https://github.com/aalkin)
 	- [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
 	- [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
 	- [\#13316](https://github.com/AliceO2Group/AliceO2/pull/13316) 2024-07-23: DPL Analysis: signed comparison fix by [@aalkin](https://github.com/aalkin)
