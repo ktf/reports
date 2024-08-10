@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-17T10:15:02Z",
-            "title": "Switch actions from hub to gh cli",
-            "number": 13303,
-            "author": {
-              "login": "singiamtel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/datamodel-doc.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": ".github/workflows/reports.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-07-18T09:05:48Z",
-            "title": "[MCH] change settings for MUON_SYNC_RECO",
-            "number": 13139,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-17T13:49:16Z",
             "title": "Do not init refitter if no TPC tracks available",
             "number": 13305,
@@ -3981,6 +3936,56 @@
                 {
                   "node": {
                     "path": "GPU/Common/GPUROOTSMatrixFwd.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: do not flush metrics from threads",
+            "number": 13366,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make it explicit we are currently using a signed char",
+            "number": 13367,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/include/ITSBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/ChamberStatus.h"
                   }
                 }
               ]
