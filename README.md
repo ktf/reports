@@ -27,7 +27,6 @@
 	- [\#13299](https://github.com/AliceO2Group/AliceO2/pull/13299) 2024-07-23: ITS: Fix for verification of TrailerAfterHeader error by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13302](https://github.com/AliceO2Group/AliceO2/pull/13302) 2024-07-23: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
 	- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
-	- [\#13305](https://github.com/AliceO2Group/AliceO2/pull/13305) 2024-07-17: Do not init refitter if no TPC tracks available by [@shahor02](https://github.com/shahor02)
 	- [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 	- [\#13308](https://github.com/AliceO2Group/AliceO2/pull/13308) 2024-07-24: [MCH] filter digits based on HV status by [@pillot](https://github.com/pillot)
 	- [\#13313](https://github.com/AliceO2Group/AliceO2/pull/13313) 2024-07-22: add creation of default MCH/Calib/HV object by [@pillot](https://github.com/pillot)
