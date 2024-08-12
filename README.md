@@ -24,7 +24,6 @@
 - [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
-- [\#13297](https://github.com/AliceO2Group/AliceO2/pull/13297) 2024-07-19: [FOCAL-98] Optimizing the hit processing in FOCAL by [@hahassan7](https://github.com/hahassan7)
 - [\#13299](https://github.com/AliceO2Group/AliceO2/pull/13299) 2024-07-23: ITS: Fix for verification of TrailerAfterHeader error by [@KirillVNaumov](https://github.com/KirillVNaumov)
 - [\#13302](https://github.com/AliceO2Group/AliceO2/pull/13302) 2024-07-23: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
 - [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
@@ -53,7 +52,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#13285](https://github.com/AliceO2Group/AliceO2/pull/13285) 2024-07-19: DPL Analysis: modernize expressions by [@aalkin](https://github.com/aalkin)
 - [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
 - [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
 - [\#13316](https://github.com/AliceO2Group/AliceO2/pull/13316) 2024-07-23: DPL Analysis: signed comparison fix by [@aalkin](https://github.com/aalkin)
