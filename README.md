@@ -21,7 +21,6 @@
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 - [\#13299](https://github.com/AliceO2Group/AliceO2/pull/13299) 2024-07-23: ITS: Fix for verification of TrailerAfterHeader error by [@KirillVNaumov](https://github.com/KirillVNaumov)
 - [\#13302](https://github.com/AliceO2Group/AliceO2/pull/13302) 2024-07-23: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
-- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
 - [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13308](https://github.com/AliceO2Group/AliceO2/pull/13308) 2024-07-24: [MCH] filter digits based on HV status by [@pillot](https://github.com/pillot)
 - [\#13319](https://github.com/AliceO2Group/AliceO2/pull/13319) 2024-07-29: impose CompletionOrder::Timeslice policy on CCDBPopulator by [@shahor02](https://github.com/shahor02)
@@ -67,5 +66,4 @@
 ## Recent developments in O2 - Steer
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
-- [\#13304](https://github.com/AliceO2Group/AliceO2/pull/13304) 2024-07-22: fix MCH digit time in MC by [@pillot](https://github.com/pillot)
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
