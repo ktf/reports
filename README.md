@@ -19,7 +19,6 @@
 - [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
-- [\#13302](https://github.com/AliceO2Group/AliceO2/pull/13302) 2024-07-23: ITS: Adding partial error handling in the verifier by [@KirillVNaumov](https://github.com/KirillVNaumov)
 - [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13308](https://github.com/AliceO2Group/AliceO2/pull/13308) 2024-07-24: [MCH] filter digits based on HV status by [@pillot](https://github.com/pillot)
 - [\#13319](https://github.com/AliceO2Group/AliceO2/pull/13319) 2024-07-29: impose CompletionOrder::Timeslice policy on CCDBPopulator by [@shahor02](https://github.com/shahor02)
@@ -48,7 +47,6 @@
 ## Recent developments in O2 - Framework
 - [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
 - [\#13315](https://github.com/AliceO2Group/AliceO2/pull/13315) 2024-07-24: DPL Data Model: introduce bit to keep track of data created after EoS by [@ktf](https://github.com/ktf)
-- [\#13316](https://github.com/AliceO2Group/AliceO2/pull/13316) 2024-07-23: DPL Analysis: signed comparison fix by [@aalkin](https://github.com/aalkin)
 - [\#13318](https://github.com/AliceO2Group/AliceO2/pull/13318) 2024-07-24: DPL: provide ability to customise consumption order by [@ktf](https://github.com/ktf)
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13322](https://github.com/AliceO2Group/AliceO2/pull/13322) 2024-07-24: DPL: add dummy workflow mimicking CCDB populator behaviour by [@ktf](https://github.com/ktf)
