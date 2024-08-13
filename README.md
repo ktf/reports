@@ -42,6 +42,7 @@
 - [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
 - [\#13360](https://github.com/AliceO2Group/AliceO2/pull/13360) 2024-08-09: TPCQC: fixes bug on dEdx vs pTPC/z plots by [@sbhawani](https://github.com/sbhawani)
 - [\#13362](https://github.com/AliceO2Group/AliceO2/pull/13362) 2024-08-08: Fix compiler warnings for FATAL -> fatal by [@mconcas](https://github.com/mconcas)
+- [\#13370](https://github.com/AliceO2Group/AliceO2/pull/13370) 2024-08-13: Geant4: Disable TransportationWithMsc mode by [@sawenzel](https://github.com/sawenzel)
 - [\#13373](https://github.com/AliceO2Group/AliceO2/pull/13373) 2024-08-12: Fix useless log in cosmics run by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
