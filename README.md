@@ -45,6 +45,7 @@
 - [\#13370](https://github.com/AliceO2Group/AliceO2/pull/13370) 2024-08-13: Geant4: Disable TransportationWithMsc mode by [@sawenzel](https://github.com/sawenzel)
 - [\#13373](https://github.com/AliceO2Group/AliceO2/pull/13373) 2024-08-12: Fix useless log in cosmics run by [@mconcas](https://github.com/mconcas)
 - [\#13378](https://github.com/AliceO2Group/AliceO2/pull/13378) 2024-08-13: Use correct precision to compare by [@ktf](https://github.com/ktf)
+- [\#13379](https://github.com/AliceO2Group/AliceO2/pull/13379) 2024-08-14: Fix for cluster sharing map allocating too much memory + related fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
