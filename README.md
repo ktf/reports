@@ -36,6 +36,7 @@
 - [\#13343](https://github.com/AliceO2Group/AliceO2/pull/13343) 2024-07-31: Improve README for MID reject list macro by [@dstocco](https://github.com/dstocco)
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
+- [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13350](https://github.com/AliceO2Group/AliceO2/pull/13350) 2024-08-06: Ctpdev: counters to QCDB by [@lietava](https://github.com/lietava)
 - [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
 - [\#13360](https://github.com/AliceO2Group/AliceO2/pull/13360) 2024-08-09: TPCQC: fixes bug on dEdx vs pTPC/z plots by [@sbhawani](https://github.com/sbhawani)
@@ -47,7 +48,6 @@
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
-- [\#13318](https://github.com/AliceO2Group/AliceO2/pull/13318) 2024-07-24: DPL: provide ability to customise consumption order by [@ktf](https://github.com/ktf)
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13322](https://github.com/AliceO2Group/AliceO2/pull/13322) 2024-07-24: DPL: add dummy workflow mimicking CCDB populator behaviour by [@ktf](https://github.com/ktf)
 - [\#13324](https://github.com/AliceO2Group/AliceO2/pull/13324) 2024-07-24: DPL: demote error to warning when dropping on a stop transition by [@ktf](https://github.com/ktf)
