@@ -51,7 +51,6 @@
 ## Recent developments in O2 - Framework
 - [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
-- [\#13322](https://github.com/AliceO2Group/AliceO2/pull/13322) 2024-07-24: DPL: add dummy workflow mimicking CCDB populator behaviour by [@ktf](https://github.com/ktf)
 - [\#13324](https://github.com/AliceO2Group/AliceO2/pull/13324) 2024-07-24: DPL: demote error to warning when dropping on a stop transition by [@ktf](https://github.com/ktf)
 - [\#13327](https://github.com/AliceO2Group/AliceO2/pull/13327) 2024-07-25: DPL: run data processing on separate thread by [@ktf](https://github.com/ktf)
 - [\#13331](https://github.com/AliceO2Group/AliceO2/pull/13331) 2024-07-26: DPL: improve exitTransitionTimeout handling by [@ktf](https://github.com/ktf)
