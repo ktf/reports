@@ -60,6 +60,7 @@
 - [\#13338](https://github.com/AliceO2Group/AliceO2/pull/13338) 2024-08-07: DPL: provide stacktrace for errors also on Linux, if requested. by [@ktf](https://github.com/ktf)
 - [\#13353](https://github.com/AliceO2Group/AliceO2/pull/13353) 2024-08-07: DPL: improve backtrace handling by [@ktf](https://github.com/ktf)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
+- [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13320](https://github.com/AliceO2Group/AliceO2/pull/13320) 2024-08-01: Flow mapper tool: improve handling of input objects by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Steer
