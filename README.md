@@ -14,6 +14,7 @@
 - [\#13306](https://github.com/AliceO2Group/AliceO2/pull/13306) 2024-07-18: ITS: Add second iteration for the seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
 - [\#13350](https://github.com/AliceO2Group/AliceO2/pull/13350) 2024-08-06: Ctpdev: counters to QCDB by [@lietava](https://github.com/lietava)
+- [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 - [\#13224](https://github.com/AliceO2Group/AliceO2/pull/13224) 2024-07-25: dev: adding counters to bookkeeping by [@lietava](https://github.com/lietava)
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
@@ -44,6 +45,7 @@
 - [\#13373](https://github.com/AliceO2Group/AliceO2/pull/13373) 2024-08-12: Fix useless log in cosmics run by [@mconcas](https://github.com/mconcas)
 - [\#13378](https://github.com/AliceO2Group/AliceO2/pull/13378) 2024-08-13: Use correct precision to compare by [@ktf](https://github.com/ktf)
 - [\#13379](https://github.com/AliceO2Group/AliceO2/pull/13379) 2024-08-14: Fix for cluster sharing map allocating too much memory + related fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13386](https://github.com/AliceO2Group/AliceO2/pull/13386) 2024-08-15: ITS Calibration: always reset chipDone counter independently on hits by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
