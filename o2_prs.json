@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-26T09:46:42Z",
-            "title": "DPL: factorise out backtrace support",
-            "number": 13333,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/BacktraceHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/RuntimeError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/src/BacktraceHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/src/RuntimeError.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/test/test_RuntimeError.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-26T09:26:53Z",
             "title": "Improve macro to handle the MID calibration CCDB objects",
             "number": 13329,
@@ -4056,6 +4001,31 @@
                 {
                   "node": {
                     "path": ".github/workflows/datamodel-doc.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters",
+            "number": 13393,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataTypes.h"
                   }
                 }
               ]

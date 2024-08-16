@@ -2177,26 +2177,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM]: efficiency task add Selection for injected events",
-            "number": 7330,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/emEfficiencyEE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-07-31T13:23:40Z",
             "title": "PWGHF: add histogram for generated candidates counting",
@@ -2229,26 +2209,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Join collisions to labels to fix _as call",
-            "number": 7331,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
                   }
                 }
               ]
@@ -2294,21 +2254,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Added parametrized pT differential cut in Dplus candidate selector",
-            "number": 7333,
+            "title": "Add codes for PP flow analysis.",
+            "number": 7329,
             "author": {
-              "login": "Luca610"
+              "login": "JiangTao-thu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorDplusToPiKPi.cxx"
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Utils/utilsAnalysis.h"
+                    "path": "PWGCF/Flow/Tasks/FlowPPTask.cxx"
                   }
                 }
               ]
@@ -2342,23 +2302,63 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add codes for PP flow analysis.",
-            "number": 7329,
+            "state": "MERGED",
+            "mergedAt": "2024-08-16T16:40:23Z",
+            "title": "[PWGEM]: efficiency task add Selection for injected events",
+            "number": 7330,
             "author": {
-              "login": "JiangTao-thu"
+              "login": "feisenhu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                    "path": "PWGEM/Dilepton/Tasks/emEfficiencyEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Added parametrized pT differential cut in Dplus candidate selector",
+            "number": 7333,
+            "author": {
+              "login": "Luca610"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorDplusToPiKPi.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowPPTask.cxx"
+                    "path": "PWGHF/Utils/utilsAnalysis.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-16T16:44:51Z",
+            "title": "Join collisions to labels to fix _as call",
+            "number": 7331,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
                   }
                 }
               ]
