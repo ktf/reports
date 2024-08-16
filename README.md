@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
+- [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13166](https://github.com/AliceO2Group/AliceO2/pull/13166) 2024-08-08: MatRepStdGPU and SMatrixImpCUDA tests by [@avojarot](https://github.com/avojarot)
 - [\#13357](https://github.com/AliceO2Group/AliceO2/pull/13357) 2024-08-09: Add some features to the SMatrixGPU tests by [@mconcas](https://github.com/mconcas)
@@ -37,6 +38,7 @@
 - [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13350](https://github.com/AliceO2Group/AliceO2/pull/13350) 2024-08-06: Ctpdev: counters to QCDB by [@lietava](https://github.com/lietava)
+- [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
 - [\#13360](https://github.com/AliceO2Group/AliceO2/pull/13360) 2024-08-09: TPCQC: fixes bug on dEdx vs pTPC/z plots by [@sbhawani](https://github.com/sbhawani)
 - [\#13362](https://github.com/AliceO2Group/AliceO2/pull/13362) 2024-08-08: Fix compiler warnings for FATAL -> fatal by [@mconcas](https://github.com/mconcas)
@@ -60,6 +62,7 @@
 - [\#13336](https://github.com/AliceO2Group/AliceO2/pull/13336) 2024-07-26: Limit number of file descriptors which might be closed by [@ktf](https://github.com/ktf)
 - [\#13338](https://github.com/AliceO2Group/AliceO2/pull/13338) 2024-08-07: DPL: provide stacktrace for errors also on Linux, if requested. by [@ktf](https://github.com/ktf)
 - [\#13353](https://github.com/AliceO2Group/AliceO2/pull/13353) 2024-08-07: DPL: improve backtrace handling by [@ktf](https://github.com/ktf)
+- [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
 - [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
