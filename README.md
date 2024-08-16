@@ -53,7 +53,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#13309](https://github.com/AliceO2Group/AliceO2/pull/13309) 2024-07-26: Framework/Core/src/HistogramSpec.cxx: increase MAX_DIM by [@dsekihat](https://github.com/dsekihat)
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13331](https://github.com/AliceO2Group/AliceO2/pull/13331) 2024-07-26: DPL: improve exitTransitionTimeout handling by [@ktf](https://github.com/ktf)
 - [\#13333](https://github.com/AliceO2Group/AliceO2/pull/13333) 2024-07-26: DPL: factorise out backtrace support by [@ktf](https://github.com/ktf)
