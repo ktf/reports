@@ -48,6 +48,7 @@
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13386](https://github.com/AliceO2Group/AliceO2/pull/13386) 2024-08-15: ITS Calibration: always reset chipDone counter independently on hits by [@iravasen](https://github.com/iravasen)
 - [\#13388](https://github.com/AliceO2Group/AliceO2/pull/13388) 2024-08-15: Avoid doing one iteration when the tree has no entries by [@ktf](https://github.com/ktf)
+- [\#13389](https://github.com/AliceO2Group/AliceO2/pull/13389) 2024-08-17: add check in TOF compressor before to save RDH open by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
