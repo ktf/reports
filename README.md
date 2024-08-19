@@ -23,8 +23,6 @@
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13325](https://github.com/AliceO2Group/AliceO2/pull/13325) 2024-08-07: Add option to use a segmented OT by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13326](https://github.com/AliceO2Group/AliceO2/pull/13326) 2024-08-02: [EMCAL-1135] Throw exception in case of to large starttime for TRU channel by [@jokonig](https://github.com/jokonig)
-- [\#13328](https://github.com/AliceO2Group/AliceO2/pull/13328) 2024-07-26: Use rejectlist in MID reconstruction by [@dstocco](https://github.com/dstocco)
-- [\#13330](https://github.com/AliceO2Group/AliceO2/pull/13330) 2024-07-27: Macro to build the rejectlist for MID by [@dstocco](https://github.com/dstocco)
 - [\#13332](https://github.com/AliceO2Group/AliceO2/pull/13332) 2024-08-02: ITS: Added structure for ITS data simulator by [@KirillVNaumov](https://github.com/KirillVNaumov)
 - [\#13339](https://github.com/AliceO2Group/AliceO2/pull/13339) 2024-07-29: GLO: Revert changes on CMakeLists by [@f3sch](https://github.com/f3sch)
 - [\#13341](https://github.com/AliceO2Group/AliceO2/pull/13341) 2024-07-31: [MCH] add possibility to update existing objects by [@pillot](https://github.com/pillot)
