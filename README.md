@@ -19,7 +19,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
-- [\#13319](https://github.com/AliceO2Group/AliceO2/pull/13319) 2024-07-29: impose CompletionOrder::Timeslice policy on CCDBPopulator by [@shahor02](https://github.com/shahor02)
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13325](https://github.com/AliceO2Group/AliceO2/pull/13325) 2024-08-07: Add option to use a segmented OT by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13326](https://github.com/AliceO2Group/AliceO2/pull/13326) 2024-08-02: [EMCAL-1135] Throw exception in case of to large starttime for TRU channel by [@jokonig](https://github.com/jokonig)
