@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
+- [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#13166](https://github.com/AliceO2Group/AliceO2/pull/13166) 2024-08-08: MatRepStdGPU and SMatrixImpCUDA tests by [@avojarot](https://github.com/avojarot)
 - [\#13357](https://github.com/AliceO2Group/AliceO2/pull/13357) 2024-08-09: Add some features to the SMatrixGPU tests by [@mconcas](https://github.com/mconcas)
@@ -45,6 +46,7 @@
 - [\#13386](https://github.com/AliceO2Group/AliceO2/pull/13386) 2024-08-15: ITS Calibration: always reset chipDone counter independently on hits by [@iravasen](https://github.com/iravasen)
 - [\#13388](https://github.com/AliceO2Group/AliceO2/pull/13388) 2024-08-15: Avoid doing one iteration when the tree has no entries by [@ktf](https://github.com/ktf)
 - [\#13389](https://github.com/AliceO2Group/AliceO2/pull/13389) 2024-08-17: add check in TOF compressor before to save RDH open by [@noferini](https://github.com/noferini)
+- [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - EventVisualisation
 - [\#13346](https://github.com/AliceO2Group/AliceO2/pull/13346) 2024-08-02: o2-eve: fixes (event creation time, GID from old root files) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -54,6 +56,7 @@
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
 - [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
+- [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13397](https://github.com/AliceO2Group/AliceO2/pull/13397) 2024-08-19: Please consider the following formatting changes to #13396 by [@alibuild](https://github.com/alibuild)
 ## Recent developments in O2 - Generators
 - [\#13320](https://github.com/AliceO2Group/AliceO2/pull/13320) 2024-08-01: Flow mapper tool: improve handling of input objects by [@ddobrigk](https://github.com/ddobrigk)
