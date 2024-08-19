@@ -53,7 +53,6 @@
 ## Recent developments in O2 - Framework
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13331](https://github.com/AliceO2Group/AliceO2/pull/13331) 2024-07-26: DPL: improve exitTransitionTimeout handling by [@ktf](https://github.com/ktf)
-- [\#13334](https://github.com/AliceO2Group/AliceO2/pull/13334) 2024-07-26: DPL: drop obsolete TRACY_PORT by [@ktf](https://github.com/ktf)
 - [\#13336](https://github.com/AliceO2Group/AliceO2/pull/13336) 2024-07-26: Limit number of file descriptors which might be closed by [@ktf](https://github.com/ktf)
 - [\#13338](https://github.com/AliceO2Group/AliceO2/pull/13338) 2024-08-07: DPL: provide stacktrace for errors also on Linux, if requested. by [@ktf](https://github.com/ktf)
 - [\#13353](https://github.com/AliceO2Group/AliceO2/pull/13353) 2024-08-07: DPL: improve backtrace handling by [@ktf](https://github.com/ktf)
