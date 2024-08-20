@@ -11,6 +11,7 @@
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
 - [\#13382](https://github.com/AliceO2Group/AliceO2/pull/13382) 2024-08-13: SMatrixGPU test: make tested type to be double by [@mconcas](https://github.com/mconcas)
 - [\#13394](https://github.com/AliceO2Group/AliceO2/pull/13394) 2024-08-18: Allow = sign in ConfigurableParam values by [@shahor02](https://github.com/shahor02)
+- [\#13403](https://github.com/AliceO2Group/AliceO2/pull/13403) 2024-08-20: GPU TPC: Compile-time disable V/M-Shape correction during RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 - [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
@@ -54,6 +55,7 @@
 - [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13397](https://github.com/AliceO2Group/AliceO2/pull/13397) 2024-08-19: Please consider the following formatting changes to #13396 by [@alibuild](https://github.com/alibuild)
+- [\#13405](https://github.com/AliceO2Group/AliceO2/pull/13405) 2024-08-20: Fix chaining of expendable devices by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
