@@ -38,6 +38,7 @@
 - [\#13373](https://github.com/AliceO2Group/AliceO2/pull/13373) 2024-08-12: Fix useless log in cosmics run by [@mconcas](https://github.com/mconcas)
 - [\#13378](https://github.com/AliceO2Group/AliceO2/pull/13378) 2024-08-13: Use correct precision to compare by [@ktf](https://github.com/ktf)
 - [\#13379](https://github.com/AliceO2Group/AliceO2/pull/13379) 2024-08-14: Fix for cluster sharing map allocating too much memory + related fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#13383](https://github.com/AliceO2Group/AliceO2/pull/13383) 2024-08-20: ITS-GPU: Update the Hybrid interface by [@mconcas](https://github.com/mconcas)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13386](https://github.com/AliceO2Group/AliceO2/pull/13386) 2024-08-15: ITS Calibration: always reset chipDone counter independently on hits by [@iravasen](https://github.com/iravasen)
 - [\#13388](https://github.com/AliceO2Group/AliceO2/pull/13388) 2024-08-15: Avoid doing one iteration when the tree has no entries by [@ktf](https://github.com/ktf)
