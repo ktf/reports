@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-02T13:04:57Z",
-            "title": "[EMCAL-1135] Throw exception in case of to large starttime for TRU channel",
-            "number": 13326,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/TRUDecodingErrors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/FastORTimeSeries.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/test/testFastORTimeSeries.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-02T19:43:13Z",
             "title": "o2-eve: fixes (event creation time, GID from old root files)",
             "number": 13346,
@@ -4396,6 +4366,26 @@
                 {
                   "node": {
                     "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT: Install macro for reading dead channel map",
+            "number": 13409,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
                   }
                 }
               ]
