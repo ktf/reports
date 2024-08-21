@@ -6,6 +6,7 @@
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#13166](https://github.com/AliceO2Group/AliceO2/pull/13166) 2024-08-08: MatRepStdGPU and SMatrixImpCUDA tests by [@avojarot](https://github.com/avojarot)
+- [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13357](https://github.com/AliceO2Group/AliceO2/pull/13357) 2024-08-09: Add some features to the SMatrixGPU tests by [@mconcas](https://github.com/mconcas)
 - [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
@@ -14,6 +15,7 @@
 - [\#13403](https://github.com/AliceO2Group/AliceO2/pull/13403) 2024-08-20: GPU TPC: Compile-time disable V/M-Shape correction during RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
+- [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
 - [\#13350](https://github.com/AliceO2Group/AliceO2/pull/13350) 2024-08-06: Ctpdev: counters to QCDB by [@lietava](https://github.com/lietava)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
@@ -21,6 +23,7 @@
 - [\#13294](https://github.com/AliceO2Group/AliceO2/pull/13294) 2024-08-06: Ability to access MCEventHeader information in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#13296](https://github.com/AliceO2Group/AliceO2/pull/13296) 2024-08-06: Propagate digitizer interaction rate via DigitizationContext by [@sawenzel](https://github.com/sawenzel)
 - [\#13321](https://github.com/AliceO2Group/AliceO2/pull/13321) 2024-08-05: Data Model change: bump McCollisions to 001 by [@ddobrigk](https://github.com/ddobrigk)
+- [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13325](https://github.com/AliceO2Group/AliceO2/pull/13325) 2024-08-07: Add option to use a segmented OT by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13326](https://github.com/AliceO2Group/AliceO2/pull/13326) 2024-08-02: [EMCAL-1135] Throw exception in case of to large starttime for TRU channel by [@jokonig](https://github.com/jokonig)
 - [\#13332](https://github.com/AliceO2Group/AliceO2/pull/13332) 2024-08-02: ITS: Added structure for ITS data simulator by [@KirillVNaumov](https://github.com/KirillVNaumov)
