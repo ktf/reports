@@ -4371,6 +4371,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "GPU RTC: Remove --gcc-toolchain from RTC string with SED if we use the alidist GCC-Toolchain, since it will break with relocation",
+            "number": 13418,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "First iteration to make DCAFitterN GPU-compliant",
             "number": 13365,
             "author": {
@@ -4426,31 +4451,6 @@
                 {
                   "node": {
                     "path": "GPU/Common/GPUROOTSMatrixFwd.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU RTC: Remove --gcc-toolchain from RTC string with SED if we use the alidist GCC-Toolchain, since it will break with relocation",
-            "number": 13418,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
                   }
                 }
               ]
