@@ -44,6 +44,7 @@
 - [\#13401](https://github.com/AliceO2Group/AliceO2/pull/13401) 2024-08-19: ITS Tracking Interface: cleanup ROF-rejection message by [@mconcas](https://github.com/mconcas)
 - [\#13407](https://github.com/AliceO2Group/AliceO2/pull/13407) 2024-08-20: Fix in the check of alignment conf method call result by [@shahor02](https://github.com/shahor02)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
+- [\#13414](https://github.com/AliceO2Group/AliceO2/pull/13414) 2024-08-22: MRRTF-227: added ERRORS and HBPACKETS dummy messages by [@aferrero2707](https://github.com/aferrero2707)
 ## Recent developments in O2 - Framework
 - [\#13338](https://github.com/AliceO2Group/AliceO2/pull/13338) 2024-08-07: DPL: provide stacktrace for errors also on Linux, if requested. by [@ktf](https://github.com/ktf)
 - [\#13353](https://github.com/AliceO2Group/AliceO2/pull/13353) 2024-08-07: DPL: improve backtrace handling by [@ktf](https://github.com/ktf)
