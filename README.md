@@ -20,7 +20,6 @@
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
-- [\#13325](https://github.com/AliceO2Group/AliceO2/pull/13325) 2024-08-07: Add option to use a segmented OT by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13339](https://github.com/AliceO2Group/AliceO2/pull/13339) 2024-07-29: GLO: Revert changes on CMakeLists by [@f3sch](https://github.com/f3sch)
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13347](https://github.com/AliceO2Group/AliceO2/pull/13347) 2024-08-02: [StrangenessTracking] Pass ITS cluster information to AO2Ds by [@fmazzasc](https://github.com/fmazzasc)
