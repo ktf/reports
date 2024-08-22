@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
+- [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13166](https://github.com/AliceO2Group/AliceO2/pull/13166) 2024-08-08: MatRepStdGPU and SMatrixImpCUDA tests by [@avojarot](https://github.com/avojarot)
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
@@ -42,6 +43,7 @@
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13401](https://github.com/AliceO2Group/AliceO2/pull/13401) 2024-08-19: ITS Tracking Interface: cleanup ROF-rejection message by [@mconcas](https://github.com/mconcas)
 - [\#13407](https://github.com/AliceO2Group/AliceO2/pull/13407) 2024-08-20: Fix in the check of alignment conf method call result by [@shahor02](https://github.com/shahor02)
+- [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
 - [\#13338](https://github.com/AliceO2Group/AliceO2/pull/13338) 2024-08-07: DPL: provide stacktrace for errors also on Linux, if requested. by [@ktf](https://github.com/ktf)
 - [\#13353](https://github.com/AliceO2Group/AliceO2/pull/13353) 2024-08-07: DPL: improve backtrace handling by [@ktf](https://github.com/ktf)
@@ -51,5 +53,6 @@
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13397](https://github.com/AliceO2Group/AliceO2/pull/13397) 2024-08-19: Please consider the following formatting changes to #13396 by [@alibuild](https://github.com/alibuild)
 - [\#13405](https://github.com/AliceO2Group/AliceO2/pull/13405) 2024-08-20: Fix chaining of expendable devices by [@ktf](https://github.com/ktf)
+- [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
