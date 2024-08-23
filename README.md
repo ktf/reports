@@ -54,5 +54,6 @@
 - [\#13405](https://github.com/AliceO2Group/AliceO2/pull/13405) 2024-08-20: Fix chaining of expendable devices by [@ktf](https://github.com/ktf)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
+- [\#13424](https://github.com/AliceO2Group/AliceO2/pull/13424) 2024-08-23: DPL: assert that the dummy sink never depends on itself by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
