@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-15T16:52:37Z",
-            "title": "DPG: add minimum value for D-meson pt.",
-            "number": 7316,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/tagAndProbeDmesons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-15T17:23:08Z",
             "title": "PWGCF: Add a polynomial 3 cut for TPC Deuteron Sigma selection",
             "number": 7317,
@@ -2676,6 +2656,51 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/ChJetTriggerQATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE: Task for tagging the b-jet using ML model",
+            "number": 7286,
+            "author": {
+              "login": "hahassan7"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTaggingML.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTreeMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/model.h"
                   }
                 }
               ]
