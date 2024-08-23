@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-07T16:29:56Z",
-            "title": "DPL: improve backtrace handling",
-            "number": 13353,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Foundation/src/BacktraceHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/test/test_SignpostLogger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-02T19:37:57Z",
             "title": "[StrangenessTracking] Pass ITS cluster information to AO2Ds",
             "number": 13347,
@@ -4116,6 +4091,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Merged Noise Map branch",
+            "number": 13356,
+            "author": {
+              "login": "nivram-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/NoiseMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/calibration/include/MFTCalibration/NoiseCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "GPU: Fix HIP compilation with GCC 13, enable O2_GPU_RTC by default on EPNs, and a bit of cleanup",
             "number": 13425,
             "author": {
@@ -4191,26 +4196,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Merged Noise Map branch",
-            "number": 13356,
+            "title": "Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo…",
+            "number": 13426,
             "author": {
-              "login": "nivram-phy"
+              "login": "davidrohr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/NoiseMap.h"
+                    "path": "Detectors/MUON/MCH/Triggering/src/EventFinder.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/include/MFTCalibration/NoiseCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
+                    "path": "Utilities/rANS/test/test_ransReverseSymbolLookupTable.cxx"
                   }
                 }
               ]
