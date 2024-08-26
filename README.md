@@ -14,6 +14,7 @@
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
 - [\#13382](https://github.com/AliceO2Group/AliceO2/pull/13382) 2024-08-13: SMatrixGPU test: make tested type to be double by [@mconcas](https://github.com/mconcas)
 - [\#13394](https://github.com/AliceO2Group/AliceO2/pull/13394) 2024-08-18: Allow = sign in ConfigurableParam values by [@shahor02](https://github.com/shahor02)
+- [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13403](https://github.com/AliceO2Group/AliceO2/pull/13403) 2024-08-20: GPU TPC: Compile-time disable V/M-Shape correction during RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
@@ -40,6 +41,7 @@
 - [\#13386](https://github.com/AliceO2Group/AliceO2/pull/13386) 2024-08-15: ITS Calibration: always reset chipDone counter independently on hits by [@iravasen](https://github.com/iravasen)
 - [\#13388](https://github.com/AliceO2Group/AliceO2/pull/13388) 2024-08-15: Avoid doing one iteration when the tree has no entries by [@ktf](https://github.com/ktf)
 - [\#13389](https://github.com/AliceO2Group/AliceO2/pull/13389) 2024-08-17: add check in TOF compressor before to save RDH open by [@noferini](https://github.com/noferini)
+- [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13401](https://github.com/AliceO2Group/AliceO2/pull/13401) 2024-08-19: ITS Tracking Interface: cleanup ROF-rejection message by [@mconcas](https://github.com/mconcas)
 - [\#13407](https://github.com/AliceO2Group/AliceO2/pull/13407) 2024-08-20: Fix in the check of alignment conf method call result by [@shahor02](https://github.com/shahor02)
@@ -60,5 +62,6 @@
 - [\#13424](https://github.com/AliceO2Group/AliceO2/pull/13424) 2024-08-23: DPL: assert that the dummy sink never depends on itself by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
