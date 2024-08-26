@@ -16,6 +16,7 @@
 - [\#13394](https://github.com/AliceO2Group/AliceO2/pull/13394) 2024-08-18: Allow = sign in ConfigurableParam values by [@shahor02](https://github.com/shahor02)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13403](https://github.com/AliceO2Group/AliceO2/pull/13403) 2024-08-20: GPU TPC: Compile-time disable V/M-Shape correction during RTC by [@davidrohr](https://github.com/davidrohr)
+- [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
 - [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
