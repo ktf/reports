@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-19T13:30:45Z",
-            "title": "PWGCF: Add configurable for momentum treshold for TOF use in PID for pions",
-            "number": 7351,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniverseEfficiencyBase.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-19T13:58:59Z",
-            "title": "PWGCF: FemtoUniverse track-V0 task -- to avoid duplication",
-            "number": 7341,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-19T07:19:00Z",
             "title": "PWGHF: Added parametrized pT differential cut in Dplus candidate selector",
             "number": 7333,
@@ -2766,6 +2726,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGCF: FemtoUniverse -- Changing configurables for Phi meson reconstruction",
+            "number": 7430,
+            "author": {
+              "login": "zchochul"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseCascadeSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGEM/Dilepton: update efficiency task for track-to-collision re-association",
             "number": 7429,
             "author": {
@@ -2781,6 +2781,26 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "AngularCorrelationsInJets.cxx: processRun3 overhaul",
+            "number": 7431,
+            "author": {
+              "login": "ljoergen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/AngularCorrelationsInJets.cxx"
                   }
                 }
               ]
