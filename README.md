@@ -6,7 +6,6 @@
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [\#13166](https://github.com/AliceO2Group/AliceO2/pull/13166) 2024-08-08: MatRepStdGPU and SMatrixImpCUDA tests by [@avojarot](https://github.com/avojarot)
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13357](https://github.com/AliceO2Group/AliceO2/pull/13357) 2024-08-09: Add some features to the SMatrixGPU tests by [@mconcas](https://github.com/mconcas)
 - [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
@@ -23,7 +22,6 @@
 - [\#13421](https://github.com/AliceO2Group/AliceO2/pull/13421) 2024-08-23: Add a const getInterval() in QualityControlFlag interface by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Detectors
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
-- [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
@@ -58,7 +56,5 @@
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13424](https://github.com/AliceO2Group/AliceO2/pull/13424) 2024-08-23: DPL: assert that the dummy sink never depends on itself by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
