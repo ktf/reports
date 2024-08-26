@@ -15,6 +15,7 @@
 - [\#13382](https://github.com/AliceO2Group/AliceO2/pull/13382) 2024-08-13: SMatrixGPU test: make tested type to be double by [@mconcas](https://github.com/mconcas)
 - [\#13394](https://github.com/AliceO2Group/AliceO2/pull/13394) 2024-08-18: Allow = sign in ConfigurableParam values by [@shahor02](https://github.com/shahor02)
 - [\#13403](https://github.com/AliceO2Group/AliceO2/pull/13403) 2024-08-20: GPU TPC: Compile-time disable V/M-Shape correction during RTC by [@davidrohr](https://github.com/davidrohr)
+- [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
