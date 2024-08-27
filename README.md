@@ -8,7 +8,6 @@
 ## Recent developments in O2 - Common
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13357](https://github.com/AliceO2Group/AliceO2/pull/13357) 2024-08-09: Add some features to the SMatrixGPU tests by [@mconcas](https://github.com/mconcas)
-- [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
 - [\#13364](https://github.com/AliceO2Group/AliceO2/pull/13364) 2024-08-21: PWGHF: Added D resonances to PhysicsConstants.h by [@Luca610](https://github.com/Luca610)
 - [\#13365](https://github.com/AliceO2Group/AliceO2/pull/13365) 2024-08-26: First iteration to make DCAFitterN GPU-compliant by [@mconcas](https://github.com/mconcas)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
@@ -28,7 +27,6 @@
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
-- [\#13359](https://github.com/AliceO2Group/AliceO2/pull/13359) 2024-08-09: Consistency fix in G4 physics model - fix EMCAL sampling factor by [@sawenzel](https://github.com/sawenzel)
 - [\#13360](https://github.com/AliceO2Group/AliceO2/pull/13360) 2024-08-09: TPCQC: fixes bug on dEdx vs pTPC/z plots by [@sbhawani](https://github.com/sbhawani)
 - [\#13369](https://github.com/AliceO2Group/AliceO2/pull/13369) 2024-08-14: [EMCAL-1135] Throw exception in case starttime is to large or small by [@jokonig](https://github.com/jokonig)
 - [\#13370](https://github.com/AliceO2Group/AliceO2/pull/13370) 2024-08-13: Geant4: Disable TransportationWithMsc mode by [@sawenzel](https://github.com/sawenzel)
