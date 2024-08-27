@@ -7,7 +7,6 @@
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
-- [\#13357](https://github.com/AliceO2Group/AliceO2/pull/13357) 2024-08-09: Add some features to the SMatrixGPU tests by [@mconcas](https://github.com/mconcas)
 - [\#13364](https://github.com/AliceO2Group/AliceO2/pull/13364) 2024-08-21: PWGHF: Added D resonances to PhysicsConstants.h by [@Luca610](https://github.com/Luca610)
 - [\#13365](https://github.com/AliceO2Group/AliceO2/pull/13365) 2024-08-26: First iteration to make DCAFitterN GPU-compliant by [@mconcas](https://github.com/mconcas)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
@@ -47,6 +46,7 @@
 - [\#13414](https://github.com/AliceO2Group/AliceO2/pull/13414) 2024-08-22: MRRTF-227: added ERRORS and HBPACKETS dummy messages by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
+- [\#13436](https://github.com/AliceO2Group/AliceO2/pull/13436) 2024-08-27: Fix for dummy ITS vetrex seeding in cosmice mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
