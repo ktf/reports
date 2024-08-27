@@ -16,6 +16,7 @@
 - [\#13403](https://github.com/AliceO2Group/AliceO2/pull/13403) 2024-08-20: GPU TPC: Compile-time disable V/M-Shape correction during RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
 - [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
+- [\#13438](https://github.com/AliceO2Group/AliceO2/pull/13438) 2024-08-27: Common/Constants: Add hyperhelium5 mass by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - DataFormats
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
@@ -45,6 +46,7 @@
 - [\#13414](https://github.com/AliceO2Group/AliceO2/pull/13414) 2024-08-22: MRRTF-227: added ERRORS and HBPACKETS dummy messages by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
+- [\#13429](https://github.com/AliceO2Group/AliceO2/pull/13429) 2024-08-27: ALIGN: request only selected alignment objects by [@f3sch](https://github.com/f3sch)
 - [\#13436](https://github.com/AliceO2Group/AliceO2/pull/13436) 2024-08-27: Fix for dummy ITS vetrex seeding in cosmice mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
