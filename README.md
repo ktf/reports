@@ -9,7 +9,6 @@
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13364](https://github.com/AliceO2Group/AliceO2/pull/13364) 2024-08-21: PWGHF: Added D resonances to PhysicsConstants.h by [@Luca610](https://github.com/Luca610)
 - [\#13365](https://github.com/AliceO2Group/AliceO2/pull/13365) 2024-08-26: First iteration to make DCAFitterN GPU-compliant by [@mconcas](https://github.com/mconcas)
-- [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
 - [\#13382](https://github.com/AliceO2Group/AliceO2/pull/13382) 2024-08-13: SMatrixGPU test: make tested type to be double by [@mconcas](https://github.com/mconcas)
 - [\#13394](https://github.com/AliceO2Group/AliceO2/pull/13394) 2024-08-18: Allow = sign in ConfigurableParam values by [@shahor02](https://github.com/shahor02)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
@@ -50,7 +49,6 @@
 - [\#13436](https://github.com/AliceO2Group/AliceO2/pull/13436) 2024-08-27: Fix for dummy ITS vetrex seeding in cosmice mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
-- [\#13366](https://github.com/AliceO2Group/AliceO2/pull/13366) 2024-08-11: DPL: do not flush metrics from threads by [@ktf](https://github.com/ktf)
 - [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13397](https://github.com/AliceO2Group/AliceO2/pull/13397) 2024-08-19: Please consider the following formatting changes to #13396 by [@alibuild](https://github.com/alibuild)
