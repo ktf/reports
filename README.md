@@ -28,7 +28,6 @@
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13369](https://github.com/AliceO2Group/AliceO2/pull/13369) 2024-08-14: [EMCAL-1135] Throw exception in case starttime is to large or small by [@jokonig](https://github.com/jokonig)
-- [\#13370](https://github.com/AliceO2Group/AliceO2/pull/13370) 2024-08-13: Geant4: Disable TransportationWithMsc mode by [@sawenzel](https://github.com/sawenzel)
 - [\#13373](https://github.com/AliceO2Group/AliceO2/pull/13373) 2024-08-12: Fix useless log in cosmics run by [@mconcas](https://github.com/mconcas)
 - [\#13376](https://github.com/AliceO2Group/AliceO2/pull/13376) 2024-08-21: [FOCAL-67] Hit processing for pixels by [@emiliehs](https://github.com/emiliehs)
 - [\#13378](https://github.com/AliceO2Group/AliceO2/pull/13378) 2024-08-13: Use correct precision to compare by [@ktf](https://github.com/ktf)
