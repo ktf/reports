@@ -48,6 +48,7 @@
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
 - [\#13429](https://github.com/AliceO2Group/AliceO2/pull/13429) 2024-08-27: ALIGN: request only selected alignment objects by [@f3sch](https://github.com/f3sch)
 - [\#13436](https://github.com/AliceO2Group/AliceO2/pull/13436) 2024-08-27: Fix for dummy ITS vetrex seeding in cosmice mode by [@shahor02](https://github.com/shahor02)
+- [\#13443](https://github.com/AliceO2Group/AliceO2/pull/13443) 2024-08-28: Fix [modernize-make-shared] in clang-tidy by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
