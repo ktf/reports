@@ -16,6 +16,7 @@
 - [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
 - [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
 - [\#13438](https://github.com/AliceO2Group/AliceO2/pull/13438) 2024-08-27: Common/Constants: Add hyperhelium5 mass by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
+- [\#13440](https://github.com/AliceO2Group/AliceO2/pull/13440) 2024-08-28: DPL: Add debug message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
@@ -57,6 +58,7 @@
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13424](https://github.com/AliceO2Group/AliceO2/pull/13424) 2024-08-23: DPL: assert that the dummy sink never depends on itself by [@ktf](https://github.com/ktf)
+- [\#13440](https://github.com/AliceO2Group/AliceO2/pull/13440) 2024-08-28: DPL: Add debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#13441](https://github.com/AliceO2Group/AliceO2/pull/13441) 2024-08-28: DPL: Fix endOfStream callback sending old / uninitialized timingInfo values by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
