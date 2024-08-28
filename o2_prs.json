@@ -6,31 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "GPU: Fix CodeChecker warnings",
-            "number": 13377,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "Please consider the following formatting changes to #13380",
             "number": 13381,
             "author": {
@@ -4080,6 +4055,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/Common/GPUROOTSMatrixFwd.h"
                   }
                 },
@@ -4096,6 +4076,81 @@
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DCAFitter GPU: add dedicated lib to checks it compiles",
+            "number": 13447,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/test/testDCAFitterNCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]
