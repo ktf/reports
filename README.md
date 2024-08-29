@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
@@ -49,6 +50,7 @@
 - [\#13443](https://github.com/AliceO2Group/AliceO2/pull/13443) 2024-08-28: Fix [modernize-make-shared] in clang-tidy by [@mconcas](https://github.com/mconcas)
 - [\#13446](https://github.com/AliceO2Group/AliceO2/pull/13446) 2024-08-28: FST: Some cleanup for FST simulation with embedding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
+- [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
