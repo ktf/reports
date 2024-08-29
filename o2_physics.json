@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PIDML: add hasTOF and hasTRD columns to batchEffAndPurProducer task",
-            "number": 7396,
-            "author": {
-              "login": "mytkom"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMLBatchEffAndPurProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-08-23T12:47:33Z",
             "title": "[PWGLF] Fix derived data production + adapt analysis task",
@@ -2025,31 +2005,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-28T16:21:16Z",
-            "title": "PID: remove cut on multiplicity for good TOF PID",
-            "number": 7454,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-28T16:52:36Z",
             "title": "PWGLF: Add ME + eff corrections to cascadecorrelations",
             "number": 7470,
@@ -2671,6 +2626,51 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetSpectraESE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[TOF] add delta MC",
+            "number": 7489,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T16:21:16Z",
+            "title": "PID: remove cut on multiplicity for good TOF PID",
+            "number": 7454,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
                   }
                 }
               ]
