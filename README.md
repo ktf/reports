@@ -31,7 +31,6 @@
 - [\#13376](https://github.com/AliceO2Group/AliceO2/pull/13376) 2024-08-21: [FOCAL-67] Hit processing for pixels by [@emiliehs](https://github.com/emiliehs)
 - [\#13383](https://github.com/AliceO2Group/AliceO2/pull/13383) 2024-08-20: ITS-GPU: Update the Hybrid interface by [@mconcas](https://github.com/mconcas)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
-- [\#13386](https://github.com/AliceO2Group/AliceO2/pull/13386) 2024-08-15: ITS Calibration: always reset chipDone counter independently on hits by [@iravasen](https://github.com/iravasen)
 - [\#13388](https://github.com/AliceO2Group/AliceO2/pull/13388) 2024-08-15: Avoid doing one iteration when the tree has no entries by [@ktf](https://github.com/ktf)
 - [\#13389](https://github.com/AliceO2Group/AliceO2/pull/13389) 2024-08-17: add check in TOF compressor before to save RDH open by [@noferini](https://github.com/noferini)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
