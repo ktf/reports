@@ -27,7 +27,6 @@
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
-- [\#13369](https://github.com/AliceO2Group/AliceO2/pull/13369) 2024-08-14: [EMCAL-1135] Throw exception in case starttime is to large or small by [@jokonig](https://github.com/jokonig)
 - [\#13373](https://github.com/AliceO2Group/AliceO2/pull/13373) 2024-08-12: Fix useless log in cosmics run by [@mconcas](https://github.com/mconcas)
 - [\#13376](https://github.com/AliceO2Group/AliceO2/pull/13376) 2024-08-21: [FOCAL-67] Hit processing for pixels by [@emiliehs](https://github.com/emiliehs)
 - [\#13379](https://github.com/AliceO2Group/AliceO2/pull/13379) 2024-08-14: Fix for cluster sharing map allocating too much memory + related fixes by [@davidrohr](https://github.com/davidrohr)
