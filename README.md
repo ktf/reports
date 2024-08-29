@@ -49,7 +49,6 @@
 ## Recent developments in O2 - Framework
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
-- [\#13384](https://github.com/AliceO2Group/AliceO2/pull/13384) 2024-08-15: Simplify builder holders by [@ktf](https://github.com/ktf)
 - [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13397](https://github.com/AliceO2Group/AliceO2/pull/13397) 2024-08-19: Please consider the following formatting changes to #13396 by [@alibuild](https://github.com/alibuild)
 - [\#13405](https://github.com/AliceO2Group/AliceO2/pull/13405) 2024-08-20: Fix chaining of expendable devices by [@ktf](https://github.com/ktf)
