@@ -56,6 +56,7 @@
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
+- [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
 - [\#13424](https://github.com/AliceO2Group/AliceO2/pull/13424) 2024-08-23: DPL: assert that the dummy sink never depends on itself by [@ktf](https://github.com/ktf)
 - [\#13440](https://github.com/AliceO2Group/AliceO2/pull/13440) 2024-08-28: DPL: Add debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#13441](https://github.com/AliceO2Group/AliceO2/pull/13441) 2024-08-28: DPL: Fix endOfStream callback sending old / uninitialized timingInfo values by [@davidrohr](https://github.com/davidrohr)
