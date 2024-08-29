@@ -2065,31 +2065,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-28T16:18:23Z",
-            "title": "PWGHF: add vetos for Lc bkg and other reso channels, and monitor Euler phi.",
-            "number": 7451,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-28T16:20:19Z",
             "title": "[TOF PID] add ITS requirement",
             "number": 7463,
@@ -2246,26 +2221,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Core/JetFinder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[TOF] add more MC info",
-            "number": 7481,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
                   }
                 }
               ]
@@ -2571,6 +2526,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Timestamp] autoset if Run2MC",
+            "number": 7486,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/timestamp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "jetese analysis framework",
             "number": 7467,
             "author": {
@@ -2578,6 +2553,46 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/AnalysisCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/FFitWeights.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/FFitWeights.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/FlowESE.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/FlowESETable.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "PWGCF/Flow/CMakeLists.txt"
@@ -2590,37 +2605,12 @@
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Core/FFitWeights.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Core/FFitWeights.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Core/FlowCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGCF/Flow/DataModel/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Flow/DataModel/FlowESE.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGCF/Flow/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/TableProducer/FlowESETable.cxx"
                   }
                 },
                 {
@@ -2639,10 +2629,35 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Timestamp] autoset if Run2MC",
-            "number": 7486,
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T16:18:23Z",
+            "title": "PWGHF: add vetos for Lc bkg and other reso channels, and monitor Euler phi.",
+            "number": 7451,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T08:23:28Z",
+            "title": "[TOF] add more MC info",
+            "number": 7481,
             "author": {
               "login": "njacazio"
             },
@@ -2650,7 +2665,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/timestamp.cxx"
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
                   }
                 }
               ]
