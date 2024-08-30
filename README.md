@@ -46,6 +46,7 @@
 - [\#13443](https://github.com/AliceO2Group/AliceO2/pull/13443) 2024-08-28: Fix [modernize-make-shared] in clang-tidy by [@mconcas](https://github.com/mconcas)
 - [\#13444](https://github.com/AliceO2Group/AliceO2/pull/13444) 2024-08-29: TPC: fix nullptr warning by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13446](https://github.com/AliceO2Group/AliceO2/pull/13446) 2024-08-28: FST: Some cleanup for FST simulation with embedding by [@davidrohr](https://github.com/davidrohr)
+- [\#13459](https://github.com/AliceO2Group/AliceO2/pull/13459) 2024-08-30: Optionally always parse trigger word, extra dump options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
