@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-17T08:15:35Z",
-            "title": "add check in TOF compressor before to save RDH open",
-            "number": 13389,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "POD version of TPCFastSpaceChargeCorrection",
@@ -4011,6 +3986,31 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ITS3/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-14T09:08:32Z",
+            "title": "ITS - (and MFT), better TF sampling in the deadmap builder",
+            "number": 13349,
+            "author": {
+              "login": "nicolovalle"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DeadMapBuilderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
                   }
                 }
               ]
