@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-19T11:26:19Z",
-            "title": "PWGLF: Fix typo in histo name + add configurable",
-            "number": 7349,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-20T18:11:51Z",
             "title": "PWGLF: Changed mult percentile  estimator in RecMC + added histo for y acceptance studies",
             "number": 7369,
@@ -2470,6 +2450,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Added central moment switch to FlowPtContainer",
+            "number": 7511,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-30T12:24:53Z",
             "title": "PWGJE: Fixing phi->eta in jetfinderQA histograms",
             "number": 7510,
             "author": {
@@ -2495,26 +2505,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Added central moment switch to FlowPtContainer",
-            "number": 7511,
+            "title": "added functions to process mc with updated jet finder",
+            "number": 7512,
             "author": {
-              "login": "EmilGorm"
+              "login": "alcaliva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
                   }
                 }
               ]
