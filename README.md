@@ -46,6 +46,7 @@
 - [\#13443](https://github.com/AliceO2Group/AliceO2/pull/13443) 2024-08-28: Fix [modernize-make-shared] in clang-tidy by [@mconcas](https://github.com/mconcas)
 - [\#13444](https://github.com/AliceO2Group/AliceO2/pull/13444) 2024-08-29: TPC: fix nullptr warning by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13446](https://github.com/AliceO2Group/AliceO2/pull/13446) 2024-08-28: FST: Some cleanup for FST simulation with embedding by [@davidrohr](https://github.com/davidrohr)
+- [\#13449](https://github.com/AliceO2Group/AliceO2/pull/13449) 2024-08-30: ITS: Alllow ITS3 to inherit and override from ITS Tracking Interface by [@f3sch](https://github.com/f3sch)
 - [\#13459](https://github.com/AliceO2Group/AliceO2/pull/13459) 2024-08-30: Optionally always parse trigger word, extra dump options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
