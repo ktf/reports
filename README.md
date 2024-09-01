@@ -64,6 +64,8 @@
 - [\#13442](https://github.com/AliceO2Group/AliceO2/pull/13442) 2024-08-28: DPL: initialize TimingInfo.timeslice by [@ktf](https://github.com/ktf)
 - [\#13445](https://github.com/AliceO2Group/AliceO2/pull/13445) 2024-08-29: Use -1 for tfCounter and firstTfOrbit during EndOfStream by [@davidrohr](https://github.com/davidrohr)
 - [\#13457](https://github.com/AliceO2Group/AliceO2/pull/13457) 2024-08-29: DPL: Demote Error to Warning as agreed with Run Coordination by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Generators
+- [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Steer
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
