@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-10T14:43:51Z",
-            "title": "PWGLF - AngularJetCorrelations.cxx: major overhaul",
-            "number": 6809,
-            "author": {
-              "login": "ljoergen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/AngularCorrelationsInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-27T14:24:49Z",
-            "title": "[PWGJE] Mistake to set resolution function for jet probability",
-            "number": 7441,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetTaggingUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jettaggerhf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jettaggerhfQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-27T12:20:42Z",
             "title": "Use C++20 concepts to determine which Centrality to return",
             "number": 6691,
@@ -2545,6 +2485,46 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-02T08:49:36Z",
+            "title": "PIDML: add hasTOF and hasTRD columns to batchEffAndPurProducer task",
+            "number": 7396,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLBatchEffAndPurProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PIDML: fill nans for unavailable detectors in PIDML producer",
+            "number": 7403,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLProducer.cxx"
                   }
                 }
               ]
