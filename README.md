@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
-- [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
@@ -32,7 +31,6 @@
 - [\#13383](https://github.com/AliceO2Group/AliceO2/pull/13383) 2024-08-20: ITS-GPU: Update the Hybrid interface by [@mconcas](https://github.com/mconcas)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
-- [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13401](https://github.com/AliceO2Group/AliceO2/pull/13401) 2024-08-19: ITS Tracking Interface: cleanup ROF-rejection message by [@mconcas](https://github.com/mconcas)
 - [\#13407](https://github.com/AliceO2Group/AliceO2/pull/13407) 2024-08-20: Fix in the check of alignment conf method call result by [@shahor02](https://github.com/shahor02)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
@@ -52,7 +50,6 @@
 ## Recent developments in O2 - Framework
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
-- [\#13396](https://github.com/AliceO2Group/AliceO2/pull/13396) 2024-08-19: Revert "DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#13405](https://github.com/AliceO2Group/AliceO2/pull/13405) 2024-08-20: Fix chaining of expendable devices by [@ktf](https://github.com/ktf)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
