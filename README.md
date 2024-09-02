@@ -51,6 +51,7 @@
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13358](https://github.com/AliceO2Group/AliceO2/pull/13358) 2024-08-16: DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources by [@aalkin](https://github.com/aalkin)
 - [\#13405](https://github.com/AliceO2Group/AliceO2/pull/13405) 2024-08-20: Fix chaining of expendable devices by [@ktf](https://github.com/ktf)
+- [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
