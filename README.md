@@ -44,6 +44,7 @@
 - [\#13429](https://github.com/AliceO2Group/AliceO2/pull/13429) 2024-08-27: ALIGN: request only selected alignment objects by [@f3sch](https://github.com/f3sch)
 - [\#13434](https://github.com/AliceO2Group/AliceO2/pull/13434) 2024-08-29: ITS calib: update default VCASN and bug fix for ITHR scan by [@iravasen](https://github.com/iravasen)
 - [\#13436](https://github.com/AliceO2Group/AliceO2/pull/13436) 2024-08-27: Fix for dummy ITS vetrex seeding in cosmice mode by [@shahor02](https://github.com/shahor02)
+- [\#13437](https://github.com/AliceO2Group/AliceO2/pull/13437) 2024-09-03: [QC-TPC] Remove non-mergable canvas objects from PID task. Add switch… by [@makor](https://github.com/makor)
 - [\#13443](https://github.com/AliceO2Group/AliceO2/pull/13443) 2024-08-28: Fix [modernize-make-shared] in clang-tidy by [@mconcas](https://github.com/mconcas)
 - [\#13444](https://github.com/AliceO2Group/AliceO2/pull/13444) 2024-08-29: TPC: fix nullptr warning by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13446](https://github.com/AliceO2Group/AliceO2/pull/13446) 2024-08-28: FST: Some cleanup for FST simulation with embedding by [@davidrohr](https://github.com/davidrohr)
