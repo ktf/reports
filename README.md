@@ -7,7 +7,6 @@
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
-- [\#13364](https://github.com/AliceO2Group/AliceO2/pull/13364) 2024-08-21: PWGHF: Added D resonances to PhysicsConstants.h by [@Luca610](https://github.com/Luca610)
 - [\#13365](https://github.com/AliceO2Group/AliceO2/pull/13365) 2024-08-26: First iteration to make DCAFitterN GPU-compliant by [@mconcas](https://github.com/mconcas)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
