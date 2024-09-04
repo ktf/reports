@@ -66,6 +66,7 @@
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13457](https://github.com/AliceO2Group/AliceO2/pull/13457) 2024-08-29: DPL: Demote Error to Warning as agreed with Run Coordination by [@davidrohr](https://github.com/davidrohr)
 - [\#13470](https://github.com/AliceO2Group/AliceO2/pull/13470) 2024-09-03: DPL: do not add summary outputs more than once by [@ktf](https://github.com/ktf)
+- [\#13475](https://github.com/AliceO2Group/AliceO2/pull/13475) 2024-09-04: Avoid memory churn when looking up channel by [@ktf](https://github.com/ktf)
 - [\#13477](https://github.com/AliceO2Group/AliceO2/pull/13477) 2024-09-04: DPL GUI: remove protection for spurious formatting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
