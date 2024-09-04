@@ -47,6 +47,7 @@
 - [\#13459](https://github.com/AliceO2Group/AliceO2/pull/13459) 2024-08-30: Optionally always parse trigger word, extra dump options by [@shahor02](https://github.com/shahor02)
 - [\#13465](https://github.com/AliceO2Group/AliceO2/pull/13465) 2024-08-30: Fix verbosity parsing in ITS decoder by [@shahor02](https://github.com/shahor02)
 - [\#13467](https://github.com/AliceO2Group/AliceO2/pull/13467) 2024-08-31: Fixes for calibration data decoding by [@shahor02](https://github.com/shahor02)
+- [\#13473](https://github.com/AliceO2Group/AliceO2/pull/13473) 2024-09-04: ITS-GPU: various fixes + separate vertexing kernels by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
