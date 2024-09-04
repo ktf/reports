@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-20T14:10:32Z",
-            "title": "disable HV-based digit filtering in MUON_SYNC_RECO",
-            "number": 13400,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-20T16:26:12Z",
             "title": "Fix in the check of alignment conf method call result",
             "number": 13407,
@@ -3961,6 +3941,31 @@
                 {
                   "node": {
                     "path": "run/o2simdefaultdetectorlist.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "TPC: dEdx calculation class is extended",
+            "number": 13255,
+            "author": {
+              "login": "tubagundem"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
                   }
                 }
               ]
