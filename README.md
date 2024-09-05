@@ -70,5 +70,6 @@
 ## Recent developments in O2 - Steer
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
+- [\#13483](https://github.com/AliceO2Group/AliceO2/pull/13483) 2024-09-05: Remove unused mLabels containers by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
