@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
-- [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
@@ -32,7 +31,6 @@
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13401](https://github.com/AliceO2Group/AliceO2/pull/13401) 2024-08-19: ITS Tracking Interface: cleanup ROF-rejection message by [@mconcas](https://github.com/mconcas)
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
-- [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13414](https://github.com/AliceO2Group/AliceO2/pull/13414) 2024-08-22: MRRTF-227: added ERRORS and HBPACKETS dummy messages by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13426](https://github.com/AliceO2Group/AliceO2/pull/13426) 2024-08-23: Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo… by [@davidrohr](https://github.com/davidrohr)
@@ -53,7 +51,6 @@
 ## Recent developments in O2 - Framework
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
-- [\#13410](https://github.com/AliceO2Group/AliceO2/pull/13410) 2024-08-22: DPL Analysis: dynamic table origin by [@aalkin](https://github.com/aalkin)
 - [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
