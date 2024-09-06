@@ -21,7 +21,7 @@
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
-- [\#13421](https://github.com/AliceO2Group/AliceO2/pull/13421) 2024-08-23: Add a const getInterval() in QualityControlFlag interface by [@knopers8](https://github.com/knopers8)
+- [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13345](https://github.com/AliceO2Group/AliceO2/pull/13345) 2024-08-08: TPC: improving simulation of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -48,6 +48,7 @@
 - [\#13465](https://github.com/AliceO2Group/AliceO2/pull/13465) 2024-08-30: Fix verbosity parsing in ITS decoder by [@shahor02](https://github.com/shahor02)
 - [\#13467](https://github.com/AliceO2Group/AliceO2/pull/13467) 2024-08-31: Fixes for calibration data decoding by [@shahor02](https://github.com/shahor02)
 - [\#13473](https://github.com/AliceO2Group/AliceO2/pull/13473) 2024-09-04: ITS-GPU: various fixes + separate vertexing kernels by [@mconcas](https://github.com/mconcas)
+- [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
