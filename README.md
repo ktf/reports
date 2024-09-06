@@ -48,6 +48,7 @@
 - [\#13465](https://github.com/AliceO2Group/AliceO2/pull/13465) 2024-08-30: Fix verbosity parsing in ITS decoder by [@shahor02](https://github.com/shahor02)
 - [\#13467](https://github.com/AliceO2Group/AliceO2/pull/13467) 2024-08-31: Fixes for calibration data decoding by [@shahor02](https://github.com/shahor02)
 - [\#13473](https://github.com/AliceO2Group/AliceO2/pull/13473) 2024-09-04: ITS-GPU: various fixes + separate vertexing kernels by [@mconcas](https://github.com/mconcas)
+- [\#13479](https://github.com/AliceO2Group/AliceO2/pull/13479) 2024-09-06: ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID by [@shahor02](https://github.com/shahor02)
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 - [\#13489](https://github.com/AliceO2Group/AliceO2/pull/13489) 2024-09-06: Possibility to have 1st calibration slot shorter than nominal, use 30% for TPC VDrift by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
