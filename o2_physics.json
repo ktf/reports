@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-30T12:24:53Z",
-            "title": "PWGJE: Fixing phi->eta in jetfinderQA histograms",
-            "number": 7510,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetfinderQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetfinderhfQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-30T14:26:00Z",
             "title": "added functions to process mc with updated jet finder",
             "number": 7512,
@@ -2460,6 +2435,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Add hyp cluster size and TPCChi2",
+            "number": 7589,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: new task for W/Z->e in mid-rapidity",
             "number": 7582,
             "author": {
@@ -2485,21 +2485,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add hyp cluster size and TPCChi2",
-            "number": 7589,
+            "title": "Missing vector clear on event change",
+            "number": 7590,
             "author": {
-              "login": "fmazzasc"
+              "login": "EmilGorm"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWPowerArray.cxx"
                   }
                 }
               ]
