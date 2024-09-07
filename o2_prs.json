@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-23T20:59:06Z",
-            "title": "Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo…",
-            "number": 13426,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Triggering/src/EventFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransReverseSymbolLookupTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "HistogramSpec: add missing L types",
@@ -1901,26 +1876,6 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/qc/src/PID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Github Actions: Add new CI checks to clean-PR action",
-            "number": 13471,
-            "author": {
-              "login": "singiamtel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/clean-test.yml"
                   }
                 }
               ]
@@ -4026,6 +3981,91 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix installation of GPUDataTypeHeaders headers and char/unsigned char handling in GPU folder",
+            "number": 13491,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrackO2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrackO2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlfw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendX11.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Github Actions: Add new CI checks to clean-PR action",
+            "number": 13471,
+            "author": {
+              "login": "singiamtel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/clean-test.yml"
                   }
                 }
               ]
