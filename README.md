@@ -16,12 +16,14 @@
 - [\#13446](https://github.com/AliceO2Group/AliceO2/pull/13446) 2024-08-28: FST: Some cleanup for FST simulation with embedding by [@davidrohr](https://github.com/davidrohr)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
+- [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
+- [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
@@ -50,6 +52,7 @@
 - [\#13479](https://github.com/AliceO2Group/AliceO2/pull/13479) 2024-09-06: ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID by [@shahor02](https://github.com/shahor02)
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 - [\#13489](https://github.com/AliceO2Group/AliceO2/pull/13489) 2024-09-06: Possibility to have 1st calibration slot shorter than nominal, use 30% for TPC VDrift by [@shahor02](https://github.com/shahor02)
+- [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -69,6 +72,7 @@
 - [\#13475](https://github.com/AliceO2Group/AliceO2/pull/13475) 2024-09-04: Avoid memory churn when looking up channel by [@ktf](https://github.com/ktf)
 - [\#13477](https://github.com/AliceO2Group/AliceO2/pull/13477) 2024-09-04: DPL GUI: remove protection for spurious formatting by [@ktf](https://github.com/ktf)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
+- [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Steer
