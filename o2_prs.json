@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "SIM: Possible fix for -run5 executables for detectorList",
-            "number": 13295,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/DetectorLists.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPTool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDeviceRunner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_evalmat.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-08-08T09:02:05Z",
             "title": "TPC: improving simulation of distortions in MC",
@@ -4201,6 +4136,41 @@
                 {
                   "node": {
                     "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Possibility to limit raw data dumps from ITS/MFT decoder",
+            "number": 13494,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/STFDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
                   }
                 }
               ]
