@@ -7,7 +7,6 @@
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
-- [\#13365](https://github.com/AliceO2Group/AliceO2/pull/13365) 2024-08-26: First iteration to make DCAFitterN GPU-compliant by [@mconcas](https://github.com/mconcas)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
 - [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
