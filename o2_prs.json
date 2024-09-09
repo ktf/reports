@@ -3711,216 +3711,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DCAFitter GPU: add test to validate the implementation",
-            "number": 13447,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/DCAFitterN.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/test/testDCAFitterNGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/hip/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/test/testDCAFitterNCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/TrackTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCylSet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/MatLayerCyl.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Propagator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/ClusterLinesGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/GeometryFlat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/include/Framework/SHA1.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUConstantMem.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxTrackTopologyPol.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackLinearisation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerDebug.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Utils/FlatObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "POD version of TPCFastSpaceChargeCorrection",
             "number": 13301,
             "author": {
@@ -4106,6 +3896,91 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DCAFitter GPU: add test to validate the implementation",
+            "number": 13447,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/test/testDCAFitterNGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/test/testDCAFitterNCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]
