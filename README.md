@@ -45,6 +45,7 @@
 - [\#13444](https://github.com/AliceO2Group/AliceO2/pull/13444) 2024-08-29: TPC: fix nullptr warning by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13446](https://github.com/AliceO2Group/AliceO2/pull/13446) 2024-08-28: FST: Some cleanup for FST simulation with embedding by [@davidrohr](https://github.com/davidrohr)
 - [\#13449](https://github.com/AliceO2Group/AliceO2/pull/13449) 2024-08-30: ITS: Alllow ITS3 to inherit and override from ITS Tracking Interface by [@f3sch](https://github.com/f3sch)
+- [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
 - [\#13459](https://github.com/AliceO2Group/AliceO2/pull/13459) 2024-08-30: Optionally always parse trigger word, extra dump options by [@shahor02](https://github.com/shahor02)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
 - [\#13465](https://github.com/AliceO2Group/AliceO2/pull/13465) 2024-08-30: Fix verbosity parsing in ITS decoder by [@shahor02](https://github.com/shahor02)
