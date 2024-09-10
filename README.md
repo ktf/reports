@@ -20,7 +20,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
-- [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
@@ -31,7 +30,6 @@
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13383](https://github.com/AliceO2Group/AliceO2/pull/13383) 2024-08-20: ITS-GPU: Update the Hybrid interface by [@mconcas](https://github.com/mconcas)
-- [\#13385](https://github.com/AliceO2Group/AliceO2/pull/13385) 2024-08-15: Add support for bitmap in ROFRecords by [@mconcas](https://github.com/mconcas)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13401](https://github.com/AliceO2Group/AliceO2/pull/13401) 2024-08-19: ITS Tracking Interface: cleanup ROF-rejection message by [@mconcas](https://github.com/mconcas)
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
