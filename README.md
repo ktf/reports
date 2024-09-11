@@ -2,11 +2,9 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
-- [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
 - [\#13430](https://github.com/AliceO2Group/AliceO2/pull/13430) 2024-08-26: o2-sim: Ability to adjust default option values depending on Run5 or not by [@sawenzel](https://github.com/sawenzel)
@@ -18,7 +16,6 @@
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
@@ -26,7 +23,6 @@
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#13323](https://github.com/AliceO2Group/AliceO2/pull/13323) 2024-08-21: ITS-Tracking: introduce multi-ROF seeding vertexer by [@mconcas](https://github.com/mconcas)
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
@@ -62,7 +58,6 @@
 ## Recent developments in O2 - Framework
 - [\#13067](https://github.com/AliceO2Group/AliceO2/pull/13067) 2024-08-29: Add getter for Afterburner tracks by [@njacazio](https://github.com/njacazio)
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
-- [\#13411](https://github.com/AliceO2Group/AliceO2/pull/13411) 2024-08-23: Data model: add uint8_t flag to tag upc reco settings by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
 - [\#13440](https://github.com/AliceO2Group/AliceO2/pull/13440) 2024-08-28: DPL: Add debug message by [@davidrohr](https://github.com/davidrohr)
