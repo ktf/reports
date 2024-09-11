@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-26T17:26:30Z",
-            "title": "SVectorGPU and SMatrixGPU implementation should be in detail namespace",
-            "number": 13428,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/test/testSMatrixImp.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-08-26T17:35:52Z",
-            "title": "GPU: GPUWorkflowSpec will provide the o2::Propagator later, disable c…",
-            "number": 13431,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-27T12:10:22Z",
             "title": "GPUQA: Treat O2 unset and O2 noise labels correctly",
             "number": 13433,
@@ -3754,8 +3699,103 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-11T18:58:52Z",
+            "title": "Support reading remotely in the strainer",
+            "number": 13501,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/src/aodStrainer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": " Decay3Bodys: Add mass hypothesis for H4L, He4L and He5L, use the charge hypothesis of bachelor for invariant mass check",
+            "number": 13435,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Decay3Body.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/Decay3Body.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexHypothesis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Strainer: handle missing alien connection",
+            "number": 13503,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/src/aodStrainer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-11T20:07:52Z",
             "title": "GPU: GPUCA_BUILD_DEBUG makes sure all possible source files are compiled for all kernels + related changes",
             "number": 13502,
             "author": {
@@ -3819,26 +3859,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-09-11T18:58:52Z",
-            "title": "Support reading remotely in the strainer",
-            "number": 13501,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AODMerger/src/aodStrainer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -3871,51 +3891,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": " Decay3Bodys: Add mass hypothesis for H4L, He4L and He5L, use the charge hypothesis of bachelor for invariant mass check",
-            "number": 13435,
+            "title": "Strainer: safeguard for missing AliEn connection",
+            "number": 13504,
             "author": {
-              "login": "wang-yuanzhe"
+              "login": "mpuccio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Decay3Body.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Decay3Body.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexHypothesis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                    "path": "Framework/AODMerger/src/aodStrainer.cxx"
                   }
                 }
               ]
