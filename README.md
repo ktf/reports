@@ -5,7 +5,6 @@
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13428](https://github.com/AliceO2Group/AliceO2/pull/13428) 2024-08-26: SVectorGPU and SMatrixGPU implementation should be in detail namespace by [@davidrohr](https://github.com/davidrohr)
 - [\#13438](https://github.com/AliceO2Group/AliceO2/pull/13438) 2024-08-27: Common/Constants: Add hyperhelium5 mass by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13440](https://github.com/AliceO2Group/AliceO2/pull/13440) 2024-08-28: DPL: Add debug message by [@davidrohr](https://github.com/davidrohr)
@@ -24,7 +23,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
-- [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13414](https://github.com/AliceO2Group/AliceO2/pull/13414) 2024-08-22: MRRTF-227: added ERRORS and HBPACKETS dummy messages by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
@@ -75,5 +73,4 @@
 ## Recent developments in O2 - Generators
 - [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Steer
-- [\#13395](https://github.com/AliceO2Group/AliceO2/pull/13395) 2024-08-26: IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals by [@f3sch](https://github.com/f3sch)
 - [\#13483](https://github.com/AliceO2Group/AliceO2/pull/13483) 2024-09-05: Remove unused mLabels containers by [@davidrohr](https://github.com/davidrohr)
