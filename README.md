@@ -76,6 +76,7 @@
 - [\#13477](https://github.com/AliceO2Group/AliceO2/pull/13477) 2024-09-04: DPL GUI: remove protection for spurious formatting by [@ktf](https://github.com/ktf)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
+- [\#13495](https://github.com/AliceO2Group/AliceO2/pull/13495) 2024-09-11: DPL: Gather TF status if complete/incomplete/empty + unrelated GPU cmake stuff by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Steer
