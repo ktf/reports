@@ -48,6 +48,7 @@
 - [\#13494](https://github.com/AliceO2Group/AliceO2/pull/13494) 2024-09-09: Possibility to limit raw data dumps from ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#13496](https://github.com/AliceO2Group/AliceO2/pull/13496) 2024-09-11: Fix ITS track pattern building, add LinkDef for dictionary by [@shahor02](https://github.com/shahor02)
 - [\#13497](https://github.com/AliceO2Group/AliceO2/pull/13497) 2024-09-10: ITS3: Update Readme + tracking interface fix by [@f3sch](https://github.com/f3sch)
+- [\#13499](https://github.com/AliceO2Group/AliceO2/pull/13499) 2024-09-12: Add getters for analysis of TrackMCStudy output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -69,6 +70,7 @@
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 - [\#13495](https://github.com/AliceO2Group/AliceO2/pull/13495) 2024-09-11: DPL: Gather TF status if complete/incomplete/empty + unrelated GPU cmake stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#13501](https://github.com/AliceO2Group/AliceO2/pull/13501) 2024-09-11: Support reading remotely in the strainer by [@mpuccio](https://github.com/mpuccio)
+- [\#13504](https://github.com/AliceO2Group/AliceO2/pull/13504) 2024-09-12: Strainer: safeguard for missing AliEn connection by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Generators
 - [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Steer
