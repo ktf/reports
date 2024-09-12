@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[QC-TPC] Remove non-mergable objects from PID task. Add switch for hy…",
-            "number": 13423,
-            "author": {
-              "login": "makor"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/PID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-08-27T21:00:11Z",
             "title": "ALIGN: request only selected alignment objects",
@@ -3266,26 +3241,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Attempt at debugging framework:crash error",
-            "number": 13169,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AllCrashTypes.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: Silence another oldestPossible warning after STOP",
             "number": 13481,
             "author": {
@@ -3901,6 +3856,56 @@
                 {
                   "node": {
                     "path": "doc/data/2024-09-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Attempt at debugging framework:crash error",
+            "number": 13169,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AllCrashTypes.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TRD: Fix Geometry must be reinitialized after receiving geometry from CCDB",
+            "number": 13506,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
                   }
                 }
               ]
