@@ -49,6 +49,7 @@
 - [\#13496](https://github.com/AliceO2Group/AliceO2/pull/13496) 2024-09-11: Fix ITS track pattern building, add LinkDef for dictionary by [@shahor02](https://github.com/shahor02)
 - [\#13497](https://github.com/AliceO2Group/AliceO2/pull/13497) 2024-09-10: ITS3: Update Readme + tracking interface fix by [@f3sch](https://github.com/f3sch)
 - [\#13499](https://github.com/AliceO2Group/AliceO2/pull/13499) 2024-09-12: Add getters for analysis of TrackMCStudy output by [@shahor02](https://github.com/shahor02)
+- [\#13507](https://github.com/AliceO2Group/AliceO2/pull/13507) 2024-09-12: Fix in TOF-TPC matching for tracks seeing multiple sectors. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
