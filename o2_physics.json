@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-07T01:37:06Z",
-            "title": "[PWGJE] Add histograms of tagged jet for sv",
-            "number": 7597,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jettaggerhfQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-07T06:44:08Z",
             "title": "PWGEM/PhotonMeson: quick fix after #7491",
             "number": 7602,
@@ -2745,6 +2725,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Common: save only non-empty BCs, add BC flags creator",
+            "number": 7678,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/bcFlagsCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGLF: new track selections and TritonMass to TOF signal in lnnRecoTask ",
             "number": 7658,
             "author": {
@@ -2770,26 +2780,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Common: save only non-empty BCs, add BC flags creator",
-            "number": 7678,
+            "title": "Table producer for ZN tower intercalibration for spectator flow studies",
+            "number": 7679,
             "author": {
-              "login": "ddobrigk"
+              "login": "coppedis"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                    "path": "Common/DataModel/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/Converters/bcFlagsCreator.cxx"
+                    "path": "Common/DataModel/ZDCInterCalib.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdc-task-intercalib.cxx"
                   }
                 }
               ]
