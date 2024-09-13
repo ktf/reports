@@ -19,7 +19,6 @@
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#13349](https://github.com/AliceO2Group/AliceO2/pull/13349) 2024-08-14: ITS - (and MFT), better TF sampling in the deadmap builder by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13414](https://github.com/AliceO2Group/AliceO2/pull/13414) 2024-08-22: MRRTF-227: added ERRORS and HBPACKETS dummy messages by [@aferrero2707](https://github.com/aferrero2707)
