@@ -56,7 +56,6 @@
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
-- [\#13441](https://github.com/AliceO2Group/AliceO2/pull/13441) 2024-08-28: DPL: Fix endOfStream callback sending old / uninitialized timingInfo values by [@davidrohr](https://github.com/davidrohr)
 - [\#13445](https://github.com/AliceO2Group/AliceO2/pull/13445) 2024-08-29: Use -1 for tfCounter and firstTfOrbit during EndOfStream by [@davidrohr](https://github.com/davidrohr)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13457](https://github.com/AliceO2Group/AliceO2/pull/13457) 2024-08-29: DPL: Demote Error to Warning as agreed with Run Coordination by [@davidrohr](https://github.com/davidrohr)
