@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-28T16:06:02Z",
-            "title": "FST: Some cleanup for FST simulation with embedding",
-            "number": 13446,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUROOTSMatrixFwd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/pythia8.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-28T20:04:21Z",
             "title": "GPU QA: TPC Tracking QA should support multiple MC sources",
             "number": 13448,
@@ -4226,6 +4186,31 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "dpl-workflow: more protection and explanation that this is due to bogus stdin file descriptors",
+            "number": 13512,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
