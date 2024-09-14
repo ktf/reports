@@ -46,6 +46,7 @@
 - [\#13499](https://github.com/AliceO2Group/AliceO2/pull/13499) 2024-09-12: Add getters for analysis of TrackMCStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13507](https://github.com/AliceO2Group/AliceO2/pull/13507) 2024-09-12: Fix in TOF-TPC matching for tracks seeing multiple sectors. by [@shahor02](https://github.com/shahor02)
 - [\#13509](https://github.com/AliceO2Group/AliceO2/pull/13509) 2024-09-13: Fix typo in MFT-MCH matching for saving N candidates by [@mcoquet642](https://github.com/mcoquet642)
+- [\#13513](https://github.com/AliceO2Group/AliceO2/pull/13513) 2024-09-14: GPU: Fix some settings must not be constexpr with RTC since they can change by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
