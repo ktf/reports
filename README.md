@@ -4,7 +4,6 @@
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#13438](https://github.com/AliceO2Group/AliceO2/pull/13438) 2024-08-27: Common/Constants: Add hyperhelium5 mass by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
