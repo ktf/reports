@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-29T06:49:42Z",
-            "title": "GPU Display: Can show TPC clusters and tracks of different collisions…",
-            "number": 13451,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayKeys.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/GPUQA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-29T07:03:15Z",
             "title": "TPC: fix nullptr warning",
             "number": 13444,
@@ -4516,6 +4471,56 @@
                 {
                   "node": {
                     "path": "cmake/O2RootMacroExclusionList.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update of TPC Splines: non-uniform grid for TPC residuals",
+            "number": 13042,
+            "author": {
+              "login": "sgorbuno"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/TPCFastSpaceChargeCorrectionHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline1DSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/macro/TPCFastTransformInit.C"
                   }
                 }
               ]
