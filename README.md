@@ -28,7 +28,6 @@
 - [\#13449](https://github.com/AliceO2Group/AliceO2/pull/13449) 2024-08-30: ITS: Alllow ITS3 to inherit and override from ITS Tracking Interface by [@f3sch](https://github.com/f3sch)
 - [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
-- [\#13459](https://github.com/AliceO2Group/AliceO2/pull/13459) 2024-08-30: Optionally always parse trigger word, extra dump options by [@shahor02](https://github.com/shahor02)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
 - [\#13465](https://github.com/AliceO2Group/AliceO2/pull/13465) 2024-08-30: Fix verbosity parsing in ITS decoder by [@shahor02](https://github.com/shahor02)
 - [\#13466](https://github.com/AliceO2Group/AliceO2/pull/13466) 2024-09-08: ITS - DeadMapBuilder, adding protection for end of stream by [@nicolovalle](https://github.com/nicolovalle)
