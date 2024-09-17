@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-09T13:57:05Z",
-            "title": "Add UPC info in the derived data producer & V0 analysis task",
-            "number": 7526,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/straevselsconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-09T15:53:17Z",
             "title": "[PWGDQ] TableMakerMC CheckSignal set checkSources true",
             "number": 7621,
@@ -2477,31 +2427,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-09-16T17:35:05Z",
-            "title": "Move Partition out of process function",
-            "number": 7696,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UDHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Small correction in v0topological cuts",
@@ -2694,6 +2619,76 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/lnnRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-16T17:35:05Z",
+            "title": "PWG-UD: Move Partition out of process function",
+            "number": 7696,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWG-UD: Converted inner partitions to filters",
+            "number": 7706,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/dgCandAnalyzer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCDataScanner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffQA.cxx"
                   }
                 }
               ]
