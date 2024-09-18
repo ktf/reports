@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-08-30T11:15:33Z",
-            "title": "Fix verbosity parsing in ITS decoder",
-            "number": 13465,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-08-22T07:00:03Z",
             "title": "MRRTF-227: added ERRORS and HBPACKETS dummy messages",
             "number": 13414,
@@ -4510,6 +4490,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_PtrHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU-DCAFitter: processBulk() to run fits in parallel",
+            "number": 13527,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/test/testDCAFitterNGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/test/testDCAFitterN.cxx"
                   }
                 }
               ]
