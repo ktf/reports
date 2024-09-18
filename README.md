@@ -19,6 +19,7 @@
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 - [\#13510](https://github.com/AliceO2Group/AliceO2/pull/13510) 2024-09-16: GPU: DCAFitterN{HIP,CUDA} tests now working by [@mconcas](https://github.com/mconcas)
+- [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 ## Recent developments in O2 - Detectors
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
@@ -47,6 +48,7 @@
 - [\#13507](https://github.com/AliceO2Group/AliceO2/pull/13507) 2024-09-12: Fix in TOF-TPC matching for tracks seeing multiple sectors. by [@shahor02](https://github.com/shahor02)
 - [\#13509](https://github.com/AliceO2Group/AliceO2/pull/13509) 2024-09-13: Fix typo in MFT-MCH matching for saving N candidates by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13513](https://github.com/AliceO2Group/AliceO2/pull/13513) 2024-09-14: GPU: Fix some settings must not be constexpr with RTC since they can change by [@davidrohr](https://github.com/davidrohr)
+- [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
