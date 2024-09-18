@@ -37,6 +37,7 @@
 - [\#13473](https://github.com/AliceO2Group/AliceO2/pull/13473) 2024-09-04: ITS-GPU: various fixes + separate vertexing kernels by [@mconcas](https://github.com/mconcas)
 - [\#13478](https://github.com/AliceO2Group/AliceO2/pull/13478) 2024-09-08: MFT-MCH matching: Implementing save of N best matching candidates by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13479](https://github.com/AliceO2Group/AliceO2/pull/13479) 2024-09-06: ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID by [@shahor02](https://github.com/shahor02)
+- [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13486](https://github.com/AliceO2Group/AliceO2/pull/13486) 2024-09-08: FIT: Set correct path for macro installations by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13487](https://github.com/AliceO2Group/AliceO2/pull/13487) 2024-09-06: GPU: WORKAROUND for CUDA bug exposing device code via host symbols by [@davidrohr](https://github.com/davidrohr)
 - [\#13489](https://github.com/AliceO2Group/AliceO2/pull/13489) 2024-09-06: Possibility to have 1st calibration slot shorter than nominal, use 30% for TPC VDrift by [@shahor02](https://github.com/shahor02)
