@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
+- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - Common
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
@@ -20,6 +21,7 @@
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 - [\#13510](https://github.com/AliceO2Group/AliceO2/pull/13510) 2024-09-16: GPU: DCAFitterN{HIP,CUDA} tests now working by [@mconcas](https://github.com/mconcas)
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
+- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 ## Recent developments in O2 - Detectors
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
@@ -49,6 +51,7 @@
 - [\#13509](https://github.com/AliceO2Group/AliceO2/pull/13509) 2024-09-13: Fix typo in MFT-MCH matching for saving N candidates by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13513](https://github.com/AliceO2Group/AliceO2/pull/13513) 2024-09-14: GPU: Fix some settings must not be constexpr with RTC since they can change by [@davidrohr](https://github.com/davidrohr)
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
+- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 ## Recent developments in O2 - EventVisualisation
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
@@ -67,6 +70,8 @@
 - [\#13495](https://github.com/AliceO2Group/AliceO2/pull/13495) 2024-09-11: DPL: Gather TF status if complete/incomplete/empty + unrelated GPU cmake stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#13501](https://github.com/AliceO2Group/AliceO2/pull/13501) 2024-09-11: Support reading remotely in the strainer by [@mpuccio](https://github.com/mpuccio)
 - [\#13504](https://github.com/AliceO2Group/AliceO2/pull/13504) 2024-09-12: Strainer: safeguard for missing AliEn connection by [@mpuccio](https://github.com/mpuccio)
+- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
+- [\#13526](https://github.com/AliceO2Group/AliceO2/pull/13526) 2024-09-18: DPL: Drop generic code to chose between unique and shared pointers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13469](https://github.com/AliceO2Group/AliceO2/pull/13469) 2024-09-01: GeneratorHEPMc: fix codechecker error by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Steer
