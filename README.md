@@ -32,7 +32,6 @@
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
 - [\#13466](https://github.com/AliceO2Group/AliceO2/pull/13466) 2024-09-08: ITS - DeadMapBuilder, adding protection for end of stream by [@nicolovalle](https://github.com/nicolovalle)
-- [\#13467](https://github.com/AliceO2Group/AliceO2/pull/13467) 2024-08-31: Fixes for calibration data decoding by [@shahor02](https://github.com/shahor02)
 - [\#13473](https://github.com/AliceO2Group/AliceO2/pull/13473) 2024-09-04: ITS-GPU: various fixes + separate vertexing kernels by [@mconcas](https://github.com/mconcas)
 - [\#13478](https://github.com/AliceO2Group/AliceO2/pull/13478) 2024-09-08: MFT-MCH matching: Implementing save of N best matching candidates by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13479](https://github.com/AliceO2Group/AliceO2/pull/13479) 2024-09-06: ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID by [@shahor02](https://github.com/shahor02)
