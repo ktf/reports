@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-11T06:08:44Z",
-            "title": "Fix unexpected behavior in DCA cuts due to `abs` returning an integer",
-            "number": 7647,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-11T08:11:33Z",
             "title": "TPCVDrift: Sign fix & comp. warnings",
             "number": 7635,
@@ -2452,26 +2427,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGLF: protect use case of no trigger requirement + bugfix",
-            "number": 7729,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-09-18T20:36:16Z",
             "title": "PWGCF: Add multiplicity axis for cumulant and InvMass and some QA histogram in flowGFWOmegaXi.",
@@ -2569,6 +2524,86 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/FlowGFWPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/Dilepton: add possibility to apply DCA3D cut in 2vp",
+            "number": 7732,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/PhotonHBT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/vpPairQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/vpPairQCMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-19T01:50:47Z",
+            "title": "PWGLF: protect use case of no trigger requirement + bugfix",
+            "number": 7729,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
