@@ -15,7 +15,6 @@
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
-- [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
-- [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13437](https://github.com/AliceO2Group/AliceO2/pull/13437) 2024-09-03: [QC-TPC] Remove non-mergable canvas objects from PID task. Add switch… by [@makor](https://github.com/makor)
 - [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
@@ -57,7 +55,6 @@
 - [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
-- [\#13416](https://github.com/AliceO2Group/AliceO2/pull/13416) 2024-08-23: Propagate ITS UPC mode flag to matching AOD BCs and collisions by [@shahor02](https://github.com/shahor02)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
 - [\#13454](https://github.com/AliceO2Group/AliceO2/pull/13454) 2024-09-02: [Data model] add expected times by [@njacazio](https://github.com/njacazio)
 - [\#13470](https://github.com/AliceO2Group/AliceO2/pull/13470) 2024-09-03: DPL: do not add summary outputs more than once by [@ktf](https://github.com/ktf)
