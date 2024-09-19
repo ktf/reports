@@ -4358,36 +4358,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2024-09-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2024-09-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Make AsyncQueue thread safe",
@@ -4400,131 +4370,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/AsyncQueue.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: Use X9 to make AsyncQueue atomic",
-            "number": 13529,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AsyncQueue.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AsyncQueue.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AsyncQueue.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/LICENSE"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/run_examples.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_1.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_2.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_3.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_4.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_5.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_6.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/profiling/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/profiling/compile_profiler.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/profiling/x9_profiler.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/x9.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/3rdparty/x9/x9.h"
                   }
                 }
               ]
@@ -4650,6 +4495,161 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/PID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-19T19:54:33Z",
+            "title": "DPL: Use X9 to make AsyncQueue atomic",
+            "number": 13529,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AsyncQueue.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AsyncQueue.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AsyncQueue.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/LICENSE"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/run_examples.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_1.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_2.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_3.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_4.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_5.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/examples/x9_example_6.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/profiling/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/profiling/compile_profiler.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/profiling/x9_profiler.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/x9.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/x9/x9.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2024-09-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2024-09-o2_releases.json"
                   }
                 }
               ]
