@@ -29,6 +29,7 @@
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13437](https://github.com/AliceO2Group/AliceO2/pull/13437) 2024-09-03: [QC-TPC] Remove non-mergable canvas objects from PID task. Add switch… by [@makor](https://github.com/makor)
 - [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
+- [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
 - [\#13466](https://github.com/AliceO2Group/AliceO2/pull/13466) 2024-09-08: ITS - DeadMapBuilder, adding protection for end of stream by [@nicolovalle](https://github.com/nicolovalle)
