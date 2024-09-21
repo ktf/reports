@@ -49,8 +49,6 @@
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
-## Recent developments in O2 - EventVisualisation
-- [\#13468](https://github.com/AliceO2Group/AliceO2/pull/13468) 2024-09-02: o2-eve-workflow: fix number of files problem (urgent) by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
