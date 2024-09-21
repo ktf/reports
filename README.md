@@ -14,7 +14,6 @@
 - [\#13527](https://github.com/AliceO2Group/AliceO2/pull/13527) 2024-09-19: GPU-DCAFitter: processBulk() to run fits in parallel by [@mconcas](https://github.com/mconcas)
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
@@ -25,7 +24,6 @@
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 ## Recent developments in O2 - Detectors
-- [\#13356](https://github.com/AliceO2Group/AliceO2/pull/13356) 2024-09-02: Merged Noise Map branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13437](https://github.com/AliceO2Group/AliceO2/pull/13437) 2024-09-03: [QC-TPC] Remove non-mergable canvas objects from PID task. Add switch… by [@makor](https://github.com/makor)
 - [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
