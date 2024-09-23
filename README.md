@@ -65,5 +65,6 @@
 - [\#13526](https://github.com/AliceO2Group/AliceO2/pull/13526) 2024-09-18: DPL: Drop generic code to chose between unique and shared pointers by [@ktf](https://github.com/ktf)
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
 - [\#13531](https://github.com/AliceO2Group/AliceO2/pull/13531) 2024-09-19: DPL: avoid pragma once by [@ktf](https://github.com/ktf)
+- [\#13535](https://github.com/AliceO2Group/AliceO2/pull/13535) 2024-09-23: DPL: thread safe activity detection by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13483](https://github.com/AliceO2Group/AliceO2/pull/13483) 2024-09-05: Remove unused mLabels containers by [@davidrohr](https://github.com/davidrohr)
