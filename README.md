@@ -22,6 +22,7 @@
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
+- [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#13409](https://github.com/AliceO2Group/AliceO2/pull/13409) 2024-09-04: FIT: Install macro for reading dead channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
@@ -49,6 +50,7 @@
 - [\#13518](https://github.com/AliceO2Group/AliceO2/pull/13518) 2024-09-23: Ctpdev: print input and class rates in case of big payload by [@lietava](https://github.com/lietava)
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
+- [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
 - [\#13537](https://github.com/AliceO2Group/AliceO2/pull/13537) 2024-09-24: fix bad truncation when filling TOF dia by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
