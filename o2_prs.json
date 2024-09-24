@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-09-03T07:34:04Z",
-            "title": "[QC-TPC] Remove non-mergable canvas objects from PID task. Add switch…",
-            "number": 13437,
-            "author": {
-              "login": "makor"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/PID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "TPC: dEdx calculation class is extended",
@@ -4845,6 +4820,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/PID.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix bad truncation when filling TOF dia",
+            "number": 13537,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
                   }
                 }
               ]
