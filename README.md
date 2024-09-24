@@ -53,7 +53,6 @@
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
-- [\#13470](https://github.com/AliceO2Group/AliceO2/pull/13470) 2024-09-03: DPL: do not add summary outputs more than once by [@ktf](https://github.com/ktf)
 - [\#13474](https://github.com/AliceO2Group/AliceO2/pull/13474) 2024-09-04: DPL: allow printing stacktrace on signposts by [@ktf](https://github.com/ktf)
 - [\#13475](https://github.com/AliceO2Group/AliceO2/pull/13475) 2024-09-04: Avoid memory churn when looking up channel by [@ktf](https://github.com/ktf)
 - [\#13477](https://github.com/AliceO2Group/AliceO2/pull/13477) 2024-09-04: DPL GUI: remove protection for spurious formatting by [@ktf](https://github.com/ktf)
