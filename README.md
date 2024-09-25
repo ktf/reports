@@ -51,6 +51,7 @@
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
 - [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
 - [\#13537](https://github.com/AliceO2Group/AliceO2/pull/13537) 2024-09-24: fix bad truncation when filling TOF dia by [@noferini](https://github.com/noferini)
+- [\#13540](https://github.com/AliceO2Group/AliceO2/pull/13540) 2024-09-25: Demote to info the log about missing RCTInfo in ITS DCS agent by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
