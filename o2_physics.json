@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-18T15:16:44Z",
-            "title": "PWG-UD: Converted inner partitions to filters",
-            "number": 7706,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UDHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/dgCandAnalyzer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCDataScanner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-18T17:32:01Z",
             "title": "PWGCF: FemtoUniverse -- Fixing efficiency",
             "number": 7724,
@@ -2355,6 +2310,51 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common/PWGHF]: store PID info in 2-prong candidate table and propagate it to analyses.",
+            "number": 7805,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TrackSelectorPID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseD0ToKPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorD0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/pidCreator.cxx"
                   }
                 }
               ]
