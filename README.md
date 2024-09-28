@@ -55,7 +55,6 @@
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
-- [\#13422](https://github.com/AliceO2Group/AliceO2/pull/13422) 2024-08-29: Utility to keep only some trees out of the AO2Ds by [@mpuccio](https://github.com/mpuccio)
 - [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
 - [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
