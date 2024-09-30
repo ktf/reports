@@ -66,3 +66,4 @@
 - [\#13535](https://github.com/AliceO2Group/AliceO2/pull/13535) 2024-09-23: DPL: thread safe activity detection by [@ktf](https://github.com/ktf)
 - [\#13538](https://github.com/AliceO2Group/AliceO2/pull/13538) 2024-09-26: [HistogramRegistry] add string handling for template form by [@njacazio](https://github.com/njacazio)
 - [\#13542](https://github.com/AliceO2Group/AliceO2/pull/13542) 2024-09-27: DPL: introduce a --data-processing-timeout by [@ktf](https://github.com/ktf)
+- [\#13544](https://github.com/AliceO2Group/AliceO2/pull/13544) 2024-09-30: DPL: drop incoming non-calibration data when we process calibration only by [@ktf](https://github.com/ktf)
