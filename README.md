@@ -1,12 +1,10 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - Common
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
-- [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 - [\#13510](https://github.com/AliceO2Group/AliceO2/pull/13510) 2024-09-16: GPU: DCAFitterN{HIP,CUDA} tests now working by [@mconcas](https://github.com/mconcas)
 - [\#13527](https://github.com/AliceO2Group/AliceO2/pull/13527) 2024-09-19: GPU-DCAFitter: processBulk() to run fits in parallel by [@mconcas](https://github.com/mconcas)
@@ -56,7 +54,6 @@
 ## Recent developments in O2 - Framework
 - [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
-- [\#13485](https://github.com/AliceO2Group/AliceO2/pull/13485) 2024-09-05: DPL: move analysis topology helper methods to a separate class by [@ktf](https://github.com/ktf)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 - [\#13495](https://github.com/AliceO2Group/AliceO2/pull/13495) 2024-09-11: DPL: Gather TF status if complete/incomplete/empty + unrelated GPU cmake stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#13501](https://github.com/AliceO2Group/AliceO2/pull/13501) 2024-09-11: Support reading remotely in the strainer by [@mpuccio](https://github.com/mpuccio)
