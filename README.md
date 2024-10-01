@@ -8,6 +8,7 @@
 - [\#13510](https://github.com/AliceO2Group/AliceO2/pull/13510) 2024-09-16: GPU: DCAFitterN{HIP,CUDA} tests now working by [@mconcas](https://github.com/mconcas)
 - [\#13527](https://github.com/AliceO2Group/AliceO2/pull/13527) 2024-09-19: GPU-DCAFitter: processBulk() to run fits in parallel by [@mconcas](https://github.com/mconcas)
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
+- [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
@@ -44,6 +45,7 @@
 - [\#13540](https://github.com/AliceO2Group/AliceO2/pull/13540) 2024-09-25: Demote to info the log about missing RCTInfo in ITS DCS agent by [@shahor02](https://github.com/shahor02)
 - [\#13550](https://github.com/AliceO2Group/AliceO2/pull/13550) 2024-09-30: TPC: simulation toyCluster.C macro fix by [@tubagundem](https://github.com/tubagundem)
 - [\#13551](https://github.com/AliceO2Group/AliceO2/pull/13551) 2024-10-01: ITS digi: Ability to process events before the first RO by [@sawenzel](https://github.com/sawenzel)
+- [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
