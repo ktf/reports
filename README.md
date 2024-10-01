@@ -27,7 +27,6 @@
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
 - [\#13466](https://github.com/AliceO2Group/AliceO2/pull/13466) 2024-09-08: ITS - DeadMapBuilder, adding protection for end of stream by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13478](https://github.com/AliceO2Group/AliceO2/pull/13478) 2024-09-08: MFT-MCH matching: Implementing save of N best matching candidates by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13479](https://github.com/AliceO2Group/AliceO2/pull/13479) 2024-09-06: ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID by [@shahor02](https://github.com/shahor02)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13486](https://github.com/AliceO2Group/AliceO2/pull/13486) 2024-09-08: FIT: Set correct path for macro installations by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
