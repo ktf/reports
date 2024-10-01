@@ -30,7 +30,6 @@
 - [\#13479](https://github.com/AliceO2Group/AliceO2/pull/13479) 2024-09-06: ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID by [@shahor02](https://github.com/shahor02)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13486](https://github.com/AliceO2Group/AliceO2/pull/13486) 2024-09-08: FIT: Set correct path for macro installations by [@andreasmolander](https://github.com/andreasmolander)
-- [\#13489](https://github.com/AliceO2Group/AliceO2/pull/13489) 2024-09-06: Possibility to have 1st calibration slot shorter than nominal, use 30% for TPC VDrift by [@shahor02](https://github.com/shahor02)
 - [\#13490](https://github.com/AliceO2Group/AliceO2/pull/13490) 2024-09-07: GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker by [@davidrohr](https://github.com/davidrohr)
 - [\#13494](https://github.com/AliceO2Group/AliceO2/pull/13494) 2024-09-09: Possibility to limit raw data dumps from ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#13496](https://github.com/AliceO2Group/AliceO2/pull/13496) 2024-09-11: Fix ITS track pattern building, add LinkDef for dictionary by [@shahor02](https://github.com/shahor02)
