@@ -47,6 +47,7 @@
 - [\#13537](https://github.com/AliceO2Group/AliceO2/pull/13537) 2024-09-24: fix bad truncation when filling TOF dia by [@noferini](https://github.com/noferini)
 - [\#13540](https://github.com/AliceO2Group/AliceO2/pull/13540) 2024-09-25: Demote to info the log about missing RCTInfo in ITS DCS agent by [@shahor02](https://github.com/shahor02)
 - [\#13550](https://github.com/AliceO2Group/AliceO2/pull/13550) 2024-09-30: TPC: simulation toyCluster.C macro fix by [@tubagundem](https://github.com/tubagundem)
+- [\#13551](https://github.com/AliceO2Group/AliceO2/pull/13551) 2024-10-01: ITS digi: Ability to process events before the first RO by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
