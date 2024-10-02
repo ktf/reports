@@ -4625,26 +4625,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DCAFitterGPU: reduce I/O overhead by copying elements using a kernel",
-            "number": 13556,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TPC: adding dEdx space-charge correction",
             "number": 13557,
             "author": {
@@ -4675,6 +4655,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/src/CorrectdEdxDistortions.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DCAFitterGPU: reduce I/O overhead by copying elements using a kernel",
+            "number": 13556,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/test/testDCAFitterNGPU.cxx"
                   }
                 }
               ]
