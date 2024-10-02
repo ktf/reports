@@ -20,6 +20,7 @@
 - [\#13523](https://github.com/AliceO2Group/AliceO2/pull/13523) 2024-09-17: [EMCal-688] ClusterLabel: Fix bug in label sorting condition by [@nstrangm](https://github.com/nstrangm)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
 - [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
+- [\#13548](https://github.com/AliceO2Group/AliceO2/pull/13548) 2024-10-02: Tracking (+ITS): Add quiet function to get predicted chi2 by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 - [\#13450](https://github.com/AliceO2Group/AliceO2/pull/13450) 2024-09-09: ITS3: Move to ITSTrackingInterface by [@f3sch](https://github.com/f3sch)
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
@@ -44,6 +45,7 @@
 - [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
 - [\#13537](https://github.com/AliceO2Group/AliceO2/pull/13537) 2024-09-24: fix bad truncation when filling TOF dia by [@noferini](https://github.com/noferini)
 - [\#13540](https://github.com/AliceO2Group/AliceO2/pull/13540) 2024-09-25: Demote to info the log about missing RCTInfo in ITS DCS agent by [@shahor02](https://github.com/shahor02)
+- [\#13548](https://github.com/AliceO2Group/AliceO2/pull/13548) 2024-10-02: Tracking (+ITS): Add quiet function to get predicted chi2 by [@mconcas](https://github.com/mconcas)
 - [\#13550](https://github.com/AliceO2Group/AliceO2/pull/13550) 2024-09-30: TPC: simulation toyCluster.C macro fix by [@tubagundem](https://github.com/tubagundem)
 - [\#13551](https://github.com/AliceO2Group/AliceO2/pull/13551) 2024-10-01: ITS digi: Ability to process events before the first RO by [@sawenzel](https://github.com/sawenzel)
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
