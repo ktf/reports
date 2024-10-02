@@ -49,7 +49,6 @@
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#13408](https://github.com/AliceO2Group/AliceO2/pull/13408) 2024-09-02: add generic getter to expression column creation macro by [@mytkom](https://github.com/mytkom)
 - [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
 - [\#13495](https://github.com/AliceO2Group/AliceO2/pull/13495) 2024-09-11: DPL: Gather TF status if complete/incomplete/empty + unrelated GPU cmake stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#13501](https://github.com/AliceO2Group/AliceO2/pull/13501) 2024-09-11: Support reading remotely in the strainer by [@mpuccio](https://github.com/mpuccio)
