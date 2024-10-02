@@ -46,6 +46,7 @@
 - [\#13550](https://github.com/AliceO2Group/AliceO2/pull/13550) 2024-09-30: TPC: simulation toyCluster.C macro fix by [@tubagundem](https://github.com/tubagundem)
 - [\#13551](https://github.com/AliceO2Group/AliceO2/pull/13551) 2024-10-01: ITS digi: Ability to process events before the first RO by [@sawenzel](https://github.com/sawenzel)
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
+- [\#13557](https://github.com/AliceO2Group/AliceO2/pull/13557) 2024-10-02: TPC: adding dEdx space-charge correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework

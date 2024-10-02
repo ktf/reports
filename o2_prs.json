@@ -4530,46 +4530,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: adding dEdx space-charge correction",
-            "number": 13557,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CorrectdEdxDistortions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectdEdxDistortions.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "**WIP**: AggregatedRunInfo struct proposal",
             "number": 13555,
             "author": {
@@ -4635,6 +4595,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[DM] Add expected time computation in Framework",
+            "number": 13528,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/PID.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-02T19:12:07Z",
+            "title": "TPC: adding dEdx space-charge correction",
+            "number": 13557,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CorrectdEdxDistortions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CorrectdEdxDistortions.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4655,31 +4680,6 @@
                 {
                   "node": {
                     "path": "doc/data/2024-10-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DM] Add expected time computation in Framework",
-            "number": 13528,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/PID.h"
                   }
                 }
               ]
