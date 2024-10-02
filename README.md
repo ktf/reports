@@ -28,7 +28,6 @@
 - [\#13461](https://github.com/AliceO2Group/AliceO2/pull/13461) 2024-09-08: Follow MC single track and decays reco status by [@shahor02](https://github.com/shahor02)
 - [\#13466](https://github.com/AliceO2Group/AliceO2/pull/13466) 2024-09-08: ITS - DeadMapBuilder, adding protection for end of stream by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
-- [\#13486](https://github.com/AliceO2Group/AliceO2/pull/13486) 2024-09-08: FIT: Set correct path for macro installations by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13494](https://github.com/AliceO2Group/AliceO2/pull/13494) 2024-09-09: Possibility to limit raw data dumps from ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#13496](https://github.com/AliceO2Group/AliceO2/pull/13496) 2024-09-11: Fix ITS track pattern building, add LinkDef for dictionary by [@shahor02](https://github.com/shahor02)
 - [\#13497](https://github.com/AliceO2Group/AliceO2/pull/13497) 2024-09-10: ITS3: Update Readme + tracking interface fix by [@f3sch](https://github.com/f3sch)
