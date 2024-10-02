@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
+- [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13447](https://github.com/AliceO2Group/AliceO2/pull/13447) 2024-09-09: DCAFitter GPU: add test to validate the implementation by [@mconcas](https://github.com/mconcas)
 - [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
@@ -63,3 +64,4 @@
 - [\#13539](https://github.com/AliceO2Group/AliceO2/pull/13539) 2024-10-01: DPL: Remove use of obsolete reconfiguration mechanism in ECS by [@knopers8](https://github.com/knopers8)
 - [\#13542](https://github.com/AliceO2Group/AliceO2/pull/13542) 2024-09-27: DPL: introduce a --data-processing-timeout by [@ktf](https://github.com/ktf)
 - [\#13544](https://github.com/AliceO2Group/AliceO2/pull/13544) 2024-09-30: DPL: drop incoming non-calibration data when we process calibration only by [@ktf](https://github.com/ktf)
+- [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
