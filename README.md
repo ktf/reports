@@ -23,6 +23,7 @@
 - [\#13548](https://github.com/AliceO2Group/AliceO2/pull/13548) 2024-10-02: Tracking (+ITS): Add quiet function to get predicted chi2 by [@mconcas](https://github.com/mconcas)
 - [\#13555](https://github.com/AliceO2Group/AliceO2/pull/13555) 2024-10-03: AggregatedRunInfo struct proposal by [@sawenzel](https://github.com/sawenzel)
 - [\#13560](https://github.com/AliceO2Group/AliceO2/pull/13560) 2024-10-03: Revert "AggregatedRunInfo struct proposal" by [@sawenzel](https://github.com/sawenzel)
+- [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
@@ -48,6 +49,7 @@
 - [\#13551](https://github.com/AliceO2Group/AliceO2/pull/13551) 2024-10-01: ITS digi: Ability to process events before the first RO by [@sawenzel](https://github.com/sawenzel)
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
 - [\#13557](https://github.com/AliceO2Group/AliceO2/pull/13557) 2024-10-02: TPC: adding dEdx space-charge correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
