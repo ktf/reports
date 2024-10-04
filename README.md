@@ -28,7 +28,6 @@
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13494](https://github.com/AliceO2Group/AliceO2/pull/13494) 2024-09-09: Possibility to limit raw data dumps from ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#13496](https://github.com/AliceO2Group/AliceO2/pull/13496) 2024-09-11: Fix ITS track pattern building, add LinkDef for dictionary by [@shahor02](https://github.com/shahor02)
-- [\#13497](https://github.com/AliceO2Group/AliceO2/pull/13497) 2024-09-10: ITS3: Update Readme + tracking interface fix by [@f3sch](https://github.com/f3sch)
 - [\#13499](https://github.com/AliceO2Group/AliceO2/pull/13499) 2024-09-12: Add getters for analysis of TrackMCStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13507](https://github.com/AliceO2Group/AliceO2/pull/13507) 2024-09-12: Fix in TOF-TPC matching for tracks seeing multiple sectors. by [@shahor02](https://github.com/shahor02)
 - [\#13509](https://github.com/AliceO2Group/AliceO2/pull/13509) 2024-09-13: Fix typo in MFT-MCH matching for saving N candidates by [@mcoquet642](https://github.com/mcoquet642)
