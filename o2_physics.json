@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-26T22:30:49Z",
-            "title": "[PWGDQ] Adding Ref Flow histograms <<2>> and <<4>> for charged tracks at mid-rapidity",
-            "number": 7801,
-            "author": {
-              "login": "victorvalenciatorres"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-26T22:31:40Z",
             "title": "Update detectorOccupancyQa.cxx - more QA histos, tuning of parameters",
             "number": 7804,
@@ -2441,6 +2421,46 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/v0qa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add collision flags to StraEvSels derived table",
+            "number": 7883,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/straevselsconverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/v0mlscoresconverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
                   }
                 }
               ]
