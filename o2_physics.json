@@ -1894,91 +1894,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[LF] use std::abs",
-            "number": 7879,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/spectraDerivedMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/v0qaanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOFRun2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTPCtiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTPCtinyPiKaPr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/mcinelgt0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/k0_mixed_events.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangeness_in_jets.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/inelGt.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-10-04T11:56:06Z",
             "title": "PWGHF: fix type for timestamp in MC TOF PID task",
@@ -2446,6 +2361,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Only one side of the TPC functionality incorporated",
+            "number": 7890,
+            "author": {
+              "login": "victor-gonzalez"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptdptfilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/match-reco-gen.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/efficiencyAndQc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGEM/Dilepton: fix for #7876",
             "number": 7889,
             "author": {
@@ -2489,33 +2439,83 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Only one side of the TPC functionality incorporated",
-            "number": 7890,
+            "state": "MERGED",
+            "mergedAt": "2024-10-04T17:01:55Z",
+            "title": "[LF] use std::abs",
+            "number": 7879,
             "author": {
-              "login": "victor-gonzalez"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/spectraDerivedMaker.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.h"
+                    "path": "PWGLF/TableProducer/Strangeness/v0qaanalysis.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Tasks/match-reco-gen.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/efficiencyAndQc.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOFRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPCtiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPCtinyPiKaPr.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/mcinelgt0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/k0_mixed_events.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangeness_in_jets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/inelGt.h"
                   }
                 }
               ]
