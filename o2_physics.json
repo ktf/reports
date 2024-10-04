@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-26T00:26:10Z",
-            "title": "Update how MC info of cascades is retrieved",
-            "number": 7792,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-26T01:03:55Z",
             "title": "PWGLF: Avoid potential slicing of tracks for 3body decay analysis",
             "number": 7793,
@@ -2325,6 +2305,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGHF: taskFlow.cxx: Add process functions for data TPC-MFT HF-h case, and MC Rec/Gen for TPC-TPC h-h case",
+            "number": 7802,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: fix type for timestamp in MC TOF PID task",
             "number": 7875,
             "author": {
@@ -2345,16 +2345,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: taskFlow.cxx: Add process functions for data TPC-MFT HF-h case, and MC Rec/Gen for TPC-TPC h-h case",
-            "number": 7802,
+            "title": "PWGEM: Add deta for Hfee analysis",
+            "number": 7876,
             "author": {
-              "login": "AlexianL"
+              "login": "hscheid"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
                   }
                 }
               ]
