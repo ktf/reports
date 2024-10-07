@@ -28,7 +28,6 @@
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
-- [\#13499](https://github.com/AliceO2Group/AliceO2/pull/13499) 2024-09-12: Add getters for analysis of TrackMCStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13507](https://github.com/AliceO2Group/AliceO2/pull/13507) 2024-09-12: Fix in TOF-TPC matching for tracks seeing multiple sectors. by [@shahor02](https://github.com/shahor02)
 - [\#13509](https://github.com/AliceO2Group/AliceO2/pull/13509) 2024-09-13: Fix typo in MFT-MCH matching for saving N candidates by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13513](https://github.com/AliceO2Group/AliceO2/pull/13513) 2024-09-14: GPU: Fix some settings must not be constexpr with RTC since they can change by [@davidrohr](https://github.com/davidrohr)
