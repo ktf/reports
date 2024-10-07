@@ -24,6 +24,7 @@
 - [\#13555](https://github.com/AliceO2Group/AliceO2/pull/13555) 2024-10-03: AggregatedRunInfo struct proposal by [@sawenzel](https://github.com/sawenzel)
 - [\#13560](https://github.com/AliceO2Group/AliceO2/pull/13560) 2024-10-03: Revert "AggregatedRunInfo struct proposal" by [@sawenzel](https://github.com/sawenzel)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
+- [\#13564](https://github.com/AliceO2Group/AliceO2/pull/13564) 2024-10-07: Fix compilation issue in AggregatedRunInfo by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
