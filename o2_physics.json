@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-01T21:54:16Z",
-            "title": "PWGJE: Custom DCA cuts for quality tracks",
-            "number": 7798,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/ChJetTriggerQATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-10-02T10:05:05Z",
-            "title": "PWGHF: Calculate variables using updated tracks after KF vertex fit.",
-            "number": 7808,
-            "author": {
-              "login": "Yunfan-Liu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-02T11:31:00Z",
             "title": "[MC prediction] add estimator",
             "number": 7835,
@@ -2646,6 +2606,66 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "added a configurable",
+            "number": 7912,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: add possibility to swap PID hypo for Ds, Lc->pKpi, and Xic->pKpi",
+            "number": 7913,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseDsToKKPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseLcToPKPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseXicToPKPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXicToPKPi.cxx"
                   }
                 }
               ]
