@@ -66,3 +66,4 @@
 - [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 - [\#13559](https://github.com/AliceO2Group/AliceO2/pull/13559) 2024-10-03: DPL Analysis: re-enable prefetching by [@ktf](https://github.com/ktf)
 - [\#13566](https://github.com/AliceO2Group/AliceO2/pull/13566) 2024-10-04: Revert "DPL Analysis: re-enable prefetching" by [@ktf](https://github.com/ktf)
+- [\#13576](https://github.com/AliceO2Group/AliceO2/pull/13576) 2024-10-08: Drop non C++20 code by [@ktf](https://github.com/ktf)
