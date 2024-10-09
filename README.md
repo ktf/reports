@@ -27,6 +27,7 @@
 - [\#13560](https://github.com/AliceO2Group/AliceO2/pull/13560) 2024-10-03: Revert "AggregatedRunInfo struct proposal" by [@sawenzel](https://github.com/sawenzel)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
 - [\#13564](https://github.com/AliceO2Group/AliceO2/pull/13564) 2024-10-07: Fix compilation issue in AggregatedRunInfo by [@sawenzel](https://github.com/sawenzel)
+- [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
 - [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
@@ -49,6 +50,7 @@
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
 - [\#13557](https://github.com/AliceO2Group/AliceO2/pull/13557) 2024-10-02: TPC: adding dEdx space-charge correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
+- [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13578](https://github.com/AliceO2Group/AliceO2/pull/13578) 2024-10-08: Protection against ITS/MFT GBTTrailer packet status corruption by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
