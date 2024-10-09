@@ -14,7 +14,6 @@
 - [\#13556](https://github.com/AliceO2Group/AliceO2/pull/13556) 2024-10-03: DCAFitterGPU: reduce I/O overhead by copying elements using a kernel by [@mconcas](https://github.com/mconcas)
 - [\#13574](https://github.com/AliceO2Group/AliceO2/pull/13574) 2024-10-09: GPU: Switch integer types to <cstdint> types + some related / minor changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13510](https://github.com/AliceO2Group/AliceO2/pull/13510) 2024-09-16: GPU: DCAFitterN{HIP,CUDA} tests now working by [@mconcas](https://github.com/mconcas)
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
@@ -30,7 +29,6 @@
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
-- [\#13458](https://github.com/AliceO2Group/AliceO2/pull/13458) 2024-09-15: ctpdev by [@lietava](https://github.com/lietava)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13507](https://github.com/AliceO2Group/AliceO2/pull/13507) 2024-09-12: Fix in TOF-TPC matching for tracks seeing multiple sectors. by [@shahor02](https://github.com/shahor02)
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
@@ -49,6 +47,7 @@
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
 - [\#13557](https://github.com/AliceO2Group/AliceO2/pull/13557) 2024-10-02: TPC: adding dEdx space-charge correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
+- [\#13562](https://github.com/AliceO2Group/AliceO2/pull/13562) 2024-10-09: TPC digi: Cut digits arriving before timeframe/readout start by [@sawenzel](https://github.com/sawenzel)
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13572](https://github.com/AliceO2Group/AliceO2/pull/13572) 2024-10-09: TOF digitizer: Ability to process events happening before timeframe s… by [@sawenzel](https://github.com/sawenzel)
 - [\#13578](https://github.com/AliceO2Group/AliceO2/pull/13578) 2024-10-08: Protection against ITS/MFT GBTTrailer packet status corruption by [@shahor02](https://github.com/shahor02)
