@@ -3018,31 +3018,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC digi: Cut digits arriving before timeframe/readout start",
-            "number": 13562,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/SAMPAProcessing.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: enable prefetching only for branches with one basket",
@@ -4435,6 +4410,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "ctpdev: macro for creating CTP BK counters entry from CCDB.",
+            "number": 13570,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CreateBKForRun.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Get column value by column label in Framework Core ASoA",
             "number": 13498,
             "author": {
@@ -4460,26 +4465,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ctpdev: macro for creating CTP BK counters entry from CCDB.",
-            "number": 13570,
+            "title": "TPC digi: Cut digits arriving before timeframe/readout start",
+            "number": 13562,
             "author": {
-              "login": "lietava"
+              "login": "sawenzel"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/SAMPAProcessing.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/CTP/macro/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/macro/CreateBKForRun.C"
+                    "path": "Detectors/TPC/simulation/src/Digitizer.cxx"
                   }
                 }
               ]
