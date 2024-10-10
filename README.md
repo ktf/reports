@@ -12,6 +12,7 @@
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
 - [\#13556](https://github.com/AliceO2Group/AliceO2/pull/13556) 2024-10-03: DCAFitterGPU: reduce I/O overhead by copying elements using a kernel by [@mconcas](https://github.com/mconcas)
 - [\#13574](https://github.com/AliceO2Group/AliceO2/pull/13574) 2024-10-09: GPU: Switch integer types to <cstdint> types + some related / minor changes by [@davidrohr](https://github.com/davidrohr)
+- [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
@@ -75,3 +76,4 @@
 - [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
 - [\#13575](https://github.com/AliceO2Group/AliceO2/pull/13575) 2024-10-09: Pass CCDB Headers together with binary blob by [@shahor02](https://github.com/shahor02)
 - [\#13576](https://github.com/AliceO2Group/AliceO2/pull/13576) 2024-10-08: Drop non C++20 code by [@ktf](https://github.com/ktf)
+- [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
