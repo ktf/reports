@@ -49,6 +49,7 @@
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13572](https://github.com/AliceO2Group/AliceO2/pull/13572) 2024-10-09: TOF digitizer: Ability to process events happening before timeframe s… by [@sawenzel](https://github.com/sawenzel)
 - [\#13578](https://github.com/AliceO2Group/AliceO2/pull/13578) 2024-10-08: Protection against ITS/MFT GBTTrailer packet status corruption by [@shahor02](https://github.com/shahor02)
+- [\#13581](https://github.com/AliceO2Group/AliceO2/pull/13581) 2024-10-10: More informaritive verbose ITS/MFT raw data fetching logging by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
