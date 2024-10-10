@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-16T06:06:10Z",
-            "title": "GPU: DCAFitterN{HIP,CUDA} tests now working",
-            "number": 13510,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/test/testDCAFitterNGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-16T13:32:41Z",
             "title": "o2-sim: No longer write FairRoot runtime database",
             "number": 13515,
@@ -4335,6 +4285,81 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/qc/src/Tracks.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "assure TOF code uses std::abs everywhere",
+            "number": 13582,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TOFEventTimeChecker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/EventTimeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/Geo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/Utils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/CalibTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFChannelCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/prototyping/findTOFclusterFromLabel.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/CosmicProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/checkTOFMatching.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/compareTOFClusters.C"
                   }
                 }
               ]
