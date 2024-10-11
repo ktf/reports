@@ -79,3 +79,5 @@
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
+## Recent developments in O2 - Utilities
+- [\#13472](https://github.com/AliceO2Group/AliceO2/pull/13472) 2024-10-11: [QC-1176] added tools to QC to check whether objects is mergeable by [@justonedev1](https://github.com/justonedev1)
