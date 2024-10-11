@@ -5,7 +5,6 @@
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13527](https://github.com/AliceO2Group/AliceO2/pull/13527) 2024-09-19: GPU-DCAFitter: processBulk() to run fits in parallel by [@mconcas](https://github.com/mconcas)
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
@@ -56,7 +55,6 @@
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#13481](https://github.com/AliceO2Group/AliceO2/pull/13481) 2024-09-17: DPL: Silence another oldestPossible warning after STOP by [@davidrohr](https://github.com/davidrohr)
 - [\#13504](https://github.com/AliceO2Group/AliceO2/pull/13504) 2024-09-12: Strainer: safeguard for missing AliEn connection by [@mpuccio](https://github.com/mpuccio)
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13519](https://github.com/AliceO2Group/AliceO2/pull/13519) 2024-09-20: DPL Analysis: make sure VLAs use only one basket by [@ktf](https://github.com/ktf)
