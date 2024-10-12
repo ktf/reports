@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-06T05:32:51Z",
-            "title": "PWGUD: updates to upcRhoAnalysis.cxx",
-            "number": 7894,
-            "author": {
-              "login": "jjuracka"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcRhoAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-06T07:28:59Z",
             "title": "[PWGLF] fix bug",
             "number": 7895,
@@ -2831,6 +2811,56 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGUD Table Producers modified to include the UPC Reco flag in collisions",
+            "number": 7975,
+            "author": {
+              "login": "abylinkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/UDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/Converters/UDCollisionsConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
                   }
                 }
               ]
