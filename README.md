@@ -29,6 +29,7 @@
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13580](https://github.com/AliceO2Group/AliceO2/pull/13580) 2024-10-10: Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit by [@sawenzel](https://github.com/sawenzel)
 - [\#13584](https://github.com/AliceO2Group/AliceO2/pull/13584) 2024-10-11: Ship GRPECS as part of AggregatedRunInfo; cleanup by [@sawenzel](https://github.com/sawenzel)
+- [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
@@ -54,6 +55,7 @@
 - [\#13578](https://github.com/AliceO2Group/AliceO2/pull/13578) 2024-10-08: Protection against ITS/MFT GBTTrailer packet status corruption by [@shahor02](https://github.com/shahor02)
 - [\#13581](https://github.com/AliceO2Group/AliceO2/pull/13581) 2024-10-10: More informaritive verbose ITS/MFT raw data fetching logging by [@shahor02](https://github.com/shahor02)
 - [\#13582](https://github.com/AliceO2Group/AliceO2/pull/13582) 2024-10-10: assure TOF code uses std::abs everywhere by [@noferini](https://github.com/noferini)
+- [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
@@ -75,6 +77,7 @@
 - [\#13575](https://github.com/AliceO2Group/AliceO2/pull/13575) 2024-10-09: Pass CCDB Headers together with binary blob by [@shahor02](https://github.com/shahor02)
 - [\#13576](https://github.com/AliceO2Group/AliceO2/pull/13576) 2024-10-08: Drop non C++20 code by [@ktf](https://github.com/ktf)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
+- [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Utilities
