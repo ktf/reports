@@ -73,6 +73,7 @@
 - [\#13576](https://github.com/AliceO2Group/AliceO2/pull/13576) 2024-10-08: Drop non C++20 code by [@ktf](https://github.com/ktf)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
+- [\#13592](https://github.com/AliceO2Group/AliceO2/pull/13592) 2024-10-14: Modify CCDB headers check to account for CCDBSerialized<> access of non-CCDB objects by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Utilities
