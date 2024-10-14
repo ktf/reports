@@ -56,6 +56,7 @@
 - [\#13581](https://github.com/AliceO2Group/AliceO2/pull/13581) 2024-10-10: More informaritive verbose ITS/MFT raw data fetching logging by [@shahor02](https://github.com/shahor02)
 - [\#13582](https://github.com/AliceO2Group/AliceO2/pull/13582) 2024-10-10: assure TOF code uses std::abs everywhere by [@noferini](https://github.com/noferini)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
+- [\#13589](https://github.com/AliceO2Group/AliceO2/pull/13589) 2024-10-14: [MCH] skip digits produced before the beginning of the TF by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
