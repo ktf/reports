@@ -2536,56 +2536,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGUD Table Producers modified to include the UPC Reco flag in collisions",
-            "number": 7975,
-            "author": {
-              "login": "abylinkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/UDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/Converters/UDCollisionsConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "COMMON: retrieve qvector corrections from CCDB using runnumber",
             "number": 7988,
             "author": {
@@ -2696,86 +2646,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Add Bs candidate creator and selector for reduced data format",
-            "number": 7990,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseB0ToDPi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBplusToD0Pi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBsToDsPi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBsReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBplusToD0PiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBsToDsPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorBs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorBsToDsPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWG LF: add boolean to store only true cascades for efficiency calculation in cascadeflow task",
             "number": 7991,
             "author": {
@@ -2846,6 +2716,146 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGUD Table Producers modified to include the UPC Reco flag in collisions",
+            "number": 7975,
+            "author": {
+              "login": "abylinkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/UDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/Converters/UDCollisionsConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Add Bs candidate creator, selector, and task for reduced data format",
+            "number": 7990,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseB0ToDPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBplusToD0Pi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBsToDsPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBplusToD0PiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBsToDsPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorBs.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorBsToDsPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
