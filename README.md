@@ -62,7 +62,6 @@
 ## Recent developments in O2 - Framework
 - [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13519](https://github.com/AliceO2Group/AliceO2/pull/13519) 2024-09-20: DPL Analysis: make sure VLAs use only one basket by [@ktf](https://github.com/ktf)
-- [\#13526](https://github.com/AliceO2Group/AliceO2/pull/13526) 2024-09-18: DPL: Drop generic code to chose between unique and shared pointers by [@ktf](https://github.com/ktf)
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
 - [\#13531](https://github.com/AliceO2Group/AliceO2/pull/13531) 2024-09-19: DPL: avoid pragma once by [@ktf](https://github.com/ktf)
