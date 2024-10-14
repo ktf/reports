@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-09-18T11:48:43Z",
-            "title": "Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec…",
-            "number": 13517,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Decay3Body.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Decay3Body.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexHypothesis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-19T07:18:58Z",
             "title": "GPU-DCAFitter: processBulk() to run fits in parallel",
             "number": 13527,
@@ -4476,6 +4421,46 @@
                 {
                   "node": {
                     "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add tpcApplyCFCutsAtDecoding option to apply cluster cuts of CF during CTF decoding",
+            "number": 13591,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
                   }
                 }
               ]

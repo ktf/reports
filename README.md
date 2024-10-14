@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -18,7 +17,6 @@
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
-- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
 - [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
 - [\#13548](https://github.com/AliceO2Group/AliceO2/pull/13548) 2024-10-02: Tracking (+ITS): Add quiet function to get predicted chi2 by [@mconcas](https://github.com/mconcas)
@@ -36,7 +34,6 @@
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
-- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13518](https://github.com/AliceO2Group/AliceO2/pull/13518) 2024-09-23: Ctpdev: print input and class rates in case of big payload by [@lietava](https://github.com/lietava)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
 - [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
@@ -60,7 +57,6 @@
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#13517](https://github.com/AliceO2Group/AliceO2/pull/13517) 2024-09-18: Add mass hypothesis for H4L, He4L, He5L and charge hypothesis for dec… by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13519](https://github.com/AliceO2Group/AliceO2/pull/13519) 2024-09-20: DPL Analysis: make sure VLAs use only one basket by [@ktf](https://github.com/ktf)
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13529](https://github.com/AliceO2Group/AliceO2/pull/13529) 2024-09-19: DPL: Use X9 to make AsyncQueue atomic by [@ktf](https://github.com/ktf)
