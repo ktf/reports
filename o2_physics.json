@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-10T08:06:36Z",
-            "title": "PWGHF: Fix in B+ MC dataCreator",
-            "number": 7931,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-10T09:02:33Z",
             "title": "[PWGLF] strangeness_in_jets: added extra loop on V0s to diagnose efficiency loss",
             "number": 7936,
@@ -2736,6 +2716,31 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Common: move mult/cent table producers to getForRun CCDB queries",
+            "number": 8017,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/centralityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
                   }
                 }
               ]
