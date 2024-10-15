@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Added process for determining neutron skin",
-            "number": 7842,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowZDCtask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-10-09T20:28:48Z",
             "title": "PWGEM/Dilepton: change default value of process switch",
@@ -2626,6 +2606,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGHF: add converter for 3-prong ML table in D2H reduced data format",
+            "number": 8006,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/converterReduced3ProngsMl.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "PWGHF: Add Bs candidate creator, selector, and task for reduced data format",
             "number": 7990,
             "author": {
@@ -2721,10 +2731,10 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: add converter for 3-prong ML table in D2H reduced data format",
-            "number": 8006,
+            "title": "[PWGHF] adding DstarTrack resonance",
+            "number": 8014,
             "author": {
-              "login": "fgrosa"
+              "login": "cterrevo"
             },
             "files": {
               "edges": [
@@ -2735,12 +2745,7 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/converterReduced3ProngsMl.cxx"
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
                   }
                 }
               ]
