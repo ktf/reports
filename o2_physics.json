@@ -421,61 +421,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common/PWGHF]: store PID info in 2-prong candidate table and propagate it to analyses.",
-            "number": 7805,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelectorPID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseD0ToKPi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorD0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorD0ToKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Added process for determining neutron skin",
             "number": 7842,
             "author": {
@@ -2841,6 +2786,521 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/multiplicityExtraTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common/PWGHF]: store PID info in 2-prong candidate table and propagate it to analyses.",
+            "number": 7805,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/v0qaanalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperKinkRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/lithium4analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/lnnRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/spectraDerivedMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/straevselsconverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/straevselsconverter2rawcents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/v0mlscoresconverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/v0qaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/ebyeMult.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hypertriton3bodyMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hypertriton3bodyanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOFRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPCtiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPCtinyPiKaPr.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/mcinelgt0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/strangederivedqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/strangenessTrackingQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/f0980pbpbanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/k0_mixed_events.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolarization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strange-yield-pbpb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangeness_in_jets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0postprocessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/inelGt.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/lumiStability.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/heavy-ion-mult.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcRhoAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/ML/applyMlSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/ML/dpl-config_applyMlSelection.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask5.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/DataModelMini.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/dpl-config_skim.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/dpl-config_task.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/run_skim.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/run_task.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/skimCreatorMini.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/taskMini.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Resonance/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Resonance/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Resonance/resonances_step3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Resonance/resonances_step4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Resonance/resonances_step5.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Resonance/resonances_step6.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/run_skeleton.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/run_step0.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/run_step1.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/run_step2.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/run_step3.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/run_step4.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/strangeness_pbpb_skeleton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/strangeness_pbpb_step0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/strangeness_pbpb_step1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/strangeness_pbpb_step2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/strangeness_pbpb_step3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/Analysis/strangeness_pbpb_step4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/DerivedDataProduction/Data/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/PbPb/DerivedDataProduction/MC/runMC.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/pp/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/pp/strangeness_step0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/pp/strangeness_step1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/pp/strangeness_step2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/pp/strangeness_step3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGLF/Strangeness/pp/strangeness_step4.cxx"
                   }
                 }
               ]
