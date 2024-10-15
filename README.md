@@ -13,7 +13,6 @@
 - [\#13585](https://github.com/AliceO2Group/AliceO2/pull/13585) 2024-10-11: Add Ds* (433) to physics constants by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - DataFormats
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
-- [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
 - [\#13536](https://github.com/AliceO2Group/AliceO2/pull/13536) 2024-09-24: ITS: Track Follower changes + study by [@f3sch](https://github.com/f3sch)
@@ -30,7 +29,6 @@
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13455](https://github.com/AliceO2Group/AliceO2/pull/13455) 2024-09-20: finalizing tool to test TOF digitizer by [@noferini](https://github.com/noferini)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
-- [\#13514](https://github.com/AliceO2Group/AliceO2/pull/13514) 2024-09-18: AFIT-101: new extended trg word(min bias), update for FT0 time offset collibration by [@afurs](https://github.com/afurs)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13518](https://github.com/AliceO2Group/AliceO2/pull/13518) 2024-09-23: Ctpdev: print input and class rates in case of big payload by [@lietava](https://github.com/lietava)
 - [\#13533](https://github.com/AliceO2Group/AliceO2/pull/13533) 2024-09-23: TPC: Multiple fixes and extensions by [@wiechula](https://github.com/wiechula)
