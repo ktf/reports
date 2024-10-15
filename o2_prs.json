@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Make AsyncQueue thread safe",
-            "number": 13368,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AsyncQueue.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-09-19T19:54:33Z",
             "title": "DPL: Use X9 to make AsyncQueue atomic",
@@ -4321,46 +4301,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU: Add tpcApplyCFCutsAtDecoding option to apply cluster cuts of CF during CTF decoding",
-            "number": 13591,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChain.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Custom orbit shifts for runs <=LHC22m",
             "number": 13590,
             "author": {
@@ -4401,6 +4341,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Get column value by column label in Framework Core ASoA",
+            "number": 13498,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-15T07:15:40Z",
+            "title": "GPU: Add tpcApplyCFCutsAtDecoding option to apply cluster cuts of CF during CTF decoding",
+            "number": 13591,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4431,21 +4436,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Get column value by column label in Framework Core ASoA",
-            "number": 13498,
+            "title": "Add GPUTPCClusterFilter class to remove TPC clusters in generic way for cluster studies",
+            "number": 13593,
             "author": {
-              "login": "mytkom"
+              "login": "davidrohr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                    "path": "GPU/GPUTracking/Debug/GPUTPCClusterFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Debug/GPUTPCClusterFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPULogging.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayInterface.cxx"
                   }
                 }
               ]
