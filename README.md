@@ -28,6 +28,7 @@
 - [\#13590](https://github.com/AliceO2Group/AliceO2/pull/13590) 2024-10-15: Custom orbit shifts for runs <=LHC22m by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Detectors
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
+- [\#13227](https://github.com/AliceO2Group/AliceO2/pull/13227) 2024-10-17: [EMCAL-539,EMCAL-696,EMCAL-697] FIT-CTP-EMCAL trigger simulation by [@siragoni](https://github.com/siragoni)
 - [\#13484](https://github.com/AliceO2Group/AliceO2/pull/13484) 2024-09-18: TPC: standalone dEdx calculation class is extended by [@tubagundem](https://github.com/tubagundem)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13518](https://github.com/AliceO2Group/AliceO2/pull/13518) 2024-09-23: Ctpdev: print input and class rates in case of big payload by [@lietava](https://github.com/lietava)
@@ -57,7 +58,6 @@
 ## Recent developments in O2 - Framework
 - [\#13519](https://github.com/AliceO2Group/AliceO2/pull/13519) 2024-09-20: DPL Analysis: make sure VLAs use only one basket by [@ktf](https://github.com/ktf)
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
-- [\#13535](https://github.com/AliceO2Group/AliceO2/pull/13535) 2024-09-23: DPL: thread safe activity detection by [@ktf](https://github.com/ktf)
 - [\#13538](https://github.com/AliceO2Group/AliceO2/pull/13538) 2024-09-26: [HistogramRegistry] add string handling for template form by [@njacazio](https://github.com/njacazio)
 - [\#13539](https://github.com/AliceO2Group/AliceO2/pull/13539) 2024-10-01: DPL: Remove use of obsolete reconfiguration mechanism in ECS by [@knopers8](https://github.com/knopers8)
 - [\#13542](https://github.com/AliceO2Group/AliceO2/pull/13542) 2024-09-27: DPL: introduce a --data-processing-timeout by [@ktf](https://github.com/ktf)
