@@ -49,6 +49,7 @@
 - [\#13594](https://github.com/AliceO2Group/AliceO2/pull/13594) 2024-10-17: TPC: adding check for SACs at endOfStream by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13596](https://github.com/AliceO2Group/AliceO2/pull/13596) 2024-10-15: ITSGPU: Make threads and blocks configurable from CLI by [@mconcas](https://github.com/mconcas)
 - [\#13601](https://github.com/AliceO2Group/AliceO2/pull/13601) 2024-10-17: Update LZEROElectronics.h by [@sawenzel](https://github.com/sawenzel)
+- [\#13606](https://github.com/AliceO2Group/AliceO2/pull/13606) 2024-10-17: Fix broken --max-tf option of ReaderDriver by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
