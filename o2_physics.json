@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-12T09:07:53Z",
-            "title": "PWGCF: FemtoUniverse -- adding pT cuts and cleaning up configurables",
-            "number": 7966,
-            "author": {
-              "login": "zchochul"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-12T11:41:44Z",
             "title": "[PWGDQ] Missing dimuon fix",
             "number": 7967,
@@ -806,41 +781,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/QC/strangenessTrackingQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF & PWGJE] Create V0 Selector Task",
-            "number": 7958,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/v0qa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/V0SelectorTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/v0selector.cxx"
                   }
                 }
               ]
@@ -2506,6 +2446,76 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-18T02:29:46Z",
+            "title": "[PWGLF & PWGJE] Create V0 Selector Task",
+            "number": 7958,
+            "author": {
+              "login": "GijsvWeelden"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/v0qa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/V0SelectorTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/v0selector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-18T02:36:52Z",
+            "title": "[PWGJE] Add xyz of IP and sv and avoid return value of nullptr",
+            "number": 7965,
+            "author": {
+              "login": "hanseopark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetTagging.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jettaggerhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jettaggerhfQA.cxx"
                   }
                 }
               ]
