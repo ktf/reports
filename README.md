@@ -50,8 +50,6 @@
 - [\#13601](https://github.com/AliceO2Group/AliceO2/pull/13601) 2024-10-17: Update LZEROElectronics.h by [@sawenzel](https://github.com/sawenzel)
 - [\#13603](https://github.com/AliceO2Group/AliceO2/pull/13603) 2024-10-18: TRD digi / O2-5395: Trivial collision cut by [@sawenzel](https://github.com/sawenzel)
 - [\#13606](https://github.com/AliceO2Group/AliceO2/pull/13606) 2024-10-17: Fix broken --max-tf option of ReaderDriver by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Examples
-- [\#13543](https://github.com/AliceO2Group/AliceO2/pull/13543) 2024-09-27: Added examples to run EPOS4 on-the-fly by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13519](https://github.com/AliceO2Group/AliceO2/pull/13519) 2024-09-20: DPL Analysis: make sure VLAs use only one basket by [@ktf](https://github.com/ktf)
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
