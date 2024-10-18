@@ -29,7 +29,6 @@
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13227](https://github.com/AliceO2Group/AliceO2/pull/13227) 2024-10-17: [EMCAL-539,EMCAL-696,EMCAL-697] FIT-CTP-EMCAL trigger simulation by [@siragoni](https://github.com/siragoni)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
-- [\#13540](https://github.com/AliceO2Group/AliceO2/pull/13540) 2024-09-25: Demote to info the log about missing RCTInfo in ITS DCS agent by [@shahor02](https://github.com/shahor02)
 - [\#13547](https://github.com/AliceO2Group/AliceO2/pull/13547) 2024-10-02: TPC: Optimising scaling of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13548](https://github.com/AliceO2Group/AliceO2/pull/13548) 2024-10-02: Tracking (+ITS): Add quiet function to get predicted chi2 by [@mconcas](https://github.com/mconcas)
 - [\#13550](https://github.com/AliceO2Group/AliceO2/pull/13550) 2024-09-30: TPC: simulation toyCluster.C macro fix by [@tubagundem](https://github.com/tubagundem)
