@@ -69,6 +69,7 @@
 - [\#13592](https://github.com/AliceO2Group/AliceO2/pull/13592) 2024-10-14: Modify CCDB headers check to account for CCDBSerialized<> access of non-CCDB objects by [@shahor02](https://github.com/shahor02)
 - [\#13598](https://github.com/AliceO2Group/AliceO2/pull/13598) 2024-10-17: DPL: speedup homogeneous_apply_ref by [@ktf](https://github.com/ktf)
 - [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
+- [\#13609](https://github.com/AliceO2Group/AliceO2/pull/13609) 2024-10-18: DPL: move byteswapping helpers to Endian.h by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13599](https://github.com/AliceO2Group/AliceO2/pull/13599) 2024-10-18: MID: skip digits produced before the beginning of the TF by [@dstocco](https://github.com/dstocco)
