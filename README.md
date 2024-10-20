@@ -53,7 +53,6 @@
 - [\#13606](https://github.com/AliceO2Group/AliceO2/pull/13606) 2024-10-17: Fix broken --max-tf option of ReaderDriver by [@shahor02](https://github.com/shahor02)
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#13519](https://github.com/AliceO2Group/AliceO2/pull/13519) 2024-09-20: DPL Analysis: make sure VLAs use only one basket by [@ktf](https://github.com/ktf)
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13539](https://github.com/AliceO2Group/AliceO2/pull/13539) 2024-10-01: DPL: Remove use of obsolete reconfiguration mechanism in ECS by [@knopers8](https://github.com/knopers8)
 - [\#13542](https://github.com/AliceO2Group/AliceO2/pull/13542) 2024-09-27: DPL: introduce a --data-processing-timeout by [@ktf](https://github.com/ktf)
