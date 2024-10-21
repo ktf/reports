@@ -65,6 +65,7 @@
 - [\#13576](https://github.com/AliceO2Group/AliceO2/pull/13576) 2024-10-08: Drop non C++20 code by [@ktf](https://github.com/ktf)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
+- [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
 - [\#13592](https://github.com/AliceO2Group/AliceO2/pull/13592) 2024-10-14: Modify CCDB headers check to account for CCDBSerialized<> access of non-CCDB objects by [@shahor02](https://github.com/shahor02)
 - [\#13598](https://github.com/AliceO2Group/AliceO2/pull/13598) 2024-10-17: DPL: speedup homogeneous_apply_ref by [@ktf](https://github.com/ktf)
 - [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
