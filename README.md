@@ -75,5 +75,6 @@
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13599](https://github.com/AliceO2Group/AliceO2/pull/13599) 2024-10-18: MID: skip digits produced before the beginning of the TF by [@dstocco](https://github.com/dstocco)
 - [\#13615](https://github.com/AliceO2Group/AliceO2/pull/13615) 2024-10-21: Try to fix CI by adding MIDRaw lib to digitization by [@shahor02](https://github.com/shahor02)
+- [\#13619](https://github.com/AliceO2Group/AliceO2/pull/13619) 2024-10-22: Suppress if (ENABLE_UPGRADES) in the CMakefile by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#13472](https://github.com/AliceO2Group/AliceO2/pull/13472) 2024-10-11: [QC-1176] added tools to QC to check whether objects is mergeable by [@justonedev1](https://github.com/justonedev1)
