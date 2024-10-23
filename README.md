@@ -57,7 +57,6 @@
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13539](https://github.com/AliceO2Group/AliceO2/pull/13539) 2024-10-01: DPL: Remove use of obsolete reconfiguration mechanism in ECS by [@knopers8](https://github.com/knopers8)
-- [\#13544](https://github.com/AliceO2Group/AliceO2/pull/13544) 2024-09-30: DPL: drop incoming non-calibration data when we process calibration only by [@ktf](https://github.com/ktf)
 - [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 - [\#13559](https://github.com/AliceO2Group/AliceO2/pull/13559) 2024-10-03: DPL Analysis: re-enable prefetching by [@ktf](https://github.com/ktf)
 - [\#13566](https://github.com/AliceO2Group/AliceO2/pull/13566) 2024-10-04: Revert "DPL Analysis: re-enable prefetching" by [@ktf](https://github.com/ktf)
