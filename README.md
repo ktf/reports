@@ -32,7 +32,6 @@
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13547](https://github.com/AliceO2Group/AliceO2/pull/13547) 2024-10-02: TPC: Optimising scaling of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13548](https://github.com/AliceO2Group/AliceO2/pull/13548) 2024-10-02: Tracking (+ITS): Add quiet function to get predicted chi2 by [@mconcas](https://github.com/mconcas)
-- [\#13550](https://github.com/AliceO2Group/AliceO2/pull/13550) 2024-09-30: TPC: simulation toyCluster.C macro fix by [@tubagundem](https://github.com/tubagundem)
 - [\#13551](https://github.com/AliceO2Group/AliceO2/pull/13551) 2024-10-01: ITS digi: Ability to process events before the first RO by [@sawenzel](https://github.com/sawenzel)
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13553](https://github.com/AliceO2Group/AliceO2/pull/13553) 2024-10-01: DCAFitterGPU: add asynch batching + benchmarking by [@mconcas](https://github.com/mconcas)
