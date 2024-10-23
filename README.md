@@ -53,6 +53,7 @@
 - [\#13603](https://github.com/AliceO2Group/AliceO2/pull/13603) 2024-10-18: TRD digi / O2-5395: Trivial collision cut by [@sawenzel](https://github.com/sawenzel)
 - [\#13606](https://github.com/AliceO2Group/AliceO2/pull/13606) 2024-10-17: Fix broken --max-tf option of ReaderDriver by [@shahor02](https://github.com/shahor02)
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
+- [\#13620](https://github.com/AliceO2Group/AliceO2/pull/13620) 2024-10-23: Optionally extract TPC clusters MC truth resolution by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13539](https://github.com/AliceO2Group/AliceO2/pull/13539) 2024-10-01: DPL: Remove use of obsolete reconfiguration mechanism in ECS by [@knopers8](https://github.com/knopers8)
