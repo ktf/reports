@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
-- [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 - [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
@@ -54,7 +53,6 @@
 - [\#13620](https://github.com/AliceO2Group/AliceO2/pull/13620) 2024-10-23: Optionally extract TPC clusters MC truth resolution by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
-- [\#13549](https://github.com/AliceO2Group/AliceO2/pull/13549) 2024-10-02: DPL Analysis: add option to artificially slow down AOD reader by [@ktf](https://github.com/ktf)
 - [\#13559](https://github.com/AliceO2Group/AliceO2/pull/13559) 2024-10-03: DPL Analysis: re-enable prefetching by [@ktf](https://github.com/ktf)
 - [\#13566](https://github.com/AliceO2Group/AliceO2/pull/13566) 2024-10-04: Revert "DPL Analysis: re-enable prefetching" by [@ktf](https://github.com/ktf)
 - [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
