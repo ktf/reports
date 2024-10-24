@@ -35,6 +35,7 @@
 - [\#13558](https://github.com/AliceO2Group/AliceO2/pull/13558) 2024-10-17: adding extra margin for sync TOF dia calibs by [@noferini](https://github.com/noferini)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
 - [\#13562](https://github.com/AliceO2Group/AliceO2/pull/13562) 2024-10-09: TPC digi: Cut digits arriving before timeframe/readout start by [@sawenzel](https://github.com/sawenzel)
+- [\#13565](https://github.com/AliceO2Group/AliceO2/pull/13565) 2024-10-24: [TPC-QC] Add DCAr selection to Tracks.cxx by [@makor](https://github.com/makor)
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13572](https://github.com/AliceO2Group/AliceO2/pull/13572) 2024-10-09: TOF digitizer: Ability to process events happening before timeframe s… by [@sawenzel](https://github.com/sawenzel)
 - [\#13578](https://github.com/AliceO2Group/AliceO2/pull/13578) 2024-10-08: Protection against ITS/MFT GBTTrailer packet status corruption by [@shahor02](https://github.com/shahor02)
