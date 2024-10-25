@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "PWGHF: Fix missing downSampleBkgFactor for data",
-            "number": 8080,
-            "author": {
-              "login": "Mingyu3360715"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorD0ToKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-10-21T15:25:32Z",
             "title": "PWGEM/Dilepton: add flexibility to apply asymmetric zvtx cut",
@@ -2700,6 +2680,46 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Common: ESE splines for FT0-A and FV0-A",
+            "number": 8149,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/FFitWeights.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/FFitWeights.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/EseTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eseTableProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
                   }
                 }
               ]
