@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-21T20:30:47Z",
-            "title": "PWGLF: Minor additions and fixes to KFParticle reconstruction in decay3bodybuilder task and threebodyKFTask",
-            "number": 8079,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-22T07:21:56Z",
             "title": "PWGHF: Fix missing downSampleBkgFactor for data",
             "number": 8081,
@@ -2575,36 +2545,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGEM:LMee: added new cuts and histogram for opening angle",
-            "number": 8146,
-            "author": {
-              "login": "jjungIKF"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DielectronCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGLF, AngularCorrelationsInJets.cxx: bug fix + TOF mass toggle",
             "number": 8158,
             "author": {
@@ -2657,6 +2597,56 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-25T16:52:21Z",
+            "title": "Update PWGLF/Tasks/Nuspex/spectraTOF.cxx",
+            "number": 8132,
+            "author": {
+              "login": "RD0407"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM:LMee: added new cuts and histogram for opening angle",
+            "number": 8146,
+            "author": {
+              "login": "jjungIKF"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "CODEOWNERS: split LF per PAG",
@@ -2677,18 +2667,28 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-10-25T16:52:21Z",
-            "title": "Update PWGLF/Tasks/Nuspex/spectraTOF.cxx",
-            "number": 8132,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Added more variables for derived data table and flag to use global vs tpc momentum",
+            "number": 8162,
             "author": {
-              "login": "RD0407"
+              "login": "prottayCMT"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                    "path": "PWGLF/DataModel/SPCalibrationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
                   }
                 }
               ]
