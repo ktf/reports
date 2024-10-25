@@ -29,7 +29,6 @@
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13547](https://github.com/AliceO2Group/AliceO2/pull/13547) 2024-10-02: TPC: Optimising scaling of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#13557](https://github.com/AliceO2Group/AliceO2/pull/13557) 2024-10-02: TPC: adding dEdx space-charge correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13558](https://github.com/AliceO2Group/AliceO2/pull/13558) 2024-10-17: adding extra margin for sync TOF dia calibs by [@noferini](https://github.com/noferini)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
 - [\#13562](https://github.com/AliceO2Group/AliceO2/pull/13562) 2024-10-09: TPC digi: Cut digits arriving before timeframe/readout start by [@sawenzel](https://github.com/sawenzel)
