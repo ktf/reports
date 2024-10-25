@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-10-21T14:19:54Z",
-            "title": "PWGCF: add 4-particle correlations flow",
-            "number": 8069,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGFWOmegaXi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "PWGHF: Fix missing downSampleBkgFactor for data",
@@ -2695,6 +2675,31 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdaJetpolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Fix PV cov matrix entry and gen decay vertex array in KF hypertriton 3-body reconstruction",
+            "number": 8148,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
                   }
                 }
               ]
