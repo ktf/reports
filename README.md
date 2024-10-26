@@ -46,6 +46,7 @@
 - [\#13606](https://github.com/AliceO2Group/AliceO2/pull/13606) 2024-10-17: Fix broken --max-tf option of ReaderDriver by [@shahor02](https://github.com/shahor02)
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
 - [\#13620](https://github.com/AliceO2Group/AliceO2/pull/13620) 2024-10-23: Optionally extract TPC clusters MC truth resolution by [@shahor02](https://github.com/shahor02)
+- [\#13622](https://github.com/AliceO2Group/AliceO2/pull/13622) 2024-10-26: Fix IRFrames selection in ITS/MFT digits reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13559](https://github.com/AliceO2Group/AliceO2/pull/13559) 2024-10-03: DPL Analysis: re-enable prefetching by [@ktf](https://github.com/ktf)
