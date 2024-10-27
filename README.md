@@ -12,7 +12,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
-- [\#13555](https://github.com/AliceO2Group/AliceO2/pull/13555) 2024-10-03: AggregatedRunInfo struct proposal by [@sawenzel](https://github.com/sawenzel)
 - [\#13560](https://github.com/AliceO2Group/AliceO2/pull/13560) 2024-10-03: Revert "AggregatedRunInfo struct proposal" by [@sawenzel](https://github.com/sawenzel)
 - [\#13561](https://github.com/AliceO2Group/AliceO2/pull/13561) 2024-10-03: Unconditionally load PVs if requested by [@shahor02](https://github.com/shahor02)
 - [\#13564](https://github.com/AliceO2Group/AliceO2/pull/13564) 2024-10-07: Fix compilation issue in AggregatedRunInfo by [@sawenzel](https://github.com/sawenzel)
