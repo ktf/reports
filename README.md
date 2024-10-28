@@ -43,6 +43,7 @@
 - [\#13603](https://github.com/AliceO2Group/AliceO2/pull/13603) 2024-10-18: TRD digi / O2-5395: Trivial collision cut by [@sawenzel](https://github.com/sawenzel)
 - [\#13606](https://github.com/AliceO2Group/AliceO2/pull/13606) 2024-10-17: Fix broken --max-tf option of ReaderDriver by [@shahor02](https://github.com/shahor02)
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
+- [\#13618](https://github.com/AliceO2Group/AliceO2/pull/13618) 2024-10-28: [O2-5395, EMCAL-501] Implement correct handling of events preceding timeframe by [@jokonig](https://github.com/jokonig)
 - [\#13620](https://github.com/AliceO2Group/AliceO2/pull/13620) 2024-10-23: Optionally extract TPC clusters MC truth resolution by [@shahor02](https://github.com/shahor02)
 - [\#13622](https://github.com/AliceO2Group/AliceO2/pull/13622) 2024-10-26: Fix IRFrames selection in ITS/MFT digits reader by [@shahor02](https://github.com/shahor02)
 - [\#13625](https://github.com/AliceO2Group/AliceO2/pull/13625) 2024-10-28: [MCH] extract digits from selected BC ranges if any by [@pillot](https://github.com/pillot)
