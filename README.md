@@ -45,6 +45,8 @@
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
 - [\#13620](https://github.com/AliceO2Group/AliceO2/pull/13620) 2024-10-23: Optionally extract TPC clusters MC truth resolution by [@shahor02](https://github.com/shahor02)
 - [\#13622](https://github.com/AliceO2Group/AliceO2/pull/13622) 2024-10-26: Fix IRFrames selection in ITS/MFT digits reader by [@shahor02](https://github.com/shahor02)
+- [\#13625](https://github.com/AliceO2Group/AliceO2/pull/13625) 2024-10-28: [MCH] extract digits from selected BC ranges if any by [@pillot](https://github.com/pillot)
+- [\#13626](https://github.com/AliceO2Group/AliceO2/pull/13626) 2024-10-28: [MCH] add option to change digit labels data description by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13559](https://github.com/AliceO2Group/AliceO2/pull/13559) 2024-10-03: DPL Analysis: re-enable prefetching by [@ktf](https://github.com/ktf)
