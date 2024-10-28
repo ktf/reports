@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
+- [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
@@ -64,7 +65,9 @@
 - [\#13592](https://github.com/AliceO2Group/AliceO2/pull/13592) 2024-10-14: Modify CCDB headers check to account for CCDBSerialized<> access of non-CCDB objects by [@shahor02](https://github.com/shahor02)
 - [\#13598](https://github.com/AliceO2Group/AliceO2/pull/13598) 2024-10-17: DPL: speedup homogeneous_apply_ref by [@ktf](https://github.com/ktf)
 - [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
+- [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
 - [\#13609](https://github.com/AliceO2Group/AliceO2/pull/13609) 2024-10-18: DPL: move byteswapping helpers to Endian.h by [@ktf](https://github.com/ktf)
+- [\#13611](https://github.com/AliceO2Group/AliceO2/pull/13611) 2024-10-28: DPL: finally use concepts to separate the make method by [@ktf](https://github.com/ktf)
 - [\#13614](https://github.com/AliceO2Group/AliceO2/pull/13614) 2024-10-20: DPL: use constraint rather than static_assert by [@ktf](https://github.com/ktf)
 - [\#13624](https://github.com/AliceO2Group/AliceO2/pull/13624) 2024-10-28: DPL Analysis: Staged declaration macro by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
