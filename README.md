@@ -11,7 +11,6 @@
 - [\#13585](https://github.com/AliceO2Group/AliceO2/pull/13585) 2024-10-11: Add Ds* (433) to physics constants by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - DataFormats
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
-- [\#13564](https://github.com/AliceO2Group/AliceO2/pull/13564) 2024-10-07: Fix compilation issue in AggregatedRunInfo by [@sawenzel](https://github.com/sawenzel)
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13580](https://github.com/AliceO2Group/AliceO2/pull/13580) 2024-10-10: Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit by [@sawenzel](https://github.com/sawenzel)
 - [\#13584](https://github.com/AliceO2Group/AliceO2/pull/13584) 2024-10-11: Ship GRPECS as part of AggregatedRunInfo; cleanup by [@sawenzel](https://github.com/sawenzel)

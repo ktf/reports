@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-10-07T12:03:21Z",
-            "title": "Fix compilation issue in AggregatedRunInfo",
-            "number": 13564,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/AggregatedRunInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/ParametersDataLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "MC: Fix alignment of entries in MCTruthContainer, Header size must be a multiple of the alignment - DO NOT MERGE, STILL BROKEN",
@@ -3569,41 +3534,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add number of TPC clusters used for PID to AO2D",
-            "number": 13617,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-10-29T11:23:30Z",
             "title": "DebugGUI: adding minor features to inputs/outputs display",
@@ -4141,6 +4071,61 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add number of TPC clusters used for PID to AO2D",
+            "number": 13617,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: use concepts rather than SFINAE",
+            "number": 13638,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Task.h"
                   }
                 }
               ]
