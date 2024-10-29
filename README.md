@@ -6,13 +6,11 @@
 - [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
-- [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13574](https://github.com/AliceO2Group/AliceO2/pull/13574) 2024-10-09: GPU: Switch integer types to <cstdint> types + some related / minor changes by [@davidrohr](https://github.com/davidrohr)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 - [\#13585](https://github.com/AliceO2Group/AliceO2/pull/13585) 2024-10-11: Add Ds* (433) to physics constants by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - DataFormats
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
-- [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13564](https://github.com/AliceO2Group/AliceO2/pull/13564) 2024-10-07: Fix compilation issue in AggregatedRunInfo by [@sawenzel](https://github.com/sawenzel)
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
 - [\#13580](https://github.com/AliceO2Group/AliceO2/pull/13580) 2024-10-10: Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit by [@sawenzel](https://github.com/sawenzel)
@@ -23,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13227](https://github.com/AliceO2Group/AliceO2/pull/13227) 2024-10-17: [EMCAL-539,EMCAL-696,EMCAL-697] FIT-CTP-EMCAL trigger simulation by [@siragoni](https://github.com/siragoni)
-- [\#13516](https://github.com/AliceO2Group/AliceO2/pull/13516) 2024-10-05: Prototype for reader-driver ability to skim MC input from files by [@shahor02](https://github.com/shahor02)
 - [\#13547](https://github.com/AliceO2Group/AliceO2/pull/13547) 2024-10-02: TPC: Optimising scaling of distortions in MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13558](https://github.com/AliceO2Group/AliceO2/pull/13558) 2024-10-17: adding extra margin for sync TOF dia calibs by [@noferini](https://github.com/noferini)
