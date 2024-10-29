@@ -71,6 +71,7 @@
 - [\#13611](https://github.com/AliceO2Group/AliceO2/pull/13611) 2024-10-28: DPL: finally use concepts to separate the make method by [@ktf](https://github.com/ktf)
 - [\#13614](https://github.com/AliceO2Group/AliceO2/pull/13614) 2024-10-20: DPL: use constraint rather than static_assert by [@ktf](https://github.com/ktf)
 - [\#13624](https://github.com/AliceO2Group/AliceO2/pull/13624) 2024-10-28: DPL Analysis: Staged declaration macro by [@aalkin](https://github.com/aalkin)
+- [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13599](https://github.com/AliceO2Group/AliceO2/pull/13599) 2024-10-18: MID: skip digits produced before the beginning of the TF by [@dstocco](https://github.com/dstocco)
