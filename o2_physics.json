@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-24T07:41:51Z",
-            "title": "PWGHF: add pT vs. Y histos in correlatorDMesonPairs.cxx",
-            "number": 8121,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-24T04:12:48Z",
             "title": "PWGLF, AngularCorrelationsInJets.cxx: improved task",
             "number": 8122,
@@ -2724,6 +2704,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PWGDQ: add single-track variables for D daughters in the JPsi-D reduced data model",
+            "number": 8203,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerJpsiHf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/taskJpsiHf.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add TPCnCRoverFindCls as variable ",
+            "number": 8202,
+            "author": {
+              "login": "feisenhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/MCtemplates.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM] Add AnalysisType kDCA to analyse DCA 3D,xy,z together",
             "number": 8188,
             "author": {
@@ -2794,61 +2839,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGDQ: add single-track variables for D daughters in the JPsi-D reduced data model",
-            "number": 8203,
+            "title": "[PWDGQ]: Update HistogramManager to automatically populate run-by-run QA histograms",
+            "number": 8204,
             "author": {
-              "login": "fgrosa"
+              "login": "zjxiongOvO"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                    "path": "PWGDQ/Core/HistogramManager.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerJpsiHf.cxx"
+                    "path": "PWGDQ/Core/HistogramManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/taskJpsiHf.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add TPCnCRoverFindCls as variable ",
-            "number": 8202,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/MCtemplates.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
                 }
               ]
