@@ -54,7 +54,6 @@
 - [\#13630](https://github.com/AliceO2Group/AliceO2/pull/13630) 2024-10-29: Fix in fetching of AlpideParam in STFDecoder by [@mcoquet642](https://github.com/mcoquet642)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
-- [\#13559](https://github.com/AliceO2Group/AliceO2/pull/13559) 2024-10-03: DPL Analysis: re-enable prefetching by [@ktf](https://github.com/ktf)
 - [\#13566](https://github.com/AliceO2Group/AliceO2/pull/13566) 2024-10-04: Revert "DPL Analysis: re-enable prefetching" by [@ktf](https://github.com/ktf)
 - [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
 - [\#13575](https://github.com/AliceO2Group/AliceO2/pull/13575) 2024-10-09: Pass CCDB Headers together with binary blob by [@shahor02](https://github.com/shahor02)
