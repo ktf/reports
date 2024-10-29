@@ -49,6 +49,7 @@
 - [\#13627](https://github.com/AliceO2Group/AliceO2/pull/13627) 2024-10-28: Add check for V0s  prongs binding on top of reco status, fix in TPC MC cl.resoluion extraction by [@shahor02](https://github.com/shahor02)
 - [\#13629](https://github.com/AliceO2Group/AliceO2/pull/13629) 2024-10-28: [STFDecoder] Updating alpide parameters also when no clusterization by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13630](https://github.com/AliceO2Group/AliceO2/pull/13630) 2024-10-29: Fix in fetching of AlpideParam in STFDecoder by [@mcoquet642](https://github.com/mcoquet642)
+- [\#13631](https://github.com/AliceO2Group/AliceO2/pull/13631) 2024-10-29: MID: extract digits from selected BC ranges by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
@@ -66,6 +67,7 @@
 - [\#13614](https://github.com/AliceO2Group/AliceO2/pull/13614) 2024-10-20: DPL: use constraint rather than static_assert by [@ktf](https://github.com/ktf)
 - [\#13624](https://github.com/AliceO2Group/AliceO2/pull/13624) 2024-10-28: DPL Analysis: Staged declaration macro by [@aalkin](https://github.com/aalkin)
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
+- [\#13635](https://github.com/AliceO2Group/AliceO2/pull/13635) 2024-10-29: DebugGUI: assign proper log level to ROOT log messages printed in the GUI by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13599](https://github.com/AliceO2Group/AliceO2/pull/13599) 2024-10-18: MID: skip digits produced before the beginning of the TF by [@dstocco](https://github.com/dstocco)
