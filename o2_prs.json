@@ -4046,6 +4046,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix in fetching of AlpideParam in STFDecoder",
+            "number": 13630,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[WIP] Implemented flag for .root kinematics input",
             "number": 13571,
             "author": {
@@ -4065,27 +4085,22 @@
                 },
                 {
                   "node": {
-                    "path": "run/o2sim_parallel.cxx"
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix in fetching of AlpideParam in STFDecoder",
-            "number": 13630,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
                   }
                 }
               ]
