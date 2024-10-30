@@ -3790,26 +3790,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-29T22:02:15Z",
-            "title": "MID: extract digits from selected BC ranges",
-            "number": 13631,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/DigitReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-29T22:04:19Z",
             "title": "DebugGUI: assign proper log level to ROOT log messages printed in the GUI",
             "number": 13635,
@@ -4114,6 +4094,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-29T22:02:15Z",
+            "title": "MID: extract digits from selected BC ranges",
+            "number": 13631,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/DigitReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine",
@@ -4123,6 +4123,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
                 {
                   "node": {
                     "path": "Generators/include/Generators/GeneratorFromFile.h"
@@ -4135,7 +4140,37 @@
                 },
                 {
                   "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybridParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
                   }
                 }
               ]
