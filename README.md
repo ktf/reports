@@ -9,6 +9,7 @@
 - [\#13574](https://github.com/AliceO2Group/AliceO2/pull/13574) 2024-10-09: GPU: Switch integer types to <cstdint> types + some related / minor changes by [@davidrohr](https://github.com/davidrohr)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 - [\#13585](https://github.com/AliceO2Group/AliceO2/pull/13585) 2024-10-11: Add Ds* (433) to physics constants by [@fcatalan92](https://github.com/fcatalan92)
+- [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13570](https://github.com/AliceO2Group/AliceO2/pull/13570) 2024-10-09: ctpdev: macro for creating CTP BK counters entry from CCDB. by [@lietava](https://github.com/lietava)
@@ -16,6 +17,7 @@
 - [\#13584](https://github.com/AliceO2Group/AliceO2/pull/13584) 2024-10-11: Ship GRPECS as part of AggregatedRunInfo; cleanup by [@sawenzel](https://github.com/sawenzel)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#13590](https://github.com/AliceO2Group/AliceO2/pull/13590) 2024-10-15: Custom orbit shifts for runs <=LHC22m by [@ekryshen](https://github.com/ekryshen)
+- [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13604](https://github.com/AliceO2Group/AliceO2/pull/13604) 2024-10-19: calculate run 1st orbit only when not available from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
