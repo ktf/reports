@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-26T08:19:55Z",
-            "title": "[PWGUD] Fixing UPCCandProducer problem after upcflag introduction + personal task modification",
-            "number": 8155,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcTauCentralBarrelRL.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-26T09:39:55Z",
             "title": "PWGLF: Add occupancy in the reso collision table",
             "number": 8156,
@@ -2694,31 +2669,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGCF: IdentifiedBF added PID for MC particles",
-            "number": 8236,
-            "author": {
-              "login": "bghanley1995"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGHF: add single track variables to D2H reduced data formats",
             "number": 8223,
             "author": {
@@ -2769,26 +2719,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] fixing track table for DStrack",
-            "number": 8237,
-            "author": {
-              "login": "cterrevo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[FT0] add bypass of FT0 in MC",
             "number": 7784,
             "author": {
@@ -2799,31 +2729,6 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/ft0CorrectedTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGLF: adding centrality axis in amplitude histograms",
-            "number": 8189,
-            "author": {
-              "login": "prottayCMT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
                   }
                 }
               ]
@@ -2857,6 +2762,51 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "PWGLF: adding centrality axis in amplitude histograms",
+            "number": 8189,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] fixing track table for DStrack",
+            "number": 8237,
+            "author": {
+              "login": "cterrevo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "PWG JE: jet v2 analysis",
@@ -2874,6 +2824,56 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetrhov2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: added sumw2 in TProfiles and corr with cent axis",
+            "number": 8238,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGCF: IdentifiedBF added PID for MC particles",
+            "number": 8236,
+            "author": {
+              "login": "bghanley1995"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.h"
                   }
                 }
               ]
