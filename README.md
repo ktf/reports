@@ -67,6 +67,7 @@
 - [\#13624](https://github.com/AliceO2Group/AliceO2/pull/13624) 2024-10-28: DPL Analysis: Staged declaration macro by [@aalkin](https://github.com/aalkin)
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 - [\#13635](https://github.com/AliceO2Group/AliceO2/pull/13635) 2024-10-29: DebugGUI: assign proper log level to ROOT log messages printed in the GUI by [@ehellbar](https://github.com/ehellbar)
+- [\#13638](https://github.com/AliceO2Group/AliceO2/pull/13638) 2024-10-30: DPL: use concepts rather than SFINAE by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13599](https://github.com/AliceO2Group/AliceO2/pull/13599) 2024-10-18: MID: skip digits produced before the beginning of the TF by [@dstocco](https://github.com/dstocco)
