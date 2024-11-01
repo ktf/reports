@@ -28,7 +28,6 @@
 - [\#13558](https://github.com/AliceO2Group/AliceO2/pull/13558) 2024-10-17: adding extra margin for sync TOF dia calibs by [@noferini](https://github.com/noferini)
 - [\#13562](https://github.com/AliceO2Group/AliceO2/pull/13562) 2024-10-09: TPC digi: Cut digits arriving before timeframe/readout start by [@sawenzel](https://github.com/sawenzel)
 - [\#13565](https://github.com/AliceO2Group/AliceO2/pull/13565) 2024-10-24: [TPC-QC] Add DCAr selection to Tracks.cxx by [@makor](https://github.com/makor)
-- [\#13572](https://github.com/AliceO2Group/AliceO2/pull/13572) 2024-10-09: TOF digitizer: Ability to process events happening before timeframe s… by [@sawenzel](https://github.com/sawenzel)
 - [\#13581](https://github.com/AliceO2Group/AliceO2/pull/13581) 2024-10-10: More informaritive verbose ITS/MFT raw data fetching logging by [@shahor02](https://github.com/shahor02)
 - [\#13582](https://github.com/AliceO2Group/AliceO2/pull/13582) 2024-10-10: assure TOF code uses std::abs everywhere by [@noferini](https://github.com/noferini)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
