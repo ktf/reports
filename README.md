@@ -19,6 +19,7 @@
 - [\#13590](https://github.com/AliceO2Group/AliceO2/pull/13590) 2024-10-15: Custom orbit shifts for runs <=LHC22m by [@ekryshen](https://github.com/ekryshen)
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13604](https://github.com/AliceO2Group/AliceO2/pull/13604) 2024-10-19: calculate run 1st orbit only when not available from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - Detectors
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
@@ -50,6 +51,7 @@
 - [\#13630](https://github.com/AliceO2Group/AliceO2/pull/13630) 2024-10-29: Fix in fetching of AlpideParam in STFDecoder by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13631](https://github.com/AliceO2Group/AliceO2/pull/13631) 2024-10-29: MID: extract digits from selected BC ranges by [@dstocco](https://github.com/dstocco)
 - [\#13636](https://github.com/AliceO2Group/AliceO2/pull/13636) 2024-10-30: ITS-GPU: Port findNeighbours on GPU by [@mconcas](https://github.com/mconcas)
+- [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
@@ -78,5 +80,6 @@
 - [\#13615](https://github.com/AliceO2Group/AliceO2/pull/13615) 2024-10-21: Try to fix CI by adding MIDRaw lib to digitization by [@shahor02](https://github.com/shahor02)
 - [\#13619](https://github.com/AliceO2Group/AliceO2/pull/13619) 2024-10-22: Suppress if (ENABLE_UPGRADES) in the CMakefile by [@shahor02](https://github.com/shahor02)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
+- [\#13645](https://github.com/AliceO2Group/AliceO2/pull/13645) 2024-11-01: Allow to specify the starting orbit as a fractional value by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#13472](https://github.com/AliceO2Group/AliceO2/pull/13472) 2024-10-11: [QC-1176] added tools to QC to check whether objects is mergeable by [@justonedev1](https://github.com/justonedev1)
