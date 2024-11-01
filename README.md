@@ -52,6 +52,7 @@
 - [\#13631](https://github.com/AliceO2Group/AliceO2/pull/13631) 2024-10-29: MID: extract digits from selected BC ranges by [@dstocco](https://github.com/dstocco)
 - [\#13636](https://github.com/AliceO2Group/AliceO2/pull/13636) 2024-10-30: ITS-GPU: Port findNeighbours on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#13643](https://github.com/AliceO2Group/AliceO2/pull/13643) 2024-11-01: [EMCAL-670] EMCAL Clusterizer: change behavior for no gradient cut by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
