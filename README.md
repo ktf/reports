@@ -53,7 +53,6 @@
 - [\#13647](https://github.com/AliceO2Group/AliceO2/pull/13647) 2024-11-01:  TPC: Fixing time gain calib in case of low statistics by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
-- [\#13573](https://github.com/AliceO2Group/AliceO2/pull/13573) 2024-10-10: DPL: add helper method to retrieve and cache CCDB metadata by [@ktf](https://github.com/ktf)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
