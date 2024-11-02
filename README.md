@@ -51,6 +51,7 @@
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13643](https://github.com/AliceO2Group/AliceO2/pull/13643) 2024-11-01: [EMCAL-670] EMCAL Clusterizer: change behavior for no gradient cut by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13647](https://github.com/AliceO2Group/AliceO2/pull/13647) 2024-11-01:  TPC: Fixing time gain calib in case of low statistics by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#13650](https://github.com/AliceO2Group/AliceO2/pull/13650) 2024-11-02: Fix angular variations in derivatives calculations. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13583](https://github.com/AliceO2Group/AliceO2/pull/13583) 2024-10-10: DPL: allow customising DataProcessingStats intervals by [@ktf](https://github.com/ktf)
