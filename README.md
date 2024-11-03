@@ -70,6 +70,7 @@
 - [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
 - [\#13638](https://github.com/AliceO2Group/AliceO2/pull/13638) 2024-10-30: DPL: use concepts rather than SFINAE by [@ktf](https://github.com/ktf)
 - [\#13644](https://github.com/AliceO2Group/AliceO2/pull/13644) 2024-10-31: DPL: hide helper in an anonymous namespace by [@ktf](https://github.com/ktf)
+- [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
