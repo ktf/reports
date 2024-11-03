@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-10T11:56:53Z",
-            "title": "Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit",
-            "number": 13580,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-10T12:52:07Z",
             "title": "assure TOF code uses std::abs everywhere",
             "number": 13582,
@@ -3666,6 +3646,56 @@
                 {
                   "node": {
                     "path": "doc/data/2024-11-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Library for ORT execution",
+            "number": 13522,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/ort_interface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/src/ort_interface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/test/test_onnx_interface_headers.cxx"
                   }
                 }
               ]
