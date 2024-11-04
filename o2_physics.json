@@ -1057,31 +1057,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] add D0 sign in MC truth info and reorganise MC matching code for resonances ",
-            "number": 8265,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-01T12:49:47Z",
             "title": "[PWGHF] Add Lc->pKPi correlated background information to Ds task",
@@ -2427,22 +2402,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-04T07:50:24Z",
-            "title": "[DPG,PWGDQ] adding a configurable, maximum Pt for applying downsampling factor  p…",
-            "number": 8268,
+            "mergedAt": "2024-11-04T07:55:54Z",
+            "title": "[PWGHF] Fixing the decay length calculation using the KFParticle in the Omegac0 reconstruction.",
+            "number": 8284,
             "author": {
-              "login": "amaringarcia"
+              "login": "Yunfan-Liu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/v0selector.cxx"
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
                   }
                 }
               ]
@@ -2472,17 +2442,47 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-04T07:55:54Z",
-            "title": "[PWGHF] Fixing the decay length calculation using the KFParticle in the Omegac0 reconstruction.",
-            "number": 8284,
+            "mergedAt": "2024-11-04T07:59:45Z",
+            "title": "[PWGHF] add D0 sign in MC truth info and reorganise MC matching code for resonances ",
+            "number": 8265,
             "author": {
-              "login": "Yunfan-Liu"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-04T07:50:24Z",
+            "title": "[DPG,PWGDQ] adding a configurable, maximum Pt for applying downsampling factor  p…",
+            "number": 8268,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/v0selector.cxx"
                   }
                 }
               ]
