@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-10T12:52:07Z",
-            "title": "assure TOF code uses std::abs everywhere",
-            "number": 13582,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TOFEventTimeChecker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/EventTimeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Geo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Utils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/CalibTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/TOFChannelCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/prototyping/findTOFclusterFromLabel.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/CosmicProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/checkTOFMatching.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/compareTOFClusters.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-10T18:13:43Z",
             "title": "DPL: allow customising DataProcessingStats intervals",
             "number": 13583,
@@ -3696,6 +3621,31 @@
                 {
                   "node": {
                     "path": "run/standalone_eventgen.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve MID reject list building",
+            "number": 13651,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/macros/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/macros/build_rejectlist.C"
                   }
                 }
               ]
