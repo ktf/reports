@@ -7,7 +7,6 @@
 - [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Common
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
-- [\#13585](https://github.com/AliceO2Group/AliceO2/pull/13585) 2024-10-11: Add Ds* (433) to physics constants by [@fcatalan92](https://github.com/fcatalan92)
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - DataFormats
