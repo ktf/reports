@@ -50,7 +50,10 @@
 - [\#13643](https://github.com/AliceO2Group/AliceO2/pull/13643) 2024-11-01: [EMCAL-670] EMCAL Clusterizer: change behavior for no gradient cut by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13647](https://github.com/AliceO2Group/AliceO2/pull/13647) 2024-11-01:  TPC: Fixing time gain calib in case of low statistics by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13648](https://github.com/AliceO2Group/AliceO2/pull/13648) 2024-11-03: Fix in the cluster stat. extraction + clusters sigmas by [@shahor02](https://github.com/shahor02)
+- [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 - [\#13650](https://github.com/AliceO2Group/AliceO2/pull/13650) 2024-11-02: Fix angular variations in derivatives calculations. by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - EventVisualisation
+- [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13528](https://github.com/AliceO2Group/AliceO2/pull/13528) 2024-10-08: [DM] Add expected time computation in Framework by [@njacazio](https://github.com/njacazio)
 - [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
