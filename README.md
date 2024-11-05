@@ -16,6 +16,7 @@
 - [\#13590](https://github.com/AliceO2Group/AliceO2/pull/13590) 2024-10-15: Custom orbit shifts for runs <=LHC22m by [@ekryshen](https://github.com/ekryshen)
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13604](https://github.com/AliceO2Group/AliceO2/pull/13604) 2024-10-19: calculate run 1st orbit only when not available from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - Detectors
@@ -36,6 +37,7 @@
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
 - [\#13618](https://github.com/AliceO2Group/AliceO2/pull/13618) 2024-10-28: [O2-5395, EMCAL-501] Implement correct handling of events preceding timeframe by [@jokonig](https://github.com/jokonig)
 - [\#13620](https://github.com/AliceO2Group/AliceO2/pull/13620) 2024-10-23: Optionally extract TPC clusters MC truth resolution by [@shahor02](https://github.com/shahor02)
+- [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13622](https://github.com/AliceO2Group/AliceO2/pull/13622) 2024-10-26: Fix IRFrames selection in ITS/MFT digits reader by [@shahor02](https://github.com/shahor02)
 - [\#13625](https://github.com/AliceO2Group/AliceO2/pull/13625) 2024-10-28: [MCH] extract digits from selected BC ranges if any by [@pillot](https://github.com/pillot)
 - [\#13626](https://github.com/AliceO2Group/AliceO2/pull/13626) 2024-10-28: [MCH] add option to change digit labels data description by [@pillot](https://github.com/pillot)
