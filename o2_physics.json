@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-31T18:28:37Z",
-            "title": "[DPG] Fix photon charge",
-            "number": 8235,
-            "author": {
-              "login": "gvolpe79"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/analysisHMPID.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/qaHMPID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-31T19:45:51Z",
             "title": "DPL Analysis: rename `aod::Hashes` for upcoming O2 update",
             "number": 8231,
@@ -2433,6 +2408,36 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack3DMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add deuteron TOF PID and TPC signal to hypertriton 3-body KF candidate output table",
+            "number": 8315,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
                   }
                 }
               ]
