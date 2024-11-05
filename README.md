@@ -18,6 +18,7 @@
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
+- [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 - [\#13163](https://github.com/AliceO2Group/AliceO2/pull/13163) 2024-10-11: add ITS sensors to parallel world by [@maciacco](https://github.com/maciacco)
 - [\#13227](https://github.com/AliceO2Group/AliceO2/pull/13227) 2024-10-17: [EMCAL-539,EMCAL-696,EMCAL-697] FIT-CTP-EMCAL trigger simulation by [@siragoni](https://github.com/siragoni)
@@ -51,6 +52,7 @@
 - [\#13648](https://github.com/AliceO2Group/AliceO2/pull/13648) 2024-11-03: Fix in the cluster stat. extraction + clusters sigmas by [@shahor02](https://github.com/shahor02)
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 - [\#13650](https://github.com/AliceO2Group/AliceO2/pull/13650) 2024-11-02: Fix angular variations in derivatives calculations. by [@shahor02](https://github.com/shahor02)
+- [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
