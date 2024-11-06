@@ -8,7 +8,6 @@
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - DataFormats
-- [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#13590](https://github.com/AliceO2Group/AliceO2/pull/13590) 2024-10-15: Custom orbit shifts for runs <=LHC22m by [@ekryshen](https://github.com/ekryshen)
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13604](https://github.com/AliceO2Group/AliceO2/pull/13604) 2024-10-19: calculate run 1st orbit only when not available from CCDB by [@shahor02](https://github.com/shahor02)
@@ -21,7 +20,6 @@
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13558](https://github.com/AliceO2Group/AliceO2/pull/13558) 2024-10-17: adding extra margin for sync TOF dia calibs by [@noferini](https://github.com/noferini)
 - [\#13565](https://github.com/AliceO2Group/AliceO2/pull/13565) 2024-10-24: [TPC-QC] Add DCAr selection to Tracks.cxx by [@makor](https://github.com/makor)
-- [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#13589](https://github.com/AliceO2Group/AliceO2/pull/13589) 2024-10-14: [MCH] skip digits produced before the beginning of the TF by [@pillot](https://github.com/pillot)
 - [\#13594](https://github.com/AliceO2Group/AliceO2/pull/13594) 2024-10-17: TPC: adding check for SACs at endOfStream by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13596](https://github.com/AliceO2Group/AliceO2/pull/13596) 2024-10-15: ITSGPU: Make threads and blocks configurable from CLI by [@mconcas](https://github.com/mconcas)
@@ -52,7 +50,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#13586](https://github.com/AliceO2Group/AliceO2/pull/13586) 2024-10-12: AggregatedRunInfo can be requested via GRPGeomHelper + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
 - [\#13592](https://github.com/AliceO2Group/AliceO2/pull/13592) 2024-10-14: Modify CCDB headers check to account for CCDBSerialized<> access of non-CCDB objects by [@shahor02](https://github.com/shahor02)
 - [\#13598](https://github.com/AliceO2Group/AliceO2/pull/13598) 2024-10-17: DPL: speedup homogeneous_apply_ref by [@ktf](https://github.com/ktf)
