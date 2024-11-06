@@ -47,6 +47,7 @@
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 - [\#13650](https://github.com/AliceO2Group/AliceO2/pull/13650) 2024-11-02: Fix angular variations in derivatives calculations. by [@shahor02](https://github.com/shahor02)
 - [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
+- [\#13662](https://github.com/AliceO2Group/AliceO2/pull/13662) 2024-11-06: Connect CTP digit-reader to MCStudy if TPC corrections asked by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
