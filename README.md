@@ -53,6 +53,7 @@
 - [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13661](https://github.com/AliceO2Group/AliceO2/pull/13661) 2024-11-07: ITSMFT: Protect CCDB querying in case we don't need IRFrames by [@mconcas](https://github.com/mconcas)
 - [\#13662](https://github.com/AliceO2Group/AliceO2/pull/13662) 2024-11-06: Connect CTP digit-reader to MCStudy if TPC corrections asked by [@shahor02](https://github.com/shahor02)
+- [\#13666](https://github.com/AliceO2Group/AliceO2/pull/13666) 2024-11-07: Add TPC-only DCA to trackStudy output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
