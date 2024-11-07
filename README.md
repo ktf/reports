@@ -63,6 +63,7 @@
 - [\#13635](https://github.com/AliceO2Group/AliceO2/pull/13635) 2024-10-29: DebugGUI: assign proper log level to ROOT log messages printed in the GUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
 - [\#13638](https://github.com/AliceO2Group/AliceO2/pull/13638) 2024-10-30: DPL: use concepts rather than SFINAE by [@ktf](https://github.com/ktf)
+- [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
 - [\#13644](https://github.com/AliceO2Group/AliceO2/pull/13644) 2024-10-31: DPL: hide helper in an anonymous namespace by [@ktf](https://github.com/ktf)
 - [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
 - [\#13654](https://github.com/AliceO2Group/AliceO2/pull/13654) 2024-11-06: DPL: quit on error by default in no-batch mode without GUI window by [@ehellbar](https://github.com/ehellbar)
