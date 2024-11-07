@@ -21,7 +21,6 @@
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13558](https://github.com/AliceO2Group/AliceO2/pull/13558) 2024-10-17: adding extra margin for sync TOF dia calibs by [@noferini](https://github.com/noferini)
 - [\#13565](https://github.com/AliceO2Group/AliceO2/pull/13565) 2024-10-24: [TPC-QC] Add DCAr selection to Tracks.cxx by [@makor](https://github.com/makor)
-- [\#13589](https://github.com/AliceO2Group/AliceO2/pull/13589) 2024-10-14: [MCH] skip digits produced before the beginning of the TF by [@pillot](https://github.com/pillot)
 - [\#13594](https://github.com/AliceO2Group/AliceO2/pull/13594) 2024-10-17: TPC: adding check for SACs at endOfStream by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
 - [\#13601](https://github.com/AliceO2Group/AliceO2/pull/13601) 2024-10-17: Update LZEROElectronics.h by [@sawenzel](https://github.com/sawenzel)
