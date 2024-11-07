@@ -13,6 +13,7 @@
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 ## Recent developments in O2 - DataFormats
+- [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13590](https://github.com/AliceO2Group/AliceO2/pull/13590) 2024-10-15: Custom orbit shifts for runs <=LHC22m by [@ekryshen](https://github.com/ekryshen)
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13604](https://github.com/AliceO2Group/AliceO2/pull/13604) 2024-10-19: calculate run 1st orbit only when not available from CCDB by [@shahor02](https://github.com/shahor02)
@@ -79,6 +80,7 @@
 ## Recent developments in O2 - Generators
 - [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
+- [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13599](https://github.com/AliceO2Group/AliceO2/pull/13599) 2024-10-18: MID: skip digits produced before the beginning of the TF by [@dstocco](https://github.com/dstocco)
 - [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
 - [\#13615](https://github.com/AliceO2Group/AliceO2/pull/13615) 2024-10-21: Try to fix CI by adding MIDRaw lib to digitization by [@shahor02](https://github.com/shahor02)
