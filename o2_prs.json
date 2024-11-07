@@ -5,146 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-15T20:52:18Z",
-            "title": "ITSGPU: Make threads and blocks configurable from CLI",
-            "number": 13596,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TimeFrameGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexerTraitsGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexingKernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingConfigParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Vertexer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL GUI: allow GUI to move between different states",
-            "number": 11793,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DebugGUI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WSDriverClient.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDeviceInspector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDeviceInspector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/Plugin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-14T09:04:23Z",
             "title": "[MCH] skip digits produced before the beginning of the TF",
             "number": 13589,
@@ -3496,6 +3356,251 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: read metadata from parent files",
+            "number": 13665,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Table definition rewrite",
+            "number": 13664,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/ConstMCTruthContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoAHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/BinningPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupSlicer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StringHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/IndexBuilderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/verifyAODFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Expressions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_IndexBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Root2ArrowTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TableSpawner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TreeToTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Pack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Traits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/test/test_FunctionalHelpers.cxx"
                   }
                 }
               ]
