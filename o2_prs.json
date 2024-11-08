@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-17T14:53:20Z",
-            "title": "TPC: adding check for SACs at endOfStream",
-            "number": 13594,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFourierTransformAggregatorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-17T15:42:13Z",
             "title": "Update LZEROElectronics.h",
             "number": 13601,
@@ -3616,6 +3596,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: account for aod-parent-access-level == 0",
+            "number": 13670,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]

@@ -25,7 +25,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13565](https://github.com/AliceO2Group/AliceO2/pull/13565) 2024-10-24: [TPC-QC] Add DCAr selection to Tracks.cxx by [@makor](https://github.com/makor)
-- [\#13594](https://github.com/AliceO2Group/AliceO2/pull/13594) 2024-10-17: TPC: adding check for SACs at endOfStream by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
 - [\#13601](https://github.com/AliceO2Group/AliceO2/pull/13601) 2024-10-17: Update LZEROElectronics.h by [@sawenzel](https://github.com/sawenzel)
 - [\#13603](https://github.com/AliceO2Group/AliceO2/pull/13603) 2024-10-18: TRD digi / O2-5395: Trivial collision cut by [@sawenzel](https://github.com/sawenzel)
