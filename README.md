@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
 - [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
 - [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
 - [\#13659](https://github.com/AliceO2Group/AliceO2/pull/13659) 2024-11-07: DPL: allow configuring compression for the AOD writer by [@ktf](https://github.com/ktf)
@@ -55,7 +54,6 @@
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
-- [\#13605](https://github.com/AliceO2Group/AliceO2/pull/13605) 2024-10-18: DPL analysis: hide internal symbols by [@ktf](https://github.com/ktf)
 - [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
 - [\#13609](https://github.com/AliceO2Group/AliceO2/pull/13609) 2024-10-18: DPL: move byteswapping helpers to Endian.h by [@ktf](https://github.com/ktf)
 - [\#13611](https://github.com/AliceO2Group/AliceO2/pull/13611) 2024-10-28: DPL: finally use concepts to separate the make method by [@ktf](https://github.com/ktf)
