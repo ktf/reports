@@ -75,6 +75,7 @@
 - [\#13668](https://github.com/AliceO2Group/AliceO2/pull/13668) 2024-11-08: DPL Analysis: fix missing connection to the grid by [@ktf](https://github.com/ktf)
 - [\#13670](https://github.com/AliceO2Group/AliceO2/pull/13670) 2024-11-08: DPL: account for aod-parent-access-level == 0 by [@ktf](https://github.com/ktf)
 - [\#13675](https://github.com/AliceO2Group/AliceO2/pull/13675) 2024-11-09: DPL: introduce FragmentToBatch by [@ktf](https://github.com/ktf)
+- [\#13677](https://github.com/AliceO2Group/AliceO2/pull/13677) 2024-11-10: DPL: enable the plugin for any parent option by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
