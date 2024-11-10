@@ -49,6 +49,7 @@
 - [\#13662](https://github.com/AliceO2Group/AliceO2/pull/13662) 2024-11-06: Connect CTP digit-reader to MCStudy if TPC corrections asked by [@shahor02](https://github.com/shahor02)
 - [\#13666](https://github.com/AliceO2Group/AliceO2/pull/13666) 2024-11-07: Add TPC-only DCA to trackStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13673](https://github.com/AliceO2Group/AliceO2/pull/13673) 2024-11-08: GPU: Fix some things around obtaining maximum TPC time bin in TF by [@davidrohr](https://github.com/davidrohr)
+- [\#13676](https://github.com/AliceO2Group/AliceO2/pull/13676) 2024-11-10: SVStudy: Add mc mother pdg code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
