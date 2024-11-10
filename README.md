@@ -25,7 +25,6 @@
 - [\#13552](https://github.com/AliceO2Group/AliceO2/pull/13552) 2024-10-21: Adding plots vs TPC occupancy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13565](https://github.com/AliceO2Group/AliceO2/pull/13565) 2024-10-24: [TPC-QC] Add DCAr selection to Tracks.cxx by [@makor](https://github.com/makor)
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
-- [\#13603](https://github.com/AliceO2Group/AliceO2/pull/13603) 2024-10-18: TRD digi / O2-5395: Trivial collision cut by [@sawenzel](https://github.com/sawenzel)
 - [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
 - [\#13613](https://github.com/AliceO2Group/AliceO2/pull/13613) 2024-10-19: Fix ITS L2G matrix generation by [@shahor02](https://github.com/shahor02)
 - [\#13618](https://github.com/AliceO2Group/AliceO2/pull/13618) 2024-10-28: [O2-5395, EMCAL-501] Implement correct handling of events preceding timeframe by [@jokonig](https://github.com/jokonig)
