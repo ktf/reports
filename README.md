@@ -54,7 +54,6 @@
 ## Recent developments in O2 - Framework
 - [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
 - [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
-- [\#13609](https://github.com/AliceO2Group/AliceO2/pull/13609) 2024-10-18: DPL: move byteswapping helpers to Endian.h by [@ktf](https://github.com/ktf)
 - [\#13611](https://github.com/AliceO2Group/AliceO2/pull/13611) 2024-10-28: DPL: finally use concepts to separate the make method by [@ktf](https://github.com/ktf)
 - [\#13614](https://github.com/AliceO2Group/AliceO2/pull/13614) 2024-10-20: DPL: use constraint rather than static_assert by [@ktf](https://github.com/ktf)
 - [\#13624](https://github.com/AliceO2Group/AliceO2/pull/13624) 2024-10-28: DPL Analysis: Staged declaration macro by [@aalkin](https://github.com/aalkin)
