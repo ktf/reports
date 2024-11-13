@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-09T22:25:27Z",
-            "title": "[PWGLF] Fix processRecMC stops after certain iterations",
-            "number": 8364,
-            "author": {
-              "login": "imsurajprasad786"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdak0sflattenicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-09T23:47:24Z",
             "title": "[DPG] Cleanup and update of rofQA and detectorQA tasks",
             "number": 8363,
@@ -1654,26 +1634,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add efficiency corrections",
-            "number": 8399,
-            "author": {
-              "login": "ilikmeta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowGFWPbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-13T01:19:35Z",
             "title": "[PWGHF] Add generated B0 information to taskMcValidation",
@@ -2761,6 +2721,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Add PID info of daughter tracks in the table",
+            "number": 8437,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/LFResonanceInitializer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add efficiency corrections",
+            "number": 8399,
+            "author": {
+              "login": "ilikmeta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/FlowGFWPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] AngularCorrelationsInJets.cxx: Split nsigma histograms into matter/antimatter",
             "number": 8435,
             "author": {
@@ -2781,21 +2786,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add PID info of daughter tracks in the table",
-            "number": 8437,
+            "title": "[PWGJE] Add getParticleOrigin and modified init problem",
+            "number": 8438,
             "author": {
-              "login": "BongHwi"
+              "login": "hanseopark"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/LFResonanceInitializer.cxx"
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
                   }
                 }
               ]
