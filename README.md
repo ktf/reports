@@ -51,6 +51,8 @@
 - [\#13673](https://github.com/AliceO2Group/AliceO2/pull/13673) 2024-11-08: GPU: Fix some things around obtaining maximum TPC time bin in TF by [@davidrohr](https://github.com/davidrohr)
 - [\#13676](https://github.com/AliceO2Group/AliceO2/pull/13676) 2024-11-10: SVStudy: Add mc mother pdg code by [@f3sch](https://github.com/f3sch)
 - [\#13680](https://github.com/AliceO2Group/AliceO2/pull/13680) 2024-11-12: Fix acknowledgment of -h option by HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
+- [\#13686](https://github.com/AliceO2Group/AliceO2/pull/13686) 2024-11-13: TrackStudy stores TPC lowest cluster position by [@shahor02](https://github.com/shahor02)
+- [\#13687](https://github.com/AliceO2Group/AliceO2/pull/13687) 2024-11-13: Protect LT-int.calculation in TRD refit from bad TPC correction by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
