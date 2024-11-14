@@ -10,6 +10,7 @@
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
 - [\#13668](https://github.com/AliceO2Group/AliceO2/pull/13668) 2024-11-08: DPL Analysis: fix missing connection to the grid by [@ktf](https://github.com/ktf)
 - [\#13670](https://github.com/AliceO2Group/AliceO2/pull/13670) 2024-11-08: DPL: account for aod-parent-access-level == 0 by [@ktf](https://github.com/ktf)
+- [\#13685](https://github.com/AliceO2Group/AliceO2/pull/13685) 2024-11-14: DPL: move writers to plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
@@ -78,6 +79,7 @@
 - [\#13670](https://github.com/AliceO2Group/AliceO2/pull/13670) 2024-11-08: DPL: account for aod-parent-access-level == 0 by [@ktf](https://github.com/ktf)
 - [\#13675](https://github.com/AliceO2Group/AliceO2/pull/13675) 2024-11-09: DPL: introduce FragmentToBatch by [@ktf](https://github.com/ktf)
 - [\#13677](https://github.com/AliceO2Group/AliceO2/pull/13677) 2024-11-10: DPL: enable the plugin for any parent option by [@ktf](https://github.com/ktf)
+- [\#13685](https://github.com/AliceO2Group/AliceO2/pull/13685) 2024-11-14: DPL: move writers to plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
