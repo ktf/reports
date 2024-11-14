@@ -83,7 +83,6 @@
 ## Recent developments in O2 - Steer
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
-- [\#13619](https://github.com/AliceO2Group/AliceO2/pull/13619) 2024-10-22: Suppress if (ENABLE_UPGRADES) in the CMakefile by [@shahor02](https://github.com/shahor02)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13645](https://github.com/AliceO2Group/AliceO2/pull/13645) 2024-11-01: Allow to specify the starting orbit as a fractional value by [@sawenzel](https://github.com/sawenzel)
 - [\#13674](https://github.com/AliceO2Group/AliceO2/pull/13674) 2024-11-11: Digicontext: Several improvements by [@sawenzel](https://github.com/sawenzel)
