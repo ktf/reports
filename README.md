@@ -25,6 +25,8 @@
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13674](https://github.com/AliceO2Group/AliceO2/pull/13674) 2024-11-11: Digicontext: Several improvements by [@sawenzel](https://github.com/sawenzel)
+- [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
+- [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
 - [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
@@ -54,6 +56,7 @@
 - [\#13686](https://github.com/AliceO2Group/AliceO2/pull/13686) 2024-11-13: TrackStudy stores TPC lowest cluster position by [@shahor02](https://github.com/shahor02)
 - [\#13687](https://github.com/AliceO2Group/AliceO2/pull/13687) 2024-11-13: Protect LT-int.calculation in TRD refit from bad TPC correction by [@shahor02](https://github.com/shahor02)
 - [\#13690](https://github.com/AliceO2Group/AliceO2/pull/13690) 2024-11-14: ITSGPU: disable linter for false positive in CUB calls by [@mconcas](https://github.com/mconcas)
+- [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -89,3 +92,4 @@
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13645](https://github.com/AliceO2Group/AliceO2/pull/13645) 2024-11-01: Allow to specify the starting orbit as a fractional value by [@sawenzel](https://github.com/sawenzel)
 - [\#13674](https://github.com/AliceO2Group/AliceO2/pull/13674) 2024-11-11: Digicontext: Several improvements by [@sawenzel](https://github.com/sawenzel)
+- [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
