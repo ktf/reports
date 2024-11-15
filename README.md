@@ -29,7 +29,6 @@
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
-- [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13629](https://github.com/AliceO2Group/AliceO2/pull/13629) 2024-10-28: [STFDecoder] Updating alpide parameters also when no clusterization by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13630](https://github.com/AliceO2Group/AliceO2/pull/13630) 2024-10-29: Fix in fetching of AlpideParam in STFDecoder by [@mcoquet642](https://github.com/mcoquet642)
@@ -84,7 +83,6 @@
 - [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
-- [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13645](https://github.com/AliceO2Group/AliceO2/pull/13645) 2024-11-01: Allow to specify the starting orbit as a fractional value by [@sawenzel](https://github.com/sawenzel)
 - [\#13674](https://github.com/AliceO2Group/AliceO2/pull/13674) 2024-11-11: Digicontext: Several improvements by [@sawenzel](https://github.com/sawenzel)
