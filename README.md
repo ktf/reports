@@ -60,7 +60,6 @@
 - [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
 - [\#13608](https://github.com/AliceO2Group/AliceO2/pull/13608) 2024-10-28: DPL Analysis: cleanup unused code by [@ktf](https://github.com/ktf)
 - [\#13611](https://github.com/AliceO2Group/AliceO2/pull/13611) 2024-10-28: DPL: finally use concepts to separate the make method by [@ktf](https://github.com/ktf)
-- [\#13624](https://github.com/AliceO2Group/AliceO2/pull/13624) 2024-10-28: DPL Analysis: Staged declaration macro by [@aalkin](https://github.com/aalkin)
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 - [\#13635](https://github.com/AliceO2Group/AliceO2/pull/13635) 2024-10-29: DebugGUI: assign proper log level to ROOT log messages printed in the GUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
