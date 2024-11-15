@@ -81,6 +81,7 @@
 - [\#13677](https://github.com/AliceO2Group/AliceO2/pull/13677) 2024-11-10: DPL: enable the plugin for any parent option by [@ktf](https://github.com/ktf)
 - [\#13685](https://github.com/AliceO2Group/AliceO2/pull/13685) 2024-11-14: DPL: move writers to plugin by [@ktf](https://github.com/ktf)
 - [\#13689](https://github.com/AliceO2Group/AliceO2/pull/13689) 2024-11-14: DPL: Cleanup unneeded headers by [@ktf](https://github.com/ktf)
+- [\#13694](https://github.com/AliceO2Group/AliceO2/pull/13694) 2024-11-15: DPL: Use AnalysisContext also in the case of amended topologies by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
