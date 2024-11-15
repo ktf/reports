@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] TrackQA: Add converter for _000 to _001",
-            "number": 8404,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/trackQAConverter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] piHe3 analysis",
@@ -2324,31 +2299,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] feat: Add PDG code of ITS track to non-prompt cascade tables",
-            "number": 8429,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-14T18:28:35Z",
             "title": "[PWGUD] Fix compilation warnings",
@@ -2651,6 +2601,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Add new task for MFT Pb-Pb",
+            "number": 8425,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta-mft-pbpb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] AngularCorrelationsInJets.cxx: split nsigma into matter/antimatter",
             "number": 8451,
             "author": {
@@ -2671,21 +2646,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add new task for MFT Pb-Pb",
-            "number": 8425,
+            "title": "[PWGLF] feat: Add PDG code of ITS track to non-prompt cascade tables",
+            "number": 8429,
             "author": {
-              "login": "gbencedi"
+              "login": "mpuccio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGMM/Mult/Tasks/CMakeLists.txt"
+                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGMM/Mult/Tasks/dndeta-mft-pbpb.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] v0ptinvmassplots task included memory/vector/string as requested by Megalinter.",
+            "number": 8305,
+            "author": {
+              "login": "Astronica-Software"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0ptinvmassplots.cxx"
                   }
                 }
               ]
