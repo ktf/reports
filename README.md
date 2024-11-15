@@ -31,7 +31,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
-- [\#13629](https://github.com/AliceO2Group/AliceO2/pull/13629) 2024-10-28: [STFDecoder] Updating alpide parameters also when no clusterization by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13630](https://github.com/AliceO2Group/AliceO2/pull/13630) 2024-10-29: Fix in fetching of AlpideParam in STFDecoder by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13631](https://github.com/AliceO2Group/AliceO2/pull/13631) 2024-10-29: MID: extract digits from selected BC ranges by [@dstocco](https://github.com/dstocco)
 - [\#13636](https://github.com/AliceO2Group/AliceO2/pull/13636) 2024-10-30: ITS-GPU: Port findNeighbours on GPU by [@mconcas](https://github.com/mconcas)

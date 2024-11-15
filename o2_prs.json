@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-10-28T17:35:53Z",
-            "title": "[STFDecoder] Updating alpide parameters also when no clusterization",
-            "number": 13629,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Remove unneeded pack_to_tuple_t helper",
@@ -3956,6 +3936,41 @@
                 {
                   "node": {
                     "path": "doc/data/2024-11-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Limit TFs extraxted from CTF file with --max-tf-per-file CTF-reader N",
+            "number": 13702,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/include/CTFWorkflow/CTFReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/ctf-reader-workflow.cxx"
                   }
                 }
               ]
