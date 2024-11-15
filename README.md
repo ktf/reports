@@ -31,7 +31,6 @@
 - [\#13600](https://github.com/AliceO2Group/AliceO2/pull/13600) 2024-10-29: Adding ITS Efficiency study by [@atriolo](https://github.com/atriolo)
 - [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
-- [\#13627](https://github.com/AliceO2Group/AliceO2/pull/13627) 2024-10-28: Add check for V0s  prongs binding on top of reco status, fix in TPC MC cl.resoluion extraction by [@shahor02](https://github.com/shahor02)
 - [\#13629](https://github.com/AliceO2Group/AliceO2/pull/13629) 2024-10-28: [STFDecoder] Updating alpide parameters also when no clusterization by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13630](https://github.com/AliceO2Group/AliceO2/pull/13630) 2024-10-29: Fix in fetching of AlpideParam in STFDecoder by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13631](https://github.com/AliceO2Group/AliceO2/pull/13631) 2024-10-29: MID: extract digits from selected BC ranges by [@dstocco](https://github.com/dstocco)
