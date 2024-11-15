@@ -53,6 +53,8 @@
 - [\#13690](https://github.com/AliceO2Group/AliceO2/pull/13690) 2024-11-14: ITSGPU: disable linter for false positive in CUB calls by [@mconcas](https://github.com/mconcas)
 - [\#13691](https://github.com/AliceO2Group/AliceO2/pull/13691) 2024-11-15: TPC: add check for empty data when receiving IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
+- [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
+- [\#13702](https://github.com/AliceO2Group/AliceO2/pull/13702) 2024-11-15: Limit TFs extraxted from CTF file with --max-tf-per-file CTF-reader N by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
