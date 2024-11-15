@@ -32,7 +32,6 @@
 - [\#13612](https://github.com/AliceO2Group/AliceO2/pull/13612) 2024-10-28: O2-5395: Trivial collision cut for some digitizers by [@sawenzel](https://github.com/sawenzel)
 - [\#13618](https://github.com/AliceO2Group/AliceO2/pull/13618) 2024-10-28: [O2-5395, EMCAL-501] Implement correct handling of events preceding timeframe by [@jokonig](https://github.com/jokonig)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
-- [\#13625](https://github.com/AliceO2Group/AliceO2/pull/13625) 2024-10-28: [MCH] extract digits from selected BC ranges if any by [@pillot](https://github.com/pillot)
 - [\#13626](https://github.com/AliceO2Group/AliceO2/pull/13626) 2024-10-28: [MCH] add option to change digit labels data description by [@pillot](https://github.com/pillot)
 - [\#13627](https://github.com/AliceO2Group/AliceO2/pull/13627) 2024-10-28: Add check for V0s  prongs binding on top of reco status, fix in TPC MC cl.resoluion extraction by [@shahor02](https://github.com/shahor02)
 - [\#13629](https://github.com/AliceO2Group/AliceO2/pull/13629) 2024-10-28: [STFDecoder] Updating alpide parameters also when no clusterization by [@mcoquet642](https://github.com/mcoquet642)
