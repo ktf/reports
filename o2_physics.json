@@ -831,26 +831,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add possibility of saving z equalized multiplicities in Ds task",
-            "number": 8473,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add task for correlating multiplicity with generated dN/deta",
             "number": 8474,
             "author": {
@@ -931,26 +911,6 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] choose the correct way for gen. particles loop and filling",
-            "number": 8477,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
                   }
                 }
               ]
@@ -1637,26 +1597,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] include number of contributors histos in correlatorDMesonPair.cxx",
-            "number": 8452,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
                   }
                 }
               ]
@@ -2432,26 +2372,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] fix the bug of mix-event setting and complete the track QA plots",
-            "number": 8476,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM/Dilepton] update MC tasks",
             "number": 8496,
             "author": {
@@ -2557,16 +2477,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] add path for findable cascades with KF",
-            "number": 8500,
+            "title": "[PWGCF] removed obsolete flag + few minor fixes",
+            "number": 8495,
             "author": {
-              "login": "ddobrigk"
+              "login": "abilandz"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadebuilder.cxx"
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Configurables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-DataMembers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Enums.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-MemberFunctions.h"
                   }
                 }
               ]
@@ -2607,31 +2542,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] removed obsolete flag + few minor fixes",
-            "number": 8495,
+            "title": "[PWGLF] add path for findable cascades with KF",
+            "number": 8500,
             "author": {
-              "login": "abilandz"
+              "login": "ddobrigk"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Configurables.h"
+                    "path": "PWGLF/TableProducer/Strangeness/cascadebuilder.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-17T16:18:14Z",
+            "title": "[PWGHF] Add possibility of saving z equalized multiplicities in Ds task",
+            "number": 8473,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-DataMembers.h"
+                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] include number of contributors histos in correlatorDMesonPair.cxx",
+            "number": 8452,
+            "author": {
+              "login": "atavirag"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Enums.h"
+                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] choose the correct way for gen. particles loop and filling",
+            "number": 8477,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-MemberFunctions.h"
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] fix the bug of mix-event setting and complete the track QA plots",
+            "number": 8476,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
                   }
                 }
               ]
