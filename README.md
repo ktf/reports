@@ -18,6 +18,7 @@
 - [\#13678](https://github.com/AliceO2Group/AliceO2/pull/13678) 2024-11-14: GPU: Some compilation fixes without ROOT headers by [@davidrohr](https://github.com/davidrohr)
 - [\#13689](https://github.com/AliceO2Group/AliceO2/pull/13689) 2024-11-14: DPL: Cleanup unneeded headers by [@ktf](https://github.com/ktf)
 - [\#13704](https://github.com/AliceO2Group/AliceO2/pull/13704) 2024-11-16: GPU OpenCL: Fixes and workaround for undefined symbols that make the clang SPIRV code actually link correctly by [@davidrohr](https://github.com/davidrohr)
+- [\#13705](https://github.com/AliceO2Group/AliceO2/pull/13705) 2024-11-18: GPU: Several unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13602](https://github.com/AliceO2Group/AliceO2/pull/13602) 2024-10-30: Add SMatrixGPU compatibility to trackParCov by [@mconcas](https://github.com/mconcas)
@@ -54,6 +55,7 @@
 - [\#13690](https://github.com/AliceO2Group/AliceO2/pull/13690) 2024-11-14: ITSGPU: disable linter for false positive in CUB calls by [@mconcas](https://github.com/mconcas)
 - [\#13691](https://github.com/AliceO2Group/AliceO2/pull/13691) 2024-11-15: TPC: add check for empty data when receiving IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
+- [\#13696](https://github.com/AliceO2Group/AliceO2/pull/13696) 2024-11-18: TPC GPU Decoding code duplication removal by [@cima22](https://github.com/cima22)
 - [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
 - [\#13702](https://github.com/AliceO2Group/AliceO2/pull/13702) 2024-11-15: Limit TFs extraxted from CTF file with --max-tf-per-file CTF-reader N by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
