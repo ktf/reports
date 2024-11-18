@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-14T17:01:10Z",
-            "title": "[Trigger,PWGHF] update produceSample task",
-            "number": 8397,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterPrepareMLSamples.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-01T07:53:37Z",
             "title": "[Trigger] EventFiltering: Update trigger QA of BCId compatibility",
             "number": 8243,
@@ -1272,31 +1247,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Adding track and ft0 occupancy in tine range variables to deriv…",
-            "number": 8422,
-            "author": {
-              "login": "amaringarcia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM/Dilepton] update MC tasks",
             "number": 8496,
             "author": {
@@ -2184,36 +2134,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] Fix compilation warnings",
-            "number": 8380,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/FV0/qaFV0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-13T09:58:40Z",
             "title": "[PWGDQ] Adding Upsilon MC signals",
@@ -2606,6 +2526,81 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] add collision counter for LF cocktail task",
+            "number": 8511,
+            "author": {
+              "login": "DanielSamitz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/lmeeLFCocktail.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Adding track and ft0 occupancy in tine range variables to deriv…",
+            "number": 8422,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Fix compilation warnings",
+            "number": 8380,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/FV0/qaFV0.cxx"
                   }
                 }
               ]
