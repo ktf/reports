@@ -84,8 +84,6 @@
 - [\#13689](https://github.com/AliceO2Group/AliceO2/pull/13689) 2024-11-14: DPL: Cleanup unneeded headers by [@ktf](https://github.com/ktf)
 - [\#13694](https://github.com/AliceO2Group/AliceO2/pull/13694) 2024-11-15: DPL: Use AnalysisContext also in the case of amended topologies by [@ktf](https://github.com/ktf)
 - [\#13708](https://github.com/AliceO2Group/AliceO2/pull/13708) 2024-11-19: DPL: initialise the initial chunk length by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#13571](https://github.com/AliceO2Group/AliceO2/pull/13571) 2024-10-31: Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
