@@ -57,6 +57,7 @@
 - [\#13702](https://github.com/AliceO2Group/AliceO2/pull/13702) 2024-11-15: Limit TFs extraxted from CTF file with --max-tf-per-file CTF-reader N by [@shahor02](https://github.com/shahor02)
 - [\#13706](https://github.com/AliceO2Group/AliceO2/pull/13706) 2024-11-18: Optional ordering of objects in CCDBPopulator by [@shahor02](https://github.com/shahor02)
 - [\#13707](https://github.com/AliceO2Group/AliceO2/pull/13707) 2024-11-18: extend opt. max-tf-per-file to raw-tf reader, move it to device by [@shahor02](https://github.com/shahor02)
+- [\#13710](https://github.com/AliceO2Group/AliceO2/pull/13710) 2024-11-19: TPC: Exclude electrons created between vessels and field strips by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
