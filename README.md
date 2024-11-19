@@ -79,6 +79,7 @@
 - [\#13675](https://github.com/AliceO2Group/AliceO2/pull/13675) 2024-11-09: DPL: introduce FragmentToBatch by [@ktf](https://github.com/ktf)
 - [\#13677](https://github.com/AliceO2Group/AliceO2/pull/13677) 2024-11-10: DPL: enable the plugin for any parent option by [@ktf](https://github.com/ktf)
 - [\#13679](https://github.com/AliceO2Group/AliceO2/pull/13679) 2024-11-19: DPL Analysis: Preliminary changes for Table rewrite by [@aalkin](https://github.com/aalkin)
+- [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
 - [\#13685](https://github.com/AliceO2Group/AliceO2/pull/13685) 2024-11-14: DPL: move writers to plugin by [@ktf](https://github.com/ktf)
 - [\#13689](https://github.com/AliceO2Group/AliceO2/pull/13689) 2024-11-14: DPL: Cleanup unneeded headers by [@ktf](https://github.com/ktf)
 - [\#13694](https://github.com/AliceO2Group/AliceO2/pull/13694) 2024-11-15: DPL: Use AnalysisContext also in the case of amended topologies by [@ktf](https://github.com/ktf)
@@ -93,3 +94,5 @@
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
