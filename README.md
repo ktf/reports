@@ -4,7 +4,6 @@
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
 - [\#13704](https://github.com/AliceO2Group/AliceO2/pull/13704) 2024-11-16: GPU OpenCL: Fixes and workaround for undefined symbols that make the clang SPIRV code actually link correctly by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
 - [\#13659](https://github.com/AliceO2Group/AliceO2/pull/13659) 2024-11-07: DPL: allow configuring compression for the AOD writer by [@ktf](https://github.com/ktf)
 - [\#13663](https://github.com/AliceO2Group/AliceO2/pull/13663) 2024-11-07: DPL: do not leak metadata file descriptor by [@ktf](https://github.com/ktf)
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
@@ -63,7 +62,6 @@
 ## Recent developments in O2 - Framework
 - [\#13588](https://github.com/AliceO2Group/AliceO2/pull/13588) 2024-10-21: DPL Analysis: enable cache without prefetching by [@ktf](https://github.com/ktf)
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
-- [\#13637](https://github.com/AliceO2Group/AliceO2/pull/13637) 2024-10-31: add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters by [@maciacco](https://github.com/maciacco)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
 - [\#13644](https://github.com/AliceO2Group/AliceO2/pull/13644) 2024-10-31: DPL: hide helper in an anonymous namespace by [@ktf](https://github.com/ktf)
 - [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
