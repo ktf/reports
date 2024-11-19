@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Added efficiency correction and improved the FakeV0Filter",
-            "number": 8465,
-            "author": {
-              "login": "JStaa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/ThreeParticleCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-17T20:27:04Z",
             "title": "[PWGDQ] REFFLOW with eta gap + fixing bug TProfile",
@@ -2493,6 +2473,31 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #8539",
+            "number": 8540,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/vertexQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Add vertex reconstruction rate monitoring",
@@ -2518,23 +2523,163 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "Please consider the following formatting changes to #8539",
-            "number": 8540,
+            "title": "[Common] Split PIDResponse",
+            "number": 8479,
             "author": {
-              "login": "alibuild"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                    "path": "ALICE3/TableProducer/alice3-pidTOF.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/QC/vertexQA.cxx"
+                    "path": "ALICE3/Tasks/ECALqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-cdeuteron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/pidRICHqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidBayes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/mcCollsExtra.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/SPTableZDC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/MaterialBudget.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/MaterialBudgetMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/SinglePhotonMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/phosQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/PhotonIsolationQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/emcclustermonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfragmentation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/v0jetspectra.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/FilterF1ProtonTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFF1Tables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/SPCalibrationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdakzeromlselection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/kfPerformanceStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/strangenessQCPP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0ptinvmassplots.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0topologicalcuts.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGEM/emcclustertutorial.cxx"
                   }
                 }
               ]
