@@ -19,6 +19,7 @@
 - [\#13689](https://github.com/AliceO2Group/AliceO2/pull/13689) 2024-11-14: DPL: Cleanup unneeded headers by [@ktf](https://github.com/ktf)
 - [\#13704](https://github.com/AliceO2Group/AliceO2/pull/13704) 2024-11-16: GPU OpenCL: Fixes and workaround for undefined symbols that make the clang SPIRV code actually link correctly by [@davidrohr](https://github.com/davidrohr)
 - [\#13705](https://github.com/AliceO2Group/AliceO2/pull/13705) 2024-11-18: GPU: Several unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#13712](https://github.com/AliceO2Group/AliceO2/pull/13712) 2024-11-19: Don't prevent loading ROOT headers if we use DEBUG_STREAMERS, might break GPU build by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
