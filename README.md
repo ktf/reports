@@ -30,6 +30,7 @@
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 - [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
+- [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -57,6 +58,7 @@
 - [\#13706](https://github.com/AliceO2Group/AliceO2/pull/13706) 2024-11-18: Optional ordering of objects in CCDBPopulator by [@shahor02](https://github.com/shahor02)
 - [\#13707](https://github.com/AliceO2Group/AliceO2/pull/13707) 2024-11-18: extend opt. max-tf-per-file to raw-tf reader, move it to device by [@shahor02](https://github.com/shahor02)
 - [\#13710](https://github.com/AliceO2Group/AliceO2/pull/13710) 2024-11-19: TPC: Exclude electrons created between vessels and field strips by [@wiechula](https://github.com/wiechula)
+- [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
