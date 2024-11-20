@@ -53,6 +53,7 @@
 - [\#13691](https://github.com/AliceO2Group/AliceO2/pull/13691) 2024-11-15: TPC: add check for empty data when receiving IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 - [\#13696](https://github.com/AliceO2Group/AliceO2/pull/13696) 2024-11-18: TPC GPU Decoding code duplication removal by [@cima22](https://github.com/cima22)
+- [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
 - [\#13702](https://github.com/AliceO2Group/AliceO2/pull/13702) 2024-11-15: Limit TFs extraxted from CTF file with --max-tf-per-file CTF-reader N by [@shahor02](https://github.com/shahor02)
 - [\#13706](https://github.com/AliceO2Group/AliceO2/pull/13706) 2024-11-18: Optional ordering of objects in CCDBPopulator by [@shahor02](https://github.com/shahor02)
@@ -61,6 +62,8 @@
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Examples
+- [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
@@ -84,6 +87,8 @@
 - [\#13694](https://github.com/AliceO2Group/AliceO2/pull/13694) 2024-11-15: DPL: Use AnalysisContext also in the case of amended topologies by [@ktf](https://github.com/ktf)
 - [\#13708](https://github.com/AliceO2Group/AliceO2/pull/13708) 2024-11-19: DPL: initialise the initial chunk length by [@ktf](https://github.com/ktf)
 - [\#13713](https://github.com/AliceO2Group/AliceO2/pull/13713) 2024-11-19: DPL: fix adjustment of spawnerInputs by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
@@ -91,6 +96,7 @@
 - [\#13674](https://github.com/AliceO2Group/AliceO2/pull/13674) 2024-11-11: Digicontext: Several improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
+- [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
