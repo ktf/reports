@@ -60,6 +60,7 @@
 - [\#13707](https://github.com/AliceO2Group/AliceO2/pull/13707) 2024-11-18: extend opt. max-tf-per-file to raw-tf reader, move it to device by [@shahor02](https://github.com/shahor02)
 - [\#13710](https://github.com/AliceO2Group/AliceO2/pull/13710) 2024-11-19: TPC: Exclude electrons created between vessels and field strips by [@wiechula](https://github.com/wiechula)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
+- [\#13716](https://github.com/AliceO2Group/AliceO2/pull/13716) 2024-11-20: Protect its/mft decoder agains decreasing row in the same column by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
@@ -67,7 +68,6 @@
 ## Recent developments in O2 - Framework
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
-- [\#13644](https://github.com/AliceO2Group/AliceO2/pull/13644) 2024-10-31: DPL: hide helper in an anonymous namespace by [@ktf](https://github.com/ktf)
 - [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
 - [\#13654](https://github.com/AliceO2Group/AliceO2/pull/13654) 2024-11-06: DPL: quit on error by default in no-batch mode without GUI window by [@ehellbar](https://github.com/ehellbar)
 - [\#13655](https://github.com/AliceO2Group/AliceO2/pull/13655) 2024-11-06: Layered arrow::FileSystem by [@ktf](https://github.com/ktf)
@@ -87,6 +87,7 @@
 - [\#13694](https://github.com/AliceO2Group/AliceO2/pull/13694) 2024-11-15: DPL: Use AnalysisContext also in the case of amended topologies by [@ktf](https://github.com/ktf)
 - [\#13708](https://github.com/AliceO2Group/AliceO2/pull/13708) 2024-11-19: DPL: initialise the initial chunk length by [@ktf](https://github.com/ktf)
 - [\#13713](https://github.com/AliceO2Group/AliceO2/pull/13713) 2024-11-19: DPL: fix adjustment of spawnerInputs by [@ktf](https://github.com/ktf)
+- [\#13717](https://github.com/AliceO2Group/AliceO2/pull/13717) 2024-11-20: Fix a few --compression options by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
