@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-19T12:49:36Z",
-            "title": "[PWGDQ] Adding code to process MC events in Fwd PID task",
-            "number": 8510,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/taskFwdTrackPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-19T13:02:37Z",
             "title": "[PWGHF] include number of contributors histos in correlatorDMesonPair.cxx",
             "number": 8452,
@@ -2510,6 +2480,76 @@
         {
           "node": {
             "state": "MERGED",
+            "mergedAt": "2024-11-20T22:06:31Z",
+            "title": "[PWGLF] Add vertex reconstruction rate monitoring",
+            "number": 8539,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/vertexQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-20T22:07:17Z",
+            "title": "[PWGLF] feat: Add PDG code of ITS track to non-prompt cascade tables",
+            "number": 8429,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Update on spectraTOF.cxx",
+            "number": 8579,
+            "author": {
+              "login": "mtorresc15"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
             "mergedAt": "2024-11-20T21:59:20Z",
             "title": "[PWGHF,Trigger] Fix compilation warnings",
             "number": 8561,
@@ -2564,6 +2604,31 @@
         },
         {
           "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added histogram to monitor run dependent variations of vxy and commented few section of code",
+            "number": 8580,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-20T22:01:48Z",
             "title": "[PWGJE] Fix int8_t configurables",
@@ -2596,56 +2661,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetchargedv2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-20T22:06:31Z",
-            "title": "[PWGLF] Add vertex reconstruction rate monitoring",
-            "number": 8539,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/vertexQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-20T22:07:17Z",
-            "title": "[PWGLF] feat: Add PDG code of ITS track to non-prompt cascade tables",
-            "number": 8429,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
                   }
                 }
               ]
@@ -2726,26 +2741,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/r2p2-4-id.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Update on spectraTOF.cxx",
-            "number": 8579,
-            "author": {
-              "login": "mtorresc15"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
                   }
                 }
               ]
