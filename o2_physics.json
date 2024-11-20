@@ -4,116 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add self-contained derived-data format for B+",
-            "number": 8485,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/DerivedTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorBplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorBplusToD0Pi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorD0ToKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorLcToPKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsDerivedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsPid.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-19T00:00:59Z",
-            "title": "[PWGDQ] Modify kDeltaEtaPair2",
-            "number": 8458,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add Non Hfe selection task in HfeSelection task",
-            "number": 8443,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-19T06:03:00Z",
             "title": "[PWGLF] New track and PID selection for phi in phik0sanalysis.cxx",
@@ -331,36 +221,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Adding MC daughter momenta to KF 3-body candidate output tree",
-            "number": 8528,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
                   }
                 }
               ]
@@ -2791,6 +2651,101 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/svPoolCreator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Fix uint8_t configurables",
+            "number": 8526,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Tutorial] Fix int8_t configurables",
+            "number": 8524,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tutorials/ML/applyMlSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fix int8_t configurables",
+            "number": 8522,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTaggingML.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-20T14:30:22Z",
+            "title": "[PWGLF] Adding MC daughter momenta to KF 3-body candidate output tree",
+            "number": 8528,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
                   }
                 }
               ]

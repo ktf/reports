@@ -4,121 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "FIT: add RecPoint reader and writer workflows for FV0 and FDD",
-            "number": 13482,
-            "author": {
-              "login": "andreasmolander"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FDD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RecPoint.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FDD/src/RecPoint.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/RecPoints.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/src/RecPoints.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/RecPoints.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FV0/src/RecPoints.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/include/FDDWorkflow/RecPointReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/RecPointReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/recpoints-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/recpoints-writer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/recpoints-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/recpoints-writer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/recpoints-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/recpoints-writer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/compareRecPoints.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-01T07:53:16Z",
             "title": "Allow to specify the starting orbit as a fractional value",
@@ -3934,41 +3819,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-07-12T07:07:49Z",
-            "title": "Add Flow Mapper for synthetic v2 addition",
-            "number": 13288,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/FlowMapper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/FlowMapper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorsLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL Analysis: Table definition rewrite",
@@ -4206,6 +4056,66 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-12T07:07:49Z",
+            "title": "Add Flow Mapper for synthetic v2 addition",
+            "number": 13288,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/FlowMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/FlowMapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-01T12:30:14Z",
+            "title": "Flow mapper tool: improve handling of input objects",
+            "number": 13320,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/FlowMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/FlowMapper.cxx"
                   }
                 }
               ]
