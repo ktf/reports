@@ -4,6 +4,7 @@
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
 - [\#13704](https://github.com/AliceO2Group/AliceO2/pull/13704) 2024-11-16: GPU OpenCL: Fixes and workaround for undefined symbols that make the clang SPIRV code actually link correctly by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
+- [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13659](https://github.com/AliceO2Group/AliceO2/pull/13659) 2024-11-07: DPL: allow configuring compression for the AOD writer by [@ktf](https://github.com/ktf)
 - [\#13663](https://github.com/AliceO2Group/AliceO2/pull/13663) 2024-11-07: DPL: do not leak metadata file descriptor by [@ktf](https://github.com/ktf)
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
@@ -32,6 +33,7 @@
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
+- [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13643](https://github.com/AliceO2Group/AliceO2/pull/13643) 2024-11-01: [EMCAL-670] EMCAL Clusterizer: change behavior for no gradient cut by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -66,6 +68,7 @@
 ## Recent developments in O2 - Examples
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
+- [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
 - [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
