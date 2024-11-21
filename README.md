@@ -36,7 +36,6 @@
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13641](https://github.com/AliceO2Group/AliceO2/pull/13641) 2024-11-01: TPC: Adding option to make timegain calib with gausian fits by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#13643](https://github.com/AliceO2Group/AliceO2/pull/13643) 2024-11-01: [EMCAL-670] EMCAL Clusterizer: change behavior for no gradient cut by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13647](https://github.com/AliceO2Group/AliceO2/pull/13647) 2024-11-01:  TPC: Fixing time gain calib in case of low statistics by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13648](https://github.com/AliceO2Group/AliceO2/pull/13648) 2024-11-03: Fix in the cluster stat. extraction + clusters sigmas by [@shahor02](https://github.com/shahor02)
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
