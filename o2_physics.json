@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-14T17:01:10Z",
-            "title": "[Trigger,PWGHF] update produceSample task",
-            "number": 8397,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterPrepareMLSamples.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-20T11:38:46Z",
             "title": "[PWGDQ] Adding REFFLOW  Histograms with RUN 2 binning",
             "number": 8525,
@@ -3056,6 +3031,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Add PID with ITS to STS",
+            "number": 8441,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/DataModel/singletrackselector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] modification for efficiency weight",
             "number": 8600,
             "author": {
@@ -3086,21 +3086,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add PID with ITS to STS",
-            "number": 8441,
+            "title": "[PWGHF] taskFlow.cxx: few changes in how event mixing is done. Changes in the filling of same event QA to improve performances.",
+            "number": 8605,
             "author": {
-              "login": "njacazio"
+              "login": "AlexianL"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto3D/DataModel/singletrackselector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelector.cxx"
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
                   }
                 }
               ]
