@@ -6,61 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGLF] Fix PID parametrisations and add pid to qa task",
-            "number": 8518,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/LFTreeCreatorClusterStudies.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Add the workflow to produce a table for mfttrack and fwdtrack matchin…",
-            "number": 2127,
-            "author": {
-              "login": "syano0822"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/mftMuonMatchingProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add unified converter",
             "number": 8420,
             "author": {
@@ -3036,36 +2981,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] [PWGHF]modification for efficiency weight",
-            "number": 8600,
-            "author": {
-              "login": "zz951"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Updated counting procedure for efficiency in phik0sanalysis.cxx",
             "number": 8577,
             "author": {
@@ -3076,26 +2991,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] fix charged jet v2 in-plane and out-of-plane fill",
-            "number": 8558,
-            "author": {
-              "login": "YubiaoWang"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetchargedv2.cxx"
                   }
                 }
               ]
@@ -3141,6 +3036,101 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/f0980pbpbanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGJE] fix charged jet v2 in-plane and out-of-plane fill",
+            "number": 8558,
+            "author": {
+              "login": "YubiaoWang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetchargedv2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-05T14:22:54Z",
+            "title": "[PWGHF] taskFlow.cxx: adding Lc-h correlations for TPC-TPC and TPC-MFT cases. Adding cuts on MFT tracks.",
+            "number": 8302,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Create task for pt spectrum of 3He from hypertriton",
+            "number": 8602,
+            "author": {
+              "login": "Roberta-Ferioli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/he3FromHypertritonMap.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] [PWGHF]modification for efficiency weight",
+            "number": 8600,
+            "author": {
+              "login": "zz951"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
                   }
                 }
               ]
