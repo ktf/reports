@@ -91,6 +91,7 @@
 - [\#13708](https://github.com/AliceO2Group/AliceO2/pull/13708) 2024-11-19: DPL: initialise the initial chunk length by [@ktf](https://github.com/ktf)
 - [\#13713](https://github.com/AliceO2Group/AliceO2/pull/13713) 2024-11-19: DPL: fix adjustment of spawnerInputs by [@ktf](https://github.com/ktf)
 - [\#13717](https://github.com/AliceO2Group/AliceO2/pull/13717) 2024-11-20: Fix a few --compression options by [@ktf](https://github.com/ktf)
+- [\#13718](https://github.com/AliceO2Group/AliceO2/pull/13718) 2024-11-21: DPL: write support for TTree using arrow::Dataset API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
