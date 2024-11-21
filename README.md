@@ -68,7 +68,6 @@
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13628](https://github.com/AliceO2Group/AliceO2/pull/13628) 2024-10-29: DebugGUI: adding minor features to inputs/outputs display by [@ehellbar](https://github.com/ehellbar)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
 - [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
 - [\#13654](https://github.com/AliceO2Group/AliceO2/pull/13654) 2024-11-06: DPL: quit on error by default in no-batch mode without GUI window by [@ehellbar](https://github.com/ehellbar)
