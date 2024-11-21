@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] flow: add FlowContainer in FlowRunbyRun; add d2{4} in FlowTask",
-            "number": 8546,
-            "author": {
-              "login": "Luzhiyongg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowRunbyRun.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-19T22:54:07Z",
             "title": "[PWGCF] Added efficiency correction and improved the FakeV0Filter",
@@ -2171,26 +2146,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add QC histo for event selection",
-            "number": 8592,
-            "author": {
-              "login": "chiarapinto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Update changes in Reco multiplicity",
             "number": 8584,
             "author": {
@@ -2981,26 +2936,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Add contributor cuts",
-            "number": 8594,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] [PWGDQ-120] dqEfficiency_withAssoc.cxx: added mcDecision to table of B meson candidates",
             "number": 8595,
             "author": {
@@ -3096,6 +3031,66 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[DPG] Added TOF presence condition",
+            "number": 8550,
+            "author": {
+              "login": "rosarioturrisi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add QC histo for event selection",
+            "number": 8592,
+            "author": {
+              "login": "chiarapinto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/nuclei_in_jets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Add contributor cuts",
+            "number": 8594,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF,PWGJE] Add MC T0M centrality to the Lc derived data",
             "number": 8596,
             "author": {
@@ -3126,16 +3121,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Added TOF presence condition",
-            "number": 8550,
+            "title": "[PWGJE] Add an extra table and vertexClustering function for GNN b-jet tagging",
+            "number": 8597,
             "author": {
-              "login": "rosarioturrisi"
+              "login": "choich08365"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
                   }
                 }
               ]
