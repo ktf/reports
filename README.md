@@ -36,7 +36,6 @@
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13647](https://github.com/AliceO2Group/AliceO2/pull/13647) 2024-11-01:  TPC: Fixing time gain calib in case of low statistics by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#13648](https://github.com/AliceO2Group/AliceO2/pull/13648) 2024-11-03: Fix in the cluster stat. extraction + clusters sigmas by [@shahor02](https://github.com/shahor02)
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
 - [\#13651](https://github.com/AliceO2Group/AliceO2/pull/13651) 2024-11-12: Improve MID reject list building by [@dstocco](https://github.com/dstocco)
 - [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
@@ -67,7 +66,6 @@
 ## Recent developments in O2 - Framework
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
-- [\#13646](https://github.com/AliceO2Group/AliceO2/pull/13646) 2024-11-03: DPL: example on how to use the Arrow Dataset API by [@ktf](https://github.com/ktf)
 - [\#13654](https://github.com/AliceO2Group/AliceO2/pull/13654) 2024-11-06: DPL: quit on error by default in no-batch mode without GUI window by [@ehellbar](https://github.com/ehellbar)
 - [\#13655](https://github.com/AliceO2Group/AliceO2/pull/13655) 2024-11-06: Layered arrow::FileSystem by [@ktf](https://github.com/ktf)
 - [\#13656](https://github.com/AliceO2Group/AliceO2/pull/13656) 2024-11-06: Merger: add ability to configure compression level by [@ktf](https://github.com/ktf)
