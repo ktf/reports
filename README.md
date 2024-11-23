@@ -33,6 +33,7 @@
 - [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
+- [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
@@ -60,6 +61,7 @@
 - [\#13710](https://github.com/AliceO2Group/AliceO2/pull/13710) 2024-11-19: TPC: Exclude electrons created between vessels and field strips by [@wiechula](https://github.com/wiechula)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 - [\#13716](https://github.com/AliceO2Group/AliceO2/pull/13716) 2024-11-20: Protect its/mft decoder agains decreasing row in the same column by [@shahor02](https://github.com/shahor02)
+- [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13724](https://github.com/AliceO2Group/AliceO2/pull/13724) 2024-11-22: Add TPC sh.clusters info to study output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13649](https://github.com/AliceO2Group/AliceO2/pull/13649) 2024-11-05: Simplify eve options, shift TPC tracks by PV time and apply dca cuts by [@shahor02](https://github.com/shahor02)
