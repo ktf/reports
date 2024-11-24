@@ -26,7 +26,6 @@
 - [\#13239](https://github.com/AliceO2Group/AliceO2/pull/13239) 2024-11-07: Improvements for CollisionContext generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13642](https://github.com/AliceO2Group/AliceO2/pull/13642) 2024-10-31: Add new particle: Hyper Helium4Sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
-- [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13674](https://github.com/AliceO2Group/AliceO2/pull/13674) 2024-11-11: Digicontext: Several improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
@@ -35,11 +34,11 @@
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
+- [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13651](https://github.com/AliceO2Group/AliceO2/pull/13651) 2024-11-12: Improve MID reject list building by [@dstocco](https://github.com/dstocco)
-- [\#13653](https://github.com/AliceO2Group/AliceO2/pull/13653) 2024-11-05: ITSGPU: Run CellFinding on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13661](https://github.com/AliceO2Group/AliceO2/pull/13661) 2024-11-07: ITSMFT: Protect CCDB querying in case we don't need IRFrames by [@mconcas](https://github.com/mconcas)
 - [\#13662](https://github.com/AliceO2Group/AliceO2/pull/13662) 2024-11-06: Connect CTP digit-reader to MCStudy if TPC corrections asked by [@shahor02](https://github.com/shahor02)
 - [\#13666](https://github.com/AliceO2Group/AliceO2/pull/13666) 2024-11-07: Add TPC-only DCA to trackStudy output by [@shahor02](https://github.com/shahor02)
@@ -63,6 +62,7 @@
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13724](https://github.com/AliceO2Group/AliceO2/pull/13724) 2024-11-22: Add TPC sh.clusters info to study output by [@shahor02](https://github.com/shahor02)
 - [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
+- [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
