@@ -68,7 +68,6 @@
 ## Recent developments in O2 - Framework
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13639](https://github.com/AliceO2Group/AliceO2/pull/13639) 2024-11-07: DPL: allow larger grace period for dispatching non-DPL incoming messages by [@ktf](https://github.com/ktf)
-- [\#13656](https://github.com/AliceO2Group/AliceO2/pull/13656) 2024-11-06: Merger: add ability to configure compression level by [@ktf](https://github.com/ktf)
 - [\#13659](https://github.com/AliceO2Group/AliceO2/pull/13659) 2024-11-07: DPL: allow configuring compression for the AOD writer by [@ktf](https://github.com/ktf)
 - [\#13663](https://github.com/AliceO2Group/AliceO2/pull/13663) 2024-11-07: DPL: do not leak metadata file descriptor by [@ktf](https://github.com/ktf)
 - [\#13665](https://github.com/AliceO2Group/AliceO2/pull/13665) 2024-11-07: DPL: read metadata from parent files by [@ktf](https://github.com/ktf)
