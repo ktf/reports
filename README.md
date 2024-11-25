@@ -40,7 +40,6 @@
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13651](https://github.com/AliceO2Group/AliceO2/pull/13651) 2024-11-12: Improve MID reject list building by [@dstocco](https://github.com/dstocco)
 - [\#13661](https://github.com/AliceO2Group/AliceO2/pull/13661) 2024-11-07: ITSMFT: Protect CCDB querying in case we don't need IRFrames by [@mconcas](https://github.com/mconcas)
-- [\#13662](https://github.com/AliceO2Group/AliceO2/pull/13662) 2024-11-06: Connect CTP digit-reader to MCStudy if TPC corrections asked by [@shahor02](https://github.com/shahor02)
 - [\#13666](https://github.com/AliceO2Group/AliceO2/pull/13666) 2024-11-07: Add TPC-only DCA to trackStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13673](https://github.com/AliceO2Group/AliceO2/pull/13673) 2024-11-08: GPU: Fix some things around obtaining maximum TPC time bin in TF by [@davidrohr](https://github.com/davidrohr)
 - [\#13676](https://github.com/AliceO2Group/AliceO2/pull/13676) 2024-11-10: SVStudy: Add mc mother pdg code by [@f3sch](https://github.com/f3sch)
