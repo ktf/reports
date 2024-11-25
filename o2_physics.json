@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix derived data issue for HF correlations",
-            "number": 8608,
-            "author": {
-              "login": "scattaru"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-22T09:32:46Z",
-            "title": "[PWGJE] fixing error on unsorted JEmcalTrack table",
-            "number": 8551,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetderiveddatawriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-22T07:50:45Z",
             "title": "[PWGLF] AngularCorrelationsInJets.cxx: minor histogram edits",
@@ -2886,31 +2841,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Add O2 linter",
-            "number": 7066,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/o2-linter.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Scripts/o2_linter.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Config ccdb path for trigger selections",
             "number": 8622,
             "author": {
@@ -2976,6 +2906,96 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/FlowGFPbPbpikp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Add O2 linter",
+            "number": 7066,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/o2-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Scripts/o2_linter.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Adding cosTheta and phi for MC generated particles",
+            "number": 8653,
+            "author": {
+              "login": "bhagyasahoo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] adding kNoHighMultCollInPrevRof event selection bit",
+            "number": 8652,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/rofOccupancyQa.cxx"
                   }
                 }
               ]
