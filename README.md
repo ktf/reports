@@ -49,7 +49,6 @@
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13679](https://github.com/AliceO2Group/AliceO2/pull/13679) 2024-11-19: DPL Analysis: Preliminary changes for Table rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
-- [\#13694](https://github.com/AliceO2Group/AliceO2/pull/13694) 2024-11-15: DPL: Use AnalysisContext also in the case of amended topologies by [@ktf](https://github.com/ktf)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#13708](https://github.com/AliceO2Group/AliceO2/pull/13708) 2024-11-19: DPL: initialise the initial chunk length by [@ktf](https://github.com/ktf)
 - [\#13713](https://github.com/AliceO2Group/AliceO2/pull/13713) 2024-11-19: DPL: fix adjustment of spawnerInputs by [@ktf](https://github.com/ktf)
