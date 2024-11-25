@@ -28,7 +28,6 @@
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13687](https://github.com/AliceO2Group/AliceO2/pull/13687) 2024-11-13: Protect LT-int.calculation in TRD refit from bad TPC correction by [@shahor02](https://github.com/shahor02)
-- [\#13690](https://github.com/AliceO2Group/AliceO2/pull/13690) 2024-11-14: ITSGPU: disable linter for false positive in CUB calls by [@mconcas](https://github.com/mconcas)
 - [\#13691](https://github.com/AliceO2Group/AliceO2/pull/13691) 2024-11-15: TPC: add check for empty data when receiving IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 - [\#13696](https://github.com/AliceO2Group/AliceO2/pull/13696) 2024-11-18: TPC GPU Decoding code duplication removal by [@cima22](https://github.com/cima22)
