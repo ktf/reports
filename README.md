@@ -40,6 +40,7 @@
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 - [\#13716](https://github.com/AliceO2Group/AliceO2/pull/13716) 2024-11-20: Protect its/mft decoder agains decreasing row in the same column by [@shahor02](https://github.com/shahor02)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
+- [\#13723](https://github.com/AliceO2Group/AliceO2/pull/13723) 2024-11-25: [MCH] change Mathieson K3xy by [@pillot](https://github.com/pillot)
 - [\#13724](https://github.com/AliceO2Group/AliceO2/pull/13724) 2024-11-22: Add TPC sh.clusters info to study output by [@shahor02](https://github.com/shahor02)
 - [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
