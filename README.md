@@ -11,6 +11,7 @@
 - [\#13705](https://github.com/AliceO2Group/AliceO2/pull/13705) 2024-11-18: GPU: Several unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#13709](https://github.com/AliceO2Group/AliceO2/pull/13709) 2024-11-22: ORT library in the O2 framework by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#13712](https://github.com/AliceO2Group/AliceO2/pull/13712) 2024-11-19: Don't prevent loading ROOT headers if we use DEBUG_STREAMERS, might break GPU build by [@davidrohr](https://github.com/davidrohr)
+- [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
@@ -60,6 +61,7 @@
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13721](https://github.com/AliceO2Group/AliceO2/pull/13721) 2024-11-22: Fix for failing dataflow build by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13722](https://github.com/AliceO2Group/AliceO2/pull/13722) 2024-11-21: Fix GeneratorPythia8 construction by [@sawenzel](https://github.com/sawenzel)
+- [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
