@@ -15,8 +15,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
-- [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
-- [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
@@ -28,7 +26,6 @@
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13687](https://github.com/AliceO2Group/AliceO2/pull/13687) 2024-11-13: Protect LT-int.calculation in TRD refit from bad TPC correction by [@shahor02](https://github.com/shahor02)
 - [\#13691](https://github.com/AliceO2Group/AliceO2/pull/13691) 2024-11-15: TPC: add check for empty data when receiving IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#13693](https://github.com/AliceO2Group/AliceO2/pull/13693) 2024-11-15: TRD add less than operator to Tracklet64 to permit std::merge usage by [@bazinski](https://github.com/bazinski)
 - [\#13696](https://github.com/AliceO2Group/AliceO2/pull/13696) 2024-11-18: TPC GPU Decoding code duplication removal by [@cima22](https://github.com/cima22)
 - [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
@@ -65,7 +62,6 @@
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
-- [\#13697](https://github.com/AliceO2Group/AliceO2/pull/13697) 2024-11-15: Orbit-early treatment in CollisionContext tool by [@sawenzel](https://github.com/sawenzel)
 - [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13703](https://github.com/AliceO2Group/AliceO2/pull/13703) 2024-11-16: CollisionContextTool: different QED printing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities

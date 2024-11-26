@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-15T12:22:04Z",
-            "title": "TRD add less than operator to Tracklet64 to permit std::merge usage",
-            "number": 13693,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/Tracklet64.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-15T17:07:37Z",
-            "title": "Orbit-early treatment in CollisionContext tool",
-            "number": 13697,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/CollisionContextTool.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-15T17:47:20Z",
             "title": "TPC: add check for empty data when receiving IDCs",
             "number": 13691,
@@ -4621,6 +4571,66 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/include/Framework/Pack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "QC: Glo change tpc DCAr axis-range",
+            "number": 13681,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GLO: QC: Add 3d plot and widen eta cuts",
+            "number": 13692,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GLOQC/include/GLOQC/ITSTPCMatchingQCParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GLOQC/include/GLOQC/MatchITSTPCQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/TrackCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/qc/src/ITSTPCMatchingQCSpec.cxx"
                   }
                 }
               ]
