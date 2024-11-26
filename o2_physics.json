@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add task for correlating multiplicity with generated dN/deta",
-            "number": 8474,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/correlateEstimatorDnDeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] ebyeMaker: check correlation cuts for nuclei ebye analysis",
@@ -1844,26 +1819,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix He3 pt, add hyperHe4 histogram",
-            "number": 8662,
-            "author": {
-              "login": "Roberta-Ferioli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/he3FromHypertritonMap.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-26T14:32:43Z",
             "title": "[PWGCF] Config ccdb path for trigger selections",
@@ -2414,41 +2369,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common/EventSelection,DPG] adding kNoHighMultCollInPrevRof event selection bit",
-            "number": 8652,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/EventSelectionParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/EventSelectionParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/rofOccupancyQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-26T15:22:48Z",
             "title": "[PWGHF] taskFlow.cxx: few changes in how event mixing is done. Changes in the filling of same event QA to improve performances.",
@@ -2506,6 +2426,81 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-26T16:06:10Z",
+            "title": "[PWGLF] Fix He3 pt, add hyperHe4 histogram",
+            "number": 8662,
+            "author": {
+              "login": "Roberta-Ferioli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/he3FromHypertritonMap.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-26T16:06:20Z",
+            "title": "[Common/EventSelection,DPG] adding kNoHighMultCollInPrevRof event selection bit",
+            "number": 8652,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/rofOccupancyQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Re-add pdgCodeV0 column filling for recoed cascade",
+            "number": 8665,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascademcbuilder.cxx"
                   }
                 }
               ]
