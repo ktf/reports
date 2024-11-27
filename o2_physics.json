@@ -4,96 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-25T07:42:10Z",
-            "title": "[PWGLF] Fix compilation warnings",
-            "number": 8386,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/v0mlscoresconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadebuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerobuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzeromcfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/highmasslambda.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarpbpb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysisrun3_PbPb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/k0_mixed_events.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/v0ptinvmassplots.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/svPoolCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] [PID] mute charge (now unused)",
@@ -2434,26 +2344,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Update to use bitwise operations for selection flags in charm hadronisation",
-            "number": 8613,
-            "author": {
-              "login": "christianreckziegel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/hffragmentationfunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-27T09:59:43Z",
             "title": "[PWGHF] Add single track variables in B+ reduced task",
@@ -2776,36 +2666,6 @@
                 {
                   "node": {
                     "path": "PWGJE/TableProducer/Matching/Duplicates/jetMatchingDuplicatesChargedMCP1.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] modification for efficiency weight",
-            "number": 8600,
-            "author": {
-              "login": "zz951"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
                   }
                 }
               ]
@@ -3494,6 +3354,36 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] adding 2prong-2prong correlations",
+            "number": 8685,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPDzeroFlowAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Initial commit of KF hypernuclei task",
@@ -3529,28 +3419,73 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] adding 2prong-2prong correlations",
-            "number": 8685,
+            "title": "[PWGJE] Update to use bitwise operations for selection flags in charm hadronisation",
+            "number": 8613,
             "author": {
-              "login": "jikim1290"
+              "login": "christianreckziegel"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/JCorran/Tasks/CMakeLists.txt"
+                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] modification for efficiency weight",
+            "number": 8600,
+            "author": {
+              "login": "zz951"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPDzeroFlowAnalysis.cxx"
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-27T14:44:51Z",
+            "title": "[PWGEM] LMee: added signed DCA var and DCA histo",
+            "number": 8484,
+            "author": {
+              "login": "jjungIKF"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
                   }
                 }
               ]
