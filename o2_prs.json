@@ -4334,6 +4334,56 @@
         },
         {
           "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Should not include std header in GPU device code",
+            "number": 13741,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/MathConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonConstants.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TPC: Fix TPC clusterizer qMax cut",
+            "number": 13743,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-27T10:36:34Z",
             "title": "GPU TPC: Add option to apply timebin cut to CTF cluster decoding CPU-only version",
@@ -4431,56 +4481,6 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowTPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: Should not include std header in GPU device code",
-            "number": 13741,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Constants/include/CommonConstants/MathConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonConstants.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU TPC: Fix TPC clusterizer qMax cut",
-            "number": 13743,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
                   }
                 }
               ]
