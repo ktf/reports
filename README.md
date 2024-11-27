@@ -24,8 +24,6 @@
 - [\#13687](https://github.com/AliceO2Group/AliceO2/pull/13687) 2024-11-13: Protect LT-int.calculation in TRD refit from bad TPC correction by [@shahor02](https://github.com/shahor02)
 - [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
-- [\#13706](https://github.com/AliceO2Group/AliceO2/pull/13706) 2024-11-18: Optional ordering of objects in CCDBPopulator by [@shahor02](https://github.com/shahor02)
-- [\#13707](https://github.com/AliceO2Group/AliceO2/pull/13707) 2024-11-18: extend opt. max-tf-per-file to raw-tf reader, move it to device by [@shahor02](https://github.com/shahor02)
 - [\#13710](https://github.com/AliceO2Group/AliceO2/pull/13710) 2024-11-19: TPC: Exclude electrons created between vessels and field strips by [@wiechula](https://github.com/wiechula)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 - [\#13716](https://github.com/AliceO2Group/AliceO2/pull/13716) 2024-11-20: Protect its/mft decoder agains decreasing row in the same column by [@shahor02](https://github.com/shahor02)
