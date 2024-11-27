@@ -14,6 +14,7 @@
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13714](https://github.com/AliceO2Group/AliceO2/pull/13714) 2024-11-19: GPU: Merge GPUDataTypes and GPUDataTypeHeaders in one library by [@davidrohr](https://github.com/davidrohr)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
+- [\#13720](https://github.com/AliceO2Group/AliceO2/pull/13720) 2024-11-27: QC-1248 Update QC Flag documentation by [@knopers8](https://github.com/knopers8)
 - [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
