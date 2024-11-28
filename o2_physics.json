@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-26T14:34:17Z",
-            "title": "[PWGLF] Fix maximum bin content reached in histograms",
-            "number": 8658,
-            "author": {
-              "login": "imsurajprasad786"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdak0sflattenicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-26T14:34:32Z",
-            "title": "[PWGLF] Implementing a Run2 analysis functionality on the K892 PbPb analysis",
-            "number": 8640,
-            "author": {
-              "login": "murioni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/k892analysis_PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-26T14:34:45Z",
-            "title": "[PWGLF] Add shift correction for TPC and FT0A event plane reconstruction and fix track selection for flow task",
-            "number": 8620,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/epvector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/highmasslambda.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-26T14:34:59Z",
-            "title": "[PWGLF] Add new event selection and histogram for efficiency in cascadeflow task",
-            "number": 8625,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/cascqaanalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-26T14:35:14Z",
             "title": "[PWGLF] adds evsel::alias for v2 ev sel studies, etc",
             "number": 8643,
@@ -3243,31 +3153,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-28T12:15:25Z",
-            "title": "[PWGHF] Add task for correlating multiplicity with generated dN/deta",
-            "number": 8474,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMultiplicityEstimatorCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-28T12:37:20Z",
             "title": "[Common] [PID] mute charge (now unused)",
             "number": 8639,
@@ -3279,26 +3164,6 @@
                 {
                   "node": {
                     "path": "Common/DataModel/PIDResponseITS.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse cascade task -- fixed cascade pair cleaner",
-            "number": 8714,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePairCleaner.h"
                   }
                 }
               ]
@@ -3534,6 +3399,136 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/mcPidTof.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-01T12:49:47Z",
+            "title": "[PWGHF] Add Lc->pKPi correlated background information to Ds task",
+            "number": 8245,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-13T01:19:35Z",
+            "title": "[PWGHF] Add generated B0 information to taskMcValidation",
+            "number": 8343,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-17T16:18:14Z",
+            "title": "[PWGHF] Add possibility of saving z equalized multiplicities in Ds task",
+            "number": 8473,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-28T12:15:25Z",
+            "title": "[PWGHF] Add task for correlating multiplicity with generated dN/deta",
+            "number": 8474,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMultiplicityEstimatorCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-25T15:10:51Z",
+            "title": "[PWGHF] Add task for studies on PID variables",
+            "number": 8617,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/pidStudies.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-28T13:54:21Z",
+            "title": "[PWGCF] FemtoUniverse cascade task -- fixed cascade pair cleaner",
+            "number": 8714,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePairCleaner.h"
                   }
                 }
               ]
