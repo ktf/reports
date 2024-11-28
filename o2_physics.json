@@ -1459,26 +1459,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Apply calibration to cell energy",
-            "number": 8660,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosCellQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-27T06:56:39Z",
             "title": "[PWGLF] added histogram to monitor run dependent variations of vxy and commented few section of code",
@@ -3480,6 +3460,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGEM] Apply calibration to cell energy",
+            "number": 8660,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosCellQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common] [TOF] streamline ccdb configuration",
             "number": 8692,
             "author": {
@@ -3495,6 +3495,16 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
                   }
                 }
               ]
