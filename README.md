@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13679](https://github.com/AliceO2Group/AliceO2/pull/13679) 2024-11-19: DPL Analysis: Preliminary changes for Table rewrite by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#13709](https://github.com/AliceO2Group/AliceO2/pull/13709) 2024-11-22: ORT library in the O2 framework by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -43,7 +42,6 @@
 - [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13679](https://github.com/AliceO2Group/AliceO2/pull/13679) 2024-11-19: DPL Analysis: Preliminary changes for Table rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#13713](https://github.com/AliceO2Group/AliceO2/pull/13713) 2024-11-19: DPL: fix adjustment of spawnerInputs by [@ktf](https://github.com/ktf)
