@@ -17,6 +17,7 @@
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
+- [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Detectors
 - [\#13568](https://github.com/AliceO2Group/AliceO2/pull/13568) 2024-11-25: ITS: TrackExtensionStudy by [@f3sch](https://github.com/f3sch)
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
@@ -54,5 +55,6 @@
 ## Recent developments in O2 - Steer
 - [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Utilities
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
