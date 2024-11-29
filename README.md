@@ -37,6 +37,7 @@
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
 - [\#13739](https://github.com/AliceO2Group/AliceO2/pull/13739) 2024-11-27: [MCH] send messages at every TF by [@pillot](https://github.com/pillot)
 - [\#13740](https://github.com/AliceO2Group/AliceO2/pull/13740) 2024-11-26: Improvements on the MID reject list by [@dstocco](https://github.com/dstocco)
+- [\#13749](https://github.com/AliceO2Group/AliceO2/pull/13749) 2024-11-29: TPC MC: Move hit exlusion after Track Ref creation by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
