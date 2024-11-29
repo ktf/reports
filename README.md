@@ -37,8 +37,6 @@
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
 - [\#13739](https://github.com/AliceO2Group/AliceO2/pull/13739) 2024-11-27: [MCH] send messages at every TF by [@pillot](https://github.com/pillot)
 - [\#13740](https://github.com/AliceO2Group/AliceO2/pull/13740) 2024-11-26: Improvements on the MID reject list by [@dstocco](https://github.com/dstocco)
-## Recent developments in O2 - Examples
-- [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
@@ -49,7 +47,6 @@
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)
 - [\#13735](https://github.com/AliceO2Group/AliceO2/pull/13735) 2024-11-26: DPL: add test for exception throwing in Variant by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13721](https://github.com/AliceO2Group/AliceO2/pull/13721) 2024-11-22: Fix for failing dataflow build by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13722](https://github.com/AliceO2Group/AliceO2/pull/13722) 2024-11-21: Fix GeneratorPythia8 construction by [@sawenzel](https://github.com/sawenzel)
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
