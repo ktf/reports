@@ -43,7 +43,6 @@
 - [\#13617](https://github.com/AliceO2Group/AliceO2/pull/13617) 2024-11-20: Add number of TPC clusters used for PID to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
-- [\#13717](https://github.com/AliceO2Group/AliceO2/pull/13717) 2024-11-20: Fix a few --compression options by [@ktf](https://github.com/ktf)
 - [\#13718](https://github.com/AliceO2Group/AliceO2/pull/13718) 2024-11-21: DPL: write support for TTree using arrow::Dataset API by [@ktf](https://github.com/ktf)
 - [\#13725](https://github.com/AliceO2Group/AliceO2/pull/13725) 2024-11-24: DPL: improve arrow::Dataset integration by [@ktf](https://github.com/ktf)
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)

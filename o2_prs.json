@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-20T12:49:35Z",
-            "title": "Fix a few --compression options",
-            "number": 13717,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AODMerger/src/aodMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODMerger/src/aodStrainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODMerger/src/aodThinner.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-20T12:56:17Z",
             "title": "Protect its/mft decoder agains decreasing row in the same column",
             "number": 13716,
@@ -4306,6 +4276,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "ORT GPU implementation",
+            "number": 13754,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/OrtInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/src/OrtInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
                   }
                 }
               ]
