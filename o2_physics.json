@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-26T16:06:20Z",
-            "title": "[Common/EventSelection,DPG] adding kNoHighMultCollInPrevRof event selection bit",
-            "number": 8652,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/EventSelectionParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/EventSelectionParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/rofOccupancyQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-26T16:09:45Z",
             "title": "[PWGCF] New task for TwoParticleCorrelation",
             "number": 8509,
@@ -2852,41 +2817,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding occupcany vs centrality info in HF ev. sel. utils",
-            "number": 8700,
-            "author": {
-              "login": "stefanopolitano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Updated callibration with shift correction",
@@ -3684,6 +3614,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Add hadron-photon correlation analysis task",
+            "number": 8727,
+            "author": {
+              "login": "pestratm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/hadronphotoncorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
             "title": "[PWGUD] Update personal task fwdMuonsUPC.cxx",
             "number": 8725,
             "author": {
@@ -3714,21 +3669,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add hadron-photon correlation analysis task",
-            "number": 8727,
+            "title": "[PWGCF] add topological cut QA and flow uncertainties",
+            "number": 8729,
             "author": {
-              "login": "pestratm"
+              "login": "fuchuncui"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/Flow/Tasks/flowGFWOmegaXi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding occupcany vs centrality info in HF ev. sel. utils",
+            "number": 8700,
+            "author": {
+              "login": "stefanopolitano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/hadronphotoncorrelation.cxx"
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
