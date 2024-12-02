@@ -27,7 +27,6 @@
 - [\#13687](https://github.com/AliceO2Group/AliceO2/pull/13687) 2024-11-13: Protect LT-int.calculation in TRD refit from bad TPC correction by [@shahor02](https://github.com/shahor02)
 - [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
-- [\#13710](https://github.com/AliceO2Group/AliceO2/pull/13710) 2024-11-19: TPC: Exclude electrons created between vessels and field strips by [@wiechula](https://github.com/wiechula)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13723](https://github.com/AliceO2Group/AliceO2/pull/13723) 2024-11-25: [MCH] change Mathieson K3xy by [@pillot](https://github.com/pillot)
 - [\#13724](https://github.com/AliceO2Group/AliceO2/pull/13724) 2024-11-22: Add TPC sh.clusters info to study output by [@shahor02](https://github.com/shahor02)
@@ -46,6 +45,7 @@
 - [\#13725](https://github.com/AliceO2Group/AliceO2/pull/13725) 2024-11-24: DPL: improve arrow::Dataset integration by [@ktf](https://github.com/ktf)
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)
 - [\#13735](https://github.com/AliceO2Group/AliceO2/pull/13735) 2024-11-26: DPL: add test for exception throwing in Variant by [@ktf](https://github.com/ktf)
+- [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13721](https://github.com/AliceO2Group/AliceO2/pull/13721) 2024-11-22: Fix for failing dataflow build by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13722](https://github.com/AliceO2Group/AliceO2/pull/13722) 2024-11-21: Fix GeneratorPythia8 construction by [@sawenzel](https://github.com/sawenzel)
