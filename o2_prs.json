@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-15T12:24:40Z",
-            "title": "ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG",
-            "number": 13688,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-19T12:38:13Z",
             "title": "TPC: Exclude electrons created between vessels and field strips",
             "number": 13710,
@@ -4306,6 +4281,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: improve arrow::Dataset support for TTree",
+            "number": 13759,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/RootArrowFilesystem.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Root2ArrowTable.cxx"
                   }
                 }
               ]

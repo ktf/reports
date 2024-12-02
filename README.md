@@ -11,7 +11,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13621](https://github.com/AliceO2Group/AliceO2/pull/13621) 2024-11-05: [TOF] update matcher by [@njacazio](https://github.com/njacazio)
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
-- [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13720](https://github.com/AliceO2Group/AliceO2/pull/13720) 2024-11-27: QC-1248 Update QC Flag documentation by [@knopers8](https://github.com/knopers8)
 - [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
@@ -52,7 +51,6 @@
 - [\#13722](https://github.com/AliceO2Group/AliceO2/pull/13722) 2024-11-21: Fix GeneratorPythia8 construction by [@sawenzel](https://github.com/sawenzel)
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#13688](https://github.com/AliceO2Group/AliceO2/pull/13688) 2024-11-15: ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13700](https://github.com/AliceO2Group/AliceO2/pull/13700) 2024-11-20: TPC: adding MC ccdb objects for simulation and reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Utilities
