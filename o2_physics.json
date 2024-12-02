@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-28T12:15:25Z",
-            "title": "[PWGHF] Add task for correlating multiplicity with generated dN/deta",
-            "number": 8474,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMultiplicityEstimatorCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-25T15:10:51Z",
             "title": "[PWGHF] Add task for studies on PID variables",
             "number": 8617,
@@ -3231,6 +3206,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Add missing subscription to MC collisions",
+            "number": 8777,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common,PWGLF] feat(nucleiSpectra): Add matching study histograms",
             "number": 8775,
             "author": {
@@ -3254,7 +3249,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Please consider the following formatting changes to #8775",
             "number": 8776,
@@ -3263,6 +3258,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseITS.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
