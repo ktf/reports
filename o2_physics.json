@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-13T01:19:35Z",
-            "title": "[PWGHF] Add generated B0 information to taskMcValidation",
-            "number": 8343,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-17T16:18:14Z",
-            "title": "[PWGHF] Add possibility of saving z equalized multiplicities in Ds task",
-            "number": 8473,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-28T12:15:25Z",
             "title": "[PWGHF] Add task for correlating multiplicity with generated dN/deta",
             "number": 8474,
@@ -3051,26 +3011,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGUD] Modify MC saved tables",
-            "number": 8761,
-            "author": {
-              "login": "ariffero"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/fwdMuonsUPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Task for hadron-jet correlations in O-O collisions",
             "number": 8688,
             "author": {
@@ -3231,6 +3171,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Infrastructure] Don't try to lint when no files are found",
+            "number": 8772,
+            "author": {
+              "login": "singiamtel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/o2-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] PWGLF/Tasks/Nuspex/spectraTOF.cxx",
             "number": 8774,
             "author": {
@@ -3249,18 +3209,63 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Don't try to lint when no files are found",
-            "number": 8772,
+            "state": "MERGED",
+            "mergedAt": "2024-12-02T16:53:11Z",
+            "title": "[PWGUD] Modify MC saved tables",
+            "number": 8761,
             "author": {
-              "login": "singiamtel"
+              "login": "ariffero"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": ".github/workflows/o2-linter.yml"
+                    "path": "PWGUD/Tasks/fwdMuonsUPC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] feat(nucleiSpectra): Add matching study histograms",
+            "number": 8775,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #8775",
+            "number": 8776,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
                   }
                 }
               ]
