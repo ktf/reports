@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-29T14:03:22Z",
-            "title": "[PWGDQ] Change build option of profiles used for flow analysis in Event-Mixing/Same-Event",
-            "number": 8699,
-            "author": {
-              "login": "Elros60"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-29T14:06:06Z",
             "title": "[PWGDQ] [PWG-DQ-120] added mcDecision to B meson candidate table",
             "number": 8737,
@@ -2886,6 +2866,86 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] added SPM and corrected phi range",
+            "number": 8797,
+            "author": {
+              "login": "cnkoster"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Occupancy Funcionality addition to O2Physics",
+            "number": 8589,
+            "author": {
+              "login": "rahulverma012"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/OccupancyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/occupancyTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix some bugs in correlatorLcHadrons.cxx",
+            "number": 8793,
+            "author": {
+              "login": "1481014945"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Update for X3872 analysis",
             "number": 8795,
             "author": {
@@ -2934,73 +2994,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] added SPM and corrected phi range",
-            "number": 8797,
+            "state": "MERGED",
+            "mergedAt": "2024-11-25T15:03:55Z",
+            "title": "[PWGLF] ebyeMaker: check correlation cuts for nuclei ebye analysis",
+            "number": 8629,
             "author": {
-              "login": "cnkoster"
+              "login": "maciacco"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix some bugs in correlatorLcHadrons.cxx",
-            "number": 8793,
-            "author": {
-              "login": "1481014945"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Occupancy Funcionality addition to O2Physics",
-            "number": 8589,
-            "author": {
-              "login": "rahulverma012"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/OccupancyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/occupancyTableProducer.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
                   }
                 }
               ]
