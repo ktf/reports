@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-29T16:00:03Z",
-            "title": "[PWGCF] add topological cut QA and flow uncertainties",
-            "number": 8729,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGFWOmegaXi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-29T14:42:54Z",
-            "title": "[PWGHF] Adding occupcany vs centrality info in HF ev. sel. utils",
-            "number": 8700,
-            "author": {
-              "login": "stefanopolitano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-29T16:36:54Z",
-            "title": "[DPG] Using AggregatedRunInfo in eventSelectionQA",
-            "number": 8735,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-06-21T07:11:49Z",
-            "title": "PWGHF :  Update ME correction and configurables in D0-h correlator",
-            "number": 6546,
-            "author": {
-              "login": "samrangy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGHF] Directed flow for D*+",
-            "number": 8740,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDirectedFlowDstar.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-29T18:08:11Z",
             "title": "[PWGCF] FemtoUniverse: Fixing filtering with conf. from two tables",
             "number": 8736,
@@ -2964,31 +2844,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM,PWGEM-36] EMCal rotation background add SM edges",
-            "number": 8800,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] ebyeMult: histos for trigger efficiency + updates in mc particle selections",
@@ -3031,6 +2886,191 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM,PWGEM-36] EMCal rotation background add SM edges",
+            "number": 8800,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] ebyeMult: get trigger efficiency + improve gen particle cuts",
+            "number": 8805,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/ebyeMult.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-03-15T17:25:34Z",
+            "title": "PWGJE : Fixing bug with use of map objects",
+            "number": 5188,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddatawriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructurehfoutput.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructureoutput.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-03-07T14:55:03Z",
+            "title": "PWGJE: Adding Timeframe border cut as default for all jet analyses",
+            "number": 5045,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-27T12:13:37Z",
+            "title": "[PWGJE] Adding missing directory",
+            "number": 8675,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Duplicates/jetMatchingDuplicatesChargedData1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Duplicates/jetMatchingDuplicatesChargedMCD1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Duplicates/jetMatchingDuplicatesChargedMCP1.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-03-27T16:26:27Z",
+            "title": "EventFiltering : Adding D0 and Lc tagged jet triggers",
+            "number": 5374,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGJE/jetHFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddatatriggerproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddatawriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderhfQA.cxx"
                   }
                 }
               ]
