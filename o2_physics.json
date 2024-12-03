@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-29T14:06:06Z",
-            "title": "[PWGDQ] [PWG-DQ-120] added mcDecision to B meson candidate table",
-            "number": 8737,
-            "author": {
-              "login": "torkjellsdatter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-29T14:38:53Z",
             "title": "[PWGDQ] Add the list of cuts for DQ used by the CEFP  task in the CutsLibrary",
             "number": 8534,
@@ -1494,26 +1474,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Updated CorrSparse with added histograms and a changed dPhi definition",
-            "number": 8770,
-            "author": {
-              "login": "Thorkj"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CorrSparse.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-12-02T20:59:22Z",
             "title": "[Common,PWGLF] feat(nucleiSpectra): Add matching study histograms",
@@ -1961,26 +1921,6 @@
                 {
                   "node": {
                     "path": ".github/workflows/o2-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] suppress SGProducers printouts to terminal",
-            "number": 8791,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
                   }
                 }
               ]
@@ -2914,28 +2854,58 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix some bugs in correlatorLcHadrons.cxx",
-            "number": 8793,
+            "state": "MERGED",
+            "mergedAt": "2024-11-25T15:03:55Z",
+            "title": "[PWGLF] ebyeMaker: check correlation cuts for nuclei ebye analysis",
+            "number": 8629,
             "author": {
-              "login": "1481014945"
+              "login": "maciacco"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Updated CorrSparse with added histograms and a changed dPhi definition",
+            "number": 8770,
+            "author": {
+              "login": "Thorkj"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CorrSparse.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] suppress SGProducers printouts to terminal",
+            "number": 8791,
+            "author": {
+              "login": "rolavick"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
                   }
                 }
               ]
@@ -2994,10 +2964,10 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-25T15:03:55Z",
-            "title": "[PWGLF] ebyeMaker: check correlation cuts for nuclei ebye analysis",
-            "number": 8629,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] ebyeMult: histos for trigger efficiency + updates in mc particle selections",
+            "number": 8798,
             "author": {
               "login": "maciacco"
             },
@@ -3005,7 +2975,37 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/ebyeMult.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix some bugs in correlatorLcHadrons.cxx",
+            "number": 8793,
+            "author": {
+              "login": "1481014945"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
                   }
                 }
               ]
