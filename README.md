@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
+- [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
@@ -35,6 +36,7 @@
 - [\#13739](https://github.com/AliceO2Group/AliceO2/pull/13739) 2024-11-27: [MCH] send messages at every TF by [@pillot](https://github.com/pillot)
 - [\#13740](https://github.com/AliceO2Group/AliceO2/pull/13740) 2024-11-26: Improvements on the MID reject list by [@dstocco](https://github.com/dstocco)
 - [\#13749](https://github.com/AliceO2Group/AliceO2/pull/13749) 2024-11-29: TPC MC: Move hit exlusion after Track Ref creation by [@wiechula](https://github.com/wiechula)
+- [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
@@ -44,6 +46,7 @@
 - [\#13725](https://github.com/AliceO2Group/AliceO2/pull/13725) 2024-11-24: DPL: improve arrow::Dataset integration by [@ktf](https://github.com/ktf)
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)
 - [\#13735](https://github.com/AliceO2Group/AliceO2/pull/13735) 2024-11-26: DPL: add test for exception throwing in Variant by [@ktf](https://github.com/ktf)
+- [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13721](https://github.com/AliceO2Group/AliceO2/pull/13721) 2024-11-22: Fix for failing dataflow build by [@jackal1-66](https://github.com/jackal1-66)
