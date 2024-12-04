@@ -7,7 +7,6 @@
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
-- [\#13709](https://github.com/AliceO2Group/AliceO2/pull/13709) 2024-11-22: ORT library in the O2 framework by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
