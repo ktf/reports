@@ -51,7 +51,6 @@
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#13721](https://github.com/AliceO2Group/AliceO2/pull/13721) 2024-11-22: Fix for failing dataflow build by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
