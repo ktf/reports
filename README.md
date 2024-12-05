@@ -13,7 +13,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13720](https://github.com/AliceO2Group/AliceO2/pull/13720) 2024-11-27: QC-1248 Update QC Flag documentation by [@knopers8](https://github.com/knopers8)
-- [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
+- [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
@@ -25,7 +25,7 @@
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13701](https://github.com/AliceO2Group/AliceO2/pull/13701) 2024-11-15: HBFUtils: Optional throw on failed parsing of opt by [@f3sch](https://github.com/f3sch)
 - [\#13723](https://github.com/AliceO2Group/AliceO2/pull/13723) 2024-11-25: [MCH] change Mathieson K3xy by [@pillot](https://github.com/pillot)
-- [\#13726](https://github.com/AliceO2Group/AliceO2/pull/13726) 2024-11-24: fix typo: remove stray . in the int value by [@shahor02](https://github.com/shahor02)
+- [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13729](https://github.com/AliceO2Group/AliceO2/pull/13729) 2024-11-25: Add AltroSyncSignal to TPC CDBTypeMap by [@shahor02](https://github.com/shahor02)
 - [\#13737](https://github.com/AliceO2Group/AliceO2/pull/13737) 2024-12-03: ITS-GPU: Move Tracklet finder on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
