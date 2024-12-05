@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-03T07:31:01Z",
-            "title": "[PWGLF] Fix KF cascade daughter DCA calculation in cascadebuilder",
-            "number": 8669,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadebuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-29T17:05:07Z",
-            "title": "[PWGLF] Adding event mixing for hypertriton 3-body KF reconstruction",
-            "number": 8698,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-27T08:51:02Z",
             "title": "PWGJE: adding track selection for TT derived data",
             "number": 8168,
@@ -3290,6 +3250,51 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fixed bug in histos filling in phik0sanalysis.cxx",
+            "number": 8832,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add ZN TDC in output table and possibility to select on TDC",
+            "number": 8833,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/ZDCInterCalib.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdc-task-intercalib.cxx"
                   }
                 }
               ]
