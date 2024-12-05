@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGJE] Add charged jet spectra analysis task to framework",
-            "number": 8794,
-            "author": {
-              "login": "wefeng1110"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-11-25T15:03:55Z",
             "title": "[PWGLF] ebyeMaker: check correlation cuts for nuclei ebye analysis",
@@ -3295,6 +3270,31 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackNucleus.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
+            "number": 8835,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
                   }
                 }
               ]
