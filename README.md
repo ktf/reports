@@ -46,6 +46,7 @@
 - [\#13735](https://github.com/AliceO2Group/AliceO2/pull/13735) 2024-11-26: DPL: add test for exception throwing in Variant by [@ktf](https://github.com/ktf)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
+- [\#13771](https://github.com/AliceO2Group/AliceO2/pull/13771) 2024-12-05: DPL Analysis: fix for iterator not setting the originals correctly by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
