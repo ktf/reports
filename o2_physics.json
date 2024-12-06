@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-03-15T17:25:34Z",
-            "title": "PWGJE : Fixing bug with use of map objects",
-            "number": 5188,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetderiveddatawriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetsubstructurehfoutput.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetsubstructureoutput.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-03-07T14:55:03Z",
-            "title": "PWGJE: Adding Timeframe border cut as default for all jet analyses",
-            "number": 5045,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-27T12:13:37Z",
             "title": "[PWGJE] Adding missing directory",
             "number": 8675,
@@ -3205,6 +3155,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
+            "number": 8835,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] add a switch of TPC TOF check for cascades",
+            "number": 8841,
+            "author": {
+              "login": "fuchuncui"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowGFWOmegaXi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common] Add ZN TDC in output table and possibility to select on TDC",
             "number": 8833,
             "author": {
@@ -3230,21 +3225,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
-            "number": 8835,
+            "title": "[PWGLF] revert flag checks",
+            "number": 8842,
             "author": {
-              "login": "amaringarcia"
+              "login": "maciacco"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/ebyeMult.cxx"
                   }
                 }
               ]
@@ -3255,16 +3245,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] add a switch of TPC TOF check for cascades",
-            "number": 8841,
+            "title": "[PWGLF] Add configurable to save LS and US and ITS nsigma cut",
+            "number": 8843,
             "author": {
-              "login": "fuchuncui"
+              "login": "blacwovie"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGFWOmegaXi.cxx"
+                    "path": "PWGLF/DataModel/LFhe3HadronTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
                   }
                 }
               ]
