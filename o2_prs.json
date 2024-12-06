@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-12-08T10:09:53Z",
-            "title": "AODPRODUCER: disable propagation to PV for SV",
-            "number": 12415,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "AOD: Producer thinner option",
@@ -3596,61 +3576,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Custom fifo name + jetscape usage example",
-            "number": 13742,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorTParticle.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_JETSCAPE/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_JETSCAPE/jetscape.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_JETSCAPE/jetscape_user_example.xml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_JETSCAPE/runo2sim.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU CMake: Add check that RTC source files do not contain system headers",
             "number": 13747,
             "author": {
@@ -4486,6 +4411,81 @@
                 {
                   "node": {
                     "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Custom fifo name + jetscape usage example",
+            "number": 13742,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorTParticle.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HepMC_JETSCAPE/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HepMC_JETSCAPE/jetscape.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HepMC_JETSCAPE/jetscape_user_example.xml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HepMC_JETSCAPE/runo2sim.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not compile tests which need GLFW if it's not found",
+            "number": 13774,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Geometry/CMakeLists.txt"
                   }
                 }
               ]
