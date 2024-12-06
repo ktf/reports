@@ -10,6 +10,7 @@
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
+- [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
@@ -38,6 +39,7 @@
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
 - [\#13773](https://github.com/AliceO2Group/AliceO2/pull/13773) 2024-12-06: ITS: protect trackleting from exceeding maximum nROFs in weird situations by [@mconcas](https://github.com/mconcas)
+- [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
