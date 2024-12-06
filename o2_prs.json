@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "AOD: Producer thinner option",
-            "number": 12544,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-01-22T15:36:12Z",
             "title": "AOD: Prepare Thinner for TPC-only V0s",
@@ -4486,6 +4461,31 @@
                 {
                   "node": {
                     "path": "macro/build_geometry.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing",
+            "number": 13775,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
                   }
                 }
               ]
