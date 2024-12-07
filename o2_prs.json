@@ -4399,6 +4399,31 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-06T23:21:52Z",
+            "title": "Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing",
+            "number": 13775,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "GPU CMake: Add check that RTC source files do not contain system headers",
@@ -4431,31 +4456,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/tools/rtc/test.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-06T23:21:52Z",
-            "title": "Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing",
-            "number": 13775,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
                   }
                 }
               ]
