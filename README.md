@@ -38,6 +38,7 @@
 - [\#13749](https://github.com/AliceO2Group/AliceO2/pull/13749) 2024-11-29: TPC MC: Move hit exlusion after Track Ref creation by [@wiechula](https://github.com/wiechula)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
+- [\#13764](https://github.com/AliceO2Group/AliceO2/pull/13764) 2024-12-09: [FOCAL-81] Fixing the FOCAL-E pad geometry by [@hahassan7](https://github.com/hahassan7)
 - [\#13773](https://github.com/AliceO2Group/AliceO2/pull/13773) 2024-12-06: ITS: protect trackleting from exceeding maximum nROFs in weird situations by [@mconcas](https://github.com/mconcas)
 - [\#13774](https://github.com/AliceO2Group/AliceO2/pull/13774) 2024-12-09: Do not compile tests which need GLFW if it's not found by [@ktf](https://github.com/ktf)
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
