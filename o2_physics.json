@@ -1245,31 +1245,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
-            "number": 8835,
-            "author": {
-              "login": "amaringarcia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add ZN TDC in output table and possibility to select on TDC",
             "number": 8833,
             "author": {
@@ -2234,41 +2209,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Removing unneeded dependency to TrackCov in v0-selector; Adding process function which does not require TOF in the data skimmer",
-            "number": 8872,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/v0selector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] DptDpt - Improve load corrections logs when issues",
             "number": 8873,
             "author": {
@@ -2419,6 +2359,66 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
+            "number": 8835,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-09T11:51:07Z",
+            "title": "[PWGDQ] Removing unneeded dependency to TrackCov in v0-selector; Adding process function which does not require TOF in the data skimmer",
+            "number": 8872,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/v0selector.cxx"
                   }
                 }
               ]
