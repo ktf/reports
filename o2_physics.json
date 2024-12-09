@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-04-10T18:18:42Z",
-            "title": "PWGJE : Bug fixes",
-            "number": 5565,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/jetHFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetSubstructureUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetfinderQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetfinderhfQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetplanarflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nSubjettiness.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-09-22T11:07:51Z",
             "title": "PWGJE: Fixing recent problem in jet matching",
             "number": 7758,
@@ -2559,6 +2504,41 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskDirectedFlowCharmHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Removing unneeded dependency to TrackCov in v0-selector; Adding process function which does not require TOF in the data skimmer",
+            "number": 8872,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/v0selector.cxx"
                   }
                 }
               ]
