@@ -62,3 +62,4 @@
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Utilities
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
+- [\#13782](https://github.com/AliceO2Group/AliceO2/pull/13782) 2024-12-09: QC-1253 Mergers: Shorter latency with multiple layers by [@knopers8](https://github.com/knopers8)
