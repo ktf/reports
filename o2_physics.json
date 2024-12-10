@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-05T10:39:03Z",
-            "title": "[PWGHF] Add variables and selections to pid studies task",
-            "number": 8807,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskPidStudies.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-05T14:06:08Z",
             "title": "[PWGJE] Adding 1D matched histograms for jet efficiency",
             "number": 8822,
@@ -2494,66 +2469,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] PID inclusion for associated particles in Lc correlation",
-            "number": 8892,
-            "author": {
-              "login": "1994ra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
-            "number": 8835,
-            "author": {
-              "login": "amaringarcia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Updates for X(3872) analysis",
             "number": 8898,
             "author": {
@@ -2594,6 +2509,91 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] PID inclusion for associated particles in Lc correlation",
+            "number": 8892,
+            "author": {
+              "login": "1994ra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] update prefilter task",
+            "number": 8899,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-10T13:01:35Z",
+            "title": "[Common,DPG] PID: Add AO2D metadata handling for pass name in TPC CCDB calls (pull/6793), adding NN-version number , using nSigmaTOFdautrack in protons from Lambda decays",
+            "number": 8835,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
                   }
                 }
               ]
