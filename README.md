@@ -43,6 +43,7 @@
 - [\#13774](https://github.com/AliceO2Group/AliceO2/pull/13774) 2024-12-09: Do not compile tests which need GLFW if it's not found by [@ktf](https://github.com/ktf)
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13777](https://github.com/AliceO2Group/AliceO2/pull/13777) 2024-12-08: AOD: Missing default init by [@f3sch](https://github.com/f3sch)
+- [\#13786](https://github.com/AliceO2Group/AliceO2/pull/13786) 2024-12-10: ITS tracking: Improve logging in case of OOM by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
