@@ -4,6 +4,7 @@
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
+- [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
@@ -53,6 +54,7 @@
 - [\#13735](https://github.com/AliceO2Group/AliceO2/pull/13735) 2024-11-26: DPL: add test for exception throwing in Variant by [@ktf](https://github.com/ktf)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
+- [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13771](https://github.com/AliceO2Group/AliceO2/pull/13771) 2024-12-05: DPL Analysis: fix for iterator not setting the originals correctly by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
