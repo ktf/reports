@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-29T15:40:07Z",
-            "title": "[PWGLF] Changed filling functions in phik0sanalysis.cxx",
-            "number": 8738,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-05T16:26:16Z",
             "title": "[PWGDQ] Adding protections to the prefiltering task; fix problem with exclusive MCSignals",
             "number": 8831,
@@ -2459,6 +2439,91 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] PID inclusion for associated particles in Lc correlation",
+            "number": 8892,
+            "author": {
+              "login": "1994ra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Updates for X(3872) analysis",
+            "number": 8898,
+            "author": {
+              "login": "zjxiongOvO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF,PWGJE] Updating B+ selector task to be similar to B+ reduced selector task and use machine learning",
             "number": 8858,
             "author": {
@@ -2549,81 +2614,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] PID inclusion for associated particles in Lc correlation",
-            "number": 8892,
+            "title": "[PWGDQ] fix configQA option in analysis-event-selection",
+            "number": 8903,
             "author": {
-              "login": "1994ra"
+              "login": "iarsene"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Updates for X(3872) analysis",
-            "number": 8898,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
