@@ -47,6 +47,7 @@
 - [\#13777](https://github.com/AliceO2Group/AliceO2/pull/13777) 2024-12-08: AOD: Missing default init by [@f3sch](https://github.com/f3sch)
 - [\#13786](https://github.com/AliceO2Group/AliceO2/pull/13786) 2024-12-10: ITS tracking: Improve logging in case of OOM by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
+- [\#13498](https://github.com/AliceO2Group/AliceO2/pull/13498) 2024-12-11: Get column value by column label in Framework Core ASoA by [@mytkom](https://github.com/mytkom)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13683](https://github.com/AliceO2Group/AliceO2/pull/13683) 2024-11-19: Proper display / filtering of ROOT log messages from stderr in terminal output and InfoLogger by [@ehellbar](https://github.com/ehellbar)
