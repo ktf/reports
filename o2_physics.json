@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] add self corr cme",
-            "number": 8869,
-            "author": {
-              "login": "zhengqi-w"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/pidcme.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-12-09T07:33:46Z",
             "title": "[PWGHF] added cumulant corrections for flow",
@@ -2364,26 +2344,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] fix histogram names in ME process in cascade correlations",
-            "number": 8933,
-            "author": {
-              "login": "rspijkers"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Boosting daughter with v0 momentum",
             "number": 8936,
             "author": {
@@ -2539,26 +2499,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Removed TLorentVector for associated particles in phik0sanalysis.cxx",
-            "number": 8941,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Modification of definition about HFJ tagging",
             "number": 8926,
             "author": {
@@ -2589,7 +2529,77 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] [PWGCF] Added PID, Added RBR NUA",
+            "title": "[PWGCF] Fill registry only when events are selected",
+            "number": 8940,
+            "author": {
+              "login": "cnkoster"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/PhotonMeson] Fix Cluster-Collision assignment in emcQC task",
+            "number": 8942,
+            "author": {
+              "login": "nstrangm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/ClusterHistograms.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] fix histogram names in ME process in cascade correlations",
+            "number": 8933,
+            "author": {
+              "login": "rspijkers"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added PID, Added RBR NUA",
             "number": 8938,
             "author": {
               "login": "EmilGorm"
@@ -2619,21 +2629,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fill registry only when events are selected",
-            "number": 8940,
+            "title": "[PWGLF] Removed TLorentVector for associated particles in phik0sanalysis.cxx",
+            "number": 8941,
             "author": {
-              "login": "cnkoster"
+              "login": "scannito"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
                   }
                 }
               ]
