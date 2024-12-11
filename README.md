@@ -59,6 +59,7 @@
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 - [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13771](https://github.com/AliceO2Group/AliceO2/pull/13771) 2024-12-05: DPL Analysis: fix for iterator not setting the originals correctly by [@aalkin](https://github.com/aalkin)
+- [\#13790](https://github.com/AliceO2Group/AliceO2/pull/13790) 2024-12-11: Make sure only the signposts matching the provided string are enabled by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
