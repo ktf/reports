@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-05T08:43:19Z",
-            "title": "AOD: Fix thinner for tracked 2023pp",
-            "number": 13248,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AODMerger/src/aodMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODMerger/src/aodThinner.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-08T14:42:35Z",
             "title": "V0: cleanup unused AP cuts",
             "number": 13280,
@@ -3676,6 +3651,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally fill dphi-dtgl with N Sh.clusters in trackStudy",
+            "number": 13794,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/GlobalTrackingStudyLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackingStudy.cxx"
                   }
                 }
               ]
