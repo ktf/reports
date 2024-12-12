@@ -52,6 +52,8 @@
 - [\#13786](https://github.com/AliceO2Group/AliceO2/pull/13786) 2024-12-10: ITS tracking: Improve logging in case of OOM by [@mconcas](https://github.com/mconcas)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13795](https://github.com/AliceO2Group/AliceO2/pull/13795) 2024-12-11: Fix inverted check in rawtf-reader max-tf-per-file check by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Examples
+- [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#13498](https://github.com/AliceO2Group/AliceO2/pull/13498) 2024-12-11: Get column value by column label in Framework Core ASoA by [@mytkom](https://github.com/mytkom)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
@@ -73,6 +75,7 @@
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13766](https://github.com/AliceO2Group/AliceO2/pull/13766) 2024-12-05: New event generator/wrapper facilitating event-pools by [@sawenzel](https://github.com/sawenzel)
 - [\#13768](https://github.com/AliceO2Group/AliceO2/pull/13768) 2024-12-06: Reset mParticles before filled with new set of particles by [@pbuehler](https://github.com/pbuehler)
+- [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Utilities
