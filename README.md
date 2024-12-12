@@ -53,6 +53,7 @@
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13791](https://github.com/AliceO2Group/AliceO2/pull/13791) 2024-12-12: ITS-tracking::Async: optionally discard whole TF instead of breaking by [@mconcas](https://github.com/mconcas)
 - [\#13792](https://github.com/AliceO2Group/AliceO2/pull/13792) 2024-12-12: ITS tracking: Introduce configurable minimum pt per track length by [@mpuccio](https://github.com/mpuccio)
+- [\#13794](https://github.com/AliceO2Group/AliceO2/pull/13794) 2024-12-12: Optionally fill dphi-dtgl with N Sh.clusters in trackStudy by [@shahor02](https://github.com/shahor02)
 - [\#13795](https://github.com/AliceO2Group/AliceO2/pull/13795) 2024-12-11: Fix inverted check in rawtf-reader max-tf-per-file check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
