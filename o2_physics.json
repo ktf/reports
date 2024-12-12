@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-09T16:06:58Z",
-            "title": "[PWGLF] feat: Add new features to the NonPromptCascadeTask",
-            "number": 8881,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-10T10:05:43Z",
             "title": "[PWGLF] Charged K(892) flow analysis fill histograms",
             "number": 8877,
@@ -2779,26 +2754,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Editing the histogram group: correlation-emu",
-            "number": 8959,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] add path for findable cascades with KF",
             "number": 8500,
             "author": {
@@ -2999,26 +2954,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse -- Adding inv mass for K+K+ and K-K-",
-            "number": 8928,
+            "title": "[Common] To fix mistake for getParticleOrigin",
+            "number": 8661,
             "author": {
-              "login": "zchochul"
+              "login": "hanseopark"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
+                    "path": "Common/Core/RecoDecay.h"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Editing the histogram group: correlation-emu",
+            "number": 8959,
+            "author": {
+              "login": "Shunsuke-Kurita"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Removed TLorentVector for associated particles in phik0sanalysis.cxx",
+            "number": 8941,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
                   }
                 }
               ]
@@ -3054,16 +3039,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] To fix mistake for getParticleOrigin",
-            "number": 8661,
+            "title": "[Common] Fix the bug -PR8901",
+            "number": 8961,
             "author": {
-              "login": "hanseopark"
+              "login": "miranov25"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/RecoDecay.h"
+                    "path": "Common/TableProducer/Converters/trackQA002Converter.cxx"
                   }
                 }
               ]
@@ -3074,16 +3059,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Removed TLorentVector for associated particles in phik0sanalysis.cxx",
-            "number": 8941,
+            "title": "[PWGCF] FemtoUniverse -- Adding inv mass for K+K+ and K-K-",
+            "number": 8928,
             "author": {
-              "login": "scannito"
+              "login": "zchochul"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0sanalysis.cxx"
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
                   }
                 }
               ]
