@@ -5,6 +5,7 @@
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
@@ -47,6 +48,7 @@
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13777](https://github.com/AliceO2Group/AliceO2/pull/13777) 2024-12-08: AOD: Missing default init by [@f3sch](https://github.com/f3sch)
 - [\#13779](https://github.com/AliceO2Group/AliceO2/pull/13779) 2024-12-11: Add additional selections on ITS tracks by [@mpuccio](https://github.com/mpuccio)
+- [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13786](https://github.com/AliceO2Group/AliceO2/pull/13786) 2024-12-10: ITS tracking: Improve logging in case of OOM by [@mconcas](https://github.com/mconcas)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13795](https://github.com/AliceO2Group/AliceO2/pull/13795) 2024-12-11: Fix inverted check in rawtf-reader max-tf-per-file check by [@shahor02](https://github.com/shahor02)
@@ -62,6 +64,7 @@
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 - [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13771](https://github.com/AliceO2Group/AliceO2/pull/13771) 2024-12-05: DPL Analysis: fix for iterator not setting the originals correctly by [@aalkin](https://github.com/aalkin)
+- [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13790](https://github.com/AliceO2Group/AliceO2/pull/13790) 2024-12-11: Make sure only the signposts matching the provided string are enabled by [@ktf](https://github.com/ktf)
 - [\#13793](https://github.com/AliceO2Group/AliceO2/pull/13793) 2024-12-11: DPL: extra signposts for InitTask callback by [@ktf](https://github.com/ktf)
