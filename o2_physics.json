@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-09T22:25:06Z",
-            "title": "[PWGCF] Addition of proton-neutron ZDC correlation task in TwoParticleCorrelations",
-            "number": 8879,
-            "author": {
-              "login": "omassen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/neutronProtonCorrZdc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGHF] Trk PID inclusion",
-            "number": 8890,
-            "author": {
-              "login": "1994ra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-09T23:05:17Z",
             "title": "[PWGEM/Dilepton] update prefilter task",
             "number": 8889,
@@ -2519,56 +2464,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add open charm MC analyses",
-            "number": 8894,
-            "author": {
-              "login": "sigurdnese"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Update Histograms for lambda1520 task",
             "number": 8844,
             "author": {
@@ -2627,6 +2522,91 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-12T09:25:09Z",
+            "title": "[Common] TrackQAConverter002- for TOF modification",
+            "number": 8901,
+            "author": {
+              "login": "miranov25"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/trackQA002Converter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] update changes in MC level",
+            "number": 8958,
+            "author": {
+              "login": "TGahlaut1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/meanPtFlucId.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Unused bins removed from the histogram that stores Ev. Sel. cuts",
+            "number": 8677,
+            "author": {
+              "login": "imsurajprasad786"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdak0sflattenicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Changed from THnSparseD to THnSparseF because of memory issue",
+            "number": 8927,
+            "author": {
+              "login": "Thorkj"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrSparse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Add D0 D0bar reflection infos tagged from data in D0 selector and task",
@@ -2659,41 +2639,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Changed from THnSparseD to THnSparseF because of memory issue",
-            "number": 8927,
+            "title": "[PWGDQ] Add open charm MC analyses",
+            "number": 8894,
             "author": {
-              "login": "Thorkj"
+              "login": "sigurdnese"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrSparse.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-12T09:25:09Z",
-            "title": "[Common] TrackQAConverter002- for TOF modification",
-            "number": 8901,
-            "author": {
-              "login": "miranov25"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/Converters/trackQA002Converter.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
