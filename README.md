@@ -26,7 +26,6 @@
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Detectors
-- [\#13568](https://github.com/AliceO2Group/AliceO2/pull/13568) 2024-11-25: ITS: TrackExtensionStudy by [@f3sch](https://github.com/f3sch)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13681](https://github.com/AliceO2Group/AliceO2/pull/13681) 2024-11-26: QC: Glo change tpc DCAr axis-range by [@f3sch](https://github.com/f3sch)
