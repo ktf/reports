@@ -11,7 +11,6 @@
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
-- [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
@@ -52,6 +51,7 @@
 - [\#13792](https://github.com/AliceO2Group/AliceO2/pull/13792) 2024-12-12: ITS tracking: Introduce configurable minimum pt per track length by [@mpuccio](https://github.com/mpuccio)
 - [\#13794](https://github.com/AliceO2Group/AliceO2/pull/13794) 2024-12-12: Optionally fill dphi-dtgl with N Sh.clusters in trackStudy by [@shahor02](https://github.com/shahor02)
 - [\#13795](https://github.com/AliceO2Group/AliceO2/pull/13795) 2024-12-11: Fix inverted check in rawtf-reader max-tf-per-file check by [@shahor02](https://github.com/shahor02)
+- [\#13804](https://github.com/AliceO2Group/AliceO2/pull/13804) 2024-12-13: Add AGD DataOrigin to the list accepted by DCS file-push service by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -72,7 +72,6 @@
 - [\#13796](https://github.com/AliceO2Group/AliceO2/pull/13796) 2024-12-12: Core: wrap internal symbols with anonymous namespace by [@mytkom](https://github.com/mytkom)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Generators
-- [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13766](https://github.com/AliceO2Group/AliceO2/pull/13766) 2024-12-05: New event generator/wrapper facilitating event-pools by [@sawenzel](https://github.com/sawenzel)
 - [\#13768](https://github.com/AliceO2Group/AliceO2/pull/13768) 2024-12-06: Reset mParticles before filled with new set of particles by [@pbuehler](https://github.com/pbuehler)
