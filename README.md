@@ -30,7 +30,6 @@
 - [\#13681](https://github.com/AliceO2Group/AliceO2/pull/13681) 2024-11-26: QC: Glo change tpc DCAr axis-range by [@f3sch](https://github.com/f3sch)
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
-- [\#13723](https://github.com/AliceO2Group/AliceO2/pull/13723) 2024-11-25: [MCH] change Mathieson K3xy by [@pillot](https://github.com/pillot)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13729](https://github.com/AliceO2Group/AliceO2/pull/13729) 2024-11-25: Add AltroSyncSignal to TPC CDBTypeMap by [@shahor02](https://github.com/shahor02)
 - [\#13737](https://github.com/AliceO2Group/AliceO2/pull/13737) 2024-12-03: ITS-GPU: Move Tracklet finder on GPU by [@mconcas](https://github.com/mconcas)
