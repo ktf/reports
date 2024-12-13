@@ -9,6 +9,7 @@
 - [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
+- [\#13800](https://github.com/AliceO2Group/AliceO2/pull/13800) 2024-12-13: DPL: Fix leak in TTree plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
@@ -59,7 +60,6 @@
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)
-- [\#13735](https://github.com/AliceO2Group/AliceO2/pull/13735) 2024-11-26: DPL: add test for exception throwing in Variant by [@ktf](https://github.com/ktf)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 - [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
@@ -71,6 +71,7 @@
 - [\#13793](https://github.com/AliceO2Group/AliceO2/pull/13793) 2024-12-11: DPL: extra signposts for InitTask callback by [@ktf](https://github.com/ktf)
 - [\#13796](https://github.com/AliceO2Group/AliceO2/pull/13796) 2024-12-12: Core: wrap internal symbols with anonymous namespace by [@mytkom](https://github.com/mytkom)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
+- [\#13800](https://github.com/AliceO2Group/AliceO2/pull/13800) 2024-12-13: DPL: Fix leak in TTree plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13766](https://github.com/AliceO2Group/AliceO2/pull/13766) 2024-12-05: New event generator/wrapper facilitating event-pools by [@sawenzel](https://github.com/sawenzel)
