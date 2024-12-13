@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-10T21:50:41Z",
-            "title": "[PWGCF] support for EP angle and few more event cuts",
-            "number": 8904,
-            "author": {
-              "login": "abilandz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Configurables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-DataMembers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Enums.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-MemberFunctions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticle-correlations-ab.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-11-26T14:34:32Z",
             "title": "[PWGLF] Implementing a Run2 analysis functionality on the K892 PbPb analysis",
             "number": 8640,
@@ -2657,36 +2617,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse -- Adding inv mass for K+K+ and K-K-",
-            "number": 8928,
-            "author": {
-              "login": "zchochul"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Added config for PID and Secondary cuts",
@@ -2764,26 +2694,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Omegac0/Xi pT cut",
-            "number": 8962,
-            "author": {
-              "login": "FDUEnrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Add histograms for data-driven methods",
             "number": 8965,
             "author": {
@@ -2794,6 +2704,56 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/bjetTaggingML.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-13T07:54:49Z",
+            "title": "[PWGHF,Trigger] Beauty 2nd Vertex in triggers",
+            "number": 8895,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF,Trigger] Add de-Lc femto trigger channel into the HFFilter task",
+            "number": 8937,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
                   }
                 }
               ]
@@ -2824,6 +2784,51 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/sgPIDSpectraTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Omegac0/Xi pT cut",
+            "number": 8962,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] add extra MFT counters to mult table",
+            "number": 8980,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
                   }
                 }
               ]
@@ -2884,46 +2889,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF,Trigger] Add de-Lc femto trigger channel into the HFFilter task",
-            "number": 8937,
+            "title": "[PWGCF] FemtoUniverse -- Adding inv mass for K+K+ and K-K-",
+            "number": 8928,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "zchochul"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-13T07:54:49Z",
-            "title": "[PWGHF,Trigger] Beauty 2nd Vertex in triggers",
-            "number": 8895,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
                   }
                 }
               ]
