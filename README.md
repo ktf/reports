@@ -8,6 +8,7 @@
 - [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
+- [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13695](https://github.com/AliceO2Group/AliceO2/pull/13695) 2024-11-22: register available_managed_shm metric only for readout-proxy by [@ehellbar](https://github.com/ehellbar)
@@ -74,6 +75,7 @@
 - [\#13790](https://github.com/AliceO2Group/AliceO2/pull/13790) 2024-12-11: Make sure only the signposts matching the provided string are enabled by [@ktf](https://github.com/ktf)
 - [\#13793](https://github.com/AliceO2Group/AliceO2/pull/13793) 2024-12-11: DPL: extra signposts for InitTask callback by [@ktf](https://github.com/ktf)
 - [\#13796](https://github.com/AliceO2Group/AliceO2/pull/13796) 2024-12-12: Core: wrap internal symbols with anonymous namespace by [@mytkom](https://github.com/mytkom)
+- [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Generators
 - [\#13733](https://github.com/AliceO2Group/AliceO2/pull/13733) 2024-11-26: Ability to create configurable param from a given external struct by [@sawenzel](https://github.com/sawenzel)
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)

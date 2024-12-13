@@ -5,131 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-10T15:44:59Z",
-            "title": "[PWGHF,PWGJE] Update B+ selector task to be similar to B+ reduced selector task and use machine learning",
-            "number": 8858,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBplusToD0Pi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBplusToD0PiReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBplusToD0PiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBsToDsPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/DerivedTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorBplusToD0Pi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorBplusToD0Pi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetHFUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/Jet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataHF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSubstructureBplusOutput.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-11T11:03:15Z",
-            "title": "[PWGHF] PID inclusion for associated particles in Lc correlation",
-            "number": 8892,
-            "author": {
-              "login": "1994ra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-10T21:50:41Z",
             "title": "[PWGCF] support for EP angle and few more event cuts",
             "number": 8904,
@@ -2084,26 +1959,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Addinfg histograms for data-driven methods",
-            "number": 8965,
-            "author": {
-              "login": "hahassan7"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingML.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add unified converter",
             "number": 8420,
             "author": {
@@ -2662,26 +2517,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Omegac0/Xi pT cut",
-            "number": 8962,
-            "author": {
-              "login": "FDUEnrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-12-13T09:30:51Z",
             "title": "[PWGLF] Removed TLorentVector for associated particles in phik0sanalysis.cxx",
@@ -2994,6 +2829,101 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-26T08:57:40Z",
+            "title": "[PWGHF] Fix derived data issue for HF correlations",
+            "number": 8608,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Omegac0/Xi pT cut",
+            "number": 8962,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add histograms for data-driven methods",
+            "number": 8965,
+            "author": {
+              "login": "hahassan7"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTaggingML.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Removing obsolete pids from personal task",
+            "number": 8979,
+            "author": {
+              "login": "abylinkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/SGTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/sgPIDAnalyzer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/sgPIDSpectraTable.cxx"
                   }
                 }
               ]
