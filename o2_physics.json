@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-11T22:14:28Z",
-            "title": "[PWGLF] Add rotation background for f1-p correlation  + correction term in resonance flow + modified table producer entry for f1-p analysis",
-            "number": 8947,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/f1protonreducedtable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/f1protoncorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phipbpb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-11T22:21:32Z",
             "title": "[PWGLF] added configurable selections and new histos",
             "number": 8943,
@@ -2837,56 +2807,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] Data Model Change: IR and Occupancy",
-            "number": 8987,
-            "author": {
-              "login": "abylinkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/UDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/Converters/UDCollisionSelExtrasConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGHF] rename files and change tables",
@@ -2969,6 +2889,111 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Data Model Change: IR and Occupancy",
+            "number": 8987,
+            "author": {
+              "login": "abylinkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/SGTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/UDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/Converters/UDCollisionSelExtrasConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/sgPIDSpectraTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Implementation of Xic⁰ reconstruction using the Kalman Filter method",
+            "number": 9001,
+            "author": {
+              "login": "Rrantu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXic0ToXiPiKf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXic0ToXiPiKf.cxx"
                   }
                 }
               ]
