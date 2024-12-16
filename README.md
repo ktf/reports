@@ -72,6 +72,7 @@
 - [\#13796](https://github.com/AliceO2Group/AliceO2/pull/13796) 2024-12-12: Core: wrap internal symbols with anonymous namespace by [@mytkom](https://github.com/mytkom)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13800](https://github.com/AliceO2Group/AliceO2/pull/13800) 2024-12-13: DPL: Fix leak in TTree plugin by [@ktf](https://github.com/ktf)
+- [\#13805](https://github.com/AliceO2Group/AliceO2/pull/13805) 2024-12-16: DPL Analysis: copy parentFiles in AO2D -> RNTuple converter by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13766](https://github.com/AliceO2Group/AliceO2/pull/13766) 2024-12-05: New event generator/wrapper facilitating event-pools by [@sawenzel](https://github.com/sawenzel)
