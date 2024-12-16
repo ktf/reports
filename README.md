@@ -80,6 +80,7 @@
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13797](https://github.com/AliceO2Group/AliceO2/pull/13797) 2024-12-13: Pythia8: write accepted/attempted by [@sawenzel](https://github.com/sawenzel)
 - [\#13798](https://github.com/AliceO2Group/AliceO2/pull/13798) 2024-12-12: Fix string comparison by [@ktf](https://github.com/ktf)
+- [\#13801](https://github.com/AliceO2Group/AliceO2/pull/13801) 2024-12-16: HybridGen/EventPool: small fixes, Add missing EventHeader propagation by [@sawenzel](https://github.com/sawenzel)
 - [\#13802](https://github.com/AliceO2Group/AliceO2/pull/13802) 2024-12-14: Fix type for entry in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
