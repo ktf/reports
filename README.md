@@ -31,7 +31,6 @@
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
-- [\#13681](https://github.com/AliceO2Group/AliceO2/pull/13681) 2024-11-26: QC: Glo change tpc DCAr axis-range by [@f3sch](https://github.com/f3sch)
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
