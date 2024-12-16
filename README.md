@@ -58,6 +58,8 @@
 - [\#13794](https://github.com/AliceO2Group/AliceO2/pull/13794) 2024-12-12: Optionally fill dphi-dtgl with N Sh.clusters in trackStudy by [@shahor02](https://github.com/shahor02)
 - [\#13795](https://github.com/AliceO2Group/AliceO2/pull/13795) 2024-12-11: Fix inverted check in rawtf-reader max-tf-per-file check by [@shahor02](https://github.com/shahor02)
 - [\#13804](https://github.com/AliceO2Group/AliceO2/pull/13804) 2024-12-13: Add AGD DataOrigin to the list accepted by DCS file-push service by [@shahor02](https://github.com/shahor02)
+- [\#13807](https://github.com/AliceO2Group/AliceO2/pull/13807) 2024-12-16: ITS::macros: Add Layer/Stave dump for checking clusters in IB by [@mconcas](https://github.com/mconcas)
+- [\#13808](https://github.com/AliceO2Group/AliceO2/pull/13808) 2024-12-16: ITSMFT::Clusterer: Optionally drop huge clusters by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
