@@ -14,6 +14,7 @@
 ## Recent developments in O2 - Common
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13741](https://github.com/AliceO2Group/AliceO2/pull/13741) 2024-11-27: GPU: Should not include std header in GPU device code by [@davidrohr](https://github.com/davidrohr)
+- [\#13755](https://github.com/AliceO2Group/AliceO2/pull/13755) 2024-12-17: ORT GPU implementation by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13789](https://github.com/AliceO2Group/AliceO2/pull/13789) 2024-12-10: DCAFitterN: log-throttling for err.messages + user policy for bad CovMat by [@shahor02](https://github.com/shahor02)
@@ -61,6 +62,7 @@
 - [\#13804](https://github.com/AliceO2Group/AliceO2/pull/13804) 2024-12-13: Add AGD DataOrigin to the list accepted by DCS file-push service by [@shahor02](https://github.com/shahor02)
 - [\#13807](https://github.com/AliceO2Group/AliceO2/pull/13807) 2024-12-16: ITS::macros: Add Layer/Stave dump for checking clusters in IB by [@mconcas](https://github.com/mconcas)
 - [\#13808](https://github.com/AliceO2Group/AliceO2/pull/13808) 2024-12-16: ITSMFT::Clusterer: Optionally drop huge clusters by [@mconcas](https://github.com/mconcas)
+- [\#13809](https://github.com/AliceO2Group/AliceO2/pull/13809) 2024-12-17: O2-4592 - adding TOF LTIntegral to time series&skimmed data by [@miranov25](https://github.com/miranov25)
 ## Recent developments in O2 - Examples
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
