@@ -39,7 +39,6 @@
 - [\#13729](https://github.com/AliceO2Group/AliceO2/pull/13729) 2024-11-25: Add AltroSyncSignal to TPC CDBTypeMap by [@shahor02](https://github.com/shahor02)
 - [\#13737](https://github.com/AliceO2Group/AliceO2/pull/13737) 2024-12-03: ITS-GPU: Move Tracklet finder on GPU by [@mconcas](https://github.com/mconcas)
 - [\#13738](https://github.com/AliceO2Group/AliceO2/pull/13738) 2024-11-27: GPU TPC: Fix typo in name, and clean up setting of inputGPU struct by [@davidrohr](https://github.com/davidrohr)
-- [\#13740](https://github.com/AliceO2Group/AliceO2/pull/13740) 2024-11-26: Improvements on the MID reject list by [@dstocco](https://github.com/dstocco)
 - [\#13749](https://github.com/AliceO2Group/AliceO2/pull/13749) 2024-11-29: TPC MC: Move hit exlusion after Track Ref creation by [@wiechula](https://github.com/wiechula)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13762](https://github.com/AliceO2Group/AliceO2/pull/13762) 2024-12-03: Optionally select CTFs in timestamps or orbits range by [@shahor02](https://github.com/shahor02)
