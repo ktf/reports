@@ -29,6 +29,7 @@
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
+- [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
@@ -61,6 +62,7 @@
 - [\#13808](https://github.com/AliceO2Group/AliceO2/pull/13808) 2024-12-16: ITSMFT::Clusterer: Optionally drop huge clusters by [@mconcas](https://github.com/mconcas)
 - [\#13809](https://github.com/AliceO2Group/AliceO2/pull/13809) 2024-12-17: O2-4592 - adding TOF LTIntegral to time series&skimmed data by [@miranov25](https://github.com/miranov25)
 - [\#13811](https://github.com/AliceO2Group/AliceO2/pull/13811) 2024-12-18: ThresholdCalibratorSpec.cxx: bug fix for VRESETD scan by [@iravasen](https://github.com/iravasen)
+- [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
