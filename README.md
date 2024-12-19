@@ -59,6 +59,7 @@
 - [\#13811](https://github.com/AliceO2Group/AliceO2/pull/13811) 2024-12-18: ThresholdCalibratorSpec.cxx: bug fix for VRESETD scan by [@iravasen](https://github.com/iravasen)
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13815](https://github.com/AliceO2Group/AliceO2/pull/13815) 2024-12-19: Make tpc-time-series to accept track sources by [@shahor02](https://github.com/shahor02)
+- [\#13816](https://github.com/AliceO2Group/AliceO2/pull/13816) 2024-12-19: ITS::gpu: Update track selection logics to the state of the art by [@mconcas](https://github.com/mconcas)
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
