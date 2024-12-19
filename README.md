@@ -20,7 +20,6 @@
 - [\#13789](https://github.com/AliceO2Group/AliceO2/pull/13789) 2024-12-10: DCAFitterN: log-throttling for err.messages + user policy for bad CovMat by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
-- [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
@@ -28,11 +27,11 @@
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
-- [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13729](https://github.com/AliceO2Group/AliceO2/pull/13729) 2024-11-25: Add AltroSyncSignal to TPC CDBTypeMap by [@shahor02](https://github.com/shahor02)
@@ -63,6 +62,7 @@
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13815](https://github.com/AliceO2Group/AliceO2/pull/13815) 2024-12-19: Make tpc-time-series to accept track sources by [@shahor02](https://github.com/shahor02)
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
