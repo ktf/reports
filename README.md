@@ -22,7 +22,6 @@
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13682](https://github.com/AliceO2Group/AliceO2/pull/13682) 2024-11-28: fix: +1 for L1 latency and trigger class check improved by [@lietava](https://github.com/lietava)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
-- [\#13720](https://github.com/AliceO2Group/AliceO2/pull/13720) 2024-11-27: QC-1248 Update QC Flag documentation by [@knopers8](https://github.com/knopers8)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
