@@ -72,7 +72,6 @@
 - [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
-- [\#13759](https://github.com/AliceO2Group/AliceO2/pull/13759) 2024-12-02: DPL Analysis: improve arrow::Dataset support for TTree by [@ktf](https://github.com/ktf)
 - [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
 - [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#13771](https://github.com/AliceO2Group/AliceO2/pull/13771) 2024-12-05: DPL Analysis: fix for iterator not setting the originals correctly by [@aalkin](https://github.com/aalkin)
