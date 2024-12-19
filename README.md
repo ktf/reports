@@ -22,7 +22,6 @@
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
-- [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
@@ -63,6 +62,7 @@
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
+- [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -86,6 +86,8 @@
 - [\#13805](https://github.com/AliceO2Group/AliceO2/pull/13805) 2024-12-16: DPL Analysis: copy parentFiles in AO2D -> RNTuple converter by [@ktf](https://github.com/ktf)
 - [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Generators
+- [\#13699](https://github.com/AliceO2Group/AliceO2/pull/13699) 2024-11-20: Implementation of hybrid generator  by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13721](https://github.com/AliceO2Group/AliceO2/pull/13721) 2024-11-22: Fix for failing dataflow build by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13766](https://github.com/AliceO2Group/AliceO2/pull/13766) 2024-12-05: New event generator/wrapper facilitating event-pools by [@sawenzel](https://github.com/sawenzel)
@@ -96,7 +98,5 @@
 - [\#13801](https://github.com/AliceO2Group/AliceO2/pull/13801) 2024-12-16: HybridGen/EventPool: small fixes, Add missing EventHeader propagation by [@sawenzel](https://github.com/sawenzel)
 - [\#13802](https://github.com/AliceO2Group/AliceO2/pull/13802) 2024-12-14: Fix type for entry in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 - [\#13817](https://github.com/AliceO2Group/AliceO2/pull/13817) 2024-12-19: Make sure PrimaryGenerator is destructed by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-- [\#13750](https://github.com/AliceO2Group/AliceO2/pull/13750) 2024-11-29: Updating hypernuclei information in O2 Databases by [@jditzelnew](https://github.com/jditzelnew)
 ## Recent developments in O2 - Utilities
 - [\#13782](https://github.com/AliceO2Group/AliceO2/pull/13782) 2024-12-09: QC-1253 Mergers: Shorter latency with multiple layers by [@knopers8](https://github.com/knopers8)
