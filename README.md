@@ -61,6 +61,7 @@
 - [\#13809](https://github.com/AliceO2Group/AliceO2/pull/13809) 2024-12-17: O2-4592 - adding TOF LTIntegral to time series&skimmed data by [@miranov25](https://github.com/miranov25)
 - [\#13811](https://github.com/AliceO2Group/AliceO2/pull/13811) 2024-12-18: ThresholdCalibratorSpec.cxx: bug fix for VRESETD scan by [@iravasen](https://github.com/iravasen)
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
+- [\#13815](https://github.com/AliceO2Group/AliceO2/pull/13815) 2024-12-19: Make tpc-time-series to accept track sources by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
