@@ -64,6 +64,7 @@
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13822](https://github.com/AliceO2Group/AliceO2/pull/13822) 2024-12-20: ITS::gpu: Add processNeighbours GPU kernel and handler by [@mconcas](https://github.com/mconcas)
+- [\#13823](https://github.com/AliceO2Group/AliceO2/pull/13823) 2024-12-20: ITS: Improved memory usage for vresetd scan by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
