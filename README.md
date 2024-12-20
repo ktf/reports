@@ -19,6 +19,7 @@
 - [\#13755](https://github.com/AliceO2Group/AliceO2/pull/13755) 2024-12-17: ORT GPU implementation by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13789](https://github.com/AliceO2Group/AliceO2/pull/13789) 2024-12-10: DCAFitterN: log-throttling for err.messages + user policy for bad CovMat by [@shahor02](https://github.com/shahor02)
+- [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
@@ -102,5 +103,6 @@
 - [\#13801](https://github.com/AliceO2Group/AliceO2/pull/13801) 2024-12-16: HybridGen/EventPool: small fixes, Add missing EventHeader propagation by [@sawenzel](https://github.com/sawenzel)
 - [\#13802](https://github.com/AliceO2Group/AliceO2/pull/13802) 2024-12-14: Fix type for entry in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 - [\#13817](https://github.com/AliceO2Group/AliceO2/pull/13817) 2024-12-19: Make sure PrimaryGenerator is destructed by [@sawenzel](https://github.com/sawenzel)
+- [\#13824](https://github.com/AliceO2Group/AliceO2/pull/13824) 2024-12-20: Fix for subjob spawning with FIFOs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Utilities
 - [\#13782](https://github.com/AliceO2Group/AliceO2/pull/13782) 2024-12-09: QC-1253 Mergers: Shorter latency with multiple layers by [@knopers8](https://github.com/knopers8)
