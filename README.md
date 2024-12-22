@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
-- [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
 - [\#13765](https://github.com/AliceO2Group/AliceO2/pull/13765) 2024-12-10: [Run2,Converter] Add V0 on the fly table by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -33,7 +32,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
-- [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13719](https://github.com/AliceO2Group/AliceO2/pull/13719) 2024-11-23: Object to provide TB to cut due to the Altro sync. procedure by [@shahor02](https://github.com/shahor02)
 - [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13729](https://github.com/AliceO2Group/AliceO2/pull/13729) 2024-11-25: Add AltroSyncSignal to TPC CDBTypeMap by [@shahor02](https://github.com/shahor02)
@@ -72,7 +70,6 @@
 ## Recent developments in O2 - Framework
 - [\#13498](https://github.com/AliceO2Group/AliceO2/pull/13498) 2024-12-11: Get column value by column label in Framework Core ASoA by [@mytkom](https://github.com/mytkom)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
-- [\#13664](https://github.com/AliceO2Group/AliceO2/pull/13664) 2024-12-04: DPL Analysis: Table definition rewrite by [@aalkin](https://github.com/aalkin)
 - [\#13734](https://github.com/AliceO2Group/AliceO2/pull/13734) 2024-11-25: Fix in the parsing of ccdb-run-dependent options by [@shahor02](https://github.com/shahor02)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
