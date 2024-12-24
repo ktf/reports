@@ -22,7 +22,6 @@
 - [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
-- [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
@@ -32,7 +31,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13633](https://github.com/AliceO2Group/AliceO2/pull/13633) 2024-12-02: Qatable by [@f3sch](https://github.com/f3sch)
-- [\#13727](https://github.com/AliceO2Group/AliceO2/pull/13727) 2024-11-24: Fix another typo in AltroSyncSignal::timebin default value by [@shahor02](https://github.com/shahor02)
 - [\#13729](https://github.com/AliceO2Group/AliceO2/pull/13729) 2024-11-25: Add AltroSyncSignal to TPC CDBTypeMap by [@shahor02](https://github.com/shahor02)
 - [\#13758](https://github.com/AliceO2Group/AliceO2/pull/13758) 2024-12-04: AOD: switch TracksQA from 000 to 001 by [@f3sch](https://github.com/f3sch)
 - [\#13764](https://github.com/AliceO2Group/AliceO2/pull/13764) 2024-12-09: [FOCAL-81] Fixing the FOCAL-E pad geometry by [@hahassan7](https://github.com/hahassan7)
