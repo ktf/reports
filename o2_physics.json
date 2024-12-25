@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-18T23:18:03Z",
-            "title": "[PWGHF,Trigger] Fix the labels",
-            "number": 9040,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-19T00:20:05Z",
             "title": "[PWGCF] DptDpt -- Tracking the TPC sector borders",
             "number": 9055,
@@ -3521,6 +3501,41 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-25T10:30:02Z",
+            "title": "[PWGEM/Dilepton] update table producers",
+            "number": 9127,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/filterDielectronEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/eventQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Move a bunch of stuff out of line",
@@ -3551,33 +3566,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-25T10:30:02Z",
-            "title": "[PWGEM/Dilepton] update table producers",
-            "number": 9127,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add centrality information to Xic0",
+            "number": 9128,
             "author": {
-              "login": "dsekihat"
+              "login": "Tao-Fang"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/filterDielectronEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/eventQC.cxx"
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
                   }
                 }
               ]
