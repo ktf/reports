@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-20T19:59:58Z",
-            "title": "[PWGLF] Task for high mas reconstruction in 2 phi decay mode",
-            "number": 9090,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-21T00:16:50Z",
             "title": "[PWGDQ] Adding extra cut Upsilon analysis",
             "number": 9088,
@@ -3150,6 +3125,36 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/f1protoncorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Change track propagator to use timestamp from data",
+            "number": 9166,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/LegacyDataQA/tpcpidqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/run2TinyToFullPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagation.cxx"
                   }
                 }
               ]
