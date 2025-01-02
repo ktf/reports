@@ -79,6 +79,7 @@
 - [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13818](https://github.com/AliceO2Group/AliceO2/pull/13818) 2024-12-19: DPL: improve handling of RNTuple by [@ktf](https://github.com/ktf)
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
+- [\#13831](https://github.com/AliceO2Group/AliceO2/pull/13831) 2025-01-02: DPL: drop unneeded ScopedExit helper by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
