@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-05T18:51:28Z",
-            "title": "DPL Analysis: fix for iterator not setting the originals correctly",
-            "number": 13771,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-06T07:06:19Z",
             "title": "ITS: protect trackleting from exceeding maximum nROFs in weird situations",
             "number": 13773,
@@ -3596,6 +3571,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/tools/rtc/test.cu"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: use requires rather than enable_if / static_assert",
+            "number": 13832,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceRegistryRef.h"
                   }
                 }
               ]
