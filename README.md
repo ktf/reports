@@ -30,7 +30,6 @@
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13764](https://github.com/AliceO2Group/AliceO2/pull/13764) 2024-12-09: [FOCAL-81] Fixing the FOCAL-E pad geometry by [@hahassan7](https://github.com/hahassan7)
-- [\#13773](https://github.com/AliceO2Group/AliceO2/pull/13773) 2024-12-06: ITS: protect trackleting from exceeding maximum nROFs in weird situations by [@mconcas](https://github.com/mconcas)
 - [\#13774](https://github.com/AliceO2Group/AliceO2/pull/13774) 2024-12-09: Do not compile tests which need GLFW if it's not found by [@ktf](https://github.com/ktf)
 - [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
