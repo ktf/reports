@@ -82,7 +82,6 @@
 - [\#13831](https://github.com/AliceO2Group/AliceO2/pull/13831) 2025-01-02: DPL: drop unneeded ScopedExit helper by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
-- [\#13745](https://github.com/AliceO2Group/AliceO2/pull/13745) 2024-12-05: Fraction based randomisation for Hybrid Gen by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13768](https://github.com/AliceO2Group/AliceO2/pull/13768) 2024-12-06: Reset mParticles before filled with new set of particles by [@pbuehler](https://github.com/pbuehler)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13797](https://github.com/AliceO2Group/AliceO2/pull/13797) 2024-12-13: Pythia8: write accepted/attempted by [@sawenzel](https://github.com/sawenzel)
