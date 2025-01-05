@@ -13,7 +13,6 @@
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#13755](https://github.com/AliceO2Group/AliceO2/pull/13755) 2024-12-17: ORT GPU implementation by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13789](https://github.com/AliceO2Group/AliceO2/pull/13789) 2024-12-10: DCAFitterN: log-throttling for err.messages + user policy for bad CovMat by [@shahor02](https://github.com/shahor02)
 - [\#13821](https://github.com/AliceO2Group/AliceO2/pull/13821) 2024-12-23: TPC: Multiple unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
@@ -31,7 +30,6 @@
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13764](https://github.com/AliceO2Group/AliceO2/pull/13764) 2024-12-09: [FOCAL-81] Fixing the FOCAL-E pad geometry by [@hahassan7](https://github.com/hahassan7)
 - [\#13774](https://github.com/AliceO2Group/AliceO2/pull/13774) 2024-12-09: Do not compile tests which need GLFW if it's not found by [@ktf](https://github.com/ktf)
-- [\#13775](https://github.com/AliceO2Group/AliceO2/pull/13775) 2024-12-06: Fixes for MatchITSTPCQC + DCAFitter overrides bad covmat instead of throwing by [@shahor02](https://github.com/shahor02)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
 - [\#13777](https://github.com/AliceO2Group/AliceO2/pull/13777) 2024-12-08: AOD: Missing default init by [@f3sch](https://github.com/f3sch)
 - [\#13779](https://github.com/AliceO2Group/AliceO2/pull/13779) 2024-12-11: Add additional selections on ITS tracks by [@mpuccio](https://github.com/mpuccio)
@@ -82,7 +80,6 @@
 - [\#13832](https://github.com/AliceO2Group/AliceO2/pull/13832) 2025-01-04: DPL: use requires rather than enable_if / static_assert by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
-- [\#13768](https://github.com/AliceO2Group/AliceO2/pull/13768) 2024-12-06: Reset mParticles before filled with new set of particles by [@pbuehler](https://github.com/pbuehler)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13797](https://github.com/AliceO2Group/AliceO2/pull/13797) 2024-12-13: Pythia8: write accepted/attempted by [@sawenzel](https://github.com/sawenzel)
 - [\#13798](https://github.com/AliceO2Group/AliceO2/pull/13798) 2024-12-12: Fix string comparison by [@ktf](https://github.com/ktf)
