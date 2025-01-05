@@ -56,6 +56,7 @@
 - [\#13822](https://github.com/AliceO2Group/AliceO2/pull/13822) 2024-12-20: ITS::gpu: Add processNeighbours GPU kernel and handler by [@mconcas](https://github.com/mconcas)
 - [\#13823](https://github.com/AliceO2Group/AliceO2/pull/13823) 2024-12-20: ITS: Improved memory usage for vresetd scan by [@iravasen](https://github.com/iravasen)
 - [\#13829](https://github.com/AliceO2Group/AliceO2/pull/13829) 2025-01-03: ITS/MFT decoder sends vector with certain errors details by [@shahor02](https://github.com/shahor02)
+- [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
@@ -78,6 +79,7 @@
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13831](https://github.com/AliceO2Group/AliceO2/pull/13831) 2025-01-02: DPL: drop unneeded ScopedExit helper by [@ktf](https://github.com/ktf)
 - [\#13832](https://github.com/AliceO2Group/AliceO2/pull/13832) 2025-01-04: DPL: use requires rather than enable_if / static_assert by [@ktf](https://github.com/ktf)
+- [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
