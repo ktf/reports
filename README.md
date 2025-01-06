@@ -25,6 +25,7 @@
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
@@ -56,6 +57,7 @@
 - [\#13822](https://github.com/AliceO2Group/AliceO2/pull/13822) 2024-12-20: ITS::gpu: Add processNeighbours GPU kernel and handler by [@mconcas](https://github.com/mconcas)
 - [\#13823](https://github.com/AliceO2Group/AliceO2/pull/13823) 2024-12-20: ITS: Improved memory usage for vresetd scan by [@iravasen](https://github.com/iravasen)
 - [\#13829](https://github.com/AliceO2Group/AliceO2/pull/13829) 2025-01-03: ITS/MFT decoder sends vector with certain errors details by [@shahor02](https://github.com/shahor02)
+- [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
@@ -89,5 +91,6 @@
 - [\#13802](https://github.com/AliceO2Group/AliceO2/pull/13802) 2024-12-14: Fix type for entry in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 - [\#13817](https://github.com/AliceO2Group/AliceO2/pull/13817) 2024-12-19: Make sure PrimaryGenerator is destructed by [@sawenzel](https://github.com/sawenzel)
 - [\#13824](https://github.com/AliceO2Group/AliceO2/pull/13824) 2024-12-20: Fix for subjob spawning with FIFOs by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Utilities
 - [\#13782](https://github.com/AliceO2Group/AliceO2/pull/13782) 2024-12-09: QC-1253 Mergers: Shorter latency with multiple layers by [@knopers8](https://github.com/knopers8)
