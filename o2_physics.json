@@ -2332,26 +2332,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] DptDpt -- Fix for wrong ME collect engine configuration",
-            "number": 9203,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/dptdptcorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-07T15:46:51Z",
             "title": "[PWGLF] Fix DCA_tracks calculation",
@@ -2413,6 +2393,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Introducing a configurable cut on ZN TDCs to select more clean samples",
+            "number": 9205,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/ZDCInterCalib.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdc-task-intercalib.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM/Dilepton] add a task to associate mc col to rec col",
             "number": 9204,
             "author": {
@@ -2458,21 +2463,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Introducing a configurable cut on ZN TDCs to select more clean samples",
-            "number": 9205,
+            "title": "[PWGCF] DptDpt -- Fix for wrong ME collect engine configuration",
+            "number": 9203,
             "author": {
-              "login": "coppedis"
+              "login": "victor-gonzalez"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/ZDCInterCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdc-task-intercalib.cxx"
+                    "path": "PWGCF/Tasks/dptdptcorrelations.cxx"
                   }
                 }
               ]
