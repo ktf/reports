@@ -82,6 +82,7 @@
 - [\#13832](https://github.com/AliceO2Group/AliceO2/pull/13832) 2025-01-04: DPL: use requires rather than enable_if / static_assert by [@ktf](https://github.com/ktf)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 - [\#13836](https://github.com/AliceO2Group/AliceO2/pull/13836) 2025-01-06: DPL Analysis: move some of the `throw`s out of line by [@aalkin](https://github.com/aalkin)
+- [\#13840](https://github.com/AliceO2Group/AliceO2/pull/13840) 2025-01-07: DPL: move a bunch of Variant helpers out of line by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
