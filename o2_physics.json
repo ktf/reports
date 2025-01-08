@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-28T07:27:38Z",
-            "title": "[PWGEM/Dilepton] update resolution map vs. centrality",
-            "number": 9146,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/createResolutionMap.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/smearing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/MomentumSmearer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-28T10:43:01Z",
             "title": "[PWGHF] Fix bc at declaration",
             "number": 9147,
@@ -1963,56 +1933,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add mc collision counter vs centrality",
-            "number": 9194,
-            "author": {
-              "login": "DelloStritto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Occupancy Funcionality addition to O2Physics",
             "number": 8589,
             "author": {
@@ -2386,31 +2306,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Introducing a configurable cut on ZN TDCs to select more clean samples",
-            "number": 9205,
-            "author": {
-              "login": "coppedis"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/ZDCInterCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdc-task-intercalib.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-06T19:00:31Z",
             "title": "[PWGCF] Lambda R2 Correlation Update",
@@ -2488,6 +2383,101 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-01-08T12:05:44Z",
+            "title": "[Common] Introducing a configurable cut on ZN TDCs to select more clean samples",
+            "number": 9205,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/ZDCInterCalib.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdc-task-intercalib.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add mc collision counter vs centrality",
+            "number": 9194,
+            "author": {
+              "login": "DelloStritto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] changed misidentification condition of particles with antiparticles",
+            "number": 9220,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
                   }
                 }
               ]
