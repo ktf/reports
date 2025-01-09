@@ -58,7 +58,6 @@
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#13498](https://github.com/AliceO2Group/AliceO2/pull/13498) 2024-12-11: Get column value by column label in Framework Core ASoA by [@mytkom](https://github.com/mytkom)
 - [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13781](https://github.com/AliceO2Group/AliceO2/pull/13781) 2024-12-17: Data model: add ITS shared clusters by [@ddobrigk](https://github.com/ddobrigk)
