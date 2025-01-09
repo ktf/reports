@@ -65,7 +65,6 @@
 - [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13790](https://github.com/AliceO2Group/AliceO2/pull/13790) 2024-12-11: Make sure only the signposts matching the provided string are enabled by [@ktf](https://github.com/ktf)
-- [\#13793](https://github.com/AliceO2Group/AliceO2/pull/13793) 2024-12-11: DPL: extra signposts for InitTask callback by [@ktf](https://github.com/ktf)
 - [\#13796](https://github.com/AliceO2Group/AliceO2/pull/13796) 2024-12-12: Core: wrap internal symbols with anonymous namespace by [@mytkom](https://github.com/mytkom)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13800](https://github.com/AliceO2Group/AliceO2/pull/13800) 2024-12-13: DPL: Fix leak in TTree plugin by [@ktf](https://github.com/ktf)
