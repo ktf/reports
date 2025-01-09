@@ -28,7 +28,6 @@
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
-- [\#13779](https://github.com/AliceO2Group/AliceO2/pull/13779) 2024-12-11: Add additional selections on ITS tracks by [@mpuccio](https://github.com/mpuccio)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
 - [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
