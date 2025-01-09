@@ -31,7 +31,6 @@
 - [\#13779](https://github.com/AliceO2Group/AliceO2/pull/13779) 2024-12-11: Add additional selections on ITS tracks by [@mpuccio](https://github.com/mpuccio)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
 - [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
-- [\#13786](https://github.com/AliceO2Group/AliceO2/pull/13786) 2024-12-10: ITS tracking: Improve logging in case of OOM by [@mconcas](https://github.com/mconcas)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13791](https://github.com/AliceO2Group/AliceO2/pull/13791) 2024-12-12: ITS-tracking::Async: optionally discard whole TF instead of breaking by [@mconcas](https://github.com/mconcas)
 - [\#13792](https://github.com/AliceO2Group/AliceO2/pull/13792) 2024-12-12: ITS tracking: Introduce configurable minimum pt per track length by [@mpuccio](https://github.com/mpuccio)
