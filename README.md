@@ -12,6 +12,7 @@
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#13755](https://github.com/AliceO2Group/AliceO2/pull/13755) 2024-12-17: ORT GPU implementation by [@ChSonnabend](https://github.com/ChSonnabend)
+- [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13821](https://github.com/AliceO2Group/AliceO2/pull/13821) 2024-12-23: TPC: Multiple unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
@@ -24,17 +25,18 @@
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
+- [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
+- [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
 - [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
 - [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13791](https://github.com/AliceO2Group/AliceO2/pull/13791) 2024-12-12: ITS-tracking::Async: optionally discard whole TF instead of breaking by [@mconcas](https://github.com/mconcas)
 - [\#13792](https://github.com/AliceO2Group/AliceO2/pull/13792) 2024-12-12: ITS tracking: Introduce configurable minimum pt per track length by [@mpuccio](https://github.com/mpuccio)
 - [\#13794](https://github.com/AliceO2Group/AliceO2/pull/13794) 2024-12-12: Optionally fill dphi-dtgl with N Sh.clusters in trackStudy by [@shahor02](https://github.com/shahor02)
-- [\#13795](https://github.com/AliceO2Group/AliceO2/pull/13795) 2024-12-11: Fix inverted check in rawtf-reader max-tf-per-file check by [@shahor02](https://github.com/shahor02)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
 - [\#13804](https://github.com/AliceO2Group/AliceO2/pull/13804) 2024-12-13: Add AGD DataOrigin to the list accepted by DCS file-push service by [@shahor02](https://github.com/shahor02)
 - [\#13807](https://github.com/AliceO2Group/AliceO2/pull/13807) 2024-12-16: ITS::macros: Add Layer/Stave dump for checking clusters in IB by [@mconcas](https://github.com/mconcas)
