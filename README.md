@@ -1,10 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
 - [\#13781](https://github.com/AliceO2Group/AliceO2/pull/13781) 2024-12-17: Data model: add ITS shared clusters by [@ddobrigk](https://github.com/ddobrigk)
-- [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
-- [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13800](https://github.com/AliceO2Group/AliceO2/pull/13800) 2024-12-13: DPL: Fix leak in TTree plugin by [@ktf](https://github.com/ktf)
 - [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
@@ -32,11 +29,6 @@
 - [\#13776](https://github.com/AliceO2Group/AliceO2/pull/13776) 2024-12-16: Str: Silence predicted chi2 calculation by [@f3sch](https://github.com/f3sch)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13784](https://github.com/AliceO2Group/AliceO2/pull/13784) 2024-12-16: fix in track propagation to TOF for MC by [@noferini](https://github.com/noferini)
-- [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
-- [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
-- [\#13791](https://github.com/AliceO2Group/AliceO2/pull/13791) 2024-12-12: ITS-tracking::Async: optionally discard whole TF instead of breaking by [@mconcas](https://github.com/mconcas)
-- [\#13792](https://github.com/AliceO2Group/AliceO2/pull/13792) 2024-12-12: ITS tracking: Introduce configurable minimum pt per track length by [@mpuccio](https://github.com/mpuccio)
-- [\#13794](https://github.com/AliceO2Group/AliceO2/pull/13794) 2024-12-12: Optionally fill dphi-dtgl with N Sh.clusters in trackStudy by [@shahor02](https://github.com/shahor02)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
 - [\#13804](https://github.com/AliceO2Group/AliceO2/pull/13804) 2024-12-13: Add AGD DataOrigin to the list accepted by DCS file-push service by [@shahor02](https://github.com/shahor02)
 - [\#13807](https://github.com/AliceO2Group/AliceO2/pull/13807) 2024-12-16: ITS::macros: Add Layer/Stave dump for checking clusters in IB by [@mconcas](https://github.com/mconcas)
@@ -55,16 +47,12 @@
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
+- [\#13851](https://github.com/AliceO2Group/AliceO2/pull/13851) 2025-01-10: Drop unneeded regex by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
-- [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#13761](https://github.com/AliceO2Group/AliceO2/pull/13761) 2024-12-12: DPL Analysis: add RNTuple arrow::Dataset support by [@ktf](https://github.com/ktf)
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13781](https://github.com/AliceO2Group/AliceO2/pull/13781) 2024-12-17: Data model: add ITS shared clusters by [@ddobrigk](https://github.com/ddobrigk)
-- [\#13785](https://github.com/AliceO2Group/AliceO2/pull/13785) 2024-12-12: Bump trackextra table to the latest version by [@maciacco](https://github.com/maciacco)
-- [\#13787](https://github.com/AliceO2Group/AliceO2/pull/13787) 2024-12-12: O2-4592 - adding TOF dX and dZ to the track QA table with int8 precision by [@miranov25](https://github.com/miranov25)
-- [\#13796](https://github.com/AliceO2Group/AliceO2/pull/13796) 2024-12-12: Core: wrap internal symbols with anonymous namespace by [@mytkom](https://github.com/mytkom)
 - [\#13799](https://github.com/AliceO2Group/AliceO2/pull/13799) 2024-12-13: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13800](https://github.com/AliceO2Group/AliceO2/pull/13800) 2024-12-13: DPL: Fix leak in TTree plugin by [@ktf](https://github.com/ktf)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
@@ -84,9 +72,7 @@
 - [\#13849](https://github.com/AliceO2Group/AliceO2/pull/13849) 2025-01-10: DPL: improve calling of the termination hook by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
-- [\#13788](https://github.com/AliceO2Group/AliceO2/pull/13788) 2024-12-12: HybridGenerator: Asyncronous + parallel event generation by [@sawenzel](https://github.com/sawenzel)
 - [\#13797](https://github.com/AliceO2Group/AliceO2/pull/13797) 2024-12-13: Pythia8: write accepted/attempted by [@sawenzel](https://github.com/sawenzel)
-- [\#13798](https://github.com/AliceO2Group/AliceO2/pull/13798) 2024-12-12: Fix string comparison by [@ktf](https://github.com/ktf)
 - [\#13801](https://github.com/AliceO2Group/AliceO2/pull/13801) 2024-12-16: HybridGen/EventPool: small fixes, Add missing EventHeader propagation by [@sawenzel](https://github.com/sawenzel)
 - [\#13802](https://github.com/AliceO2Group/AliceO2/pull/13802) 2024-12-14: Fix type for entry in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 - [\#13817](https://github.com/AliceO2Group/AliceO2/pull/13817) 2024-12-19: Make sure PrimaryGenerator is destructed by [@sawenzel](https://github.com/sawenzel)
