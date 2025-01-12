@@ -21,6 +21,7 @@
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
+- [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
@@ -45,6 +46,8 @@
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13851](https://github.com/AliceO2Group/AliceO2/pull/13851) 2025-01-10: Drop unneeded regex by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - EventVisualisation
+- [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
@@ -66,6 +69,7 @@
 - [\#13846](https://github.com/AliceO2Group/AliceO2/pull/13846) 2025-01-09: DPL: hide more stuff from runDataProcessing.h by [@ktf](https://github.com/ktf)
 - [\#13849](https://github.com/AliceO2Group/AliceO2/pull/13849) 2025-01-10: DPL: improve calling of the termination hook by [@ktf](https://github.com/ktf)
 - [\#13850](https://github.com/AliceO2Group/AliceO2/pull/13850) 2025-01-11: DPL: refactor ConfigParamRegistry to use C++20 by [@ktf](https://github.com/ktf)
+- [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13801](https://github.com/AliceO2Group/AliceO2/pull/13801) 2024-12-16: HybridGen/EventPool: small fixes, Add missing EventHeader propagation by [@sawenzel](https://github.com/sawenzel)
