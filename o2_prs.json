@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-12T21:21:21Z",
-            "title": "Fix string comparison",
-            "number": 13798,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-12T22:57:19Z",
-            "title": "DPL Analysis: add RNTuple arrow::Dataset support",
-            "number": 13761,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/RNTuplePlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Plugins.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/RootArrowFilesystem.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/RootArrowFilesystem.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/o2AO2DToAO3D.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Root2ArrowTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-13T08:10:21Z",
             "title": "Pythia8: write accepted/attempted",
             "number": 13797,
@@ -3566,6 +3481,81 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "C++20 related fixes",
+            "number": 13860,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CallbacksPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonMessageBackends.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: move TableConsumer support out of line in general",
+            "number": 13861,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
                   }
                 }
               ]
