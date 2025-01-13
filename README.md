@@ -50,6 +50,7 @@
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13781](https://github.com/AliceO2Group/AliceO2/pull/13781) 2024-12-17: Data model: add ITS shared clusters by [@ddobrigk](https://github.com/ddobrigk)
@@ -76,5 +77,6 @@
 - [\#13817](https://github.com/AliceO2Group/AliceO2/pull/13817) 2024-12-19: Make sure PrimaryGenerator is destructed by [@sawenzel](https://github.com/sawenzel)
 - [\#13824](https://github.com/AliceO2Group/AliceO2/pull/13824) 2024-12-20: Fix for subjob spawning with FIFOs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#13826](https://github.com/AliceO2Group/AliceO2/pull/13826) 2025-01-06: Fix the decay branch ratio of antihyperhelium4sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
