@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-12T17:51:30Z",
-            "title": "Optionally fill dphi-dtgl with N Sh.clusters in trackStudy",
-            "number": 13794,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/GlobalTrackingStudyLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackingStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-01T21:36:00Z",
             "title": "Fixes to propagate updates of GPU params (D.Rohr)",
             "number": 13757,
@@ -3516,6 +3486,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Replace is_bounded_array implementation with std:: one",
+            "number": 13856,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-01-10T23:59:40Z",
+            "title": "Drop unneeded regex",
+            "number": 13851,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/DeliveryType.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Optionally add time of FIT channels to AO2D",
             "number": 13857,
             "author": {
@@ -3551,8 +3561,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Replace is_bounded_array implementation with std:: one",
-            "number": 13856,
+            "title": "Fix  mac having a different representation for uint64_t",
+            "number": 13858,
             "author": {
               "login": "ktf"
             },
@@ -3560,27 +3570,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-10T23:59:40Z",
-            "title": "Drop unneeded regex",
-            "number": 13851,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DeliveryType.h"
+                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
                   }
                 }
               ]
