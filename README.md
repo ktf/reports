@@ -11,6 +11,7 @@
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13821](https://github.com/AliceO2Group/AliceO2/pull/13821) 2024-12-23: TPC: Multiple unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
+- [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13623](https://github.com/AliceO2Group/AliceO2/pull/13623) 2024-12-16: ZDC - Fixes to intercalibration, waveform extraction. New workflow to parse and analyze CTF data by [@cortesep](https://github.com/cortesep)
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
@@ -79,6 +80,7 @@
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13856](https://github.com/AliceO2Group/AliceO2/pull/13856) 2025-01-14: Replace is_bounded_array implementation with std:: one by [@ktf](https://github.com/ktf)
 - [\#13858](https://github.com/AliceO2Group/AliceO2/pull/13858) 2025-01-13: Fix  mac having a different representation for uint64_t by [@ktf](https://github.com/ktf)
+- [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 - [\#13862](https://github.com/AliceO2Group/AliceO2/pull/13862) 2025-01-14: DPL: add explicit implementation of unsigned long by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
