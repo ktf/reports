@@ -49,6 +49,7 @@
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13837](https://github.com/AliceO2Group/AliceO2/pull/13837) 2025-01-14: TPC: Update SCD interpolation parameters by [@wiechula](https://github.com/wiechula)
 - [\#13851](https://github.com/AliceO2Group/AliceO2/pull/13851) 2025-01-10: Drop unneeded regex by [@ktf](https://github.com/ktf)
+- [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
