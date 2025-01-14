@@ -75,6 +75,7 @@
 - [\#13849](https://github.com/AliceO2Group/AliceO2/pull/13849) 2025-01-10: DPL: improve calling of the termination hook by [@ktf](https://github.com/ktf)
 - [\#13850](https://github.com/AliceO2Group/AliceO2/pull/13850) 2025-01-11: DPL: refactor ConfigParamRegistry to use C++20 by [@ktf](https://github.com/ktf)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
+- [\#13856](https://github.com/AliceO2Group/AliceO2/pull/13856) 2025-01-14: Replace is_bounded_array implementation with std:: one by [@ktf](https://github.com/ktf)
 - [\#13858](https://github.com/AliceO2Group/AliceO2/pull/13858) 2025-01-13: Fix  mac having a different representation for uint64_t by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
