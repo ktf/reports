@@ -2,12 +2,10 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13781](https://github.com/AliceO2Group/AliceO2/pull/13781) 2024-12-17: Data model: add ITS shared clusters by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13818](https://github.com/AliceO2Group/AliceO2/pull/13818) 2024-12-19: DPL: improve handling of RNTuple by [@ktf](https://github.com/ktf)
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [\#13755](https://github.com/AliceO2Group/AliceO2/pull/13755) 2024-12-17: ORT GPU implementation by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13821](https://github.com/AliceO2Group/AliceO2/pull/13821) 2024-12-23: TPC: Multiple unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
@@ -26,7 +24,6 @@
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
-- [\#13809](https://github.com/AliceO2Group/AliceO2/pull/13809) 2024-12-17: O2-4592 - adding TOF LTIntegral to time series&skimmed data by [@miranov25](https://github.com/miranov25)
 - [\#13811](https://github.com/AliceO2Group/AliceO2/pull/13811) 2024-12-18: ThresholdCalibratorSpec.cxx: bug fix for VRESETD scan by [@iravasen](https://github.com/iravasen)
 - [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13815](https://github.com/AliceO2Group/AliceO2/pull/13815) 2024-12-19: Make tpc-time-series to accept track sources by [@shahor02](https://github.com/shahor02)
@@ -52,7 +49,6 @@
 ## Recent developments in O2 - Framework
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13781](https://github.com/AliceO2Group/AliceO2/pull/13781) 2024-12-17: Data model: add ITS shared clusters by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
 - [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13818](https://github.com/AliceO2Group/AliceO2/pull/13818) 2024-12-19: DPL: improve handling of RNTuple by [@ktf](https://github.com/ktf)
