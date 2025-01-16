@@ -70,6 +70,7 @@
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 - [\#13862](https://github.com/AliceO2Group/AliceO2/pull/13862) 2025-01-14: DPL: add explicit implementation of unsigned long by [@ktf](https://github.com/ktf)
 - [\#13863](https://github.com/AliceO2Group/AliceO2/pull/13863) 2025-01-15: DPL: improve HistogramRegistry.h by [@ktf](https://github.com/ktf)
+- [\#13867](https://github.com/AliceO2Group/AliceO2/pull/13867) 2025-01-16: DPL: add missing header on macOS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13742](https://github.com/AliceO2Group/AliceO2/pull/13742) 2024-12-19: Custom fifo name + jetscape usage example by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13817](https://github.com/AliceO2Group/AliceO2/pull/13817) 2024-12-19: Make sure PrimaryGenerator is destructed by [@sawenzel](https://github.com/sawenzel)
