@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13818](https://github.com/AliceO2Group/AliceO2/pull/13818) 2024-12-19: DPL: improve handling of RNTuple by [@ktf](https://github.com/ktf)
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
@@ -13,7 +12,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
-- [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13820](https://github.com/AliceO2Group/AliceO2/pull/13820) 2024-12-19: Revert "Revert "fix in track propagation to TOF for MC (#13784)"" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
@@ -24,8 +22,6 @@
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
-- [\#13811](https://github.com/AliceO2Group/AliceO2/pull/13811) 2024-12-18: ThresholdCalibratorSpec.cxx: bug fix for VRESETD scan by [@iravasen](https://github.com/iravasen)
-- [\#13814](https://github.com/AliceO2Group/AliceO2/pull/13814) 2024-12-18: Fix in CTPRunScalers::getRate by [@shahor02](https://github.com/shahor02)
 - [\#13815](https://github.com/AliceO2Group/AliceO2/pull/13815) 2024-12-19: Make tpc-time-series to accept track sources by [@shahor02](https://github.com/shahor02)
 - [\#13816](https://github.com/AliceO2Group/AliceO2/pull/13816) 2024-12-19: ITS::gpu: Update track selection logics to the state of the art by [@mconcas](https://github.com/mconcas)
 - [\#13819](https://github.com/AliceO2Group/AliceO2/pull/13819) 2024-12-19: Revert "fix in track propagation to TOF for MC (#13784)" by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -51,7 +47,6 @@
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
-- [\#13810](https://github.com/AliceO2Group/AliceO2/pull/13810) 2024-12-18: Data model: add extra information for run 2 evsel by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13818](https://github.com/AliceO2Group/AliceO2/pull/13818) 2024-12-19: DPL: improve handling of RNTuple by [@ktf](https://github.com/ktf)
 - [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13831](https://github.com/AliceO2Group/AliceO2/pull/13831) 2025-01-02: DPL: drop unneeded ScopedExit helper by [@ktf](https://github.com/ktf)
