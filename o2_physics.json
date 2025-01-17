@@ -6,31 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "[PWGLF] Fix amplitudes in flow tables",
-            "number": 9247,
-            "author": {
-              "login": "lbariogl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "[PWGDQ] Corrected histogram filling logic for cumulants analysis",
             "number": 9278,
             "author": {
@@ -2408,31 +2383,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Identified BF Quality checks for MC data",
-            "number": 9369,
-            "author": {
-              "login": "bghanley1995"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add non-recoed collisions in histograms",
             "number": 9370,
             "author": {
@@ -2473,31 +2423,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Added a filter to prevent track merging effects, based on the radial distance method",
-            "number": 9371,
-            "author": {
-              "login": "JStaa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Adding event selection to remove ITS deadtime",
             "number": 9318,
             "author": {
@@ -2513,6 +2438,66 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGEM] ClusterProducer: Final non-linearity added; SW trigger selection added",
+            "number": 9363,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/caloClusterProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosNonlin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosPi0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Identified BF Quality checks for MC data",
+            "number": 9369,
+            "author": {
+              "login": "bghanley1995"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/identifiedBfFilter.h"
                   }
                 }
               ]
@@ -2553,31 +2538,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGEM] ClusterProducer: Final non-linearity added; SW trigger selection added",
-            "number": 9363,
+            "title": "[PWGCF] Added a filter to prevent track merging effects, based on the radial distance method",
+            "number": 9371,
             "author": {
-              "login": "peressounko"
+              "login": "JStaa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/caloClusterProducer.cxx"
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] adjusted ft0 histograms and created new configurable axes",
+            "number": 9373,
+            "author": {
+              "login": "hernasab"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Tasks/phosNonlin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosPi0.cxx"
+                    "path": "PWGCF/Flow/Tasks/FlowZDCtask.cxx"
                   }
                 }
               ]
