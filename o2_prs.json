@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-12-18T09:58:16Z",
-            "title": "Data model: add extra information for run 2 evsel",
-            "number": 13810,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataTypes.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-17T09:28:37Z",
             "title": "O2-4592 - adding TOF LTIntegral to time series&skimmed data",
             "number": 13809,
@@ -3886,6 +3861,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[WIP] Define/use unbiased GPUTPCGeometry LinearY2PadC and LinearPad2YC",
+            "number": 13874,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletConstructor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -3916,26 +3921,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] Define/use unbiased GPUTPCGeometry LinearY2PadC and LinearPad2YC",
-            "number": 13874,
+            "title": "ITS3: Add metal stack and fix reco matrix",
+            "number": 13744,
             "author": {
-              "login": "shahor02"
+              "login": "f3sch"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
+                    "path": "Detectors/ITSMFT/ITS/base/src/GeometryTGeo.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletConstructor.cxx"
+                    "path": "Detectors/Upgrades/ITS3/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SegmentationSuperAlpide.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SpecsV2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/TestSensorGeometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/ITS3Layer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/ITS3Layer.cxx"
                   }
                 }
               ]
