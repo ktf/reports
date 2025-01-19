@@ -2,15 +2,12 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13821](https://github.com/AliceO2Group/AliceO2/pull/13821) 2024-12-23: TPC: Multiple unrelated updates by [@wiechula](https://github.com/wiechula)
-- [\#13827](https://github.com/AliceO2Group/AliceO2/pull/13827) 2024-12-20: o2sim: For consistency we take the eventcount from collcontext by [@sawenzel](https://github.com/sawenzel)
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
-- [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
@@ -18,10 +15,7 @@
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
 - [\#13821](https://github.com/AliceO2Group/AliceO2/pull/13821) 2024-12-23: TPC: Multiple unrelated updates by [@wiechula](https://github.com/wiechula)
-- [\#13822](https://github.com/AliceO2Group/AliceO2/pull/13822) 2024-12-20: ITS::gpu: Add processNeighbours GPU kernel and handler by [@mconcas](https://github.com/mconcas)
-- [\#13823](https://github.com/AliceO2Group/AliceO2/pull/13823) 2024-12-20: ITS: Improved memory usage for vresetd scan by [@iravasen](https://github.com/iravasen)
 - [\#13829](https://github.com/AliceO2Group/AliceO2/pull/13829) 2025-01-03: ITS/MFT decoder sends vector with certain errors details by [@shahor02](https://github.com/shahor02)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
@@ -39,8 +33,6 @@
 ## Recent developments in O2 - Framework
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13803](https://github.com/AliceO2Group/AliceO2/pull/13803) 2024-12-20: Use O2LongInt aliased to long int instead of int64_t in persistent ob… by [@shahor02](https://github.com/shahor02)
-- [\#13825](https://github.com/AliceO2Group/AliceO2/pull/13825) 2024-12-20: Data model: bump up run 2 table versions by [@ddobrigk](https://github.com/ddobrigk)
 - [\#13831](https://github.com/AliceO2Group/AliceO2/pull/13831) 2025-01-02: DPL: drop unneeded ScopedExit helper by [@ktf](https://github.com/ktf)
 - [\#13832](https://github.com/AliceO2Group/AliceO2/pull/13832) 2025-01-04: DPL: use requires rather than enable_if / static_assert by [@ktf](https://github.com/ktf)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
@@ -62,7 +54,6 @@
 - [\#13869](https://github.com/AliceO2Group/AliceO2/pull/13869) 2025-01-16: DPL Analysis: fix use-after-delete in expressions by [@aalkin](https://github.com/aalkin)
 - [\#13871](https://github.com/AliceO2Group/AliceO2/pull/13871) 2025-01-17: DPL: fix small leak when receiving WS messages from the driver by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#13824](https://github.com/AliceO2Group/AliceO2/pull/13824) 2024-12-20: Fix for subjob spawning with FIFOs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
