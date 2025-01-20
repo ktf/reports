@@ -11,6 +11,7 @@
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
+- [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
@@ -25,6 +26,7 @@
 - [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
 - [\#13866](https://github.com/AliceO2Group/AliceO2/pull/13866) 2025-01-17: #12395 Replaced kRainbow with kRainBow for consistency in PostTrackExtension macro by [@Yuvrajsinghspd09](https://github.com/Yuvrajsinghspd09)
 - [\#13870](https://github.com/AliceO2Group/AliceO2/pull/13870) 2025-01-16: Fix shared clusters calculation in TrackingStudy by [@shahor02](https://github.com/shahor02)
+- [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
