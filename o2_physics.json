@@ -2720,16 +2720,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Update PIDTOF.h",
-            "number": 9408,
+            "title": "[PWGCF] RBR weight fix",
+            "number": 9407,
             "author": {
-              "login": "njacazio"
+              "login": "EmilGorm"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/PID/PIDTOF.h"
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
                   }
                 }
               ]
@@ -2738,7 +2743,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Please consider the following formatting changes to #9408",
             "number": 9409,
@@ -2760,21 +2765,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] RBR weight fix",
-            "number": 9407,
+            "title": "[Common] kCSPEED -> o2::constants",
+            "number": 9408,
             "author": {
-              "login": "EmilGorm"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                    "path": "ALICE3/TableProducer/alice3-pidTOF.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                    "path": "Common/Core/PID/PIDTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/antidLambdaEbye.cxx"
                   }
                 }
               ]
