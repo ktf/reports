@@ -3109,291 +3109,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: Remove C++ <17 protections from GPU code",
-            "number": 13879,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonLogger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUParam.inc"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.cl"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUSettings.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGMPolynomialField.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUDefGPUParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPULogging.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/ITS/GPUITSFitterKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGlobalDebugSortKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCCreateOccupancyMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCCreateSliceData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCGlobalTracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCNeighboursCleaner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCNeighboursFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSectorDebugSortKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCStartHitsFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCStartHitsSorter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletConstructor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFChargeMapFiller.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDeconvolution.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFGather.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFMCLabelFlattener.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFNoiseSuppression.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFPeakFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFStreamCompaction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCConvert/GPUTPCConvertKernel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDGeometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/utils/qconfigrtc.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/utils/strtag.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline2D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline2DSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/SplineSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/devtools/IrregularSpline2D3D.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-20T18:17:55Z",
             "title": "Ctpdev: 3 things",
@@ -4179,41 +3894,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix GPUTPCGeometry LinearY2PadC and LinearPad2YC, define biased ones in GPUTPCCompressionTrackModel",
-            "number": 13874,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressionCore.inc"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-12-19T15:21:27Z",
             "title": "Make sure PrimaryGenerator is destructed",
@@ -4606,6 +4286,326 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Remove C++ <17 protections from GPU code",
+            "number": 13879,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonAlgorithm.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonLogger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.cl"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUSettings.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGMPolynomialField.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUDefGPUParameters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPULogging.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/ITS/GPUITSFitterKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGlobalDebugSortKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCCreateOccupancyMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCCreateSliceData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCGlobalTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCNeighboursCleaner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCNeighboursFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSectorDebugSortKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCStartHitsFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCStartHitsSorter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletConstructor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletSelector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFChargeMapFiller.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDeconvolution.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFGather.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFMCLabelFlattener.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFNoiseSuppression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFPeakFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFStreamCompaction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCConvert/GPUTPCConvertKernel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDGeometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/utils/qconfigrtc.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/utils/strtag.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline2D.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline2DSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/SplineSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/devtools/IrregularSpline2D3D.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix GPUTPCGeometry LinearY2PadC and LinearPad2YC, define biased ones in GPUTPCCompressionTrackModel",
+            "number": 13874,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressionCore.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
                   }
                 }
               ]
