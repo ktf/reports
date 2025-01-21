@@ -58,6 +58,7 @@
 - [\#13872](https://github.com/AliceO2Group/AliceO2/pull/13872) 2025-01-21: DPL: make `base_of_template`/`specialization_of_template` accept cr-qualified types by [@aalkin](https://github.com/aalkin)
 - [\#13877](https://github.com/AliceO2Group/AliceO2/pull/13877) 2025-01-20: DPL: Reduce some verbosity from FATAL to ERROR by [@davidrohr](https://github.com/davidrohr)
 - [\#13881](https://github.com/AliceO2Group/AliceO2/pull/13881) 2025-01-21: DPL Analysis: simplify the persist method with requirements by [@ktf](https://github.com/ktf)
+- [\#13882](https://github.com/AliceO2Group/AliceO2/pull/13882) 2025-01-21: DPL: Simplify persist further by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
