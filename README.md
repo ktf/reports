@@ -56,6 +56,7 @@
 - [\#13869](https://github.com/AliceO2Group/AliceO2/pull/13869) 2025-01-16: DPL Analysis: fix use-after-delete in expressions by [@aalkin](https://github.com/aalkin)
 - [\#13871](https://github.com/AliceO2Group/AliceO2/pull/13871) 2025-01-17: DPL: fix small leak when receiving WS messages from the driver by [@ktf](https://github.com/ktf)
 - [\#13877](https://github.com/AliceO2Group/AliceO2/pull/13877) 2025-01-20: DPL: Reduce some verbosity from FATAL to ERROR by [@davidrohr](https://github.com/davidrohr)
+- [\#13881](https://github.com/AliceO2Group/AliceO2/pull/13881) 2025-01-21: DPL Analysis: simplify the persist method with requirements by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
