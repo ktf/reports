@@ -1,11 +1,14 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
+- [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
