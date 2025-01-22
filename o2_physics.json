@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-20T12:23:56Z",
-            "title": "[Common,PWGEM] ClusterProducer: Final non-linearity added; SW trigger selection added",
-            "number": 9363,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/caloClusterProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosNonlin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosPi0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Please consider the following formatting changes to #9408",
@@ -3315,6 +3280,46 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetChargedV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adding the ability to store the leading constituent in the jet",
+            "number": 9457,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetSubstructure.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureHF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureHFOutput.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureOutput.cxx"
                   }
                 }
               ]
