@@ -2570,7 +2570,107 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Adding the possibility to run MCGen only for  HF derived data",
+            "title": "[PWGHF] Add Non Hfe selection task in HfeSelection task",
+            "number": 8443,
+            "author": {
+              "login": "rashigupt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGHF] Add BDT response to correlatorDMesonPairs",
+            "number": 9423,
+            "author": {
+              "login": "atavirag"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/DMesonPairsTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse cascade task -- implemented pair cleaner for cascade-cascade combination",
+            "number": 9449,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePairCleaner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add the possibility to run MC Gen only for HF derived data",
             "number": 9357,
             "author": {
               "login": "nzardosh"
@@ -2635,51 +2735,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add Non Hfe selection task in HfeSelection task",
-            "number": 8443,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] optimise binning in phi and pT",
             "number": 9448,
             "author": {
@@ -2690,61 +2745,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGHF] Add BDT response to correlatorDMesonPairs",
-            "number": 9423,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DMesonPairsTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse cascade task -- implemented pair cleaner for cascade-cascade combination",
-            "number": 9449,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePairCleaner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
                   }
                 }
               ]
