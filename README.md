@@ -64,6 +64,7 @@
 - [\#13882](https://github.com/AliceO2Group/AliceO2/pull/13882) 2025-01-21: DPL: Simplify persist further by [@ktf](https://github.com/ktf)
 - [\#13883](https://github.com/AliceO2Group/AliceO2/pull/13883) 2025-01-22: DPL Analysis: avoid calculating indexing columns by [@ktf](https://github.com/ktf)
 - [\#13888](https://github.com/AliceO2Group/AliceO2/pull/13888) 2025-01-22: DPL: drop obsolete communication method completely by [@ktf](https://github.com/ktf)
+- [\#13890](https://github.com/AliceO2Group/AliceO2/pull/13890) 2025-01-22: DPL: improve getIndexFromLabel by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
