@@ -75,6 +75,7 @@
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13893](https://github.com/AliceO2Group/AliceO2/pull/13893) 2025-01-23: Disable test_Generator_test_GeneratorPythia8Param by [@singiamtel](https://github.com/singiamtel)
 ## Recent developments in O2 - Steer
 - [\#13826](https://github.com/AliceO2Group/AliceO2/pull/13826) 2025-01-06: Fix the decay branch ratio of antihyperhelium4sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13887](https://github.com/AliceO2Group/AliceO2/pull/13887) 2025-01-22: CPV,PHS: code reduction and fix in digitization by [@sawenzel](https://github.com/sawenzel)
