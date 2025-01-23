@@ -4,6 +4,7 @@
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
+- [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
@@ -42,11 +43,13 @@
 - [\#13832](https://github.com/AliceO2Group/AliceO2/pull/13832) 2025-01-04: DPL: use requires rather than enable_if / static_assert by [@ktf](https://github.com/ktf)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 - [\#13836](https://github.com/AliceO2Group/AliceO2/pull/13836) 2025-01-06: DPL Analysis: move some of the `throw`s out of line by [@aalkin](https://github.com/aalkin)
+- [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
 - [\#13840](https://github.com/AliceO2Group/AliceO2/pull/13840) 2025-01-07: DPL: move a bunch of Variant helpers out of line by [@ktf](https://github.com/ktf)
 - [\#13841](https://github.com/AliceO2Group/AliceO2/pull/13841) 2025-01-08: DPL: remove bloat by [@ktf](https://github.com/ktf)
 - [\#13843](https://github.com/AliceO2Group/AliceO2/pull/13843) 2025-01-08: DPL: reduce bloat in runDataProcessing.h by [@ktf](https://github.com/ktf)
 - [\#13844](https://github.com/AliceO2Group/AliceO2/pull/13844) 2025-01-09: DPL: make DeviceMetricsHelper more robust by [@ktf](https://github.com/ktf)
 - [\#13846](https://github.com/AliceO2Group/AliceO2/pull/13846) 2025-01-09: DPL: hide more stuff from runDataProcessing.h by [@ktf](https://github.com/ktf)
+- [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
 - [\#13849](https://github.com/AliceO2Group/AliceO2/pull/13849) 2025-01-10: DPL: improve calling of the termination hook by [@ktf](https://github.com/ktf)
 - [\#13850](https://github.com/AliceO2Group/AliceO2/pull/13850) 2025-01-11: DPL: refactor ConfigParamRegistry to use C++20 by [@ktf](https://github.com/ktf)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
