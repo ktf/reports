@@ -720,41 +720,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Implementation of Hadronic Correction task",
-            "number": 9084,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/emcalClusterHadronicCorrectionTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectraPP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] PWGJE - new evt sel, new occupancyQA task",
             "number": 9434,
             "author": {
@@ -2743,26 +2708,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] personal task modification",
-            "number": 9469,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcTauCentralBarrelRL.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-23T14:42:42Z",
             "title": "[PWGHF] add B+ to MC validation task",
@@ -2898,41 +2843,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add competing rejection and KF preselect ion for Omegac0 -> Omega Pi analysis",
-            "number": 9390,
-            "author": {
-              "login": "FDUEnrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-23T15:23:47Z",
             "title": "[PWGHF] Add centrality information to Xic0",
@@ -2975,6 +2885,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Fixing bug introduced in moving McGen part of candidate creators to utility file",
+            "number": 9483,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorMcGen.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsMcGen.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] add MB gap event rejection for tracks and collisions",
             "number": 9484,
             "author": {
@@ -3005,31 +2950,86 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Fixing bug introduced in moving McGen part of candidate creators to utility file",
-            "number": 9483,
+            "title": "[PWGJE] Implementation of Hadronic Correction task",
+            "number": 9084,
             "author": {
-              "login": "nzardosh"
+              "login": "Archita-Dash"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                    "path": "PWGJE/DataModel/emcalClusterHadronicCorrectionTask.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorMcGen.cxx"
+                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Utils/utilsMcGen.h"
+                    "path": "PWGJE/Tasks/fullJetSpectraPP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add competing rejection and KF preselect ion for Omegac0 -> Omega Pi analysis",
+            "number": 9390,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] personal task modification",
+            "number": 9469,
+            "author": {
+              "login": "rolavick"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTauCentralBarrelRL.cxx"
                   }
                 }
               ]
