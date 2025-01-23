@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
+- [\#13876](https://github.com/AliceO2Group/AliceO2/pull/13876) 2025-01-23: QC-673: Merge TCanvases by [@justonedev1](https://github.com/justonedev1)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
@@ -77,3 +78,5 @@
 ## Recent developments in O2 - Steer
 - [\#13826](https://github.com/AliceO2Group/AliceO2/pull/13826) 2025-01-06: Fix the decay branch ratio of antihyperhelium4sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13887](https://github.com/AliceO2Group/AliceO2/pull/13887) 2025-01-22: CPV,PHS: code reduction and fix in digitization by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#13876](https://github.com/AliceO2Group/AliceO2/pull/13876) 2025-01-23: QC-673: Merge TCanvases by [@justonedev1](https://github.com/justonedev1)
