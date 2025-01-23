@@ -32,6 +32,8 @@
 - [\#13870](https://github.com/AliceO2Group/AliceO2/pull/13870) 2025-01-16: Fix shared clusters calculation in TrackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13884](https://github.com/AliceO2Group/AliceO2/pull/13884) 2025-01-21: Recover adjustOverriddenEOV call from the CCDBPopulator by [@shahor02](https://github.com/shahor02)
+- [\#13891](https://github.com/AliceO2Group/AliceO2/pull/13891) 2025-01-23: add TPC occupancy est. to SVStudy output by [@shahor02](https://github.com/shahor02)
+- [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
