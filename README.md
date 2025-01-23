@@ -83,3 +83,4 @@
 - [\#13887](https://github.com/AliceO2Group/AliceO2/pull/13887) 2025-01-22: CPV,PHS: code reduction and fix in digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#13876](https://github.com/AliceO2Group/AliceO2/pull/13876) 2025-01-23: QC-673: Merge TCanvases by [@justonedev1](https://github.com/justonedev1)
+- [\#13897](https://github.com/AliceO2Group/AliceO2/pull/13897) 2025-01-23: QC: add TCanvas into mergeable checks by [@justonedev1](https://github.com/justonedev1)
