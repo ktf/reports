@@ -4,111 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] updates on background subtraction methods",
-            "number": 9401,
-            "author": {
-              "login": "joonsukbae"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetSubtraction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/rhoEstimator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] MC analysis for MFT and dimuons",
-            "number": 9425,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] PWGJE - new evt sel, new occupancyQA task",
-            "number": 9434,
-            "author": {
-              "login": "aimeric-landou"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/luminosityCalculator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/luminosityProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/occupancyQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGHF] Add BDT response to correlatorDMesonPairs",
@@ -2911,6 +2806,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Remove unnecessary gen bkg histos and add configurable to fill or not reco bkg histos",
+            "number": 9506,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDplus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] ppCumRun2: Code for calculating efficiency and MC closure check",
+            "number": 9502,
+            "author": {
+              "login": "SwatiSaha-1997"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/NetProtonCumulantsMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] fix event matching for particle level weighted process function",
+            "number": 9507,
+            "author": {
+              "login": "jaimenorman"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add competing rejection and KF preselect ion for Omegac0 -> Omega Pi analysis",
             "number": 9390,
             "author": {
@@ -2944,23 +2909,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Remove unnecessary gen bkg histos and add configurable to fill or not reco bkg histos",
-            "number": 9506,
+            "state": "MERGED",
+            "mergedAt": "2025-01-24T15:06:26Z",
+            "title": "[PWGDQ] Adding muon-only option for filterpp-with-association",
+            "number": 9422,
             "author": {
-              "login": "fgrosa"
+              "login": "mcoquet642"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
+                    "path": "PWGDQ/Tasks/filterPPwithAssociation.cxx"
                   }
                 }
               ]
@@ -2969,18 +2929,23 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] fix event matching for particle level weighted process function",
-            "number": 9507,
+            "state": "MERGED",
+            "mergedAt": "2025-01-24T15:07:54Z",
+            "title": "[PWGDQ] MC analysis for MFT and dimuons",
+            "number": 9425,
             "author": {
-              "login": "jaimenorman"
+              "login": "mcoquet642"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
                   }
                 }
               ]
@@ -2989,23 +2954,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] ppCumRun2: Code for calculating efficiency and MC closure check",
-            "number": 9502,
+            "state": "MERGED",
+            "mergedAt": "2025-01-24T15:08:24Z",
+            "title": "[PWGDQ] Adding multiplicity correlation cut for flow studies",
+            "number": 9395,
             "author": {
-              "login": "SwatiSaha-1997"
+              "login": "mcoquet642"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/NetProtonCumulantsMC.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
                   }
                 }
               ]
