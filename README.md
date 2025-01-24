@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Analysis
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
+- [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
@@ -70,6 +71,7 @@
 - [\#13881](https://github.com/AliceO2Group/AliceO2/pull/13881) 2025-01-21: DPL Analysis: simplify the persist method with requirements by [@ktf](https://github.com/ktf)
 - [\#13882](https://github.com/AliceO2Group/AliceO2/pull/13882) 2025-01-21: DPL: Simplify persist further by [@ktf](https://github.com/ktf)
 - [\#13883](https://github.com/AliceO2Group/AliceO2/pull/13883) 2025-01-22: DPL Analysis: avoid calculating indexing columns by [@ktf](https://github.com/ktf)
+- [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 - [\#13888](https://github.com/AliceO2Group/AliceO2/pull/13888) 2025-01-22: DPL: drop obsolete communication method completely by [@ktf](https://github.com/ktf)
 - [\#13889](https://github.com/AliceO2Group/AliceO2/pull/13889) 2025-01-23: DPL Analysis: avoid base_of_template in concepts for column type identification by [@aalkin](https://github.com/aalkin)
 - [\#13890](https://github.com/AliceO2Group/AliceO2/pull/13890) 2025-01-22: DPL: improve getIndexFromLabel by [@ktf](https://github.com/ktf)
