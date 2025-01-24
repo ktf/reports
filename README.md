@@ -35,6 +35,7 @@
 - [\#13884](https://github.com/AliceO2Group/AliceO2/pull/13884) 2025-01-21: Recover adjustOverriddenEOV call from the CCDBPopulator by [@shahor02](https://github.com/shahor02)
 - [\#13891](https://github.com/AliceO2Group/AliceO2/pull/13891) 2025-01-23: add TPC occupancy est. to SVStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
+- [\#13898](https://github.com/AliceO2Group/AliceO2/pull/13898) 2025-01-24: ITS - Dead Map Workflow allows for saving single chips by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
