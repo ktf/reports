@@ -18,6 +18,7 @@
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
+- [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
 - [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
@@ -36,6 +37,7 @@
 - [\#13891](https://github.com/AliceO2Group/AliceO2/pull/13891) 2025-01-23: add TPC occupancy est. to SVStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
 - [\#13898](https://github.com/AliceO2Group/AliceO2/pull/13898) 2025-01-24: ITS - Dead Map Workflow allows for saving single chips by [@nicolovalle](https://github.com/nicolovalle)
+- [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
