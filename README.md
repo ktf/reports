@@ -38,6 +38,7 @@
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
 - [\#13898](https://github.com/AliceO2Group/AliceO2/pull/13898) 2025-01-24: ITS - Dead Map Workflow allows for saving single chips by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
+- [\#13900](https://github.com/AliceO2Group/AliceO2/pull/13900) 2025-01-26: Push CTF/SELIRFRAMES/0 even if run was not matched by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
