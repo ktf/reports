@@ -13,14 +13,12 @@
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-- [\#13730](https://github.com/AliceO2Group/AliceO2/pull/13730) 2025-01-02: ctprate by [@lietava](https://github.com/lietava)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13829](https://github.com/AliceO2Group/AliceO2/pull/13829) 2025-01-03: ITS/MFT decoder sends vector with certain errors details by [@shahor02](https://github.com/shahor02)
