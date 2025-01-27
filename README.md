@@ -46,7 +46,6 @@
 ## Recent developments in O2 - Framework
 - [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13831](https://github.com/AliceO2Group/AliceO2/pull/13831) 2025-01-02: DPL: drop unneeded ScopedExit helper by [@ktf](https://github.com/ktf)
 - [\#13832](https://github.com/AliceO2Group/AliceO2/pull/13832) 2025-01-04: DPL: use requires rather than enable_if / static_assert by [@ktf](https://github.com/ktf)
 - [\#13834](https://github.com/AliceO2Group/AliceO2/pull/13834) 2025-01-05: DPL: cleanup ServiceRegistry headers by [@ktf](https://github.com/ktf)
 - [\#13836](https://github.com/AliceO2Group/AliceO2/pull/13836) 2025-01-06: DPL Analysis: move some of the `throw`s out of line by [@aalkin](https://github.com/aalkin)
