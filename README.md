@@ -41,7 +41,6 @@
 - [\#13859](https://github.com/AliceO2Group/AliceO2/pull/13859) 2025-01-13: Update deep trigger example by [@sawenzel](https://github.com/sawenzel)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#13767](https://github.com/AliceO2Group/AliceO2/pull/13767) 2025-01-06: DPL: use constraints directly on arguments in place of requires by [@ktf](https://github.com/ktf)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
 - [\#13840](https://github.com/AliceO2Group/AliceO2/pull/13840) 2025-01-07: DPL: move a bunch of Variant helpers out of line by [@ktf](https://github.com/ktf)
