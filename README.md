@@ -35,6 +35,7 @@
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 - [\#13900](https://github.com/AliceO2Group/AliceO2/pull/13900) 2025-01-26: Push CTF/SELIRFRAMES/0 even if run was not matched by [@shahor02](https://github.com/shahor02)
 - [\#13903](https://github.com/AliceO2Group/AliceO2/pull/13903) 2025-01-28: Add termination for record writer to save record file correctly by [@Elros60](https://github.com/Elros60)
+- [\#13905](https://github.com/AliceO2Group/AliceO2/pull/13905) 2025-01-28: Add to matching debug info TPC inermost cl. row/pad by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
