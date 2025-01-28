@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-06T13:35:27Z",
-            "title": "fix in TOF sim digitization (decalibration), and add MC truth for QC …",
-            "number": 13830,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/src/Cluster.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/Digit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/Strip.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Digit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Strip.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-06T16:28:12Z",
             "title": "DPL Analysis: move some of the `throw`s out of line",
             "number": 13836,
@@ -4329,41 +4259,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: refactor Preslice; move some code out of line",
-            "number": 13901,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ASoA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-28T13:26:08Z",
             "title": "DPL Analysis: out of line HistogramRegistry population methods",
@@ -4441,6 +4336,61 @@
                 {
                   "node": {
                     "path": "doc/data/2025-01-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: refactor Preslice; move some code out of line",
+            "number": 13901,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DigitizationContext: Prevent a segfault in QED filling",
+            "number": 13908,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
                   }
                 }
               ]

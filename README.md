@@ -13,7 +13,6 @@
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
@@ -21,7 +20,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
-- [\#13830](https://github.com/AliceO2Group/AliceO2/pull/13830) 2025-01-06: fix in TOF sim digitization (decalibration), and add MC truth for QC … by [@noferini](https://github.com/noferini)
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13837](https://github.com/AliceO2Group/AliceO2/pull/13837) 2025-01-14: TPC: Update SCD interpolation parameters by [@wiechula](https://github.com/wiechula)
 - [\#13851](https://github.com/AliceO2Group/AliceO2/pull/13851) 2025-01-10: Drop unneeded regex by [@ktf](https://github.com/ktf)
