@@ -73,7 +73,9 @@
 - [\#13888](https://github.com/AliceO2Group/AliceO2/pull/13888) 2025-01-22: DPL: drop obsolete communication method completely by [@ktf](https://github.com/ktf)
 - [\#13889](https://github.com/AliceO2Group/AliceO2/pull/13889) 2025-01-23: DPL Analysis: avoid base_of_template in concepts for column type identification by [@aalkin](https://github.com/aalkin)
 - [\#13890](https://github.com/AliceO2Group/AliceO2/pull/13890) 2025-01-22: DPL: improve getIndexFromLabel by [@ktf](https://github.com/ktf)
+- [\#13892](https://github.com/AliceO2Group/AliceO2/pull/13892) 2025-01-28: DPL Analysis: remove unnecessary instances of selected_pack by [@aalkin](https://github.com/aalkin)
 - [\#13904](https://github.com/AliceO2Group/AliceO2/pull/13904) 2025-01-28: DPL: avoid asserting the workflow is empty by [@ktf](https://github.com/ktf)
+- [\#13906](https://github.com/AliceO2Group/AliceO2/pull/13906) 2025-01-28: DPL Analysis: out of line HistogramRegistry population methods by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
