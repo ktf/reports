@@ -18,6 +18,7 @@
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 - [\#13908](https://github.com/AliceO2Group/AliceO2/pull/13908) 2025-01-28: DigitizationContext: Prevent a segfault in QED filling by [@sawenzel](https://github.com/sawenzel)
+- [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
@@ -37,6 +38,7 @@
 - [\#13903](https://github.com/AliceO2Group/AliceO2/pull/13903) 2025-01-28: Add termination for record writer to save record file correctly by [@Elros60](https://github.com/Elros60)
 - [\#13905](https://github.com/AliceO2Group/AliceO2/pull/13905) 2025-01-28: Add to matching debug info TPC inermost cl. row/pad by [@shahor02](https://github.com/shahor02)
 - [\#13907](https://github.com/AliceO2Group/AliceO2/pull/13907) 2025-01-29: ITS-GPU: Cleanup for some host code by [@mconcas](https://github.com/mconcas)
+- [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
