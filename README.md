@@ -9,6 +9,7 @@
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 ## Recent developments in O2 - Common
 - [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
+- [\#13848](https://github.com/AliceO2Group/AliceO2/pull/13848) 2025-01-29: Common: LegendrePol fix flat index (signed flip) by [@f3sch](https://github.com/f3sch)
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
