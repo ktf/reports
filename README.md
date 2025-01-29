@@ -48,7 +48,6 @@
 ## Recent developments in O2 - Framework
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
-- [\#13840](https://github.com/AliceO2Group/AliceO2/pull/13840) 2025-01-07: DPL: move a bunch of Variant helpers out of line by [@ktf](https://github.com/ktf)
 - [\#13841](https://github.com/AliceO2Group/AliceO2/pull/13841) 2025-01-08: DPL: remove bloat by [@ktf](https://github.com/ktf)
 - [\#13843](https://github.com/AliceO2Group/AliceO2/pull/13843) 2025-01-08: DPL: reduce bloat in runDataProcessing.h by [@ktf](https://github.com/ktf)
 - [\#13844](https://github.com/AliceO2Group/AliceO2/pull/13844) 2025-01-09: DPL: make DeviceMetricsHelper more robust by [@ktf](https://github.com/ktf)
@@ -77,6 +76,7 @@
 - [\#13892](https://github.com/AliceO2Group/AliceO2/pull/13892) 2025-01-28: DPL Analysis: remove unnecessary instances of selected_pack by [@aalkin](https://github.com/aalkin)
 - [\#13904](https://github.com/AliceO2Group/AliceO2/pull/13904) 2025-01-28: DPL: avoid asserting the workflow is empty by [@ktf](https://github.com/ktf)
 - [\#13906](https://github.com/AliceO2Group/AliceO2/pull/13906) 2025-01-28: DPL Analysis: out of line HistogramRegistry population methods by [@ktf](https://github.com/ktf)
+- [\#13913](https://github.com/AliceO2Group/AliceO2/pull/13913) 2025-01-29: Revert "DPL Analysis: remove unnecessary instances of selected_pack" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
