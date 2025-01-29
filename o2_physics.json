@@ -2118,36 +2118,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add event selection options for Run2 and Run3 further cuts in collisionCuts",
-            "number": 9614,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/collisionCuts.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Net charge",
             "number": 9525,
             "author": {
@@ -2438,6 +2408,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] adjusted ft0 histos and added track selection",
+            "number": 9618,
+            "author": {
+              "login": "hernasab"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/FlowZDCtask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF,Trigger] Fix linter issues",
             "number": 9595,
             "author": {
@@ -2445,6 +2435,26 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterCharmHadronSignals.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateCreatorChic.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "PWGHF/ALICE3/TableProducer/candidateCreatorX.cxx"
@@ -2493,36 +2503,6 @@
                 {
                   "node": {
                     "path": "PWGHF/ALICE3/Tasks/taskChic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/ALICE3/Tasks/taskD0Alice3Barrel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/ALICE3/Tasks/taskD0Alice3Forward.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/ALICE3/Tasks/taskD0ParametrizedPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/ALICE3/Tasks/taskJpsi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/ALICE3/Tasks/taskLcAlice3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/ALICE3/Tasks/taskLcParametrizedPid.cxx"
                   }
                 },
                 {
@@ -2617,32 +2597,7 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDplus.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGHF/D2H/Tasks/taskDs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
                   }
                 },
                 {
@@ -2712,11 +2667,6 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
                   }
                 },
@@ -2742,27 +2692,7 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
                   }
                 },
                 {
@@ -2787,27 +2717,12 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGHF/TableProducer/candidateCreatorLb.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplusCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
                   }
                 },
                 {
@@ -2892,11 +2807,6 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/refitPvDummy.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 },
@@ -2922,27 +2832,27 @@
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Tasks/taskLcCentrality.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGHF/Tasks/taskMcEfficiency.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
+                    "path": "PWGHF/Utils/utilsAnalysis.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Tasks/taskSelOptimisation.cxx"
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Tutorials/ML/applyMlSelection.cxx"
+                    "path": "PWGHF/Utils/utilsMcGen.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsPid.h"
                   }
                 }
               ]
@@ -2953,16 +2863,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] adjusted ft0 histos and added track selection",
-            "number": 9618,
+            "title": "[PWGLF] Add event selection options for Run2 and Run3 further cuts in collisionCuts",
+            "number": 9614,
             "author": {
-              "login": "hernasab"
+              "login": "BongHwi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowZDCtask.cxx"
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/collisionCuts.h"
                   }
                 }
               ]
