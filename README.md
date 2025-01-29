@@ -11,6 +11,7 @@
 - [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#13848](https://github.com/AliceO2Group/AliceO2/pull/13848) 2025-01-29: Common: LegendrePol fix flat index (signed flip) by [@f3sch](https://github.com/f3sch)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
+- [\#13912](https://github.com/AliceO2Group/AliceO2/pull/13912) 2025-01-29: Move XRD debug settings to copy shell command by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
