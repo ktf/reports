@@ -14,6 +14,7 @@
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
+- [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
@@ -25,6 +26,7 @@
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13837](https://github.com/AliceO2Group/AliceO2/pull/13837) 2025-01-14: TPC: Update SCD interpolation parameters by [@wiechula](https://github.com/wiechula)
 - [\#13851](https://github.com/AliceO2Group/AliceO2/pull/13851) 2025-01-10: Drop unneeded regex by [@ktf](https://github.com/ktf)
+- [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
 - [\#13866](https://github.com/AliceO2Group/AliceO2/pull/13866) 2025-01-17: #12395 Replaced kRainbow with kRainBow for consistency in PostTrackExtension macro by [@Yuvrajsinghspd09](https://github.com/Yuvrajsinghspd09)
 - [\#13870](https://github.com/AliceO2Group/AliceO2/pull/13870) 2025-01-16: Fix shared clusters calculation in TrackingStudy by [@shahor02](https://github.com/shahor02)
