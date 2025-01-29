@@ -50,7 +50,6 @@
 ## Recent developments in O2 - Framework
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
-- [\#13841](https://github.com/AliceO2Group/AliceO2/pull/13841) 2025-01-08: DPL: remove bloat by [@ktf](https://github.com/ktf)
 - [\#13843](https://github.com/AliceO2Group/AliceO2/pull/13843) 2025-01-08: DPL: reduce bloat in runDataProcessing.h by [@ktf](https://github.com/ktf)
 - [\#13844](https://github.com/AliceO2Group/AliceO2/pull/13844) 2025-01-09: DPL: make DeviceMetricsHelper more robust by [@ktf](https://github.com/ktf)
 - [\#13846](https://github.com/AliceO2Group/AliceO2/pull/13846) 2025-01-09: DPL: hide more stuff from runDataProcessing.h by [@ktf](https://github.com/ktf)
