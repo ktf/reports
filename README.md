@@ -8,24 +8,20 @@
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 ## Recent developments in O2 - Common
-- [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
-- [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 - [\#13908](https://github.com/AliceO2Group/AliceO2/pull/13908) 2025-01-28: DigitizationContext: Prevent a segfault in QED filling by [@sawenzel](https://github.com/sawenzel)
 - [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13837](https://github.com/AliceO2Group/AliceO2/pull/13837) 2025-01-14: TPC: Update SCD interpolation parameters by [@wiechula](https://github.com/wiechula)
-- [\#13851](https://github.com/AliceO2Group/AliceO2/pull/13851) 2025-01-10: Drop unneeded regex by [@ktf](https://github.com/ktf)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
 - [\#13866](https://github.com/AliceO2Group/AliceO2/pull/13866) 2025-01-17: #12395 Replaced kRainbow with kRainBow for consistency in PostTrackExtension macro by [@Yuvrajsinghspd09](https://github.com/Yuvrajsinghspd09)
@@ -41,8 +37,6 @@
 - [\#13905](https://github.com/AliceO2Group/AliceO2/pull/13905) 2025-01-28: Add to matching debug info TPC inermost cl. row/pad by [@shahor02](https://github.com/shahor02)
 - [\#13907](https://github.com/AliceO2Group/AliceO2/pull/13907) 2025-01-29: ITS-GPU: Cleanup for some host code by [@mconcas](https://github.com/mconcas)
 - [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - EventVisualisation
-- [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13859](https://github.com/AliceO2Group/AliceO2/pull/13859) 2025-01-13: Update deep trigger example by [@sawenzel](https://github.com/sawenzel)
@@ -50,12 +44,7 @@
 ## Recent developments in O2 - Framework
 - [\#13780](https://github.com/AliceO2Group/AliceO2/pull/13780) 2025-01-13: Adding MFT covariances in AOD associated with global muon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
-- [\#13844](https://github.com/AliceO2Group/AliceO2/pull/13844) 2025-01-09: DPL: make DeviceMetricsHelper more robust by [@ktf](https://github.com/ktf)
-- [\#13846](https://github.com/AliceO2Group/AliceO2/pull/13846) 2025-01-09: DPL: hide more stuff from runDataProcessing.h by [@ktf](https://github.com/ktf)
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
-- [\#13849](https://github.com/AliceO2Group/AliceO2/pull/13849) 2025-01-10: DPL: improve calling of the termination hook by [@ktf](https://github.com/ktf)
-- [\#13850](https://github.com/AliceO2Group/AliceO2/pull/13850) 2025-01-11: DPL: refactor ConfigParamRegistry to use C++20 by [@ktf](https://github.com/ktf)
-- [\#13855](https://github.com/AliceO2Group/AliceO2/pull/13855) 2025-01-12: Get fmt 11.1.1 to compile by [@ktf](https://github.com/ktf)
 - [\#13856](https://github.com/AliceO2Group/AliceO2/pull/13856) 2025-01-14: Replace is_bounded_array implementation with std:: one by [@ktf](https://github.com/ktf)
 - [\#13858](https://github.com/AliceO2Group/AliceO2/pull/13858) 2025-01-13: Fix  mac having a different representation for uint64_t by [@ktf](https://github.com/ktf)
 - [\#13860](https://github.com/AliceO2Group/AliceO2/pull/13860) 2025-01-14: C++20 related fixes by [@ktf](https://github.com/ktf)

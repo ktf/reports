@@ -5,261 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-09T09:44:33Z",
-            "title": "DPL: make DeviceMetricsHelper more robust",
-            "number": 13844,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceMetricsHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceMetricsHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-09T10:08:17Z",
-            "title": "Common: Add flags enum helper class",
-            "number": 13778,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/EnumBitOperators.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/EnumFlags.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/test/testEnumFlags.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-09T14:24:52Z",
-            "title": "DPL: hide more stuff from runDataProcessing.h",
-            "number": 13846,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-10T03:02:24Z",
-            "title": "GPU: Fix copying of cluster data to GPU when not all processing steps are running on GPU",
-            "number": 13845,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingTransformation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-10T06:46:19Z",
-            "title": "DPL: improve calling of the termination hook",
-            "number": 13849,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-10T19:31:17Z",
-            "title": "GPU: Fix sector tracking running on CPU if in GPU mode",
-            "number": 13852,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingSliceTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-11T08:57:08Z",
-            "title": "DPL: refactor ConfigParamRegistry to use C++20",
-            "number": 13850,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Array2D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ConfigParamRegistry.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-12T08:07:59Z",
-            "title": "Get fmt 11.1.1 to compile",
-            "number": 13855,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/DataHeaderHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Formatters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ComputingQuotaEvaluator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-10T23:59:40Z",
-            "title": "Drop unneeded regex",
-            "number": 13851,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DeliveryType.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-13T13:06:02Z",
             "title": "Update deep trigger example",
             "number": 13859,
@@ -1501,51 +1246,6 @@
                 {
                   "node": {
                     "path": "Common/Utils/src/FileFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-19T15:21:27Z",
-            "title": "Make sure PrimaryGenerator is destructed",
-            "number": 13817,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/PrimaryGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-20T22:02:28Z",
-            "title": "o2sim: For consistency we take the eventcount from collcontext",
-            "number": 13827,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
                   }
                 }
               ]
@@ -4105,76 +3805,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-13T12:32:27Z",
-            "title": "Basic implementation of cocktail generation",
-            "number": 13838,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid/hybridconfig.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_cocktail/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_cocktail/hybridcocktail.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_cocktail/runo2sim.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-06T13:36:07Z",
-            "title": "Apply encoding to boxgen particles",
-            "number": 13828,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/BoxGenerator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-12-20T22:02:59Z",
             "title": "Fix for subjob spawning with FIFOs",
             "number": 13824,
@@ -4320,6 +3950,381 @@
         {
           "node": {
             "state": "MERGED",
+            "mergedAt": "2025-01-29T12:29:23Z",
+            "title": "DPL: drop duplicated code",
+            "number": 13914,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLMonitoringBackend.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-01-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-01-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-20T22:02:28Z",
+            "title": "o2sim: For consistency we take the eventcount from collcontext",
+            "number": 13827,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-19T15:21:27Z",
+            "title": "Make sure PrimaryGenerator is destructed",
+            "number": 13817,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/src/PrimaryGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-16T07:50:06Z",
+            "title": "HybridGen/EventPool: small fixes, Add missing EventHeader propagation",
+            "number": 13801,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/BoxGenerator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-12T11:59:02Z",
+            "title": "HybridGenerator: Asyncronous + parallel event generation",
+            "number": 13788,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_parallel/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_parallel/hybridconfig_extern_parallel.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_parallel/hybridconfig_parallel.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_parallel/run_extgen_parallel.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_parallel/run_parallel.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-05T18:05:02Z",
+            "title": "New event generator/wrapper facilitating event-pools",
+            "number": 13766,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromO2KineParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/test/test_GeneratorPythia8Param.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-26T07:40:54Z",
+            "title": "Ability to create configurable param from a given external struct",
+            "number": 13733,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8Param.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8Param.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/test/test_GeneratorPythia8Param.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-21T19:26:12Z",
+            "title": "Fix GeneratorPythia8 construction",
+            "number": 13722,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
             "mergedAt": "2025-01-23T09:57:15Z",
             "title": "Trigger implementation in hybrid generator",
             "number": 13873,
@@ -4375,17 +4380,277 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-29T12:29:23Z",
-            "title": "DPL: drop duplicated code",
-            "number": 13914,
+            "mergedAt": "2025-01-13T12:32:27Z",
+            "title": "Basic implementation of cocktail generation",
+            "number": 13838,
             "author": {
-              "login": "ktf"
+              "login": "jackal1-66"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/src/DPLMonitoringBackend.cxx"
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid/hybridconfig.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_cocktail/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_cocktail/hybridcocktail.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid_cocktail/runo2sim.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-01-06T13:36:07Z",
+            "title": "Apply encoding to boxgen particles",
+            "number": 13828,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/BoxGenerator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-05T18:03:02Z",
+            "title": "Fraction based randomisation for Hybrid Gen",
+            "number": 13745,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-22T06:44:06Z",
+            "title": "Fix for failing dataflow build",
+            "number": 13721,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-20T12:35:14Z",
+            "title": "Implementation of hybrid generator ",
+            "number": 13699,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/BoxGenerator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/BoxGunParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFileOrCmdParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHepMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHepMCParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8Param.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybridParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid/example.optns"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid/hybridconfig.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Hybrid/runo2sim.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
                   }
                 }
               ]
@@ -4396,26 +4661,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "DPL Analysis: remove selected_pack (fixed)",
+            "number": 13915,
             "author": {
-              "login": "github-actions"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Framework/Core/include/Framework/ASoA.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2025-01-o2_prs.json"
+                    "path": "Framework/Core/include/Framework/Configurable.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2025-01-o2_releases.json"
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
                   }
                 }
               ]
