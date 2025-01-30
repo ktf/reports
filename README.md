@@ -66,6 +66,8 @@
 - [\#13913](https://github.com/AliceO2Group/AliceO2/pull/13913) 2025-01-29: Revert "DPL Analysis: remove unnecessary instances of selected_pack" by [@ktf](https://github.com/ktf)
 - [\#13914](https://github.com/AliceO2Group/AliceO2/pull/13914) 2025-01-29: DPL: drop duplicated code by [@ktf](https://github.com/ktf)
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
+- [\#13918](https://github.com/AliceO2Group/AliceO2/pull/13918) 2025-01-30: Signpost for TableTreeHelpers by [@ktf](https://github.com/ktf)
+- [\#13919](https://github.com/AliceO2Group/AliceO2/pull/13919) 2025-01-30: DPL: optimise mapping between FairLogger and InfoLogger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
