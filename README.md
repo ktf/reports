@@ -5,6 +5,7 @@
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
+- [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
@@ -23,6 +24,7 @@
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
+- [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
 - [\#13866](https://github.com/AliceO2Group/AliceO2/pull/13866) 2025-01-17: #12395 Replaced kRainbow with kRainBow for consistency in PostTrackExtension macro by [@Yuvrajsinghspd09](https://github.com/Yuvrajsinghspd09)
 - [\#13870](https://github.com/AliceO2Group/AliceO2/pull/13870) 2025-01-16: Fix shared clusters calculation in TrackingStudy by [@shahor02](https://github.com/shahor02)
@@ -43,6 +45,7 @@
 ## Recent developments in O2 - Framework
 - [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
+- [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13862](https://github.com/AliceO2Group/AliceO2/pull/13862) 2025-01-14: DPL: add explicit implementation of unsigned long by [@ktf](https://github.com/ktf)
 - [\#13863](https://github.com/AliceO2Group/AliceO2/pull/13863) 2025-01-15: DPL: improve HistogramRegistry.h by [@ktf](https://github.com/ktf)
 - [\#13867](https://github.com/AliceO2Group/AliceO2/pull/13867) 2025-01-16: DPL: add missing header on macOS by [@ktf](https://github.com/ktf)
