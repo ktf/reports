@@ -28,8 +28,6 @@
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
-- [\#13866](https://github.com/AliceO2Group/AliceO2/pull/13866) 2025-01-17: #12395 Replaced kRainbow with kRainBow for consistency in PostTrackExtension macro by [@Yuvrajsinghspd09](https://github.com/Yuvrajsinghspd09)
-- [\#13870](https://github.com/AliceO2Group/AliceO2/pull/13870) 2025-01-16: Fix shared clusters calculation in TrackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13884](https://github.com/AliceO2Group/AliceO2/pull/13884) 2025-01-21: Recover adjustOverriddenEOV call from the CCDBPopulator by [@shahor02](https://github.com/shahor02)
 - [\#13891](https://github.com/AliceO2Group/AliceO2/pull/13891) 2025-01-23: add TPC occupancy est. to SVStudy output by [@shahor02](https://github.com/shahor02)
