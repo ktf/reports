@@ -22,6 +22,7 @@
 - [\#13908](https://github.com/AliceO2Group/AliceO2/pull/13908) 2025-01-28: DigitizationContext: Prevent a segfault in QED filling by [@sawenzel](https://github.com/sawenzel)
 - [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [\#13692](https://github.com/AliceO2Group/AliceO2/pull/13692) 2025-01-31: GLO: QC: Add 3d plot and widen eta cuts by [@f3sch](https://github.com/f3sch)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
