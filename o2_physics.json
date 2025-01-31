@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-28T15:37:47Z",
-            "title": "[PWGLF] Update NucleiEfficiencyTask.cxx",
-            "number": 9569,
-            "author": {
-              "login": "RafRaf11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/NucleiEfficiencyTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-28T15:40:30Z",
             "title": "[PWGCF] FemtoUniverse - producer and D0 task update (ML)",
             "number": 9562,
@@ -734,51 +714,6 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/PID/ITS/qaPIDITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] PWGJE - new evt sel, new occupancyQA task",
-            "number": 9434,
-            "author": {
-              "login": "aimeric-landou"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/luminosityCalculator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/luminosityProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/occupancyQA.cxx"
                   }
                 }
               ]
@@ -2157,26 +2092,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] To fix MCP about weight",
-            "number": 9587,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-30T18:35:03Z",
             "title": "[PWGJE] Fix: Subscribe to aod::JetTracks in processDataChargedSubstructure",
@@ -2756,8 +2671,33 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2025-01-30T12:48:00Z",
+            "title": "[PWGCF] Net charge",
+            "number": 9525,
+            "author": {
+              "login": "nidamalikk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-01-31T10:15:35Z",
             "title": "[PWGLF] fix KF particle path subscription (V0sLinked)",
             "number": 9646,
             "author": {
@@ -2801,23 +2741,93 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-30T12:48:00Z",
-            "title": "[PWGCF] Net charge",
-            "number": 9525,
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGJE] PWGJE - new evt sel, new occupancyQA task",
+            "number": 9434,
             "author": {
-              "login": "nidamalikk"
+              "login": "aimeric-landou"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/luminosityCalculator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/luminosityProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/occupancyQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding McGenOnly process function to list checked by derived data cre…",
+            "number": 9648,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorBplusToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorD0ToKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorLcToPKPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] To fix MCP about weight",
+            "number": 9587,
+            "author": {
+              "login": "hanseopark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
                   }
                 }
               ]
