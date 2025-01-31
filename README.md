@@ -48,7 +48,6 @@
 - [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13867](https://github.com/AliceO2Group/AliceO2/pull/13867) 2025-01-16: DPL: add missing header on macOS by [@ktf](https://github.com/ktf)
 - [\#13869](https://github.com/AliceO2Group/AliceO2/pull/13869) 2025-01-16: DPL Analysis: fix use-after-delete in expressions by [@aalkin](https://github.com/aalkin)
 - [\#13871](https://github.com/AliceO2Group/AliceO2/pull/13871) 2025-01-17: DPL: fix small leak when receiving WS messages from the driver by [@ktf](https://github.com/ktf)
 - [\#13872](https://github.com/AliceO2Group/AliceO2/pull/13872) 2025-01-21: DPL: make `base_of_template`/`specialization_of_template` accept cr-qualified types by [@aalkin](https://github.com/aalkin)
