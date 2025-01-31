@@ -10,25 +10,19 @@
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
-- [\#13812](https://github.com/AliceO2Group/AliceO2/pull/13812) 2025-01-21: report filenames for xrootd debug output in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#13848](https://github.com/AliceO2Group/AliceO2/pull/13848) 2025-01-29: Common: LegendrePol fix flat index (signed flip) by [@f3sch](https://github.com/f3sch)
 - [\#13879](https://github.com/AliceO2Group/AliceO2/pull/13879) 2025-01-22: GPU: Remove C++ <17 protections from GPU code by [@davidrohr](https://github.com/davidrohr)
 - [\#13912](https://github.com/AliceO2Group/AliceO2/pull/13912) 2025-01-29: Move XRD debug settings to copy shell command by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#13842](https://github.com/AliceO2Group/AliceO2/pull/13842) 2025-01-09: Check presence of hit files before adding to TChain by [@sawenzel](https://github.com/sawenzel)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
-- [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 - [\#13908](https://github.com/AliceO2Group/AliceO2/pull/13908) 2025-01-28: DigitizationContext: Prevent a segfault in QED filling by [@sawenzel](https://github.com/sawenzel)
 - [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13692](https://github.com/AliceO2Group/AliceO2/pull/13692) 2025-01-31: GLO: QC: Add 3d plot and widen eta cuts by [@f3sch](https://github.com/f3sch)
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
-- [\#13835](https://github.com/AliceO2Group/AliceO2/pull/13835) 2025-01-06: Ctpdev: irframes by [@lietava](https://github.com/lietava)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13864](https://github.com/AliceO2Group/AliceO2/pull/13864) 2025-01-14: Protection against null CTPClass::descriptor in CTP digitizer by [@shahor02](https://github.com/shahor02)
-- [\#13875](https://github.com/AliceO2Group/AliceO2/pull/13875) 2025-01-20: Ctpdev: 3 things by [@lietava](https://github.com/lietava)
 - [\#13884](https://github.com/AliceO2Group/AliceO2/pull/13884) 2025-01-21: Recover adjustOverriddenEOV call from the CCDBPopulator by [@shahor02](https://github.com/shahor02)
 - [\#13891](https://github.com/AliceO2Group/AliceO2/pull/13891) 2025-01-23: add TPC occupancy est. to SVStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
@@ -48,9 +42,6 @@
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13871](https://github.com/AliceO2Group/AliceO2/pull/13871) 2025-01-17: DPL: fix small leak when receiving WS messages from the driver by [@ktf](https://github.com/ktf)
-- [\#13872](https://github.com/AliceO2Group/AliceO2/pull/13872) 2025-01-21: DPL: make `base_of_template`/`specialization_of_template` accept cr-qualified types by [@aalkin](https://github.com/aalkin)
-- [\#13881](https://github.com/AliceO2Group/AliceO2/pull/13881) 2025-01-21: DPL Analysis: simplify the persist method with requirements by [@ktf](https://github.com/ktf)
-- [\#13882](https://github.com/AliceO2Group/AliceO2/pull/13882) 2025-01-21: DPL: Simplify persist further by [@ktf](https://github.com/ktf)
 - [\#13883](https://github.com/AliceO2Group/AliceO2/pull/13883) 2025-01-22: DPL Analysis: avoid calculating indexing columns by [@ktf](https://github.com/ktf)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 - [\#13888](https://github.com/AliceO2Group/AliceO2/pull/13888) 2025-01-22: DPL: drop obsolete communication method completely by [@ktf](https://github.com/ktf)
@@ -70,7 +61,6 @@
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13893](https://github.com/AliceO2Group/AliceO2/pull/13893) 2025-01-23: Disable test_Generator_test_GeneratorPythia8Param by [@singiamtel](https://github.com/singiamtel)
 ## Recent developments in O2 - Steer
-- [\#13826](https://github.com/AliceO2Group/AliceO2/pull/13826) 2025-01-06: Fix the decay branch ratio of antihyperhelium4sigma by [@wang-yuanzhe](https://github.com/wang-yuanzhe)
 - [\#13887](https://github.com/AliceO2Group/AliceO2/pull/13887) 2025-01-22: CPV,PHS: code reduction and fix in digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#13876](https://github.com/AliceO2Group/AliceO2/pull/13876) 2025-01-23: QC-673: Merge TCanvases by [@justonedev1](https://github.com/justonedev1)
