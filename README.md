@@ -49,7 +49,6 @@
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13871](https://github.com/AliceO2Group/AliceO2/pull/13871) 2025-01-17: DPL: fix small leak when receiving WS messages from the driver by [@ktf](https://github.com/ktf)
 - [\#13872](https://github.com/AliceO2Group/AliceO2/pull/13872) 2025-01-21: DPL: make `base_of_template`/`specialization_of_template` accept cr-qualified types by [@aalkin](https://github.com/aalkin)
-- [\#13877](https://github.com/AliceO2Group/AliceO2/pull/13877) 2025-01-20: DPL: Reduce some verbosity from FATAL to ERROR by [@davidrohr](https://github.com/davidrohr)
 - [\#13881](https://github.com/AliceO2Group/AliceO2/pull/13881) 2025-01-21: DPL Analysis: simplify the persist method with requirements by [@ktf](https://github.com/ktf)
 - [\#13882](https://github.com/AliceO2Group/AliceO2/pull/13882) 2025-01-21: DPL: Simplify persist further by [@ktf](https://github.com/ktf)
 - [\#13883](https://github.com/AliceO2Group/AliceO2/pull/13883) 2025-01-22: DPL Analysis: avoid calculating indexing columns by [@ktf](https://github.com/ktf)
