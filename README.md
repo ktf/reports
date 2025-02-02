@@ -40,7 +40,6 @@
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 - [\#13889](https://github.com/AliceO2Group/AliceO2/pull/13889) 2025-01-23: DPL Analysis: avoid base_of_template in concepts for column type identification by [@aalkin](https://github.com/aalkin)
-- [\#13890](https://github.com/AliceO2Group/AliceO2/pull/13890) 2025-01-22: DPL: improve getIndexFromLabel by [@ktf](https://github.com/ktf)
 - [\#13892](https://github.com/AliceO2Group/AliceO2/pull/13892) 2025-01-28: DPL Analysis: remove unnecessary instances of selected_pack by [@aalkin](https://github.com/aalkin)
 - [\#13904](https://github.com/AliceO2Group/AliceO2/pull/13904) 2025-01-28: DPL: avoid asserting the workflow is empty by [@ktf](https://github.com/ktf)
 - [\#13906](https://github.com/AliceO2Group/AliceO2/pull/13906) 2025-01-28: DPL Analysis: out of line HistogramRegistry population methods by [@ktf](https://github.com/ktf)
