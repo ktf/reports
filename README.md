@@ -35,7 +35,6 @@
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#13839](https://github.com/AliceO2Group/AliceO2/pull/13839) 2025-01-23: DPL Analysis: Refactor group slicer by [@aalkin](https://github.com/aalkin)
 - [\#13847](https://github.com/AliceO2Group/AliceO2/pull/13847) 2025-01-23: DPL Analysis: refactor inputsFromArgs, update concepts by [@aalkin](https://github.com/aalkin)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
