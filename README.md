@@ -19,7 +19,6 @@
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13891](https://github.com/AliceO2Group/AliceO2/pull/13891) 2025-01-23: add TPC occupancy est. to SVStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
 - [\#13898](https://github.com/AliceO2Group/AliceO2/pull/13898) 2025-01-24: ITS - Dead Map Workflow allows for saving single chips by [@nicolovalle](https://github.com/nicolovalle)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
