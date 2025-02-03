@@ -4,6 +4,7 @@
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
+- [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13848](https://github.com/AliceO2Group/AliceO2/pull/13848) 2025-01-29: Common: LegendrePol fix flat index (signed flip) by [@f3sch](https://github.com/f3sch)
@@ -43,6 +44,7 @@
 - [\#13918](https://github.com/AliceO2Group/AliceO2/pull/13918) 2025-01-30: Signpost for TableTreeHelpers by [@ktf](https://github.com/ktf)
 - [\#13919](https://github.com/AliceO2Group/AliceO2/pull/13919) 2025-01-30: DPL: optimise mapping between FairLogger and InfoLogger by [@ktf](https://github.com/ktf)
 - [\#13920](https://github.com/AliceO2Group/AliceO2/pull/13920) 2025-02-03: DPL Analysis: improve error message on wrong index dereference by [@aalkin](https://github.com/aalkin)
+- [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13828](https://github.com/AliceO2Group/AliceO2/pull/13828) 2025-01-06: Apply encoding to boxgen particles by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
