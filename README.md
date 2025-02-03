@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#13876](https://github.com/AliceO2Group/AliceO2/pull/13876) 2025-01-23: QC-673: Merge TCanvases by [@justonedev1](https://github.com/justonedev1)
 ## Recent developments in O2 - Analysis
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13885](https://github.com/AliceO2Group/AliceO2/pull/13885) 2025-01-24: Propagate list of tables also in case of derived data by [@glromane](https://github.com/glromane)
@@ -51,5 +49,4 @@
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13893](https://github.com/AliceO2Group/AliceO2/pull/13893) 2025-01-23: Disable test_Generator_test_GeneratorPythia8Param by [@singiamtel](https://github.com/singiamtel)
 ## Recent developments in O2 - Utilities
-- [\#13876](https://github.com/AliceO2Group/AliceO2/pull/13876) 2025-01-23: QC-673: Merge TCanvases by [@justonedev1](https://github.com/justonedev1)
 - [\#13897](https://github.com/AliceO2Group/AliceO2/pull/13897) 2025-01-23: QC: add TCanvas into mergeable checks by [@justonedev1](https://github.com/justonedev1)
