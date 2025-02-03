@@ -9,6 +9,7 @@
 - [\#13778](https://github.com/AliceO2Group/AliceO2/pull/13778) 2025-01-09: Common: Add flags enum helper class by [@f3sch](https://github.com/f3sch)
 - [\#13848](https://github.com/AliceO2Group/AliceO2/pull/13848) 2025-01-29: Common: LegendrePol fix flat index (signed flip) by [@f3sch](https://github.com/f3sch)
 - [\#13912](https://github.com/AliceO2Group/AliceO2/pull/13912) 2025-01-29: Move XRD debug settings to copy shell command by [@shahor02](https://github.com/shahor02)
+- [\#13925](https://github.com/AliceO2Group/AliceO2/pull/13925) 2025-02-03: Enhance DCAFitterN::print, allow resetting log throttlers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
