@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-01T11:14:03Z",
-            "title": "[PWGLF] Add process function to calculate eventplane dependent matching efficiency for phi meson flow measurement",
-            "number": 9676,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/highmasslambda.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phipbpb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-01T14:30:10Z",
             "title": "[PWGLF] K892PM Flow - Optimise the binning and remove unused variables",
             "number": 9677,
@@ -2765,7 +2740,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] added new correlation process",
             "number": 9751,
@@ -2776,7 +2751,37 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/FlowZDCtask.cxx"
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] adjusted cmake and task for o2 linter and added correlations",
+            "number": 9752,
+            "author": {
+              "login": "hernasab"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
                   }
                 }
               ]
