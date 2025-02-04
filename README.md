@@ -47,3 +47,4 @@
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13916](https://github.com/AliceO2Group/AliceO2/pull/13916) 2025-02-04: Expand trigger macro variable in hybrid by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13936](https://github.com/AliceO2Group/AliceO2/pull/13936) 2025-02-04: Added static variable for number of events in Generator by [@jackal1-66](https://github.com/jackal1-66)

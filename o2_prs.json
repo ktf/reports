@@ -4526,6 +4526,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "TPC: Implement usage of CCDB Redirect",
+            "number": 13923,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CDBTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/DeadChannelMapCreator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/FEEConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/CDBInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/DeadChannelMapCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/FEEConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/dcs/src/DCSConfigSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplayGUI.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowTPC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-04T20:11:04Z",
             "title": "Added static variable for number of events in Generator",
             "number": 13936,
             "author": {
@@ -4600,207 +4670,12 @@
                 },
                 {
                   "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOFReco.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowIO/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/BoxGenerator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/PrimaryGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "doc/data/2025-02-o2_prs.json"
                   }
                 },
                 {
                   "node": {
                     "path": "doc/data/2025-02-o2_releases.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid/hybridconfig.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_cocktail/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_cocktail/hybridcocktail.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_cocktail/runo2sim.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: Implement usage of CCDB Redirect",
-            "number": 13923,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CDBTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/DeadChannelMapCreator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/FEEConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/CDBInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/DeadChannelMapCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/FEEConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/dcs/src/DCSConfigSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplayGUI.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowTPC.cxx"
                   }
                 }
               ]
