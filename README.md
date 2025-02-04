@@ -12,7 +12,6 @@
 - [\#13926](https://github.com/AliceO2Group/AliceO2/pull/13926) 2025-02-04: GPU: Remove obsolete code paths by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
-- [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 - [\#13908](https://github.com/AliceO2Group/AliceO2/pull/13908) 2025-01-28: DigitizationContext: Prevent a segfault in QED filling by [@sawenzel](https://github.com/sawenzel)
 - [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -21,7 +20,6 @@
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
-- [\#13899](https://github.com/AliceO2Group/AliceO2/pull/13899) 2025-01-25: ITS-GPU: finalise processNeighbours porting by [@mconcas](https://github.com/mconcas)
 - [\#13900](https://github.com/AliceO2Group/AliceO2/pull/13900) 2025-01-26: Push CTF/SELIRFRAMES/0 even if run was not matched by [@shahor02](https://github.com/shahor02)
 - [\#13903](https://github.com/AliceO2Group/AliceO2/pull/13903) 2025-01-28: Add termination for record writer to save record file correctly by [@Elros60](https://github.com/Elros60)
 - [\#13905](https://github.com/AliceO2Group/AliceO2/pull/13905) 2025-01-28: Add to matching debug info TPC inermost cl. row/pad by [@shahor02](https://github.com/shahor02)
