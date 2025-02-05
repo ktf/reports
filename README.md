@@ -27,6 +27,7 @@
 - [\#13923](https://github.com/AliceO2Group/AliceO2/pull/13923) 2025-02-04: TPC: Implement usage of CCDB Redirect by [@wiechula](https://github.com/wiechula)
 - [\#13927](https://github.com/AliceO2Group/AliceO2/pull/13927) 2025-02-04: MCH: cosmetic changes to detector mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13935](https://github.com/AliceO2Group/AliceO2/pull/13935) 2025-02-04: Add more configurables to alignment workflow by [@Elros60](https://github.com/Elros60)
+- [\#13940](https://github.com/AliceO2Group/AliceO2/pull/13940) 2025-02-05: TPC timeseries requiring ft0 info as mandatory by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Examples
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
