@@ -34,7 +34,6 @@
 ## Recent developments in O2 - Framework
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13892](https://github.com/AliceO2Group/AliceO2/pull/13892) 2025-01-28: DPL Analysis: remove unnecessary instances of selected_pack by [@aalkin](https://github.com/aalkin)
-- [\#13904](https://github.com/AliceO2Group/AliceO2/pull/13904) 2025-01-28: DPL: avoid asserting the workflow is empty by [@ktf](https://github.com/ktf)
 - [\#13906](https://github.com/AliceO2Group/AliceO2/pull/13906) 2025-01-28: DPL Analysis: out of line HistogramRegistry population methods by [@ktf](https://github.com/ktf)
 - [\#13913](https://github.com/AliceO2Group/AliceO2/pull/13913) 2025-01-29: Revert "DPL Analysis: remove unnecessary instances of selected_pack" by [@ktf](https://github.com/ktf)
 - [\#13914](https://github.com/AliceO2Group/AliceO2/pull/13914) 2025-01-29: DPL: drop duplicated code by [@ktf](https://github.com/ktf)
