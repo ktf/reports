@@ -41,6 +41,7 @@
 - [\#13919](https://github.com/AliceO2Group/AliceO2/pull/13919) 2025-01-30: DPL: optimise mapping between FairLogger and InfoLogger by [@ktf](https://github.com/ktf)
 - [\#13920](https://github.com/AliceO2Group/AliceO2/pull/13920) 2025-02-03: DPL Analysis: improve error message on wrong index dereference by [@aalkin](https://github.com/aalkin)
 - [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
+- [\#13942](https://github.com/AliceO2Group/AliceO2/pull/13942) 2025-02-05: aod-merger treats Zombie files like missing ones by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
