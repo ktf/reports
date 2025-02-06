@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-28T17:16:01Z",
-            "title": "DigitizationContext: Prevent a segfault in QED filling",
-            "number": 13908,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-28T23:53:11Z",
             "title": "Add to matching debug info TPC inermost cl. row/pad",
             "number": 13905,
@@ -4776,6 +4756,36 @@
                 {
                   "node": {
                     "path": "Framework/AODMerger/src/aodMerger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: avoid instantiating crc_table as a static",
+            "number": 13944,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StringHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StringHelpers.cxx"
                   }
                 }
               ]
