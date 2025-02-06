@@ -19,7 +19,6 @@
 - [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
-- [\#13905](https://github.com/AliceO2Group/AliceO2/pull/13905) 2025-01-28: Add to matching debug info TPC inermost cl. row/pad by [@shahor02](https://github.com/shahor02)
 - [\#13907](https://github.com/AliceO2Group/AliceO2/pull/13907) 2025-01-29: ITS-GPU: Cleanup for some host code by [@mconcas](https://github.com/mconcas)
 - [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
