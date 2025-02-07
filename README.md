@@ -29,7 +29,6 @@
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13892](https://github.com/AliceO2Group/AliceO2/pull/13892) 2025-01-28: DPL Analysis: remove unnecessary instances of selected_pack by [@aalkin](https://github.com/aalkin)
 - [\#13913](https://github.com/AliceO2Group/AliceO2/pull/13913) 2025-01-29: Revert "DPL Analysis: remove unnecessary instances of selected_pack" by [@ktf](https://github.com/ktf)
 - [\#13914](https://github.com/AliceO2Group/AliceO2/pull/13914) 2025-01-29: DPL: drop duplicated code by [@ktf](https://github.com/ktf)
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
