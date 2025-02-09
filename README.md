@@ -10,11 +10,9 @@
 - [\#13925](https://github.com/AliceO2Group/AliceO2/pull/13925) 2025-02-03: Enhance DCAFitterN::print, allow resetting log throttlers by [@shahor02](https://github.com/shahor02)
 - [\#13926](https://github.com/AliceO2Group/AliceO2/pull/13926) 2025-02-04: GPU: Remove obsolete code paths by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#13692](https://github.com/AliceO2Group/AliceO2/pull/13692) 2025-01-31: GLO: QC: Add 3d plot and widen eta cuts by [@f3sch](https://github.com/f3sch)
-- [\#13853](https://github.com/AliceO2Group/AliceO2/pull/13853) 2025-01-29: improve TOF infos in TPCtimeseries by [@noferini](https://github.com/noferini)
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#13896](https://github.com/AliceO2Group/AliceO2/pull/13896) 2025-01-23: Base: allow to create alignment for individual detectors other than ITS by [@f3sch](https://github.com/f3sch)
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
