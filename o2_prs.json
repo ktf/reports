@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[WIP] Fix on destructors not being called by o2sim",
-            "number": 13769,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFactory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorTParticle.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/o2sim.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-01-29T12:29:23Z",
             "title": "DPL: drop duplicated code",
@@ -4771,6 +4706,106 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable",
+            "number": 13953,
+            "author": {
+              "login": "Cas1997"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/include/Alice3DetectorsPassive/Pipe.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Pipe.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/TRKBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKPetalCase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKPetalDisk.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKPetalLayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKPetalCase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKPetalDisk.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKPetalLayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
                   }
                 }
               ]
