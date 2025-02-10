@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-20T22:02:59Z",
-            "title": "Fix for subjob spawning with FIFOs",
-            "number": 13824,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Basic implementation of cocktail generation",
@@ -4796,6 +4766,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] new option to print the status map content",
+            "number": 13951,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Status/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Status/src/statusmap-to-rejectlist.cxx"
                   }
                 }
               ]
