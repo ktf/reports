@@ -12,6 +12,7 @@
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
+- [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#13692](https://github.com/AliceO2Group/AliceO2/pull/13692) 2025-01-31: GLO: QC: Add 3d plot and widen eta cuts by [@f3sch](https://github.com/f3sch)
 - [\#13772](https://github.com/AliceO2Group/AliceO2/pull/13772) 2025-02-11: [FOCAL-100] Porting the beam pipe for run 4 (around FOCAL) by [@hahassan7](https://github.com/hahassan7)
@@ -27,6 +28,7 @@
 - [\#13949](https://github.com/AliceO2Group/AliceO2/pull/13949) 2025-02-10: store distance of the innermost pad from the sector edge by [@shahor02](https://github.com/shahor02)
 - [\#13951](https://github.com/AliceO2Group/AliceO2/pull/13951) 2025-02-11: [MCH] new option to print the status map content by [@pillot](https://github.com/pillot)
 - [\#13954](https://github.com/AliceO2Group/AliceO2/pull/13954) 2025-02-11: Fix storing TPC occupancy in the SVStudy output by [@shahor02](https://github.com/shahor02)
+- [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
