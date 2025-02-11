@@ -28,7 +28,6 @@
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
-- [\#13914](https://github.com/AliceO2Group/AliceO2/pull/13914) 2025-01-29: DPL: drop duplicated code by [@ktf](https://github.com/ktf)
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
 - [\#13918](https://github.com/AliceO2Group/AliceO2/pull/13918) 2025-01-30: Signpost for TableTreeHelpers by [@ktf](https://github.com/ktf)
 - [\#13919](https://github.com/AliceO2Group/AliceO2/pull/13919) 2025-01-30: DPL: optimise mapping between FairLogger and InfoLogger by [@ktf](https://github.com/ktf)
