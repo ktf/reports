@@ -3874,26 +3874,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Added particle f2(1270) in the O2Database accroding to PDG 2024",
-            "number": 13928,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-02-09T16:13:08Z",
             "title": "ctpdev: lumi per run added to fetcher",
@@ -4166,26 +4146,6 @@
                 {
                   "node": {
                     "path": "run/o2simdefaultdetectorlist.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix storing TPC occupancy in the SVStudy output",
-            "number": 13954,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/SVStudy.cxx"
                   }
                 }
               ]
@@ -4701,6 +4661,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "PrimaryGen: More consistent vertex configuration",
+            "number": 13955,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/PrimaryGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable",
             "number": 13953,
             "author": {
@@ -4801,31 +4796,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PrimaryGen: More consistent vertex configuration",
-            "number": 13955,
+            "title": "Added particle f2(1270) in the O2Database accroding to PDG 2024",
+            "number": 13928,
             "author": {
-              "login": "sawenzel"
+              "login": "sawankumawat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix storing TPC occupancy in the SVStudy output",
+            "number": 13954,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/PrimaryGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/SVStudy.cxx"
                   }
                 }
               ]
