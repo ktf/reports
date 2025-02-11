@@ -9,6 +9,7 @@
 - [\#13912](https://github.com/AliceO2Group/AliceO2/pull/13912) 2025-01-29: Move XRD debug settings to copy shell command by [@shahor02](https://github.com/shahor02)
 - [\#13925](https://github.com/AliceO2Group/AliceO2/pull/13925) 2025-02-03: Enhance DCAFitterN::print, allow resetting log throttlers by [@shahor02](https://github.com/shahor02)
 - [\#13926](https://github.com/AliceO2Group/AliceO2/pull/13926) 2025-02-04: GPU: Remove obsolete code paths by [@davidrohr](https://github.com/davidrohr)
+- [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
@@ -42,3 +43,4 @@
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13916](https://github.com/AliceO2Group/AliceO2/pull/13916) 2025-02-04: Expand trigger macro variable in hybrid by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13936](https://github.com/AliceO2Group/AliceO2/pull/13936) 2025-02-04: Added static variable for number of events in Generator by [@jackal1-66](https://github.com/jackal1-66)
+- [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
