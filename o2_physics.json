@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-07T12:44:18Z",
-            "title": "Please consider the following formatting changes to #9811",
-            "number": 9812,
-            "author": {
-              "login": "alibuild"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-07T12:46:41Z",
             "title": "[PWGDQ,Trigger] Proposal for the electron-muon pp trigger",
             "number": 9769,
@@ -2408,6 +2388,46 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-11T21:38:19Z",
+            "title": "[PWGLF] toggle pile-up cuts for pp analysis",
+            "number": 9893,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-11T22:16:23Z",
+            "title": "[PWGLF] Updated task for generated MC",
+            "number": 9892,
+            "author": {
+              "login": "tutripat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/dndeta-mft-pp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] MC process functions + dcaXY selection",
@@ -2443,38 +2463,68 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-11T21:38:19Z",
-            "title": "[PWGLF] toggle pile-up cuts for pp analysis",
-            "number": 9893,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] FT0C occupancy added to DQ code.",
+            "number": 9760,
             "author": {
-              "login": "maciacco"
+              "login": "sjzhu0v0"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-11T22:16:23Z",
-            "title": "[PWGLF] Updated task for generated MC",
-            "number": 9892,
-            "author": {
-              "login": "tutripat"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/dndeta-mft-pp.cxx"
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/ModelConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
                   }
                 }
               ]
