@@ -23,6 +23,7 @@
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 - [\#13948](https://github.com/AliceO2Group/AliceO2/pull/13948) 2025-02-07: TPC: Remove access of obsolete meta data by [@wiechula](https://github.com/wiechula)
 - [\#13949](https://github.com/AliceO2Group/AliceO2/pull/13949) 2025-02-10: store distance of the innermost pad from the sector edge by [@shahor02](https://github.com/shahor02)
+- [\#13951](https://github.com/AliceO2Group/AliceO2/pull/13951) 2025-02-11: [MCH] new option to print the status map content by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Examples
 - [\#13838](https://github.com/AliceO2Group/AliceO2/pull/13838) 2025-01-13: Basic implementation of cocktail generation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
