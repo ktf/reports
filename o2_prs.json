@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-21T19:26:12Z",
-            "title": "Fix GeneratorPythia8 construction",
-            "number": 13722,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorPythia8.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-01-23T09:57:15Z",
-            "title": "Trigger implementation in hybrid generator",
-            "number": 13873,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_trigger/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_trigger/hybridconfig.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_trigger/runo2sim.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid_trigger/trigger.macro"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-13T12:32:27Z",
             "title": "Basic implementation of cocktail generation",
             "number": 13838,
@@ -4085,41 +4005,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-11T14:08:15Z",
-            "title": "PrimaryGen: More consistent vertex configuration",
-            "number": 13955,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/PrimaryGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-30T14:56:43Z",
             "title": "Dev staggered geo",
             "number": 13910,
@@ -4826,6 +4711,136 @@
                 {
                   "node": {
                     "path": "Framework/AODMerger/src/aodMerger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-02T15:45:54Z",
+            "title": "TPC: Optimising scaling of distortions in MC",
+            "number": 13547,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/SpaceCharge.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-20T12:32:18Z",
+            "title": "TPC: adding MC ccdb objects for simulation and reconstruction",
+            "number": 13700,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CDBTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterGEM.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterGas.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/gpu-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TPCDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-11T14:08:15Z",
+            "title": "PrimaryGen: More consistent vertex configuration",
+            "number": 13955,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/PrimaryGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
                   }
                 }
               ]
