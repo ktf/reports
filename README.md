@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
+- [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
 - [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -33,6 +34,7 @@
 - [\#13873](https://github.com/AliceO2Group/AliceO2/pull/13873) 2025-01-23: Trigger implementation in hybrid generator by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13857](https://github.com/AliceO2Group/AliceO2/pull/13857) 2025-01-30: Optionally add time of FIT channels to AO2D by [@mpuccio](https://github.com/mpuccio)
+- [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13917](https://github.com/AliceO2Group/AliceO2/pull/13917) 2025-01-30: DPL: implement distinction between physical and dataset schema by [@ktf](https://github.com/ktf)
 - [\#13918](https://github.com/AliceO2Group/AliceO2/pull/13918) 2025-01-30: Signpost for TableTreeHelpers by [@ktf](https://github.com/ktf)
 - [\#13919](https://github.com/AliceO2Group/AliceO2/pull/13919) 2025-01-30: DPL: optimise mapping between FairLogger and InfoLogger by [@ktf](https://github.com/ktf)
