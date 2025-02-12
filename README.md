@@ -22,6 +22,7 @@
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13923](https://github.com/AliceO2Group/AliceO2/pull/13923) 2025-02-04: TPC: Implement usage of CCDB Redirect by [@wiechula](https://github.com/wiechula)
 - [\#13927](https://github.com/AliceO2Group/AliceO2/pull/13927) 2025-02-04: MCH: cosmetic changes to detector mapping by [@aferrero2707](https://github.com/aferrero2707)
+- [\#13934](https://github.com/AliceO2Group/AliceO2/pull/13934) 2025-02-12: GLOQC: revert changes to mc histos by [@f3sch](https://github.com/f3sch)
 - [\#13935](https://github.com/AliceO2Group/AliceO2/pull/13935) 2025-02-04: Add more configurables to alignment workflow by [@Elros60](https://github.com/Elros60)
 - [\#13940](https://github.com/AliceO2Group/AliceO2/pull/13940) 2025-02-05: TPC timeseries requiring ft0 info as mandatory by [@noferini](https://github.com/noferini)
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
