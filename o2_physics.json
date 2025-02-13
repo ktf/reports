@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-11T07:56:34Z",
-            "title": "[Common,PWGEM] Fix data nonlinearity; add pi0 single histos",
-            "number": 9846,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/caloClusterProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosPi0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-10T17:11:53Z",
-            "title": "[PWGEM/Dilepton] add a task for MC truth",
-            "number": 9842,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/studyMCTruth.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-11T09:41:58Z",
-            "title": "[PWGEM/Dilepton] update MC study",
-            "number": 9865,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/studyMCTruth.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-11T11:04:05Z",
-            "title": "[PWGLF] matching efficiency study extended to eta and phi",
-            "number": 9869,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/lfITSTPCMatchingSecondaryTracksQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-11T12:08:48Z",
             "title": "[Common] centrality / minor changes for modular operation",
             "number": 9867,
@@ -2274,26 +2184,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Seperating k7INT7 and kINT7",
-            "number": 9935,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Few additions for hypertriton 3-body decay reconstruction KFParticle",
             "number": 9927,
             "author": {
@@ -2379,6 +2269,126 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/bjetTaggingGNN.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-13T10:05:42Z",
+            "title": "[PWGJE] Seperating k7INT7 and kINT7",
+            "number": 9935,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] adding qa plots",
+            "number": 9941,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-07-31T15:42:56Z",
+            "title": "PWGHF: Add OmegaC0 workflows that use KFParticle",
+            "number": 6327,
+            "author": {
+              "login": "Yunfan-Liu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-15T08:42:20Z",
+            "title": "PWGHF: Adding a MC process for Omegac0ToOmegaPi KF table in treeCreator ",
+            "number": 7301,
+            "author": {
+              "login": "Yunfan-Liu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-04T07:55:54Z",
+            "title": "[PWGHF] Fixing the decay length calculation using the KFParticle in the Omegac0 reconstruction.",
+            "number": 8284,
+            "author": {
+              "login": "Yunfan-Liu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
                   }
                 }
               ]
