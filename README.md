@@ -7,7 +7,6 @@
 - [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#13848](https://github.com/AliceO2Group/AliceO2/pull/13848) 2025-01-29: Common: LegendrePol fix flat index (signed flip) by [@f3sch](https://github.com/f3sch)
 - [\#13912](https://github.com/AliceO2Group/AliceO2/pull/13912) 2025-01-29: Move XRD debug settings to copy shell command by [@shahor02](https://github.com/shahor02)
 - [\#13925](https://github.com/AliceO2Group/AliceO2/pull/13925) 2025-02-03: Enhance DCAFitterN::print, allow resetting log throttlers by [@shahor02](https://github.com/shahor02)
 - [\#13926](https://github.com/AliceO2Group/AliceO2/pull/13926) 2025-02-04: GPU: Remove obsolete code paths by [@davidrohr](https://github.com/davidrohr)

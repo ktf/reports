@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-01-29T14:06:15Z",
-            "title": "Common: LegendrePol fix flat index (signed flip)",
-            "number": 13848,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/LegendrePols.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-12-16T13:03:50Z",
-            "title": "Str: Silence predicted chi2 calculation",
-            "number": 13776,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrizationWithError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/src/StrangenessTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-01-23T19:58:12Z",
             "title": "Base: allow to create alignment for individual detectors other than ITS",
             "number": 13896,
@@ -4701,6 +4656,101 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/qc/src/TPCQCLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add simple helper to reproduce the calibration workflow",
+            "number": 13965,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/scripts/mock-calibration.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/scripts/mock-flp.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2SimpleProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2SimpleSource.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/raw-proxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: immediately switch sources (e.g. readout-proxies) to end of stream",
+            "number": 13966,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/scripts/mock-calibration.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/scripts/mock-flp.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2SimpleProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2SimpleSource.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/raw-proxy.cxx"
                   }
                 }
               ]
