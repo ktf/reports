@@ -3869,56 +3869,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: immediately switch sources (e.g. readout-proxies) to end of stream",
-            "number": 13966,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/scripts/mock-calibration.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/scripts/mock-flp.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2SimpleProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2SimpleSource.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/src/raw-proxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-02-14T15:59:58Z",
             "title": "Allow using FST_TMUX_DD_WAIT in start_tmux.sh script again",
@@ -4476,6 +4426,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: correctly handle data-processing-timeouts in sources",
+            "number": 13966,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
