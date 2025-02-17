@@ -43,3 +43,4 @@
 - [\#13936](https://github.com/AliceO2Group/AliceO2/pull/13936) 2025-02-04: Added static variable for number of events in Generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13950](https://github.com/AliceO2Group/AliceO2/pull/13950) 2025-02-12: DPL Analysis: avoid leaking analysis task abstractions by [@aalkin](https://github.com/aalkin)
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
+- [\#13975](https://github.com/AliceO2Group/AliceO2/pull/13975) 2025-02-17: Fix mother and daughter indices in generator cocktails by [@sawenzel](https://github.com/sawenzel)
