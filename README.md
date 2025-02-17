@@ -42,6 +42,7 @@
 - [\#13920](https://github.com/AliceO2Group/AliceO2/pull/13920) 2025-02-03: DPL Analysis: improve error message on wrong index dereference by [@aalkin](https://github.com/aalkin)
 - [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
 - [\#13942](https://github.com/AliceO2Group/AliceO2/pull/13942) 2025-02-05: aod-merger treats Zombie files like missing ones by [@shahor02](https://github.com/shahor02)
+- [\#13961](https://github.com/AliceO2Group/AliceO2/pull/13961) 2025-02-17: DPL Analysis: fix corner case in index builder algorithm by [@aalkin](https://github.com/aalkin)
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13965](https://github.com/AliceO2Group/AliceO2/pull/13965) 2025-02-14: DPL: add simple helper to reproduce the calibration workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
