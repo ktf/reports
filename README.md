@@ -32,7 +32,6 @@
 ## Recent developments in O2 - Framework
 - [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13918](https://github.com/AliceO2Group/AliceO2/pull/13918) 2025-01-30: Signpost for TableTreeHelpers by [@ktf](https://github.com/ktf)
-- [\#13919](https://github.com/AliceO2Group/AliceO2/pull/13919) 2025-01-30: DPL: optimise mapping between FairLogger and InfoLogger by [@ktf](https://github.com/ktf)
 - [\#13920](https://github.com/AliceO2Group/AliceO2/pull/13920) 2025-02-03: DPL Analysis: improve error message on wrong index dereference by [@aalkin](https://github.com/aalkin)
 - [\#13931](https://github.com/AliceO2Group/AliceO2/pull/13931) 2025-02-03: DPL Analysis: move ownership of payloads to the fragment by [@ktf](https://github.com/ktf)
 - [\#13942](https://github.com/AliceO2Group/AliceO2/pull/13942) 2025-02-05: aod-merger treats Zombie files like missing ones by [@shahor02](https://github.com/shahor02)
