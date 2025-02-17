@@ -27,6 +27,7 @@
 - [\#13951](https://github.com/AliceO2Group/AliceO2/pull/13951) 2025-02-11: [MCH] new option to print the status map content by [@pillot](https://github.com/pillot)
 - [\#13954](https://github.com/AliceO2Group/AliceO2/pull/13954) 2025-02-11: Fix storing TPC occupancy in the SVStudy output by [@shahor02](https://github.com/shahor02)
 - [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
+- [\#13968](https://github.com/AliceO2Group/AliceO2/pull/13968) 2025-02-17: Modify CA async opts, possible set from config.param by [@shahor02](https://github.com/shahor02)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13970](https://github.com/AliceO2Group/AliceO2/pull/13970) 2025-02-17: PVfinder can accept AB tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
