@@ -12,7 +12,6 @@
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 - [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#13692](https://github.com/AliceO2Group/AliceO2/pull/13692) 2025-01-31: GLO: QC: Add 3d plot and widen eta cuts by [@f3sch](https://github.com/f3sch)
 - [\#13772](https://github.com/AliceO2Group/AliceO2/pull/13772) 2025-02-11: [FOCAL-100] Porting the beam pipe for run 4 (around FOCAL) by [@hahassan7](https://github.com/hahassan7)
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13911](https://github.com/AliceO2Group/AliceO2/pull/13911) 2025-02-12: MUON: use track time in global muon matching by [@aferrero2707](https://github.com/aferrero2707)
