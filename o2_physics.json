@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-16T11:30:18Z",
-            "title": "[PWGLF] bug fix: adjusted eta range for jet selection",
-            "number": 9989,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-15T16:47:02Z",
-            "title": "[PWGLF] added selection of events used for EP calibration",
-            "number": 9984,
-            "author": {
-              "login": "chiarapinto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[Common] Further changes to QA task",
@@ -2861,6 +2821,71 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/treeCreatorOmegacToOmegaPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add Non-HFE Selection and Correlation with Hadron",
+            "number": 10064,
+            "author": {
+              "login": "rashigupt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Study of nContribs per ITSROFs vs nCollisions per ITSROF",
+            "number": 10065,
+            "author": {
+              "login": "rolavick"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcEventITSROFcounter.cxx"
                   }
                 }
               ]
