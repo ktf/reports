@@ -30,6 +30,7 @@
 - [\#13968](https://github.com/AliceO2Group/AliceO2/pull/13968) 2025-02-17: Modify CA async opts, possible set from config.param by [@shahor02](https://github.com/shahor02)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13970](https://github.com/AliceO2Group/AliceO2/pull/13970) 2025-02-17: PVfinder can accept AB tracks by [@shahor02](https://github.com/shahor02)
+- [\#13982](https://github.com/AliceO2Group/AliceO2/pull/13982) 2025-02-20: CTP RAW decoder always requests CCDB inputs by [@shahor02](https://github.com/shahor02)
 - [\#13983](https://github.com/AliceO2Group/AliceO2/pull/13983) 2025-02-20: [MCH] fix wire position on station 1 by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
 - [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
