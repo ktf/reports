@@ -32,6 +32,7 @@
 - [\#13970](https://github.com/AliceO2Group/AliceO2/pull/13970) 2025-02-17: PVfinder can accept AB tracks by [@shahor02](https://github.com/shahor02)
 - [\#13982](https://github.com/AliceO2Group/AliceO2/pull/13982) 2025-02-20: CTP RAW decoder always requests CCDB inputs by [@shahor02](https://github.com/shahor02)
 - [\#13983](https://github.com/AliceO2Group/AliceO2/pull/13983) 2025-02-20: [MCH] fix wire position on station 1 by [@pillot](https://github.com/pillot)
+- [\#13987](https://github.com/AliceO2Group/AliceO2/pull/13987) 2025-02-20: Fix for PV contributor being AB track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13920](https://github.com/AliceO2Group/AliceO2/pull/13920) 2025-02-03: DPL Analysis: improve error message on wrong index dereference by [@aalkin](https://github.com/aalkin)
