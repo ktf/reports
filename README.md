@@ -14,6 +14,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 - [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
+- [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#13772](https://github.com/AliceO2Group/AliceO2/pull/13772) 2025-02-11: [FOCAL-100] Porting the beam pipe for run 4 (around FOCAL) by [@hahassan7](https://github.com/hahassan7)
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
@@ -35,6 +36,7 @@
 - [\#13982](https://github.com/AliceO2Group/AliceO2/pull/13982) 2025-02-20: CTP RAW decoder always requests CCDB inputs by [@shahor02](https://github.com/shahor02)
 - [\#13983](https://github.com/AliceO2Group/AliceO2/pull/13983) 2025-02-20: [MCH] fix wire position on station 1 by [@pillot](https://github.com/pillot)
 - [\#13987](https://github.com/AliceO2Group/AliceO2/pull/13987) 2025-02-20: Fix for PV contributor being AB track by [@shahor02](https://github.com/shahor02)
+- [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 - [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13920](https://github.com/AliceO2Group/AliceO2/pull/13920) 2025-02-03: DPL Analysis: improve error message on wrong index dereference by [@aalkin](https://github.com/aalkin)
