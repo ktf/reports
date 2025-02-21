@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-18T20:16:47Z",
-            "title": "[DPG] Update qaEfficiency.cxx",
-            "number": 10057,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-18T20:24:50Z",
             "title": "[PWGCF] flowPtEfficiency: add pT-Nch; flowTask: remove group NUA ",
             "number": 10044,
@@ -2674,26 +2654,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] nuclei-proton correlation analysis: fix rejection of final state protons ",
-            "number": 10121,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF,Trigger] Add p-p-rho trigger. Fix bugs in configs.",
             "number": 10109,
             "author": {
@@ -2734,16 +2694,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] fixing bug in mcGenOnly Configuration of candidate creator",
-            "number": 10123,
+            "title": "[PWGLF] Fix EM of hypertriton 3body DCAFitter analysis",
+            "number": 10122,
             "author": {
-              "login": "nzardosh"
+              "login": "wang-yuanzhe"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorMcGen.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
                   }
                 }
               ]
@@ -2772,18 +2732,63 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix EM of hypertriton 3body DCAFitter analysis",
-            "number": 10122,
+            "state": "MERGED",
+            "mergedAt": "2025-02-21T11:00:07Z",
+            "title": "[PWGLF] nuclei-proton correlation analysis: fix rejection of final state protons ",
+            "number": 10121,
             "author": {
-              "login": "wang-yuanzhe"
+              "login": "ercolessi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Refactor + allow non-tracked cascades",
+            "number": 10125,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix McParticles slicing in candidateCreatorMcGen",
+            "number": 10123,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorMcGen.cxx"
                   }
                 }
               ]
