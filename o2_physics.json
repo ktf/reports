@@ -1526,36 +1526,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add table with ML outputs for reco MC",
-            "number": 10063,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure] Bump MegaLinter to v8.4.2",
             "number": 10102,
             "author": {
@@ -2752,6 +2722,66 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-21T16:53:56Z",
+            "title": "[PWGLF] Explicitly set minpt for phi and k0s in GenMC",
+            "number": 10130,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add table with ML outputs for reco MC",
+            "number": 10063,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorMcGen.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsMcGen.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF,PWGHF] FemtoDream: Fixes in the Cascade Selection and Seperation of Producer",
@@ -2869,26 +2899,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-21T16:53:56Z",
-            "title": "[PWGLF] Explicitly set minpt for phi and k0s in GenMC",
-            "number": 10130,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
                   }
                 }
               ]
