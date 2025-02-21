@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-10-07T12:03:21Z",
-            "title": "Fix compilation issue in AggregatedRunInfo",
-            "number": 13564,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/AggregatedRunInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/ParametersDataLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-10-10T11:56:53Z",
-            "title": "Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit",
-            "number": 13580,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-10-11T06:41:13Z",
             "title": "Ship GRPECS as part of AggregatedRunInfo; cleanup",
             "number": 13584,
@@ -4136,6 +4081,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/EmptyFragment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Framework: adapt deprecated boost function to new method",
+            "number": 13994,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/DataInspector/src/DISocket.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS Efficiency study: modified cuts and code cleanup",
+            "number": 13995,
+            "author": {
+              "login": "atriolo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/Efficiency.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/Efficiency.cxx"
                   }
                 }
               ]
