@@ -13,11 +13,14 @@
 - [\#13926](https://github.com/AliceO2Group/AliceO2/pull/13926) 2025-02-04: GPU: Remove obsolete code paths by [@davidrohr](https://github.com/davidrohr)
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
+- [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 - [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#13772](https://github.com/AliceO2Group/AliceO2/pull/13772) 2025-02-11: [FOCAL-100] Porting the beam pipe for run 4 (around FOCAL) by [@hahassan7](https://github.com/hahassan7)
+- [\#13900](https://github.com/AliceO2Group/AliceO2/pull/13900) 2025-01-26: Push CTF/SELIRFRAMES/0 even if run was not matched by [@shahor02](https://github.com/shahor02)
+- [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13911](https://github.com/AliceO2Group/AliceO2/pull/13911) 2025-02-12: MUON: use track time in global muon matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13923](https://github.com/AliceO2Group/AliceO2/pull/13923) 2025-02-04: TPC: Implement usage of CCDB Redirect by [@wiechula](https://github.com/wiechula)
