@@ -6,6 +6,7 @@
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
+- [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13925](https://github.com/AliceO2Group/AliceO2/pull/13925) 2025-02-03: Enhance DCAFitterN::print, allow resetting log throttlers by [@shahor02](https://github.com/shahor02)
 - [\#13926](https://github.com/AliceO2Group/AliceO2/pull/13926) 2025-02-04: GPU: Remove obsolete code paths by [@davidrohr](https://github.com/davidrohr)
@@ -44,6 +45,7 @@
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13965](https://github.com/AliceO2Group/AliceO2/pull/13965) 2025-02-14: DPL: add simple helper to reproduce the calibration workflow by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
+- [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#13916](https://github.com/AliceO2Group/AliceO2/pull/13916) 2025-02-04: Expand trigger macro variable in hybrid by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13936](https://github.com/AliceO2Group/AliceO2/pull/13936) 2025-02-04: Added static variable for number of events in Generator by [@jackal1-66](https://github.com/jackal1-66)
