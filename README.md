@@ -23,6 +23,7 @@
 - [\#13921](https://github.com/AliceO2Group/AliceO2/pull/13921) 2025-02-25: MCH: fix for the DE600 electronics mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13923](https://github.com/AliceO2Group/AliceO2/pull/13923) 2025-02-04: TPC: Implement usage of CCDB Redirect by [@wiechula](https://github.com/wiechula)
 - [\#13924](https://github.com/AliceO2Group/AliceO2/pull/13924) 2025-02-25: MCH: introduce digit modifier in filtering workflow by [@aferrero2707](https://github.com/aferrero2707)
+- [\#13927](https://github.com/AliceO2Group/AliceO2/pull/13927) 2025-02-04: MCH: cosmetic changes to detector mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13934](https://github.com/AliceO2Group/AliceO2/pull/13934) 2025-02-12: GLOQC: revert changes to mc histos by [@f3sch](https://github.com/f3sch)
 - [\#13935](https://github.com/AliceO2Group/AliceO2/pull/13935) 2025-02-04: Add more configurables to alignment workflow by [@Elros60](https://github.com/Elros60)
 - [\#13938](https://github.com/AliceO2Group/AliceO2/pull/13938) 2025-02-25: MCH: fixes to the ST2 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
@@ -55,7 +56,6 @@
 - [\#13993](https://github.com/AliceO2Group/AliceO2/pull/13993) 2025-02-22: DPL: add ability to create arrow::RecordBatches directly in shared memory without allocations by [@ktf](https://github.com/ktf)
 - [\#13994](https://github.com/AliceO2Group/AliceO2/pull/13994) 2025-02-21: Framework: adapt deprecated boost function to new method by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
-- [\#13936](https://github.com/AliceO2Group/AliceO2/pull/13936) 2025-02-04: Added static variable for number of events in Generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#13950](https://github.com/AliceO2Group/AliceO2/pull/13950) 2025-02-12: DPL Analysis: avoid leaking analysis task abstractions by [@aalkin](https://github.com/aalkin)
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 - [\#13975](https://github.com/AliceO2Group/AliceO2/pull/13975) 2025-02-17: Fix mother and daughter indices in generator cocktails by [@sawenzel](https://github.com/sawenzel)
