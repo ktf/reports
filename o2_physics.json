@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-24T14:38:58Z",
-            "title": "[PWGDQ] event mixing for muons only and ambiguity fix",
-            "number": 10152,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-24T14:31:06Z",
-            "title": "[PWGLF] Fix bestCollisionIndex finding for Run2 analysis + other fixes in analysis task",
-            "number": 10149,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-24T15:28:24Z",
             "title": "[PWGCF] Fix Global histogram.",
             "number": 10157,
@@ -2538,31 +2493,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] New task for jetShape.cxx",
-            "number": 9644,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] Introducing configurable generatorIds in the table producers, which allows to specify the MC processes to consider",
             "number": 10225,
             "author": {
@@ -2753,6 +2683,86 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Finish detached / collisionless findable implementation",
+            "number": 10226,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilderfindable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-27T12:57:10Z",
+            "title": "[PWGJE] New task for jetShape.cxx",
+            "number": 9644,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Personal task modification",
+            "number": 10227,
+            "author": {
+              "login": "rolavick"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTauCentralBarrelRL.cxx"
                   }
                 }
               ]
