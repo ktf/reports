@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-24T15:28:24Z",
-            "title": "[PWGCF] Fix Global histogram.",
-            "number": 10157,
-            "author": {
-              "login": "ilikmeta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-24T15:33:06Z",
             "title": "[PWGCF] SPC centrality fixed & NaN guard added",
             "number": 10145,
@@ -2691,6 +2671,51 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-27T12:57:10Z",
+            "title": "[PWGJE] New task for jetShape.cxx",
+            "number": 9644,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] fixing the workflow.json",
+            "number": 10228,
+            "author": {
+              "login": "glromane"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelectorPIDMaker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Finish detached / collisionless findable implementation",
@@ -2726,31 +2751,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-27T12:57:10Z",
-            "title": "[PWGJE] New task for jetShape.cxx",
-            "number": 9644,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGUD] Personal task modification",
@@ -2762,7 +2762,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/upcTauCentralBarrelRL.cxx"
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTauRl.cxx"
                   }
                 }
               ]
