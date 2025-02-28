@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-24T11:18:06Z",
-            "title": "[PWGHF] Add table with ML outputs for reco MC",
-            "number": 10063,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorMcGen.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsMcGen.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-25T02:54:05Z",
             "title": "[PWGUD] Occupancy cut is added",
             "number": 10161,
@@ -2565,8 +2525,48 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2025-02-28T10:59:31Z",
+            "title": "[PWGCF] Pow -> product",
+            "number": 10194,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/Core/femto3dPairTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-28T11:00:26Z",
+            "title": "[PWGCF] fixing the workflow.json",
+            "number": 10228,
+            "author": {
+              "login": "glromane"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelectorPIDMaker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-28T11:01:45Z",
             "title": "[PWGLF] PWGLF:Lambda polarization induced by jet in pp collision in 13.6 TeV",
             "number": 10239,
             "author": {
@@ -2605,8 +2605,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2025-02-28T11:04:19Z",
             "title": "[PWGEM/Dilepton] add collision cov. matrix and matlut",
             "number": 10242,
             "author": {
@@ -2625,38 +2625,33 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-28T10:59:31Z",
-            "title": "[PWGCF] Pow -> product",
-            "number": 10194,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] gen. MC update in strangeness UPC analysis",
+            "number": 10243,
             "author": {
-              "login": "njacazio"
+              "login": "nepeivodaRS"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto3D/Core/femto3dPairTask.h"
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-28T11:00:26Z",
-            "title": "[PWGCF] fixing the workflow.json",
-            "number": 10228,
-            "author": {
-              "login": "glromane"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelectorPIDMaker.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/derivedupcanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strange-yield-pbpb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessMasks.h"
                   }
                 }
               ]
