@@ -7,17 +7,14 @@
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#13912](https://github.com/AliceO2Group/AliceO2/pull/13912) 2025-01-29: Move XRD debug settings to copy shell command by [@shahor02](https://github.com/shahor02)
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
 - [\#13956](https://github.com/AliceO2Group/AliceO2/pull/13956) 2025-02-11: TPC: multiple fixes by [@wiechula](https://github.com/wiechula)
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
 - [\#13772](https://github.com/AliceO2Group/AliceO2/pull/13772) 2025-02-11: [FOCAL-100] Porting the beam pipe for run 4 (around FOCAL) by [@hahassan7](https://github.com/hahassan7)
-- [\#13909](https://github.com/AliceO2Group/AliceO2/pull/13909) 2025-01-29: Fix fake/correct status for barrel tracks by [@shahor02](https://github.com/shahor02)
 - [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13911](https://github.com/AliceO2Group/AliceO2/pull/13911) 2025-02-12: MUON: use track time in global muon matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13921](https://github.com/AliceO2Group/AliceO2/pull/13921) 2025-02-25: MCH: fix for the DE600 electronics mapping by [@aferrero2707](https://github.com/aferrero2707)
