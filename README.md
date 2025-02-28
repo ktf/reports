@@ -24,7 +24,6 @@
 - [\#13935](https://github.com/AliceO2Group/AliceO2/pull/13935) 2025-02-04: Add more configurables to alignment workflow by [@Elros60](https://github.com/Elros60)
 - [\#13938](https://github.com/AliceO2Group/AliceO2/pull/13938) 2025-02-25: MCH: fixes to the ST2 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13945](https://github.com/AliceO2Group/AliceO2/pull/13945) 2025-02-09: ctpdev: lumi per run added to fetcher by [@lietava](https://github.com/lietava)
-- [\#13948](https://github.com/AliceO2Group/AliceO2/pull/13948) 2025-02-07: TPC: Remove access of obsolete meta data by [@wiechula](https://github.com/wiechula)
 - [\#13949](https://github.com/AliceO2Group/AliceO2/pull/13949) 2025-02-10: store distance of the innermost pad from the sector edge by [@shahor02](https://github.com/shahor02)
 - [\#13951](https://github.com/AliceO2Group/AliceO2/pull/13951) 2025-02-11: [MCH] new option to print the status map content by [@pillot](https://github.com/pillot)
 - [\#13954](https://github.com/AliceO2Group/AliceO2/pull/13954) 2025-02-11: Fix storing TPC occupancy in the SVStudy output by [@shahor02](https://github.com/shahor02)
