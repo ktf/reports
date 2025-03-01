@@ -32,6 +32,7 @@
 - [\#13983](https://github.com/AliceO2Group/AliceO2/pull/13983) 2025-02-20: [MCH] fix wire position on station 1 by [@pillot](https://github.com/pillot)
 - [\#13987](https://github.com/AliceO2Group/AliceO2/pull/13987) 2025-02-20: Fix for PV contributor being AB track by [@shahor02](https://github.com/shahor02)
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
+- [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13996](https://github.com/AliceO2Group/AliceO2/pull/13996) 2025-02-25: MCH: fixes to the ST1 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 - [\#14004](https://github.com/AliceO2Group/AliceO2/pull/14004) 2025-02-27: TPC: multiple improvements by [@wiechula](https://github.com/wiechula)
