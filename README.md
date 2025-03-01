@@ -14,7 +14,6 @@
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
 - [\#13772](https://github.com/AliceO2Group/AliceO2/pull/13772) 2025-02-11: [FOCAL-100] Porting the beam pipe for run 4 (around FOCAL) by [@hahassan7](https://github.com/hahassan7)
-- [\#13910](https://github.com/AliceO2Group/AliceO2/pull/13910) 2025-01-30: Dev staggered geo by [@danielbattistini](https://github.com/danielbattistini)
 - [\#13911](https://github.com/AliceO2Group/AliceO2/pull/13911) 2025-02-12: MUON: use track time in global muon matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13921](https://github.com/AliceO2Group/AliceO2/pull/13921) 2025-02-25: MCH: fix for the DE600 electronics mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13924](https://github.com/AliceO2Group/AliceO2/pull/13924) 2025-02-25: MCH: introduce digit modifier in filtering workflow by [@aferrero2707](https://github.com/aferrero2707)
