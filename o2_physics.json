@@ -4,91 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Added QA histograms and increased arraySize",
-            "number": 10218,
-            "author": {
-              "login": "rahulverma012"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/occupancyTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-27T10:51:48Z",
-            "title": "[PWGJE] Adding shift in rho for reference events",
-            "number": 10193,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-27T11:52:23Z",
-            "title": "[PWGUD] Add more selection bits to UPCCandidateProducer",
-            "number": 10207,
-            "author": {
-              "login": "diana0x0f"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-27T12:16:54Z",
-            "title": "[PWGJE] Histograms for the skimmed data",
-            "number": 10222,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-02-27T12:57:10Z",
             "title": "[PWGJE] New task for jetShape.cxx",
@@ -2737,10 +2652,30 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-03T16:54:45Z",
+            "title": "[PWGLF] Fixed bug in rapidity-gap class ordering",
+            "number": 10294,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Update PWFLF/Tasks/Nuspex/spectraTOF.cxx",
-            "number": 10291,
+            "title": "[PWGLF] Update PWGLF/Tasks/Nuspex/spectraTOF.cxx",
+            "number": 10287,
             "author": {
               "login": "RD0407"
             },
@@ -2749,11 +2684,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTPC.cxx"
                   }
                 }
               ]
@@ -2807,18 +2737,98 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-03T16:54:45Z",
-            "title": "[PWGLF] Fixed bug in rapidity-gap class ordering",
-            "number": 10294,
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Adding missing tables for mc studies",
+            "number": 10129,
             "author": {
-              "login": "scannito"
+              "login": "lucamicheletti93"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-01-23T09:05:10Z",
+            "title": "[PWGDQ] Adding FT0C histogram for Pb-Pb generated",
+            "number": 9443,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-01-16T17:58:22Z",
+            "title": "[PWGDQ] Adding BC tolerance for zorro and new Ev. sel.",
+            "number": 9354,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Adding MC histograms for upsilon",
+            "number": 9290,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
                 }
               ]
@@ -2849,8 +2859,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Update PWGLF/Tasks/Nuspex/spectraTOF.cxx",
-            "number": 10287,
+            "title": "[PWGLF] Update PWFLF/Tasks/Nuspex/spectraTOF.cxx",
+            "number": 10291,
             "author": {
               "login": "RD0407"
             },
@@ -2859,6 +2869,11 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTPC.cxx"
                   }
                 }
               ]
