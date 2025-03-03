@@ -7,6 +7,7 @@
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
+- [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
@@ -49,6 +50,7 @@
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 - [\#13993](https://github.com/AliceO2Group/AliceO2/pull/13993) 2025-02-22: DPL: add ability to create arrow::RecordBatches directly in shared memory without allocations by [@ktf](https://github.com/ktf)
 - [\#13994](https://github.com/AliceO2Group/AliceO2/pull/13994) 2025-02-21: Framework: adapt deprecated boost function to new method by [@davidrohr](https://github.com/davidrohr)
+- [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13950](https://github.com/AliceO2Group/AliceO2/pull/13950) 2025-02-12: DPL Analysis: avoid leaking analysis task abstractions by [@aalkin](https://github.com/aalkin)
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
