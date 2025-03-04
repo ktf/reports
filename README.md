@@ -10,6 +10,7 @@
 - [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 - [\#14013](https://github.com/AliceO2Group/AliceO2/pull/14013) 2025-03-03: DPL: handle case of list as first field of the dataset by [@ktf](https://github.com/ktf)
 - [\#14014](https://github.com/AliceO2Group/AliceO2/pull/14014) 2025-03-04: DPL: use correct size for the buffer by [@ktf](https://github.com/ktf)
+- [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
@@ -54,6 +55,7 @@
 - [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 - [\#14013](https://github.com/AliceO2Group/AliceO2/pull/14013) 2025-03-03: DPL: handle case of list as first field of the dataset by [@ktf](https://github.com/ktf)
 - [\#14014](https://github.com/AliceO2Group/AliceO2/pull/14014) 2025-03-04: DPL: use correct size for the buffer by [@ktf](https://github.com/ktf)
+- [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#13950](https://github.com/AliceO2Group/AliceO2/pull/13950) 2025-02-12: DPL Analysis: avoid leaking analysis task abstractions by [@aalkin](https://github.com/aalkin)
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
