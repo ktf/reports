@@ -43,6 +43,7 @@
 - [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13942](https://github.com/AliceO2Group/AliceO2/pull/13942) 2025-02-05: aod-merger treats Zombie files like missing ones by [@shahor02](https://github.com/shahor02)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
+- [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13961](https://github.com/AliceO2Group/AliceO2/pull/13961) 2025-02-17: DPL Analysis: fix corner case in index builder algorithm by [@aalkin](https://github.com/aalkin)
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13965](https://github.com/AliceO2Group/AliceO2/pull/13965) 2025-02-14: DPL: add simple helper to reproduce the calibration workflow by [@ktf](https://github.com/ktf)
