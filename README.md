@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
-- [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
@@ -40,7 +39,6 @@
 - [\#14008](https://github.com/AliceO2Group/AliceO2/pull/14008) 2025-03-03: ITS Calib: ROOT trees for VCASN and ITHR scan + new features by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
-- [\#13901](https://github.com/AliceO2Group/AliceO2/pull/13901) 2025-02-12: DPL Analysis: refactor Preslice; move some code out of line by [@aalkin](https://github.com/aalkin)
 - [\#13942](https://github.com/AliceO2Group/AliceO2/pull/13942) 2025-02-05: aod-merger treats Zombie files like missing ones by [@shahor02](https://github.com/shahor02)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
