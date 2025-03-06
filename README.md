@@ -19,8 +19,6 @@
 - [\#13911](https://github.com/AliceO2Group/AliceO2/pull/13911) 2025-02-12: MUON: use track time in global muon matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13921](https://github.com/AliceO2Group/AliceO2/pull/13921) 2025-02-25: MCH: fix for the DE600 electronics mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13924](https://github.com/AliceO2Group/AliceO2/pull/13924) 2025-02-25: MCH: introduce digit modifier in filtering workflow by [@aferrero2707](https://github.com/aferrero2707)
-- [\#13927](https://github.com/AliceO2Group/AliceO2/pull/13927) 2025-02-04: MCH: cosmetic changes to detector mapping by [@aferrero2707](https://github.com/aferrero2707)
-- [\#13935](https://github.com/AliceO2Group/AliceO2/pull/13935) 2025-02-04: Add more configurables to alignment workflow by [@Elros60](https://github.com/Elros60)
 - [\#13938](https://github.com/AliceO2Group/AliceO2/pull/13938) 2025-02-25: MCH: fixes to the ST2 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13968](https://github.com/AliceO2Group/AliceO2/pull/13968) 2025-02-17: Modify CA async opts, possible set from config.param by [@shahor02](https://github.com/shahor02)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
