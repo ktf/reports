@@ -4196,26 +4196,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fixing handling of edge clusters",
-            "number": 14020,
+            "title": "Decrease SAC writeout rate by 10",
+            "number": 14018,
             "author": {
-              "login": "ChSonnabend"
+              "login": "rmunzer"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS3: Fix matrix generation in helper class",
+            "number": 13895,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/src/GeometryTGeo.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.h"
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.cxx"
+                    "path": "Detectors/ITSMFT/common/data/AlpideResponseData/AlpideResponse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/AlpideResponseData/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideSimResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DigiParams.h"
                   }
                 }
               ]
@@ -4276,61 +4311,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Decrease SAC writeout rate by 10",
-            "number": 14018,
+            "title": "Fixing handling of edge clusters",
+            "number": 14020,
             "author": {
-              "login": "rmunzer"
+              "login": "ChSonnabend"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS3: Fix matrix generation in helper class",
-            "number": 13895,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/base/src/GeometryTGeo.cxx"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/data/AlpideResponseData/AlpideResponse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/data/AlpideResponseData/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideSimResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DigiParams.h"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.cxx"
                   }
                 }
               ]
