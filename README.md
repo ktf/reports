@@ -16,7 +16,6 @@
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#13911](https://github.com/AliceO2Group/AliceO2/pull/13911) 2025-02-12: MUON: use track time in global muon matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13921](https://github.com/AliceO2Group/AliceO2/pull/13921) 2025-02-25: MCH: fix for the DE600 electronics mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13924](https://github.com/AliceO2Group/AliceO2/pull/13924) 2025-02-25: MCH: introduce digit modifier in filtering workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13938](https://github.com/AliceO2Group/AliceO2/pull/13938) 2025-02-25: MCH: fixes to the ST2 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
