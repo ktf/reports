@@ -52,3 +52,5 @@
 ## Recent developments in O2 - Generators
 - [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 - [\#13975](https://github.com/AliceO2Group/AliceO2/pull/13975) 2025-02-17: Fix mother and daughter indices in generator cocktails by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
