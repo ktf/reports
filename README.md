@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
-- [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 - [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
@@ -36,12 +35,12 @@
 - [\#14008](https://github.com/AliceO2Group/AliceO2/pull/14008) 2025-03-03: ITS Calib: ROOT trees for VCASN and ITHR scan + new features by [@iravasen](https://github.com/iravasen)
 - [\#14022](https://github.com/AliceO2Group/AliceO2/pull/14022) 2025-03-07: [MCH] new executable to scan HV/LV CCDB objects and look for issues by [@pillot](https://github.com/pillot)
 - [\#14023](https://github.com/AliceO2Group/AliceO2/pull/14023) 2025-03-07: TPC: fix crash in MIPTrackFilterDevice when skipping first TF by [@ehellbar](https://github.com/ehellbar)
+- [\#14024](https://github.com/AliceO2Group/AliceO2/pull/14024) 2025-03-07: [MCH] add protection against missing object by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13961](https://github.com/AliceO2Group/AliceO2/pull/13961) 2025-02-17: DPL Analysis: fix corner case in index builder algorithm by [@aalkin](https://github.com/aalkin)
-- [\#13962](https://github.com/AliceO2Group/AliceO2/pull/13962) 2025-02-14: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13965](https://github.com/AliceO2Group/AliceO2/pull/13965) 2025-02-14: DPL: add simple helper to reproduce the calibration workflow by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
