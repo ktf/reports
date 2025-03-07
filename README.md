@@ -34,6 +34,7 @@
 - [\#14004](https://github.com/AliceO2Group/AliceO2/pull/14004) 2025-02-27: TPC: multiple improvements by [@wiechula](https://github.com/wiechula)
 - [\#14007](https://github.com/AliceO2Group/AliceO2/pull/14007) 2025-03-04: TPC: Merging SAC CCDB files into one object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14008](https://github.com/AliceO2Group/AliceO2/pull/14008) 2025-03-03: ITS Calib: ROOT trees for VCASN and ITHR scan + new features by [@iravasen](https://github.com/iravasen)
+- [\#14023](https://github.com/AliceO2Group/AliceO2/pull/14023) 2025-03-07: TPC: fix crash in MIPTrackFilterDevice when skipping first TF by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
