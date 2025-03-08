@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS3: AlpideResponse adjust for APTS",
-            "number": 13929,
-            "author": {
-              "login": "ChunzhengLab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/data/AlpideResponseData/AlpideResponse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideSimResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-02-14T20:57:49Z",
             "title": "DPL: add simple helper to reproduce the calibration workflow",
@@ -4276,6 +4251,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix compile warning from shadowed variable, disentangle filter types",
+            "number": 14027,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
                   }
                 }
               ]
