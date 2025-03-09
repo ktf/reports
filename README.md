@@ -41,7 +41,6 @@
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13961](https://github.com/AliceO2Group/AliceO2/pull/13961) 2025-02-17: DPL Analysis: fix corner case in index builder algorithm by [@aalkin](https://github.com/aalkin)
-- [\#13965](https://github.com/AliceO2Group/AliceO2/pull/13965) 2025-02-14: DPL: add simple helper to reproduce the calibration workflow by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 - [\#13991](https://github.com/AliceO2Group/AliceO2/pull/13991) 2025-03-07: DPL Analysis: add test for identification concepts by [@aalkin](https://github.com/aalkin)
