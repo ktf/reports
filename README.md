@@ -40,7 +40,6 @@
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
-- [\#13961](https://github.com/AliceO2Group/AliceO2/pull/13961) 2025-02-17: DPL Analysis: fix corner case in index builder algorithm by [@aalkin](https://github.com/aalkin)
 - [\#13971](https://github.com/AliceO2Group/AliceO2/pull/13971) 2025-03-09: DPL: drop messages explicitly by [@ktf](https://github.com/ktf)
 - [\#13980](https://github.com/AliceO2Group/AliceO2/pull/13980) 2025-02-19: DPL Analysis: workaround to publish histograms also with pipelining by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
