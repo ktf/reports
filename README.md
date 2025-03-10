@@ -10,8 +10,6 @@
 - [\#14013](https://github.com/AliceO2Group/AliceO2/pull/14013) 2025-03-03: DPL: handle case of list as first field of the dataset by [@ktf](https://github.com/ktf)
 - [\#14014](https://github.com/AliceO2Group/AliceO2/pull/14014) 2025-03-04: DPL: use correct size for the buffer by [@ktf](https://github.com/ktf)
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Common
-- [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
@@ -54,7 +52,6 @@
 - [\#14014](https://github.com/AliceO2Group/AliceO2/pull/14014) 2025-03-04: DPL: use correct size for the buffer by [@ktf](https://github.com/ktf)
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#13955](https://github.com/AliceO2Group/AliceO2/pull/13955) 2025-02-11: PrimaryGen: More consistent vertex configuration by [@sawenzel](https://github.com/sawenzel)
 - [\#13975](https://github.com/AliceO2Group/AliceO2/pull/13975) 2025-02-17: Fix mother and daughter indices in generator cocktails by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
