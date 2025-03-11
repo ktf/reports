@@ -53,5 +53,6 @@
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 - [\#14031](https://github.com/AliceO2Group/AliceO2/pull/14031) 2025-03-10: DPL: drop obsolete TreeToTable code by [@ktf](https://github.com/ktf)
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
+- [\#14038](https://github.com/AliceO2Group/AliceO2/pull/14038) 2025-03-11: DPL: provide defaults for inputs and outputs by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
