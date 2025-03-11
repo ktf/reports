@@ -22,7 +22,6 @@
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13970](https://github.com/AliceO2Group/AliceO2/pull/13970) 2025-02-17: PVfinder can accept AB tracks by [@shahor02](https://github.com/shahor02)
 - [\#13973](https://github.com/AliceO2Group/AliceO2/pull/13973) 2025-02-21: adding HV maps to TOF FEELIGHT by [@noferini](https://github.com/noferini)
-- [\#13982](https://github.com/AliceO2Group/AliceO2/pull/13982) 2025-02-20: CTP RAW decoder always requests CCDB inputs by [@shahor02](https://github.com/shahor02)
 - [\#13987](https://github.com/AliceO2Group/AliceO2/pull/13987) 2025-02-20: Fix for PV contributor being AB track by [@shahor02](https://github.com/shahor02)
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 - [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
