@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
-- [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
 - [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 - [\#14012](https://github.com/AliceO2Group/AliceO2/pull/14012) 2025-03-10: DPL: add dumping of memory profile in strategic location by [@ktf](https://github.com/ktf)
@@ -37,7 +36,6 @@
 - [\#14034](https://github.com/AliceO2Group/AliceO2/pull/14034) 2025-03-11: Add MID local board hardware name in the mapping info by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
-- [\#13947](https://github.com/AliceO2Group/AliceO2/pull/13947) 2025-02-20: DPL Analysis: replace SFINAE with overloaded restricted templates by [@aalkin](https://github.com/aalkin)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13971](https://github.com/AliceO2Group/AliceO2/pull/13971) 2025-03-09: DPL: drop messages explicitly by [@ktf](https://github.com/ktf)
 - [\#13990](https://github.com/AliceO2Group/AliceO2/pull/13990) 2025-02-21: DPL Analysis: fix `is_preslice` concept by [@aalkin](https://github.com/aalkin)
