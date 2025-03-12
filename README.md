@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
+- [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
 - [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 - [\#14012](https://github.com/AliceO2Group/AliceO2/pull/14012) 2025-03-10: DPL: add dumping of memory profile in strategic location by [@ktf](https://github.com/ktf)
 - [\#14013](https://github.com/AliceO2Group/AliceO2/pull/14013) 2025-03-03: DPL: handle case of list as first field of the dataset by [@ktf](https://github.com/ktf)
@@ -38,6 +39,7 @@
 - [\#14049](https://github.com/AliceO2Group/AliceO2/pull/14049) 2025-03-12: Do not scale ITS tracking cuts for B=0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
+- [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13971](https://github.com/AliceO2Group/AliceO2/pull/13971) 2025-03-09: DPL: drop messages explicitly by [@ktf](https://github.com/ktf)
 - [\#13991](https://github.com/AliceO2Group/AliceO2/pull/13991) 2025-03-07: DPL Analysis: add test for identification concepts by [@aalkin](https://github.com/aalkin)
