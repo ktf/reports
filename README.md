@@ -22,7 +22,6 @@
 - [\#13968](https://github.com/AliceO2Group/AliceO2/pull/13968) 2025-02-17: Modify CA async opts, possible set from config.param by [@shahor02](https://github.com/shahor02)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13970](https://github.com/AliceO2Group/AliceO2/pull/13970) 2025-02-17: PVfinder can accept AB tracks by [@shahor02](https://github.com/shahor02)
-- [\#13973](https://github.com/AliceO2Group/AliceO2/pull/13973) 2025-02-21: adding HV maps to TOF FEELIGHT by [@noferini](https://github.com/noferini)
 - [\#13987](https://github.com/AliceO2Group/AliceO2/pull/13987) 2025-02-20: Fix for PV contributor being AB track by [@shahor02](https://github.com/shahor02)
 - [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13996](https://github.com/AliceO2Group/AliceO2/pull/13996) 2025-02-25: MCH: fixes to the ST1 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
@@ -37,6 +36,7 @@
 - [\#14037](https://github.com/AliceO2Group/AliceO2/pull/14037) 2025-03-12: Ctpdev by [@lietava](https://github.com/lietava)
 - [\#14042](https://github.com/AliceO2Group/AliceO2/pull/14042) 2025-03-11: Fix scaling ITS CA tracker params for low Bfield by [@shahor02](https://github.com/shahor02)
 - [\#14048](https://github.com/AliceO2Group/AliceO2/pull/14048) 2025-03-12: write pairs correlation tree only if requested by [@shahor02](https://github.com/shahor02)
+- [\#14049](https://github.com/AliceO2Group/AliceO2/pull/14049) 2025-03-12: Do not scale ITS tracking cuts for B=0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
