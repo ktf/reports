@@ -36,6 +36,7 @@
 - [\#14023](https://github.com/AliceO2Group/AliceO2/pull/14023) 2025-03-07: TPC: fix crash in MIPTrackFilterDevice when skipping first TF by [@ehellbar](https://github.com/ehellbar)
 - [\#14024](https://github.com/AliceO2Group/AliceO2/pull/14024) 2025-03-07: [MCH] add protection against missing object by [@pillot](https://github.com/pillot)
 - [\#14034](https://github.com/AliceO2Group/AliceO2/pull/14034) 2025-03-11: Add MID local board hardware name in the mapping info by [@dstocco](https://github.com/dstocco)
+- [\#14037](https://github.com/AliceO2Group/AliceO2/pull/14037) 2025-03-12: Ctpdev by [@lietava](https://github.com/lietava)
 - [\#14042](https://github.com/AliceO2Group/AliceO2/pull/14042) 2025-03-11: Fix scaling ITS CA tracker params for low Bfield by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
