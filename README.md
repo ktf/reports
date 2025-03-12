@@ -20,7 +20,6 @@
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13924](https://github.com/AliceO2Group/AliceO2/pull/13924) 2025-02-25: MCH: introduce digit modifier in filtering workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13938](https://github.com/AliceO2Group/AliceO2/pull/13938) 2025-02-25: MCH: fixes to the ST2 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
-- [\#13968](https://github.com/AliceO2Group/AliceO2/pull/13968) 2025-02-17: Modify CA async opts, possible set from config.param by [@shahor02](https://github.com/shahor02)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#13996](https://github.com/AliceO2Group/AliceO2/pull/13996) 2025-02-25: MCH: fixes to the ST1 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
