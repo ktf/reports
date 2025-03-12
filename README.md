@@ -10,6 +10,8 @@
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Common
+- [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13989](https://github.com/AliceO2Group/AliceO2/pull/13989) 2025-02-21: Ctpdev: readout consistency by [@lietava](https://github.com/lietava)
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
