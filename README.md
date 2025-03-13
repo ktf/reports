@@ -38,6 +38,7 @@
 - [\#14042](https://github.com/AliceO2Group/AliceO2/pull/14042) 2025-03-11: Fix scaling ITS CA tracker params for low Bfield by [@shahor02](https://github.com/shahor02)
 - [\#14048](https://github.com/AliceO2Group/AliceO2/pull/14048) 2025-03-12: write pairs correlation tree only if requested by [@shahor02](https://github.com/shahor02)
 - [\#14049](https://github.com/AliceO2Group/AliceO2/pull/14049) 2025-03-12: Do not scale ITS tracking cuts for B=0 by [@shahor02](https://github.com/shahor02)
+- [\#14053](https://github.com/AliceO2Group/AliceO2/pull/14053) 2025-03-13: GPU: Remove thrust deprecated declarations in ITS code by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13763](https://github.com/AliceO2Group/AliceO2/pull/13763) 2025-03-02: DPL: add support for decompressing directly to shared memory by [@ktf](https://github.com/ktf)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
