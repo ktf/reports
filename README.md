@@ -45,7 +45,6 @@
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13971](https://github.com/AliceO2Group/AliceO2/pull/13971) 2025-03-09: DPL: drop messages explicitly by [@ktf](https://github.com/ktf)
 - [\#13991](https://github.com/AliceO2Group/AliceO2/pull/13991) 2025-03-07: DPL Analysis: add test for identification concepts by [@aalkin](https://github.com/aalkin)
-- [\#13993](https://github.com/AliceO2Group/AliceO2/pull/13993) 2025-02-22: DPL: add ability to create arrow::RecordBatches directly in shared memory without allocations by [@ktf](https://github.com/ktf)
 - [\#14010](https://github.com/AliceO2Group/AliceO2/pull/14010) 2025-03-05: DPL: add ability to have singposts controlled actions by [@ktf](https://github.com/ktf)
 - [\#14011](https://github.com/AliceO2Group/AliceO2/pull/14011) 2025-03-03: DPL: improve message in case of missing TTree by [@ktf](https://github.com/ktf)
 - [\#14012](https://github.com/AliceO2Group/AliceO2/pull/14012) 2025-03-10: DPL: add dumping of memory profile in strategic location by [@ktf](https://github.com/ktf)
