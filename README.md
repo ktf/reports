@@ -11,6 +11,7 @@
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#14045](https://github.com/AliceO2Group/AliceO2/pull/14045) 2025-03-13: GPU: Remove more unused code and clean up preprocessor magic and do some constexpr optimizations by [@davidrohr](https://github.com/davidrohr)
 - [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
 - [\#14047](https://github.com/AliceO2Group/AliceO2/pull/14047) 2025-03-12: GPU Math: Add memcpy and QuietNaN, fix Finite and IsNaN by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
