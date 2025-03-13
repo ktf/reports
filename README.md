@@ -25,7 +25,6 @@
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
-- [\#13996](https://github.com/AliceO2Group/AliceO2/pull/13996) 2025-02-25: MCH: fixes to the ST1 pads mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 - [\#14004](https://github.com/AliceO2Group/AliceO2/pull/14004) 2025-02-27: TPC: multiple improvements by [@wiechula](https://github.com/wiechula)
 - [\#14007](https://github.com/AliceO2Group/AliceO2/pull/14007) 2025-03-04: TPC: Merging SAC CCDB files into one object by [@matthias-kleiner](https://github.com/matthias-kleiner)
