@@ -20,7 +20,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13921](https://github.com/AliceO2Group/AliceO2/pull/13921) 2025-02-25: MCH: fix for the DE600 electronics mapping by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
-- [\#13924](https://github.com/AliceO2Group/AliceO2/pull/13924) 2025-02-25: MCH: introduce digit modifier in filtering workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)

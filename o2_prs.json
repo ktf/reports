@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-25T22:41:13Z",
-            "title": "MCH: introduce digit modifier in filtering workflow",
-            "number": 13924,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/include/MCHDigitFiltering/DigitModifier.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/include/MCHDigitFiltering/DigitModifierParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitFilteringSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitModifier.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitModifierParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/MCHDigitFilteringLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-25T22:41:31Z",
             "title": "MCH: fix for the DE600 electronics mapping",
             "number": 13921,
@@ -3691,6 +3641,36 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Global/GPUChainTrackingSectorTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-14T08:07:13Z",
+            "title": "GPU TPC CF: Split toNative back to finalize and toNative, to be used by NNClusterer",
+            "number": 14063,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.inc"
                   }
                 }
               ]
