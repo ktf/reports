@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-25T22:48:18Z",
-            "title": "[MCH] remove duplicates before uploading",
-            "number": 14003,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MCH/include/DataFormatsMCH/DsChannelId.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/src/bad-channels-ccdb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-25T23:13:13Z",
             "title": "GPU: More improvements and cleanup",
             "number": 14001,
@@ -3756,31 +3731,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[MCH] optional setting of CCDB file time window",
-            "number": 14059,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/src/scan-hvlv-ccdb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GLOQC: Add PV contrib vs ITS tracks",
             "number": 14035,
             "author": {
@@ -3811,6 +3761,51 @@
                 {
                   "node": {
                     "path": "Utilities/Mergers/src/Mergeable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] optional setting of CCDB file time window",
+            "number": 14059,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Conditions/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Conditions/src/scan-hvlv-ccdb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix round-robin reading in DigitizationContext::retrieveHits",
+            "number": 14065,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
                   }
                 }
               ]

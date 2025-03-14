@@ -16,15 +16,12 @@
 - [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
 - [\#14047](https://github.com/AliceO2Group/AliceO2/pull/14047) 2025-03-12: GPU Math: Add memcpy and QuietNaN, fix Finite and IsNaN by [@davidrohr](https://github.com/davidrohr)
 - [\#14055](https://github.com/AliceO2Group/AliceO2/pull/14055) 2025-03-14: Making float16 variables compatible with GPU types by [@ChSonnabend](https://github.com/ChSonnabend)
-## Recent developments in O2 - DataFormats
-- [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
-- [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 - [\#14004](https://github.com/AliceO2Group/AliceO2/pull/14004) 2025-02-27: TPC: multiple improvements by [@wiechula](https://github.com/wiechula)
 - [\#14007](https://github.com/AliceO2Group/AliceO2/pull/14007) 2025-03-04: TPC: Merging SAC CCDB files into one object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14008](https://github.com/AliceO2Group/AliceO2/pull/14008) 2025-03-03: ITS Calib: ROOT trees for VCASN and ITHR scan + new features by [@iravasen](https://github.com/iravasen)
