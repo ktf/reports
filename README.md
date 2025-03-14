@@ -14,6 +14,7 @@
 - [\#14045](https://github.com/AliceO2Group/AliceO2/pull/14045) 2025-03-13: GPU: Remove more unused code and clean up preprocessor magic and do some constexpr optimizations by [@davidrohr](https://github.com/davidrohr)
 - [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
 - [\#14047](https://github.com/AliceO2Group/AliceO2/pull/14047) 2025-03-12: GPU Math: Add memcpy and QuietNaN, fix Finite and IsNaN by [@davidrohr](https://github.com/davidrohr)
+- [\#14055](https://github.com/AliceO2Group/AliceO2/pull/14055) 2025-03-14: Making float16 variables compatible with GPU types by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
 - [\#14003](https://github.com/AliceO2Group/AliceO2/pull/14003) 2025-02-25: [MCH] remove duplicates before uploading by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
