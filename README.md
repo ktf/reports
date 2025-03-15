@@ -23,7 +23,6 @@
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13969](https://github.com/AliceO2Group/AliceO2/pull/13969) 2025-02-15: MCH: add re-alignment option in workflow by [@Elros60](https://github.com/Elros60)
 - [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
-- [\#14004](https://github.com/AliceO2Group/AliceO2/pull/14004) 2025-02-27: TPC: multiple improvements by [@wiechula](https://github.com/wiechula)
 - [\#14007](https://github.com/AliceO2Group/AliceO2/pull/14007) 2025-03-04: TPC: Merging SAC CCDB files into one object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14008](https://github.com/AliceO2Group/AliceO2/pull/14008) 2025-03-03: ITS Calib: ROOT trees for VCASN and ITHR scan + new features by [@iravasen](https://github.com/iravasen)
 - [\#14022](https://github.com/AliceO2Group/AliceO2/pull/14022) 2025-03-07: [MCH] new executable to scan HV/LV CCDB objects and look for issues by [@pillot](https://github.com/pillot)
