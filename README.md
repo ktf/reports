@@ -10,6 +10,7 @@
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
+- [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13981](https://github.com/AliceO2Group/AliceO2/pull/13981) 2025-03-14: GPU clusterizer with neural networks by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14045](https://github.com/AliceO2Group/AliceO2/pull/14045) 2025-03-13: GPU: Remove more unused code and clean up preprocessor magic and do some constexpr optimizations by [@davidrohr](https://github.com/davidrohr)
@@ -52,5 +53,6 @@
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
 - [\#14038](https://github.com/AliceO2Group/AliceO2/pull/14038) 2025-03-11: DPL: provide defaults for inputs and outputs by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
+- [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
