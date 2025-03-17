@@ -22,7 +22,6 @@
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
-- [\#13992](https://github.com/AliceO2Group/AliceO2/pull/13992) 2025-03-01: Merge noise branch by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14007](https://github.com/AliceO2Group/AliceO2/pull/14007) 2025-03-04: TPC: Merging SAC CCDB files into one object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14008](https://github.com/AliceO2Group/AliceO2/pull/14008) 2025-03-03: ITS Calib: ROOT trees for VCASN and ITHR scan + new features by [@iravasen](https://github.com/iravasen)
 - [\#14022](https://github.com/AliceO2Group/AliceO2/pull/14022) 2025-03-07: [MCH] new executable to scan HV/LV CCDB objects and look for issues by [@pillot](https://github.com/pillot)
