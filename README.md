@@ -32,6 +32,7 @@
 - [\#14058](https://github.com/AliceO2Group/AliceO2/pull/14058) 2025-03-13: GPU ITS: Fix broken initialisation + cleanup by [@mconcas](https://github.com/mconcas)
 - [\#14059](https://github.com/AliceO2Group/AliceO2/pull/14059) 2025-03-15: [MCH] optional setting of CCDB file time window by [@pillot](https://github.com/pillot)
 - [\#14072](https://github.com/AliceO2Group/AliceO2/pull/14072) 2025-03-17: [MCH] fix compiler warning about printf format by [@pillot](https://github.com/pillot)
+- [\#14074](https://github.com/AliceO2Group/AliceO2/pull/14074) 2025-03-17: GPU-ITS: Bump nvToolsExt to v3 by [@mconcas](https://github.com/mconcas)
 - [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
