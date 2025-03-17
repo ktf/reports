@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
 - [\#14012](https://github.com/AliceO2Group/AliceO2/pull/14012) 2025-03-10: DPL: add dumping of memory profile in strategic location by [@ktf](https://github.com/ktf)
-- [\#14014](https://github.com/AliceO2Group/AliceO2/pull/14014) 2025-03-04: DPL: use correct size for the buffer by [@ktf](https://github.com/ktf)
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
@@ -39,7 +38,6 @@
 - [\#13991](https://github.com/AliceO2Group/AliceO2/pull/13991) 2025-03-07: DPL Analysis: add test for identification concepts by [@aalkin](https://github.com/aalkin)
 - [\#14010](https://github.com/AliceO2Group/AliceO2/pull/14010) 2025-03-05: DPL: add ability to have singposts controlled actions by [@ktf](https://github.com/ktf)
 - [\#14012](https://github.com/AliceO2Group/AliceO2/pull/14012) 2025-03-10: DPL: add dumping of memory profile in strategic location by [@ktf](https://github.com/ktf)
-- [\#14014](https://github.com/AliceO2Group/AliceO2/pull/14014) 2025-03-04: DPL: use correct size for the buffer by [@ktf](https://github.com/ktf)
 - [\#14015](https://github.com/AliceO2Group/AliceO2/pull/14015) 2025-03-04: DPL: fix support for parent files by [@ktf](https://github.com/ktf)
 - [\#14031](https://github.com/AliceO2Group/AliceO2/pull/14031) 2025-03-10: DPL: drop obsolete TreeToTable code by [@ktf](https://github.com/ktf)
 - [\#14036](https://github.com/AliceO2Group/AliceO2/pull/14036) 2025-03-11: Drop need for Framework/RootTableBuilderHelpers.h by [@ktf](https://github.com/ktf)
