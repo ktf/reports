@@ -30,6 +30,7 @@
 - [\#14053](https://github.com/AliceO2Group/AliceO2/pull/14053) 2025-03-13: GPU: Remove thrust deprecated declarations in ITS code by [@mconcas](https://github.com/mconcas)
 - [\#14058](https://github.com/AliceO2Group/AliceO2/pull/14058) 2025-03-13: GPU ITS: Fix broken initialisation + cleanup by [@mconcas](https://github.com/mconcas)
 - [\#14059](https://github.com/AliceO2Group/AliceO2/pull/14059) 2025-03-15: [MCH] optional setting of CCDB file time window by [@pillot](https://github.com/pillot)
+- [\#14072](https://github.com/AliceO2Group/AliceO2/pull/14072) 2025-03-17: [MCH] fix compiler warning about printf format by [@pillot](https://github.com/pillot)
 - [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
@@ -44,6 +45,7 @@
 - [\#14038](https://github.com/AliceO2Group/AliceO2/pull/14038) 2025-03-11: DPL: provide defaults for inputs and outputs by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
+- [\#14075](https://github.com/AliceO2Group/AliceO2/pull/14075) 2025-03-17: Drop unneeded minimum requirement by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
