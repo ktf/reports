@@ -17,6 +17,7 @@
 - [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
 - [\#14047](https://github.com/AliceO2Group/AliceO2/pull/14047) 2025-03-12: GPU Math: Add memcpy and QuietNaN, fix Finite and IsNaN by [@davidrohr](https://github.com/davidrohr)
 - [\#14055](https://github.com/AliceO2Group/AliceO2/pull/14055) 2025-03-14: Making float16 variables compatible with GPU types by [@ChSonnabend](https://github.com/ChSonnabend)
+- [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
@@ -53,5 +54,7 @@
 - [\#14038](https://github.com/AliceO2Group/AliceO2/pull/14038) 2025-03-11: DPL: provide defaults for inputs and outputs by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
