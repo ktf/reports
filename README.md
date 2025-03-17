@@ -31,6 +31,7 @@
 - [\#14053](https://github.com/AliceO2Group/AliceO2/pull/14053) 2025-03-13: GPU: Remove thrust deprecated declarations in ITS code by [@mconcas](https://github.com/mconcas)
 - [\#14058](https://github.com/AliceO2Group/AliceO2/pull/14058) 2025-03-13: GPU ITS: Fix broken initialisation + cleanup by [@mconcas](https://github.com/mconcas)
 - [\#14059](https://github.com/AliceO2Group/AliceO2/pull/14059) 2025-03-15: [MCH] optional setting of CCDB file time window by [@pillot](https://github.com/pillot)
+- [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
