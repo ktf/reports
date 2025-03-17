@@ -8,6 +8,7 @@
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13981](https://github.com/AliceO2Group/AliceO2/pull/13981) 2025-03-14: GPU clusterizer with neural networks by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14045](https://github.com/AliceO2Group/AliceO2/pull/14045) 2025-03-13: GPU: Remove more unused code and clean up preprocessor magic and do some constexpr optimizations by [@davidrohr](https://github.com/davidrohr)
 - [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
@@ -17,6 +18,7 @@
 ## Recent developments in O2 - Detectors
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
+- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#14022](https://github.com/AliceO2Group/AliceO2/pull/14022) 2025-03-07: [MCH] new executable to scan HV/LV CCDB objects and look for issues by [@pillot](https://github.com/pillot)
 - [\#14023](https://github.com/AliceO2Group/AliceO2/pull/14023) 2025-03-07: TPC: fix crash in MIPTrackFilterDevice when skipping first TF by [@ehellbar](https://github.com/ehellbar)
@@ -33,6 +35,7 @@
 - [\#14072](https://github.com/AliceO2Group/AliceO2/pull/14072) 2025-03-17: [MCH] fix compiler warning about printf format by [@pillot](https://github.com/pillot)
 - [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
+- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
 - [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13971](https://github.com/AliceO2Group/AliceO2/pull/13971) 2025-03-09: DPL: drop messages explicitly by [@ktf](https://github.com/ktf)
@@ -49,4 +52,5 @@
 ## Recent developments in O2 - Generators
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
+- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
