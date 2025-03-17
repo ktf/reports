@@ -37,7 +37,6 @@
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
-- [\#13957](https://github.com/AliceO2Group/AliceO2/pull/13957) 2025-03-05: Add new FairLogger severity (critical) to DPL and DebugGUI by [@ehellbar](https://github.com/ehellbar)
 - [\#13971](https://github.com/AliceO2Group/AliceO2/pull/13971) 2025-03-09: DPL: drop messages explicitly by [@ktf](https://github.com/ktf)
 - [\#13991](https://github.com/AliceO2Group/AliceO2/pull/13991) 2025-03-07: DPL Analysis: add test for identification concepts by [@aalkin](https://github.com/aalkin)
 - [\#14010](https://github.com/AliceO2Group/AliceO2/pull/14010) 2025-03-05: DPL: add ability to have singposts controlled actions by [@ktf](https://github.com/ktf)
