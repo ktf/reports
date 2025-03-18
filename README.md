@@ -8,6 +8,7 @@
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
+- [\#13972](https://github.com/AliceO2Group/AliceO2/pull/13972) 2025-03-18: Add D*(2007)0 PDG code by [@apalasciano](https://github.com/apalasciano)
 - [\#13981](https://github.com/AliceO2Group/AliceO2/pull/13981) 2025-03-14: GPU clusterizer with neural networks by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14045](https://github.com/AliceO2Group/AliceO2/pull/14045) 2025-03-13: GPU: Remove more unused code and clean up preprocessor magic and do some constexpr optimizations by [@davidrohr](https://github.com/davidrohr)
 - [\#14046](https://github.com/AliceO2Group/AliceO2/pull/14046) 2025-03-12: GPU: Add IsNaN to CAMath by [@davidrohr](https://github.com/davidrohr)
@@ -16,6 +17,7 @@
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
+- [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
