@@ -5,100 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-14T17:43:26Z",
-            "title": "[PWGEM/PhotonMeson] add histograms for misidentified ee as V0 photons in MC",
-            "number": 10466,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaConversion.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectronFromDalitzEE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/dalitzEEQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/dalitzEEQCMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] Antiproton cumulant code for volume-fluctuations in model",
-            "number": 10488,
-            "author": {
-              "login": "SwatiSaha-1997"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-14T18:32:10Z",
-            "title": "[PWGCF] DptDpt - Incorporating ITS only track selection",
-            "number": 10473,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/dptDptEfficiencyAndQc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-14T18:56:48Z",
             "title": "[PWGCF] change the method of applying local density efficiency",
             "number": 10477,
@@ -2078,26 +1984,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] Added new Process function and modified the tables",
-            "number": 10546,
-            "author": {
-              "login": "ananthapadmanabhan18"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/exclusiveRhoTo4Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-03-18T12:48:00Z",
             "title": "[PWGLF] Adding configurables for inv. mass endpoints",
@@ -2375,6 +2261,111 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Added new Process function and modified the tables",
+            "number": 10546,
+            "author": {
+              "login": "ananthapadmanabhan18"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/exclusiveRhoTo4Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] - added additional QA histograms vs ir",
+            "number": 10560,
+            "author": {
+              "login": "abilandz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Configurables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Enums.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-MemberFunctions.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] update xi in pp and UPC analyses",
+            "number": 10561,
+            "author": {
+              "login": "nepeivodaRS"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/cascqaanalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedupcanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessMasks.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger] Fix covariance matrix filling for 128bits words",
+            "number": 10562,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/cefpTask.cxx"
                   }
                 }
               ]
