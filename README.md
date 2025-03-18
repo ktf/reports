@@ -17,6 +17,7 @@
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
+- [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
@@ -25,6 +26,7 @@
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
+- [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14022](https://github.com/AliceO2Group/AliceO2/pull/14022) 2025-03-07: [MCH] new executable to scan HV/LV CCDB objects and look for issues by [@pillot](https://github.com/pillot)
 - [\#14023](https://github.com/AliceO2Group/AliceO2/pull/14023) 2025-03-07: TPC: fix crash in MIPTrackFilterDevice when skipping first TF by [@ehellbar](https://github.com/ehellbar)
 - [\#14024](https://github.com/AliceO2Group/AliceO2/pull/14024) 2025-03-07: [MCH] add protection against missing object by [@pillot](https://github.com/pillot)
