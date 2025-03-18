@@ -65,4 +65,3 @@
 - [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
-- [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)

@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-14T17:11:17Z",
-            "title": "[PWGJE] Adding histograms for testing rho reference shift",
-            "number": 10474,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-14T17:19:03Z",
-            "title": "[PWGLF] Change histogram bin",
-            "number": 10468,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/f1protoncorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-14T17:35:34Z",
-            "title": "[PWGJE] Add event number check plot, rho_local check plot about centrality, add event plane resolution plots",
-            "number": 10461,
-            "author": {
-              "login": "YubiaoWang"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-14T17:36:12Z",
-            "title": "[PWGCF] FemtoUniverse: add processes for analysis of MC reconstructed V0s",
-            "number": 10463,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-14T17:43:26Z",
             "title": "[PWGEM/PhotonMeson] add histograms for misidentified ee as V0 photons in MC",
             "number": 10466,
@@ -2310,16 +2225,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF,Trigger] simplify the 3pfemto functions",
-            "number": 10555,
+            "title": "[DPG] Update eventSelectionQa.cxx - add ROF border and occupancy QA, small updates and cleanups",
+            "number": 10558,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "altsybee"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
                   }
                 }
               ]
@@ -2355,16 +2270,111 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Update eventSelectionQa.cxx - add ROF border and occupancy QA, small updates and cleanups",
-            "number": 10558,
+            "title": "[PWGUD] Remove BCsWithTimestamps, and define the run number",
+            "number": 10559,
             "author": {
-              "login": "altsybee"
+              "login": "zhaomr13"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-14T22:02:45Z",
+            "title": "[PWGHF] added tracks efficiency calculation block",
+            "number": 9877,
+            "author": {
+              "login": "1994ra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-05T08:04:59Z",
+            "title": "[PWGHF] added tracks efficiency calculation block",
+            "number": 9679,
+            "author": {
+              "login": "1994ra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGHF] Trk PID inclusion",
+            "number": 8890,
+            "author": {
+              "login": "1994ra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF,Trigger] fix a small mistake of the 3pfemto in the HF filter task",
+            "number": 10555,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
                   }
                 }
               ]
