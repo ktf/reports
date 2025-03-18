@@ -21,7 +21,6 @@
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
