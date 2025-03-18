@@ -14,6 +14,9 @@
 - [\#14047](https://github.com/AliceO2Group/AliceO2/pull/14047) 2025-03-12: GPU Math: Add memcpy and QuietNaN, fix Finite and IsNaN by [@davidrohr](https://github.com/davidrohr)
 - [\#14055](https://github.com/AliceO2Group/AliceO2/pull/14055) 2025-03-14: Making float16 variables compatible with GPU types by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
+- [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - DataFormats
+- [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#13922](https://github.com/AliceO2Group/AliceO2/pull/13922) 2025-03-06: Add functionality to set the coordinates of PV. by [@makor](https://github.com/makor)
 - [\#13929](https://github.com/AliceO2Group/AliceO2/pull/13929) 2025-03-13: ITS3: AlpideResponse adjust for APTS by [@ChunzhengLab](https://github.com/ChunzhengLab)
@@ -31,8 +34,11 @@
 - [\#14053](https://github.com/AliceO2Group/AliceO2/pull/14053) 2025-03-13: GPU: Remove thrust deprecated declarations in ITS code by [@mconcas](https://github.com/mconcas)
 - [\#14058](https://github.com/AliceO2Group/AliceO2/pull/14058) 2025-03-13: GPU ITS: Fix broken initialisation + cleanup by [@mconcas](https://github.com/mconcas)
 - [\#14059](https://github.com/AliceO2Group/AliceO2/pull/14059) 2025-03-15: [MCH] optional setting of CCDB file time window by [@pillot](https://github.com/pillot)
+- [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 - [\#14072](https://github.com/AliceO2Group/AliceO2/pull/14072) 2025-03-17: [MCH] fix compiler warning about printf format by [@pillot](https://github.com/pillot)
 - [\#14074](https://github.com/AliceO2Group/AliceO2/pull/14074) 2025-03-17: GPU-ITS: Bump nvToolsExt to v3 by [@mconcas](https://github.com/mconcas)
+- [\#14076](https://github.com/AliceO2Group/AliceO2/pull/14076) 2025-03-18: ITSResponse: remove incompatible arg in CMake by [@mconcas](https://github.com/mconcas)
+- [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
@@ -46,8 +52,11 @@
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 - [\#14075](https://github.com/AliceO2Group/AliceO2/pull/14075) 2025-03-17: Drop unneeded minimum requirement by [@ktf](https://github.com/ktf)
+- [\#14081](https://github.com/AliceO2Group/AliceO2/pull/14081) 2025-03-18: explicitly add CCDB to some CCDB fatal error strings by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Generators
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Steer
+- [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#14021](https://github.com/AliceO2Group/AliceO2/pull/14021) 2025-03-06: rANS: Suppress bogus compiler warnings, and add / improve some comments by [@davidrohr](https://github.com/davidrohr)
