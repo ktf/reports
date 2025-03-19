@@ -16,6 +16,7 @@
 - [\#14055](https://github.com/AliceO2Group/AliceO2/pull/14055) 2025-03-14: Making float16 variables compatible with GPU types by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
+- [\#14090](https://github.com/AliceO2Group/AliceO2/pull/14090) 2025-03-19: GPU: Several fixes for sanitizers and build with clang by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
@@ -45,6 +46,9 @@
 - [\#14076](https://github.com/AliceO2Group/AliceO2/pull/14076) 2025-03-18: ITSResponse: remove incompatible arg in CMake by [@mconcas](https://github.com/mconcas)
 - [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
+- [\#14080](https://github.com/AliceO2Group/AliceO2/pull/14080) 2025-03-19: [MCH] turn error into warning and continue the scan by [@pillot](https://github.com/pillot)
+- [\#14086](https://github.com/AliceO2Group/AliceO2/pull/14086) 2025-03-19: Fixing CCDB host address for MFT noise scan by [@mcoquet642](https://github.com/mcoquet642)
+- [\#14087](https://github.com/AliceO2Group/AliceO2/pull/14087) 2025-03-19: fix: debug removed by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)

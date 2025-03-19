@@ -2036,26 +2036,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Avoid fatal in CTPRateFetcher",
-            "number": 14066,
-            "author": {
-              "login": "Barthelemy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/CTPRateFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GLOQC: Add PV contrib vs ITS tracks",
             "number": 14035,
             "author": {
@@ -2879,26 +2859,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Run the workflow json creation with error severity",
-            "number": 14079,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "cmake/O2AddWorkflow.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-03-17T11:05:52Z",
             "title": "Drop unneeded minimum requirement",
@@ -3554,46 +3514,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[MCH] turn error into warning and continue the scan",
-            "number": 14080,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/src/scan-hvlv-ccdb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "MCH: add cut random fraction setting for the cases with and without ITS",
-            "number": 14028,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-03-18T12:06:25Z",
             "title": "Fix round-robin reading in DigitizationContext::retrieveHits",
@@ -3746,46 +3666,6 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/macros/compareRecPoints.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "fix: debug removed",
-            "number": 14087,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/RunManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fixing CCDB host address for MFT noise scan",
-            "number": 14086,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
                   }
                 }
               ]
@@ -4024,8 +3904,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
+            "title": "Flexible config for start layer of ITS tracks",
+            "number": 13952,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-19T06:59:01Z",
             "title": "GPU: Several fixes for sanitizers and build with clang",
             "number": 14090,
             "author": {
@@ -4079,28 +3989,58 @@
         },
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Flexible config for start layer of ITS tracks",
-            "number": 13952,
+            "state": "MERGED",
+            "mergedAt": "2025-03-19T06:59:40Z",
+            "title": "fix: debug removed",
+            "number": 14087,
             "author": {
-              "login": "mpuccio"
+              "login": "lietava"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
+                    "path": "Detectors/CTP/workflowScalers/src/RunManager.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-19T06:59:56Z",
+            "title": "Fixing CCDB host address for MFT noise scan",
+            "number": 14086,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-19T07:00:21Z",
+            "title": "[MCH] turn error into warning and continue the scan",
+            "number": 14080,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                    "path": "Detectors/MUON/MCH/Conditions/src/scan-hvlv-ccdb.cxx"
                   }
                 }
               ]
@@ -4131,6 +4071,66 @@
                 {
                   "node": {
                     "path": "doc/data/2025-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Run the workflow json creation with error severity",
+            "number": 14079,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "cmake/O2AddWorkflow.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid fatal in CTPRateFetcher",
+            "number": 14066,
+            "author": {
+              "login": "Barthelemy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/CTPRateFetcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: add cut random fraction setting for the cases with and without ITS",
+            "number": 14028,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
