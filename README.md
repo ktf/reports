@@ -20,6 +20,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
+- [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 - [\#14089](https://github.com/AliceO2Group/AliceO2/pull/14089) 2025-03-18: Fix BC filling in per TF digi contexts by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
@@ -40,6 +41,7 @@
 - [\#14053](https://github.com/AliceO2Group/AliceO2/pull/14053) 2025-03-13: GPU: Remove thrust deprecated declarations in ITS code by [@mconcas](https://github.com/mconcas)
 - [\#14058](https://github.com/AliceO2Group/AliceO2/pull/14058) 2025-03-13: GPU ITS: Fix broken initialisation + cleanup by [@mconcas](https://github.com/mconcas)
 - [\#14059](https://github.com/AliceO2Group/AliceO2/pull/14059) 2025-03-15: [MCH] optional setting of CCDB file time window by [@pillot](https://github.com/pillot)
+- [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 - [\#14072](https://github.com/AliceO2Group/AliceO2/pull/14072) 2025-03-17: [MCH] fix compiler warning about printf format by [@pillot](https://github.com/pillot)
 - [\#14074](https://github.com/AliceO2Group/AliceO2/pull/14074) 2025-03-17: GPU-ITS: Bump nvToolsExt to v3 by [@mconcas](https://github.com/mconcas)
