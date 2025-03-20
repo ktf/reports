@@ -17,6 +17,7 @@
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
 - [\#14090](https://github.com/AliceO2Group/AliceO2/pull/14090) 2025-03-19: GPU: Several fixes for sanitizers and build with clang by [@davidrohr](https://github.com/davidrohr)
+- [\#14094](https://github.com/AliceO2Group/AliceO2/pull/14094) 2025-03-20: remove deprecated confkey value by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
