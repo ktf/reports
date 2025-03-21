@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-17T07:48:51Z",
-            "title": "[PWGCF/FemtoUniverse] Add `EfficiencyCorrection` class & fix pT binning in `FemtoUniverseParticleHisto`",
-            "number": 10528,
-            "author": {
-              "login": "davkk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseEfficiencyCalculator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseEfficiencyCorrection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackExtended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-17T08:41:35Z",
             "title": "[PWGLF] fixing o2linter complaints",
             "number": 10518,
@@ -1931,31 +1896,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add option to prevent fatal error in ctpRateFetcher::fetch()",
-            "number": 10598,
-            "author": {
-              "login": "gianniliveraro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/ctpRateFetcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/ctpRateFetcher.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add task for on-the-fly production of centrality strangeness derived table",
             "number": 10369,
             "author": {
@@ -2211,6 +2151,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF,Trigger] Trigger task to select events with 2 phi meson",
+            "number": 10607,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/filterdoublephi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Add MC closure, remove obsolete V0 tables",
             "number": 10605,
             "author": {
@@ -2221,6 +2191,31 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-21T16:52:45Z",
+            "title": "[Common] Add option to prevent fatal error in ctpRateFetcher::fetch()",
+            "number": 10598,
+            "author": {
+              "login": "gianniliveraro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/ctpRateFetcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/ctpRateFetcher.h"
                   }
                 }
               ]
