@@ -65,6 +65,7 @@
 - [\#14075](https://github.com/AliceO2Group/AliceO2/pull/14075) 2025-03-17: Drop unneeded minimum requirement by [@ktf](https://github.com/ktf)
 - [\#14081](https://github.com/AliceO2Group/AliceO2/pull/14081) 2025-03-18: explicitly add CCDB to some CCDB fatal error strings by [@ehellbar](https://github.com/ehellbar)
 - [\#14088](https://github.com/AliceO2Group/AliceO2/pull/14088) 2025-03-20: DPL: enable early forwarding for AODs by [@ktf](https://github.com/ktf)
+- [\#14096](https://github.com/AliceO2Group/AliceO2/pull/14096) 2025-03-22: DPL: cleanup creation of DataProcessorInfo by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
