@@ -18,6 +18,7 @@
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
 - [\#14090](https://github.com/AliceO2Group/AliceO2/pull/14090) 2025-03-19: GPU: Several fixes for sanitizers and build with clang by [@davidrohr](https://github.com/davidrohr)
 - [\#14094](https://github.com/AliceO2Group/AliceO2/pull/14094) 2025-03-20: remove deprecated confkey value by [@sawenzel](https://github.com/sawenzel)
+- [\#14095](https://github.com/AliceO2Group/AliceO2/pull/14095) 2025-03-23: GPU Standalone: Modernize CMake, get rid of legacy include_directories(...) and add_definitions(...) by [@davidrohr](https://github.com/davidrohr)
 - [\#14098](https://github.com/AliceO2Group/AliceO2/pull/14098) 2025-03-22: Common: allow to write c-style arrays in TreeStream by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
