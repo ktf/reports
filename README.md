@@ -32,7 +32,6 @@
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
-- [\#14024](https://github.com/AliceO2Group/AliceO2/pull/14024) 2025-03-07: [MCH] add protection against missing object by [@pillot](https://github.com/pillot)
 - [\#14034](https://github.com/AliceO2Group/AliceO2/pull/14034) 2025-03-11: Add MID local board hardware name in the mapping info by [@dstocco](https://github.com/dstocco)
 - [\#14037](https://github.com/AliceO2Group/AliceO2/pull/14037) 2025-03-12: Ctpdev by [@lietava](https://github.com/lietava)
 - [\#14039](https://github.com/AliceO2Group/AliceO2/pull/14039) 2025-03-13: ITS Calib: Refine calculations for rise time and ToT by [@iravasen](https://github.com/iravasen)
