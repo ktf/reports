@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: improve logs for new calibration scheme",
-            "number": 14030,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-03-10T10:19:57Z",
             "title": "CCDBApi: Fix CCDBDownloader redirect errors",
@@ -4106,36 +4081,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-03-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-03-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Bug fixes + cosmetic changes",
             "number": 14069,
             "author": {
@@ -4181,26 +4126,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: Can insert marker earlier, no need to wait",
-            "number": 14101,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingMerger.cxx"
                   }
                 }
               ]
@@ -4301,26 +4226,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: Print error in case we receive data with bogus runNumber / tfCounter",
-            "number": 14100,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Make ITS reco start layer configurable",
             "number": 14102,
             "author": {
@@ -4346,8 +4251,33 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU: Improvements for sorting / thrust external allocator - DON'T MERGE YET",
-            "number": 14103,
+            "title": "ALICE3: Fix TRKConfigParam dictionary creation",
+            "number": 14104,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKSimulationLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-24T17:24:56Z",
+            "title": "DPL: Print error in case we receive data with bogus runNumber / tfCounter",
+            "number": 14100,
             "author": {
               "login": "davidrohr"
             },
@@ -4357,7 +4287,72 @@
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-24T17:25:18Z",
+            "title": "GPU: Can insert marker earlier, no need to wait",
+            "number": 14101,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingMerger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
                 },
+                {
+                  "node": {
+                    "path": "doc/data/2025-03-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Improvements for sorting / thrust external allocator",
+            "number": 14103,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
                     "path": "GPU/Common/GPUCommonAlgorithm.h"
@@ -4471,21 +4466,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ALICE3: Fix TRKConfigParam dictionary creation",
-            "number": 14104,
+            "title": "Fix method MCTrackInfo::getNITSClusCont",
+            "number": 14105,
             "author": {
-              "login": "mconcas"
+              "login": "shahor02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKSimulationLinkDef.h"
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackMCStudyTypes.cxx"
                   }
                 }
               ]
