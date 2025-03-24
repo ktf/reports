@@ -53,6 +53,7 @@
 - [\#14087](https://github.com/AliceO2Group/AliceO2/pull/14087) 2025-03-19: fix: debug removed by [@lietava](https://github.com/lietava)
 - [\#14092](https://github.com/AliceO2Group/AliceO2/pull/14092) 2025-03-20: TPC: Adding check for empty IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
+- [\#14102](https://github.com/AliceO2Group/AliceO2/pull/14102) 2025-03-24: Make ITS reco start layer configurable by [@shahor02](https://github.com/shahor02)
 - [\#14104](https://github.com/AliceO2Group/AliceO2/pull/14104) 2025-03-24: ALICE3: Fix TRKConfigParam dictionary creation by [@mconcas](https://github.com/mconcas)
 - [\#14105](https://github.com/AliceO2Group/AliceO2/pull/14105) 2025-03-24: Fix method MCTrackInfo::getNITSClusCont by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
