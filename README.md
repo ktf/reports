@@ -20,6 +20,7 @@
 - [\#14094](https://github.com/AliceO2Group/AliceO2/pull/14094) 2025-03-20: remove deprecated confkey value by [@sawenzel](https://github.com/sawenzel)
 - [\#14095](https://github.com/AliceO2Group/AliceO2/pull/14095) 2025-03-23: GPU Standalone: Modernize CMake, get rid of legacy include_directories(...) and add_definitions(...) by [@davidrohr](https://github.com/davidrohr)
 - [\#14098](https://github.com/AliceO2Group/AliceO2/pull/14098) 2025-03-22: Common: allow to write c-style arrays in TreeStream by [@f3sch](https://github.com/f3sch)
+- [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
@@ -52,6 +53,7 @@
 - [\#14086](https://github.com/AliceO2Group/AliceO2/pull/14086) 2025-03-19: Fixing CCDB host address for MFT noise scan by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14087](https://github.com/AliceO2Group/AliceO2/pull/14087) 2025-03-19: fix: debug removed by [@lietava](https://github.com/lietava)
 - [\#14092](https://github.com/AliceO2Group/AliceO2/pull/14092) 2025-03-20: TPC: Adding check for empty IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
