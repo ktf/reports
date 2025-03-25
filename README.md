@@ -23,6 +23,7 @@
 - [\#14098](https://github.com/AliceO2Group/AliceO2/pull/14098) 2025-03-22: Common: allow to write c-style arrays in TreeStream by [@f3sch](https://github.com/f3sch)
 - [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 - [\#14103](https://github.com/AliceO2Group/AliceO2/pull/14103) 2025-03-25: GPU: Improvements for sorting / thrust external allocator by [@davidrohr](https://github.com/davidrohr)
+- [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
@@ -59,6 +60,7 @@
 - [\#14102](https://github.com/AliceO2Group/AliceO2/pull/14102) 2025-03-24: Make ITS reco start layer configurable by [@shahor02](https://github.com/shahor02)
 - [\#14104](https://github.com/AliceO2Group/AliceO2/pull/14104) 2025-03-24: ALICE3: Fix TRKConfigParam dictionary creation by [@mconcas](https://github.com/mconcas)
 - [\#14105](https://github.com/AliceO2Group/AliceO2/pull/14105) 2025-03-24: Fix method MCTrackInfo::getNITSClusCont by [@shahor02](https://github.com/shahor02)
+- [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
