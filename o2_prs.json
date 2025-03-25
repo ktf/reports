@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-10T12:14:17Z",
-            "title": "DPL: drop obsolete TreeToTable code",
-            "number": 14031,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableTreeHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_TreeToTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_TreeToTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-10T14:14:54Z",
             "title": "GPU TPC: Fix filtering check",
             "number": 14032,
@@ -4471,6 +4421,71 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC",
+            "number": 14107,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUDefGPUParameters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/dEdx/GPUdEdx.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
                   }
                 }
               ]
