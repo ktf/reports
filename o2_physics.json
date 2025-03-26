@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-19T13:09:46Z",
-            "title": "[PWGHF,Trigger] Add the possibility to use TPC PID in BDT for HFfilters + minor changes to selections",
-            "number": 10572,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-19T17:37:26Z",
-            "title": "[PWGLF] Add selection for systematic",
-            "number": 10577,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phipbpb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-19T19:07:10Z",
-            "title": "[PWGCF] Add mass axis in MCRec histos",
-            "number": 10570,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEfficiencyCasc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-19T19:07:59Z",
             "title": "[PWGCF] add track density correction in MC",
             "number": 10578,
@@ -2296,6 +2226,66 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/fwdtrackPropagation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] corrSparse memory leak fix",
+            "number": 10655,
+            "author": {
+              "login": "Thorkj"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrSparse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Update corrSparse.cxx addressing possible memory leak",
+            "number": 10656,
+            "author": {
+              "login": "Thorkj"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrSparse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT veto eneabled be default + efficiency skim histo",
+            "number": 10657,
+            "author": {
+              "login": "amatyja"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTauTau13topo.cxx"
                   }
                 }
               ]
