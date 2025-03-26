@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-19T22:00:21Z",
-            "title": "[PWGCF] DptDpt - DeltaPhi tracking, limited acceptance compensation",
-            "number": 10584,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/dptDptEfficiencyAndQc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-20T00:07:13Z",
-            "title": "[PWGJE] jetSpectraCharged: eta selection fixes for efficiency and purity, checkLeadConstituentPtForMcpJets fixes",
-            "number": 10579,
-            "author": {
-              "login": "aimeric-landou"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-20T00:07:51Z",
             "title": "[PWGJE] mc dev, fix bugs",
             "number": 10583,
@@ -2049,46 +2004,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] implement common muon-propagation task",
-            "number": 10618,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/fwdtrackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PropagatedFwdTrackTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/fwdtrackPropagation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] corrSparse memory leak fix",
@@ -2291,6 +2206,86 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/upcTauTau13topo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-26T14:36:45Z",
+            "title": "[PWGUD] Test on rho' in UPCs using UD tables",
+            "number": 10556,
+            "author": {
+              "login": "CesarOmarRA"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcRhoPrimeAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Configure dependabot to update GitHub actions",
+            "number": 10660,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/dependabot.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] implement common muon-propagation task",
+            "number": 10618,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/fwdtrackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PropagatedFwdTrackTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/fwdtrackPropagation.cxx"
                   }
                 }
               ]
