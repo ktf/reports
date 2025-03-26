@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-11T12:43:03Z",
-            "title": "Bump actions version",
-            "number": 14017,
-            "author": {
-              "login": "singiamtel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/reports.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-11T11:55:37Z",
             "title": "DPL: provide defaults for inputs and outputs",
             "number": 14038,
@@ -4566,6 +4546,36 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/cmake/kernel_helpers.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Compile Flags: Set denormals to zero unconditionally",
+            "number": 14112,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
