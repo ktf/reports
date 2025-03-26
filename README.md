@@ -62,7 +62,6 @@
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13937](https://github.com/AliceO2Group/AliceO2/pull/13937) 2025-03-12: DataModel: make V0s IsStandard explicit by [@f3sch](https://github.com/f3sch)
-- [\#14038](https://github.com/AliceO2Group/AliceO2/pull/14038) 2025-03-11: DPL: provide defaults for inputs and outputs by [@ktf](https://github.com/ktf)
 - [\#14040](https://github.com/AliceO2Group/AliceO2/pull/14040) 2025-03-11: DPL Analysis: improve error message when messages are malformed by [@ktf](https://github.com/ktf)
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 - [\#14075](https://github.com/AliceO2Group/AliceO2/pull/14075) 2025-03-17: Drop unneeded minimum requirement by [@ktf](https://github.com/ktf)
