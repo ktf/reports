@@ -56,6 +56,7 @@
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
+- [\#14041](https://github.com/AliceO2Group/AliceO2/pull/14041) 2025-03-27: DPL: make input slots display in DebugGUI scrollable by [@aalkin](https://github.com/aalkin)
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
 - [\#14075](https://github.com/AliceO2Group/AliceO2/pull/14075) 2025-03-17: Drop unneeded minimum requirement by [@ktf](https://github.com/ktf)
 - [\#14081](https://github.com/AliceO2Group/AliceO2/pull/14081) 2025-03-18: explicitly add CCDB to some CCDB fatal error strings by [@ehellbar](https://github.com/ehellbar)
