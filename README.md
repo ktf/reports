@@ -63,6 +63,7 @@
 - [\#14088](https://github.com/AliceO2Group/AliceO2/pull/14088) 2025-03-20: DPL: enable early forwarding for AODs by [@ktf](https://github.com/ktf)
 - [\#14096](https://github.com/AliceO2Group/AliceO2/pull/14096) 2025-03-22: DPL: cleanup creation of DataProcessorInfo by [@ktf](https://github.com/ktf)
 - [\#14100](https://github.com/AliceO2Group/AliceO2/pull/14100) 2025-03-24: DPL: Print error in case we receive data with bogus runNumber / tfCounter by [@davidrohr](https://github.com/davidrohr)
+- [\#14118](https://github.com/AliceO2Group/AliceO2/pull/14118) 2025-03-27: DPL: allow searching for plugins in executables as well by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
