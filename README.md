@@ -32,6 +32,7 @@
 - [\#13953](https://github.com/AliceO2Group/AliceO2/pull/13953) 2025-03-13: ALICE3: TRK now hosts IRIS tracker which is divided into petal cases and made retractable by [@Cas1997](https://github.com/Cas1997)
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
+- [\#13995](https://github.com/AliceO2Group/AliceO2/pull/13995) 2025-03-27: ITS Efficiency study: modified cuts and code cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14039](https://github.com/AliceO2Group/AliceO2/pull/14039) 2025-03-13: ITS Calib: Refine calculations for rise time and ToT by [@iravasen](https://github.com/iravasen)
 - [\#14042](https://github.com/AliceO2Group/AliceO2/pull/14042) 2025-03-11: Fix scaling ITS CA tracker params for low Bfield by [@shahor02](https://github.com/shahor02)
 - [\#14048](https://github.com/AliceO2Group/AliceO2/pull/14048) 2025-03-12: write pairs correlation tree only if requested by [@shahor02](https://github.com/shahor02)
