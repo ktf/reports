@@ -19,6 +19,7 @@
 - [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 - [\#14103](https://github.com/AliceO2Group/AliceO2/pull/14103) 2025-03-25: GPU: Improvements for sorting / thrust external allocator by [@davidrohr](https://github.com/davidrohr)
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
+- [\#14113](https://github.com/AliceO2Group/AliceO2/pull/14113) 2025-03-27: GPU: Make GPUDefParamters available as C++ struct at runtime by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)

@@ -3886,26 +3886,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: Extend DCS update and fit interval",
-            "number": 14114,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/dcs/src/DCSSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "FCT Segmentation in trapezoids",
             "number": 13760,
             "author": {
@@ -3981,46 +3961,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: move TableConsumer support out of line in general",
-            "number": 13861,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/test/test_SimpleTracksED.cxx"
                   }
                 }
               ]
@@ -4241,36 +4181,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/PluginManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-03-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-03-o2_releases.json"
                   }
                 }
               ]
@@ -4576,6 +4486,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "GPU stream implementation for ONNX runtime",
+            "number": 14117,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/OrtInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/src/OrtInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-27T20:13:43Z",
             "title": "GPU: Make GPUDefParamters available as C++ struct at runtime",
             "number": 14113,
             "author": {
@@ -4741,61 +4716,86 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU stream implementation for ONNX runtime",
-            "number": 14117,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
             "author": {
-              "login": "ChSonnabend"
+              "login": "github-actions"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/ML/include/ML/OrtInterface.h"
+                    "path": "CHANGELOG.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/src/OrtInterface.cxx"
+                    "path": "doc/data/2025-03-o2_prs.json"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
+                    "path": "doc/data/2025-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Extend DCS update and fit interval",
+            "number": 14114,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/dcs/src/DCSSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: move TableConsumer support out of line in general",
+            "number": 13861,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.h"
+                    "path": "Framework/GUISupport/test/test_SimpleTracksED.cxx"
                   }
                 }
               ]
