@@ -21,6 +21,7 @@
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#14113](https://github.com/AliceO2Group/AliceO2/pull/14113) 2025-03-27: GPU: Make GPUDefParamters available as C++ struct at runtime by [@davidrohr](https://github.com/davidrohr)
 - [\#14120](https://github.com/AliceO2Group/AliceO2/pull/14120) 2025-03-28: GPU RTC: Use launch bounds from runtime parameter object for RTC code generation by [@davidrohr](https://github.com/davidrohr)
+- [\#14125](https://github.com/AliceO2Group/AliceO2/pull/14125) 2025-03-29: GPU RTC: Ability to create and load an RTC launch bound parameter object file, and use that for RTC compilation at runtime. by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
