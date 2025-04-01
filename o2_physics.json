@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-25T16:10:42Z",
-            "title": "[PWGHF] Keep only one tag for the ambiguous case of D0 in the Tcc tree creator",
-            "number": 10643,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorTccToD0D0Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-25T16:32:19Z",
-            "title": "[PWGCF] adding SFINAE checks for PID + optimisation of the tasks",
-            "number": 10640,
-            "author": {
-              "login": "glromane"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/DataModel/PIDutils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/DataModel/singletrackselector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/femto3dPairTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/femto3dQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-25T17:17:17Z",
-            "title": "[PWGHF,Trigger] Add configurables for max mass in Xi+bachelor(s) trigger + minor changes in QA",
-            "number": 10645,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Standard track selection was included to improve PID",
@@ -201,26 +121,6 @@
                 {
                   "node": {
                     "path": "PWGMM/UE/Tasks/dedxAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "O2 linter: Add test for magic numbers",
-            "number": 10616,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Scripts/o2_linter.py"
                   }
                 }
               ]
@@ -1061,26 +961,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Configure dependabot to update GitHub actions",
-            "number": 10660,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/dependabot.yml"
                   }
                 }
               ]
@@ -2420,6 +2300,106 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/sginclusivePhiKstarSD.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-01T10:25:17Z",
+            "title": "[Infrastructure] Add pre-commit hook for cpplint",
+            "number": 10609,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".pre-commit-config.yaml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-01T10:26:06Z",
+            "title": "[Infrastructure] Configure dependabot to update GitHub actions",
+            "number": 10660,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/dependabot.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump oxsecurity/megalinter from 8.4.2 to 8.5.0",
+            "number": 10717,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump actions/stale from 1 to 9",
+            "number": 10718,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/stale.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-01T10:27:52Z",
+            "title": "O2 linter: Add test for magic numbers",
+            "number": 10616,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Scripts/o2_linter.py"
                   }
                 }
               ]
