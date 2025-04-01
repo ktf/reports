@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-14T09:31:55Z",
-            "title": "GPU CMake: Some build improvements",
-            "number": 14060,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/cmake/prepare.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "ITS3: add metal layer + fix macros",
@@ -4811,6 +4786,36 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/reconstruction/src/CollisionTimeRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: fix combinations generator parsing in analysis task",
+            "number": 14133,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Concepts.cxx"
                   }
                 }
               ]
