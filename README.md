@@ -5,6 +5,7 @@
 - [\#14120](https://github.com/AliceO2Group/AliceO2/pull/14120) 2025-03-28: GPU RTC: Use launch bounds from runtime parameter object for RTC code generation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#14064](https://github.com/AliceO2Group/AliceO2/pull/14064) 2025-03-15: DPL: account for IO time correctly by [@ktf](https://github.com/ktf)
+- [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13972](https://github.com/AliceO2Group/AliceO2/pull/13972) 2025-03-18: Add D*(2007)0 PDG code by [@apalasciano](https://github.com/apalasciano)
@@ -64,6 +65,7 @@
 - [\#14096](https://github.com/AliceO2Group/AliceO2/pull/14096) 2025-03-22: DPL: cleanup creation of DataProcessorInfo by [@ktf](https://github.com/ktf)
 - [\#14100](https://github.com/AliceO2Group/AliceO2/pull/14100) 2025-03-24: DPL: Print error in case we receive data with bogus runNumber / tfCounter by [@davidrohr](https://github.com/davidrohr)
 - [\#14118](https://github.com/AliceO2Group/AliceO2/pull/14118) 2025-03-27: DPL: allow searching for plugins in executables as well by [@ktf](https://github.com/ktf)
+- [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
