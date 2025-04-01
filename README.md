@@ -50,6 +50,7 @@
 - [\#14104](https://github.com/AliceO2Group/AliceO2/pull/14104) 2025-03-24: ALICE3: Fix TRKConfigParam dictionary creation by [@mconcas](https://github.com/mconcas)
 - [\#14105](https://github.com/AliceO2Group/AliceO2/pull/14105) 2025-03-24: Fix method MCTrackInfo::getNITSClusCont by [@shahor02](https://github.com/shahor02)
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
+- [\#14115](https://github.com/AliceO2Group/AliceO2/pull/14115) 2025-04-01: TPC: Extend time gain calibration by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
