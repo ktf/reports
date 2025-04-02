@@ -8,7 +8,6 @@
 ## Recent developments in O2 - Common
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13972](https://github.com/AliceO2Group/AliceO2/pull/13972) 2025-03-18: Add D*(2007)0 PDG code by [@apalasciano](https://github.com/apalasciano)
-- [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
 - [\#14090](https://github.com/AliceO2Group/AliceO2/pull/14090) 2025-03-19: GPU: Several fixes for sanitizers and build with clang by [@davidrohr](https://github.com/davidrohr)
 - [\#14094](https://github.com/AliceO2Group/AliceO2/pull/14094) 2025-03-20: remove deprecated confkey value by [@sawenzel](https://github.com/sawenzel)
@@ -66,7 +65,6 @@
 - [\#14118](https://github.com/AliceO2Group/AliceO2/pull/14118) 2025-03-27: DPL: allow searching for plugins in executables as well by [@ktf](https://github.com/ktf)
 - [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
-- [\#14062](https://github.com/AliceO2Group/AliceO2/pull/14062) 2025-03-17: GPU: Provide general GPUChkErr functionality also externally and several unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
