@@ -27,6 +27,7 @@
 - [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 - [\#14089](https://github.com/AliceO2Group/AliceO2/pull/14089) 2025-03-18: Fix BC filling in per TF digi contexts by [@sawenzel](https://github.com/sawenzel)
+- [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
@@ -51,6 +52,7 @@
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#14114](https://github.com/AliceO2Group/AliceO2/pull/14114) 2025-04-01: TPC: Extend DCS update and fit interval by [@wiechula](https://github.com/wiechula)
 - [\#14115](https://github.com/AliceO2Group/AliceO2/pull/14115) 2025-04-01: TPC: Extend time gain calibration by [@wiechula](https://github.com/wiechula)
+- [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
 - [\#14124](https://github.com/AliceO2Group/AliceO2/pull/14124) 2025-04-02: GPU: Cleanup stale ITS GPU code by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
