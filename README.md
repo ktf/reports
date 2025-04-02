@@ -57,7 +57,6 @@
 ## Recent developments in O2 - Framework
 - [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#14041](https://github.com/AliceO2Group/AliceO2/pull/14041) 2025-03-27: DPL: make input slots display in DebugGUI scrollable by [@aalkin](https://github.com/aalkin)
-- [\#14075](https://github.com/AliceO2Group/AliceO2/pull/14075) 2025-03-17: Drop unneeded minimum requirement by [@ktf](https://github.com/ktf)
 - [\#14081](https://github.com/AliceO2Group/AliceO2/pull/14081) 2025-03-18: explicitly add CCDB to some CCDB fatal error strings by [@ehellbar](https://github.com/ehellbar)
 - [\#14088](https://github.com/AliceO2Group/AliceO2/pull/14088) 2025-03-20: DPL: enable early forwarding for AODs by [@ktf](https://github.com/ktf)
 - [\#14096](https://github.com/AliceO2Group/AliceO2/pull/14096) 2025-03-22: DPL: cleanup creation of DataProcessorInfo by [@ktf](https://github.com/ktf)
