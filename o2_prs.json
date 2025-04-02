@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-17T10:08:39Z",
-            "title": "ITS-GPU: remove debug options in production",
-            "number": 14078,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-17T07:23:23Z",
             "title": "GPU: Provide general GPUChkErr functionality also externally and several unrelated changes",
             "number": 14062,
@@ -4781,6 +4761,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/LifetimeHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics",
+            "number": 14138,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingStats.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
                   }
                 }
               ]

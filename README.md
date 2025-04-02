@@ -39,7 +39,6 @@
 - [\#14074](https://github.com/AliceO2Group/AliceO2/pull/14074) 2025-03-17: GPU-ITS: Bump nvToolsExt to v3 by [@mconcas](https://github.com/mconcas)
 - [\#14076](https://github.com/AliceO2Group/AliceO2/pull/14076) 2025-03-18: ITSResponse: remove incompatible arg in CMake by [@mconcas](https://github.com/mconcas)
 - [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
-- [\#14078](https://github.com/AliceO2Group/AliceO2/pull/14078) 2025-03-17: ITS-GPU: remove debug options in production by [@mconcas](https://github.com/mconcas)
 - [\#14080](https://github.com/AliceO2Group/AliceO2/pull/14080) 2025-03-19: [MCH] turn error into warning and continue the scan by [@pillot](https://github.com/pillot)
 - [\#14086](https://github.com/AliceO2Group/AliceO2/pull/14086) 2025-03-19: Fixing CCDB host address for MFT noise scan by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14087](https://github.com/AliceO2Group/AliceO2/pull/14087) 2025-03-19: fix: debug removed by [@lietava](https://github.com/lietava)
