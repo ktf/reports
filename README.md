@@ -6,7 +6,6 @@
 ## Recent developments in O2 - Analysis
 - [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13972](https://github.com/AliceO2Group/AliceO2/pull/13972) 2025-03-18: Add D*(2007)0 PDG code by [@apalasciano](https://github.com/apalasciano)
 - [\#14082](https://github.com/AliceO2Group/AliceO2/pull/14082) 2025-03-18: GPU: Fix GPUChkErr macro, GPU::Common should not use GPU::GPUTracking internals by [@davidrohr](https://github.com/davidrohr)
 - [\#14090](https://github.com/AliceO2Group/AliceO2/pull/14090) 2025-03-19: GPU: Several fixes for sanitizers and build with clang by [@davidrohr](https://github.com/davidrohr)
@@ -29,7 +28,6 @@
 - [\#14089](https://github.com/AliceO2Group/AliceO2/pull/14089) 2025-03-18: Fix BC filling in per TF digi contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#13995](https://github.com/AliceO2Group/AliceO2/pull/13995) 2025-03-27: ITS Efficiency study: modified cuts and code cleanup by [@atriolo](https://github.com/atriolo)
@@ -55,7 +53,6 @@
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
 - [\#14041](https://github.com/AliceO2Group/AliceO2/pull/14041) 2025-03-27: DPL: make input slots display in DebugGUI scrollable by [@aalkin](https://github.com/aalkin)
 - [\#14081](https://github.com/AliceO2Group/AliceO2/pull/14081) 2025-03-18: explicitly add CCDB to some CCDB fatal error strings by [@ehellbar](https://github.com/ehellbar)
 - [\#14088](https://github.com/AliceO2Group/AliceO2/pull/14088) 2025-03-20: DPL: enable early forwarding for AODs by [@ktf](https://github.com/ktf)
@@ -71,5 +68,3 @@
 ## Recent developments in O2 - Steer
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
 - [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
-## Recent developments in O2 - Utilities
-- [\#13930](https://github.com/AliceO2Group/AliceO2/pull/13930) 2025-03-17: Promoting operational errors to critical severity by [@ehellbar](https://github.com/ehellbar)
