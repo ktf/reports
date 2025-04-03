@@ -20,6 +20,7 @@
 - [\#14124](https://github.com/AliceO2Group/AliceO2/pull/14124) 2025-04-02: GPU: Cleanup stale ITS GPU code by [@mconcas](https://github.com/mconcas)
 - [\#14125](https://github.com/AliceO2Group/AliceO2/pull/14125) 2025-03-29: GPU RTC: Ability to create and load an RTC launch bound parameter object file, and use that for RTC compilation at runtime. by [@davidrohr](https://github.com/davidrohr)
 - [\#14138](https://github.com/AliceO2Group/AliceO2/pull/14138) 2025-04-03: DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics by [@ehellbar](https://github.com/ehellbar)
+- [\#14142](https://github.com/AliceO2Group/AliceO2/pull/14142) 2025-04-03: Common: DCAFitter fix collinear not touching calc by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
