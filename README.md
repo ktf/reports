@@ -34,7 +34,6 @@
 - [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
 - [\#14076](https://github.com/AliceO2Group/AliceO2/pull/14076) 2025-03-18: ITSResponse: remove incompatible arg in CMake by [@mconcas](https://github.com/mconcas)
-- [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#14080](https://github.com/AliceO2Group/AliceO2/pull/14080) 2025-03-19: [MCH] turn error into warning and continue the scan by [@pillot](https://github.com/pillot)
 - [\#14086](https://github.com/AliceO2Group/AliceO2/pull/14086) 2025-03-19: Fixing CCDB host address for MFT noise scan by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14087](https://github.com/AliceO2Group/AliceO2/pull/14087) 2025-03-19: fix: debug removed by [@lietava](https://github.com/lietava)
@@ -68,4 +67,3 @@
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#13959](https://github.com/AliceO2Group/AliceO2/pull/13959) 2025-03-18: ALICE 3: Add empty skeleton for the TRK digitization by [@mconcas](https://github.com/mconcas)
-- [\#14077](https://github.com/AliceO2Group/AliceO2/pull/14077) 2025-03-18: GPU: Fix rounding error, drop tpcGeometry instance in favor of constexpr, fix warnings by [@davidrohr](https://github.com/davidrohr)
