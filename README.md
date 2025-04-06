@@ -37,7 +37,6 @@
 - [\#13995](https://github.com/AliceO2Group/AliceO2/pull/13995) 2025-03-27: ITS Efficiency study: modified cuts and code cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14068](https://github.com/AliceO2Group/AliceO2/pull/14068) 2025-03-18: DataFormatsFIT: hotfix for LUT, excluded CCDB API from header by [@afurs](https://github.com/afurs)
-- [\#14076](https://github.com/AliceO2Group/AliceO2/pull/14076) 2025-03-18: ITSResponse: remove incompatible arg in CMake by [@mconcas](https://github.com/mconcas)
 - [\#14080](https://github.com/AliceO2Group/AliceO2/pull/14080) 2025-03-19: [MCH] turn error into warning and continue the scan by [@pillot](https://github.com/pillot)
 - [\#14086](https://github.com/AliceO2Group/AliceO2/pull/14086) 2025-03-19: Fixing CCDB host address for MFT noise scan by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14087](https://github.com/AliceO2Group/AliceO2/pull/14087) 2025-03-19: fix: debug removed by [@lietava](https://github.com/lietava)
