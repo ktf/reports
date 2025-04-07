@@ -27,7 +27,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#13979](https://github.com/AliceO2Group/AliceO2/pull/13979) 2025-03-18: FIT: add RecPoint reader and writer workflows for FV0 and FDD by [@andreasmolander](https://github.com/andreasmolander)
-- [\#14065](https://github.com/AliceO2Group/AliceO2/pull/14065) 2025-03-18: Fix round-robin reading in DigitizationContext::retrieveHits by [@shahor02](https://github.com/shahor02)
 - [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14089](https://github.com/AliceO2Group/AliceO2/pull/14089) 2025-03-18: Fix BC filling in per TF digi contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
