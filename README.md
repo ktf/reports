@@ -21,6 +21,7 @@
 - [\#14124](https://github.com/AliceO2Group/AliceO2/pull/14124) 2025-04-02: GPU: Cleanup stale ITS GPU code by [@mconcas](https://github.com/mconcas)
 - [\#14125](https://github.com/AliceO2Group/AliceO2/pull/14125) 2025-03-29: GPU RTC: Ability to create and load an RTC launch bound parameter object file, and use that for RTC compilation at runtime. by [@davidrohr](https://github.com/davidrohr)
 - [\#14131](https://github.com/AliceO2Group/AliceO2/pull/14131) 2025-04-07: Common: EnumFlags modifications by [@f3sch](https://github.com/f3sch)
+- [\#14132](https://github.com/AliceO2Group/AliceO2/pull/14132) 2025-04-07: Common: DCAFitter add fit status code by [@f3sch](https://github.com/f3sch)
 - [\#14138](https://github.com/AliceO2Group/AliceO2/pull/14138) 2025-04-03: DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics by [@ehellbar](https://github.com/ehellbar)
 - [\#14139](https://github.com/AliceO2Group/AliceO2/pull/14139) 2025-04-04: GPU: Array add fill method by [@f3sch](https://github.com/f3sch)
 - [\#14142](https://github.com/AliceO2Group/AliceO2/pull/14142) 2025-04-03: Common: DCAFitter fix collinear not touching calc by [@f3sch](https://github.com/f3sch)
