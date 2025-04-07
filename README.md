@@ -67,3 +67,5 @@
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#14143](https://github.com/AliceO2Group/AliceO2/pull/14143) 2025-04-07: Fixes for the latest clang on osx by [@mpuccio](https://github.com/mpuccio)
