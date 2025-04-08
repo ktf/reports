@@ -49,6 +49,7 @@
 - [\#14130](https://github.com/AliceO2Group/AliceO2/pull/14130) 2025-04-04: ITSMFT: add asString() for clusters by [@f3sch](https://github.com/f3sch)
 - [\#14134](https://github.com/AliceO2Group/AliceO2/pull/14134) 2025-04-04: [Strangeness Tracker] Use meaningful matching chi2 calculation by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
+- [\#14150](https://github.com/AliceO2Group/AliceO2/pull/14150) 2025-04-08: ITS Calib: From rise time to time of arrival by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
