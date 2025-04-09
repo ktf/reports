@@ -25,14 +25,11 @@
 - [\#14142](https://github.com/AliceO2Group/AliceO2/pull/14142) 2025-04-03: Common: DCAFitter fix collinear not touching calc by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
-- [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
 - [\#14130](https://github.com/AliceO2Group/AliceO2/pull/14130) 2025-04-04: ITSMFT: add asString() for clusters by [@f3sch](https://github.com/f3sch)
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13995](https://github.com/AliceO2Group/AliceO2/pull/13995) 2025-03-27: ITS Efficiency study: modified cuts and code cleanup by [@atriolo](https://github.com/atriolo)
-- [\#14066](https://github.com/AliceO2Group/AliceO2/pull/14066) 2025-03-19: Avoid fatal in CTPRateFetcher by [@Barthelemy](https://github.com/Barthelemy)
-- [\#14080](https://github.com/AliceO2Group/AliceO2/pull/14080) 2025-03-19: [MCH] turn error into warning and continue the scan by [@pillot](https://github.com/pillot)
 - [\#14092](https://github.com/AliceO2Group/AliceO2/pull/14092) 2025-03-20: TPC: Adding check for empty IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14093](https://github.com/AliceO2Group/AliceO2/pull/14093) 2025-03-28: FIT: Geometry alignment macros by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14097](https://github.com/AliceO2Group/AliceO2/pull/14097) 2025-04-04: AOD: save selected TPC standalone tracks from thinning by [@f3sch](https://github.com/f3sch)
