@@ -9,7 +9,6 @@
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [\#14095](https://github.com/AliceO2Group/AliceO2/pull/14095) 2025-03-23: GPU Standalone: Modernize CMake, get rid of legacy include_directories(...) and add_definitions(...) by [@davidrohr](https://github.com/davidrohr)
-- [\#14098](https://github.com/AliceO2Group/AliceO2/pull/14098) 2025-03-22: Common: allow to write c-style arrays in TreeStream by [@f3sch](https://github.com/f3sch)
 - [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 - [\#14103](https://github.com/AliceO2Group/AliceO2/pull/14103) 2025-03-25: GPU: Improvements for sorting / thrust external allocator by [@davidrohr](https://github.com/davidrohr)
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
