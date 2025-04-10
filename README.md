@@ -62,6 +62,7 @@
 - [\#14160](https://github.com/AliceO2Group/AliceO2/pull/14160) 2025-04-10: DPL: extend DataRefUtils::match to support multiple headers by [@ktf](https://github.com/ktf)
 - [\#14163](https://github.com/AliceO2Group/AliceO2/pull/14163) 2025-04-10: DPL: do not compute GUI metrics if we are in online mode by [@ktf](https://github.com/ktf)
 - [\#14164](https://github.com/AliceO2Group/AliceO2/pull/14164) 2025-04-10: DataSampling: make sure the original DataHeader is available in the sampled data by [@ktf](https://github.com/ktf)
+- [\#14169](https://github.com/AliceO2Group/AliceO2/pull/14169) 2025-04-10: DPL: exclude tfCounter == 0 messages for EOS by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
