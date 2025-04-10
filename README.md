@@ -8,7 +8,6 @@
 - [\#14141](https://github.com/AliceO2Group/AliceO2/pull/14141) 2025-04-07: DPL Analysis: add configurable expression columns by [@aalkin](https://github.com/aalkin)
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
-- [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 - [\#14103](https://github.com/AliceO2Group/AliceO2/pull/14103) 2025-03-25: GPU: Improvements for sorting / thrust external allocator by [@davidrohr](https://github.com/davidrohr)
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#14113](https://github.com/AliceO2Group/AliceO2/pull/14113) 2025-03-27: GPU: Make GPUDefParamters available as C++ struct at runtime by [@davidrohr](https://github.com/davidrohr)
@@ -31,7 +30,6 @@
 - [\#13995](https://github.com/AliceO2Group/AliceO2/pull/13995) 2025-03-27: ITS Efficiency study: modified cuts and code cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14093](https://github.com/AliceO2Group/AliceO2/pull/14093) 2025-03-28: FIT: Geometry alignment macros by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14097](https://github.com/AliceO2Group/AliceO2/pull/14097) 2025-04-04: AOD: save selected TPC standalone tracks from thinning by [@f3sch](https://github.com/f3sch)
-- [\#14099](https://github.com/AliceO2Group/AliceO2/pull/14099) 2025-03-24: GPU: Replace GPUCA_NO_FAST_MATH by more fine-grain GPUCA_DETERMINISTIC_MODE by [@davidrohr](https://github.com/davidrohr)
 - [\#14102](https://github.com/AliceO2Group/AliceO2/pull/14102) 2025-03-24: Make ITS reco start layer configurable by [@shahor02](https://github.com/shahor02)
 - [\#14104](https://github.com/AliceO2Group/AliceO2/pull/14104) 2025-03-24: ALICE3: Fix TRKConfigParam dictionary creation by [@mconcas](https://github.com/mconcas)
 - [\#14105](https://github.com/AliceO2Group/AliceO2/pull/14105) 2025-03-24: Fix method MCTrackInfo::getNITSClusCont by [@shahor02](https://github.com/shahor02)
@@ -58,6 +56,7 @@
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 - [\#14152](https://github.com/AliceO2Group/AliceO2/pull/14152) 2025-04-09: DPL: fix setting of run number by [@ktf](https://github.com/ktf)
 - [\#14158](https://github.com/AliceO2Group/AliceO2/pull/14158) 2025-04-09: DPL: set run number also on EoS by [@ktf](https://github.com/ktf)
+- [\#14160](https://github.com/AliceO2Group/AliceO2/pull/14160) 2025-04-10: DPL: extend DataRefUtils::match to support multiple headers by [@ktf](https://github.com/ktf)
 - [\#14163](https://github.com/AliceO2Group/AliceO2/pull/14163) 2025-04-10: DPL: do not compute GUI metrics if we are in online mode by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14108](https://github.com/AliceO2Group/AliceO2/pull/14108) 2025-03-25: GeneratorHybrid: improve unit treatment by [@sawenzel](https://github.com/sawenzel)
