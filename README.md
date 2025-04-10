@@ -49,7 +49,6 @@
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#14041](https://github.com/AliceO2Group/AliceO2/pull/14041) 2025-03-27: DPL: make input slots display in DebugGUI scrollable by [@aalkin](https://github.com/aalkin)
-- [\#14096](https://github.com/AliceO2Group/AliceO2/pull/14096) 2025-03-22: DPL: cleanup creation of DataProcessorInfo by [@ktf](https://github.com/ktf)
 - [\#14100](https://github.com/AliceO2Group/AliceO2/pull/14100) 2025-03-24: DPL: Print error in case we receive data with bogus runNumber / tfCounter by [@davidrohr](https://github.com/davidrohr)
 - [\#14118](https://github.com/AliceO2Group/AliceO2/pull/14118) 2025-03-27: DPL: allow searching for plugins in executables as well by [@ktf](https://github.com/ktf)
 - [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
