@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-20T16:43:07Z",
-            "title": "remove deprecated confkey value",
-            "number": 14094,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimParams.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-22T11:24:49Z",
             "title": "Common: allow to write c-style arrays in TreeStream",
             "number": 14098,
@@ -3461,41 +3441,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ctpdev: orbitreset and orbitsox via zmq II",
-            "number": 14147,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/include/CTPWorkflowScalers/RunManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/RunManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctpCCDBManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "AFIT-107: new RCT bad flags for FT0",
             "number": 13698,
             "author": {
@@ -4039,6 +3984,76 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-10T07:13:36Z",
+            "title": "DPL: do not compute GUI metrics if we are in online mode",
+            "number": 14163,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: add cut random fraction setting for the cases with and without ITS",
+            "number": 14028,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-04-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-04-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "GPU stream implementation for ONNX runtime",
@@ -4189,46 +4204,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-10T07:13:36Z",
-            "title": "DPL: do not compute GUI metrics if we are in online mode",
-            "number": 14163,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "MCH: add cut random fraction setting for the cases with and without ITS",
-            "number": 14028,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: extend DataRefUtils::match to support multiple headers",
@@ -4247,6 +4222,11 @@
                   "node": {
                     "path": "Framework/Core/include/Framework/InputRecordWalker.h"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/include/DPLUtils/DPLRawPageSequencer.h"
+                  }
                 }
               ]
             }
@@ -4256,26 +4236,86 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "ctpdev: orbitreset and orbitsox via zmq II",
+            "number": 14147,
             "author": {
-              "login": "github-actions"
+              "login": "lietava"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Detectors/CTP/workflowScalers/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2025-04-o2_prs.json"
+                    "path": "Detectors/CTP/workflowScalers/include/CTPWorkflowScalers/RunManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2025-04-o2_releases.json"
+                    "path": "Detectors/CTP/workflowScalers/src/RunManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/ctpCCDBManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DataSampling: make sure the original DataHeader is available in the sampled data",
+            "number": 14164,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataRefUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecordWalker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/include/DPLUtils/DPLRawPageSequencer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSamplingHeader.cxx"
                   }
                 }
               ]
