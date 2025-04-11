@@ -35,7 +35,6 @@
 - [\#14093](https://github.com/AliceO2Group/AliceO2/pull/14093) 2025-03-28: FIT: Geometry alignment macros by [@andreasmolander](https://github.com/andreasmolander)
 - [\#14097](https://github.com/AliceO2Group/AliceO2/pull/14097) 2025-04-04: AOD: save selected TPC standalone tracks from thinning by [@f3sch](https://github.com/f3sch)
 - [\#14102](https://github.com/AliceO2Group/AliceO2/pull/14102) 2025-03-24: Make ITS reco start layer configurable by [@shahor02](https://github.com/shahor02)
-- [\#14104](https://github.com/AliceO2Group/AliceO2/pull/14104) 2025-03-24: ALICE3: Fix TRKConfigParam dictionary creation by [@mconcas](https://github.com/mconcas)
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#14114](https://github.com/AliceO2Group/AliceO2/pull/14114) 2025-04-01: TPC: Extend DCS update and fit interval by [@wiechula](https://github.com/wiechula)
 - [\#14115](https://github.com/AliceO2Group/AliceO2/pull/14115) 2025-04-01: TPC: Extend time gain calibration by [@wiechula](https://github.com/wiechula)
