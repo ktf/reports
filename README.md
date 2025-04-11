@@ -21,6 +21,7 @@
 - [\#14142](https://github.com/AliceO2Group/AliceO2/pull/14142) 2025-04-03: Common: DCAFitter fix collinear not touching calc by [@f3sch](https://github.com/f3sch)
 - [\#14163](https://github.com/AliceO2Group/AliceO2/pull/14163) 2025-04-10: DPL: do not compute GUI metrics if we are in online mode by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
+- [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
@@ -48,6 +49,7 @@
 - [\#14150](https://github.com/AliceO2Group/AliceO2/pull/14150) 2025-04-08: ITS Calib: From rise time to time of arrival by [@iravasen](https://github.com/iravasen)
 - [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
+- [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
