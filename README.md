@@ -31,6 +31,7 @@
 - [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [\#13894](https://github.com/AliceO2Group/AliceO2/pull/13894) 2025-04-12: ITS3: add metal layer + fix macros by [@f3sch](https://github.com/f3sch)
 - [\#13895](https://github.com/AliceO2Group/AliceO2/pull/13895) 2025-04-10: ITS3: Fix matrix generation in helper class by [@f3sch](https://github.com/f3sch)
 - [\#13995](https://github.com/AliceO2Group/AliceO2/pull/13995) 2025-03-27: ITS Efficiency study: modified cuts and code cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14093](https://github.com/AliceO2Group/AliceO2/pull/14093) 2025-03-28: FIT: Geometry alignment macros by [@andreasmolander](https://github.com/andreasmolander)
@@ -45,6 +46,7 @@
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 - [\#14147](https://github.com/AliceO2Group/AliceO2/pull/14147) 2025-04-10: ctpdev: orbitreset and orbitsox via zmq II by [@lietava](https://github.com/lietava)
 - [\#14150](https://github.com/AliceO2Group/AliceO2/pull/14150) 2025-04-08: ITS Calib: From rise time to time of arrival by [@iravasen](https://github.com/iravasen)
+- [\#14154](https://github.com/AliceO2Group/AliceO2/pull/14154) 2025-04-12: ITS3: fix tracking initialisation by [@f3sch](https://github.com/f3sch)
 - [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
