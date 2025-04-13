@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-- [\#14103](https://github.com/AliceO2Group/AliceO2/pull/14103) 2025-03-25: GPU: Improvements for sorting / thrust external allocator by [@davidrohr](https://github.com/davidrohr)
 - [\#14120](https://github.com/AliceO2Group/AliceO2/pull/14120) 2025-03-28: GPU RTC: Use launch bounds from runtime parameter object for RTC code generation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
@@ -9,7 +8,6 @@
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#14103](https://github.com/AliceO2Group/AliceO2/pull/14103) 2025-03-25: GPU: Improvements for sorting / thrust external allocator by [@davidrohr](https://github.com/davidrohr)
 - [\#14107](https://github.com/AliceO2Group/AliceO2/pull/14107) 2025-03-25: GPU: Change GPUCA_DETERMINISTIC_MODE define to GPUCA_DETERMINISTIC_CODE macro, that can be used also in RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#14113](https://github.com/AliceO2Group/AliceO2/pull/14113) 2025-03-27: GPU: Make GPUDefParamters available as C++ struct at runtime by [@davidrohr](https://github.com/davidrohr)
 - [\#14120](https://github.com/AliceO2Group/AliceO2/pull/14120) 2025-03-28: GPU RTC: Use launch bounds from runtime parameter object for RTC code generation by [@davidrohr](https://github.com/davidrohr)
