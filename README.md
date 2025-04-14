@@ -69,6 +69,8 @@
 - [\#14169](https://github.com/AliceO2Group/AliceO2/pull/14169) 2025-04-10: DPL: exclude tfCounter == 0 messages for EOS by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
+## Recent developments in O2 - Steer
+- [\#14178](https://github.com/AliceO2Group/AliceO2/pull/14178) 2025-04-14: Fix decay by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#14143](https://github.com/AliceO2Group/AliceO2/pull/14143) 2025-04-07: Fixes for the latest clang on osx by [@mpuccio](https://github.com/mpuccio)
 - [\#14164](https://github.com/AliceO2Group/AliceO2/pull/14164) 2025-04-10: DataSampling: make sure the original DataHeader is available in the sampled data by [@ktf](https://github.com/ktf)
