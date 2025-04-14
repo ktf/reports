@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Save the information of ambiguous pairs",
-            "number": 10733,
-            "author": {
-              "login": "yuanz-USTC"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-04T10:55:27Z",
             "title": "[PWGCF] FemtoUniverse -- Add LF PID for phi daughters",
@@ -2890,6 +2870,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] initial task for lambda correlation study",
+            "number": 10810,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolspspin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Benchmarks] Introduce analysis benhcmark tasks",
             "number": 10840,
             "author": {
@@ -2935,26 +2945,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] initial task for lambda correlation study",
-            "number": 10810,
+            "title": "[PWGEM/Dilepton] support RCT flag",
+            "number": 10841,
             "author": {
-              "login": "prottayCMT"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdapolspspin.cxx"
+                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorr.cxx"
+                    "path": "PWGEM/Dilepton/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/filterDielectronEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerSecondaryElectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/Converters/eventConverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createEMEventPhoton.cxx"
                   }
                 }
               ]
