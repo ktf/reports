@@ -20,6 +20,7 @@
 - [\#14163](https://github.com/AliceO2Group/AliceO2/pull/14163) 2025-04-10: DPL: do not compute GUI metrics if we are in online mode by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
+- [\#14182](https://github.com/AliceO2Group/AliceO2/pull/14182) 2025-04-14: ONNX: Use CMake defines not env variables by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
