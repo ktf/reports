@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-11-19T12:49:36Z",
-            "title": "[PWGDQ] Adding code to process MC events in Fwd PID task",
-            "number": 8510,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/taskFwdTrackPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-30T09:51:26Z",
             "title": "[PWGDQ] Adding muonBasic process function for code optimization",
             "number": 10702,
@@ -2955,6 +2925,81 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/nucleiFlowTree.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PIDML] use dynamic columns instead of hardcoding",
+            "number": 10282,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/KaonPidTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMlBatchEffAndPurProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMlEffAndPurProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMlProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidOnnxInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidOnnxModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/qaPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/qaPidMl.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/simpleApplyPidOnnxInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/simpleApplyPidOnnxModel.cxx"
                   }
                 }
               ]
