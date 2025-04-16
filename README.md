@@ -53,6 +53,7 @@
 - [\#14173](https://github.com/AliceO2Group/AliceO2/pull/14173) 2025-04-14: ITS: CellSeed forced cast to int for chi2 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
+- [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
 - [\#14135](https://github.com/AliceO2Group/AliceO2/pull/14135) 2025-04-03: DPL: attempt at adding the run number to timers and enumerations by [@ktf](https://github.com/ktf)
