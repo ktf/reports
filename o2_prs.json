@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-27T11:55:15Z",
-            "title": "GPU Cmake: Fix passing clang x86 denormal command to clang device compilation",
-            "number": 14116,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-03-27T14:57:39Z",
             "title": "DPL: make input slots display in DebugGUI scrollable",
             "number": 14041,
@@ -4221,6 +4191,26 @@
                 {
                   "node": {
                     "path": "doc/data/2025-04-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL GUI: do not sent any state when GUI is disabled",
+            "number": 14184,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
                   }
                 }
               ]
