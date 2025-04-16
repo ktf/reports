@@ -55,7 +55,6 @@
 ## Recent developments in O2 - Examples
 - [\#14121](https://github.com/AliceO2Group/AliceO2/pull/14121) 2025-03-28: Generator example for quick HepMC extraction from Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#14118](https://github.com/AliceO2Group/AliceO2/pull/14118) 2025-03-27: DPL: allow searching for plugins in executables as well by [@ktf](https://github.com/ktf)
 - [\#14133](https://github.com/AliceO2Group/AliceO2/pull/14133) 2025-04-01: DPL Analysis: fix combinations generator parsing in analysis task by [@aalkin](https://github.com/aalkin)
 - [\#14135](https://github.com/AliceO2Group/AliceO2/pull/14135) 2025-04-03: DPL: attempt at adding the run number to timers and enumerations by [@ktf](https://github.com/ktf)
 - [\#14136](https://github.com/AliceO2Group/AliceO2/pull/14136) 2025-04-03: DPL: Improve debug message for missing runNumber. by [@ktf](https://github.com/ktf)
