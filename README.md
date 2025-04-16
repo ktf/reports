@@ -22,6 +22,7 @@
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
 - [\#14177](https://github.com/AliceO2Group/AliceO2/pull/14177) 2025-04-15: GPU RTC: Work to make more parameters settable from runtime config object, instead of being hardcoded preprocessor define by [@davidrohr](https://github.com/davidrohr)
 - [\#14182](https://github.com/AliceO2Group/AliceO2/pull/14182) 2025-04-14: ONNX: Use CMake defines not env variables by [@davidrohr](https://github.com/davidrohr)
+- [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
@@ -71,6 +72,7 @@
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 - [\#14174](https://github.com/AliceO2Group/AliceO2/pull/14174) 2025-04-15: DPL Analysis: introduce binned expression by [@aalkin](https://github.com/aalkin)
+- [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14178](https://github.com/AliceO2Group/AliceO2/pull/14178) 2025-04-14: Fix decay by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
