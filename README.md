@@ -19,6 +19,7 @@
 - [\#14182](https://github.com/AliceO2Group/AliceO2/pull/14182) 2025-04-14: ONNX: Use CMake defines not env variables by [@davidrohr](https://github.com/davidrohr)
 - [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
 - [\#14194](https://github.com/AliceO2Group/AliceO2/pull/14194) 2025-04-17: GPU: Use a unified constant instead of copy and paste for 0 field cut by [@davidrohr](https://github.com/davidrohr)
+- [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
@@ -69,6 +70,7 @@
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 - [\#14174](https://github.com/AliceO2Group/AliceO2/pull/14174) 2025-04-15: DPL Analysis: introduce binned expression by [@aalkin](https://github.com/aalkin)
 - [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
+- [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14190](https://github.com/AliceO2Group/AliceO2/pull/14190) 2025-04-16: Include pO and OO example configurations for Pythia8 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14195](https://github.com/AliceO2Group/AliceO2/pull/14195) 2025-04-17: Include 20Neon in Pythia8 particles database by [@jackal1-66](https://github.com/jackal1-66)
