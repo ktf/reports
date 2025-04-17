@@ -48,6 +48,7 @@
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
 - [\#14173](https://github.com/AliceO2Group/AliceO2/pull/14173) 2025-04-14: ITS: CellSeed forced cast to int for chi2 by [@f3sch](https://github.com/f3sch)
+- [\#14180](https://github.com/AliceO2Group/AliceO2/pull/14180) 2025-04-17: RawReader: set runNumber in DataHeader from raw data readers by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Examples
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
