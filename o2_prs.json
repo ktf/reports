@@ -3046,26 +3046,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "fix in FT0 digitization (time wrt BC)",
-            "number": 13833,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL Analysis: remove selected_pack (fixed)",
             "number": 13915,
             "author": {
@@ -3786,26 +3766,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix margin for 0 B-field in the GPU code",
-            "number": 14193,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPolynomialFieldManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "More fixes for the plugins",
             "number": 13976,
             "author": {
@@ -3871,26 +3831,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "Use common FatalWhenNull setting in getSpecificForRun",
+            "number": 14191,
             "author": {
-              "login": "github-actions"
+              "login": "shahor02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-17T07:01:10Z",
+            "title": "fix in FT0 digitization (time wrt BC)",
+            "number": 13833,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "doc/data/2025-04-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-04-o2_releases.json"
+                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
                   }
                 }
               ]
@@ -3919,10 +3889,10 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Use common FatalWhenNull setting in getSpecificForRun",
-            "number": 14191,
+            "state": "MERGED",
+            "mergedAt": "2025-04-17T07:03:33Z",
+            "title": "Fix margin for 0 B-field in the GPU code",
+            "number": 14193,
             "author": {
               "login": "shahor02"
             },
@@ -3930,7 +3900,37 @@
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPolynomialFieldManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-04-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-04-o2_releases.json"
                   }
                 }
               ]
