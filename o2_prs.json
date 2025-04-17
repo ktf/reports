@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-03-31T08:24:39Z",
-            "title": "FST: Extend FST to allow for ITS-GPU reco",
-            "number": 14106,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-04T20:11:04Z",
             "title": "Added static variable for number of events in Generator",
             "number": 13936,
@@ -3871,6 +3851,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "GPU CMake: Fix compile flags",
+            "number": 14197,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[MCH] improve track extrapolation to vtx wo MCS correction",
             "number": 14189,
             "author": {
@@ -3896,16 +3896,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU CMake: Fix compile flags",
-            "number": 14197,
+            "title": "Saner publishing period for FLP case",
+            "number": 14198,
             "author": {
-              "login": "davidrohr"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
+                    "path": "Framework/Core/src/CommonServices.cxx"
                   }
                 }
               ]
