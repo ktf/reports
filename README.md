@@ -33,7 +33,6 @@
 - [\#13894](https://github.com/AliceO2Group/AliceO2/pull/13894) 2025-04-12: ITS3: add metal layer + fix macros by [@f3sch](https://github.com/f3sch)
 - [\#13895](https://github.com/AliceO2Group/AliceO2/pull/13895) 2025-04-10: ITS3: Fix matrix generation in helper class by [@f3sch](https://github.com/f3sch)
 - [\#14097](https://github.com/AliceO2Group/AliceO2/pull/14097) 2025-04-04: AOD: save selected TPC standalone tracks from thinning by [@f3sch](https://github.com/f3sch)
-- [\#14114](https://github.com/AliceO2Group/AliceO2/pull/14114) 2025-04-01: TPC: Extend DCS update and fit interval by [@wiechula](https://github.com/wiechula)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
 - [\#14124](https://github.com/AliceO2Group/AliceO2/pull/14124) 2025-04-02: GPU: Cleanup stale ITS GPU code by [@mconcas](https://github.com/mconcas)
 - [\#14130](https://github.com/AliceO2Group/AliceO2/pull/14130) 2025-04-04: ITSMFT: add asString() for clusters by [@f3sch](https://github.com/f3sch)
