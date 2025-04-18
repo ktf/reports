@@ -20,6 +20,7 @@
 - [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
 - [\#14194](https://github.com/AliceO2Group/AliceO2/pull/14194) 2025-04-17: GPU: Use a unified constant instead of copy and paste for 0 field cut by [@davidrohr](https://github.com/davidrohr)
 - [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
+- [\#14201](https://github.com/AliceO2Group/AliceO2/pull/14201) 2025-04-18: Common: DCAFitter explanation to README by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
