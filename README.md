@@ -50,6 +50,7 @@
 - [\#14173](https://github.com/AliceO2Group/AliceO2/pull/14173) 2025-04-14: ITS: CellSeed forced cast to int for chi2 by [@f3sch](https://github.com/f3sch)
 - [\#14180](https://github.com/AliceO2Group/AliceO2/pull/14180) 2025-04-17: RawReader: set runNumber in DataHeader from raw data readers by [@ehellbar](https://github.com/ehellbar)
 - [\#14189](https://github.com/AliceO2Group/AliceO2/pull/14189) 2025-04-17: [MCH] improve track extrapolation to vtx wo MCS correction by [@pillot](https://github.com/pillot)
+- [\#14202](https://github.com/AliceO2Group/AliceO2/pull/14202) 2025-04-19: ctpdev: consistency checker fixes by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Examples
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
