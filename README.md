@@ -6,6 +6,7 @@
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
+- [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14131](https://github.com/AliceO2Group/AliceO2/pull/14131) 2025-04-07: Common: EnumFlags modifications by [@f3sch](https://github.com/f3sch)
 - [\#14132](https://github.com/AliceO2Group/AliceO2/pull/14132) 2025-04-07: Common: DCAFitter add fit status code by [@f3sch](https://github.com/f3sch)
 - [\#14138](https://github.com/AliceO2Group/AliceO2/pull/14138) 2025-04-03: DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics by [@ehellbar](https://github.com/ehellbar)
@@ -32,6 +33,7 @@
 - [\#13894](https://github.com/AliceO2Group/AliceO2/pull/13894) 2025-04-12: ITS3: add metal layer + fix macros by [@f3sch](https://github.com/f3sch)
 - [\#13895](https://github.com/AliceO2Group/AliceO2/pull/13895) 2025-04-10: ITS3: Fix matrix generation in helper class by [@f3sch](https://github.com/f3sch)
 - [\#14097](https://github.com/AliceO2Group/AliceO2/pull/14097) 2025-04-04: AOD: save selected TPC standalone tracks from thinning by [@f3sch](https://github.com/f3sch)
+- [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14123](https://github.com/AliceO2Group/AliceO2/pull/14123) 2025-04-02: [AFIT-112]: FT0's reco update, 3 new event bits by [@afurs](https://github.com/afurs)
 - [\#14130](https://github.com/AliceO2Group/AliceO2/pull/14130) 2025-04-04: ITSMFT: add asString() for clusters by [@f3sch](https://github.com/f3sch)
 - [\#14134](https://github.com/AliceO2Group/AliceO2/pull/14134) 2025-04-04: [Strangeness Tracker] Use meaningful matching chi2 calculation by [@fmazzasc](https://github.com/fmazzasc)
