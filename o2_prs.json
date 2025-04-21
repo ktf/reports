@@ -4241,26 +4241,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU: More simplifications for kernel call handling and fix for single-file kernel compilation",
-            "number": 14206,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU: Add protections not to do invalid memory allocations while volatile memory is allocated",
             "number": 14207,
             "author": {
@@ -4291,6 +4271,81 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: More simplifications for kernel call handling and fix for single-file kernel compilation",
+            "number": 14206,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionKernelMacros.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessingKernels.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAKernelsSpecialize.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCLKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCLKernelsSpecialize.inc"
                   }
                 }
               ]
