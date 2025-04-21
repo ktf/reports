@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL: move TableConsumer support out of line in general",
-            "number": 13861,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/test/test_SimpleTracksED.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-03T09:20:31Z",
             "title": "DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics",
@@ -4290,62 +4250,47 @@
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add protections not to do invalid memory allocations while volatile memory is allocated",
+            "number": 14207,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUMemoryResource.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionKernelMacros.h"
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessingKernels.inc"
+                    "path": "GPU/GPUTracking/Global/GPUChainITS.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAKernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAKernelsSpecialize.inc"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCLKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCLKernelsSpecialize.inc"
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
                   }
                 }
               ]
