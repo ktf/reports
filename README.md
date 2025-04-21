@@ -8,7 +8,6 @@
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14131](https://github.com/AliceO2Group/AliceO2/pull/14131) 2025-04-07: Common: EnumFlags modifications by [@f3sch](https://github.com/f3sch)
 - [\#14132](https://github.com/AliceO2Group/AliceO2/pull/14132) 2025-04-07: Common: DCAFitter add fit status code by [@f3sch](https://github.com/f3sch)
-- [\#14138](https://github.com/AliceO2Group/AliceO2/pull/14138) 2025-04-03: DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics by [@ehellbar](https://github.com/ehellbar)
 - [\#14139](https://github.com/AliceO2Group/AliceO2/pull/14139) 2025-04-04: GPU: Array add fill method by [@f3sch](https://github.com/f3sch)
 - [\#14142](https://github.com/AliceO2Group/AliceO2/pull/14142) 2025-04-03: Common: DCAFitter fix collinear not touching calc by [@f3sch](https://github.com/f3sch)
 - [\#14163](https://github.com/AliceO2Group/AliceO2/pull/14163) 2025-04-10: DPL: do not compute GUI metrics if we are in online mode by [@ktf](https://github.com/ktf)
@@ -53,7 +52,6 @@
 ## Recent developments in O2 - Framework
 - [\#14135](https://github.com/AliceO2Group/AliceO2/pull/14135) 2025-04-03: DPL: attempt at adding the run number to timers and enumerations by [@ktf](https://github.com/ktf)
 - [\#14136](https://github.com/AliceO2Group/AliceO2/pull/14136) 2025-04-03: DPL: Improve debug message for missing runNumber. by [@ktf](https://github.com/ktf)
-- [\#14138](https://github.com/AliceO2Group/AliceO2/pull/14138) 2025-04-03: DPL: avoid expensive find_if for check of AVAILABLE_MANAGED_SHM metric when sending metrics by [@ehellbar](https://github.com/ehellbar)
 - [\#14141](https://github.com/AliceO2Group/AliceO2/pull/14141) 2025-04-07: DPL Analysis: add configurable expression columns by [@aalkin](https://github.com/aalkin)
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 - [\#14152](https://github.com/AliceO2Group/AliceO2/pull/14152) 2025-04-09: DPL: fix setting of run number by [@ktf](https://github.com/ktf)
