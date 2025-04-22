@@ -32,7 +32,6 @@
 - [\#13833](https://github.com/AliceO2Group/AliceO2/pull/13833) 2025-04-17: fix in FT0 digitization (time wrt BC) by [@noferini](https://github.com/noferini)
 - [\#13894](https://github.com/AliceO2Group/AliceO2/pull/13894) 2025-04-12: ITS3: add metal layer + fix macros by [@f3sch](https://github.com/f3sch)
 - [\#13895](https://github.com/AliceO2Group/AliceO2/pull/13895) 2025-04-10: ITS3: Fix matrix generation in helper class by [@f3sch](https://github.com/f3sch)
-- [\#14097](https://github.com/AliceO2Group/AliceO2/pull/14097) 2025-04-04: AOD: save selected TPC standalone tracks from thinning by [@f3sch](https://github.com/f3sch)
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14130](https://github.com/AliceO2Group/AliceO2/pull/14130) 2025-04-04: ITSMFT: add asString() for clusters by [@f3sch](https://github.com/f3sch)
 - [\#14137](https://github.com/AliceO2Group/AliceO2/pull/14137) 2025-04-14: ITS3: propagating split dict to external code by [@f3sch](https://github.com/f3sch)
