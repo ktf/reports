@@ -9,7 +9,6 @@
 - [\#14131](https://github.com/AliceO2Group/AliceO2/pull/14131) 2025-04-07: Common: EnumFlags modifications by [@f3sch](https://github.com/f3sch)
 - [\#14132](https://github.com/AliceO2Group/AliceO2/pull/14132) 2025-04-07: Common: DCAFitter add fit status code by [@f3sch](https://github.com/f3sch)
 - [\#14139](https://github.com/AliceO2Group/AliceO2/pull/14139) 2025-04-04: GPU: Array add fill method by [@f3sch](https://github.com/f3sch)
-- [\#14142](https://github.com/AliceO2Group/AliceO2/pull/14142) 2025-04-03: Common: DCAFitter fix collinear not touching calc by [@f3sch](https://github.com/f3sch)
 - [\#14163](https://github.com/AliceO2Group/AliceO2/pull/14163) 2025-04-10: DPL: do not compute GUI metrics if we are in online mode by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
