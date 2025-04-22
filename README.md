@@ -50,7 +50,6 @@
 ## Recent developments in O2 - Examples
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#14135](https://github.com/AliceO2Group/AliceO2/pull/14135) 2025-04-03: DPL: attempt at adding the run number to timers and enumerations by [@ktf](https://github.com/ktf)
 - [\#14141](https://github.com/AliceO2Group/AliceO2/pull/14141) 2025-04-07: DPL Analysis: add configurable expression columns by [@aalkin](https://github.com/aalkin)
 - [\#14144](https://github.com/AliceO2Group/AliceO2/pull/14144) 2025-04-04: Fill alternative TPC dedx according to dEdxClusterRejectionFlagMaskAlt, store full reference by [@shahor02](https://github.com/shahor02)
 - [\#14152](https://github.com/AliceO2Group/AliceO2/pull/14152) 2025-04-09: DPL: fix setting of run number by [@ktf](https://github.com/ktf)
