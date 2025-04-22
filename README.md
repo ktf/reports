@@ -43,6 +43,7 @@
 - [\#14156](https://github.com/AliceO2Group/AliceO2/pull/14156) 2025-04-14: ITS3: GPU tracking by [@f3sch](https://github.com/f3sch)
 - [\#14157](https://github.com/AliceO2Group/AliceO2/pull/14157) 2025-04-12: ITS3: remove unnecessary reader/writers by [@f3sch](https://github.com/f3sch)
 - [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
+- [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
 - [\#14173](https://github.com/AliceO2Group/AliceO2/pull/14173) 2025-04-14: ITS: CellSeed forced cast to int for chi2 by [@f3sch](https://github.com/f3sch)
