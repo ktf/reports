@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-17T07:27:09Z",
-            "title": "[PWGLF] added histograms for pt unfolding",
-            "number": 10884,
-            "author": {
-              "login": "chiarapinto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-17T07:27:38Z",
-            "title": "[PWGLF] angularCorrelationsInJets.cxx: fixed missing minus sign",
-            "number": 10878,
-            "author": {
-              "login": "ljoergen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/angularCorrelationsInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-17T08:21:43Z",
             "title": "[PWGJE] phiInJets.cxx : Adding a configuration to adjust the mass range and changhing the type of histogram",
             "number": 10879,
@@ -2576,6 +2536,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGEM/PhotonMeson,PWGJE/EMCal] Add bc wise skimming and analysis task",
+            "number": 10958,
+            "author": {
+              "login": "nstrangm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/bcWiseTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/bcWiseClusterSkimmer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalBcWisePi0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/EMCALClusters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Modification in dqEfficiency_withAsso task ",
             "number": 10957,
             "author": {
@@ -2601,6 +2611,41 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] eventWeight fix for fake collisions",
+            "number": 10959,
+            "author": {
+              "login": "aimeric-landou"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetEventWeightMCD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
                   }
                 }
               ]
