@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14141](https://github.com/AliceO2Group/AliceO2/pull/14141) 2025-04-07: DPL Analysis: add configurable expression columns by [@aalkin](https://github.com/aalkin)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
@@ -50,6 +51,7 @@
 ## Recent developments in O2 - Examples
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
+- [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14141](https://github.com/AliceO2Group/AliceO2/pull/14141) 2025-04-07: DPL Analysis: add configurable expression columns by [@aalkin](https://github.com/aalkin)
 - [\#14152](https://github.com/AliceO2Group/AliceO2/pull/14152) 2025-04-09: DPL: fix setting of run number by [@ktf](https://github.com/ktf)
 - [\#14158](https://github.com/AliceO2Group/AliceO2/pull/14158) 2025-04-09: DPL: set run number also on EoS by [@ktf](https://github.com/ktf)
