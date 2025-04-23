@@ -4,146 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,DPG] Njacazio patch 4",
-            "number": 10880,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseCombined.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidBayes.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/match-mft-mch-data.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/mcCollsExtra.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/checkPidPacking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/aodDataModelGraph.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFBeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] v0topologicaltask: Small corrections and linter errors update",
-            "number": 10881,
-            "author": {
-              "login": "nkaratze"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/v0topologicalcuts.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-16T17:26:15Z",
-            "title": "[PWGLF] Resonance Framework: Add RCT Flag checker",
-            "number": 10859,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-16T19:01:30Z",
             "title": "[PWGCF] fix bugs about MCGen hLocalDensity and track selection",
@@ -2469,31 +2329,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF,Trigger] Separate proton pt threshold for LcRes and ThetaC",
-            "number": 10947,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGJE] eventWeight fix for fake collisions",
@@ -2701,6 +2536,101 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF,Trigger] Separate proton pt threshold for LcRes and ThetaC",
+            "number": 10947,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,Trigger] feat(nucleiFilter): Implement 2-body vertex finding for He-V0 selection",
+            "number": 10954,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #10954",
+            "number": 10955,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] eventWeight fix for fake collisions",
+            "number": 10956,
+            "author": {
+              "login": "aimeric-landou"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetEventWeightMCD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
                   }
                 }
               ]
