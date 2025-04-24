@@ -46,6 +46,7 @@
 - [\#14180](https://github.com/AliceO2Group/AliceO2/pull/14180) 2025-04-17: RawReader: set runNumber in DataHeader from raw data readers by [@ehellbar](https://github.com/ehellbar)
 - [\#14186](https://github.com/AliceO2Group/AliceO2/pull/14186) 2025-04-23: [StrangenessTracker] Fix chi2 calculation and attachment structure by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14189](https://github.com/AliceO2Group/AliceO2/pull/14189) 2025-04-17: [MCH] improve track extrapolation to vtx wo MCS correction by [@pillot](https://github.com/pillot)
+- [\#14200](https://github.com/AliceO2Group/AliceO2/pull/14200) 2025-04-24: ITS: Fix GPU deterministic mode + refactoring by [@f3sch](https://github.com/f3sch)
 - [\#14202](https://github.com/AliceO2Group/AliceO2/pull/14202) 2025-04-19: ctpdev: consistency checker fixes by [@lietava](https://github.com/lietava)
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
