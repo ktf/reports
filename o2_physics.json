@@ -4,81 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PIDML] use dynamic columns instead of hardcoding",
-            "number": 10282,
-            "author": {
-              "login": "mytkom"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/PIDML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/KaonPidTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMlBatchEffAndPurProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMlEffAndPurProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMlProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidOnnxInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidOnnxModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/qaPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/qaPidMl.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/simpleApplyPidOnnxInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/simpleApplyPidOnnxModel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-17T18:00:46Z",
             "title": "O2 linter: TestNameFunctionVariable: Fix false positives",
@@ -2591,6 +2516,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Large changes to event mixing making Nch calculation not needed",
+            "number": 10969,
+            "author": {
+              "login": "Thorkj"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrSparse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add RCT selection in HF event selection utils",
             "number": 10949,
             "author": {
@@ -2651,16 +2596,106 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Large changes to event mixing making Nch calculation not needed",
-            "number": 10969,
+            "title": "[Common,DPG] Njacazio patch 4",
+            "number": 10880,
             "author": {
-              "login": "Thorkj"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrSparse.cxx"
+                    "path": "Common/Core/PID/PIDTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseCombined.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidBayes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/match-mft-mch-data.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/mcCollsExtra.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/checkPidPacking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/aodDataModelGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFBetaImp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFImp.cxx"
                   }
                 }
               ]
