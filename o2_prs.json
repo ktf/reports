@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-07T07:02:57Z",
-            "title": "Fixes for the latest clang on osx",
-            "number": 14143,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/MultivariatePolynomialHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/compat.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-07T09:13:56Z",
             "title": "DPL Analysis: add configurable expression columns",
             "number": 14141,
@@ -4511,6 +4486,31 @@
                 {
                   "node": {
                     "path": "doc/data/2025-04-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TPC: Make cluster rejection based on chi2 from current track position optional if in rejection based on interpolation mode",
+            "number": 14218,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
                   }
                 }
               ]

@@ -72,6 +72,5 @@
 ## Recent developments in O2 - Steer
 - [\#14178](https://github.com/AliceO2Group/AliceO2/pull/14178) 2025-04-14: Fix decay by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
-- [\#14143](https://github.com/AliceO2Group/AliceO2/pull/14143) 2025-04-07: Fixes for the latest clang on osx by [@mpuccio](https://github.com/mpuccio)
 - [\#14164](https://github.com/AliceO2Group/AliceO2/pull/14164) 2025-04-10: DataSampling: make sure the original DataHeader is available in the sampled data by [@ktf](https://github.com/ktf)
 - [\#14176](https://github.com/AliceO2Group/AliceO2/pull/14176) 2025-04-13: jobutils: Don't treat bogus Geant message about exceptions as error by [@davidrohr](https://github.com/davidrohr)
