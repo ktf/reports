@@ -22,6 +22,7 @@
 - [\#14201](https://github.com/AliceO2Group/AliceO2/pull/14201) 2025-04-18: Common: DCAFitter explanation to README by [@f3sch](https://github.com/f3sch)
 - [\#14209](https://github.com/AliceO2Group/AliceO2/pull/14209) 2025-04-22: CMake: cleanup for ROCm and ONNXRuntime detection by [@davidrohr](https://github.com/davidrohr)
 - [\#14214](https://github.com/AliceO2Group/AliceO2/pull/14214) 2025-04-22: GPU Standalone benchmark can compile with ONNX + couple of related fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
 - [\#13928](https://github.com/AliceO2Group/AliceO2/pull/13928) 2025-04-07: Added particle f2(1270) in the O2Database accroding to PDG 2024 by [@sawankumawat](https://github.com/sawankumawat)
 - [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
