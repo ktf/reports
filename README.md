@@ -20,6 +20,7 @@
 - [\#14209](https://github.com/AliceO2Group/AliceO2/pull/14209) 2025-04-22: CMake: cleanup for ROCm and ONNXRuntime detection by [@davidrohr](https://github.com/davidrohr)
 - [\#14214](https://github.com/AliceO2Group/AliceO2/pull/14214) 2025-04-22: GPU Standalone benchmark can compile with ONNX + couple of related fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
+- [\#14219](https://github.com/AliceO2Group/AliceO2/pull/14219) 2025-04-24: GPU CMake: Create const param files for available default architectures to be loaded by RTC + Cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
