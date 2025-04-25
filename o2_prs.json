@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-09T19:45:15Z",
-            "title": "DPL: set run number also on EoS",
-            "number": 14158,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "AFIT-107: new RCT bad flags for FT0",
-            "number": 13698,
-            "author": {
-              "login": "afurs"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/etc/flagTypes.csv"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: trigger runtime error in case of duplicate processor names",
@@ -2315,156 +2270,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-20T10:22:22Z",
-            "title": "GPU stream implementation for ONNX runtime",
-            "number": 14117,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/include/ML/OrtInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/src/OrtInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/NeuralNetworkClusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/NeuralNetworkClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUDefParametersDefaults.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChain.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/kernels.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-20T22:49:01Z",
             "title": "GPU: Simplify kernel Call interface, remove intermediate classes and headers where possible",
             "number": 14205,
@@ -4706,6 +4511,216 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-14T07:21:28Z",
+            "title": "Making float16 variables compatible with GPU types",
+            "number": 14055,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-20T10:22:22Z",
+            "title": "GPU stream implementation for ONNX runtime",
+            "number": 14117,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/OrtInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/src/OrtInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/NeuralNetworkClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/NeuralNetworkClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUDefParametersDefaults.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-11-22T10:00:21Z",
+            "title": "ORT library in the O2 framework",
+            "number": 13709,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/include/ML/ort_interface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/src/ort_interface.cxx"
                   }
                 }
               ]
