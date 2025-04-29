@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-23T16:35:22Z",
-            "title": "[PWGLF] fixing bug",
-            "number": 10948,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdalambda.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-23T16:36:38Z",
             "title": "[PWGLF] removed unnecessary table subscriptions",
             "number": 10943,
@@ -2778,6 +2758,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-29T17:29:11Z",
+            "title": "[PWGDQ] Updating dqEfficiencyWithAssociation",
+            "number": 11028,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Add new process function to have optimize selection of phi meson pair",
@@ -2798,18 +2798,28 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-29T17:29:11Z",
-            "title": "[PWGDQ] Updating dqEfficiencyWithAssociation",
-            "number": 11028,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/PhotonMeson] Bug fixes for BC wise pi0 task",
+            "number": 11030,
             "author": {
-              "login": "lucamicheletti93"
+              "login": "nstrangm"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                    "path": "PWGEM/PhotonMeson/DataModel/bcWiseTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/bcWiseClusterSkimmer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalBcWisePi0.cxx"
                   }
                 }
               ]
