@@ -2388,46 +2388,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add configuration and electron hadron table",
-            "number": 10920,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-30T12:49:59Z",
             "title": "[PWGLF] Add wrong sign background",
@@ -2635,6 +2595,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Add Lb reduced workflow into the framework ",
+            "number": 10978,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseLbToLcPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorLbReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorLbToLcPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/converterReducedHadronDausPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLbReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] store PID info in 3-prong candidate table and propagate it to analyses.",
             "number": 10984,
             "author": {
@@ -2770,71 +2805,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add Lb reduced workflow into the framework ",
-            "number": 10978,
+            "title": "[PWGHF] Add configuration and electron hadron table",
+            "number": 10920,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "rashigupt"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfMlResponseLbToLcPi.h"
+                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorLbReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateSelectorLbToLcPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/converterReducedHadronDausPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLbReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
                   }
                 }
               ]
