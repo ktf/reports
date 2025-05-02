@@ -23,7 +23,6 @@
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14219](https://github.com/AliceO2Group/AliceO2/pull/14219) 2025-04-24: GPU CMake: Create const param files for available default architectures to be loaded by RTC + Cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
@@ -36,7 +35,6 @@
 - [\#14154](https://github.com/AliceO2Group/AliceO2/pull/14154) 2025-04-12: ITS3: fix tracking initialisation by [@f3sch](https://github.com/f3sch)
 - [\#14156](https://github.com/AliceO2Group/AliceO2/pull/14156) 2025-04-14: ITS3: GPU tracking by [@f3sch](https://github.com/f3sch)
 - [\#14157](https://github.com/AliceO2Group/AliceO2/pull/14157) 2025-04-12: ITS3: remove unnecessary reader/writers by [@f3sch](https://github.com/f3sch)
-- [\#14159](https://github.com/AliceO2Group/AliceO2/pull/14159) 2025-04-10: ITSTPC QC does not need TPC clusters, just occupancy, + related by [@shahor02](https://github.com/shahor02)
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14168](https://github.com/AliceO2Group/AliceO2/pull/14168) 2025-04-10: TPC cluster/digits helper can walk over sampled data by [@shahor02](https://github.com/shahor02)
 - [\#14171](https://github.com/AliceO2Group/AliceO2/pull/14171) 2025-04-11: o2-ecs-grp-create creates CTP/Config for --original-run <run > 0>  by [@shahor02](https://github.com/shahor02)
@@ -53,7 +51,6 @@
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
-- [\#14160](https://github.com/AliceO2Group/AliceO2/pull/14160) 2025-04-10: DPL: extend DataRefUtils::match to support multiple headers by [@ktf](https://github.com/ktf)
 - [\#14164](https://github.com/AliceO2Group/AliceO2/pull/14164) 2025-04-10: DataSampling: make sure the original DataHeader is available in the sampled data by [@ktf](https://github.com/ktf)
 - [\#14169](https://github.com/AliceO2Group/AliceO2/pull/14169) 2025-04-10: DPL: exclude tfCounter == 0 messages for EOS by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)

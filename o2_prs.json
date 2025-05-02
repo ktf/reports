@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-10T12:28:28Z",
-            "title": "DPL: extend DataRefUtils::match to support multiple headers",
-            "number": 14160,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataRefUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecordWalker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/DPLRawPageSequencer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-10T13:51:19Z",
-            "title": "ITSTPC QC does not need TPC clusters, just occupancy, + related",
-            "number": 14159,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GLOQC/src/MatchITSTPCQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-10T18:46:13Z",
             "title": "DataSampling: make sure the original DataHeader is available in the sampled data",
             "number": 14164,
@@ -4671,6 +4611,66 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "AFIT-107: new RCT bad flags for FT0",
+            "number": 13698,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/etc/flagTypes.csv"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-55] Open the detector in the middle in x",
+            "number": 14232,
+            "author": {
+              "login": "hahassan7"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/include/FOCALBase/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/src/Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/simulation/geometryFiles/geometry_Spaghetti.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/simulation/src/Detector.cxx"
                   }
                 }
               ]
