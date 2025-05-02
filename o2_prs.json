@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "MCH: add cut random fraction setting for the cases with and without ITS",
-            "number": 14028,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-10T12:28:28Z",
             "title": "DPL: extend DataRefUtils::match to support multiple headers",
@@ -4360,36 +4340,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-10T13:28:12Z",
-            "title": "ctpdev: orbitreset and orbitsox via zmq II",
-            "number": 14147,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/include/CTPWorkflowScalers/RunManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/RunManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctpCCDBManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-02T06:04:14Z",
             "title": "dpl-workflow.sh: make some MCH config key values fixed default",
             "number": 14229,
@@ -4671,6 +4621,56 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/ITS3DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix reading of booleans from branches with more than 2 baskets.",
+            "number": 14231,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-04-10T13:28:12Z",
+            "title": "ctpdev: orbitreset and orbitsox via zmq II",
+            "number": 14147,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/include/CTPWorkflowScalers/RunManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/RunManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/ctpCCDBManager.cxx"
                   }
                 }
               ]
