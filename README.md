@@ -4,6 +4,7 @@
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
+- [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
@@ -62,6 +63,7 @@
 - [\#14185](https://github.com/AliceO2Group/AliceO2/pull/14185) 2025-05-02: DPL Analysis: modernize expression parsing code by [@aalkin](https://github.com/aalkin)
 - [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
+- [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14190](https://github.com/AliceO2Group/AliceO2/pull/14190) 2025-04-16: Include pO and OO example configurations for Pythia8 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14195](https://github.com/AliceO2Group/AliceO2/pull/14195) 2025-04-17: Include 20Neon in Pythia8 particles database by [@jackal1-66](https://github.com/jackal1-66)
