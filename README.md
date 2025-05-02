@@ -59,6 +59,7 @@
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
 - [\#14174](https://github.com/AliceO2Group/AliceO2/pull/14174) 2025-04-15: DPL Analysis: introduce binned expression by [@aalkin](https://github.com/aalkin)
 - [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
+- [\#14185](https://github.com/AliceO2Group/AliceO2/pull/14185) 2025-05-02: DPL Analysis: modernize expression parsing code by [@aalkin](https://github.com/aalkin)
 - [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
