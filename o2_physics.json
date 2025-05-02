@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-24T17:19:30Z",
-            "title": "[PWGUD] TauTable producer fills MC tables",
-            "number": 10971,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/TauEventTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/tauEventTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-24T18:34:59Z",
             "title": "[PWGCF] Large changes to event mixing making Nch calculation not needed",
             "number": 10969,
@@ -1463,26 +1438,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix V0/Casc MC mother table filling",
-            "number": 11026,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-29T15:07:30Z",
             "title": "[PWGLF] renamed file and fixed cluster size calculation",
@@ -2317,46 +2272,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add configuration and electron hadron table",
-            "number": 10920,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-05-02T06:44:08Z",
             "title": "[ALICE3] Update OTF RICH PID",
@@ -2607,6 +2522,66 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-02T09:27:21Z",
+            "title": "[PWGLF] Remove obsolete tables from cascadeanalysisMC",
+            "number": 11034,
+            "author": {
+              "login": "rspijkers"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascadeanalysisMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-02T09:57:03Z",
+            "title": "[PWGLF] cascadecorrelations: add eta cut and 2D efficiency",
+            "number": 11049,
+            "author": {
+              "login": "rspijkers"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-02T09:57:31Z",
+            "title": "[PWGLF] Fix V0/Casc MC mother table filling",
+            "number": 11026,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Add track sel. QA histogram and fix bug in applying track and event sels.",
@@ -2629,16 +2604,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] cascadecorrelations: add eta cut and 2D efficiency",
-            "number": 11049,
+            "title": "[Common] ITS PID: set MC parametrisations and fix resolution term for Z=2",
+            "number": 11050,
             "author": {
-              "login": "rspijkers"
+              "login": "fmazzasc"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
+                    "path": "Common/DataModel/PIDResponseITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidITS.cxx"
                   }
                 }
               ]
@@ -2647,18 +2627,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-02T09:27:21Z",
-            "title": "[PWGLF] Remove obsolete tables from cascadeanalysisMC",
-            "number": 11034,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add configuration and electron hadron table",
+            "number": 10920,
             "author": {
-              "login": "rspijkers"
+              "login": "rashigupt"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascadeanalysisMC.cxx"
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
                   }
                 }
               ]
