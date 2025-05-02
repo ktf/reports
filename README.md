@@ -51,7 +51,6 @@
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
-- [\#14164](https://github.com/AliceO2Group/AliceO2/pull/14164) 2025-04-10: DataSampling: make sure the original DataHeader is available in the sampled data by [@ktf](https://github.com/ktf)
 - [\#14169](https://github.com/AliceO2Group/AliceO2/pull/14169) 2025-04-10: DPL: exclude tfCounter == 0 messages for EOS by [@ktf](https://github.com/ktf)
 - [\#14170](https://github.com/AliceO2Group/AliceO2/pull/14170) 2025-04-10: DPL: Do not compute metrics if the GUI is not available by [@ktf](https://github.com/ktf)
 - [\#14172](https://github.com/AliceO2Group/AliceO2/pull/14172) 2025-04-11: DPL Analysis: improve handling of tables with sources by [@aalkin](https://github.com/aalkin)
@@ -68,5 +67,4 @@
 ## Recent developments in O2 - Steer
 - [\#14178](https://github.com/AliceO2Group/AliceO2/pull/14178) 2025-04-14: Fix decay by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
-- [\#14164](https://github.com/AliceO2Group/AliceO2/pull/14164) 2025-04-10: DataSampling: make sure the original DataHeader is available in the sampled data by [@ktf](https://github.com/ktf)
 - [\#14176](https://github.com/AliceO2Group/AliceO2/pull/14176) 2025-04-13: jobutils: Don't treat bogus Geant message about exceptions as error by [@davidrohr](https://github.com/davidrohr)
