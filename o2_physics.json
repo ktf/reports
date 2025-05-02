@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-24T23:18:34Z",
-            "title": "[PWGCF] DptDpt - Adaptation to the nightly tests without event selection",
-            "number": 10982,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-25T06:02:48Z",
             "title": "[PWGCF,Trigger] Add QA histograms",
             "number": 10983,
@@ -2604,21 +2584,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add HF event selection and centrailty process functions to Xic to Xi Pi Pi",
-            "number": 11011,
+            "title": "[ALICE3] A3TOF: compute multiplicity in any case, add possibility to switch between p and pt",
+            "number": 11051,
             "author": {
-              "login": "pstahlhu"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTOFPID.cxx"
                   }
                 }
               ]
@@ -2649,16 +2624,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] A3TOF: compute multiplicity in any case, add possibility to switch between p and pt",
-            "number": 11051,
+            "title": "[PWGJE] Reduce the storage size",
+            "number": 11052,
             "author": {
-              "login": "njacazio"
+              "login": "KotliarovAr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTOFPID.cxx"
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetTriggerChargedQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/recoilJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add HF event selection and centrality process functions to Xic to Xi Pi Pi",
+            "number": 11011,
+            "author": {
+              "login": "pstahlhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
                   }
                 }
               ]
