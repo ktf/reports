@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "TPC QC: Add skeleton for GPUErrorQA task",
-            "number": 13964,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/GPUErrorQA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/GPUErrorQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/TPCQCLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-04-12T06:14:36Z",
             "title": "ITS3: add metal layer + fix macros",
@@ -4661,6 +4626,36 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/base/src/Geometry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve DataSpecUtils::describe API in case of buffers",
+            "number": 14238,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataSpecUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataSpecUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
                   }
                 }
               ]
