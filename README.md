@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
+- [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
 - [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -47,6 +48,7 @@
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
+- [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
 - [\#14174](https://github.com/AliceO2Group/AliceO2/pull/14174) 2025-04-15: DPL Analysis: introduce binned expression by [@aalkin](https://github.com/aalkin)
 - [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
 - [\#14185](https://github.com/AliceO2Group/AliceO2/pull/14185) 2025-05-02: DPL Analysis: modernize expression parsing code by [@aalkin](https://github.com/aalkin)
