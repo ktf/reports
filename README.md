@@ -25,7 +25,6 @@
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13833](https://github.com/AliceO2Group/AliceO2/pull/13833) 2025-04-17: fix in FT0 digitization (time wrt BC) by [@noferini](https://github.com/noferini)
-- [\#13894](https://github.com/AliceO2Group/AliceO2/pull/13894) 2025-04-12: ITS3: add metal layer + fix macros by [@f3sch](https://github.com/f3sch)
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14137](https://github.com/AliceO2Group/AliceO2/pull/14137) 2025-04-14: ITS3: propagating split dict to external code by [@f3sch](https://github.com/f3sch)
 - [\#14147](https://github.com/AliceO2Group/AliceO2/pull/14147) 2025-04-10: ctpdev: orbitreset and orbitsox via zmq II by [@lietava](https://github.com/lietava)
@@ -44,6 +43,7 @@
 - [\#14222](https://github.com/AliceO2Group/AliceO2/pull/14222) 2025-04-25: ALICE3-TRK: Add skeleton for the TRK reconstruction WF by [@mconcas](https://github.com/mconcas)
 - [\#14232](https://github.com/AliceO2Group/AliceO2/pull/14232) 2025-05-06: [FOCAL-55] Open the detector in the middle in x by [@hahassan7](https://github.com/hahassan7)
 - [\#14236](https://github.com/AliceO2Group/AliceO2/pull/14236) 2025-05-06: ITS3: Fix APTS response file generation by [@f3sch](https://github.com/f3sch)
+- [\#14239](https://github.com/AliceO2Group/AliceO2/pull/14239) 2025-05-06: ITS: Remove forgotten tmp file by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
