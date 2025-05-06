@@ -28,7 +28,6 @@
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14137](https://github.com/AliceO2Group/AliceO2/pull/14137) 2025-04-14: ITS3: propagating split dict to external code by [@f3sch](https://github.com/f3sch)
 - [\#14147](https://github.com/AliceO2Group/AliceO2/pull/14147) 2025-04-10: ctpdev: orbitreset and orbitsox via zmq II by [@lietava](https://github.com/lietava)
-- [\#14154](https://github.com/AliceO2Group/AliceO2/pull/14154) 2025-04-12: ITS3: fix tracking initialisation by [@f3sch](https://github.com/f3sch)
 - [\#14156](https://github.com/AliceO2Group/AliceO2/pull/14156) 2025-04-14: ITS3: GPU tracking by [@f3sch](https://github.com/f3sch)
 - [\#14157](https://github.com/AliceO2Group/AliceO2/pull/14157) 2025-04-12: ITS3: remove unnecessary reader/writers by [@f3sch](https://github.com/f3sch)
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -63,3 +62,4 @@
 - [\#14178](https://github.com/AliceO2Group/AliceO2/pull/14178) 2025-04-14: Fix decay by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#14176](https://github.com/AliceO2Group/AliceO2/pull/14176) 2025-04-13: jobutils: Don't treat bogus Geant message about exceptions as error by [@davidrohr](https://github.com/davidrohr)
+- [\#14240](https://github.com/AliceO2Group/AliceO2/pull/14240) 2025-05-06: Fix typos in rANS AlignedArrayIterator by [@shahor02](https://github.com/shahor02)
