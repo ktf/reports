@@ -30,7 +30,6 @@
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14147](https://github.com/AliceO2Group/AliceO2/pull/14147) 2025-04-10: ctpdev: orbitreset and orbitsox via zmq II by [@lietava](https://github.com/lietava)
 - [\#14156](https://github.com/AliceO2Group/AliceO2/pull/14156) 2025-04-14: ITS3: GPU tracking by [@f3sch](https://github.com/f3sch)
-- [\#14157](https://github.com/AliceO2Group/AliceO2/pull/14157) 2025-04-12: ITS3: remove unnecessary reader/writers by [@f3sch](https://github.com/f3sch)
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14173](https://github.com/AliceO2Group/AliceO2/pull/14173) 2025-04-14: ITS: CellSeed forced cast to int for chi2 by [@f3sch](https://github.com/f3sch)
 - [\#14180](https://github.com/AliceO2Group/AliceO2/pull/14180) 2025-04-17: RawReader: set runNumber in DataHeader from raw data readers by [@ehellbar](https://github.com/ehellbar)
