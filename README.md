@@ -27,6 +27,7 @@
 - [\#13833](https://github.com/AliceO2Group/AliceO2/pull/13833) 2025-04-17: fix in FT0 digitization (time wrt BC) by [@noferini](https://github.com/noferini)
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14137](https://github.com/AliceO2Group/AliceO2/pull/14137) 2025-04-14: ITS3: propagating split dict to external code by [@f3sch](https://github.com/f3sch)
+- [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14147](https://github.com/AliceO2Group/AliceO2/pull/14147) 2025-04-10: ctpdev: orbitreset and orbitsox via zmq II by [@lietava](https://github.com/lietava)
 - [\#14156](https://github.com/AliceO2Group/AliceO2/pull/14156) 2025-04-14: ITS3: GPU tracking by [@f3sch](https://github.com/f3sch)
 - [\#14157](https://github.com/AliceO2Group/AliceO2/pull/14157) 2025-04-12: ITS3: remove unnecessary reader/writers by [@f3sch](https://github.com/f3sch)
@@ -54,11 +55,13 @@
 - [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
 - [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
+- [\#14238](https://github.com/AliceO2Group/AliceO2/pull/14238) 2025-05-06: DPL: improve DataSpecUtils::describe API in case of buffers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14190](https://github.com/AliceO2Group/AliceO2/pull/14190) 2025-04-16: Include pO and OO example configurations for Pythia8 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14195](https://github.com/AliceO2Group/AliceO2/pull/14195) 2025-04-17: Include 20Neon in Pythia8 particles database by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
+- [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14178](https://github.com/AliceO2Group/AliceO2/pull/14178) 2025-04-14: Fix decay by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#14176](https://github.com/AliceO2Group/AliceO2/pull/14176) 2025-04-13: jobutils: Don't treat bogus Geant message about exceptions as error by [@davidrohr](https://github.com/davidrohr)
