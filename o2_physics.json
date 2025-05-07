@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-01T20:38:11Z",
-            "title": "[PWGCF] Addition of Pt dependent weights and more correlators",
-            "number": 11032,
-            "author": {
-              "login": "Preet-Bhanjan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowPbpbPikp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-01T22:44:20Z",
-            "title": "[PWGCF] Expanding FlowPtContainer Functionality",
-            "number": 11009,
-            "author": {
-              "login": "NNathanson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-02T06:44:08Z",
             "title": "[ALICE3] Update OTF RICH PID",
             "number": 11041,
@@ -1484,26 +1439,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-05T18:10:58Z",
-            "title": "[PWGCF] Update lambdaR2Correlation.cxx",
-            "number": 11092,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-05T21:45:27Z",
             "title": "[PWGCF] remove obsolete histogram",
             "number": 11094,
@@ -2103,46 +2038,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add configuration and electron hadron table",
-            "number": 10920,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-05-07T04:35:26Z",
             "title": "[PWGDQ] Modification in dqEfficiency_withAsso task ",
@@ -2435,31 +2330,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add Lc inv mass cut in the LcpK0s selector",
-            "number": 11109,
-            "author": {
-              "login": "DelloStritto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLcToK0sP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] increase range of DCA QA histograms for singleTrackQCtask",
             "number": 11110,
             "author": {
@@ -2495,6 +2365,146 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/fwdtrackToCollisionAssociator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-05T18:10:58Z",
+            "title": "[PWGCF] Update lambdaR2Correlation.cxx",
+            "number": 11092,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF] two-particle correlations in Pb-Pb",
+            "number": 10794,
+            "author": {
+              "login": "YazhenLin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelationPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add configuration and electron hadron table",
+            "number": 10920,
+            "author": {
+              "login": "rashigupt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationHfeHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-07T09:23:06Z",
+            "title": "[PWGHF] Add Lc inv mass cut in the LcpK0s selector",
+            "number": 11109,
+            "author": {
+              "login": "DelloStritto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLcToK0sP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Update lambdaR2Correlation.cxx",
+            "number": 11111,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
                   }
                 }
               ]
