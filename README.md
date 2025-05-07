@@ -26,7 +26,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13833](https://github.com/AliceO2Group/AliceO2/pull/13833) 2025-04-17: fix in FT0 digitization (time wrt BC) by [@noferini](https://github.com/noferini)
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#14137](https://github.com/AliceO2Group/AliceO2/pull/14137) 2025-04-14: ITS3: propagating split dict to external code by [@f3sch](https://github.com/f3sch)
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14147](https://github.com/AliceO2Group/AliceO2/pull/14147) 2025-04-10: ctpdev: orbitreset and orbitsox via zmq II by [@lietava](https://github.com/lietava)
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
