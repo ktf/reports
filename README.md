@@ -41,6 +41,7 @@
 - [\#14236](https://github.com/AliceO2Group/AliceO2/pull/14236) 2025-05-06: ITS3: Fix APTS response file generation by [@f3sch](https://github.com/f3sch)
 - [\#14239](https://github.com/AliceO2Group/AliceO2/pull/14239) 2025-05-06: ITS: Remove forgotten tmp file by [@mconcas](https://github.com/mconcas)
 - [\#14241](https://github.com/AliceO2Group/AliceO2/pull/14241) 2025-05-07: [FOCAL-55] Increasing the FOCAL volume based on the opening by [@hahassan7](https://github.com/hahassan7)
+- [\#14244](https://github.com/AliceO2Group/AliceO2/pull/14244) 2025-05-08: [EMCAL-539] Fix in trigger simulation to not accept every event as MB by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Examples
 - [\#14181](https://github.com/AliceO2Group/AliceO2/pull/14181) 2025-04-16: Update EPOS4 example using different versions and HQ by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
