@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-14T20:02:53Z",
-            "title": "ONNX: Use CMake defines not env variables",
-            "number": 14182,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/src/OrtInterface.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-15T08:22:48Z",
             "title": "GPU RTC: Work to make more parameters settable from runtime config object, instead of being hardcoded preprocessor define",
             "number": 14177,
@@ -4436,6 +4411,91 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflowScalers/src/ctpCCDBManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add debug dumpts for compressed / uncompressed TPC clusters",
+            "number": 14250,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebug.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingSectorTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinderDump.cxx"
                   }
                 }
               ]

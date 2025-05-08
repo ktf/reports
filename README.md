@@ -9,7 +9,6 @@
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14175](https://github.com/AliceO2Group/AliceO2/pull/14175) 2025-04-22: Add PDG code and mass of Bc meson by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [\#14177](https://github.com/AliceO2Group/AliceO2/pull/14177) 2025-04-15: GPU RTC: Work to make more parameters settable from runtime config object, instead of being hardcoded preprocessor define by [@davidrohr](https://github.com/davidrohr)
-- [\#14182](https://github.com/AliceO2Group/AliceO2/pull/14182) 2025-04-14: ONNX: Use CMake defines not env variables by [@davidrohr](https://github.com/davidrohr)
 - [\#14184](https://github.com/AliceO2Group/AliceO2/pull/14184) 2025-04-16: DPL GUI: do not sent any state when GUI is disabled by [@ktf](https://github.com/ktf)
 - [\#14187](https://github.com/AliceO2Group/AliceO2/pull/14187) 2025-04-22: Add SigmaC(2520). by [@mfaggin](https://github.com/mfaggin)
 - [\#14194](https://github.com/AliceO2Group/AliceO2/pull/14194) 2025-04-17: GPU: Use a unified constant instead of copy and paste for 0 field cut by [@davidrohr](https://github.com/davidrohr)
