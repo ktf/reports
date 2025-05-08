@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-03T06:43:58Z",
-            "title": "[PWGLF] Add QA task for hyperhelium4sigma mc production",
-            "number": 11054,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hyperhelium4sigmaAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-03T06:48:02Z",
             "title": "Please consider the following formatting changes to #11066",
             "number": 11067,
@@ -2382,6 +2357,86 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-08T07:59:28Z",
+            "title": "[Common] TOF: add dynamic columns for TOFBeta and TOFMass",
+            "number": 11071,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFBetaImp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-08T09:23:13Z",
+            "title": "[PWGLF] Add MC PV information",
+            "number": 11126,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add kink reconstruction of hyperhelium4sigma",
+            "number": 11128,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/kinkBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hyperhelium4sigmaAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] add Pb-Pb collisions in PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx",
@@ -2399,6 +2454,26 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] [Common]::CCDB:: add RCTSelectionFlags.h as header only library",
+            "number": 11127,
+            "author": {
+              "login": "adriansev"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/CMakeLists.txt"
                   }
                 }
               ]
@@ -2474,81 +2549,6 @@
                 {
                   "node": {
                     "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-08T07:59:28Z",
-            "title": "[Common] TOF: add dynamic columns for TOFBeta and TOFMass",
-            "number": 11071,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFBetaImp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] [Common]::CCDB:: add RCTSelectionFlags.h as header only library",
-            "number": 11127,
-            "author": {
-              "login": "adriansev"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-08T09:23:13Z",
-            "title": "[PWGLF] Add MC PV information",
-            "number": 11126,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
                   }
                 }
               ]
