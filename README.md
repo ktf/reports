@@ -5,6 +5,7 @@
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
 - [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
+- [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14175](https://github.com/AliceO2Group/AliceO2/pull/14175) 2025-04-22: Add PDG code and mass of Bc meson by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
@@ -52,6 +53,7 @@
 - [\#14230](https://github.com/AliceO2Group/AliceO2/pull/14230) 2025-05-02: DPL Analysis: fix case in which booleans are stored in more than one chunk by [@ktf](https://github.com/ktf)
 - [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
 - [\#14238](https://github.com/AliceO2Group/AliceO2/pull/14238) 2025-05-06: DPL: improve DataSpecUtils::describe API in case of buffers by [@ktf](https://github.com/ktf)
+- [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14190](https://github.com/AliceO2Group/AliceO2/pull/14190) 2025-04-16: Include pO and OO example configurations for Pythia8 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14195](https://github.com/AliceO2Group/AliceO2/pull/14195) 2025-04-17: Include 20Neon in Pythia8 particles database by [@jackal1-66](https://github.com/jackal1-66)
