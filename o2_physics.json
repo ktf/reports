@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-03T06:49:28Z",
-            "title": "Please consider the following formatting changes to #11066",
-            "number": 11068,
-            "author": {
-              "login": "alibuild"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/match-mft-mch-data-mc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-03T08:51:42Z",
             "title": "[PWGHF] Add track sel. QA histogram and fix bug in applying track and event sels.",
             "number": 11044,
@@ -2412,8 +2392,78 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-08T13:20:10Z",
+            "title": "[ALICE3] A3TOF: Add TOF ev time effinciency",
+            "number": 11129,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Add kink reconstruction of hyperhelium4sigma",
+            "number": 11128,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/kinkBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hyperhelium4sigmaAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] added some QA histos and cleaned up configurables",
+            "number": 11114,
+            "author": {
+              "login": "cnkoster"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-08T15:21:28Z",
             "title": "[PWGHF] Add Lb reduced workflow into the framework ",
             "number": 10978,
             "author": {
@@ -2487,68 +2537,33 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-08T13:20:10Z",
-            "title": "[ALICE3] A3TOF: Add TOF ev time effinciency",
-            "number": 11129,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add kink reconstruction of hyperhelium4sigma",
-            "number": 11128,
+            "title": "[PWGEM/PhotonMeson] Add pile-up and centrality dependence to pi0 task",
+            "number": 11130,
             "author": {
-              "login": "wang-yuanzhe"
+              "login": "nstrangm"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Common/kinkBuilder.cxx"
+                    "path": "PWGEM/PhotonMeson/DataModel/bcWiseTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hyperhelium4sigmaAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] added some QA histos and cleaned up configurables",
-            "number": 11114,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
+                    "path": "PWGEM/PhotonMeson/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                    "path": "PWGEM/PhotonMeson/TableProducer/bcWiseClusterSkimmer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalBcWisePi0.cxx"
                   }
                 }
               ]
