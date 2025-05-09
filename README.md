@@ -46,6 +46,7 @@
 - [\#14241](https://github.com/AliceO2Group/AliceO2/pull/14241) 2025-05-07: [FOCAL-55] Increasing the FOCAL volume based on the opening by [@hahassan7](https://github.com/hahassan7)
 - [\#14244](https://github.com/AliceO2Group/AliceO2/pull/14244) 2025-05-08: [EMCAL-539] Fix in trigger simulation to not accept every event as MB by [@jokonig](https://github.com/jokonig)
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
+- [\#14251](https://github.com/AliceO2Group/AliceO2/pull/14251) 2025-05-09: TPC QC: Add getter for occupancy to Cluster class by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
 - [\#14256](https://github.com/AliceO2Group/AliceO2/pull/14256) 2025-05-09: fix: remove debug by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
