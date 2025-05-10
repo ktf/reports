@@ -48,6 +48,7 @@
 - [\#14251](https://github.com/AliceO2Group/AliceO2/pull/14251) 2025-05-09: TPC QC: Add getter for occupancy to Cluster class by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
 - [\#14256](https://github.com/AliceO2Group/AliceO2/pull/14256) 2025-05-09: fix: remove debug by [@lietava](https://github.com/lietava)
+- [\#14258](https://github.com/AliceO2Group/AliceO2/pull/14258) 2025-05-10: Add TPC occupancy in 10bins/drift in trackStudy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
