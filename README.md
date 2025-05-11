@@ -21,6 +21,7 @@
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14219](https://github.com/AliceO2Group/AliceO2/pull/14219) 2025-04-24: GPU CMake: Create const param files for available default architectures to be loaded by RTC + Cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
+- [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
@@ -57,6 +58,7 @@
 - [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
 - [\#14238](https://github.com/AliceO2Group/AliceO2/pull/14238) 2025-05-06: DPL: improve DataSpecUtils::describe API in case of buffers by [@ktf](https://github.com/ktf)
 - [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
+- [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14195](https://github.com/AliceO2Group/AliceO2/pull/14195) 2025-04-17: Include 20Neon in Pythia8 particles database by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
