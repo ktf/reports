@@ -34,7 +34,6 @@
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14186](https://github.com/AliceO2Group/AliceO2/pull/14186) 2025-04-23: [StrangenessTracker] Fix chi2 calculation and attachment structure by [@fmazzasc](https://github.com/fmazzasc)
-- [\#14189](https://github.com/AliceO2Group/AliceO2/pull/14189) 2025-04-17: [MCH] improve track extrapolation to vtx wo MCS correction by [@pillot](https://github.com/pillot)
 - [\#14200](https://github.com/AliceO2Group/AliceO2/pull/14200) 2025-04-24: ITS: Fix GPU deterministic mode + refactoring by [@f3sch](https://github.com/f3sch)
 - [\#14202](https://github.com/AliceO2Group/AliceO2/pull/14202) 2025-04-19: ctpdev: consistency checker fixes by [@lietava](https://github.com/lietava)
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
