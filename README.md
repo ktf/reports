@@ -12,7 +12,6 @@
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14175](https://github.com/AliceO2Group/AliceO2/pull/14175) 2025-04-22: Add PDG code and mass of Bc meson by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [\#14187](https://github.com/AliceO2Group/AliceO2/pull/14187) 2025-04-22: Add SigmaC(2520). by [@mfaggin](https://github.com/mfaggin)
-- [\#14194](https://github.com/AliceO2Group/AliceO2/pull/14194) 2025-04-17: GPU: Use a unified constant instead of copy and paste for 0 field cut by [@davidrohr](https://github.com/davidrohr)
 - [\#14198](https://github.com/AliceO2Group/AliceO2/pull/14198) 2025-04-17: Saner publishing period for FLP case by [@ktf](https://github.com/ktf)
 - [\#14199](https://github.com/AliceO2Group/AliceO2/pull/14199) 2025-04-23: Common: ConfKey align prov + print hash by [@f3sch](https://github.com/f3sch)
 - [\#14201](https://github.com/AliceO2Group/AliceO2/pull/14201) 2025-04-18: Common: DCAFitter explanation to README by [@f3sch](https://github.com/f3sch)
