@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-17T18:36:15Z",
-            "title": "Saner publishing period for FLP case",
-            "number": 14198,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-18T05:25:09Z",
             "title": "GPU CMake: Fix compile flags",
             "number": 14197,
@@ -4311,6 +4291,36 @@
                 {
                   "node": {
                     "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move JSON parsing out of line",
+            "number": 14264,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/VariantJSONHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/VariantJSONHelpers.cxx"
                   }
                 }
               ]
