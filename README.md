@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
+- [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
@@ -21,6 +22,7 @@
 - [\#14219](https://github.com/AliceO2Group/AliceO2/pull/14219) 2025-04-24: GPU CMake: Create const param files for available default architectures to be loaded by RTC + Cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
+- [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
@@ -60,7 +62,6 @@
 - [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#14195](https://github.com/AliceO2Group/AliceO2/pull/14195) 2025-04-17: Include 20Neon in Pythia8 particles database by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
