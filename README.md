@@ -29,7 +29,6 @@
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#13833](https://github.com/AliceO2Group/AliceO2/pull/13833) 2025-04-17: fix in FT0 digitization (time wrt BC) by [@noferini](https://github.com/noferini)
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
