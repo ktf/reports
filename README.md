@@ -14,7 +14,6 @@
 - [\#14175](https://github.com/AliceO2Group/AliceO2/pull/14175) 2025-04-22: Add PDG code and mass of Bc meson by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [\#14187](https://github.com/AliceO2Group/AliceO2/pull/14187) 2025-04-22: Add SigmaC(2520). by [@mfaggin](https://github.com/mfaggin)
 - [\#14199](https://github.com/AliceO2Group/AliceO2/pull/14199) 2025-04-23: Common: ConfKey align prov + print hash by [@f3sch](https://github.com/f3sch)
-- [\#14201](https://github.com/AliceO2Group/AliceO2/pull/14201) 2025-04-18: Common: DCAFitter explanation to README by [@f3sch](https://github.com/f3sch)
 - [\#14209](https://github.com/AliceO2Group/AliceO2/pull/14209) 2025-04-22: CMake: cleanup for ROCm and ONNXRuntime detection by [@davidrohr](https://github.com/davidrohr)
 - [\#14214](https://github.com/AliceO2Group/AliceO2/pull/14214) 2025-04-22: GPU Standalone benchmark can compile with ONNX + couple of related fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
