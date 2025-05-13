@@ -22,6 +22,7 @@
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 - [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
+- [\#14262](https://github.com/AliceO2Group/AliceO2/pull/14262) 2025-05-13: GPU TPC: Compute alternate dEdx only if alternate flag mask different compared to normal flag mask by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
