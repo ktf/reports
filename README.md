@@ -49,6 +49,7 @@
 - [\#14258](https://github.com/AliceO2Group/AliceO2/pull/14258) 2025-05-10: Add TPC occupancy in 10bins/drift in trackStudy by [@shahor02](https://github.com/shahor02)
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
 - [\#14263](https://github.com/AliceO2Group/AliceO2/pull/14263) 2025-05-12: add TPC chi2 to trackstudy output by [@shahor02](https://github.com/shahor02)
+- [\#14270](https://github.com/AliceO2Group/AliceO2/pull/14270) 2025-05-13: DPL: keep codechecker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
@@ -60,6 +61,7 @@
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 - [\#14261](https://github.com/AliceO2Group/AliceO2/pull/14261) 2025-05-12: DPL: do not create unneeded statics by [@ktf](https://github.com/ktf)
 - [\#14264](https://github.com/AliceO2Group/AliceO2/pull/14264) 2025-05-13: Move JSON parsing out of line by [@ktf](https://github.com/ktf)
+- [\#14265](https://github.com/AliceO2Group/AliceO2/pull/14265) 2025-05-13: Out of line FairTBuffer destructor by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
