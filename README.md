@@ -60,6 +60,7 @@
 - [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 - [\#14261](https://github.com/AliceO2Group/AliceO2/pull/14261) 2025-05-12: DPL: do not create unneeded statics by [@ktf](https://github.com/ktf)
+- [\#14264](https://github.com/AliceO2Group/AliceO2/pull/14264) 2025-05-13: Move JSON parsing out of line by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
