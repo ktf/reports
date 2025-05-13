@@ -34,7 +34,6 @@
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14186](https://github.com/AliceO2Group/AliceO2/pull/14186) 2025-04-23: [StrangenessTracker] Fix chi2 calculation and attachment structure by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14200](https://github.com/AliceO2Group/AliceO2/pull/14200) 2025-04-24: ITS: Fix GPU deterministic mode + refactoring by [@f3sch](https://github.com/f3sch)
-- [\#14202](https://github.com/AliceO2Group/AliceO2/pull/14202) 2025-04-19: ctpdev: consistency checker fixes by [@lietava](https://github.com/lietava)
 - [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
 - [\#14222](https://github.com/AliceO2Group/AliceO2/pull/14222) 2025-04-25: ALICE3-TRK: Add skeleton for the TRK reconstruction WF by [@mconcas](https://github.com/mconcas)

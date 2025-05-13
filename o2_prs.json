@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-19T09:07:03Z",
-            "title": "ctpdev: consistency checker fixes",
-            "number": 14202,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/src/RawDataDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-19T09:08:19Z",
             "title": "GPU: Fix parameter that was forgotten when moving to if constexpr with GPUCA_PAR_...",
             "number": 14203,
@@ -4126,6 +4106,131 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix the thickness of logical volumes for kTurboStaves and kStaggered …",
+            "number": 14268,
+            "author": {
+              "login": "danielbattistini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKLayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-13T16:04:34Z",
+            "title": "TPC: Fix digitizer workflow to load GEM params from CCDB before creating Polya file",
+            "number": 14267,
+            "author": {
+              "login": "tubagundem"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: prevent slice cache from updating unnecessarily",
+            "number": 14257,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ArrowTableSlicingCache.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupSlicer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowTableSlicingCache.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: reduce amount of base types for columns",
+            "number": 13933,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-13T18:00:45Z",
             "title": "GPU: Fix deterministic mode for cluster compression/decompression with looper merger afterburner + improved debug and cleanup",
             "number": 14266,
             "author": {
@@ -4236,51 +4341,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix the thickness of logical volumes for kTurboStaves and kStaggered …",
-            "number": 14268,
-            "author": {
-              "login": "danielbattistini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKLayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-13T16:04:34Z",
-            "title": "TPC: Fix digitizer workflow to load GEM params from CCDB before creating Polya file",
-            "number": 14267,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4311,76 +4371,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL Analysis: prevent slice cache from updating unnecessarily",
-            "number": 14257,
+            "title": "GPU: Better workaround for clang problem with static constexpr members of references",
+            "number": 14269,
             "author": {
-              "login": "aalkin"
+              "login": "davidrohr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
+                    "path": "GPU/Common/GPUCommonTypeTraits.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAInternals.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/ArrowTableSlicingCache.h"
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/GroupSlicer.h"
+                    "path": "GPU/GPUTracking/Base/opencl/GPUReconstructionOCL.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/ASoA.cxx"
+                    "path": "GPU/GPUTracking/Definitions/GPUGetConstexpr.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/ArrowTableSlicingCache.cxx"
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: reduce amount of base types for columns",
-            "number": 13933,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
+                    "path": "GPU/GPUTracking/qa/GPUQAHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/utils/bitfield.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/utils/qconfig.cxx"
                   }
                 }
               ]
