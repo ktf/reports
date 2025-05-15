@@ -12,7 +12,6 @@
 ## Recent developments in O2 - Common
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14199](https://github.com/AliceO2Group/AliceO2/pull/14199) 2025-04-23: Common: ConfKey align prov + print hash by [@f3sch](https://github.com/f3sch)
-- [\#14209](https://github.com/AliceO2Group/AliceO2/pull/14209) 2025-04-22: CMake: cleanup for ROCm and ONNXRuntime detection by [@davidrohr](https://github.com/davidrohr)
 - [\#14214](https://github.com/AliceO2Group/AliceO2/pull/14214) 2025-04-22: GPU Standalone benchmark can compile with ONNX + couple of related fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14219](https://github.com/AliceO2Group/AliceO2/pull/14219) 2025-04-24: GPU CMake: Create const param files for available default architectures to be loaded by RTC + Cleanup by [@davidrohr](https://github.com/davidrohr)
@@ -48,6 +47,7 @@
 - [\#14263](https://github.com/AliceO2Group/AliceO2/pull/14263) 2025-05-12: add TPC chi2 to trackstudy output by [@shahor02](https://github.com/shahor02)
 - [\#14270](https://github.com/AliceO2Group/AliceO2/pull/14270) 2025-05-13: DPL: keep codechecker happy by [@ktf](https://github.com/ktf)
 - [\#14274](https://github.com/AliceO2Group/AliceO2/pull/14274) 2025-05-14: GLO: RecoContainer update by [@f3sch](https://github.com/f3sch)
+- [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
