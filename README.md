@@ -24,7 +24,6 @@
 - [\#14262](https://github.com/AliceO2Group/AliceO2/pull/14262) 2025-05-13: GPU TPC: Compute alternate dEdx only if alternate flag mask different compared to normal flag mask by [@davidrohr](https://github.com/davidrohr)
 - [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
@@ -36,7 +35,6 @@
 - [\#14162](https://github.com/AliceO2Group/AliceO2/pull/14162) 2025-04-22: TPC: change default setting for pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14186](https://github.com/AliceO2Group/AliceO2/pull/14186) 2025-04-23: [StrangenessTracker] Fix chi2 calculation and attachment structure by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14200](https://github.com/AliceO2Group/AliceO2/pull/14200) 2025-04-24: ITS: Fix GPU deterministic mode + refactoring by [@f3sch](https://github.com/f3sch)
-- [\#14211](https://github.com/AliceO2Group/AliceO2/pull/14211) 2025-04-22: ITS: fix integer comparison warning in NoiseMap by [@f3sch](https://github.com/f3sch)
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
 - [\#14222](https://github.com/AliceO2Group/AliceO2/pull/14222) 2025-04-25: ALICE3-TRK: Add skeleton for the TRK reconstruction WF by [@mconcas](https://github.com/mconcas)
 - [\#14232](https://github.com/AliceO2Group/AliceO2/pull/14232) 2025-05-06: [FOCAL-55] Open the detector in the middle in x by [@hahassan7](https://github.com/hahassan7)
