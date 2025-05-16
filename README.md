@@ -67,6 +67,7 @@
 - [\#14279](https://github.com/AliceO2Group/AliceO2/pull/14279) 2025-05-16: DPL: Drop obsolete API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
+- [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14267](https://github.com/AliceO2Group/AliceO2/pull/14267) 2025-05-13: TPC: Fix digitizer workflow to load GEM params from CCDB before creating Polya file by [@tubagundem](https://github.com/tubagundem)
