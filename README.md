@@ -64,6 +64,7 @@
 - [\#14264](https://github.com/AliceO2Group/AliceO2/pull/14264) 2025-05-13: Move JSON parsing out of line by [@ktf](https://github.com/ktf)
 - [\#14265](https://github.com/AliceO2Group/AliceO2/pull/14265) 2025-05-13: Out of line FairTBuffer destructor by [@ktf](https://github.com/ktf)
 - [\#14273](https://github.com/AliceO2Group/AliceO2/pull/14273) 2025-05-14: DPL: Out of line NumericBuilders by [@ktf](https://github.com/ktf)
+- [\#14279](https://github.com/AliceO2Group/AliceO2/pull/14279) 2025-05-16: DPL: Drop obsolete API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
