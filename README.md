@@ -20,12 +20,14 @@
 - [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
 - [\#14262](https://github.com/AliceO2Group/AliceO2/pull/14262) 2025-05-13: GPU TPC: Compute alternate dEdx only if alternate flag mask different compared to normal flag mask by [@davidrohr](https://github.com/davidrohr)
 - [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
+- [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
 - [\#14274](https://github.com/AliceO2Group/AliceO2/pull/14274) 2025-05-14: GLO: RecoContainer update by [@f3sch](https://github.com/f3sch)
+- [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
@@ -47,6 +49,7 @@
 - [\#14263](https://github.com/AliceO2Group/AliceO2/pull/14263) 2025-05-12: add TPC chi2 to trackstudy output by [@shahor02](https://github.com/shahor02)
 - [\#14270](https://github.com/AliceO2Group/AliceO2/pull/14270) 2025-05-13: DPL: keep codechecker happy by [@ktf](https://github.com/ktf)
 - [\#14274](https://github.com/AliceO2Group/AliceO2/pull/14274) 2025-05-14: GLO: RecoContainer update by [@f3sch](https://github.com/f3sch)
+- [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 - [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
