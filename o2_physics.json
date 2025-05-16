@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-09T15:42:03Z",
-            "title": "[PWGLF] Lambda local polarization induced by jet in pp collision 13.6 TeV",
-            "number": 11140,
-            "author": {
-              "login": "15071832337"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdaJetpolarizationbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaJetpolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-09T16:05:33Z",
             "title": "[PWGLF] added RCT flags",
             "number": 11149,
@@ -1131,36 +1101,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/hadronPhotonCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Pjpsi femto - add Jpsi-hadron kstar variable",
-            "number": 11161,
-            "author": {
-              "login": "JiYuanjing"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
                   }
                 }
               ]
@@ -2613,6 +2553,66 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-16T07:56:36Z",
+            "title": "[PWGHF,PWGCF] Split same-event table and add the collision infos into lcp femto task ",
+            "number": 11191,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-16T08:28:37Z",
+            "title": "[PWGDQ] Pjpsi femto - add Jpsi-hadron kstar variable",
+            "number": 11161,
+            "author": {
+              "login": "JiYuanjing"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common,PWGEM,PWGHF,PWGLF,DPG,Trigger] Use std::array instead of deprecated gpustd::array",
@@ -2828,28 +2828,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-16T07:56:36Z",
-            "title": "[PWGHF,PWGCF] Split same-event table and add the collision infos into lcp femto task ",
-            "number": 11191,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] trackEfficiency: allow weights to eff. and purity plots",
+            "number": 11220,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "aimeric-landou"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
+                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
                   }
                 }
               ]
