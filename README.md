@@ -19,6 +19,7 @@
 - [\#14262](https://github.com/AliceO2Group/AliceO2/pull/14262) 2025-05-13: GPU TPC: Compute alternate dEdx only if alternate flag mask different compared to normal flag mask by [@davidrohr](https://github.com/davidrohr)
 - [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
+- [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#14220](https://github.com/AliceO2Group/AliceO2/pull/14220) 2025-04-24: Fix: TrackLTIntegral.addStep needs (q/p)^2 instead of 1/p^2 by [@shahor02](https://github.com/shahor02)
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
@@ -26,6 +27,7 @@
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
 - [\#14274](https://github.com/AliceO2Group/AliceO2/pull/14274) 2025-05-14: GLO: RecoContainer update by [@f3sch](https://github.com/f3sch)
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
+- [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
@@ -50,6 +52,8 @@
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 - [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
 - [\#14280](https://github.com/AliceO2Group/AliceO2/pull/14280) 2025-05-16: Promote ITS/MFT wrong orbit/ROF count messages to critical by [@shahor02](https://github.com/shahor02)
+- [\#14283](https://github.com/AliceO2Group/AliceO2/pull/14283) 2025-05-17: By default process K0s only in the sync. svertexer by [@shahor02](https://github.com/shahor02)
+- [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#13998](https://github.com/AliceO2Group/AliceO2/pull/13998) 2025-04-23: Add PMD info to AO2Ds by [@abmodak](https://github.com/abmodak)
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
