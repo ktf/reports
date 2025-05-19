@@ -10,6 +10,7 @@
 - [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
 - [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
+- [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -28,6 +29,7 @@
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
 - [\#14274](https://github.com/AliceO2Group/AliceO2/pull/14274) 2025-05-14: GLO: RecoContainer update by [@f3sch](https://github.com/f3sch)
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
+- [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -35,6 +37,7 @@
 - [\#14222](https://github.com/AliceO2Group/AliceO2/pull/14222) 2025-04-25: ALICE3-TRK: Add skeleton for the TRK reconstruction WF by [@mconcas](https://github.com/mconcas)
 - [\#14232](https://github.com/AliceO2Group/AliceO2/pull/14232) 2025-05-06: [FOCAL-55] Open the detector in the middle in x by [@hahassan7](https://github.com/hahassan7)
 - [\#14236](https://github.com/AliceO2Group/AliceO2/pull/14236) 2025-05-06: ITS3: Fix APTS response file generation by [@f3sch](https://github.com/f3sch)
+- [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14239](https://github.com/AliceO2Group/AliceO2/pull/14239) 2025-05-06: ITS: Remove forgotten tmp file by [@mconcas](https://github.com/mconcas)
 - [\#14241](https://github.com/AliceO2Group/AliceO2/pull/14241) 2025-05-07: [FOCAL-55] Increasing the FOCAL volume based on the opening by [@hahassan7](https://github.com/hahassan7)
 - [\#14244](https://github.com/AliceO2Group/AliceO2/pull/14244) 2025-05-08: [EMCAL-539] Fix in trigger simulation to not accept every event as MB by [@jokonig](https://github.com/jokonig)
@@ -50,6 +53,7 @@
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 - [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
 - [\#14280](https://github.com/AliceO2Group/AliceO2/pull/14280) 2025-05-16: Promote ITS/MFT wrong orbit/ROF count messages to critical by [@shahor02](https://github.com/shahor02)
+- [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14283](https://github.com/AliceO2Group/AliceO2/pull/14283) 2025-05-17: By default process K0s only in the sync. svertexer by [@shahor02](https://github.com/shahor02)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
