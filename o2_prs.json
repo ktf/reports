@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-25T05:33:39Z",
-            "title": "Add / update documentation for GPU / FST",
-            "number": 14224,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/documentation/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/build-O2.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/build-standalone.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/documentation/dpl-workflow-options.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/documentation/env-variables.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/documentation/full-system-test-as-stress-test.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/documentation/full-system-test-setup.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/documentation/full-system-test.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/documentation/raw-data-simulation.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-25T05:34:00Z",
             "title": "GPU: Make TPC CF CF_SCAN_WORKGROUP_SIZE configureable",
             "number": 14223,
@@ -3866,6 +3806,41 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingConfigParam.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: remove shipped nlohmann_json",
+            "number": 14295,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/json.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDEventDisplayFeedSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
