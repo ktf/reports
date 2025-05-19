@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-13T15:06:39Z",
-            "title": "[PWGHF] Add derived-data creator for D* -> D0 pi",
-            "number": 11147,
-            "author": {
-              "login": "Mingze129"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/DerivedTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-13T15:50:58Z",
             "title": "[PWGEM] LMee: lowB PID fix",
             "number": 11178,
@@ -2737,6 +2707,46 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-19T14:55:08Z",
+            "title": "[PWGLF] Update NucleiTPCPbPb.cxx",
+            "number": 11246,
+            "author": {
+              "login": "jtanwar2212"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/NucleiTPCPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ]  columns added to flat B meson table (tableReader_withAssoc:AnalysisDileptonTrack)",
+            "number": 11248,
+            "author": {
+              "login": "torkjellsdatter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] addition of task: single muon as a function of multiplicity",
@@ -2754,26 +2764,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskSingleMuonMult.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-19T14:55:08Z",
-            "title": "[PWGLF] Update NucleiTPCPbPb.cxx",
-            "number": 11246,
-            "author": {
-              "login": "jtanwar2212"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/NucleiTPCPbPb.cxx"
                   }
                 }
               ]
@@ -2804,16 +2794,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ]  columns added to flat B meson table (tableReader_withAssoc:AnalysisDileptonTrack)",
-            "number": 11248,
+            "title": "[Common,PWGEM/Dilepton] remove unnecessary tasks",
+            "number": 11253,
             "author": {
-              "login": "torkjellsdatter"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PropagatedFwdTrackTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/fwdtrackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/matchingMFT.cxx"
                   }
                 }
               ]
