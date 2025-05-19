@@ -14,7 +14,6 @@
 ## Recent developments in O2 - Common
 - [\#14117](https://github.com/AliceO2Group/AliceO2/pull/14117) 2025-04-20: GPU stream implementation for ONNX runtime by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#14219](https://github.com/AliceO2Group/AliceO2/pull/14219) 2025-04-24: GPU CMake: Create const param files for available default architectures to be loaded by RTC + Cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 - [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
