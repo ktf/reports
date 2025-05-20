@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-14T10:29:56Z",
-            "title": "[PWGJE] Adding a cut on IP for TreeCreator and SV reconstruction",
-            "number": 11182,
-            "author": {
-              "login": "hahassan7"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetTaggingUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/MlResponseHfTagging.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetTaggerHF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/secondaryVertexReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] V0 Jet Finder: use V0 signal flags",
-            "number": 11190,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetFindingUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0DataCharged.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0MCDCharged.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0MCPCharged.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-14T10:57:03Z",
             "title": "[PWGJE] removing std::optional",
             "number": 11188,
@@ -2779,6 +2694,51 @@
                 {
                   "node": {
                     "path": "PWGEM/Tasks/phosElId.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] - add trackdca and trackdcacov table producers for Run2 converted data",
+            "number": 11261,
+            "author": {
+              "login": "aimeric-landou"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackDcaCovFillerRun2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] adding correct binning single muons",
+            "number": 10554,
+            "author": {
+              "login": "victorvalenciatorres"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
                 }
               ]
