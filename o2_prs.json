@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-11-22T10:00:21Z",
-            "title": "ORT library in the O2 framework",
-            "number": 13709,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/include/ML/ort_interface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/src/ort_interface.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Add header file for coalescence afterburner w/ Pythia",
@@ -3736,6 +3696,26 @@
                 {
                   "node": {
                     "path": "dependencies/O2Dependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "dpl-workflow.sh: using MI100 serialization workaround by default again,  with option to disable it with env var",
+            "number": 14302,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
