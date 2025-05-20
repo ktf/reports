@@ -75,7 +75,6 @@
 - [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
 - [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
-- [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14296](https://github.com/AliceO2Group/AliceO2/pull/14296) 2025-05-19: Fix units for GeneratorFromEventPool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer

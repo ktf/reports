@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-25T08:52:18Z",
-            "title": "Fix energy values for special runs",
-            "number": 14213,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/pythia8_NeNe.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/pythia8_OO.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/pythia8_pO.cfg"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-25T09:55:18Z",
             "title": "Improve / Add GPU documentation",
             "number": 14225,
@@ -3886,6 +3856,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Global/GPUErrors.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU TPC NN Clusterizer: Fix compilation without ONNX",
+            "number": 14304,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
                   }
                 }
               ]
