@@ -3516,13 +3516,208 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-1152] EMCAL/base: Fix cpplint errors",
+            "title": "ITS: remove shipped nlohmann_json",
+            "number": 14295,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/json.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDEventDisplayFeedSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "dpl-workflow.sh: using MI100 serialization workaround by default again,  with option to disable it with env var",
+            "number": 14302,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics\"",
+            "number": 14293,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonArray.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-1152] EMCAL: Fix cpplint errors",
             "number": 14301,
             "author": {
               "login": "mhemmer-cern"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/AnalysisCluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Cell.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/CellLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/ClusterLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/CompressedTriggerData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EventHandler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/TriggerRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/AnalysisCluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/CTF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/Cell.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/CellLabel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/Cluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/ClusterLabel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/CompressedTriggerData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/Constants.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/EventHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/TriggerRecord.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Detectors/EMCAL/base/CMakeLists.txt"
@@ -3636,86 +3831,6 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/base/test/testRCUTrailer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS: remove shipped nlohmann_json",
-            "number": 14295,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/json.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/IOUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDEventDisplayFeedSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2Dependencies.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "dpl-workflow.sh: using MI100 serialization workaround by default again,  with option to disable it with env var",
-            "number": 14302,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Revert \"GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics\"",
-            "number": 14293,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonArray.h"
                   }
                 }
               ]
