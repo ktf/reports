@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-25T08:14:47Z",
-            "title": "ALICE3-TRK: Add skeleton for the TRK reconstruction WF",
-            "number": 14222,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/include/TRKWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/include/TRKWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/src/trk-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-24T07:15:53Z",
-            "title": "Fixing member variable naming",
-            "number": 14217,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/include/ML/OrtInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/src/OrtInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-03-14T07:21:28Z",
-            "title": "Making float16 variables compatible with GPU types",
-            "number": 14055,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/include/ML/3rdparty/GPUORTFloat16.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-20T10:22:22Z",
             "title": "GPU stream implementation for ONNX runtime",
             "number": 14117,
@@ -3119,26 +2999,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Github Actions: Setup dependabot",
-            "number": 14292,
-            "author": {
-              "login": "singiamtel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/dependabot.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-05-19T09:06:24Z",
             "title": "DPL Analysis: `as<T>(cfg)` for adjusting the types of configurables in expressions",
@@ -3741,36 +3601,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-05-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-05-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL Analysis: move spawner caches outside of the spawner function",
             "number": 14281,
             "author": {
@@ -3801,6 +3631,131 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_TableSpawner.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-20T09:19:39Z",
+            "title": "Github Actions: Setup dependabot",
+            "number": 14292,
+            "author": {
+              "login": "singiamtel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/dependabot.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-05-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-05-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/stale from 1 to 9",
+            "number": 14300,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/stale.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/checkout from 3 to 4",
+            "number": 14298,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/code-transformations.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/doxygen.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/release.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/setup-python from 2 to 5",
+            "number": 14299,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
                   }
                 }
               ]

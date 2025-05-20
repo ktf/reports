@@ -13,7 +13,6 @@
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 - [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
@@ -33,7 +32,6 @@
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
-- [\#14222](https://github.com/AliceO2Group/AliceO2/pull/14222) 2025-04-25: ALICE3-TRK: Add skeleton for the TRK reconstruction WF by [@mconcas](https://github.com/mconcas)
 - [\#14232](https://github.com/AliceO2Group/AliceO2/pull/14232) 2025-05-06: [FOCAL-55] Open the detector in the middle in x by [@hahassan7](https://github.com/hahassan7)
 - [\#14236](https://github.com/AliceO2Group/AliceO2/pull/14236) 2025-05-06: ITS3: Fix APTS response file generation by [@f3sch](https://github.com/f3sch)
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
