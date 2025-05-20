@@ -11,6 +11,7 @@
 - [\#14252](https://github.com/AliceO2Group/AliceO2/pull/14252) 2025-05-08: Revert "DPL Analysis: prevent slice cache from updating when not required by enabled process functions" by [@aalkin](https://github.com/aalkin)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14217](https://github.com/AliceO2Group/AliceO2/pull/14217) 2025-04-24: Fixing member variable naming by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
@@ -71,6 +72,7 @@
 - [\#14273](https://github.com/AliceO2Group/AliceO2/pull/14273) 2025-05-14: DPL: Out of line NumericBuilders by [@ktf](https://github.com/ktf)
 - [\#14276](https://github.com/AliceO2Group/AliceO2/pull/14276) 2025-05-19: DPL Analysis: `as<T>(cfg)` for adjusting the types of configurables in expressions by [@aalkin](https://github.com/aalkin)
 - [\#14279](https://github.com/AliceO2Group/AliceO2/pull/14279) 2025-05-16: DPL: Drop obsolete API by [@ktf](https://github.com/ktf)
+- [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14213](https://github.com/AliceO2Group/AliceO2/pull/14213) 2025-04-25: Fix energy values for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
