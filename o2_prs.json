@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-04-25T17:25:25Z",
-            "title": "GPU: Add documentation for TPC Tracking QA",
-            "number": 14226,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/documentation/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/tpc-tracking-qa.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "TRD: add optional(default=off) extra table for PID studies",
@@ -3786,6 +3761,41 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add TPC cluster selector helper for tracking studies",
+            "number": 14308,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TPCClusSelector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/GlobalTrackingStudyLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TPCClusSelector.cxx"
                   }
                 }
               ]
