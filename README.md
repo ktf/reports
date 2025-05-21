@@ -74,6 +74,7 @@
 - [\#14279](https://github.com/AliceO2Group/AliceO2/pull/14279) 2025-05-16: DPL: Drop obsolete API by [@ktf](https://github.com/ktf)
 - [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
 - [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
+- [\#14305](https://github.com/AliceO2Group/AliceO2/pull/14305) 2025-05-21: DPL Analysis: add `clamp` node to constrain a result of an expression between two values by [@aalkin](https://github.com/aalkin)
 - [\#14306](https://github.com/AliceO2Group/AliceO2/pull/14306) 2025-05-21: DPL: fix error reporting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
