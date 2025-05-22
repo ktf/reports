@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-16T20:25:48Z",
-            "title": "[PWGCF] Added various histograms for QA and MC Closure",
-            "number": 11231,
-            "author": {
-              "login": "JStaa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-16T21:39:16Z",
             "title": "[PWGLF] Add exception for empty bins in eff correction",
             "number": 11229,
@@ -2606,7 +2586,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "fixed initialisation for on-the-fly",
+            "title": "[PWGCF] fixed initialisation for on-the-fly",
             "number": 11304,
             "author": {
               "login": "EmilGorm"
@@ -2616,6 +2596,31 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] MegaLinter: Configure cppcheck",
+            "number": 11305,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cppcheck_config"
                   }
                 }
               ]
