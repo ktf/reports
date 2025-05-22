@@ -64,7 +64,6 @@
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
-- [\#14185](https://github.com/AliceO2Group/AliceO2/pull/14185) 2025-05-02: DPL Analysis: modernize expression parsing code by [@aalkin](https://github.com/aalkin)
 - [\#14231](https://github.com/AliceO2Group/AliceO2/pull/14231) 2025-05-02: DPL: fix reading of booleans from branches with more than 2 baskets. by [@ktf](https://github.com/ktf)
 - [\#14238](https://github.com/AliceO2Group/AliceO2/pull/14238) 2025-05-06: DPL: improve DataSpecUtils::describe API in case of buffers by [@ktf](https://github.com/ktf)
 - [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
