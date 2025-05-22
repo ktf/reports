@@ -35,7 +35,6 @@
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
-- [\#14232](https://github.com/AliceO2Group/AliceO2/pull/14232) 2025-05-06: [FOCAL-55] Open the detector in the middle in x by [@hahassan7](https://github.com/hahassan7)
 - [\#14236](https://github.com/AliceO2Group/AliceO2/pull/14236) 2025-05-06: ITS3: Fix APTS response file generation by [@f3sch](https://github.com/f3sch)
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14239](https://github.com/AliceO2Group/AliceO2/pull/14239) 2025-05-06: ITS: Remove forgotten tmp file by [@mconcas](https://github.com/mconcas)
