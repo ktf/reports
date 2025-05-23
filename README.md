@@ -14,6 +14,7 @@
 - [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
 - [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
 - [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
+- [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
 - [\#14253](https://github.com/AliceO2Group/AliceO2/pull/14253) 2025-05-09: GPU: Add sorting of tracks of attached compressed clusters in deterministic mode by [@davidrohr](https://github.com/davidrohr)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
@@ -79,6 +80,7 @@
 - [\#14306](https://github.com/AliceO2Group/AliceO2/pull/14306) 2025-05-21: DPL: fix error reporting by [@ktf](https://github.com/ktf)
 - [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
 - [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
+- [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Generators
 - [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14296](https://github.com/AliceO2Group/AliceO2/pull/14296) 2025-05-19: Fix units for GeneratorFromEventPool by [@sawenzel](https://github.com/sawenzel)
