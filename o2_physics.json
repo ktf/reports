@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-19T11:32:25Z",
-            "title": "[Common,PWGDQ] Optimising muon realignment code",
-            "number": 11235,
-            "author": {
-              "login": "Elros60"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/FwdTrackReAlignTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/muonRealignment.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-19T12:12:01Z",
             "title": "[PWGUD] Removed 2 process functions and fixed o2-linter issues",
             "number": 11243,
@@ -3006,6 +2961,31 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Update in occupancy Table producer task : producer task split into multiple process functions for better performance",
+            "number": 11322,
+            "author": {
+              "login": "rahulverma012"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/OccupancyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/occupancyTableProducer.cxx"
                   }
                 }
               ]
