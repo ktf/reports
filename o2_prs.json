@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-06T05:38:08Z",
-            "title": "ITS3: Fix APTS response file generation",
-            "number": 14236,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/data/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-06T09:43:51Z",
             "title": "ITS: Remove forgotten tmp file",
             "number": 14239,
@@ -3859,8 +3839,163 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-22T14:30:06Z",
+            "title": "GPU RTC: Add keepTempFiles option",
+            "number": 14317,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[EMCAL-688] ClusterFactory: remove std::optional",
+            "number": 14314,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-22T19:54:31Z",
+            "title": "GPU: Fix CUDA GetMemInfo must use correct device and simplify context creation / cleanup",
+            "number": 14313,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: first step to make workflow definition plugins",
+            "number": 13976,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessorInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceExecution.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Plugins.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/WorkflowDefinitionContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WSDriverClient.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessingPlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddWorkflow.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Run2,Converter]: fixes to naming to ensure compatibility",
+            "number": 14319,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-23T06:56:48Z",
             "title": "GPU: Clean up unused RTC variables / simplify code",
             "number": 14315,
             "author": {
@@ -4034,71 +4169,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-22T14:30:06Z",
-            "title": "GPU RTC: Add keepTempFiles option",
-            "number": 14317,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[EMCAL-688] ClusterFactory: remove std::optional",
-            "number": 14314,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-22T19:54:31Z",
-            "title": "GPU: Fix CUDA GetMemInfo must use correct device and simplify context creation / cleanup",
-            "number": 14313,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -4131,86 +4201,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: first step to make workflow definition plugins",
-            "number": 13976,
+            "title": "GPU: Some more debug features",
+            "number": 14320,
             "author": {
-              "login": "ktf"
+              "login": "davidrohr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessorInfo.h"
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/DeviceExecution.h"
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/Plugins.h"
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/WorkflowDefinitionContext.h"
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/WSDriverClient.cxx"
+                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessingPlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddWorkflow.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Run2,Converter]: fixes to naming to ensure compatibility",
-            "number": 14319,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                    "path": "GPU/GPUTracking/qa/genEvents.h"
                   }
                 }
               ]

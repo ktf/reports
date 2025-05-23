@@ -35,7 +35,6 @@
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
-- [\#14236](https://github.com/AliceO2Group/AliceO2/pull/14236) 2025-05-06: ITS3: Fix APTS response file generation by [@f3sch](https://github.com/f3sch)
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14239](https://github.com/AliceO2Group/AliceO2/pull/14239) 2025-05-06: ITS: Remove forgotten tmp file by [@mconcas](https://github.com/mconcas)
 - [\#14241](https://github.com/AliceO2Group/AliceO2/pull/14241) 2025-05-07: [FOCAL-55] Increasing the FOCAL volume based on the opening by [@hahassan7](https://github.com/hahassan7)
@@ -58,6 +57,7 @@
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14308](https://github.com/AliceO2Group/AliceO2/pull/14308) 2025-05-21: Add TPC cluster selector helper for tracking studies by [@shahor02](https://github.com/shahor02)
+- [\#14315](https://github.com/AliceO2Group/AliceO2/pull/14315) 2025-05-23: GPU: Clean up unused RTC variables / simplify code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
