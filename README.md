@@ -26,6 +26,7 @@
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
+- [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
@@ -60,6 +61,7 @@
 - [\#14308](https://github.com/AliceO2Group/AliceO2/pull/14308) 2025-05-21: Add TPC cluster selector helper for tracking studies by [@shahor02](https://github.com/shahor02)
 - [\#14315](https://github.com/AliceO2Group/AliceO2/pull/14315) 2025-05-23: GPU: Clean up unused RTC variables / simplify code by [@davidrohr](https://github.com/davidrohr)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
+- [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
