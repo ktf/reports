@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-06T09:43:51Z",
-            "title": "ITS: Remove forgotten tmp file",
-            "number": 14239,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/.ThresholdCalibratorSpec.cxx.swo"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-06T09:49:07Z",
             "title": "Fix typos in rANS AlignedArrayIterator",
             "number": 14240,
@@ -4246,6 +4226,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/qa/genEvents.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU CMake: Switch from IMPLICIT_DEPENDS to DEPFILE and -MT -MD -MF, as ninja does not support IMPLICIT_DEPENDS",
+            "number": 14321,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl/CMakeLists.txt"
                   }
                 }
               ]

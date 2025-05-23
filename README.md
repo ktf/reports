@@ -36,7 +36,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14145](https://github.com/AliceO2Group/AliceO2/pull/14145) 2025-05-06: ITS3: ITS3 Digitisation Development after TDR by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14239](https://github.com/AliceO2Group/AliceO2/pull/14239) 2025-05-06: ITS: Remove forgotten tmp file by [@mconcas](https://github.com/mconcas)
 - [\#14241](https://github.com/AliceO2Group/AliceO2/pull/14241) 2025-05-07: [FOCAL-55] Increasing the FOCAL volume based on the opening by [@hahassan7](https://github.com/hahassan7)
 - [\#14244](https://github.com/AliceO2Group/AliceO2/pull/14244) 2025-05-08: [EMCAL-539] Fix in trigger simulation to not accept every event as MB by [@jokonig](https://github.com/jokonig)
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
