@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-20T22:53:41Z",
-            "title": "[PWGHF] fix a small bug for the candidate and track loop in the Tcc tree creator",
-            "number": 11269,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorTccToD0D0Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[Trigger] feat(EventFiltering): Fix the task name for the HeavyNeutralMesonFilters",
@@ -2883,9 +2863,54 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-25T03:14:34Z",
+            "title": "[Common] minor fix: add .value in track propag module",
+            "number": 11346,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] test modules: merged strangeness build + track propag",
+            "title": "[Common] Adjustment for fused trackprop + strabuilder",
+            "number": 11348,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagationTester.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] test modules: merged strangeness builder + track propag",
             "number": 11347,
             "author": {
               "login": "ddobrigk"
@@ -2905,26 +2930,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-25T03:14:34Z",
-            "title": "[Common] minor fix: add .value in track propag module",
-            "number": 11346,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
                   }
                 }
               ]
