@@ -39,7 +39,6 @@
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14244](https://github.com/AliceO2Group/AliceO2/pull/14244) 2025-05-08: [EMCAL-539] Fix in trigger simulation to not accept every event as MB by [@jokonig](https://github.com/jokonig)
 - [\#14247](https://github.com/AliceO2Group/AliceO2/pull/14247) 2025-05-08: ctpdev: consistencycheck debug and ctpcfg config added by [@lietava](https://github.com/lietava)
 - [\#14251](https://github.com/AliceO2Group/AliceO2/pull/14251) 2025-05-09: TPC QC: Add getter for occupancy to Cluster class by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14254](https://github.com/AliceO2Group/AliceO2/pull/14254) 2025-05-09: Avoid including BasicCCDBManager in headers exposed to ROOT. by [@ktf](https://github.com/ktf)
