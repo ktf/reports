@@ -5,7 +5,6 @@
 - [\#14260](https://github.com/AliceO2Group/AliceO2/pull/14260) 2025-05-12: GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places by [@davidrohr](https://github.com/davidrohr)
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
 - [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
 - [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
@@ -65,7 +64,6 @@
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#14057](https://github.com/AliceO2Group/AliceO2/pull/14057) 2025-05-06: DPL Analysis: prevent slice cache from updating when not required by enabled process functions by [@aalkin](https://github.com/aalkin)
 - [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
 - [\#14255](https://github.com/AliceO2Group/AliceO2/pull/14255) 2025-05-11: DPL: fix rate limiting handling by [@ktf](https://github.com/ktf)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
