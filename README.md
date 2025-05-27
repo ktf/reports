@@ -56,6 +56,7 @@
 - [\#14283](https://github.com/AliceO2Group/AliceO2/pull/14283) 2025-05-17: By default process K0s only in the sync. svertexer by [@shahor02](https://github.com/shahor02)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
+- [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14308](https://github.com/AliceO2Group/AliceO2/pull/14308) 2025-05-21: Add TPC cluster selector helper for tracking studies by [@shahor02](https://github.com/shahor02)
 - [\#14315](https://github.com/AliceO2Group/AliceO2/pull/14315) 2025-05-23: GPU: Clean up unused RTC variables / simplify code by [@davidrohr](https://github.com/davidrohr)
 - [\#14316](https://github.com/AliceO2Group/AliceO2/pull/14316) 2025-05-23: Barrel geometry: Implementation of MFT rail hinges by [@mario6829](https://github.com/mario6829)
