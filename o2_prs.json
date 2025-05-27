@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-09T10:18:39Z",
-            "title": "Avoid including BasicCCDBManager in headers exposed to ROOT.",
-            "number": 14254,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/CTPRateFetcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/CTPRateFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-09T17:23:07Z",
             "title": "TPC QC: Add getter for occupancy to Cluster class",
             "number": 14251,
@@ -4136,6 +4111,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: get flags from DataProcessingHeader in isCalibrationData check for new EoS",
+            "number": 14335,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
                   }
                 }
               ]
