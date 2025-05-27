@@ -84,3 +84,5 @@
 ## Recent developments in O2 - Steer
 - [\#14267](https://github.com/AliceO2Group/AliceO2/pull/14267) 2025-05-13: TPC: Fix digitizer workflow to load GEM params from CCDB before creating Polya file by [@tubagundem](https://github.com/tubagundem)
 - [\#14288](https://github.com/AliceO2Group/AliceO2/pull/14288) 2025-05-18: TPC init: load more params from CCDB for GEMAmpl by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#14328](https://github.com/AliceO2Group/AliceO2/pull/14328) 2025-05-27: QC-1287 Fix Mergers latency optimization with RoundRobin processing by [@knopers8](https://github.com/knopers8)
