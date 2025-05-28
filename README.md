@@ -55,7 +55,6 @@
 ## Recent developments in O2 - Framework
 - [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
-- [\#14264](https://github.com/AliceO2Group/AliceO2/pull/14264) 2025-05-13: Move JSON parsing out of line by [@ktf](https://github.com/ktf)
 - [\#14265](https://github.com/AliceO2Group/AliceO2/pull/14265) 2025-05-13: Out of line FairTBuffer destructor by [@ktf](https://github.com/ktf)
 - [\#14273](https://github.com/AliceO2Group/AliceO2/pull/14273) 2025-05-14: DPL: Out of line NumericBuilders by [@ktf](https://github.com/ktf)
 - [\#14276](https://github.com/AliceO2Group/AliceO2/pull/14276) 2025-05-19: DPL Analysis: `as<T>(cfg)` for adjusting the types of configurables in expressions by [@aalkin](https://github.com/aalkin)
