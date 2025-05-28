@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-12T18:49:43Z",
-            "title": "DPL: do not create unneeded statics",
-            "number": 14261,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableBuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-12T20:55:13Z",
             "title": "add TPC chi2 to trackstudy output",
             "number": 14263,
@@ -4151,6 +4126,41 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/documentation/full-system-test.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: more fixes to handle the ROOT v6-36-00",
+            "number": 14341,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/RNTuplePlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Root2ArrowTable.cxx"
                   }
                 }
               ]
