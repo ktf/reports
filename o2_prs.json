@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-12T12:26:10Z",
-            "title": "GPU: Fix performance regression: DETERMINISTIC CODE was used unintentionally in 2 places",
-            "number": 14260,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-12T18:49:43Z",
             "title": "DPL: do not create unneeded statics",
             "number": 14261,
@@ -4151,6 +4121,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_Concepts.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update GPU and FST documentation",
+            "number": 14340,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/documentation/build-standalone.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/documentation/full-system-test-setup.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/documentation/full-system-test.md"
                   }
                 }
               ]
