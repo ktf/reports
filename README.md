@@ -51,6 +51,7 @@
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 - [\#14334](https://github.com/AliceO2Group/AliceO2/pull/14334) 2025-05-29: Only tracklets pT cut-off should not be touched for B=0 by [@shahor02](https://github.com/shahor02)
 - [\#14337](https://github.com/AliceO2Group/AliceO2/pull/14337) 2025-05-28: raw-file-reader: move run-number option from w-flow to device level by [@shahor02](https://github.com/shahor02)
+- [\#14343](https://github.com/AliceO2Group/AliceO2/pull/14343) 2025-05-29: Add flags to TrackInfoExt by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
