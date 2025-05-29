@@ -15,7 +15,6 @@
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#14262](https://github.com/AliceO2Group/AliceO2/pull/14262) 2025-05-13: GPU TPC: Compute alternate dEdx only if alternate flag mask different compared to normal flag mask by [@davidrohr](https://github.com/davidrohr)
 - [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
 - [\#14272](https://github.com/AliceO2Group/AliceO2/pull/14272) 2025-05-19: NN clustering: VRAM memory leak fix + (u)int -> (u)int32_t by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
