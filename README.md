@@ -13,6 +13,7 @@
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
+- [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14262](https://github.com/AliceO2Group/AliceO2/pull/14262) 2025-05-13: GPU TPC: Compute alternate dEdx only if alternate flag mask different compared to normal flag mask by [@davidrohr](https://github.com/davidrohr)
 - [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
@@ -70,6 +71,7 @@
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
+- [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14333](https://github.com/AliceO2Group/AliceO2/pull/14333) 2025-05-27: Add THL histograms to framework by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14335](https://github.com/AliceO2Group/AliceO2/pull/14335) 2025-05-28: DPL: get flags from DataProcessingHeader in isCalibrationData check for new EoS by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Generators
