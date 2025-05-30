@@ -16,12 +16,14 @@
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#14233](https://github.com/AliceO2Group/AliceO2/pull/14233) 2025-05-30: Added Lithium4 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
 - [\#14272](https://github.com/AliceO2Group/AliceO2/pull/14272) 2025-05-19: NN clustering: VRAM memory leak fix + (u)int -> (u)int32_t by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
+- [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - DataFormats
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
 - [\#14274](https://github.com/AliceO2Group/AliceO2/pull/14274) 2025-05-14: GLO: RecoContainer update by [@f3sch](https://github.com/f3sch)
@@ -30,6 +32,7 @@
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
+- [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Detectors
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14259](https://github.com/AliceO2Group/AliceO2/pull/14259) 2025-05-11: Fix typo in the RecoContainer::getTrackTimeTPCTRD by [@shahor02](https://github.com/shahor02)
