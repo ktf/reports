@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-26T22:35:29Z",
-            "title": "[PWGHF,Trigger] Add track quality selection in HF filter",
-            "number": 11371,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-27T04:15:29Z",
-            "title": "[PWGCF] add event/track selections, read NUA/NUE",
-            "number": 11349,
-            "author": {
-              "login": "Luzhiyongg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-27T06:55:41Z",
             "title": "[PWGCF/FemtoUniverse] Fix dangling pointer when loading histograms from CCDB",
             "number": 11369,
@@ -2754,6 +2704,31 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #11444",
+            "number": 11445,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] feat: Add nuclei pair table to data model",
@@ -2779,23 +2754,48 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "Please consider the following formatting changes to #11444",
-            "number": 11445,
+            "title": "[PWGDQ] add new set of electron cuts for e-mu and fix the tableMaker_withAssociation",
+            "number": 11446,
             "author": {
-              "login": "alibuild"
+              "login": "MaolinZH"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Refactor of charm resonances derived data creator",
+            "number": 11447,
+            "author": {
+              "login": "Luca610"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
                   }
                 }
               ]
