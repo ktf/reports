@@ -17,7 +17,6 @@
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14233](https://github.com/AliceO2Group/AliceO2/pull/14233) 2025-05-30: Added Lithium4 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#14269](https://github.com/AliceO2Group/AliceO2/pull/14269) 2025-05-15: GPU: Better workaround for clang problem with static constexpr members of references by [@davidrohr](https://github.com/davidrohr)
 - [\#14272](https://github.com/AliceO2Group/AliceO2/pull/14272) 2025-05-19: NN clustering: VRAM memory leak fix + (u)int -> (u)int32_t by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14277](https://github.com/AliceO2Group/AliceO2/pull/14277) 2025-05-16: GPU: Some maintenance, and use <array> for CUDA / ROCm, but not yet for OpenCL by [@davidrohr](https://github.com/davidrohr)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
@@ -79,6 +78,7 @@
 - [\#14333](https://github.com/AliceO2Group/AliceO2/pull/14333) 2025-05-27: Add THL histograms to framework by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14335](https://github.com/AliceO2Group/AliceO2/pull/14335) 2025-05-28: DPL: get flags from DataProcessingHeader in isCalibrationData check for new EoS by [@ehellbar](https://github.com/ehellbar)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
+- [\#14354](https://github.com/AliceO2Group/AliceO2/pull/14354) 2025-06-03: Add IWYU export statements to avoid proliferation of headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14296](https://github.com/AliceO2Group/AliceO2/pull/14296) 2025-05-19: Fix units for GeneratorFromEventPool by [@sawenzel](https://github.com/sawenzel)
