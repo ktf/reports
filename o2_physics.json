@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-27T17:31:39Z",
-            "title": "[PWGHF] addition of task: single muon as a function of multiplicity",
-            "number": 10435,
-            "author": {
-              "login": "mislam17"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleMuonMult.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-05-27T13:22:31Z",
-            "title": "[ALICE3] fix convertion to o2track",
-            "number": 11376,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/TrackUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-27T19:04:51Z",
             "title": "[Trigger,PWGCF] Fix histogram filling/naming",
             "number": 11366,
@@ -2640,96 +2595,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced workflow for B+, B0s -> J/Psi X analyses",
-            "number": 11368,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBplusToJPsiKReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBsToJPsiPhiReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJPsiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorJPsiHadReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBplusToJPsiKReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBsToJPsiPhiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Fix MC information for primaries and secondaries",
             "number": 11452,
             "author": {
@@ -2740,31 +2605,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Refactor of charm resonances derived data creator",
-            "number": 11447,
-            "author": {
-              "login": "Luca610"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
                   }
                 }
               ]
@@ -2885,6 +2725,161 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] [PWG-HF] Fix magic number for taskXic",
+            "number": 11458,
+            "author": {
+              "login": "cterrevo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Refactor of charm resonances derived data creator",
+            "number": 11447,
+            "author": {
+              "login": "Luca610"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGHF] Add reduced workflow for B+, B0s -> J/Psi X analyses",
+            "number": 11368,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBplusToJPsiKReduced.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBsToJPsiPhiReduced.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJPsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJPsiHadReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBplusToJPsiKReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsToJPsiPhiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added second option for mass calculation",
+            "number": 11459,
+            "author": {
+              "login": "mherzer28"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/trHeAnalysis.cxx"
                   }
                 }
               ]
