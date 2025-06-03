@@ -51,6 +51,7 @@
 - [\#14316](https://github.com/AliceO2Group/AliceO2/pull/14316) 2025-05-23: Barrel geometry: Implementation of MFT rail hinges by [@mario6829](https://github.com/mario6829)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
+- [\#14330](https://github.com/AliceO2Group/AliceO2/pull/14330) 2025-06-03: ITS3: fix topologydict generation + load APTS by [@f3sch](https://github.com/f3sch)
 - [\#14334](https://github.com/AliceO2Group/AliceO2/pull/14334) 2025-05-29: Only tracklets pT cut-off should not be touched for B=0 by [@shahor02](https://github.com/shahor02)
 - [\#14337](https://github.com/AliceO2Group/AliceO2/pull/14337) 2025-05-28: raw-file-reader: move run-number option from w-flow to device level by [@shahor02](https://github.com/shahor02)
 - [\#14343](https://github.com/AliceO2Group/AliceO2/pull/14343) 2025-05-29: Add flags to TrackInfoExt by [@shahor02](https://github.com/shahor02)
