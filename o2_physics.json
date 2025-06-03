@@ -625,36 +625,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-30T06:28:59Z",
-            "title": "[PWGHF] Fix vector error in candidateSelectorOmegac0ToOmegaPi.cxx",
-            "number": 11286,
-            "author": {
-              "login": "FDUEnrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegac0ToOmegaPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-30T08:48:31Z",
             "title": "[PWGLF] Lambda local polarization induced by jet in pp collision 13.6 TeV",
             "number": 11410,
@@ -2710,6 +2680,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Adding muonQA task",
+            "number": 11438,
+            "author": {
+              "login": "ppoava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qaMuon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] created a duplicate task to correlate Lc and Sc with hadrons",
             "number": 11384,
             "author": {
@@ -2738,23 +2733,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Adding muonQA task",
-            "number": 11438,
+            "state": "MERGED",
+            "mergedAt": "2025-05-30T06:28:59Z",
+            "title": "[PWGHF] Fix vector error in candidateSelectorOmegac0ToOmegaPi.cxx",
+            "number": 11286,
             "author": {
-              "login": "ppoava"
+              "login": "FDUEnrich"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegac0ToOmegaPi.cxx"
                   }
                 }
               ]
