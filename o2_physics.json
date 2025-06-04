@@ -1306,46 +1306,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] V0 Jet Finder: use V0 signal flags",
-            "number": 11190,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetFindingUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/Jet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetFragmentation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/v0QA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure] Configure clang-format to sort and group includes",
             "number": 11448,
             "author": {
@@ -1960,26 +1920,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Adding track level outlier cut",
-            "number": 11449,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]
@@ -2693,6 +2633,271 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T11:13:27Z",
+            "title": "[PWGCF,PWGEM,PWGLF] Replace expression columns with dynamic columns in strangeness data model",
+            "number": 11420,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadebuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadefinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadespawner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerobuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerospawner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T11:30:16Z",
+            "title": "[ALICE3] A3: update protection of DetLayer",
+            "number": 11381,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2LutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2LutWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DetLayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DetLayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] LMee: adjusted q/pT binning and fixed DCA1vsDCA2 hist filling",
+            "number": 11461,
+            "author": {
+              "login": "jjungIKF"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Ds-h correlation, adding histograms in MC Gen processes",
+            "number": 11464,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGHF] Add reduced workflow for B+, B0s -> J/Psi X analyses",
+            "number": 11368,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBplusToJPsiKReduced.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBsToJPsiPhiReduced.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJPsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJPsiHadReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBplusToJPsiKReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsToJPsiPhiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsTrkCandHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF,PWGJE] Unify and extend MC flags in candidate tables (3-prong, D*+)",
@@ -2884,62 +3089,37 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-04T11:13:27Z",
-            "title": "[PWGCF,PWGEM,PWGLF] Replace expression columns with dynamic columns in strangeness data model",
-            "number": 11420,
+            "mergedAt": "2025-06-04T12:48:53Z",
+            "title": "[PWGJE] V0 Jet Finder: use V0 signal flags",
+            "number": 11190,
             "author": {
-              "login": "romainschotter"
+              "login": "GijsvWeelden"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
+                    "path": "PWGJE/Core/JetFindingUtilities.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
+                    "path": "PWGJE/DataModel/Jet.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadebuilder.cxx"
+                    "path": "PWGJE/Tasks/jetFragmentation.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadefinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadespawner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerobuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerofinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzerospawner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
+                    "path": "PWGJE/Tasks/v0QA.cxx"
                   }
                 }
               ]
@@ -2949,107 +3129,7 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-04T11:30:16Z",
-            "title": "[ALICE3] A3: update protection of DetLayer",
-            "number": 11381,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2LutWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2LutWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DetLayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DetLayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] LMee: adjusted q/pT binning and fixed DCA1vsDCA2 hist filling",
-            "number": 11461,
-            "author": {
-              "login": "jjungIKF"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Ds-h correlation, adding histograms in MC Gen processes",
-            "number": 11464,
-            "author": {
-              "login": "scattaru"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "mergedAt": "2025-06-04T12:50:42Z",
             "title": "[PWGJE] separation of process functions for MCD and Data tables for Tracks and Multiplicities + Refactoring of the task",
             "number": 11175,
             "author": {
@@ -3073,98 +3153,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced workflow for B+, B0s -> J/Psi X analyses",
-            "number": 11368,
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T12:51:11Z",
+            "title": "[PWGJE] Adding track level outlier cut",
+            "number": 11449,
             "author": {
-              "login": "fchinu"
+              "login": "dajones2"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBplusToJPsiKReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBsToJPsiPhiReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJPsiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorJPsiHadReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBplusToJPsiKReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBsToJPsiPhiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsTrkCandHf.h"
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]
