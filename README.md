@@ -76,7 +76,6 @@
 - [\#14353](https://github.com/AliceO2Group/AliceO2/pull/14353) 2025-06-03: Avoid having an explicit policy for the BuilderHolder by [@ktf](https://github.com/ktf)
 - [\#14354](https://github.com/AliceO2Group/AliceO2/pull/14354) 2025-06-03: Add IWYU export statements to avoid proliferation of headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14296](https://github.com/AliceO2Group/AliceO2/pull/14296) 2025-05-19: Fix units for GeneratorFromEventPool by [@sawenzel](https://github.com/sawenzel)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
