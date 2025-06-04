@@ -2683,6 +2683,156 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T12:48:53Z",
+            "title": "[PWGJE] V0 Jet Finder: use V0 signal flags",
+            "number": 11190,
+            "author": {
+              "login": "GijsvWeelden"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFindingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/Jet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFragmentation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/v0QA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T12:50:42Z",
+            "title": "[PWGJE] separation of process functions for MCD and Data tables for Tracks and Multiplicities + Refactoring of the task",
+            "number": 11175,
+            "author": {
+              "login": "Archita-Dash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T12:51:11Z",
+            "title": "[PWGJE] Adding track level outlier cut",
+            "number": 11449,
+            "author": {
+              "login": "dajones2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] taskXic: Remove PID track tables. Fix magic numbers.",
+            "number": 11458,
+            "author": {
+              "login": "cterrevo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-04T13:19:38Z",
+            "title": "[PWGEM] LMee: adjusted q/pT binning and fixed DCA1vsDCA2 hist filling",
+            "number": 11461,
+            "author": {
+              "login": "jjungIKF"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] reduce memory consumption in createResolutionMap.cxx",
+            "number": 11468,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/createResolutionMap.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Ds-h correlation, adding histograms in MC Gen processes",
@@ -2700,6 +2850,126 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGHF] Add reduced workflow for B+, B0s -> J/Psi X analyses",
+            "number": 11368,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBplusToJPsiKReduced.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBsToJPsiPhiReduced.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJPsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJPsiHadReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBplusToJPsiKReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsToJPsiPhiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsTrkCandHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Full process function autoconfigure for strangeness builder service",
+            "number": 11467,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
                   }
                 }
               ]
@@ -2890,276 +3160,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Core/JetHFUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T12:48:53Z",
-            "title": "[PWGJE] V0 Jet Finder: use V0 signal flags",
-            "number": 11190,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetFindingUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/Jet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetFragmentation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/v0QA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T12:50:42Z",
-            "title": "[PWGJE] separation of process functions for MCD and Data tables for Tracks and Multiplicities + Refactoring of the task",
-            "number": 11175,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T12:51:11Z",
-            "title": "[PWGJE] Adding track level outlier cut",
-            "number": 11449,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Full process function autoconfigure for strangeness builder service",
-            "number": 11467,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] taskXic: Remove PID track tables. Fix magic numbers.",
-            "number": 11458,
-            "author": {
-              "login": "cterrevo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T13:19:38Z",
-            "title": "[PWGEM] LMee: adjusted q/pT binning and fixed DCA1vsDCA2 hist filling",
-            "number": 11461,
-            "author": {
-              "login": "jjungIKF"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced workflow for B+, B0s -> J/Psi X analyses",
-            "number": 11368,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBplusToJPsiKReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseBsToJPsiPhiReduced.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJPsiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorJPsiHadReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBplusToJPsiKReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBsToJPsiPhiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsTrkCandHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM/Dilepton] reduce memory consumption in createResolutionMap.cxx",
-            "number": 11468,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/createResolutionMap.cxx"
                   }
                 }
               ]

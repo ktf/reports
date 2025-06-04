@@ -52,6 +52,7 @@
 - [\#14343](https://github.com/AliceO2Group/AliceO2/pull/14343) 2025-05-29: Add flags to TrackInfoExt by [@shahor02](https://github.com/shahor02)
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
 - [\#14346](https://github.com/AliceO2Group/AliceO2/pull/14346) 2025-06-01: CTF: Reader add options to change order of TFs by [@f3sch](https://github.com/f3sch)
+- [\#14350](https://github.com/AliceO2Group/AliceO2/pull/14350) 2025-06-04: [EMCAL-539] Fix min. bias trigger handling for EMCal in simulation by [@jokonig](https://github.com/jokonig)
 - [\#14351](https://github.com/AliceO2Group/AliceO2/pull/14351) 2025-06-03: AOD: Introduce CreatedBy MetaData field by [@sawenzel](https://github.com/sawenzel)
 - [\#14352](https://github.com/AliceO2Group/AliceO2/pull/14352) 2025-06-04: ITS should check MeanVertex (if enabled) at every TF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
