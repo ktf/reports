@@ -79,7 +79,6 @@
 - [\#14296](https://github.com/AliceO2Group/AliceO2/pull/14296) 2025-05-19: Fix units for GeneratorFromEventPool by [@sawenzel](https://github.com/sawenzel)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
-- [\#14267](https://github.com/AliceO2Group/AliceO2/pull/14267) 2025-05-13: TPC: Fix digitizer workflow to load GEM params from CCDB before creating Polya file by [@tubagundem](https://github.com/tubagundem)
 - [\#14288](https://github.com/AliceO2Group/AliceO2/pull/14288) 2025-05-18: TPC init: load more params from CCDB for GEMAmpl by [@sawenzel](https://github.com/sawenzel)
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Utilities
