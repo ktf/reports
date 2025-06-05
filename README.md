@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
 - [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -56,7 +55,6 @@
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#14249](https://github.com/AliceO2Group/AliceO2/pull/14249) 2025-05-19: DPL Analysis: improve/fix join error by not relying on metadata by [@aalkin](https://github.com/aalkin)
 - [\#14257](https://github.com/AliceO2Group/AliceO2/pull/14257) 2025-05-19: DPL Analysis: prevent slice cache from updating unnecessarily by [@aalkin](https://github.com/aalkin)
 - [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
 - [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
