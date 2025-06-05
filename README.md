@@ -34,7 +34,6 @@
 - [\#14268](https://github.com/AliceO2Group/AliceO2/pull/14268) 2025-05-20: Fix the thickness of logical volumes for kTurboStaves and kStaggered … by [@danielbattistini](https://github.com/danielbattistini)
 - [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14283](https://github.com/AliceO2Group/AliceO2/pull/14283) 2025-05-17: By default process K0s only in the sync. svertexer by [@shahor02](https://github.com/shahor02)
 - [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
