@@ -51,6 +51,8 @@
 - [\#14350](https://github.com/AliceO2Group/AliceO2/pull/14350) 2025-06-04: [EMCAL-539] Fix min. bias trigger handling for EMCal in simulation by [@jokonig](https://github.com/jokonig)
 - [\#14351](https://github.com/AliceO2Group/AliceO2/pull/14351) 2025-06-03: AOD: Introduce CreatedBy MetaData field by [@sawenzel](https://github.com/sawenzel)
 - [\#14352](https://github.com/AliceO2Group/AliceO2/pull/14352) 2025-06-04: ITS should check MeanVertex (if enabled) at every TF by [@shahor02](https://github.com/shahor02)
+- [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
+- [\#14365](https://github.com/AliceO2Group/AliceO2/pull/14365) 2025-06-05: TPC: demote errors about IDC CRU orbit/packets mismatches from critical to error by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
