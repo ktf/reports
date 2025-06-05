@@ -18,14 +18,12 @@
 ## Recent developments in O2 - Common
 - [\#14233](https://github.com/AliceO2Group/AliceO2/pull/14233) 2025-05-30: Added Lithium4 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#14272](https://github.com/AliceO2Group/AliceO2/pull/14272) 2025-05-19: NN clustering: VRAM memory leak fix + (u)int -> (u)int32_t by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 - [\#14347](https://github.com/AliceO2Group/AliceO2/pull/14347) 2025-06-02: GPU: CommonMath add remainderf by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
@@ -34,7 +32,6 @@
 - [\#14268](https://github.com/AliceO2Group/AliceO2/pull/14268) 2025-05-20: Fix the thickness of logical volumes for kTurboStaves and kStaggered … by [@danielbattistini](https://github.com/danielbattistini)
 - [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14287](https://github.com/AliceO2Group/AliceO2/pull/14287) 2025-05-17: Possibility to define AlignParam as Local Delta by [@shahor02](https://github.com/shahor02)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14308](https://github.com/AliceO2Group/AliceO2/pull/14308) 2025-05-21: Add TPC cluster selector helper for tracking studies by [@shahor02](https://github.com/shahor02)
