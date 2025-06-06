@@ -50,7 +50,9 @@
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14358](https://github.com/AliceO2Group/AliceO2/pull/14358) 2025-06-06: ITS: use stream compactification in algorithms by [@f3sch](https://github.com/f3sch)
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
+- [\#14362](https://github.com/AliceO2Group/AliceO2/pull/14362) 2025-06-06: AOD: Possibility to inject additional meta data by [@sawenzel](https://github.com/sawenzel)
 - [\#14365](https://github.com/AliceO2Group/AliceO2/pull/14365) 2025-06-05: TPC: demote errors about IDC CRU orbit/packets mismatches from critical to error by [@ehellbar](https://github.com/ehellbar)
+- [\#14367](https://github.com/AliceO2Group/AliceO2/pull/14367) 2025-06-06: [FOCAL-87] Implementing a new design for the HCAL by [@hahassan7](https://github.com/hahassan7)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
@@ -75,6 +77,7 @@
 - [\#14286](https://github.com/AliceO2Group/AliceO2/pull/14286) 2025-06-05: Preparation for Pythia8315 by [@pzhristov](https://github.com/pzhristov)
 - [\#14296](https://github.com/AliceO2Group/AliceO2/pull/14296) 2025-05-19: Fix units for GeneratorFromEventPool by [@sawenzel](https://github.com/sawenzel)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
+- [\#14368](https://github.com/AliceO2Group/AliceO2/pull/14368) 2025-06-06: Add Helium-Oxygen collision systems by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Utilities
