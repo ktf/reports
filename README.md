@@ -4,7 +4,6 @@
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
-- [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14297](https://github.com/AliceO2Group/AliceO2/pull/14297) 2025-05-20: DPL Analysis: fix ineffective function for `Builds<>` by [@aalkin](https://github.com/aalkin)
 - [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
 - [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
@@ -15,14 +14,12 @@
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14233](https://github.com/AliceO2Group/AliceO2/pull/14233) 2025-05-30: Added Lithium4 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#14272](https://github.com/AliceO2Group/AliceO2/pull/14272) 2025-05-19: NN clustering: VRAM memory leak fix + (u)int -> (u)int32_t by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 - [\#14347](https://github.com/AliceO2Group/AliceO2/pull/14347) 2025-06-02: GPU: CommonMath add remainderf by [@f3sch](https://github.com/f3sch)
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
-- [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
@@ -31,7 +28,6 @@
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14268](https://github.com/AliceO2Group/AliceO2/pull/14268) 2025-05-20: Fix the thickness of logical volumes for kTurboStaves and kStaggered … by [@danielbattistini](https://github.com/danielbattistini)
 - [\#14278](https://github.com/AliceO2Group/AliceO2/pull/14278) 2025-05-15: Implementation of MFT rails inside Cage by [@mario6829](https://github.com/mario6829)
-- [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14308](https://github.com/AliceO2Group/AliceO2/pull/14308) 2025-05-21: Add TPC cluster selector helper for tracking studies by [@shahor02](https://github.com/shahor02)
