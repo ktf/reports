@@ -21,11 +21,13 @@
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 - [\#14347](https://github.com/AliceO2Group/AliceO2/pull/14347) 2025-06-02: GPU: CommonMath add remainderf by [@f3sch](https://github.com/f3sch)
+- [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 - [\#14282](https://github.com/AliceO2Group/AliceO2/pull/14282) 2025-05-19: [EMCAL-688] EMCAL: Add fCross to the AnalysisCluster by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14291](https://github.com/AliceO2Group/AliceO2/pull/14291) 2025-05-19: fix: suppressing excesive output from raw decoder by [@lietava](https://github.com/lietava)
 - [\#14293](https://github.com/AliceO2Group/AliceO2/pull/14293) 2025-05-21: Revert "GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics" by [@davidrohr](https://github.com/davidrohr)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
+- [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#14237](https://github.com/AliceO2Group/AliceO2/pull/14237) 2025-05-19: [EMCAL-689] EMCAL/Geometry: Add function to load alignment matrix fro… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14268](https://github.com/AliceO2Group/AliceO2/pull/14268) 2025-05-20: Fix the thickness of logical volumes for kTurboStaves and kStaggered … by [@danielbattistini](https://github.com/danielbattistini)
@@ -50,6 +52,8 @@
 - [\#14350](https://github.com/AliceO2Group/AliceO2/pull/14350) 2025-06-04: [EMCAL-539] Fix min. bias trigger handling for EMCal in simulation by [@jokonig](https://github.com/jokonig)
 - [\#14351](https://github.com/AliceO2Group/AliceO2/pull/14351) 2025-06-03: AOD: Introduce CreatedBy MetaData field by [@sawenzel](https://github.com/sawenzel)
 - [\#14352](https://github.com/AliceO2Group/AliceO2/pull/14352) 2025-06-04: ITS should check MeanVertex (if enabled) at every TF by [@shahor02](https://github.com/shahor02)
+- [\#14356](https://github.com/AliceO2Group/AliceO2/pull/14356) 2025-06-06: ITS: print vtx param and remove duplicates by [@f3sch](https://github.com/f3sch)
+- [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14365](https://github.com/AliceO2Group/AliceO2/pull/14365) 2025-06-05: TPC: demote errors about IDC CRU orbit/packets mismatches from critical to error by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Examples
