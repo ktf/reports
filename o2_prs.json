@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-20T16:06:53Z",
-            "title": "Fix the thickness of logical volumes for kTurboStaves and kStaggered …",
-            "number": 14268,
-            "author": {
-              "login": "danielbattistini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKLayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-20T17:27:52Z",
             "title": "DPL Analysis: move spawner caches outside of the spawner function",
             "number": 14281,
@@ -3051,51 +3026,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ITS-GPU: Use typed external allocator for some thrust items",
-            "number": 14371,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ExternalAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "EPNstderrMonitor: remove static declaration of InfoLoggerMessageOption when sending messages to IL",
             "number": 14366,
             "author": {
@@ -3736,36 +3666,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-06-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2025-06-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: first step to make workflow definition plugins",
             "number": 13976,
             "author": {
@@ -3906,6 +3806,121 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove references to boost::container::pmr",
+            "number": 14379,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/test/testDataHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/MemoryResources/test/testMemoryResources.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_FairMQ.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-10T07:46:02Z",
+            "title": "ITS-GPU: Use typed external allocator for some thrust items",
+            "number": 14371,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ExternalAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainITS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-06-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-06-o2_releases.json"
                   }
                 }
               ]

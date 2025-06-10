@@ -24,7 +24,6 @@
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
-- [\#14268](https://github.com/AliceO2Group/AliceO2/pull/14268) 2025-05-20: Fix the thickness of logical volumes for kTurboStaves and kStaggered … by [@danielbattistini](https://github.com/danielbattistini)
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14308](https://github.com/AliceO2Group/AliceO2/pull/14308) 2025-05-21: Add TPC cluster selector helper for tracking studies by [@shahor02](https://github.com/shahor02)
 - [\#14312](https://github.com/AliceO2Group/AliceO2/pull/14312) 2025-05-27: ITS: template Traits and TimeFrame by [@f3sch](https://github.com/f3sch)
@@ -52,6 +51,7 @@
 - [\#14367](https://github.com/AliceO2Group/AliceO2/pull/14367) 2025-06-06: [FOCAL-87] Implementing a new design for the HCAL by [@hahassan7](https://github.com/hahassan7)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14370](https://github.com/AliceO2Group/AliceO2/pull/14370) 2025-06-06: ITS: buildSeeds check only once of b=0 by [@f3sch](https://github.com/f3sch)
+- [\#14371](https://github.com/AliceO2Group/AliceO2/pull/14371) 2025-06-10: ITS-GPU: Use typed external allocator for some thrust items by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
