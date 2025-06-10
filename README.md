@@ -51,6 +51,7 @@
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14370](https://github.com/AliceO2Group/AliceO2/pull/14370) 2025-06-06: ITS: buildSeeds check only once of b=0 by [@f3sch](https://github.com/f3sch)
 - [\#14371](https://github.com/AliceO2Group/AliceO2/pull/14371) 2025-06-10: ITS-GPU: Use typed external allocator for some thrust items by [@mconcas](https://github.com/mconcas)
+- [\#14381](https://github.com/AliceO2Group/AliceO2/pull/14381) 2025-06-10: ITS: fix Cell reorder by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
