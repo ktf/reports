@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
 - [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
 - [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -55,7 +54,6 @@
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#14281](https://github.com/AliceO2Group/AliceO2/pull/14281) 2025-05-20: DPL Analysis: move spawner caches outside of the spawner function by [@aalkin](https://github.com/aalkin)
 - [\#14305](https://github.com/AliceO2Group/AliceO2/pull/14305) 2025-05-21: DPL Analysis: add `clamp` node to constrain a result of an expression between two values by [@aalkin](https://github.com/aalkin)
 - [\#14306](https://github.com/AliceO2Group/AliceO2/pull/14306) 2025-05-21: DPL: fix error reporting by [@ktf](https://github.com/ktf)
 - [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
