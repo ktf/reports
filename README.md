@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
 - [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
@@ -56,7 +55,6 @@
 ## Recent developments in O2 - Examples
 - [\#14309](https://github.com/AliceO2Group/AliceO2/pull/14309) 2025-05-22: Drop obsolete documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#14307](https://github.com/AliceO2Group/AliceO2/pull/14307) 2025-05-21: DPL: fix merging of pipelined devices by [@ktf](https://github.com/ktf)
 - [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
