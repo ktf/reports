@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-21T20:07:54Z",
-            "title": "Revert \"GPU Common: Workaround for removing gpustd::array, temporary alias for O2Physics\"",
-            "number": 14293,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonArray.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-21T21:04:18Z",
             "title": "Add TPC cluster selector helper for tracking studies",
             "number": 14308,
@@ -3294,26 +3269,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU Math: Suppress compiler warnings about NaN in ffast-math",
-            "number": 14382,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-10T11:06:55Z",
             "title": "ITS: make clang-tidy happy",
@@ -3381,61 +3336,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Remove references to boost::container::pmr",
-            "number": 14379,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/Stack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/test/testDataHeader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/MemoryResources/test/testMemoryResources.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Output.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FairMQ.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
                   }
                 }
               ]
@@ -3711,6 +3611,106 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/ClusterDecoderRawSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove references to boost::container::pmr",
+            "number": 14379,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/test/testDataHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/MemoryResources/test/testMemoryResources.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Output.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_FairMQ.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Math: Suppress compiler warnings about NaN in ffast-math",
+            "number": 14382,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPULogging.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix MCKinematicsReader for QED events when using collisioncontext",
+            "number": 14387,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
                   }
                 }
               ]
