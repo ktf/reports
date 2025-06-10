@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-04T12:50:42Z",
-            "title": "[PWGJE] separation of process functions for MCD and Data tables for Tracks and Multiplicities + Refactoring of the task",
-            "number": 11175,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T12:51:11Z",
-            "title": "[PWGJE] Adding track level outlier cut",
-            "number": 11449,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-04T13:19:38Z",
             "title": "[PWGEM] LMee: adjusted q/pT binning and fixed DCA1vsDCA2 hist filling",
             "number": 11461,
@@ -2814,26 +2769,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add new process function to run over strangeness dervide data",
-            "number": 11531,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/taskLambdaSpinCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Add Xic0 flow task and fix previous O2 linter issues",
             "number": 11533,
             "author": {
@@ -3054,6 +2989,71 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/fullJetSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-10T10:04:27Z",
+            "title": "[Infrastructure] Configure clang-format to sort and group includes",
+            "number": 11448,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".clang-format"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CPPLINT.cfg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add new process function to run over strangeness dervide data",
+            "number": 11531,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/taskLambdaSpinCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Correct some MCSignal definitions related to light-flavor decays",
+            "number": 11535,
+            "author": {
+              "login": "MaolinZH"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
                   }
                 }
               ]
