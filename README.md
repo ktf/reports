@@ -7,6 +7,7 @@
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
+- [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14233](https://github.com/AliceO2Group/AliceO2/pull/14233) 2025-05-30: Added Lithium4 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
@@ -66,6 +67,7 @@
 - [\#14354](https://github.com/AliceO2Group/AliceO2/pull/14354) 2025-06-03: Add IWYU export statements to avoid proliferation of headers by [@ktf](https://github.com/ktf)
 - [\#14391](https://github.com/AliceO2Group/AliceO2/pull/14391) 2025-06-11: Export fairlogger/Logger.h to avoid disseminating it everywhere. by [@ktf](https://github.com/ktf)
 - [\#14392](https://github.com/AliceO2Group/AliceO2/pull/14392) 2025-06-11: IWYU: avoid spurious unused include report by [@ktf](https://github.com/ktf)
+- [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14286](https://github.com/AliceO2Group/AliceO2/pull/14286) 2025-06-05: Preparation for Pythia8315 by [@pzhristov](https://github.com/pzhristov)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)

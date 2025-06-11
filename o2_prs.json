@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-22T14:30:06Z",
-            "title": "GPU RTC: Add keepTempFiles option",
-            "number": 14317,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-05-22T19:54:31Z",
             "title": "GPU: Fix CUDA GetMemInfo must use correct device and simplify context creation / cleanup",
             "number": 14313,
@@ -3601,6 +3576,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/WorkflowSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-11T15:51:49Z",
+            "title": "IWYU: export commonly used headers",
+            "number": 14393,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
                   }
                 }
               ]
