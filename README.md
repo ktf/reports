@@ -51,6 +51,7 @@
 - [\#14371](https://github.com/AliceO2Group/AliceO2/pull/14371) 2025-06-10: ITS-GPU: Use typed external allocator for some thrust items by [@mconcas](https://github.com/mconcas)
 - [\#14372](https://github.com/AliceO2Group/AliceO2/pull/14372) 2025-06-10: ITS: make clang-tidy happy by [@f3sch](https://github.com/f3sch)
 - [\#14381](https://github.com/AliceO2Group/AliceO2/pull/14381) 2025-06-10: ITS: fix Cell reorder by [@f3sch](https://github.com/f3sch)
+- [\#14383](https://github.com/AliceO2Group/AliceO2/pull/14383) 2025-06-11: ITS: simplify constants + mathutils by [@f3sch](https://github.com/f3sch)
 - [\#14384](https://github.com/AliceO2Group/AliceO2/pull/14384) 2025-06-10: Fix abuse of o2::framework::Output by [@ktf](https://github.com/ktf)
 - [\#14386](https://github.com/AliceO2Group/AliceO2/pull/14386) 2025-06-10: Fix ClusterDecoderRawSpec to work with std::pmr by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
