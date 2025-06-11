@@ -19,6 +19,7 @@
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#14387](https://github.com/AliceO2Group/AliceO2/pull/14387) 2025-06-11: Fix MCKinematicsReader for QED events when using collisioncontext by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14312](https://github.com/AliceO2Group/AliceO2/pull/14312) 2025-05-27: ITS: template Traits and TimeFrame by [@f3sch](https://github.com/f3sch)
