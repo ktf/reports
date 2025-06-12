@@ -24,7 +24,6 @@
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14312](https://github.com/AliceO2Group/AliceO2/pull/14312) 2025-05-27: ITS: template Traits and TimeFrame by [@f3sch](https://github.com/f3sch)
 - [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14315](https://github.com/AliceO2Group/AliceO2/pull/14315) 2025-05-23: GPU: Clean up unused RTC variables / simplify code by [@davidrohr](https://github.com/davidrohr)
 - [\#14316](https://github.com/AliceO2Group/AliceO2/pull/14316) 2025-05-23: Barrel geometry: Implementation of MFT rail hinges by [@mario6829](https://github.com/mario6829)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
