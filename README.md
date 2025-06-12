@@ -1,15 +1,12 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14233](https://github.com/AliceO2Group/AliceO2/pull/14233) 2025-05-30: Added Lithium4 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 - [\#14325](https://github.com/AliceO2Group/AliceO2/pull/14325) 2025-05-30: Add Ds and Xic resonances not present in the PDG by [@fgrosa](https://github.com/fgrosa)
 - [\#14347](https://github.com/AliceO2Group/AliceO2/pull/14347) 2025-06-02: GPU: CommonMath add remainderf by [@f3sch](https://github.com/f3sch)
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -24,8 +21,6 @@
 - [\#14312](https://github.com/AliceO2Group/AliceO2/pull/14312) 2025-05-27: ITS: template Traits and TimeFrame by [@f3sch](https://github.com/f3sch)
 - [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14316](https://github.com/AliceO2Group/AliceO2/pull/14316) 2025-05-23: Barrel geometry: Implementation of MFT rail hinges by [@mario6829](https://github.com/mario6829)
-- [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
-- [\#14324](https://github.com/AliceO2Group/AliceO2/pull/14324) 2025-05-23: Fix condition to disable V0/Cascade hypothesis in the SVertexer + other minor fix by [@shahor02](https://github.com/shahor02)
 - [\#14326](https://github.com/AliceO2Group/AliceO2/pull/14326) 2025-06-04: ITS: track memory allocations + graceful of exceeding limit  by [@f3sch](https://github.com/f3sch)
 - [\#14330](https://github.com/AliceO2Group/AliceO2/pull/14330) 2025-06-03: ITS3: fix topologydict generation + load APTS by [@f3sch](https://github.com/f3sch)
 - [\#14334](https://github.com/AliceO2Group/AliceO2/pull/14334) 2025-05-29: Only tracklets pT cut-off should not be touched for B=0 by [@shahor02](https://github.com/shahor02)
@@ -53,8 +48,6 @@
 - [\#14386](https://github.com/AliceO2Group/AliceO2/pull/14386) 2025-06-10: Fix ClusterDecoderRawSpec to work with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14390](https://github.com/AliceO2Group/AliceO2/pull/14390) 2025-06-12: ITS: tracker shadowed variable  by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
-- [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14333](https://github.com/AliceO2Group/AliceO2/pull/14333) 2025-05-27: Add THL histograms to framework by [@ddobrigk](https://github.com/ddobrigk)
@@ -67,8 +60,8 @@
 - [\#14392](https://github.com/AliceO2Group/AliceO2/pull/14392) 2025-06-11: IWYU: avoid spurious unused include report by [@ktf](https://github.com/ktf)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
+- [\#14242](https://github.com/AliceO2Group/AliceO2/pull/14242) 2025-05-16: Include QED for special runs by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14286](https://github.com/AliceO2Group/AliceO2/pull/14286) 2025-06-05: Preparation for Pythia8315 by [@pzhristov](https://github.com/pzhristov)
-- [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14368](https://github.com/AliceO2Group/AliceO2/pull/14368) 2025-06-06: Add Helium-Oxygen collision systems by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
