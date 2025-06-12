@@ -20,7 +20,6 @@
 - [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14312](https://github.com/AliceO2Group/AliceO2/pull/14312) 2025-05-27: ITS: template Traits and TimeFrame by [@f3sch](https://github.com/f3sch)
 - [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14316](https://github.com/AliceO2Group/AliceO2/pull/14316) 2025-05-23: Barrel geometry: Implementation of MFT rail hinges by [@mario6829](https://github.com/mario6829)
 - [\#14326](https://github.com/AliceO2Group/AliceO2/pull/14326) 2025-06-04: ITS: track memory allocations + graceful of exceeding limit  by [@f3sch](https://github.com/f3sch)
 - [\#14330](https://github.com/AliceO2Group/AliceO2/pull/14330) 2025-06-03: ITS3: fix topologydict generation + load APTS by [@f3sch](https://github.com/f3sch)
 - [\#14334](https://github.com/AliceO2Group/AliceO2/pull/14334) 2025-05-29: Only tracklets pT cut-off should not be touched for B=0 by [@shahor02](https://github.com/shahor02)
