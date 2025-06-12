@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
@@ -54,7 +53,6 @@
 - [\#14386](https://github.com/AliceO2Group/AliceO2/pull/14386) 2025-06-10: Fix ClusterDecoderRawSpec to work with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14390](https://github.com/AliceO2Group/AliceO2/pull/14390) 2025-06-12: ITS: tracker shadowed variable  by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
-- [\#14318](https://github.com/AliceO2Group/AliceO2/pull/14318) 2025-05-23: DPL: Explicitly printout the last file opened by [@ktf](https://github.com/ktf)
 - [\#14319](https://github.com/AliceO2Group/AliceO2/pull/14319) 2025-05-23: [Run2,Converter]: fixes to naming to ensure compatibility by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14322](https://github.com/AliceO2Group/AliceO2/pull/14322) 2025-05-23: Always check gGrid before calling TGrid::Connect to alien by [@shahor02](https://github.com/shahor02)
 - [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
