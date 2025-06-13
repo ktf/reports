@@ -49,7 +49,6 @@
 - [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
-- [\#14333](https://github.com/AliceO2Group/AliceO2/pull/14333) 2025-05-27: Add THL histograms to framework by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14335](https://github.com/AliceO2Group/AliceO2/pull/14335) 2025-05-28: DPL: get flags from DataProcessingHeader in isCalibrationData check for new EoS by [@ehellbar](https://github.com/ehellbar)
 - [\#14338](https://github.com/AliceO2Group/AliceO2/pull/14338) 2025-06-05: DPL Analysis: add protect0 node for preventing division by 0 in expressions by [@aalkin](https://github.com/aalkin)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
