@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
@@ -18,7 +17,6 @@
 - [\#14387](https://github.com/AliceO2Group/AliceO2/pull/14387) 2025-06-11: Fix MCKinematicsReader for QED events when using collisioncontext by [@sawenzel](https://github.com/sawenzel)
 - [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#14295](https://github.com/AliceO2Group/AliceO2/pull/14295) 2025-05-27: ITS: remove shipped nlohmann_json by [@f3sch](https://github.com/f3sch)
 - [\#14312](https://github.com/AliceO2Group/AliceO2/pull/14312) 2025-05-27: ITS: template Traits and TimeFrame by [@f3sch](https://github.com/f3sch)
 - [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14326](https://github.com/AliceO2Group/AliceO2/pull/14326) 2025-06-04: ITS: track memory allocations + graceful of exceeding limit  by [@f3sch](https://github.com/f3sch)
@@ -48,7 +46,6 @@
 - [\#14386](https://github.com/AliceO2Group/AliceO2/pull/14386) 2025-06-10: Fix ClusterDecoderRawSpec to work with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14390](https://github.com/AliceO2Group/AliceO2/pull/14390) 2025-06-12: ITS: tracker shadowed variable  by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
-- [\#14331](https://github.com/AliceO2Group/AliceO2/pull/14331) 2025-05-27: Get ROOT v6-36-00 to work. by [@ktf](https://github.com/ktf)
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14333](https://github.com/AliceO2Group/AliceO2/pull/14333) 2025-05-27: Add THL histograms to framework by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14335](https://github.com/AliceO2Group/AliceO2/pull/14335) 2025-05-28: DPL: get flags from DataProcessingHeader in isCalibrationData check for new EoS by [@ehellbar](https://github.com/ehellbar)
