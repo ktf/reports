@@ -65,5 +65,4 @@
 ## Recent developments in O2 - Steer
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Utilities
-- [\#14328](https://github.com/AliceO2Group/AliceO2/pull/14328) 2025-05-27: QC-1287 Fix Mergers latency optimization with RoundRobin processing by [@knopers8](https://github.com/knopers8)
 - [\#14379](https://github.com/AliceO2Group/AliceO2/pull/14379) 2025-06-12: Add compatibility with std::pmr by [@ktf](https://github.com/ktf)
