@@ -49,6 +49,7 @@
 - [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14401](https://github.com/AliceO2Group/AliceO2/pull/14401) 2025-06-16: ITS: after processing cleanup memory remnants by [@f3sch](https://github.com/f3sch)
 - [\#14405](https://github.com/AliceO2Group/AliceO2/pull/14405) 2025-06-16: Make TPC resid.extracton to work in runs w/o TRD or TOF by [@shahor02](https://github.com/shahor02)
+- [\#14410](https://github.com/AliceO2Group/AliceO2/pull/14410) 2025-06-16: [ALICE3] Add Copper stabilizers for A3 Magnet by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
 - [\#14338](https://github.com/AliceO2Group/AliceO2/pull/14338) 2025-06-05: DPL Analysis: add protect0 node for preventing division by 0 in expressions by [@aalkin](https://github.com/aalkin)
