@@ -51,7 +51,6 @@
 - [\#14401](https://github.com/AliceO2Group/AliceO2/pull/14401) 2025-06-16: ITS: after processing cleanup memory remnants by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
-- [\#14335](https://github.com/AliceO2Group/AliceO2/pull/14335) 2025-05-28: DPL: get flags from DataProcessingHeader in isCalibrationData check for new EoS by [@ehellbar](https://github.com/ehellbar)
 - [\#14338](https://github.com/AliceO2Group/AliceO2/pull/14338) 2025-06-05: DPL Analysis: add protect0 node for preventing division by 0 in expressions by [@aalkin](https://github.com/aalkin)
 - [\#14341](https://github.com/AliceO2Group/AliceO2/pull/14341) 2025-05-30: DPL: more fixes to handle the ROOT v6-36-00 by [@ktf](https://github.com/ktf)
 - [\#14353](https://github.com/AliceO2Group/AliceO2/pull/14353) 2025-06-03: Avoid having an explicit policy for the BuilderHolder by [@ktf](https://github.com/ktf)
@@ -68,3 +67,4 @@
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Utilities
 - [\#14379](https://github.com/AliceO2Group/AliceO2/pull/14379) 2025-06-12: Add compatibility with std::pmr by [@ktf](https://github.com/ktf)
+- [\#14408](https://github.com/AliceO2Group/AliceO2/pull/14408) 2025-06-16: Fix typo while adapting for std::pmr by [@ktf](https://github.com/ktf)
