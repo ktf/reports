@@ -25,7 +25,6 @@
 - [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14326](https://github.com/AliceO2Group/AliceO2/pull/14326) 2025-06-04: ITS: track memory allocations + graceful of exceeding limit  by [@f3sch](https://github.com/f3sch)
 - [\#14330](https://github.com/AliceO2Group/AliceO2/pull/14330) 2025-06-03: ITS3: fix topologydict generation + load APTS by [@f3sch](https://github.com/f3sch)
-- [\#14343](https://github.com/AliceO2Group/AliceO2/pull/14343) 2025-05-29: Add flags to TrackInfoExt by [@shahor02](https://github.com/shahor02)
 - [\#14344](https://github.com/AliceO2Group/AliceO2/pull/14344) 2025-05-30: ALICE3-TRK: added GeometryTGeo methods to get volumes from the geometry by [@atriolo](https://github.com/atriolo)
 - [\#14346](https://github.com/AliceO2Group/AliceO2/pull/14346) 2025-06-01: CTF: Reader add options to change order of TFs by [@f3sch](https://github.com/f3sch)
 - [\#14350](https://github.com/AliceO2Group/AliceO2/pull/14350) 2025-06-04: [EMCAL-539] Fix min. bias trigger handling for EMCal in simulation by [@jokonig](https://github.com/jokonig)
