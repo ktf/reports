@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-12T09:26:44Z",
-            "title": "[PWGJE] improvement of the track selection in jetShape.cxx",
-            "number": 11546,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-12T10:01:30Z",
             "title": "[PWGLF] Fix the reweighting for cascades in MC + temporarily disabling histograms for secondary lambdas",
             "number": 11559,
@@ -294,36 +274,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] add soft-pi dcaXY, dcaZ to SigmaC THnSparse.",
-            "number": 11584,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
                   }
                 }
               ]
@@ -3896,6 +3846,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] A3 TOF: warning -> debug",
+            "number": 11635,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Possible fix on configurable vectors",
+            "number": 11634,
+            "author": {
+              "login": "Preet-Bhanjan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowPbpbPikp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] additional dt-dependent occupancy histos for ITS+TOF and ITS+TRD tracks",
+            "number": 11636,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] add soft-pi dcaXY, dcaZ to SigmaC THnSparse.",
+            "number": 11584,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Add cent FT0A and FT0M",
             "number": 11632,
             "author": {
@@ -3951,56 +3991,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] A3 TOF: warning -> debug",
-            "number": 11635,
+            "title": "[PWGHF] Add configurable to set the max pt to remove ambiguous candidates in correlatorDMesonPairs",
+            "number": 11637,
             "author": {
-              "login": "njacazio"
+              "login": "atavirag"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Possible fix on configurable vectors",
-            "number": 11634,
-            "author": {
-              "login": "Preet-Bhanjan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowPbpbPikp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] additional dt-dependent occupancy histos for ITS+TOF and ITS+TRD tracks",
-            "number": 11636,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
                   }
                 }
               ]
