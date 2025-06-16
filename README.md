@@ -19,6 +19,7 @@
 - [\#14387](https://github.com/AliceO2Group/AliceO2/pull/14387) 2025-06-11: Fix MCKinematicsReader for QED events when using collisioncontext by [@sawenzel](https://github.com/sawenzel)
 - [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 - [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
