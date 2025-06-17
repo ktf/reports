@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-12T16:44:43Z",
-            "title": "[PWGJE] PWGJE Change scheme for outlier removal",
-            "number": 11577,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] added configurable enablepuredcahist for enabling pure DCA histogram based on nsigmaTPCKa cut",
@@ -4023,6 +4003,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] removing check in accept. for recMC",
+            "number": 11649,
+            "author": {
+              "login": "cterrevo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Implement gen and reco MC matching for correlated bkg decays",
             "number": 11418,
             "author": {
@@ -4078,16 +4078,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] removing check in accept. for recMC",
-            "number": 11649,
+            "title": "[PWGDQ] Add centrality info to MC generated events mini tree",
+            "number": 11650,
             "author": {
-              "login": "cterrevo"
+              "login": "sgaretti"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
                   }
                 }
               ]
