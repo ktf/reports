@@ -52,6 +52,7 @@
 - [\#14401](https://github.com/AliceO2Group/AliceO2/pull/14401) 2025-06-16: ITS: after processing cleanup memory remnants by [@f3sch](https://github.com/f3sch)
 - [\#14405](https://github.com/AliceO2Group/AliceO2/pull/14405) 2025-06-16: Make TPC resid.extracton to work in runs w/o TRD or TOF by [@shahor02](https://github.com/shahor02)
 - [\#14410](https://github.com/AliceO2Group/AliceO2/pull/14410) 2025-06-16: [ALICE3] Add Copper stabilizers for A3 Magnet by [@njacazio](https://github.com/njacazio)
+- [\#14411](https://github.com/AliceO2Group/AliceO2/pull/14411) 2025-06-17: [MID] Improve the macro for the reject list by [@ariffero](https://github.com/ariffero)
 - [\#14412](https://github.com/AliceO2Group/AliceO2/pull/14412) 2025-06-17: ITS: fix clusterSize propagation by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14332](https://github.com/AliceO2Group/AliceO2/pull/14332) 2025-05-29: DPL: adapt to arrow 20.0.0 by [@ktf](https://github.com/ktf)
