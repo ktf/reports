@@ -49,6 +49,7 @@
 - [\#14410](https://github.com/AliceO2Group/AliceO2/pull/14410) 2025-06-16: [ALICE3] Add Copper stabilizers for A3 Magnet by [@njacazio](https://github.com/njacazio)
 - [\#14411](https://github.com/AliceO2Group/AliceO2/pull/14411) 2025-06-17: [MID] Improve the macro for the reject list by [@ariffero](https://github.com/ariffero)
 - [\#14412](https://github.com/AliceO2Group/AliceO2/pull/14412) 2025-06-17: ITS: fix clusterSize propagation by [@f3sch](https://github.com/f3sch)
+- [\#14416](https://github.com/AliceO2Group/AliceO2/pull/14416) 2025-06-18: ITS: GPU accept mc in config by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14338](https://github.com/AliceO2Group/AliceO2/pull/14338) 2025-06-05: DPL Analysis: add protect0 node for preventing division by 0 in expressions by [@aalkin](https://github.com/aalkin)
 - [\#14353](https://github.com/AliceO2Group/AliceO2/pull/14353) 2025-06-03: Avoid having an explicit policy for the BuilderHolder by [@ktf](https://github.com/ktf)
