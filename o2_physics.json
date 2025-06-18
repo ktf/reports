@@ -3687,61 +3687,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Implement gen and reco MC matching for correlated bkg decays",
-            "number": 11418,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/DecayChannels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsMcGen.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsMcMatching.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-17T21:33:59Z",
             "title": "[PWGHF] Fix sparses filling in B reduced tasks",
@@ -3932,41 +3877,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Enable event selection based on trigger and add like-sign analysis",
-            "number": 11659,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/Reduced3BodyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/reduced3bodyCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-18T06:51:25Z",
             "title": "[PWGJE] Removal of config for skimmed trigger",
@@ -4004,26 +3914,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Added EMC eta cut etc",
-            "number": 11665,
-            "author": {
-              "login": "sashingo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
                   }
                 }
               ]
@@ -4129,6 +4019,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Added EMC eta cut etc",
+            "number": 11665,
+            "author": {
+              "login": "sashingo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] Added more histograms for Monte Carlo to calculate mean pt fluctuations for identified particles",
             "number": 11515,
             "author": {
@@ -4159,6 +4069,96 @@
                 {
                   "node": {
                     "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Implement gen and reco MC matching for correlated bkg decays",
+            "number": 11418,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/DecayChannels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsMcGen.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsMcMatching.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Enable event selection based on trigger and add like-sign analysis",
+            "number": 11659,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Reduced3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/reduced3bodyCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
                   }
                 }
               ]
