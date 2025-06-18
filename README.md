@@ -8,6 +8,7 @@
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14382](https://github.com/AliceO2Group/AliceO2/pull/14382) 2025-06-11: GPU Math: Suppress compiler warnings about NaN in ffast-math by [@davidrohr](https://github.com/davidrohr)
 - [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
+- [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
