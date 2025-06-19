@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-15T12:22:05Z",
-            "title": "[PWGLF] add tof flag, detector map and cfg for its cluster size cut",
-            "number": 11623,
-            "author": {
-              "login": "mherzer28"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/trHeAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] Single-device, autodetecting-enabled event selection refactor",
@@ -954,31 +934,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-16T15:24:41Z",
-            "title": "[PWGHF] Ds-h correlation, adding histograms in MC Gen processes",
-            "number": 11464,
-            "author": {
-              "login": "scattaru"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
                   }
                 }
               ]
@@ -3263,6 +3218,281 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/lstaranalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-16T15:24:41Z",
+            "title": "[PWGHF] Ds-h correlation, adding histograms in MC Gen processes",
+            "number": 11464,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF,PWGJE] Add B0 and D* jets",
+            "number": 11691,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/DerivedTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetCandidateUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetHFUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/Jet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedDataHF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetSubstructure.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetSubtraction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderB0DataCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderB0MCDCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderB0MCPCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderDstarDataCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderDstarMCDCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderDstarMCPCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderHF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/jetSubstructureMatching.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/jetSubstructureMatchingMCB0Charged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/jetSubstructureMatchingMCDstarCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/jetSubstructureMatchingSub.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/jetSubstructureMatchingSubB0Charged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/Substructure/jetSubstructureMatchingSubDstarCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingMCB0Charged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingMCDstarCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingMCSubB0Charged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingMCSubDstarCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingSubB0Charged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingSubDstarCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/eventwiseConstituentSubtractor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetEventWeightMCD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetEventWeightMCP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/rhoEstimator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderB0QA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderDstarQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderHFQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureB0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureB0Output.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureDstar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureDstarOutput.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureHF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureHFOutput.cxx"
                   }
                 }
               ]
