@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-03T21:19:02Z",
-            "title": "Avoid having an explicit policy for the BuilderHolder",
-            "number": 14353,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-04T07:01:30Z",
             "title": "ITS: track memory allocations + graceful of exceeding limit ",
             "number": 14326,
@@ -3516,6 +3496,31 @@
                 {
                   "node": {
                     "path": "core_dump_74974"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add streamer for std::vector<o2::tpc::PadFlags>",
+            "number": 14427,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/VectorPadFlagsStreamer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowTPC.cxx"
                   }
                 }
               ]

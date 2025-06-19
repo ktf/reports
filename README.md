@@ -49,7 +49,6 @@
 - [\#14423](https://github.com/AliceO2Group/AliceO2/pull/14423) 2025-06-19: Misc fixes for TrackMCStudy workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14338](https://github.com/AliceO2Group/AliceO2/pull/14338) 2025-06-05: DPL Analysis: add protect0 node for preventing division by 0 in expressions by [@aalkin](https://github.com/aalkin)
-- [\#14353](https://github.com/AliceO2Group/AliceO2/pull/14353) 2025-06-03: Avoid having an explicit policy for the BuilderHolder by [@ktf](https://github.com/ktf)
 - [\#14391](https://github.com/AliceO2Group/AliceO2/pull/14391) 2025-06-11: Export fairlogger/Logger.h to avoid disseminating it everywhere. by [@ktf](https://github.com/ktf)
 - [\#14392](https://github.com/AliceO2Group/AliceO2/pull/14392) 2025-06-11: IWYU: avoid spurious unused include report by [@ktf](https://github.com/ktf)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
