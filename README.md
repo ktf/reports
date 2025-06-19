@@ -4,7 +4,6 @@
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#14347](https://github.com/AliceO2Group/AliceO2/pull/14347) 2025-06-02: GPU: CommonMath add remainderf by [@f3sch](https://github.com/f3sch)
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14382](https://github.com/AliceO2Group/AliceO2/pull/14382) 2025-06-11: GPU Math: Suppress compiler warnings about NaN in ffast-math by [@davidrohr](https://github.com/davidrohr)
 - [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
