@@ -21,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14326](https://github.com/AliceO2Group/AliceO2/pull/14326) 2025-06-04: ITS: track memory allocations + graceful of exceeding limit  by [@f3sch](https://github.com/f3sch)
 - [\#14350](https://github.com/AliceO2Group/AliceO2/pull/14350) 2025-06-04: [EMCAL-539] Fix min. bias trigger handling for EMCal in simulation by [@jokonig](https://github.com/jokonig)
-- [\#14351](https://github.com/AliceO2Group/AliceO2/pull/14351) 2025-06-03: AOD: Introduce CreatedBy MetaData field by [@sawenzel](https://github.com/sawenzel)
 - [\#14352](https://github.com/AliceO2Group/AliceO2/pull/14352) 2025-06-04: ITS should check MeanVertex (if enabled) at every TF by [@shahor02](https://github.com/shahor02)
 - [\#14356](https://github.com/AliceO2Group/AliceO2/pull/14356) 2025-06-06: ITS: print vtx param and remove duplicates by [@f3sch](https://github.com/f3sch)
 - [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
