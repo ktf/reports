@@ -2711,36 +2711,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Added more histograms for Monte Carlo to calculate mean pt fluctuations for identified particles",
-            "number": 11515,
-            "author": {
-              "login": "sweta29singh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/IdentifiedMeanPtFluctuations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-18T23:46:25Z",
             "title": "[PWGHF] Implement gen and reco MC matching for correlated bkg decays",
@@ -3088,6 +3058,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Fix argument copies and uninitialised members",
+            "number": 11686,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/mcPidTof.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add upc selection into HF framework",
             "number": 11518,
             "author": {
@@ -3218,21 +3213,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Fix argument copies and uninitialised members",
-            "number": 11686,
+            "title": "[PWGCF] Added more histograms for Monte Carlo to calculate mean pt fluctuations for identified particles",
+            "number": 11515,
             "author": {
-              "login": "vkucera"
+              "login": "sweta29singh"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
+                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/mcPidTof.cxx"
+                    "path": "PWGCF/EbyEFluctuations/Tasks/IdentifiedMeanPtFluctuations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
                   }
                 }
               ]
