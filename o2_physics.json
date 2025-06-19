@@ -2818,36 +2818,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Check MC HF decay and use dedicated efficiency bin",
-            "number": 11681,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Patches for first Xic autoencoder study",
             "number": 10813,
             "author": {
@@ -3083,6 +3053,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Added more histograms for Monte Carlo to calculate mean pt fluctuations for identified particles",
+            "number": 11515,
+            "author": {
+              "login": "sweta29singh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/IdentifiedMeanPtFluctuations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add upc selection into HF framework",
             "number": 11518,
             "author": {
@@ -3213,26 +3213,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Added more histograms for Monte Carlo to calculate mean pt fluctuations for identified particles",
-            "number": 11515,
+            "title": "[PWGCF] Check MC HF decay and use dedicated efficiency bin",
+            "number": 11681,
             "author": {
-              "login": "sweta29singh"
+              "login": "jaelpark"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/IdentifiedMeanPtFluctuations.cxx"
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
+                    "path": "PWGCF/Tasks/correlations.cxx"
                   }
                 }
               ]
