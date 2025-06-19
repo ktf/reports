@@ -19,7 +19,6 @@
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#14314](https://github.com/AliceO2Group/AliceO2/pull/14314) 2025-05-30: [EMCAL-688] ClusterFactory: remove std::optional by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14326](https://github.com/AliceO2Group/AliceO2/pull/14326) 2025-06-04: ITS: track memory allocations + graceful of exceeding limit  by [@f3sch](https://github.com/f3sch)
 - [\#14330](https://github.com/AliceO2Group/AliceO2/pull/14330) 2025-06-03: ITS3: fix topologydict generation + load APTS by [@f3sch](https://github.com/f3sch)
 - [\#14350](https://github.com/AliceO2Group/AliceO2/pull/14350) 2025-06-04: [EMCAL-539] Fix min. bias trigger handling for EMCal in simulation by [@jokonig](https://github.com/jokonig)

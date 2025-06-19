@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-14T13:25:13Z",
-            "title": "[PWGCF] Added ITS PID",
-            "number": 11608,
-            "author": {
-              "login": "Preet-Bhanjan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowPbpbPikp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-14T13:21:23Z",
             "title": "[Common] Add hepmc info for O-O cent studies",
             "number": 11621,
@@ -2843,26 +2823,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] efficiency species bin for extra particle",
-            "number": 11679,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Core/CorrelationContainer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Index tables for Tracks, TracksQA and TrackMeanOccupancies",
             "number": 11602,
             "author": {
@@ -2933,36 +2893,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateSelectorXicToPKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-19T09:19:28Z",
-            "title": "[PWGHF] add soft-pi dcaXY, dcaZ to SigmaC THnSparse.",
-            "number": 11584,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
                   }
                 }
               ]
@@ -3073,6 +3003,81 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Tasks/dqEfficiency_withAssoc: Extended B meson table",
+            "number": 11685,
+            "author": {
+              "login": "torkjellsdatter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-19T12:04:47Z",
+            "title": "[PWGCF] efficiency species bin for extra particle",
+            "number": 11679,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Core/CorrelationContainer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-19T09:19:28Z",
+            "title": "[PWGHF] add soft-pi dcaXY, dcaZ to SigmaC THnSparse.",
+            "number": 11584,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
                   }
                 }
               ]
@@ -3213,21 +3218,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Tasks/dqEfficiency_withAssoc: Extended B meson table",
-            "number": 11685,
+            "title": "[PWGHF] Fix argument copies and uninitialised members",
+            "number": 11686,
             "author": {
-              "login": "torkjellsdatter"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                    "path": "PWGHF/Core/HfHelper.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                    "path": "PWGHF/TableProducer/mcPidTof.cxx"
                   }
                 }
               ]
