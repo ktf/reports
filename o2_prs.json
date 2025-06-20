@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-04T09:14:27Z",
-            "title": "ITS should check MeanVertex (if enabled) at every TF",
-            "number": 14352,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T13:44:21Z",
-            "title": "[EMCAL-539] Fix min. bias trigger handling for EMCal in simulation",
-            "number": 14350,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-04T14:33:42Z",
-            "title": "Add a version number to FindO2GPU.cmake and remark to keep it in sync with alidist",
-            "number": 14361,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-04T16:39:39Z",
             "title": "GPU: Add script for standalone build in the CI",
             "number": 14363,
@@ -3366,6 +3301,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Add more info to MCStudy w-flow",
+            "number": 14428,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackMCStudy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -3396,26 +3361,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add more info to MCStudy w-flow",
-            "number": 14428,
+            "title": "Bump actions/stale from 1 to 9",
+            "number": 14300,
             "author": {
-              "login": "shahor02"
+              "login": "dependabot"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyConfig.h"
+                    "path": ".github/workflows/stale.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/setup-python from 2 to 5",
+            "number": 14299,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/checkout from 3 to 4",
+            "number": 14298,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/code-transformations.yml"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyTypes.h"
+                    "path": ".github/workflows/datamodel-doc.yml"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackMCStudy.cxx"
+                    "path": ".github/workflows/doxygen.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/release.yml"
                   }
                 }
               ]
