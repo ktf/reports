@@ -45,6 +45,7 @@
 - [\#14412](https://github.com/AliceO2Group/AliceO2/pull/14412) 2025-06-17: ITS: fix clusterSize propagation by [@f3sch](https://github.com/f3sch)
 - [\#14416](https://github.com/AliceO2Group/AliceO2/pull/14416) 2025-06-18: ITS: GPU accept mc in config by [@f3sch](https://github.com/f3sch)
 - [\#14423](https://github.com/AliceO2Group/AliceO2/pull/14423) 2025-06-19: Misc fixes for TrackMCStudy workflow by [@shahor02](https://github.com/shahor02)
+- [\#14428](https://github.com/AliceO2Group/AliceO2/pull/14428) 2025-06-20: Add more info to MCStudy w-flow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14338](https://github.com/AliceO2Group/AliceO2/pull/14338) 2025-06-05: DPL Analysis: add protect0 node for preventing division by 0 in expressions by [@aalkin](https://github.com/aalkin)
 - [\#14391](https://github.com/AliceO2Group/AliceO2/pull/14391) 2025-06-11: Export fairlogger/Logger.h to avoid disseminating it everywhere. by [@ktf](https://github.com/ktf)
