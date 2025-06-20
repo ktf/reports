@@ -4,20 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGJE] Fix memory consumption too large, remove plots for test to save memory consumption in Data and MCD process",
-            "number": 11627,
-            "author": {
-              "login": "YubiaoWang"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-16T08:44:58Z",
             "title": "[PWGJE] Include What You Use",
@@ -3414,6 +3400,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Added Histograms for Monte Carlo",
+            "number": 11698,
+            "author": {
+              "login": "nidamalikk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] First draft of Xic0XicpToHadronic workflow",
             "number": 11697,
             "author": {
@@ -3474,16 +3480,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Added Histograms for Monte Carlo",
-            "number": 11698,
+            "title": "[Common] Prevent dangling reference error when switching from `gsl::span` to `std::span`",
+            "number": 11699,
             "author": {
-              "login": "nidamalikk"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/MultModule.h"
                   }
                 }
               ]
