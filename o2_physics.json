@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-16T15:34:34Z",
-            "title": "[ALICE3] A3 TOF: warning -> debug",
-            "number": 11635,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-16T21:15:09Z",
             "title": "[PWGEM/Dilepton] add kIsVertexTOFmatched for event selection",
             "number": 11638,
@@ -2968,6 +2948,61 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-09T21:23:02Z",
+            "title": "[PWGLF] use material LUT in fit and propagation",
+            "number": 11513,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/LFStrangeTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Remove need for extended pt column in B -> J/Psi workflow",
+            "number": 11708,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJpsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBplusToJpsiKReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsToJpsiPhiReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] added K0s measurement in derived data as a closure test and hist to monitor no. of events after each selections for Calib",
@@ -2993,26 +3028,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-09T21:23:02Z",
-            "title": "[PWGLF] use material LUT in fit and propagation",
-            "number": 11513,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/LFStrangeTreeCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] add histograms for kine-transformed mass bias",
@@ -3024,7 +3039,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/LFStrangeTreeCreator.cxx"
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangeTreeCreator.cxx"
                   }
                 }
               ]
