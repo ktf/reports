@@ -24,7 +24,6 @@
 - [\#14358](https://github.com/AliceO2Group/AliceO2/pull/14358) 2025-06-06: ITS: use stream compactification in algorithms by [@f3sch](https://github.com/f3sch)
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14362](https://github.com/AliceO2Group/AliceO2/pull/14362) 2025-06-06: AOD: Possibility to inject additional meta data by [@sawenzel](https://github.com/sawenzel)
-- [\#14365](https://github.com/AliceO2Group/AliceO2/pull/14365) 2025-06-05: TPC: demote errors about IDC CRU orbit/packets mismatches from critical to error by [@ehellbar](https://github.com/ehellbar)
 - [\#14367](https://github.com/AliceO2Group/AliceO2/pull/14367) 2025-06-06: [FOCAL-87] Implementing a new design for the HCAL by [@hahassan7](https://github.com/hahassan7)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14370](https://github.com/AliceO2Group/AliceO2/pull/14370) 2025-06-06: ITS: buildSeeds check only once of b=0 by [@f3sch](https://github.com/f3sch)
