@@ -4,13 +4,11 @@
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14382](https://github.com/AliceO2Group/AliceO2/pull/14382) 2025-06-11: GPU Math: Suppress compiler warnings about NaN in ffast-math by [@davidrohr](https://github.com/davidrohr)
 - [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14387](https://github.com/AliceO2Group/AliceO2/pull/14387) 2025-06-11: Fix MCKinematicsReader for QED events when using collisioncontext by [@sawenzel](https://github.com/sawenzel)
@@ -19,7 +17,6 @@
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#14357](https://github.com/AliceO2Group/AliceO2/pull/14357) 2025-06-06: TPC: Adding workflow to provide pressure and temperature by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14358](https://github.com/AliceO2Group/AliceO2/pull/14358) 2025-06-06: ITS: use stream compactification in algorithms by [@f3sch](https://github.com/f3sch)
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14362](https://github.com/AliceO2Group/AliceO2/pull/14362) 2025-06-06: AOD: Possibility to inject additional meta data by [@sawenzel](https://github.com/sawenzel)
