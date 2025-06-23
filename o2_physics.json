@@ -4,141 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,DPG] Dyn TOF response",
-            "number": 10880,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/CollisionTypeHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/CollisionTypeHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/MetadataHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/MetadataHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/centralityTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multCentTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFImp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/tofSimple.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-18T08:51:31Z",
-            "title": "[PWGLF] added phi v1 and costhetastar for SA",
-            "number": 11592,
-            "author": {
-              "login": "prottayCMT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarpbpb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phipbpb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-17T14:06:07Z",
             "title": "[PWGHF] correlatorDMesonPairs: Add max pt to remove ambiguous candidates",
@@ -2817,26 +2682,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] PWGLF/Tasks/Nuspex/spectraTOF.cxx : Bug Fixes",
-            "number": 11734,
-            "author": {
-              "login": "RD0407"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-23T13:31:18Z",
             "title": "[PWGUD] Small improvements in personal tasks + new table maker",
@@ -3067,6 +2912,101 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-23T15:24:17Z",
+            "title": "[PWGHF] XicToXiPiPi: Update KF variables and move residual/pull calulation to candidate creator",
+            "number": 11562,
+            "author": {
+              "login": "pstahlhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseXicToXiPiPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-23T15:33:17Z",
+            "title": "[PWGLF] PWGLF/Tasks/Nuspex/spectraTOF.cxx : Bug Fixes",
+            "number": 11734,
+            "author": {
+              "login": "RD0407"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] Add producer task for Pb-Pb collisions with centrality filter",
+            "number": 11736,
+            "author": {
+              "login": "lauraser"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrackPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Add upc selection into HF framework",
@@ -3132,48 +3072,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-23T15:24:17Z",
-            "title": "[PWGHF] XicToXiPiPi: Update KF variables and move residual/pull calulation to candidate creator",
-            "number": 11562,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add producer task for Pb-Pb collisions with centrality filter",
+            "number": 11737,
             "author": {
-              "login": "pstahlhu"
+              "login": "ZeptoStarling"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfMlResponseXicToXiPiPi.h"
+                    "path": "PWGCF/FemtoDream/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrackPbPb.cxx"
                   }
                 }
               ]
