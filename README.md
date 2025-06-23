@@ -17,9 +17,6 @@
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
-- [\#14362](https://github.com/AliceO2Group/AliceO2/pull/14362) 2025-06-06: AOD: Possibility to inject additional meta data by [@sawenzel](https://github.com/sawenzel)
-- [\#14367](https://github.com/AliceO2Group/AliceO2/pull/14367) 2025-06-06: [FOCAL-87] Implementing a new design for the HCAL by [@hahassan7](https://github.com/hahassan7)
-- [\#14370](https://github.com/AliceO2Group/AliceO2/pull/14370) 2025-06-06: ITS: buildSeeds check only once of b=0 by [@f3sch](https://github.com/f3sch)
 - [\#14371](https://github.com/AliceO2Group/AliceO2/pull/14371) 2025-06-10: ITS-GPU: Use typed external allocator for some thrust items by [@mconcas](https://github.com/mconcas)
 - [\#14372](https://github.com/AliceO2Group/AliceO2/pull/14372) 2025-06-10: ITS: make clang-tidy happy by [@f3sch](https://github.com/f3sch)
 - [\#14381](https://github.com/AliceO2Group/AliceO2/pull/14381) 2025-06-10: ITS: fix Cell reorder by [@f3sch](https://github.com/f3sch)
