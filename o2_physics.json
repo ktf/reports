@@ -2889,56 +2889,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] XicToXiPiPi: Update KF variables and move residual/pull calulation to candidate creator",
-            "number": 11562,
-            "author": {
-              "login": "pstahlhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseXicToXiPiPi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common,PWGUD,PWGLF,PWGHF] DPL Analysis: fix for reworked column getters",
             "number": 11731,
             "author": {
@@ -3089,6 +3039,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Store cosPA and ct in datamodel for h3l_3body",
+            "number": 11735,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add upc selection into HF framework",
             "number": 11518,
             "author": {
@@ -3152,28 +3132,48 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Store cosPA and ct in datamodel for h3l_3body",
-            "number": 11735,
+            "state": "MERGED",
+            "mergedAt": "2025-06-23T15:24:17Z",
+            "title": "[PWGHF] XicToXiPiPi: Update KF variables and move residual/pull calulation to candidate creator",
+            "number": 11562,
             "author": {
-              "login": "wang-yuanzhe"
+              "login": "pstahlhu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                    "path": "PWGHF/Core/HfMlResponseXicToXiPiPi.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
