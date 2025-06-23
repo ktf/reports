@@ -17,7 +17,6 @@
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#14358](https://github.com/AliceO2Group/AliceO2/pull/14358) 2025-06-06: ITS: use stream compactification in algorithms by [@f3sch](https://github.com/f3sch)
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14362](https://github.com/AliceO2Group/AliceO2/pull/14362) 2025-06-06: AOD: Possibility to inject additional meta data by [@sawenzel](https://github.com/sawenzel)
 - [\#14367](https://github.com/AliceO2Group/AliceO2/pull/14367) 2025-06-06: [FOCAL-87] Implementing a new design for the HCAL by [@hahassan7](https://github.com/hahassan7)
