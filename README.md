@@ -9,7 +9,6 @@
 - [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14387](https://github.com/AliceO2Group/AliceO2/pull/14387) 2025-06-11: Fix MCKinematicsReader for QED events when using collisioncontext by [@sawenzel](https://github.com/sawenzel)
 - [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
@@ -20,7 +19,6 @@
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14362](https://github.com/AliceO2Group/AliceO2/pull/14362) 2025-06-06: AOD: Possibility to inject additional meta data by [@sawenzel](https://github.com/sawenzel)
 - [\#14367](https://github.com/AliceO2Group/AliceO2/pull/14367) 2025-06-06: [FOCAL-87] Implementing a new design for the HCAL by [@hahassan7](https://github.com/hahassan7)
-- [\#14369](https://github.com/AliceO2Group/AliceO2/pull/14369) 2025-06-06: [EMCAL-1154] Add functionality for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14370](https://github.com/AliceO2Group/AliceO2/pull/14370) 2025-06-06: ITS: buildSeeds check only once of b=0 by [@f3sch](https://github.com/f3sch)
 - [\#14371](https://github.com/AliceO2Group/AliceO2/pull/14371) 2025-06-10: ITS-GPU: Use typed external allocator for some thrust items by [@mconcas](https://github.com/mconcas)
 - [\#14372](https://github.com/AliceO2Group/AliceO2/pull/14372) 2025-06-10: ITS: make clang-tidy happy by [@f3sch](https://github.com/f3sch)
