@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-18T19:27:42Z",
-            "title": "[PWGCF] Added V0 cuts and changed the RD method & V0 MC efficiency",
-            "number": 11677,
-            "author": {
-              "login": "JStaa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-12T16:02:15Z",
             "title": "[PWGLF] Add flag to disable its rof cut",
             "number": 11572,
@@ -3210,6 +3190,36 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Removing centrality info to MC gen + 2D histo impact param vs centFT0C",
+            "number": 11751,
+            "author": {
+              "login": "sgaretti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
                   }
                 }
               ]
