@@ -18,7 +18,6 @@
 - [\#14440](https://github.com/AliceO2Group/AliceO2/pull/14440) 2025-06-24: DigiContext: Bugfix for start of history effect by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
-- [\#14371](https://github.com/AliceO2Group/AliceO2/pull/14371) 2025-06-10: ITS-GPU: Use typed external allocator for some thrust items by [@mconcas](https://github.com/mconcas)
 - [\#14372](https://github.com/AliceO2Group/AliceO2/pull/14372) 2025-06-10: ITS: make clang-tidy happy by [@f3sch](https://github.com/f3sch)
 - [\#14381](https://github.com/AliceO2Group/AliceO2/pull/14381) 2025-06-10: ITS: fix Cell reorder by [@f3sch](https://github.com/f3sch)
 - [\#14383](https://github.com/AliceO2Group/AliceO2/pull/14383) 2025-06-11: ITS: simplify constants + mathutils by [@f3sch](https://github.com/f3sch)
