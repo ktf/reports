@@ -33,6 +33,7 @@
 - [\#14410](https://github.com/AliceO2Group/AliceO2/pull/14410) 2025-06-16: [ALICE3] Add Copper stabilizers for A3 Magnet by [@njacazio](https://github.com/njacazio)
 - [\#14411](https://github.com/AliceO2Group/AliceO2/pull/14411) 2025-06-17: [MID] Improve the macro for the reject list by [@ariffero](https://github.com/ariffero)
 - [\#14412](https://github.com/AliceO2Group/AliceO2/pull/14412) 2025-06-17: ITS: fix clusterSize propagation by [@f3sch](https://github.com/f3sch)
+- [\#14415](https://github.com/AliceO2Group/AliceO2/pull/14415) 2025-06-24: ITS3: move the energy deposition wrt. centre of response by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14416](https://github.com/AliceO2Group/AliceO2/pull/14416) 2025-06-18: ITS: GPU accept mc in config by [@f3sch](https://github.com/f3sch)
 - [\#14423](https://github.com/AliceO2Group/AliceO2/pull/14423) 2025-06-19: Misc fixes for TrackMCStudy workflow by [@shahor02](https://github.com/shahor02)
 - [\#14428](https://github.com/AliceO2Group/AliceO2/pull/14428) 2025-06-20: Add more info to MCStudy w-flow by [@shahor02](https://github.com/shahor02)
