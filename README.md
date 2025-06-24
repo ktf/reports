@@ -47,6 +47,7 @@
 - [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
 - [\#14429](https://github.com/AliceO2Group/AliceO2/pull/14429) 2025-06-24: DPL: enable new EoS by default and set data processing and exit transition timeouts by [@ehellbar](https://github.com/ehellbar)
+- [\#14434](https://github.com/AliceO2Group/AliceO2/pull/14434) 2025-06-24: DPL: make sure Lifetime::Sporadic is kept by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14368](https://github.com/AliceO2Group/AliceO2/pull/14368) 2025-06-06: Add Helium-Oxygen collision systems by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
