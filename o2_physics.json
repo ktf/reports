@@ -3160,16 +3160,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] fixing De mass in computing kstar and adding eta phi histo",
-            "number": 11759,
+            "title": "[PWGHF] Add omegac0 xic0 to omega ka framework reconstructed by kf",
+            "number": 11764,
             "author": {
-              "login": "blacwovie"
+              "login": "FDUEnrich"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/TableProducer/PiDeuteronFemto.cxx"
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0Xic0ToOmegaKa.cxx"
                   }
                 }
               ]
@@ -3229,6 +3254,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWSpace.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/GenericFramework/Core/ProfileSubset.h"
                   }
                 },
@@ -3255,41 +3285,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add omegac0 xic0 to omega ka framework reconstructed by kf",
-            "number": 11764,
+            "title": "[PWGCF] fixing De mass in computing kstar and adding eta phi histo",
+            "number": 11759,
             "author": {
-              "login": "FDUEnrich"
+              "login": "blacwovie"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0Xic0ToOmegaKa.cxx"
+                    "path": "PWGCF/Femto/TableProducer/PiDeuteronFemto.cxx"
                   }
                 }
               ]
