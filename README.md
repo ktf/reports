@@ -40,6 +40,7 @@
 - [\#14438](https://github.com/AliceO2Group/AliceO2/pull/14438) 2025-06-24: ITS: GPU report found neighbours by [@f3sch](https://github.com/f3sch)
 - [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
+- [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
 - [\#14391](https://github.com/AliceO2Group/AliceO2/pull/14391) 2025-06-11: Export fairlogger/Logger.h to avoid disseminating it everywhere. by [@ktf](https://github.com/ktf)
 - [\#14392](https://github.com/AliceO2Group/AliceO2/pull/14392) 2025-06-11: IWYU: avoid spurious unused include report by [@ktf](https://github.com/ktf)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
