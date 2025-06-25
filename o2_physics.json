@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-16T15:24:41Z",
-            "title": "[PWGHF] Ds-h correlation, adding histograms in MC Gen processes",
-            "number": 11464,
-            "author": {
-              "login": "scattaru"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-19T16:45:41Z",
-            "title": "[PWGHF] Remove BCId from D+ tree creator",
-            "number": 11684,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-19T18:18:35Z",
             "title": "[PWGLF] Update nucleitpcpbpb.cxx added tof information",
             "number": 11687,
@@ -3215,6 +3170,126 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/TableProducer/PiDeuteronFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add dedicated GFW light-ion task",
+            "number": 11763,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowPtEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/BootstrapProfile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFW.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFW.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWCumulant.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWCumulant.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWPowerArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/ProfileSubset.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGFWLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add omegac0 xic0 to omega ka framework reconstructed by kf",
+            "number": 11764,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0Xic0ToOmegaKa.cxx"
                   }
                 }
               ]
