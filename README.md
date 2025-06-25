@@ -16,6 +16,7 @@
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 - [\#14440](https://github.com/AliceO2Group/AliceO2/pull/14440) 2025-06-24: DigiContext: Bugfix for start of history effect by [@sawenzel](https://github.com/sawenzel)
+- [\#14443](https://github.com/AliceO2Group/AliceO2/pull/14443) 2025-06-25: Avoid missing dictionary by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14372](https://github.com/AliceO2Group/AliceO2/pull/14372) 2025-06-10: ITS: make clang-tidy happy by [@f3sch](https://github.com/f3sch)
@@ -38,6 +39,7 @@
 - [\#14433](https://github.com/AliceO2Group/AliceO2/pull/14433) 2025-06-23: ITS3: fix tracking after refactor by [@f3sch](https://github.com/f3sch)
 - [\#14438](https://github.com/AliceO2Group/AliceO2/pull/14438) 2025-06-24: ITS: GPU report found neighbours by [@f3sch](https://github.com/f3sch)
 - [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
+- [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
 - [\#14391](https://github.com/AliceO2Group/AliceO2/pull/14391) 2025-06-11: Export fairlogger/Logger.h to avoid disseminating it everywhere. by [@ktf](https://github.com/ktf)
