@@ -15,6 +15,7 @@
 - [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
+- [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14440](https://github.com/AliceO2Group/AliceO2/pull/14440) 2025-06-24: DigiContext: Bugfix for start of history effect by [@sawenzel](https://github.com/sawenzel)
 - [\#14443](https://github.com/AliceO2Group/AliceO2/pull/14443) 2025-06-25: Avoid missing dictionary by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
@@ -36,6 +37,7 @@
 - [\#14423](https://github.com/AliceO2Group/AliceO2/pull/14423) 2025-06-19: Misc fixes for TrackMCStudy workflow by [@shahor02](https://github.com/shahor02)
 - [\#14428](https://github.com/AliceO2Group/AliceO2/pull/14428) 2025-06-20: Add more info to MCStudy w-flow by [@shahor02](https://github.com/shahor02)
 - [\#14433](https://github.com/AliceO2Group/AliceO2/pull/14433) 2025-06-23: ITS3: fix tracking after refactor by [@f3sch](https://github.com/f3sch)
+- [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14438](https://github.com/AliceO2Group/AliceO2/pull/14438) 2025-06-24: ITS: GPU report found neighbours by [@f3sch](https://github.com/f3sch)
 - [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
