@@ -2711,36 +2711,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add processes to select Sc collisions. Fix rapidity bug for proton.",
-            "number": 11678,
-            "author": {
-              "login": "singhra1994"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Remove hardcoded values in centrality axis for Ds task",
             "number": 11781,
             "author": {
@@ -3724,26 +3694,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] nuclei-proton angular correlation: add DCA plots for secondary estimation",
-            "number": 11786,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-26T16:26:55Z",
             "title": "[Common,DPG] PIDResponseITS inherit parameters from base task, manage arrays in TableHelper, align QA",
@@ -3811,6 +3761,56 @@
                 {
                   "node": {
                     "path": "Common/Tools/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-26T16:40:58Z",
+            "title": "[PWGHF] Add processes to select Sc collisions. Fix rapidity bug for proton.",
+            "number": 11678,
+            "author": {
+              "login": "singhra1994"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] nuclei-proton angular correlation: add DCA plots for secondary estimation",
+            "number": 11786,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
                   }
                 }
               ]
