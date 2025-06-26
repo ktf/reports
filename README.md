@@ -23,7 +23,6 @@
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14383](https://github.com/AliceO2Group/AliceO2/pull/14383) 2025-06-11: ITS: simplify constants + mathutils by [@f3sch](https://github.com/f3sch)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14386](https://github.com/AliceO2Group/AliceO2/pull/14386) 2025-06-10: Fix ClusterDecoderRawSpec to work with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14390](https://github.com/AliceO2Group/AliceO2/pull/14390) 2025-06-12: ITS: tracker shadowed variable  by [@f3sch](https://github.com/f3sch)
 - [\#14394](https://github.com/AliceO2Group/AliceO2/pull/14394) 2025-06-20: ITS: allow sharing of arena in Tracker & Vertexer by [@f3sch](https://github.com/f3sch)
 - [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)

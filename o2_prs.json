@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-10T21:27:51Z",
-            "title": "Fix ClusterDecoderRawSpec to work with std::pmr",
-            "number": 14386,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ClusterDecoderRawSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-11T06:49:54Z",
             "title": "Fix MCKinematicsReader for QED events when using collisioncontext",
             "number": 14387,
@@ -3791,6 +3771,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC reco: Only read CTP digits when tracking",
+            "number": 14447,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
                   }
                 }
               ]
