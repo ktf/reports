@@ -5,7 +5,6 @@
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#14382](https://github.com/AliceO2Group/AliceO2/pull/14382) 2025-06-11: GPU Math: Suppress compiler warnings about NaN in ffast-math by [@davidrohr](https://github.com/davidrohr)
 - [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
@@ -20,7 +19,6 @@
 - [\#14443](https://github.com/AliceO2Group/AliceO2/pull/14443) 2025-06-25: Avoid missing dictionary by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
-- [\#14383](https://github.com/AliceO2Group/AliceO2/pull/14383) 2025-06-11: ITS: simplify constants + mathutils by [@f3sch](https://github.com/f3sch)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14390](https://github.com/AliceO2Group/AliceO2/pull/14390) 2025-06-12: ITS: tracker shadowed variable  by [@f3sch](https://github.com/f3sch)
 - [\#14394](https://github.com/AliceO2Group/AliceO2/pull/14394) 2025-06-20: ITS: allow sharing of arena in Tracker & Vertexer by [@f3sch](https://github.com/f3sch)
