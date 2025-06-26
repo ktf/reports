@@ -22,7 +22,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14383](https://github.com/AliceO2Group/AliceO2/pull/14383) 2025-06-11: ITS: simplify constants + mathutils by [@f3sch](https://github.com/f3sch)
-- [\#14384](https://github.com/AliceO2Group/AliceO2/pull/14384) 2025-06-10: Fix abuse of o2::framework::Output by [@ktf](https://github.com/ktf)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14386](https://github.com/AliceO2Group/AliceO2/pull/14386) 2025-06-10: Fix ClusterDecoderRawSpec to work with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14390](https://github.com/AliceO2Group/AliceO2/pull/14390) 2025-06-12: ITS: tracker shadowed variable  by [@f3sch](https://github.com/f3sch)
