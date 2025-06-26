@@ -38,6 +38,7 @@
 - [\#14438](https://github.com/AliceO2Group/AliceO2/pull/14438) 2025-06-24: ITS: GPU report found neighbours by [@f3sch](https://github.com/f3sch)
 - [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
+- [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
