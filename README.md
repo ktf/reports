@@ -51,6 +51,7 @@
 - [\#14429](https://github.com/AliceO2Group/AliceO2/pull/14429) 2025-06-24: DPL: enable new EoS by default and set data processing and exit transition timeouts by [@ehellbar](https://github.com/ehellbar)
 - [\#14434](https://github.com/AliceO2Group/AliceO2/pull/14434) 2025-06-24: DPL: make sure Lifetime::Sporadic is kept by [@ktf](https://github.com/ktf)
 - [\#14442](https://github.com/AliceO2Group/AliceO2/pull/14442) 2025-06-24: Fix using namespace arrow, arrow::io by [@ktf](https://github.com/ktf)
+- [\#14449](https://github.com/AliceO2Group/AliceO2/pull/14449) 2025-06-26: DPL: avoid unintialised member by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14368](https://github.com/AliceO2Group/AliceO2/pull/14368) 2025-06-06: Add Helium-Oxygen collision systems by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
