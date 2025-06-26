@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-20T20:08:32Z",
-            "title": "[PWGHF] Remove need for extended pt column in B -> J/Psi workflow",
-            "number": 11708,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJpsiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBplusToJpsiKReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBsToJpsiPhiReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-20T21:40:21Z",
             "title": "[PWGLF] add histograms for kine-transformed mass bias",
             "number": 11707,
@@ -3083,71 +3048,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add UPC event selection",
-            "number": 11518,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-26T13:23:46Z",
             "title": "[Common] Fix autodetection string typos, add autodependency enabling",
@@ -3760,6 +3660,146 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsPid.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-12T07:15:45Z",
+            "title": "[PWGLF] Update hypertriton 3body decay analysis",
+            "number": 11512,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Reduced3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hypertriton3bodyfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/reduced3bodyCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyKFTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/threebodyRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hypertriton3bodyMcqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hypertriton3bodyanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add UPC event selection",
+            "number": 11518,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
