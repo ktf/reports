@@ -3255,7 +3255,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Update PIDResponseITS.h",
+            "title": "[Common,DPG] PIDResponseITS inherit parameters from base task, manage arrays in TableHelper, align QA",
             "number": 11777,
             "author": {
               "login": "njacazio"
@@ -3264,7 +3264,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Common/Core/TableHelper.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Common/DataModel/PIDResponseITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/ITS/qaPIDITS.cxx"
                   }
                 }
               ]
