@@ -58,3 +58,4 @@
 - [\#14366](https://github.com/AliceO2Group/AliceO2/pull/14366) 2025-06-23: EPNstderrMonitor: remove static declaration of InfoLoggerMessageOption when sending messages to IL by [@ehellbar](https://github.com/ehellbar)
 - [\#14379](https://github.com/AliceO2Group/AliceO2/pull/14379) 2025-06-12: Add compatibility with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14408](https://github.com/AliceO2Group/AliceO2/pull/14408) 2025-06-16: Fix typo while adapting for std::pmr by [@ktf](https://github.com/ktf)
+- [\#14446](https://github.com/AliceO2Group/AliceO2/pull/14446) 2025-06-26: jobutils: Sanitize return code treatment by [@sawenzel](https://github.com/sawenzel)
