@@ -39,6 +39,7 @@
 - [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
+- [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
 - [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
 - [\#14391](https://github.com/AliceO2Group/AliceO2/pull/14391) 2025-06-11: Export fairlogger/Logger.h to avoid disseminating it everywhere. by [@ktf](https://github.com/ktf)
