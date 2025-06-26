@@ -38,6 +38,7 @@
 - [\#14428](https://github.com/AliceO2Group/AliceO2/pull/14428) 2025-06-20: Add more info to MCStudy w-flow by [@shahor02](https://github.com/shahor02)
 - [\#14433](https://github.com/AliceO2Group/AliceO2/pull/14433) 2025-06-23: ITS3: fix tracking after refactor by [@f3sch](https://github.com/f3sch)
 - [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
+- [\#14437](https://github.com/AliceO2Group/AliceO2/pull/14437) 2025-06-26: ITS: cleanup unused GPU code by [@f3sch](https://github.com/f3sch)
 - [\#14438](https://github.com/AliceO2Group/AliceO2/pull/14438) 2025-06-24: ITS: GPU report found neighbours by [@f3sch](https://github.com/f3sch)
 - [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
