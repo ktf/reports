@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-23T15:24:17Z",
-            "title": "[PWGHF] XicToXiPiPi: Update KF variables and move residual/pull calulation to candidate creator",
-            "number": 11562,
-            "author": {
-              "login": "pstahlhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseXicToXiPiPi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-23T15:33:17Z",
-            "title": "[PWGLF] PWGLF/Tasks/Nuspex/spectraTOF.cxx : Bug Fixes",
-            "number": 11734,
-            "author": {
-              "login": "RD0407"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Add producer task for Pb-Pb collisions with centrality filter",
@@ -3351,26 +3281,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Modification in event selection cuts",
-            "number": 11805,
-            "author": {
-              "login": "tutripat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/dndeta-mft-pp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common,DPG] Dyn TOF response",
             "number": 10880,
             "author": {
@@ -3686,26 +3596,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Update LF Codeowners",
-            "number": 11810,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Update datamodel of hyphe4s analysis",
             "number": 11811,
             "author": {
@@ -3731,6 +3621,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Infrastructure] Update LF Codeowners",
+            "number": 11810,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Adding simple test on RCT flags implementation in UD tables",
+            "number": 11813,
+            "author": {
+              "login": "rolavick"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTestRctTables.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] fix bug in filling inv mass histograms",
             "number": 11812,
             "author": {
@@ -3741,6 +3676,56 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Add efficiency calculation with EfficiencyCorrection class to V0 task",
+            "number": 11814,
+            "author": {
+              "login": "alicja-pp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseEfficiencyCorrection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-27T14:48:51Z",
+            "title": "[PWGLF] Modification in event selection cuts",
+            "number": 11805,
+            "author": {
+              "login": "tutripat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/dndeta-mft-pp.cxx"
                   }
                 }
               ]
