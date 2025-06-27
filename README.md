@@ -17,6 +17,7 @@
 - [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14440](https://github.com/AliceO2Group/AliceO2/pull/14440) 2025-06-24: DigiContext: Bugfix for start of history effect by [@sawenzel](https://github.com/sawenzel)
 - [\#14443](https://github.com/AliceO2Group/AliceO2/pull/14443) 2025-06-25: Avoid missing dictionary by [@ktf](https://github.com/ktf)
+- [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -56,6 +57,7 @@
 - [\#14368](https://github.com/AliceO2Group/AliceO2/pull/14368) 2025-06-06: Add Helium-Oxygen collision systems by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
+- [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14366](https://github.com/AliceO2Group/AliceO2/pull/14366) 2025-06-23: EPNstderrMonitor: remove static declaration of InfoLoggerMessageOption when sending messages to IL by [@ehellbar](https://github.com/ehellbar)
 - [\#14379](https://github.com/AliceO2Group/AliceO2/pull/14379) 2025-06-12: Add compatibility with std::pmr by [@ktf](https://github.com/ktf)
