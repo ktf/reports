@@ -44,7 +44,6 @@
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
 - [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
-- [\#14392](https://github.com/AliceO2Group/AliceO2/pull/14392) 2025-06-11: IWYU: avoid spurious unused include report by [@ktf](https://github.com/ktf)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 - [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 - [\#14398](https://github.com/AliceO2Group/AliceO2/pull/14398) 2025-06-26: DPL Analysis: Replace type name hash with a different string hash in preparation for string-based expressions by [@aalkin](https://github.com/aalkin)
