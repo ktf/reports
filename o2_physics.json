@@ -3524,6 +3524,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-06-29T17:31:53Z",
+            "title": "[PWGDQ] Fix for event-selected MCsignal in processMCGen",
+            "number": 11801,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] Fuse new evsel with timestamp",
@@ -3545,27 +3565,17 @@
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/EventSelectionTools.h"
+                    "path": "Common/TableProducer/timestampTester.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-29T17:31:53Z",
-            "title": "[PWGDQ] Fix for event-selected MCsignal in processMCGen",
-            "number": 11801,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                    "path": "Common/Tools/EventSelectionTools.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/timestampModule.h"
                   }
                 }
               ]
