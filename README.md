@@ -51,8 +51,6 @@
 - [\#14434](https://github.com/AliceO2Group/AliceO2/pull/14434) 2025-06-24: DPL: make sure Lifetime::Sporadic is kept by [@ktf](https://github.com/ktf)
 - [\#14442](https://github.com/AliceO2Group/AliceO2/pull/14442) 2025-06-24: Fix using namespace arrow, arrow::io by [@ktf](https://github.com/ktf)
 - [\#14449](https://github.com/AliceO2Group/AliceO2/pull/14449) 2025-06-26: DPL: avoid unintialised member by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#14368](https://github.com/AliceO2Group/AliceO2/pull/14368) 2025-06-06: Add Helium-Oxygen collision systems by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
