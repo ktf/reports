@@ -4,6 +4,7 @@
 - [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
 - [\#14393](https://github.com/AliceO2Group/AliceO2/pull/14393) 2025-06-11: IWYU: export commonly used headers by [@ktf](https://github.com/ktf)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
+- [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
@@ -48,6 +49,7 @@
 - [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 - [\#14398](https://github.com/AliceO2Group/AliceO2/pull/14398) 2025-06-26: DPL Analysis: Replace type name hash with a different string hash in preparation for string-based expressions by [@aalkin](https://github.com/aalkin)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
+- [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 - [\#14429](https://github.com/AliceO2Group/AliceO2/pull/14429) 2025-06-24: DPL: enable new EoS by default and set data processing and exit transition timeouts by [@ehellbar](https://github.com/ehellbar)
 - [\#14434](https://github.com/AliceO2Group/AliceO2/pull/14434) 2025-06-24: DPL: make sure Lifetime::Sporadic is kept by [@ktf](https://github.com/ktf)
 - [\#14442](https://github.com/AliceO2Group/AliceO2/pull/14442) 2025-06-24: Fix using namespace arrow, arrow::io by [@ktf](https://github.com/ktf)
