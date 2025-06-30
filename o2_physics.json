@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-25T12:30:57Z",
-            "title": "[PWGCF] fixing De mass in computing kstar and adding eta phi histo",
-            "number": 11759,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/PiDeuteronFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Add photon-hadron correlation analysis task",
-            "number": 11433,
-            "author": {
-              "login": "jkinner2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-05T07:29:27Z",
-            "title": "[PWGLF] Update event selections",
-            "number": 9734,
-            "author": {
-              "login": "rspijkers"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-25T15:37:36Z",
-            "title": "[PWGLF] added DCA templates and function to compute multiplicity in different event classes",
-            "number": 11768,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-25T16:33:10Z",
             "title": "[PWGLF] Add signs to THnSparses, change logic accordingly",
             "number": 11771,
@@ -3096,51 +3011,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add omegac0 xic0 to omega ka framework reconstructed by kf",
-            "number": 11764,
-            "author": {
-              "login": "FDUEnrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0Xic0ToOmegaKa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Optimised code",
             "number": 11830,
             "author": {
@@ -3456,6 +3326,171 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[DPG] Update timeDependentQa.cxx - add mult distributions vs time",
+            "number": 11838,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/timeDependentQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Common] Megalint centralityTable.cxx",
+            "number": 10062,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/centralityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Common] Centrality: allow to process Run2 or Run3 based on metadata",
+            "number": 9520,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/centralityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Common] Merge multiplicity and Nsigma tasks workflows for TPC",
+            "number": 10007,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add omegac0 xic0 to omega ka framework reconstructed by kf",
+            "number": 11764,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskOmegac0ToOmegapi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0Xic0ToOmegaKa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] add truncated mean histograms and configurable to run on skimmed data",
+            "number": 11841,
+            "author": {
+              "login": "alcaliva"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/trackedCascadeProperties.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Adding protobuf model surgery",
             "number": 11840,
             "author": {
@@ -3476,26 +3511,6 @@
                 {
                   "node": {
                     "path": "Tools/ML/model.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] Update timeDependentQa.cxx - add mult distributions vs time",
-            "number": 11838,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/timeDependentQa.cxx"
                   }
                 }
               ]
