@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-27T08:16:39Z",
-            "title": "[PWGHF] Add UPC event selection",
-            "number": 11518,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Remove unused file",
@@ -301,26 +236,6 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/exclusiveRhoTo4Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Update LF Codeowners",
-            "number": 11810,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
                   }
                 }
               ]
@@ -3106,6 +3021,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Resonances: Add task for K* in OO",
+            "number": 11702,
+            "author": {
+              "login": "JimunLee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Fix Xic0 reconstruction online bug, add KF selection, new Xic0 task, and candidateCreator cleanup",
             "number": 11860,
             "author": {
@@ -3184,23 +3124,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Resonances: Add task for K* in OO",
-            "number": 11702,
+            "state": "MERGED",
+            "mergedAt": "2025-07-01T13:03:15Z",
+            "title": "[Infrastructure] Update LF Codeowners",
+            "number": 11810,
             "author": {
-              "login": "JimunLee"
+              "login": "maciacco"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                    "path": "CODEOWNERS"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Modify azimuthal distribution",
+            "number": 11861,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
                   }
                 }
               ]
