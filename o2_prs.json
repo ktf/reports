@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-04-16T10:33:21Z",
-            "title": "Update EPOS4 example using different versions and HQ",
-            "number": 14181,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_EPOS4/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_EPOS4/epos.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_EPOS4/example.optns"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_EPOS4/rundpg.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_EPOS4/rundpl.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HepMC_EPOS4/runo2sim.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-12T15:12:04Z",
             "title": "Remove references to boost::container::pmr",
             "number": 14395,
@@ -3706,6 +3661,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/StepTHn.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPCFastTransformation: Resolve recursion at compile time with templates.",
+            "number": 14462,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxTrackTopologyPol.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/MultivariatePolynomialHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/NDPiecewisePolynomials.h"
                   }
                 }
               ]
