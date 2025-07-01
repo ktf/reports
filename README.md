@@ -10,7 +10,6 @@
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 - [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
@@ -45,7 +44,6 @@
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
 - [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
-- [\#14395](https://github.com/AliceO2Group/AliceO2/pull/14395) 2025-06-12: Remove references to boost::container::pmr by [@ktf](https://github.com/ktf)
 - [\#14398](https://github.com/AliceO2Group/AliceO2/pull/14398) 2025-06-26: DPL Analysis: Replace type name hash with a different string hash in preparation for string-based expressions by [@aalkin](https://github.com/aalkin)
 - [\#14403](https://github.com/AliceO2Group/AliceO2/pull/14403) 2025-06-13: Export tuple to avoid IWYU adding it everywhere by [@ktf](https://github.com/ktf)
 - [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
