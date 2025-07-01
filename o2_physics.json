@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-26T16:40:58Z",
-            "title": "[PWGHF] Add processes to select Sc collisions. Fix rapidity bug for proton.",
-            "number": 11678,
-            "author": {
-              "login": "singhra1994"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-26T17:13:33Z",
-            "title": "[PWGLF] add ntracks to the minicoll table + make trkl eta cuts configurable",
-            "number": 11785,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFEbyeTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-26T22:45:37Z",
             "title": "[PWGLF] Add new analysis task for lambda spin correlation study using derived data",
             "number": 11783,
@@ -3166,6 +3111,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Templetize MC particle.",
+            "number": 11854,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/RecoDecay.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] remove duplicated consuming of McParticles.",
+            "number": 11855,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
                   }
                 }
               ]
