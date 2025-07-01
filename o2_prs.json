@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-05-16T14:09:42Z",
-            "title": "Include QED for special runs",
-            "number": 14242,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/QEDGenParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/QEDepem.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-04-25T08:52:18Z",
             "title": "Fix energy values for special runs",
             "number": 14213,
@@ -3711,6 +3686,41 @@
                 {
                   "node": {
                     "path": "doc/data/2025-07-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CommonUtils: Don't use ROOT TGrid if we build standalone benchmark",
+            "number": 14458,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/StringUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/StringUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxTrackTopologyPol.cxx"
                   }
                 }
               ]
