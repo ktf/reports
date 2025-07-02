@@ -37,6 +37,7 @@
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
 - [\#14447](https://github.com/AliceO2Group/AliceO2/pull/14447) 2025-07-01: TPC reco: Only read CTP digits when tracking by [@sawenzel](https://github.com/sawenzel)
 - [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
+- [\#14466](https://github.com/AliceO2Group/AliceO2/pull/14466) 2025-07-02: Reset ITS tracks ROF counters if not tracks found by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
