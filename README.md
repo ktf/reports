@@ -7,6 +7,7 @@
 - [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
+- [\#14458](https://github.com/AliceO2Group/AliceO2/pull/14458) 2025-07-02: CommonUtils: Don't use ROOT TGrid if we build standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
