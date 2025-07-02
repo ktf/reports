@@ -9,7 +9,6 @@
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
 - [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
@@ -21,7 +20,6 @@
 - [\#14360](https://github.com/AliceO2Group/AliceO2/pull/14360) 2025-06-05: If the tree is setup and empty, ROOT 6.36.00 returns 0 by [@ktf](https://github.com/ktf)
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14394](https://github.com/AliceO2Group/AliceO2/pull/14394) 2025-06-20: ITS: allow sharing of arena in Tracker & Vertexer by [@f3sch](https://github.com/f3sch)
-- [\#14399](https://github.com/AliceO2Group/AliceO2/pull/14399) 2025-06-13: TPC: changing uint64_t to unsigned long long for compatibility with Mac by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14401](https://github.com/AliceO2Group/AliceO2/pull/14401) 2025-06-16: ITS: after processing cleanup memory remnants by [@f3sch](https://github.com/f3sch)
 - [\#14405](https://github.com/AliceO2Group/AliceO2/pull/14405) 2025-06-16: Make TPC resid.extracton to work in runs w/o TRD or TOF by [@shahor02](https://github.com/shahor02)
 - [\#14410](https://github.com/AliceO2Group/AliceO2/pull/14410) 2025-06-16: [ALICE3] Add Copper stabilizers for A3 Magnet by [@njacazio](https://github.com/njacazio)
