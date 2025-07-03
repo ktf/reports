@@ -50,6 +50,7 @@
 - [\#14442](https://github.com/AliceO2Group/AliceO2/pull/14442) 2025-06-24: Fix using namespace arrow, arrow::io by [@ktf](https://github.com/ktf)
 - [\#14449](https://github.com/AliceO2Group/AliceO2/pull/14449) 2025-06-26: DPL: avoid unintialised member by [@ktf](https://github.com/ktf)
 - [\#14459](https://github.com/AliceO2Group/AliceO2/pull/14459) 2025-07-01: DPL: make sure devices with Sporadic inputs get sorted last, if possible by [@ktf](https://github.com/ktf)
+- [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14468](https://github.com/AliceO2Group/AliceO2/pull/14468) 2025-07-02: DPL: add signposts replacement for LOG(alarm) / LOG(important) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14404](https://github.com/AliceO2Group/AliceO2/pull/14404) 2025-06-16: Optional InteractionSampler sampling overwrite by [@sawenzel](https://github.com/sawenzel)
