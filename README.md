@@ -37,6 +37,7 @@
 - [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
 - [\#14464](https://github.com/AliceO2Group/AliceO2/pull/14464) 2025-07-03: [EMCAL-567] Add class to handle EMCal temperature calibration by [@jokonig](https://github.com/jokonig)
 - [\#14466](https://github.com/AliceO2Group/AliceO2/pull/14466) 2025-07-02: Reset ITS tracks ROF counters if not tracks found by [@shahor02](https://github.com/shahor02)
+- [\#14477](https://github.com/AliceO2Group/AliceO2/pull/14477) 2025-07-03: [EMCAL-567] Fix 1/3 SM numbers by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
