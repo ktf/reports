@@ -4,7 +4,6 @@
 - [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
 - [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#14389](https://github.com/AliceO2Group/AliceO2/pull/14389) 2025-06-16: GPU Standalone: CI build should use -Werror + unrelated improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#14419](https://github.com/AliceO2Group/AliceO2/pull/14419) 2025-06-18: Add support for ONNXRuntime 1.22.00 by [@ktf](https://github.com/ktf)
 - [\#14420](https://github.com/AliceO2Group/AliceO2/pull/14420) 2025-06-19: Hide NaN code with -ffast-math by [@davidrohr](https://github.com/davidrohr)
 - [\#14458](https://github.com/AliceO2Group/AliceO2/pull/14458) 2025-07-02: CommonUtils: Don't use ROOT TGrid if we build standalone benchmark by [@davidrohr](https://github.com/davidrohr)
