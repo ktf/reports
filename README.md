@@ -36,6 +36,7 @@
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
 - [\#14447](https://github.com/AliceO2Group/AliceO2/pull/14447) 2025-07-01: TPC reco: Only read CTP digits when tracking by [@sawenzel](https://github.com/sawenzel)
 - [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
+- [\#14464](https://github.com/AliceO2Group/AliceO2/pull/14464) 2025-07-03: [EMCAL-567] Add class to handle EMCal temperature calibration by [@jokonig](https://github.com/jokonig)
 - [\#14466](https://github.com/AliceO2Group/AliceO2/pull/14466) 2025-07-02: Reset ITS tracks ROF counters if not tracks found by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
@@ -56,6 +57,5 @@
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14366](https://github.com/AliceO2Group/AliceO2/pull/14366) 2025-06-23: EPNstderrMonitor: remove static declaration of InfoLoggerMessageOption when sending messages to IL by [@ehellbar](https://github.com/ehellbar)
-- [\#14379](https://github.com/AliceO2Group/AliceO2/pull/14379) 2025-06-12: Add compatibility with std::pmr by [@ktf](https://github.com/ktf)
 - [\#14408](https://github.com/AliceO2Group/AliceO2/pull/14408) 2025-06-16: Fix typo while adapting for std::pmr by [@ktf](https://github.com/ktf)
 - [\#14446](https://github.com/AliceO2Group/AliceO2/pull/14446) 2025-06-26: jobutils: Sanitize return code treatment by [@sawenzel](https://github.com/sawenzel)
