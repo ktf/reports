@@ -39,6 +39,7 @@
 - [\#14470](https://github.com/AliceO2Group/AliceO2/pull/14470) 2025-07-04: Add/use in TPCFastTransform mean IDC data member on top of Lumi by [@shahor02](https://github.com/shahor02)
 - [\#14477](https://github.com/AliceO2Group/AliceO2/pull/14477) 2025-07-03: [EMCAL-567] Fix 1/3 SM numbers by [@jokonig](https://github.com/jokonig)
 - [\#14478](https://github.com/AliceO2Group/AliceO2/pull/14478) 2025-07-04: TRD: decrease default --max-delay for gain, t0, vdexb calibrations by [@ehellbar](https://github.com/ehellbar)
+- [\#14480](https://github.com/AliceO2Group/AliceO2/pull/14480) 2025-07-04: ALICE3-TRK: detector ID used to fill Hit information correctly retrieved according to the chosen geometry by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
