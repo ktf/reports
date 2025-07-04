@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-16T09:30:34Z",
-            "title": "Optional InteractionSampler sampling overwrite",
-            "number": 14404,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/InteractionSampler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/SimulationDataLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/CollisionContextTool.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-16T12:14:23Z",
             "title": "GPU CUDA CMake: Do not print warnings that architectures will be depreacted",
             "number": 14409,
@@ -3511,6 +3476,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/RateLimiter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Standalone CI: With the new build container, we can also build Vulkan and Wayland front/backends",
+            "number": 14479,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/cmake/build.sh"
                   }
                 }
               ]
