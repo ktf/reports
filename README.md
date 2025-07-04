@@ -51,6 +51,7 @@
 - [\#14449](https://github.com/AliceO2Group/AliceO2/pull/14449) 2025-06-26: DPL: avoid unintialised member by [@ktf](https://github.com/ktf)
 - [\#14459](https://github.com/AliceO2Group/AliceO2/pull/14459) 2025-07-01: DPL: make sure devices with Sporadic inputs get sorted last, if possible by [@ktf](https://github.com/ktf)
 - [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
+- [\#14467](https://github.com/AliceO2Group/AliceO2/pull/14467) 2025-07-04: DPL: improve debugging for rate limiting by [@ktf](https://github.com/ktf)
 - [\#14468](https://github.com/AliceO2Group/AliceO2/pull/14468) 2025-07-02: DPL: add signposts replacement for LOG(alarm) / LOG(important) by [@ktf](https://github.com/ktf)
 - [\#14469](https://github.com/AliceO2Group/AliceO2/pull/14469) 2025-07-03: DPL: move rate limiter to use signposts rather than log messages. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
