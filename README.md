@@ -20,7 +20,6 @@
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14394](https://github.com/AliceO2Group/AliceO2/pull/14394) 2025-06-20: ITS: allow sharing of arena in Tracker & Vertexer by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
-- [\#14405](https://github.com/AliceO2Group/AliceO2/pull/14405) 2025-06-16: Make TPC resid.extracton to work in runs w/o TRD or TOF by [@shahor02](https://github.com/shahor02)
 - [\#14410](https://github.com/AliceO2Group/AliceO2/pull/14410) 2025-06-16: [ALICE3] Add Copper stabilizers for A3 Magnet by [@njacazio](https://github.com/njacazio)
 - [\#14411](https://github.com/AliceO2Group/AliceO2/pull/14411) 2025-06-17: [MID] Improve the macro for the reject list by [@ariffero](https://github.com/ariffero)
 - [\#14412](https://github.com/AliceO2Group/AliceO2/pull/14412) 2025-06-17: ITS: fix clusterSize propagation by [@f3sch](https://github.com/f3sch)
