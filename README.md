@@ -9,7 +9,6 @@
 - [\#14458](https://github.com/AliceO2Group/AliceO2/pull/14458) 2025-07-02: CommonUtils: Don't use ROOT TGrid if we build standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14385](https://github.com/AliceO2Group/AliceO2/pull/14385) 2025-06-17: [EMCAL-1154] Adjust CellLabels for cross talk emulation by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14400](https://github.com/AliceO2Group/AliceO2/pull/14400) 2025-06-16: DataModel: remove unsupported classes by [@ktf](https://github.com/ktf)
 - [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14440](https://github.com/AliceO2Group/AliceO2/pull/14440) 2025-06-24: DigiContext: Bugfix for start of history effect by [@sawenzel](https://github.com/sawenzel)
 - [\#14443](https://github.com/AliceO2Group/AliceO2/pull/14443) 2025-06-25: Avoid missing dictionary by [@ktf](https://github.com/ktf)
