@@ -53,6 +53,7 @@
 - [\#14468](https://github.com/AliceO2Group/AliceO2/pull/14468) 2025-07-02: DPL: add signposts replacement for LOG(alarm) / LOG(important) by [@ktf](https://github.com/ktf)
 - [\#14469](https://github.com/AliceO2Group/AliceO2/pull/14469) 2025-07-03: DPL: move rate limiter to use signposts rather than log messages. by [@ktf](https://github.com/ktf)
 - [\#14484](https://github.com/AliceO2Group/AliceO2/pull/14484) 2025-07-05: DPL: rename log stream to check sockets activity by [@ktf](https://github.com/ktf)
+- [\#14485](https://github.com/AliceO2Group/AliceO2/pull/14485) 2025-07-05: DPL: add signposts with log-level detail. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
