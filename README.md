@@ -19,7 +19,6 @@
 - [\#14394](https://github.com/AliceO2Group/AliceO2/pull/14394) 2025-06-20: ITS: allow sharing of arena in Tracker & Vertexer by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14415](https://github.com/AliceO2Group/AliceO2/pull/14415) 2025-06-24: ITS3: move the energy deposition wrt. centre of response by [@ChunzhengLab](https://github.com/ChunzhengLab)
-- [\#14416](https://github.com/AliceO2Group/AliceO2/pull/14416) 2025-06-18: ITS: GPU accept mc in config by [@f3sch](https://github.com/f3sch)
 - [\#14423](https://github.com/AliceO2Group/AliceO2/pull/14423) 2025-06-19: Misc fixes for TrackMCStudy workflow by [@shahor02](https://github.com/shahor02)
 - [\#14428](https://github.com/AliceO2Group/AliceO2/pull/14428) 2025-06-20: Add more info to MCStudy w-flow by [@shahor02](https://github.com/shahor02)
 - [\#14433](https://github.com/AliceO2Group/AliceO2/pull/14433) 2025-06-23: ITS3: fix tracking after refactor by [@f3sch](https://github.com/f3sch)
