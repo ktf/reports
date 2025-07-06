@@ -18,7 +18,6 @@
 - [\#14290](https://github.com/AliceO2Group/AliceO2/pull/14290) 2025-07-01: ITS-GPU: print params, add stream abstraction and use for trackleting by [@f3sch](https://github.com/f3sch)
 - [\#14394](https://github.com/AliceO2Group/AliceO2/pull/14394) 2025-06-20: ITS: allow sharing of arena in Tracker & Vertexer by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
-- [\#14411](https://github.com/AliceO2Group/AliceO2/pull/14411) 2025-06-17: [MID] Improve the macro for the reject list by [@ariffero](https://github.com/ariffero)
 - [\#14415](https://github.com/AliceO2Group/AliceO2/pull/14415) 2025-06-24: ITS3: move the energy deposition wrt. centre of response by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#14416](https://github.com/AliceO2Group/AliceO2/pull/14416) 2025-06-18: ITS: GPU accept mc in config by [@f3sch](https://github.com/f3sch)
 - [\#14423](https://github.com/AliceO2Group/AliceO2/pull/14423) 2025-06-19: Misc fixes for TrackMCStudy workflow by [@shahor02](https://github.com/shahor02)
