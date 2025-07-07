@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-02T18:05:07Z",
-            "title": "[PWGUD] Adding simple test on RCT flags implementation in UD tables",
-            "number": 11813,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/testMcStdTabsRl.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcTestRctTables.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-02T18:17:29Z",
             "title": "[PWGCF] Add output of c22 without eta gap",
             "number": 11856,
@@ -2401,36 +2371,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] XicToXiPiPi: Add MC process function to candidate selector and restructure lite/full KF output tables",
-            "number": 11941,
-            "author": {
-              "login": "pstahlhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] add new histgrams",
             "number": 11940,
             "author": {
@@ -2776,36 +2716,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add process function for Phi and V0s in filter2Prong",
-            "number": 11774,
-            "author": {
-              "login": "stefanopolitano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Fix Xic0 reconstruction online bug, add KF selection, new Xic0 task, and candidateCreator cleanup",
             "number": 11860,
             "author": {
@@ -2856,6 +2766,81 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/treeCreatorXic0ToXiPiKf.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] new analysis for pion and kaon using kink topology",
+            "number": 11951,
+            "author": {
+              "login": "sdudi123"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraKinkPiKa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] implememted Z-h correlation",
+            "number": 11938,
+            "author": {
+              "login": "sashingo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-07T14:34:27Z",
+            "title": "[PWGJE] Add photon-hadron correlation analysis task",
+            "number": 11433,
+            "author": {
+              "login": "jkinner2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
                   }
                 }
               ]
@@ -3116,21 +3101,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] new analysis for pion and kaon using kink topology",
-            "number": 11951,
+            "title": "[Common] [COMMON] Run2 PCM QC Analysis",
+            "number": 11957,
             "author": {
-              "login": "sdudi123"
+              "login": "mhemmer-cern"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                    "path": "Common/LegacyDataQA/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraKinkPiKa.cxx"
+                    "path": "Common/LegacyDataQA/pcmRun2.cxx"
                   }
                 }
               ]
@@ -3141,16 +3126,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] implememted Z-h correlation",
-            "number": 11938,
+            "title": "[PWGCF] Add process function for Phi and V0s in filter2Prong",
+            "number": 11774,
             "author": {
-              "login": "sashingo"
+              "login": "stefanopolitano"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
                   }
                 }
               ]
@@ -3159,28 +3154,33 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-07T14:34:27Z",
-            "title": "[PWGJE] Add photon-hadron correlation analysis task",
-            "number": 11433,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] XicToXiPiPi: Add MC process function to candidate selector and restructure lite/full KF output tables",
+            "number": 11941,
             "author": {
-              "login": "jkinner2"
+              "login": "pstahlhu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
+                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
                   }
                 }
               ]
