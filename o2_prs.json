@@ -2741,31 +2741,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC QC: add ratio plots to TrackClusters QA task",
-            "number": 14482,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/TrackClusters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/Tracks.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: move to std::pmr where possible",
             "number": 14417,
             "author": {
@@ -3286,41 +3261,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ITS3] Fix Y position of ITS3 clusters and hits",
-            "number": 14483,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SpecsV2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckClustersITS3.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/macros/test/CreateDictionariesITS3.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/TopologyDictionary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[O2-5887] Detect if an empty URL is passed to the CCDB api.",
             "number": 14349,
             "author": {
@@ -3516,6 +3456,66 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-08T15:11:56Z",
+            "title": "[ITS3] Fix Y position of ITS3 clusters and hits",
+            "number": 14483,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SpecsV2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckClustersITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CreateDictionariesITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/TopologyDictionary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-08T15:12:11Z",
+            "title": "TPC QC: add ratio plots to TrackClusters QA task",
+            "number": 14482,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/TrackClusters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Tracks.cxx"
                   }
                 }
               ]
