@@ -18,7 +18,6 @@
 - [\#14290](https://github.com/AliceO2Group/AliceO2/pull/14290) 2025-07-01: ITS-GPU: print params, add stream abstraction and use for trackleting by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14415](https://github.com/AliceO2Group/AliceO2/pull/14415) 2025-06-24: ITS3: move the energy deposition wrt. centre of response by [@ChunzhengLab](https://github.com/ChunzhengLab)
-- [\#14428](https://github.com/AliceO2Group/AliceO2/pull/14428) 2025-06-20: Add more info to MCStudy w-flow by [@shahor02](https://github.com/shahor02)
 - [\#14433](https://github.com/AliceO2Group/AliceO2/pull/14433) 2025-06-23: ITS3: fix tracking after refactor by [@f3sch](https://github.com/f3sch)
 - [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14437](https://github.com/AliceO2Group/AliceO2/pull/14437) 2025-06-26: ITS: cleanup unused GPU code by [@f3sch](https://github.com/f3sch)
