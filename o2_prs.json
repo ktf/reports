@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-19T15:00:38Z",
-            "title": "Misc fixes for TrackMCStudy workflow",
-            "number": 14423,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackMCStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "GPU: ITS fix MC label output",
@@ -3516,6 +3486,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_TopologyPolicies.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fixes for dependency checks of devices with sporadic inputs in TopologyPolicy",
+            "number": 14493,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TopologyPolicy.cxx"
                   }
                 }
               ]
