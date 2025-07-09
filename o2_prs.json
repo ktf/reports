@@ -3336,26 +3336,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Make O and Ne nuclei known to LHCIF processor",
-            "number": 14494,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPLHCIFData.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "IWYU: TimeDeadMap.h",
             "number": 14424,
             "author": {
@@ -3374,10 +3354,10 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-09T16:11:53Z",
-            "title": "New methods to query AggregatedRunInfo for MC",
-            "number": 14406,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TrackReference: possibility to have unknown DetectorID",
+            "number": 14495,
             "author": {
               "login": "sawenzel"
             },
@@ -3385,17 +3365,32 @@
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/TrackReference.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/AggregatedRunInfo.h"
+                    "path": "Detectors/gconfig/src/StandardSteppingTrackRefHook.macro"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-09T16:15:37Z",
+            "title": "Make O and Ne nuclei known to LHCIF processor",
+            "number": 14494,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
+                    "path": "DataFormats/Parameters/src/GRPLHCIFData.cxx"
                   }
                 }
               ]
@@ -3434,10 +3429,10 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TrackReference: possibility to have unknown DetectorID",
-            "number": 14495,
+            "state": "MERGED",
+            "mergedAt": "2025-07-09T16:11:53Z",
+            "title": "New methods to query AggregatedRunInfo for MC",
+            "number": 14406,
             "author": {
               "login": "sawenzel"
             },
@@ -3445,12 +3440,17 @@
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/TrackReference.h"
+                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/gconfig/src/StandardSteppingTrackRefHook.macro"
+                    "path": "DataFormats/Parameters/include/DataFormatsParameters/AggregatedRunInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
                   }
                 }
               ]
