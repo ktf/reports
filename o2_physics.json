@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-03T17:20:01Z",
-            "title": "[PWGHF] Fixed typo in Lambdab cut variable name in HfHelper.h",
-            "number": 11900,
-            "author": {
-              "login": "mvolkl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-03T18:47:17Z",
             "title": "[Common] change defaults of cent study task",
             "number": 11904,
@@ -2771,6 +2751,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Minor fixes in charm resonance workflow",
+            "number": 11972,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
             "title": "[PWGEM] Efficiency with only MC varibles",
             "number": 11919,
             "author": {
@@ -2816,26 +2826,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Minor fixes in charm resonance workflow",
-            "number": 11972,
+            "title": "[PWGEM] Add the possibility to select Phi regions",
+            "number": 11978,
             "author": {
-              "login": "apalasciano"
+              "login": "rbailhac"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
                   }
                 }
               ]
