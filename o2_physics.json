@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-05T10:13:17Z",
-            "title": "[PWGEM/PhotonMeson,PWGJE/EMCal] Add MC smearing functionality and add found FT0 gen histogram",
-            "number": 11918,
-            "author": {
-              "login": "nstrangm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalBcWiseGammaGamma.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-05T17:57:05Z",
             "title": "[PWGEM/Dilepton] add possibility to store only true electron in MC",
             "number": 11930,
@@ -3221,6 +3196,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] filter2prong: Fix check with GetNpar",
+            "number": 12007,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] Add run-by-run flow, fixed mult selection",
             "number": 12006,
             "author": {
@@ -3241,16 +3236,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] filter2prong: Fix check with GetNpar",
-            "number": 12007,
+            "title": "PWGEM/Dilepton: add a task to produce OTF qVector",
+            "number": 12008,
             "author": {
-              "login": "jaelpark"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
+                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/qVectorDummyOTF.cxx"
                   }
                 }
               ]
