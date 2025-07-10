@@ -53,6 +53,7 @@
 - [\#14485](https://github.com/AliceO2Group/AliceO2/pull/14485) 2025-07-05: DPL: add signposts with log-level detail. by [@ktf](https://github.com/ktf)
 - [\#14488](https://github.com/AliceO2Group/AliceO2/pull/14488) 2025-07-08: DPL: fix missing return true in ToologyPolicy by [@ktf](https://github.com/ktf)
 - [\#14493](https://github.com/AliceO2Group/AliceO2/pull/14493) 2025-07-09: DPL: fixes for dependency checks of devices with sporadic inputs in TopologyPolicy by [@ehellbar](https://github.com/ehellbar)
+- [\#14499](https://github.com/AliceO2Group/AliceO2/pull/14499) 2025-07-10: explicit call to Sumw2 (cosmetic only) by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
