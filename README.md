@@ -37,6 +37,7 @@
 - [\#14480](https://github.com/AliceO2Group/AliceO2/pull/14480) 2025-07-04: ALICE3-TRK: detector ID used to fill Hit information correctly retrieved according to the chosen geometry by [@atriolo](https://github.com/atriolo)
 - [\#14482](https://github.com/AliceO2Group/AliceO2/pull/14482) 2025-07-08: TPC QC: add ratio plots to TrackClusters QA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14483](https://github.com/AliceO2Group/AliceO2/pull/14483) 2025-07-08: [ITS3] Fix Y position of ITS3 clusters and hits by [@fgrosa](https://github.com/fgrosa)
+- [\#14498](https://github.com/AliceO2Group/AliceO2/pull/14498) 2025-07-11: ITS: fix seeding vertex labels by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
