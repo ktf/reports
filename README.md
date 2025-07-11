@@ -64,5 +64,4 @@
 ## Recent developments in O2 - Steer
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#14366](https://github.com/AliceO2Group/AliceO2/pull/14366) 2025-06-23: EPNstderrMonitor: remove static declaration of InfoLoggerMessageOption when sending messages to IL by [@ehellbar](https://github.com/ehellbar)
 - [\#14446](https://github.com/AliceO2Group/AliceO2/pull/14446) 2025-06-26: jobutils: Sanitize return code treatment by [@sawenzel](https://github.com/sawenzel)
