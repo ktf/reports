@@ -47,7 +47,6 @@
 - [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
 - [\#14398](https://github.com/AliceO2Group/AliceO2/pull/14398) 2025-06-26: DPL Analysis: Replace type name hash with a different string hash in preparation for string-based expressions by [@aalkin](https://github.com/aalkin)
 - [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
-- [\#14429](https://github.com/AliceO2Group/AliceO2/pull/14429) 2025-06-24: DPL: enable new EoS by default and set data processing and exit transition timeouts by [@ehellbar](https://github.com/ehellbar)
 - [\#14434](https://github.com/AliceO2Group/AliceO2/pull/14434) 2025-06-24: DPL: make sure Lifetime::Sporadic is kept by [@ktf](https://github.com/ktf)
 - [\#14442](https://github.com/AliceO2Group/AliceO2/pull/14442) 2025-06-24: Fix using namespace arrow, arrow::io by [@ktf](https://github.com/ktf)
 - [\#14449](https://github.com/AliceO2Group/AliceO2/pull/14449) 2025-06-26: DPL: avoid unintialised member by [@ktf](https://github.com/ktf)
