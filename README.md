@@ -26,7 +26,6 @@
 - [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14437](https://github.com/AliceO2Group/AliceO2/pull/14437) 2025-06-26: ITS: cleanup unused GPU code by [@f3sch](https://github.com/f3sch)
 - [\#14438](https://github.com/AliceO2Group/AliceO2/pull/14438) 2025-06-24: ITS: GPU report found neighbours by [@f3sch](https://github.com/f3sch)
-- [\#14439](https://github.com/AliceO2Group/AliceO2/pull/14439) 2025-06-24: ITS: GPU add needed synchronization by [@f3sch](https://github.com/f3sch)
 - [\#14444](https://github.com/AliceO2Group/AliceO2/pull/14444) 2025-06-25: ITS: redefine seeding vertex label by [@f3sch](https://github.com/f3sch)
 - [\#14447](https://github.com/AliceO2Group/AliceO2/pull/14447) 2025-07-01: TPC reco: Only read CTP digits when tracking by [@sawenzel](https://github.com/sawenzel)
 - [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
