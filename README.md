@@ -17,6 +17,7 @@
 - [\#14460](https://github.com/AliceO2Group/AliceO2/pull/14460) 2025-07-04: Computation of DCAxyz for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14474](https://github.com/AliceO2Group/AliceO2/pull/14474) 2025-07-04: Vtx: make class printable by [@f3sch](https://github.com/f3sch)
 - [\#14494](https://github.com/AliceO2Group/AliceO2/pull/14494) 2025-07-09: Make O and Ne nuclei known to LHCIF processor by [@shahor02](https://github.com/shahor02)
+- [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14290](https://github.com/AliceO2Group/AliceO2/pull/14290) 2025-07-01: ITS-GPU: print params, add stream abstraction and use for trackleting by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
@@ -37,6 +38,7 @@
 - [\#14480](https://github.com/AliceO2Group/AliceO2/pull/14480) 2025-07-04: ALICE3-TRK: detector ID used to fill Hit information correctly retrieved according to the chosen geometry by [@atriolo](https://github.com/atriolo)
 - [\#14482](https://github.com/AliceO2Group/AliceO2/pull/14482) 2025-07-08: TPC QC: add ratio plots to TrackClusters QA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14483](https://github.com/AliceO2Group/AliceO2/pull/14483) 2025-07-08: [ITS3] Fix Y position of ITS3 clusters and hits by [@fgrosa](https://github.com/fgrosa)
+- [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
 - [\#14496](https://github.com/AliceO2Group/AliceO2/pull/14496) 2025-07-11: ITS: Vertexer return early and only one arena by [@f3sch](https://github.com/f3sch)
 - [\#14498](https://github.com/AliceO2Group/AliceO2/pull/14498) 2025-07-11: ITS: fix seeding vertex labels by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
