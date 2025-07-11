@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-07T13:44:46Z",
-            "title": "[PWGJE,EMCAL-568] Fix mistake in gain calib shift",
-            "number": 11945,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-07T14:34:27Z",
             "title": "[PWGJE] Add photon-hadron correlation analysis task",
             "number": 11433,
@@ -3100,31 +3080,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Try to use PV and SV to correct momentum of short tracks",
-            "number": 12024,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFHyperhelium4sigmaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperhelium4sigmaRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Minor fixes in charm resonance workflow",
             "number": 11972,
             "author": {
@@ -3270,6 +3225,66 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add QC task for grouping tests + update sigma0builder",
+            "number": 12027,
+            "author": {
+              "login": "gianniliveraro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/sigma0QC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/sigma0BuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Try to use PV and SV to correct momentum of short tracks",
+            "number": 12024,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHyperhelium4sigmaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperhelium4sigmaRecoTask.cxx"
                   }
                 }
               ]
