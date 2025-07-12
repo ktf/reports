@@ -42,6 +42,7 @@
 - [\#14496](https://github.com/AliceO2Group/AliceO2/pull/14496) 2025-07-11: ITS: Vertexer return early and only one arena by [@f3sch](https://github.com/f3sch)
 - [\#14497](https://github.com/AliceO2Group/AliceO2/pull/14497) 2025-07-11: ITS: remove some printing by [@f3sch](https://github.com/f3sch)
 - [\#14498](https://github.com/AliceO2Group/AliceO2/pull/14498) 2025-07-11: ITS: fix seeding vertex labels by [@f3sch](https://github.com/f3sch)
+- [\#14502](https://github.com/AliceO2Group/AliceO2/pull/14502) 2025-07-12: ITS: add truth seeding by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
