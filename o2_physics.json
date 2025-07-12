@@ -2823,31 +2823,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] feat: Add TPC PID cluster information for He3 and Pi",
-            "number": 12020,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-11T17:01:54Z",
             "title": "[Common] Added visible TVX cross sections for pO,OO and NeNe",
@@ -3224,6 +3199,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE,EMCAL-1154] Add crosstalk emulation",
+            "number": 11538,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/emcalCrossTalkEmulation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/emcalCrossTalkEmulation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Try to use PV and SV to correct momentum of short tracks",
             "number": 12024,
             "author": {
@@ -3297,38 +3312,23 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE,EMCAL-1154] Add crosstalk emulation",
-            "number": 11538,
+            "state": "MERGED",
+            "mergedAt": "2025-07-12T11:23:39Z",
+            "title": "[PWGLF] feat: Add TPC PID cluster information for He3 and Pi",
+            "number": 12020,
             "author": {
-              "login": "mhemmer-cern"
+              "login": "mpuccio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Core/CMakeLists.txt"
+                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Core/emcalCrossTalkEmulation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/emcalCrossTalkEmulation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
                   }
                 }
               ]
