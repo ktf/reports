@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Devs to Publish/Query AggregatedRunInfo for MC",
-            "number": 14355,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/AggregatedRunInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-06-25T08:23:32Z",
             "title": "IWYU: BinningPolicy.h",
@@ -3561,6 +3531,51 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/NDPiecewisePolynomials.inc"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "NN clusterizer: Change to Lookup table",
+            "number": 14510,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
                   }
                 }
               ]
