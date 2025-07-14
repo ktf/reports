@@ -44,6 +44,7 @@
 - [\#14502](https://github.com/AliceO2Group/AliceO2/pull/14502) 2025-07-12: ITS: add truth seeding by [@f3sch](https://github.com/f3sch)
 - [\#14507](https://github.com/AliceO2Group/AliceO2/pull/14507) 2025-07-14: ITS: opt. vertex cont. output by [@f3sch](https://github.com/f3sch)
 - [\#14508](https://github.com/AliceO2Group/AliceO2/pull/14508) 2025-07-14: ITS: Vertexer remove unused code by [@f3sch](https://github.com/f3sch)
+- [\#14509](https://github.com/AliceO2Group/AliceO2/pull/14509) 2025-07-14: ITS: allow overriding number of iterations for tracker by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
 - [\#14323](https://github.com/AliceO2Group/AliceO2/pull/14323) 2025-06-25: IWYU: BinningPolicy.h by [@vkucera](https://github.com/vkucera)
