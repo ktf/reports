@@ -58,6 +58,7 @@
 - [\#14493](https://github.com/AliceO2Group/AliceO2/pull/14493) 2025-07-09: DPL: fixes for dependency checks of devices with sporadic inputs in TopologyPolicy by [@ehellbar](https://github.com/ehellbar)
 - [\#14499](https://github.com/AliceO2Group/AliceO2/pull/14499) 2025-07-10: explicit call to Sumw2 (cosmetic only) by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
+- [\#14513](https://github.com/AliceO2Group/AliceO2/pull/14513) 2025-07-15: DPL: drop unneeded headers. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
