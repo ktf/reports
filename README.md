@@ -11,7 +11,6 @@
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - DataFormats
 - [\#14406](https://github.com/AliceO2Group/AliceO2/pull/14406) 2025-07-09: New methods to query AggregatedRunInfo for MC by [@sawenzel](https://github.com/sawenzel)
-- [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#14460](https://github.com/AliceO2Group/AliceO2/pull/14460) 2025-07-04: Computation of DCAxyz for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14474](https://github.com/AliceO2Group/AliceO2/pull/14474) 2025-07-04: Vtx: make class printable by [@f3sch](https://github.com/f3sch)
@@ -21,7 +20,6 @@
 - [\#14290](https://github.com/AliceO2Group/AliceO2/pull/14290) 2025-07-01: ITS-GPU: print params, add stream abstraction and use for trackleting by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14432](https://github.com/AliceO2Group/AliceO2/pull/14432) 2025-07-11: ITS: get configuration of Tracker&Vertexer from one place by [@f3sch](https://github.com/f3sch)
-- [\#14436](https://github.com/AliceO2Group/AliceO2/pull/14436) 2025-06-25: Move bulk of the code to cxx to not expose extra headers by [@shahor02](https://github.com/shahor02)
 - [\#14437](https://github.com/AliceO2Group/AliceO2/pull/14437) 2025-06-26: ITS: cleanup unused GPU code by [@f3sch](https://github.com/f3sch)
 - [\#14447](https://github.com/AliceO2Group/AliceO2/pull/14447) 2025-07-01: TPC reco: Only read CTP digits when tracking by [@sawenzel](https://github.com/sawenzel)
 - [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
