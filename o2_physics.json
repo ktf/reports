@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-09T21:07:19Z",
-            "title": "[PWGCF] adjusted track filter and removed unused variables",
-            "number": 11977,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-09T22:48:54Z",
-            "title": "[PWGHF] taskOmegac0ToOmegapi: Fix bug introduced in #11881",
-            "number": 11979,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskOmegac0ToOmegapi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-09T23:09:38Z",
-            "title": "[PWGCF] Generic 2-prong PID cut formula fixes",
-            "number": 11988,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-10T00:31:28Z",
-            "title": "[PWGLF] Configurable for centrality estimation",
-            "number": 11980,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-10T03:09:28Z",
             "title": "[PWGCF] Modify the file to calculate v2-q2",
             "number": 11989,
@@ -2824,36 +2744,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Minor fixes in charm resonance workflow",
-            "number": 11972,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] enabled efficient and scoped analysis per collision",
             "number": 12050,
             "author": {
@@ -2999,6 +2889,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] D2H fitter: Add possibility to set fixed manual mean and second sigma for double gauss",
+            "number": 12060,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/config_massfitter.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-06-12T07:31:45Z",
+            "title": "PIDML: Split tasks into files to run on Hyperloop",
+            "number": 2782,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidML.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLProducerData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLProducerMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidOnnxInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidOnnxModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[ALICE3] Update TrackUtilities.h",
             "number": 12058,
             "author": {
@@ -3027,10 +2992,10 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] D2H fitter: Add possibility to set fixed manual mean and second sigma for double gauss",
-            "number": 12060,
+            "state": "MERGED",
+            "mergedAt": "2023-08-02T09:01:03Z",
+            "title": "PWGHF: Small fix to activateQA in Lc ML selector",
+            "number": 3239,
             "author": {
               "login": "saganatt"
             },
@@ -3038,17 +3003,82 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
+                    "path": "PWGHF/TableProducer/candidateSelectorLcMl.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] histogram correction",
+            "number": 12061,
+            "author": {
+              "login": "jtanwar2212"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/nucleitpcpbpb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-15T09:23:04Z",
+            "title": "[PWGHF] Minor fixes in charm resonance workflow",
+            "number": 11972,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Macros/config_massfitter.json"
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorCharmResoReduced.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Update DelphesO2LutWriter.h",
+            "number": 12062,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2LutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2LutWriter.h"
                   }
                 }
               ]
