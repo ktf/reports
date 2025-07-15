@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-24T16:29:12Z",
-            "title": "ITS3: move the energy deposition wrt. centre of response",
-            "number": 14415,
-            "author": {
-              "login": "ChunzhengLab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckChipResponseFile.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/ChipDigitsContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/ChipSimResponse.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[EMCAL-1152] EMCAL: Fix cpplint errors",
@@ -3561,6 +3531,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "DPL: drop unneeded headers.",
+            "number": 14513,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "HepMC: Remove default backgrounding mode",
+            "number": 14514,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFileOrCmdParam.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Merge noise branch",
             "number": 14512,
             "author": {
@@ -3576,26 +3586,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: drop unneeded headers.",
-            "number": 14513,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
                   }
                 }
               ]
