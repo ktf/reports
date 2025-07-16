@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-11T07:58:34Z",
-            "title": "[PWGHF] Fix Xic0 reconstruction online bug, add KF selection, new Xic0 task, and candidateCreator cleanup",
-            "number": 11860,
-            "author": {
-              "login": "Rrantu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic0ToXiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorXic0ToXiPiKf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXic0ToXiPiKf.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-11T08:05:06Z",
             "title": "[PWGCF] task for pt-diff radial flow",
             "number": 12010,
@@ -2564,31 +2504,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add Xi resonance mass",
-            "number": 12070,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFLambda1405Table.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] eID study for single electron analyses",
             "number": 12045,
             "author": {
@@ -3176,12 +3091,12 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] multiplicity: dependency capture for INEL>0 conditional embedding",
-            "number": 12077,
+            "state": "MERGED",
+            "mergedAt": "2025-07-16T09:53:57Z",
+            "title": "Please consider the following formatting changes to #12077",
+            "number": 12078,
             "author": {
-              "login": "ddobrigk"
+              "login": "alibuild"
             },
             "files": {
               "edges": [
@@ -3196,12 +3111,62 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-16T09:53:57Z",
-            "title": "Please consider the following formatting changes to #12077",
-            "number": 12078,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add new code to investigate He3Lambda",
+            "number": 12079,
             "author": {
-              "login": "alibuild"
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/he3LambdaAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add Xi resonance mass",
+            "number": 12070,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFLambda1405Table.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] multiplicity: dependency capture for INEL>0 conditional embedding",
+            "number": 12077,
+            "author": {
+              "login": "ddobrigk"
             },
             "files": {
               "edges": [
