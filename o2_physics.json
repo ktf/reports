@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-10T14:00:45Z",
-            "title": "[PWGHF] Cut variation: make analysis more flexible and output more informative",
-            "number": 11985,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/compute_fraction_cutvar.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/cut_variation.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-11T14:27:17Z",
-            "title": "[PWGHF] Use invariant mass for rapidity calculations in Ds tasks",
-            "number": 12004,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-11T14:43:45Z",
-            "title": "[Common] passing the vectors by value and not by reference, bug fix",
-            "number": 11990,
-            "author": {
-              "login": "amaringarcia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCBase.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-11T15:31:33Z",
             "title": "[PWGLF] Substituted collision loop with iterator + signal split study",
             "number": 12021,
@@ -3428,6 +3358,76 @@
                 {
                   "node": {
                     "path": "Common/DataModel/PIDResponseITS.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] derivedDataCreatorDstarToD0Pi: Correct error in mass assignment",
+            "number": 12089,
+            "author": {
+              "login": "Mingze129"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/DerivedTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFJ/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Adding pair-seperation for pair-cuts",
+            "number": 12090,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #12090",
+            "number": 12091,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
                   }
                 }
               ]
