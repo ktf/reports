@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
-- [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
 - [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 - [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Common
@@ -42,7 +41,6 @@
 - [\#14509](https://github.com/AliceO2Group/AliceO2/pull/14509) 2025-07-14: ITS: allow overriding number of iterations for tracker by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14030](https://github.com/AliceO2Group/AliceO2/pull/14030) 2025-06-26: DPL: improve logs for new calibration scheme by [@ktf](https://github.com/ktf)
-- [\#14339](https://github.com/AliceO2Group/AliceO2/pull/14339) 2025-06-26: DPL Analysis: add `DefinesDelayed` allowing to set the expressions in a process function, e.g. after calculating some required input values by [@aalkin](https://github.com/aalkin)
 - [\#14398](https://github.com/AliceO2Group/AliceO2/pull/14398) 2025-06-26: DPL Analysis: Replace type name hash with a different string hash in preparation for string-based expressions by [@aalkin](https://github.com/aalkin)
 - [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 - [\#14449](https://github.com/AliceO2Group/AliceO2/pull/14449) 2025-06-26: DPL: avoid unintialised member by [@ktf](https://github.com/ktf)
