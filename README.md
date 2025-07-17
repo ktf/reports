@@ -60,5 +60,3 @@
 - [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#14446](https://github.com/AliceO2Group/AliceO2/pull/14446) 2025-06-26: jobutils: Sanitize return code treatment by [@sawenzel](https://github.com/sawenzel)
