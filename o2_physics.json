@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Merge the base and non base TPC tasks (as executable)",
-            "number": 11974,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-14T13:08:11Z",
-            "title": "[DPG] Simple task to produce trees for studying track impact parameter dist…",
-            "number": 12016,
-            "author": {
-              "login": "arossi81"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/ITS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/ITS/filterTracks.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-14T15:21:47Z",
             "title": "[ALICE3] Implementing new ALICE 3 RICH flags in analysis preselection task",
@@ -2074,26 +2019,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Making configurable pt-sampling parameters usable for partitioning tr…",
-            "number": 12098,
-            "author": {
-              "login": "arossi81"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/ITS/filterTracks.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF,PWGHF] add a task for p-Dplus correlations in femtodream",
             "number": 12102,
             "author": {
@@ -2254,31 +2179,6 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Adding function to calculate fraction of bad TPC cluster points for closed-pairs",
-            "number": 12108,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
                   }
                 }
               ]
@@ -2779,6 +2679,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Automatic invariant mass histogram range",
+            "number": 12117,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Adding function to calculate fraction of bad TPC cluster points for closed-pairs",
+            "number": 12108,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add derived-data creator for Ξc+ → Ξ− π+ π+",
             "number": 12074,
             "author": {
@@ -2859,16 +2804,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Automatic invariant mass histogram range",
-            "number": 12117,
+            "title": "[PWGJE] Add jet-jet MC process in ChargedJetV2 task, fix processSigmaPtMCP plots create",
+            "number": 12118,
             "author": {
-              "login": "jaelpark"
+              "login": "YubiaoWang"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
+                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix signal selection in Ds tree creator",
+            "number": 12119,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-17T14:58:14Z",
+            "title": "[DPG] Making configurable pt-sampling parameters usable for partitioning tr…",
+            "number": 12098,
+            "author": {
+              "login": "arossi81"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/ITS/filterTracks.cxx"
                   }
                 }
               ]
