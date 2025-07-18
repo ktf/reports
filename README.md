@@ -21,7 +21,6 @@
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14432](https://github.com/AliceO2Group/AliceO2/pull/14432) 2025-07-11: ITS: get configuration of Tracker&Vertexer from one place by [@f3sch](https://github.com/f3sch)
 - [\#14447](https://github.com/AliceO2Group/AliceO2/pull/14447) 2025-07-01: TPC reco: Only read CTP digits when tracking by [@sawenzel](https://github.com/sawenzel)
-- [\#14450](https://github.com/AliceO2Group/AliceO2/pull/14450) 2025-06-26: A3: Add sensitive RICH layers to geometry by [@njacazio](https://github.com/njacazio)
 - [\#14464](https://github.com/AliceO2Group/AliceO2/pull/14464) 2025-07-03: [EMCAL-567] Add class to handle EMCal temperature calibration by [@jokonig](https://github.com/jokonig)
 - [\#14466](https://github.com/AliceO2Group/AliceO2/pull/14466) 2025-07-02: Reset ITS tracks ROF counters if not tracks found by [@shahor02](https://github.com/shahor02)
 - [\#14470](https://github.com/AliceO2Group/AliceO2/pull/14470) 2025-07-04: Add/use in TPCFastTransform mean IDC data member on top of Lumi by [@shahor02](https://github.com/shahor02)
