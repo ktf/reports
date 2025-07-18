@@ -14,6 +14,7 @@
 - [\#14474](https://github.com/AliceO2Group/AliceO2/pull/14474) 2025-07-04: Vtx: make class printable by [@f3sch](https://github.com/f3sch)
 - [\#14494](https://github.com/AliceO2Group/AliceO2/pull/14494) 2025-07-09: Make O and Ne nuclei known to LHCIF processor by [@shahor02](https://github.com/shahor02)
 - [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
+- [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Detectors
 - [\#14290](https://github.com/AliceO2Group/AliceO2/pull/14290) 2025-07-01: ITS-GPU: print params, add stream abstraction and use for trackleting by [@f3sch](https://github.com/f3sch)
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
@@ -40,6 +41,9 @@
 - [\#14509](https://github.com/AliceO2Group/AliceO2/pull/14509) 2025-07-14: ITS: allow overriding number of iterations for tracker by [@f3sch](https://github.com/f3sch)
 - [\#14515](https://github.com/AliceO2Group/AliceO2/pull/14515) 2025-07-18: Propagating merged noise map to DCS by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14519](https://github.com/AliceO2Group/AliceO2/pull/14519) 2025-07-17: Extend run-time-span-file and invert-irframe-selection TF selections … by [@shahor02](https://github.com/shahor02)
+- [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
+## Recent developments in O2 - EventVisualisation
+- [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
 - [\#14459](https://github.com/AliceO2Group/AliceO2/pull/14459) 2025-07-01: DPL: make sure devices with Sporadic inputs get sorted last, if possible by [@ktf](https://github.com/ktf)
 - [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
