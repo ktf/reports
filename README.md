@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
-- [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 - [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Common
 - [\#14458](https://github.com/AliceO2Group/AliceO2/pull/14458) 2025-07-02: CommonUtils: Don't use ROOT TGrid if we build standalone benchmark by [@davidrohr](https://github.com/davidrohr)
@@ -11,7 +10,6 @@
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - DataFormats
 - [\#14406](https://github.com/AliceO2Group/AliceO2/pull/14406) 2025-07-09: New methods to query AggregatedRunInfo for MC by [@sawenzel](https://github.com/sawenzel)
-- [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#14460](https://github.com/AliceO2Group/AliceO2/pull/14460) 2025-07-04: Computation of DCAxyz for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14474](https://github.com/AliceO2Group/AliceO2/pull/14474) 2025-07-04: Vtx: make class printable by [@f3sch](https://github.com/f3sch)
 - [\#14494](https://github.com/AliceO2Group/AliceO2/pull/14494) 2025-07-09: Make O and Ne nuclei known to LHCIF processor by [@shahor02](https://github.com/shahor02)
@@ -43,7 +41,6 @@
 - [\#14515](https://github.com/AliceO2Group/AliceO2/pull/14515) 2025-07-18: Propagating merged noise map to DCS by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14519](https://github.com/AliceO2Group/AliceO2/pull/14519) 2025-07-17: Extend run-time-span-file and invert-irframe-selection TF selections … by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#14418](https://github.com/AliceO2Group/AliceO2/pull/14418) 2025-06-30: DPL Analysis: add `PresliceGroup` by [@aalkin](https://github.com/aalkin)
 - [\#14459](https://github.com/AliceO2Group/AliceO2/pull/14459) 2025-07-01: DPL: make sure devices with Sporadic inputs get sorted last, if possible by [@ktf](https://github.com/ktf)
 - [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14467](https://github.com/AliceO2Group/AliceO2/pull/14467) 2025-07-04: DPL: improve debugging for rate limiting by [@ktf](https://github.com/ktf)
@@ -60,5 +57,3 @@
 - [\#14523](https://github.com/AliceO2Group/AliceO2/pull/14523) 2025-07-18: DPL: get rid of gsl::span. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-- [\#14453](https://github.com/AliceO2Group/AliceO2/pull/14453) 2025-06-27: Bugfix for vertex copying in collision context by [@sawenzel](https://github.com/sawenzel)
