@@ -58,5 +58,6 @@
 - [\#14513](https://github.com/AliceO2Group/AliceO2/pull/14513) 2025-07-15: DPL: drop unneeded headers. by [@ktf](https://github.com/ktf)
 - [\#14518](https://github.com/AliceO2Group/AliceO2/pull/14518) 2025-07-18: DPL: move topological sort in a separate file by [@ktf](https://github.com/ktf)
 - [\#14523](https://github.com/AliceO2Group/AliceO2/pull/14523) 2025-07-18: DPL: get rid of gsl::span. by [@ktf](https://github.com/ktf)
+- [\#14527](https://github.com/AliceO2Group/AliceO2/pull/14527) 2025-07-19: DPL: out of line metrics related methods by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
