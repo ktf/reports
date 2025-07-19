@@ -44,7 +44,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
-- [\#14459](https://github.com/AliceO2Group/AliceO2/pull/14459) 2025-07-01: DPL: make sure devices with Sporadic inputs get sorted last, if possible by [@ktf](https://github.com/ktf)
 - [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14467](https://github.com/AliceO2Group/AliceO2/pull/14467) 2025-07-04: DPL: improve debugging for rate limiting by [@ktf](https://github.com/ktf)
 - [\#14468](https://github.com/AliceO2Group/AliceO2/pull/14468) 2025-07-02: DPL: add signposts replacement for LOG(alarm) / LOG(important) by [@ktf](https://github.com/ktf)
