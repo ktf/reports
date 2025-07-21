@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-02T16:28:13Z",
-            "title": "GPU Display: Fix typo in Vulkan version check",
-            "number": 14471,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-02T19:58:07Z",
             "title": "DPL: add signposts replacement for LOG(alarm) / LOG(important)",
             "number": 14468,
@@ -3885,6 +3865,46 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/NDPiecewisePolynomials.inc"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "NN clusterizer: Bug-fixes and beautifications",
+            "number": 14530,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
                   }
                 }
               ]
