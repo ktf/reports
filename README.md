@@ -43,7 +43,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
-- [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14467](https://github.com/AliceO2Group/AliceO2/pull/14467) 2025-07-04: DPL: improve debugging for rate limiting by [@ktf](https://github.com/ktf)
 - [\#14469](https://github.com/AliceO2Group/AliceO2/pull/14469) 2025-07-03: DPL: move rate limiter to use signposts rather than log messages. by [@ktf](https://github.com/ktf)
 - [\#14484](https://github.com/AliceO2Group/AliceO2/pull/14484) 2025-07-05: DPL: rename log stream to check sockets activity by [@ktf](https://github.com/ktf)
