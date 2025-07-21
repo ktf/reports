@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-17T07:04:10Z",
-            "title": "[PWGCF] Update DCA cut Pt dependence function in producer task for Pb-Pb collisions",
-            "number": 12023,
-            "author": {
-              "login": "ZeptoStarling"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrackPbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-17T07:04:54Z",
             "title": "[Common] Fix Z=2 PID response for dynamic columns",
             "number": 12088,
@@ -2630,6 +2610,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Adding task for ZDC in O-O/Ne-Ne/p-O",
+            "number": 12030,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/DataModel/ZDCdmOxygen.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/TableProducer/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/TableProducer/QC/zdcTaskOxygen.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Centrality changes in Lc correlator, Correlation task",
             "number": 11724,
             "author": {
@@ -2656,6 +2671,11 @@
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "my_clean_patch.diff"
+                  }
                 }
               ]
             }
@@ -2665,31 +2685,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Adding task for ZDC in O-O/Ne-Ne/p-O",
-            "number": 12030,
+            "title": "[PWGJE] Added process function for inc particles",
+            "number": 12172,
             "author": {
-              "login": "coppedis"
+              "login": "arvindkhuntia"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGMM/DataModel/ZDCdmOxygen.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/TableProducer/QC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/TableProducer/QC/zdcTaskOxygen.cxx"
+                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
                   }
                 }
               ]
