@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 - [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Common
-- [\#14458](https://github.com/AliceO2Group/AliceO2/pull/14458) 2025-07-02: CommonUtils: Don't use ROOT TGrid if we build standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#14462](https://github.com/AliceO2Group/AliceO2/pull/14462) 2025-07-17: TPCFastTransformation: Resolve recursion at compile time with templates. by [@fweig](https://github.com/fweig)
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - DataFormats
@@ -19,7 +18,6 @@
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14432](https://github.com/AliceO2Group/AliceO2/pull/14432) 2025-07-11: ITS: get configuration of Tracker&Vertexer from one place by [@f3sch](https://github.com/f3sch)
 - [\#14464](https://github.com/AliceO2Group/AliceO2/pull/14464) 2025-07-03: [EMCAL-567] Add class to handle EMCal temperature calibration by [@jokonig](https://github.com/jokonig)
-- [\#14466](https://github.com/AliceO2Group/AliceO2/pull/14466) 2025-07-02: Reset ITS tracks ROF counters if not tracks found by [@shahor02](https://github.com/shahor02)
 - [\#14470](https://github.com/AliceO2Group/AliceO2/pull/14470) 2025-07-04: Add/use in TPCFastTransform mean IDC data member on top of Lumi by [@shahor02](https://github.com/shahor02)
 - [\#14477](https://github.com/AliceO2Group/AliceO2/pull/14477) 2025-07-03: [EMCAL-567] Fix 1/3 SM numbers by [@jokonig](https://github.com/jokonig)
 - [\#14478](https://github.com/AliceO2Group/AliceO2/pull/14478) 2025-07-04: TRD: decrease default --max-delay for gain, t0, vdexb calibrations by [@ehellbar](https://github.com/ehellbar)
@@ -47,7 +45,6 @@
 ## Recent developments in O2 - Framework
 - [\#14461](https://github.com/AliceO2Group/AliceO2/pull/14461) 2025-07-03: Fix bug in weight filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14467](https://github.com/AliceO2Group/AliceO2/pull/14467) 2025-07-04: DPL: improve debugging for rate limiting by [@ktf](https://github.com/ktf)
-- [\#14468](https://github.com/AliceO2Group/AliceO2/pull/14468) 2025-07-02: DPL: add signposts replacement for LOG(alarm) / LOG(important) by [@ktf](https://github.com/ktf)
 - [\#14469](https://github.com/AliceO2Group/AliceO2/pull/14469) 2025-07-03: DPL: move rate limiter to use signposts rather than log messages. by [@ktf](https://github.com/ktf)
 - [\#14484](https://github.com/AliceO2Group/AliceO2/pull/14484) 2025-07-05: DPL: rename log stream to check sockets activity by [@ktf](https://github.com/ktf)
 - [\#14485](https://github.com/AliceO2Group/AliceO2/pull/14485) 2025-07-05: DPL: add signposts with log-level detail. by [@ktf](https://github.com/ktf)
