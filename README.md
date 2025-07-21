@@ -37,6 +37,7 @@
 - [\#14507](https://github.com/AliceO2Group/AliceO2/pull/14507) 2025-07-14: ITS: opt. vertex cont. output by [@f3sch](https://github.com/f3sch)
 - [\#14508](https://github.com/AliceO2Group/AliceO2/pull/14508) 2025-07-14: ITS: Vertexer remove unused code by [@f3sch](https://github.com/f3sch)
 - [\#14509](https://github.com/AliceO2Group/AliceO2/pull/14509) 2025-07-14: ITS: allow overriding number of iterations for tracker by [@f3sch](https://github.com/f3sch)
+- [\#14511](https://github.com/AliceO2Group/AliceO2/pull/14511) 2025-07-21: ITS: cleanup lines and tracklet/clusterlines changes by [@f3sch](https://github.com/f3sch)
 - [\#14515](https://github.com/AliceO2Group/AliceO2/pull/14515) 2025-07-18: Propagating merged noise map to DCS by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14519](https://github.com/AliceO2Group/AliceO2/pull/14519) 2025-07-17: Extend run-time-span-file and invert-irframe-selection TF selections … by [@shahor02](https://github.com/shahor02)
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
