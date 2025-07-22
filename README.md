@@ -42,6 +42,9 @@
 - [\#14519](https://github.com/AliceO2Group/AliceO2/pull/14519) 2025-07-17: Extend run-time-span-file and invert-irframe-selection TF selections … by [@shahor02](https://github.com/shahor02)
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14526](https://github.com/AliceO2Group/AliceO2/pull/14526) 2025-07-18: TPC: Avoid using deprecated fmt::localtime by [@davidrohr](https://github.com/davidrohr)
+- [\#14531](https://github.com/AliceO2Group/AliceO2/pull/14531) 2025-07-22: ITS: print deltaRof option by [@f3sch](https://github.com/f3sch)
+- [\#14532](https://github.com/AliceO2Group/AliceO2/pull/14532) 2025-07-22: ITS: fix opt. label output if firstOrbit!=0 by [@f3sch](https://github.com/f3sch)
+- [\#14533](https://github.com/AliceO2Group/AliceO2/pull/14533) 2025-07-22: ITS: add CheckDROF macro by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
