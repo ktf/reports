@@ -51,7 +51,6 @@
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
 - [\#14467](https://github.com/AliceO2Group/AliceO2/pull/14467) 2025-07-04: DPL: improve debugging for rate limiting by [@ktf](https://github.com/ktf)
-- [\#14469](https://github.com/AliceO2Group/AliceO2/pull/14469) 2025-07-03: DPL: move rate limiter to use signposts rather than log messages. by [@ktf](https://github.com/ktf)
 - [\#14484](https://github.com/AliceO2Group/AliceO2/pull/14484) 2025-07-05: DPL: rename log stream to check sockets activity by [@ktf](https://github.com/ktf)
 - [\#14485](https://github.com/AliceO2Group/AliceO2/pull/14485) 2025-07-05: DPL: add signposts with log-level detail. by [@ktf](https://github.com/ktf)
 - [\#14488](https://github.com/AliceO2Group/AliceO2/pull/14488) 2025-07-08: DPL: fix missing return true in ToologyPolicy by [@ktf](https://github.com/ktf)
