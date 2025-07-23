@@ -3080,41 +3080,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,DPG] automatic extraction of orbitsPerTF from ccdb by LPMProductionTag in bc- and event-selection",
-            "number": 12202,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelectionService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionTools.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Trigger] ZorroSummary fix",
             "number": 12157,
             "author": {
@@ -3478,6 +3443,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-23T14:39:32Z",
+            "title": "[PWGUD] change ptorder in flowCorrelationUpc of PWGUD",
+            "number": 12130,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGEM/Dilepton] fix header file names",
@@ -3533,18 +3518,33 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-23T14:39:32Z",
-            "title": "[PWGUD] change ptorder in flowCorrelationUpc of PWGUD",
-            "number": 12130,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,DPG] automatic extraction of orbitsPerTF from ccdb by LPMProductionTag in bc- and event-selection",
+            "number": 12202,
             "author": {
-              "login": "miedema-11"
+              "login": "altsybee"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelectionService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionTools.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
                   }
                 }
               ]

@@ -20,7 +20,6 @@
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
 - [\#14432](https://github.com/AliceO2Group/AliceO2/pull/14432) 2025-07-11: ITS: get configuration of Tracker&Vertexer from one place by [@f3sch](https://github.com/f3sch)
-- [\#14464](https://github.com/AliceO2Group/AliceO2/pull/14464) 2025-07-03: [EMCAL-567] Add class to handle EMCal temperature calibration by [@jokonig](https://github.com/jokonig)
 - [\#14470](https://github.com/AliceO2Group/AliceO2/pull/14470) 2025-07-04: Add/use in TPCFastTransform mean IDC data member on top of Lumi by [@shahor02](https://github.com/shahor02)
 - [\#14477](https://github.com/AliceO2Group/AliceO2/pull/14477) 2025-07-03: [EMCAL-567] Fix 1/3 SM numbers by [@jokonig](https://github.com/jokonig)
 - [\#14478](https://github.com/AliceO2Group/AliceO2/pull/14478) 2025-07-04: TRD: decrease default --max-delay for gain, t0, vdexb calibrations by [@ehellbar](https://github.com/ehellbar)
