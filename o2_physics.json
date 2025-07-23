@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] To add charged K* production task without ResoInitializer, with ME and rotational backgrounds, and MC processing",
-            "number": 12147,
-            "author": {
-              "login": "navneetkumar231295"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-19T14:36:04Z",
             "title": "[PWGLF] Modified event selection",
@@ -3204,31 +3184,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Trigger] ZorroSummary fix",
-            "number": 12157,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/Zorro.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/ZorroSummary.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-23T11:08:26Z",
             "title": "[PWGJE] Adding more multiplicity and centrality estimators",
@@ -3480,6 +3435,66 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,DPG] automatic extraction of orbitsPerTF from ccdb by LPMProductionTag in bc- and event-selection",
+            "number": 12202,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelectionService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionTools.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger] ZorroSummary fix",
+            "number": 12157,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/Zorro.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/ZorroSummary.h"
                   }
                 }
               ]
