@@ -16,6 +16,7 @@
 - [\#14494](https://github.com/AliceO2Group/AliceO2/pull/14494) 2025-07-09: Make O and Ne nuclei known to LHCIF processor by [@shahor02](https://github.com/shahor02)
 - [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
+- [\#14537](https://github.com/AliceO2Group/AliceO2/pull/14537) 2025-07-23: Fix alignment so that jemalloc / address sanitizer do no complain by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14397](https://github.com/AliceO2Group/AliceO2/pull/14397) 2025-07-03: TPC QC: Add GPUErrorQA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
