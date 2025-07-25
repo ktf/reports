@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-03T20:15:22Z",
-            "title": "TPC QC: Add GPUErrorQA task",
-            "number": 14397,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/GPUErrorQA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/GPUErrorQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/TPCQCLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUErrors.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUErrors.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-04T08:48:47Z",
             "title": "GPU: Update build documentation for new gpu-system.sh package",
             "number": 14481,
@@ -4259,6 +4214,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make max Xiu for pre-propagation settable",
+            "number": 14544,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
