@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-23T12:46:50Z",
-            "title": "[PWGLF] Added configuragble for chi2 track selection",
-            "number": 12174,
-            "author": {
-              "login": "gbencedi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[Common] Added dimuon-muon correlations to muonQA",
@@ -3384,6 +3364,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] take pT hard from event, add option to reject single track or jet outliers",
+            "number": 12262,
+            "author": {
+              "login": "jaimenorman"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Improve CCDB access pattern",
+            "number": 12263,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM/Dilepton] update charged track for 2PC",
             "number": 12261,
             "author": {
@@ -3419,36 +3439,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] take pT hard from event, add option to reject single track or jet outliers",
-            "number": 12262,
+            "title": "[PWGEM/Dilepton] update on eventQC.cxx",
+            "number": 12264,
             "author": {
-              "login": "jaimenorman"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Improve CCDB access pattern",
-            "number": 12263,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/eventQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/EventHistograms.h"
                   }
                 }
               ]
