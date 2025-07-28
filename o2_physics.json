@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] To add charged K* production task without ResoInitializer, with ME and rotational backgrounds, and MC processing",
-            "number": 12147,
-            "author": {
-              "login": "navneetkumar231295"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-24T07:52:37Z",
             "title": "[PWGLF] Lighter tables and syntax and new configurables for the ITS cluster studies",
@@ -3355,9 +3335,29 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] D0 selection correction in efficiency",
+            "state": "MERGED",
+            "mergedAt": "2025-07-28T07:05:00Z",
+            "title": "[PWGLF] Added eventmixing histogram",
+            "number": 12280,
+            "author": {
+              "login": "sangwoo184"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/f0980pbpbanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-28T07:37:25Z",
+            "title": "[PWGHF] taskCorrelationD0Hadrons: D0 selection correction in efficiency",
             "number": 12278,
             "author": {
               "login": "samrangy"
@@ -3375,18 +3375,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-28T07:05:00Z",
-            "title": "[PWGLF] Added eventmixing histogram",
-            "number": 12280,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF,PWGHF] add a task for p-Dplus correlations in femtodream",
+            "number": 12102,
             "author": {
-              "login": "sangwoo184"
+              "login": "Yunfan-Liu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/f0980pbpbanalysis.cxx"
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
                   }
                 }
               ]
