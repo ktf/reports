@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF,PWGJE] Adding two MC particle variables for Dstar-jet analysis",
-            "number": 12207,
-            "author": {
-              "login": "Mingze129"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/DerivedTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/Jet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSubstructureHFOutput.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-24T15:08:57Z",
-            "title": "[PWGCF] flowTask: small fix; diHadron: add PID",
-            "number": 12216,
-            "author": {
-              "login": "Luzhiyongg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-24T14:06:07Z",
             "title": "[PWGHF] Fix misleading histogram in event selection utils",
@@ -3028,26 +2963,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Adapt the task to measure lambda longitudinal polarization in OO",
-            "number": 12205,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF,PWGHF] Add photon safety layer to strangeness getters",
             "number": 12271,
             "author": {
@@ -3333,31 +3248,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Added output table to sigmaminustask",
-            "number": 12252,
-            "author": {
-              "login": "morgmatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFKinkDecayTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/sigmaminustask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF/D2H] Implementing weight method to achieve centrality at generator level",
             "number": 12107,
             "author": {
@@ -3388,6 +3278,136 @@
                 {
                   "node": {
                     "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Added output table to sigmaminustask",
+            "number": 12252,
+            "author": {
+              "login": "morgmatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFKinkDecayTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/sigmaminustask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] reduce data size for 2PC",
+            "number": 12290,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryTrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-28T13:17:14Z",
+            "title": "[PWGLF] Adapt the task to measure lambda longitudinal polarization in OO",
+            "number": 12205,
+            "author": {
+              "login": "ChiaraDeMartin95"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] First draft of Xic0XicpToHadronic workflow",
+            "number": 11697,
+            "author": {
+              "login": "jinhyunni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic0XicpToHadronic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0XicpToHadronic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXic0XicpToHadronic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXic0XicpToHadronic.cxx"
                   }
                 }
               ]
