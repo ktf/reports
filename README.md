@@ -8,6 +8,7 @@
 - [\#14377](https://github.com/AliceO2Group/AliceO2/pull/14377) 2025-07-23: Added Lambda1520 PDG code to PhysicsConstants.h by [@hkoley](https://github.com/hkoley)
 - [\#14462](https://github.com/AliceO2Group/AliceO2/pull/14462) 2025-07-17: TPCFastTransformation: Resolve recursion at compile time with templates. by [@fweig](https://github.com/fweig)
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
+- [\#14530](https://github.com/AliceO2Group/AliceO2/pull/14530) 2025-07-28: NN clusterizer: Bug-fixes and adding deterministic mode by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
 - [\#14406](https://github.com/AliceO2Group/AliceO2/pull/14406) 2025-07-09: New methods to query AggregatedRunInfo for MC by [@sawenzel](https://github.com/sawenzel)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
