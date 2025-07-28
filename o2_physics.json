@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-24T09:42:40Z",
-            "title": "[Common,DPG] automatic extraction of orbitsPerTF from ccdb by LPMProductionTag in bc- and event-selection",
-            "number": 12202,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelectionService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionTools.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-24T09:57:16Z",
-            "title": "[PWGLF] Add task to produce binned information about V0s/cascades",
-            "number": 12212,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessderivedbinnedinfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Add event selection flags",
@@ -3380,6 +3320,31 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-05-23T20:52:30Z",
+            "title": "[PWGCF] Add long range correlations analysis task",
+            "number": 11329,
+            "author": {
+              "login": "abmodak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Add TPC PID clusters and PID info to He3 and Lambda",
@@ -3402,6 +3367,26 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/he3LambdaDerivedAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add MC reco flags check, fix prompt check",
+            "number": 12284,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
                   }
                 }
               ]
