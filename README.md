@@ -45,6 +45,7 @@
 - [\#14534](https://github.com/AliceO2Group/AliceO2/pull/14534) 2025-07-23: Eov for orbitreset by [@lietava](https://github.com/lietava)
 - [\#14538](https://github.com/AliceO2Group/AliceO2/pull/14538) 2025-07-23: ITS: last mod. for deltaROF and perVertex by [@f3sch](https://github.com/f3sch)
 - [\#14540](https://github.com/AliceO2Group/AliceO2/pull/14540) 2025-07-24: ITS: GPU: fix perVtx + upc iteration + atomic level update by [@f3sch](https://github.com/f3sch)
+- [\#14544](https://github.com/AliceO2Group/AliceO2/pull/14544) 2025-07-29: Make max Xiu for pre-propagation settable by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
