@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-25T10:31:22Z",
-            "title": "[PWGCF] Adding selection on V0 rapidity in cf correlation",
-            "number": 12210,
-            "author": {
-              "login": "stefanopolitano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-25T10:43:32Z",
             "title": "[Common] Fixed memory issues with 3D histograms",
             "number": 12226,
@@ -3438,6 +3418,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Add the configurable occupancy estimator in candidate creator",
+            "number": 12304,
+            "author": {
+              "login": "wuctlby"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Added signal/event loss corrections",
+            "number": 12293,
+            "author": {
+              "login": "sawankumawat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/higherMassResonances.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common,PWGLF] Expose configurables inside TrackTuner in propagationService",
             "number": 12306,
             "author": {
@@ -3468,31 +3498,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add the configurable occupancy estimator in candidate creator",
-            "number": 12304,
-            "author": {
-              "login": "wuctlby"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse -- Add MC analysis to debug-V0 task.",
             "number": 12307,
             "author": {
@@ -3513,21 +3518,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Added signal/event loss corrections",
-            "number": 12293,
+            "title": "[Common/EventPlane] adding eta selection",
+            "number": 12311,
             "author": {
-              "login": "sawankumawat"
+              "login": "jikim1290"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/higherMassResonances.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
                   }
                 }
               ]
