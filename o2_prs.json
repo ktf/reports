@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-04T10:58:08Z",
-            "title": "Vtx: make class printable",
-            "number": 14474,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Vertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Vertex.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-04T11:03:01Z",
-            "title": "Computation of DCAxyz for forward tracks",
-            "number": 14460,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackFwd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackFwd.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-04T17:15:46Z",
             "title": "DPL: improve debugging for rate limiting",
             "number": 14467,
@@ -4284,6 +4234,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix: apply global density scaling factor in MaterialManager::getDensity",
+            "number": 14546,
+            "author": {
+              "login": "alcaliva"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MaterialManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4294,6 +4264,11 @@
                 {
                   "node": {
                     "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/DecayNBodyIndex.h"
                   }
                 },
                 {
@@ -4314,16 +4289,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix: apply global density scaling factor in MaterialManager::getDensity",
-            "number": 14546,
+            "title": "DataFormats: Add V0Type",
+            "number": 14547,
             "author": {
-              "login": "alcaliva"
+              "login": "f3sch"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Base/src/MaterialManager.cxx"
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/DecayNBodyIndex.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #14547",
+            "number": 14548,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/DecayNBodyIndex.h"
                   }
                 }
               ]
