@@ -51,7 +51,6 @@
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
 - [\#14153](https://github.com/AliceO2Group/AliceO2/pull/14153) 2025-07-24: MFT: read track covariances from AO2Ds by [@aferrero2707](https://github.com/aferrero2707)
-- [\#14484](https://github.com/AliceO2Group/AliceO2/pull/14484) 2025-07-05: DPL: rename log stream to check sockets activity by [@ktf](https://github.com/ktf)
 - [\#14485](https://github.com/AliceO2Group/AliceO2/pull/14485) 2025-07-05: DPL: add signposts with log-level detail. by [@ktf](https://github.com/ktf)
 - [\#14488](https://github.com/AliceO2Group/AliceO2/pull/14488) 2025-07-08: DPL: fix missing return true in ToologyPolicy by [@ktf](https://github.com/ktf)
 - [\#14493](https://github.com/AliceO2Group/AliceO2/pull/14493) 2025-07-09: DPL: fixes for dependency checks of devices with sporadic inputs in TopologyPolicy by [@ehellbar](https://github.com/ehellbar)
