@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-26T13:46:03Z",
-            "title": "[PWGLF] Added more histos for MC closure",
-            "number": 12258,
-            "author": {
-              "login": "omvazque"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/uccZdc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-26T14:55:51Z",
-            "title": "[PWGLF] Systematics in dN/deta with phi trigger",
-            "number": 12260,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-26T18:30:06Z",
             "title": "[Common] Improve CCDB access pattern",
             "number": 12263,
@@ -2096,31 +2056,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse cascade task -- Pid bitmask implementation on cascade task",
-            "number": 12310,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-29T13:12:07Z",
             "title": "[ALICE3] Add bdt score histograms to otf multi-charm",
@@ -2977,6 +2912,146 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-07-26T13:07:23Z",
+            "title": "Add histogram for TPC checks vs phi",
+            "number": 3184,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-16T10:33:27Z",
+            "title": "PWGHF: Add Bs candidate creator, selector, and task for reduced data format",
+            "number": 7990,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseB0ToDPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBplusToD0Pi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseBsToDsPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBplusToD0PiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBsToDsPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBplusReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorBs.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorBsToDsPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-30T10:31:10Z",
+            "title": "[PWGCF] FemtoUniverse cascade task -- Pid bitmask implementation on cascade task",
+            "number": 12310,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
                   }
                 }
               ]
