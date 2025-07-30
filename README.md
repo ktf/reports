@@ -21,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
 - [\#14432](https://github.com/AliceO2Group/AliceO2/pull/14432) 2025-07-11: ITS: get configuration of Tracker&Vertexer from one place by [@f3sch](https://github.com/f3sch)
-- [\#14480](https://github.com/AliceO2Group/AliceO2/pull/14480) 2025-07-04: ALICE3-TRK: detector ID used to fill Hit information correctly retrieved according to the chosen geometry by [@atriolo](https://github.com/atriolo)
 - [\#14482](https://github.com/AliceO2Group/AliceO2/pull/14482) 2025-07-08: TPC QC: add ratio plots to TrackClusters QA task by [@ariedel-cern](https://github.com/ariedel-cern)
 - [\#14483](https://github.com/AliceO2Group/AliceO2/pull/14483) 2025-07-08: [ITS3] Fix Y position of ITS3 clusters and hits by [@fgrosa](https://github.com/fgrosa)
 - [\#14491](https://github.com/AliceO2Group/AliceO2/pull/14491) 2025-07-11: ITS: fix TypedAllocator for cuda thrust by [@f3sch](https://github.com/f3sch)
