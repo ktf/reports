@@ -18,6 +18,7 @@
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14537](https://github.com/AliceO2Group/AliceO2/pull/14537) 2025-07-23: Fix alignment so that jemalloc / address sanitizer do no complain by [@ktf](https://github.com/ktf)
 - [\#14547](https://github.com/AliceO2Group/AliceO2/pull/14547) 2025-07-29: DataFormats: Add V0Type by [@f3sch](https://github.com/f3sch)
+- [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
 - [\#14432](https://github.com/AliceO2Group/AliceO2/pull/14432) 2025-07-11: ITS: get configuration of Tracker&Vertexer from one place by [@f3sch](https://github.com/f3sch)
@@ -47,6 +48,7 @@
 - [\#14538](https://github.com/AliceO2Group/AliceO2/pull/14538) 2025-07-23: ITS: last mod. for deltaROF and perVertex by [@f3sch](https://github.com/f3sch)
 - [\#14540](https://github.com/AliceO2Group/AliceO2/pull/14540) 2025-07-24: ITS: GPU: fix perVtx + upc iteration + atomic level update by [@f3sch](https://github.com/f3sch)
 - [\#14544](https://github.com/AliceO2Group/AliceO2/pull/14544) 2025-07-29: Make max Xiu for pre-propagation settable by [@ddobrigk](https://github.com/ddobrigk)
+- [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
