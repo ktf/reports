@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-29T21:56:42Z",
-            "title": "[PWGLF] Add 2 extra dimensions: PtArmV0 and AlphaV0",
-            "number": 12321,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessderivedbinnedinfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-29T14:57:35Z",
             "title": "[PWGCF] Fix code replication",
             "number": 12302,
@@ -1957,26 +1937,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add geometry loading to dilepton-track task",
-            "number": 12355,
-            "author": {
-              "login": "kaareendrup"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-01T09:35:55Z",
             "title": "[Common] Use metadataHelper from namespace",
@@ -2449,26 +2409,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Minor changes in histogram",
-            "number": 12366,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Fix bugs, bad practice, performance, includes",
             "number": 11688,
             "author": {
@@ -2729,6 +2669,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Added Event trigger 13, Track selection: nclustersTPC, chi2pe…",
+            "number": 12377,
+            "author": {
+              "login": "nmallick19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] New unified data model for femto analysis",
             "number": 12376,
             "author": {
@@ -2933,7 +2893,7 @@
                 },
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUnited/Tasks/femtounitedTwoTrackResonanceQa.cxx"
+                    "path": "PWGCF/FemtoUnited/Tasks/femtounitedTwotrackresonanceQa.cxx"
                   }
                 },
                 {
@@ -2954,16 +2914,141 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Added Event trigger 13, Track selection: nclustersTPC, chi2pe…",
-            "number": 12377,
+            "title": "[PWGLF] Minor changes in histogram",
+            "number": 12366,
             "author": {
-              "login": "nmallick19"
+              "login": "sawankumawat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-01T14:17:18Z",
+            "title": "[PWGDQ] Add geometry loading to dilepton-track task",
+            "number": 12355,
+            "author": {
+              "login": "kaareendrup"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGCF,PWGDQ,PWGEM,PWGLF,PWGUD,DPG,Trigger] [Cleanup] Add fully qualified names for std::string and std::map",
+            "number": 12378,
+            "author": {
+              "login": "mrtineide"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/ctpRateFetcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/handleParamTPCResponse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGCF/CFFilterQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/filterf1proton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonDCA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/matchingMFT.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/f1protonreducedtable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/filterf1proton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/fwdTrackPropagation.cxx"
                   }
                 }
               ]
