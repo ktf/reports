@@ -4,131 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-29T06:00:26Z",
-            "title": "[PWGEM,PWGEM-8] Clean up of PhotonMeson",
-            "number": 12296,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/gammaSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/produceMesonCalo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaCalo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/SinglePhoton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/SinglePhotonMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/TagAndProbe.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/ClusterHistograms.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/emcalHistoDefinitions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/gammaSelectionCuts.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse cascade task -- Pid bitmask implementation on cascade task",
-            "number": 12309,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] adding cos axis",
@@ -2538,26 +2413,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-01T01:50:08Z",
-            "title": "[PWGCF] Fix missing MC table subscription",
-            "number": 12349,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-01T03:50:41Z",
             "title": "[PWGCF] add multiplicity correlation QA run-by-run",
             "number": 12352,
@@ -2809,6 +2664,91 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Common] Merge the base and non base TPC tasks (as executable)",
+            "number": 11974,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add TOF Response parameters as a service",
+            "number": 11872,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-01T01:50:08Z",
+            "title": "[PWGCF] Fix missing MC table subscription",
+            "number": 12349,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
                   }
                 }
               ]
