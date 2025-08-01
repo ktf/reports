@@ -50,6 +50,7 @@
 - [\#14544](https://github.com/AliceO2Group/AliceO2/pull/14544) 2025-07-29: Make max Xiu for pre-propagation settable by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
 - [\#14553](https://github.com/AliceO2Group/AliceO2/pull/14553) 2025-07-31: ITS: if TF dropped clear tracks by [@f3sch](https://github.com/f3sch)
+- [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 ## Recent developments in O2 - Framework
