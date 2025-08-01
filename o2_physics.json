@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-29T22:59:22Z",
-            "title": "[Common] Apply vertex-Z equalization in centrality studies",
-            "number": 12308,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGDQ] Removing centrality info to MC gen + 2D histo impact param vs centFT0C",
-            "number": 11751,
-            "author": {
-              "login": "sgaretti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-30T05:09:31Z",
             "title": "[PWGLF] Added signal/event loss corrections",
             "number": 12293,
@@ -3069,6 +3019,66 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] update treeCreatorElectronMLDDA.cxx",
+            "number": 12380,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE,EMCAL-670] Fix emcalcorrectiontask when running over JJ MC",
+            "number": 12381,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/utilsBcSelEMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/utilsTrackMatchingEMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/taskEmcExtensiveMcQa.cxx"
                   }
                 }
               ]
