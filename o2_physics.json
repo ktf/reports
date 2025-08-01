@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-30T05:39:07Z",
-            "title": "[Common,PWGLF] Expose configurables inside TrackTuner in propagationService",
-            "number": 12306,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackPropagationTester.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/StandardCCDBLoader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/propagationService.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-30T08:10:13Z",
-            "title": "[PWGCF] FemtoUniverse: Fixing the bug in phi calculation at R",
-            "number": 12315,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-30T08:39:28Z",
             "title": "[PWGLF] Added cuts on particle mother",
             "number": 12323,
@@ -2929,6 +2874,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[DPG] adding new QA task to monitor outliers and pileup in OO and NeNe",
+            "number": 12365,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/lightIonsEvSelQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Remove perslicing on mcCollisionID in hyperkink builder",
+            "number": 12382,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common,PWGCF,PWGDQ,PWGEM,PWGLF,PWGUD,DPG,Trigger] [Cleanup] Add fully qualified names for std::string and std::map",
             "number": 12378,
             "author": {
@@ -3034,26 +3029,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] adding new QA task to monitor outliers and pileup in OO and NeNe",
-            "number": 12365,
+            "title": "[PWGEM] Add task to compare V0s from LF and EM builder",
+            "number": 12383,
             "author": {
-              "login": "altsybee"
+              "login": "Steffimro"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTEvent/CMakeLists.txt"
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/lightIonsEvSelQa.cxx"
+                    "path": "PWGEM/PhotonMeson/Tasks/compconvbuilder.cxx"
                   }
                 }
               ]
@@ -3064,16 +3054,86 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Remove perslicing on mcCollisionID in hyperkink builder",
-            "number": 12382,
+            "title": "[PWGDQ,PWGEM,PWGLF] Use fully qualified names for std::string in configurables",
+            "number": 12384,
             "author": {
-              "login": "wang-yuanzhe"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/TagAndProbe.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/filterPP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/filterPPwithAssociation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/mchAlignRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonDCA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/emEfficiencyEE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/tableReaderBarrel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
