@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-31T16:14:16Z",
-            "title": "[Common] fix: quick for returning rate for outside range",
-            "number": 12357,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/ctpRateFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-31T16:36:40Z",
             "title": "[PWGLF] added event selection in MC",
             "number": 12356,
@@ -2984,18 +2964,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] taskFlow.cxx: Add the use of reassociated MFT tracks for same event",
-            "number": 12327,
+            "state": "MERGED",
+            "mergedAt": "2025-08-04T13:57:17Z",
+            "title": "[PWGEM] PhotonMeson/Tasks/compconvbuilder: Fix linter and includes",
+            "number": 12410,
             "author": {
-              "login": "AlexianL"
+              "login": "mhemmer-cern"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                    "path": "PWGEM/PhotonMeson/Tasks/compconvbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] add a trigger",
+            "number": 12420,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
                   }
                 }
               ]
@@ -3074,18 +3074,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-04T13:57:17Z",
-            "title": "[PWGEM] PhotonMeson/Tasks/compconvbuilder: Fix linter and includes",
-            "number": 12410,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fixing histogram names",
+            "number": 12421,
             "author": {
-              "login": "mhemmer-cern"
+              "login": "dajones2"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/compconvbuilder.cxx"
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]
@@ -3096,16 +3096,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] add a trigger",
-            "number": 12420,
+            "title": "[PWGHF] taskFlow.cxx: Add the use of reassociated MFT tracks for same event",
+            "number": 12327,
             "author": {
-              "login": "dsekihat"
+              "login": "AlexianL"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
                   }
                 }
               ]
@@ -3125,7 +3125,27 @@
               "edges": [
                 {
                   "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseMath.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniverseDebugV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackNucleus.cxx"
                   }
                 },
                 {
