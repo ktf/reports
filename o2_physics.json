@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-02T07:26:57Z",
-            "title": "[PWGLF] adding sign for two particle polarization",
-            "number": 12368,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-02T07:23:17Z",
-            "title": "[PWGEM/Dilepton] update on dphiPosition",
-            "number": 12389,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DielectronCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/PhotonHBT.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/vpPairQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/vpPairQCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-02T11:55:51Z",
             "title": "[PWGCF] add global vs multV0A cut in di-hadron",
             "number": 12393,
@@ -3106,6 +3026,81 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/GlobalEventProperties/uccZdc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add D*pi channel in B0 reduced workflow",
+            "number": 12451,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorB0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskB0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorDstarToD0Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Add more qa of ml use to otf multi-charm task",
+            "number": 12452,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-multicharmTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-multicharm.cxx"
                   }
                 }
               ]
