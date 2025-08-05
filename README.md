@@ -54,6 +54,7 @@
 - [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
+- [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#14153](https://github.com/AliceO2Group/AliceO2/pull/14153) 2025-07-24: MFT: read track covariances from AO2Ds by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14493](https://github.com/AliceO2Group/AliceO2/pull/14493) 2025-07-09: DPL: fixes for dependency checks of devices with sporadic inputs in TopologyPolicy by [@ehellbar](https://github.com/ehellbar)
