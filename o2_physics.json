@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-01T11:59:21Z",
-            "title": "[PWGHF] Z: Add eta and dE/dx axes. Add electron momentum correction factor.",
-            "number": 12303,
-            "author": {
-              "login": "sashingo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-01T12:04:58Z",
             "title": "[PWGHF] D+: Add dependence on PV contributors to thnsparse",
             "number": 12230,
@@ -1151,26 +1131,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-04T07:19:38Z",
-            "title": "[Trigger,PWGEM] fix std",
-            "number": 12372,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGEM/EMPhotonFilter.cxx"
                   }
                 }
               ]
@@ -3046,6 +3006,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF,PWGHF] Add a task for p-Dplus correlations in femtodream",
+            "number": 12102,
+            "author": {
+              "login": "Yunfan-Liu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Adding Dstar spin alignment in jet analysis task ",
             "number": 12436,
             "author": {
@@ -3086,36 +3086,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF,PWGHF] Add a task for p-Dplus correlations in femtodream",
-            "number": 12102,
+            "title": "[PWGCF] FemtoUniverse: Fixing bug in CPR calc. in mixed events",
+            "number": 12437,
             "author": {
-              "login": "Yunfan-Liu"
+              "login": "prchakra"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-04T07:19:38Z",
+            "title": "[Trigger,PWGEM] fix std",
+            "number": 12372,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Core/femtoDreamUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/femtoDreamProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
+                    "path": "EventFiltering/PWGEM/EMPhotonFilter.cxx"
                   }
                 }
               ]
