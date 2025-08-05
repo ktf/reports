@@ -1049,31 +1049,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGHF] Add photon safety layer to strangeness getters",
-            "number": 12271,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-01T22:22:23Z",
             "title": "[PWGJE,EMCAL-670] Fix emcalcorrectiontask when running over JJ MC",
@@ -2475,36 +2450,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-04T08:53:37Z",
-            "title": "[PWGJE] Trigger+ Multiplicity+ LeadingConstituentCuts+ Modified MCCollision Matching + QA Split vertices + Zorro",
-            "number": 12385,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-31T14:45:39Z",
             "title": "[PWGCF] Fix bug in defining QA/EventHist",
             "number": 12322,
@@ -2886,31 +2831,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add CFMultiplicitySet to support multiple auxilary multiplicities/centralities",
-            "number": 12425,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] More histograms Nch vs T0M and V0A (Poisson samp)",
             "number": 12430,
             "author": {
@@ -3091,6 +3011,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] add ITSChi2 information for daughter tracks",
+            "number": 12432,
+            "author": {
+              "login": "zhengqi-w"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] taskFlow.cxx: Add the use of reassociated MFT tracks for same event",
+            "number": 12327,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGHF] Add photon safety layer to strangeness getters",
+            "number": 12271,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF,PWGHF] Add a task for p-Dplus correlations in femtodream",
             "number": 12102,
             "author": {
@@ -3131,21 +3121,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] add ITSChi2 information for daughter tracks",
-            "number": 12432,
+            "title": "[PWGCF] Add CFMultiplicitySet to support multiple auxilary multiplicities/centralities",
+            "number": 12425,
             "author": {
-              "login": "zhengqi-w"
+              "login": "jaelpark"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
                   }
                 }
               ]
@@ -3154,18 +3144,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] taskFlow.cxx: Add the use of reassociated MFT tracks for same event",
-            "number": 12327,
+            "state": "MERGED",
+            "mergedAt": "2025-08-04T08:53:37Z",
+            "title": "[PWGJE] Trigger+ Multiplicity+ LeadingConstituentCuts+ Modified MCCollision Matching + QA Split vertices + Zorro",
+            "number": 12385,
             "author": {
-              "login": "AlexianL"
+              "login": "Archita-Dash"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
                   }
                 }
               ]
