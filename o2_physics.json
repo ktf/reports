@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-01T16:36:54Z",
-            "title": "[PWGJE] Removing random track historam",
-            "number": 12360,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-01T16:38:03Z",
-            "title": "[PWGJE] Change the method for measuring energy loss outside the jet",
-            "number": 12326,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-01T18:29:21Z",
             "title": "[PWGLF] Fix memory issues",
             "number": 12373,
@@ -2941,51 +2901,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF,PWGJE] Adding Dstar spin alignment in jet analysis task",
-            "number": 12436,
-            "author": {
-              "login": "Mingze129"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/DerivedTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFJ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFJ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFJ/Tasks/taskDstarPolarisationInJet.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetHFUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] ML response for DQ-analysis selections",
             "number": 12169,
             "author": {
@@ -3056,6 +2971,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Fixing bug in CPR calc. in mixed events",
+            "number": 12437,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] ESE flow task for GFW",
+            "number": 12440,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowGfwEse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE,EMCAL-670] Fix MCParticle check in taskEmcExtensiveMcQa.cxx",
+            "number": 12441,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/taskEmcExtensiveMcQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF,PWGHF] Add a task for p-Dplus correlations in femtodream",
             "number": 12102,
             "author": {
@@ -3096,16 +3076,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Fixing bug in CPR calc. in mixed events",
-            "number": 12437,
+            "title": "[PWGJE] add scaled multiplicity",
+            "number": 12442,
             "author": {
-              "login": "prchakra"
+              "login": "KotliarovAr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                    "path": "PWGJE/Tasks/recoilJets.cxx"
                   }
                 }
               ]
@@ -3116,21 +3096,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] ESE flow task for GFW",
-            "number": 12440,
+            "title": "[PWGHF,PWGJE] Adding Dstar spin alignment in jet analysis task",
+            "number": 12436,
             "author": {
-              "login": "joachimckh"
+              "login": "Mingze129"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                    "path": "PWGHF/DataModel/DerivedTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwEse.cxx"
+                    "path": "PWGHF/HFJ/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFJ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFJ/Tasks/taskDstarPolarisationInJet.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetHFUtilities.h"
                   }
                 }
               ]
