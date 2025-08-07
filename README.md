@@ -58,7 +58,6 @@
 ## Recent developments in O2 - Framework
 - [\#14153](https://github.com/AliceO2Group/AliceO2/pull/14153) 2025-07-24: MFT: read track covariances from AO2Ds by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
-- [\#14499](https://github.com/AliceO2Group/AliceO2/pull/14499) 2025-07-10: explicit call to Sumw2 (cosmetic only) by [@jgrosseo](https://github.com/jgrosseo)
 - [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 - [\#14513](https://github.com/AliceO2Group/AliceO2/pull/14513) 2025-07-15: DPL: drop unneeded headers. by [@ktf](https://github.com/ktf)
 - [\#14518](https://github.com/AliceO2Group/AliceO2/pull/14518) 2025-07-18: DPL: move topological sort in a separate file by [@ktf](https://github.com/ktf)
