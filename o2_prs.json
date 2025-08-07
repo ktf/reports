@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-09T19:54:21Z",
-            "title": "DPL: fixes for dependency checks of devices with sporadic inputs in TopologyPolicy",
-            "number": 14493,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TopologyPolicy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-10T20:20:57Z",
             "title": "explicit call to Sumw2 (cosmetic only)",
             "number": 14499,
@@ -4307,6 +4287,31 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-07T13:40:45Z",
+            "title": "Get rid of C++ extension warning",
+            "number": 14559,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -4339,8 +4344,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Get rid of C++ extension warning",
-            "number": 14559,
+            "title": "DPL CCDB: avoid duplicated code",
+            "number": 14560,
             "author": {
               "login": "ktf"
             },
@@ -4348,12 +4353,42 @@
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InfoLogger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Parallel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_RegionInfoCallbackService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Services.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TimePipeline.cxx"
                   }
                 }
               ]
