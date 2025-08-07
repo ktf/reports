@@ -10,7 +10,6 @@
 - [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 - [\#14530](https://github.com/AliceO2Group/AliceO2/pull/14530) 2025-07-28: NN clusterizer: Bug-fixes and adding deterministic mode by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
-- [\#14406](https://github.com/AliceO2Group/AliceO2/pull/14406) 2025-07-09: New methods to query AggregatedRunInfo for MC by [@sawenzel](https://github.com/sawenzel)
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
 - [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
