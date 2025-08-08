@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-02T04:26:50Z",
-            "title": "[PWGEM/Dilepton] update treeCreatorElectronMLDDA.cxx",
-            "number": 12380,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-02T00:30:45Z",
             "title": "[PWGEM/Dilepton] update 2PC",
             "number": 12379,
@@ -2481,6 +2461,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Fix TOF PID selection and decay mode check for hypertriton kink analysis",
+            "number": 12500,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Apply TOF only if available + add different centrality estimators",
+            "number": 12498,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM/Dilepton] reduce charged track size",
             "number": 12497,
             "author": {
@@ -2516,16 +2536,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix TOF PID selection and decay mode check for hypertriton kink analysis",
-            "number": 12500,
+            "title": "[PWGEM/Dilepton] swap axes for visualization",
+            "number": 12502,
             "author": {
-              "login": "wang-yuanzhe"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/DiphotonHadronMPC.h"
                   }
                 }
               ]
@@ -2551,26 +2576,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/mcGeneratorStudies.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Apply TOF only if available + add different centrality estimators",
-            "number": 12498,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
                   }
                 }
               ]
