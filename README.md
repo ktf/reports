@@ -29,7 +29,6 @@
 - [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
 - [\#14496](https://github.com/AliceO2Group/AliceO2/pull/14496) 2025-07-11: ITS: Vertexer return early and only one arena by [@f3sch](https://github.com/f3sch)
 - [\#14497](https://github.com/AliceO2Group/AliceO2/pull/14497) 2025-07-11: ITS: remove some printing by [@f3sch](https://github.com/f3sch)
-- [\#14498](https://github.com/AliceO2Group/AliceO2/pull/14498) 2025-07-11: ITS: fix seeding vertex labels by [@f3sch](https://github.com/f3sch)
 - [\#14502](https://github.com/AliceO2Group/AliceO2/pull/14502) 2025-07-12: ITS: add truth seeding by [@f3sch](https://github.com/f3sch)
 - [\#14504](https://github.com/AliceO2Group/AliceO2/pull/14504) 2025-07-18: ITS: cleanup unused classes by [@f3sch](https://github.com/f3sch)
 - [\#14507](https://github.com/AliceO2Group/AliceO2/pull/14507) 2025-07-14: ITS: opt. vertex cont. output by [@f3sch](https://github.com/f3sch)
