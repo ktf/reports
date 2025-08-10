@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-11T12:20:38Z",
-            "title": "TrackReference: possibility to have unknown DetectorID",
-            "number": 14495,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/TrackReference.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/StandardSteppingTrackRefHook.macro"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-11T08:50:06Z",
-            "title": "GPU: Use warp barriers in ZS decoder.",
-            "number": 14489,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/CfUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-11T13:23:15Z",
             "title": "AOD: TrackQA use outer ITS ref. for residuals to TPC",
             "number": 14492,
@@ -4349,6 +4289,61 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve error message",
+            "number": 14566,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WIP DPL Analysis: centralised CCDB support in analysis",
+            "number": 14567,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestAnalysisCCDB.cxx"
                   }
                 }
               ]
