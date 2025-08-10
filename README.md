@@ -43,6 +43,7 @@
 - [\#14555](https://github.com/AliceO2Group/AliceO2/pull/14555) 2025-08-04: ITS: GPU fix deltaROF tracking by [@f3sch](https://github.com/f3sch)
 - [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
 - [\#14563](https://github.com/AliceO2Group/AliceO2/pull/14563) 2025-08-09: ITS: GPU: better use of streams by [@f3sch](https://github.com/f3sch)
+- [\#14568](https://github.com/AliceO2Group/AliceO2/pull/14568) 2025-08-10: Fix TimingInfo.timeslice vs DPH.startTime mismatch by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
