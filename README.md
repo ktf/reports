@@ -1,19 +1,15 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Common
 - [\#14377](https://github.com/AliceO2Group/AliceO2/pull/14377) 2025-07-23: Added Lambda1520 PDG code to PhysicsConstants.h by [@hkoley](https://github.com/hkoley)
 - [\#14462](https://github.com/AliceO2Group/AliceO2/pull/14462) 2025-07-17: TPCFastTransformation: Resolve recursion at compile time with templates. by [@fweig](https://github.com/fweig)
-- [\#14489](https://github.com/AliceO2Group/AliceO2/pull/14489) 2025-07-11: GPU: Use warp barriers in ZS decoder. by [@fweig](https://github.com/fweig)
 - [\#14530](https://github.com/AliceO2Group/AliceO2/pull/14530) 2025-07-28: NN clusterizer: Bug-fixes and adding deterministic mode by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
-- [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
@@ -23,10 +19,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
-- [\#14491](https://github.com/AliceO2Group/AliceO2/pull/14491) 2025-07-11: ITS: fix TypedAllocator for cuda thrust by [@f3sch](https://github.com/f3sch)
-- [\#14492](https://github.com/AliceO2Group/AliceO2/pull/14492) 2025-07-11: AOD: TrackQA use outer ITS ref. for residuals to TPC by [@f3sch](https://github.com/f3sch)
-- [\#14495](https://github.com/AliceO2Group/AliceO2/pull/14495) 2025-07-11: TrackReference: possibility to have unknown DetectorID by [@sawenzel](https://github.com/sawenzel)
-- [\#14497](https://github.com/AliceO2Group/AliceO2/pull/14497) 2025-07-11: ITS: remove some printing by [@f3sch](https://github.com/f3sch)
 - [\#14502](https://github.com/AliceO2Group/AliceO2/pull/14502) 2025-07-12: ITS: add truth seeding by [@f3sch](https://github.com/f3sch)
 - [\#14504](https://github.com/AliceO2Group/AliceO2/pull/14504) 2025-07-18: ITS: cleanup unused classes by [@f3sch](https://github.com/f3sch)
 - [\#14507](https://github.com/AliceO2Group/AliceO2/pull/14507) 2025-07-14: ITS: opt. vertex cont. output by [@f3sch](https://github.com/f3sch)
