@@ -19,7 +19,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
-- [\#14502](https://github.com/AliceO2Group/AliceO2/pull/14502) 2025-07-12: ITS: add truth seeding by [@f3sch](https://github.com/f3sch)
 - [\#14504](https://github.com/AliceO2Group/AliceO2/pull/14504) 2025-07-18: ITS: cleanup unused classes by [@f3sch](https://github.com/f3sch)
 - [\#14507](https://github.com/AliceO2Group/AliceO2/pull/14507) 2025-07-14: ITS: opt. vertex cont. output by [@f3sch](https://github.com/f3sch)
 - [\#14508](https://github.com/AliceO2Group/AliceO2/pull/14508) 2025-07-14: ITS: Vertexer remove unused code by [@f3sch](https://github.com/f3sch)
