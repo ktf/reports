@@ -43,6 +43,7 @@
 - [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
 - [\#14563](https://github.com/AliceO2Group/AliceO2/pull/14563) 2025-08-09: ITS: GPU: better use of streams by [@f3sch](https://github.com/f3sch)
 - [\#14568](https://github.com/AliceO2Group/AliceO2/pull/14568) 2025-08-10: Fix TimingInfo.timeslice vs DPH.startTime mismatch by [@shahor02](https://github.com/shahor02)
+- [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
@@ -65,3 +66,4 @@
 - [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
+- [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
