@@ -59,6 +59,7 @@
 - [\#14561](https://github.com/AliceO2Group/AliceO2/pull/14561) 2025-08-08: DPL CCDB: move helper initialisation to a separate function by [@ktf](https://github.com/ktf)
 - [\#14562](https://github.com/AliceO2Group/AliceO2/pull/14562) 2025-08-08: DPL Analysis: add support for BinaryView columns by [@ktf](https://github.com/ktf)
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
+- [\#14576](https://github.com/AliceO2Group/AliceO2/pull/14576) 2025-08-12: DPL: add C++20 ranges views to filter vectors of InputSpecs / OutputSpecs by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
