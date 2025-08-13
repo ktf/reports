@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-07T20:19:16Z",
-            "title": "[PWGJE] V0 QA:",
-            "number": 12479,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/v0QA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-07T21:07:49Z",
-            "title": "[PWGLF] added function to study pd correlation",
-            "number": 12470,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-07T22:18:15Z",
             "title": "[PWGLF] Fix minor linter issues",
             "number": 12481,
@@ -2879,6 +2839,76 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add TOF Response parameters as a service",
+            "number": 11872,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Centrality changes in Lc correlator, Correlation task",
+            "number": 11724,
+            "author": {
+              "login": "zeptotera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
                   }
                 }
               ]
