@@ -42,6 +42,7 @@
 - [\#14564](https://github.com/AliceO2Group/AliceO2/pull/14564) 2025-08-12: MCH: improvements to the pedestal calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14568](https://github.com/AliceO2Group/AliceO2/pull/14568) 2025-08-10: Fix TimingInfo.timeslice vs DPH.startTime mismatch by [@shahor02](https://github.com/shahor02)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
+- [\#14574](https://github.com/AliceO2Group/AliceO2/pull/14574) 2025-08-13: Ctpdev: reducing logs in run manager by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
