@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
-- [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Common
 - [\#14377](https://github.com/AliceO2Group/AliceO2/pull/14377) 2025-07-23: Added Lambda1520 PDG code to PhysicsConstants.h by [@hkoley](https://github.com/hkoley)
 - [\#14462](https://github.com/AliceO2Group/AliceO2/pull/14462) 2025-07-17: TPCFastTransformation: Resolve recursion at compile time with templates. by [@fweig](https://github.com/fweig)
@@ -52,7 +51,6 @@
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14455](https://github.com/AliceO2Group/AliceO2/pull/14455) 2025-08-08: DPL Analysis: fix hash calculation for the string_views by [@aalkin](https://github.com/aalkin)
 - [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
-- [\#14503](https://github.com/AliceO2Group/AliceO2/pull/14503) 2025-07-15: Add missing TPCNClsPID dynamic columns by [@mpuccio](https://github.com/mpuccio)
 - [\#14513](https://github.com/AliceO2Group/AliceO2/pull/14513) 2025-07-15: DPL: drop unneeded headers. by [@ktf](https://github.com/ktf)
 - [\#14518](https://github.com/AliceO2Group/AliceO2/pull/14518) 2025-07-18: DPL: move topological sort in a separate file by [@ktf](https://github.com/ktf)
 - [\#14523](https://github.com/AliceO2Group/AliceO2/pull/14523) 2025-07-18: DPL: get rid of gsl::span. by [@ktf](https://github.com/ktf)

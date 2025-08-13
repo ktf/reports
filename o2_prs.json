@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-15T11:49:12Z",
-            "title": "Add missing TPCNClsPID dynamic columns",
-            "number": 14503,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Merge noise branch",
@@ -4202,6 +4182,26 @@
         },
         {
           "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: make addInputs support anything which provides base_specs",
+            "number": 14575,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-13T09:55:27Z",
             "title": "Ctpdev: reducing logs in run manager",
@@ -4234,8 +4234,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: make addInputs support anything which provides base_specs",
-            "number": 14575,
+            "title": "DPL: add benchmark for stack creation",
+            "number": 14579,
             "author": {
               "login": "ktf"
             },
@@ -4243,7 +4243,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_Stack.cxx"
                   }
                 }
               ]
@@ -4264,6 +4269,16 @@
                 {
                   "node": {
                     "path": "DataFormats/Headers/include/Headers/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_Stack.cxx"
                   }
                 }
               ]
