@@ -4,20 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Merge noise branch",
-            "number": 14512,
-            "author": {
-              "login": "nivram-phy"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-07-15T15:08:01Z",
             "title": "HepMC: Remove default backgrounding mode",
@@ -4269,6 +4255,31 @@
                 {
                   "node": {
                     "path": "doc/data/2025-08-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make sure extra tracks are randomized to avoid PHOS hole losses",
+            "number": 14580,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
                   }
                 }
               ]
