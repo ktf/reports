@@ -64,6 +64,7 @@
 - [\#14561](https://github.com/AliceO2Group/AliceO2/pull/14561) 2025-08-08: DPL CCDB: move helper initialisation to a separate function by [@ktf](https://github.com/ktf)
 - [\#14562](https://github.com/AliceO2Group/AliceO2/pull/14562) 2025-08-08: DPL Analysis: add support for BinaryView columns by [@ktf](https://github.com/ktf)
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
+- [\#14571](https://github.com/AliceO2Group/AliceO2/pull/14571) 2025-08-14: DPL Analysis: use offset cache for sorted grouping by [@aalkin](https://github.com/aalkin)
 - [\#14576](https://github.com/AliceO2Group/AliceO2/pull/14576) 2025-08-12: DPL: add C++20 ranges views to filter vectors of InputSpecs / OutputSpecs by [@ktf](https://github.com/ktf)
 - [\#14579](https://github.com/AliceO2Group/AliceO2/pull/14579) 2025-08-13: DPL: add benchmark for stack creation by [@ktf](https://github.com/ktf)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
