@@ -52,7 +52,6 @@
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14455](https://github.com/AliceO2Group/AliceO2/pull/14455) 2025-08-08: DPL Analysis: fix hash calculation for the string_views by [@aalkin](https://github.com/aalkin)
 - [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
-- [\#14513](https://github.com/AliceO2Group/AliceO2/pull/14513) 2025-07-15: DPL: drop unneeded headers. by [@ktf](https://github.com/ktf)
 - [\#14518](https://github.com/AliceO2Group/AliceO2/pull/14518) 2025-07-18: DPL: move topological sort in a separate file by [@ktf](https://github.com/ktf)
 - [\#14523](https://github.com/AliceO2Group/AliceO2/pull/14523) 2025-07-18: DPL: get rid of gsl::span. by [@ktf](https://github.com/ktf)
 - [\#14527](https://github.com/AliceO2Group/AliceO2/pull/14527) 2025-07-19: DPL: out of line metrics related methods by [@ktf](https://github.com/ktf)
@@ -62,8 +61,6 @@
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
 - [\#14576](https://github.com/AliceO2Group/AliceO2/pull/14576) 2025-08-12: DPL: add C++20 ranges views to filter vectors of InputSpecs / OutputSpecs by [@ktf](https://github.com/ktf)
 - [\#14579](https://github.com/AliceO2Group/AliceO2/pull/14579) 2025-08-13: DPL: add benchmark for stack creation by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#14514](https://github.com/AliceO2Group/AliceO2/pull/14514) 2025-07-15: HepMC: Remove default backgrounding mode by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
