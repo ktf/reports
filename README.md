@@ -17,6 +17,7 @@
 - [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
 - [\#14578](https://github.com/AliceO2Group/AliceO2/pull/14578) 2025-08-13: Data Model: provide size when deallocating a Stack by [@ktf](https://github.com/ktf)
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
+- [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
@@ -46,6 +47,7 @@
 - [\#14574](https://github.com/AliceO2Group/AliceO2/pull/14574) 2025-08-13: Ctpdev: reducing logs in run manager by [@lietava](https://github.com/lietava)
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 - [\#14583](https://github.com/AliceO2Group/AliceO2/pull/14583) 2025-08-14: ITS: add common vertex definition and neighbours per road by [@f3sch](https://github.com/f3sch)
+- [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
@@ -64,6 +66,7 @@
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
 - [\#14576](https://github.com/AliceO2Group/AliceO2/pull/14576) 2025-08-12: DPL: add C++20 ranges views to filter vectors of InputSpecs / OutputSpecs by [@ktf](https://github.com/ktf)
 - [\#14579](https://github.com/AliceO2Group/AliceO2/pull/14579) 2025-08-13: DPL: add benchmark for stack creation by [@ktf](https://github.com/ktf)
+- [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
