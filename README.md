@@ -16,6 +16,7 @@
 - [\#14547](https://github.com/AliceO2Group/AliceO2/pull/14547) 2025-07-29: DataFormats: Add V0Type by [@f3sch](https://github.com/f3sch)
 - [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
 - [\#14578](https://github.com/AliceO2Group/AliceO2/pull/14578) 2025-08-13: Data Model: provide size when deallocating a Stack by [@ktf](https://github.com/ktf)
+- [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
@@ -43,6 +44,7 @@
 - [\#14568](https://github.com/AliceO2Group/AliceO2/pull/14568) 2025-08-10: Fix TimingInfo.timeslice vs DPH.startTime mismatch by [@shahor02](https://github.com/shahor02)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14574](https://github.com/AliceO2Group/AliceO2/pull/14574) 2025-08-13: Ctpdev: reducing logs in run manager by [@lietava](https://github.com/lietava)
+- [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
