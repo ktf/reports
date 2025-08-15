@@ -21,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
-- [\#14504](https://github.com/AliceO2Group/AliceO2/pull/14504) 2025-07-18: ITS: cleanup unused classes by [@f3sch](https://github.com/f3sch)
 - [\#14511](https://github.com/AliceO2Group/AliceO2/pull/14511) 2025-07-21: ITS: cleanup lines and tracklet/clusterlines changes by [@f3sch](https://github.com/f3sch)
 - [\#14515](https://github.com/AliceO2Group/AliceO2/pull/14515) 2025-07-18: Propagating merged noise map to DCS by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
