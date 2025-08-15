@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-26T08:33:36Z",
-            "title": "NN clusterizer: Cleanup + fix for cluster flag setting",
-            "number": 14445,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-18T10:46:54Z",
             "title": "DPL: get rid of gsl::span.",
             "number": 14523,
@@ -4440,6 +4415,26 @@
                 {
                   "node": {
                     "path": "doc/data/2025-08-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: don't print INVALID runNumber error when running with ALICE_O2_FST=1",
+            "number": 14591,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]
