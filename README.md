@@ -25,7 +25,6 @@
 - [\#14511](https://github.com/AliceO2Group/AliceO2/pull/14511) 2025-07-21: ITS: cleanup lines and tracklet/clusterlines changes by [@f3sch](https://github.com/f3sch)
 - [\#14515](https://github.com/AliceO2Group/AliceO2/pull/14515) 2025-07-18: Propagating merged noise map to DCS by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
-- [\#14519](https://github.com/AliceO2Group/AliceO2/pull/14519) 2025-07-17: Extend run-time-span-file and invert-irframe-selection TF selections … by [@shahor02](https://github.com/shahor02)
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14526](https://github.com/AliceO2Group/AliceO2/pull/14526) 2025-07-18: TPC: Avoid using deprecated fmt::localtime by [@davidrohr](https://github.com/davidrohr)
 - [\#14528](https://github.com/AliceO2Group/AliceO2/pull/14528) 2025-07-30: Account for TPC clusters non-monotonous sorting by [@shahor02](https://github.com/shahor02)
