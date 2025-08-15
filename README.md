@@ -48,6 +48,7 @@
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 - [\#14583](https://github.com/AliceO2Group/AliceO2/pull/14583) 2025-08-14: ITS: add common vertex definition and neighbours per road by [@f3sch](https://github.com/f3sch)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
+- [\#14589](https://github.com/AliceO2Group/AliceO2/pull/14589) 2025-08-15: Fix in TRD sector getter by [@shahor02](https://github.com/shahor02)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
