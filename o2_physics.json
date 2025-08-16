@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-11T06:05:05Z",
-            "title": "[PWGLF] Fix TOF PID selection and decay mode check for hypertriton kink analysis",
-            "number": 12500,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-11T06:05:47Z",
             "title": "[PWGLF] Add new table to store lambda variables for longitudinal polarization",
             "number": 12486,
@@ -3190,6 +3170,36 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add single track vars and MC validation for Bs meson",
+            "number": 12598,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskB0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
                   }
                 }
               ]
