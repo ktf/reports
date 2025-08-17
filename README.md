@@ -11,7 +11,6 @@
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
-- [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14537](https://github.com/AliceO2Group/AliceO2/pull/14537) 2025-07-23: Fix alignment so that jemalloc / address sanitizer do no complain by [@ktf](https://github.com/ktf)
 - [\#14547](https://github.com/AliceO2Group/AliceO2/pull/14547) 2025-07-29: DataFormats: Add V0Type by [@f3sch](https://github.com/f3sch)
 - [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
@@ -23,10 +22,7 @@
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
 - [\#14511](https://github.com/AliceO2Group/AliceO2/pull/14511) 2025-07-21: ITS: cleanup lines and tracklet/clusterlines changes by [@f3sch](https://github.com/f3sch)
-- [\#14515](https://github.com/AliceO2Group/AliceO2/pull/14515) 2025-07-18: Propagating merged noise map to DCS by [@nivram-phy](https://github.com/nivram-phy)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
-- [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
-- [\#14526](https://github.com/AliceO2Group/AliceO2/pull/14526) 2025-07-18: TPC: Avoid using deprecated fmt::localtime by [@davidrohr](https://github.com/davidrohr)
 - [\#14528](https://github.com/AliceO2Group/AliceO2/pull/14528) 2025-07-30: Account for TPC clusters non-monotonous sorting by [@shahor02](https://github.com/shahor02)
 - [\#14531](https://github.com/AliceO2Group/AliceO2/pull/14531) 2025-07-22: ITS: print deltaRof option by [@f3sch](https://github.com/f3sch)
 - [\#14532](https://github.com/AliceO2Group/AliceO2/pull/14532) 2025-07-22: ITS: fix opt. label output if firstOrbit!=0 by [@f3sch](https://github.com/f3sch)
@@ -50,7 +46,6 @@
 - [\#14589](https://github.com/AliceO2Group/AliceO2/pull/14589) 2025-08-15: Fix in TRD sector getter by [@shahor02](https://github.com/shahor02)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
-- [\#14524](https://github.com/AliceO2Group/AliceO2/pull/14524) 2025-07-18: [CleanUp] Add fully qualified names for std::string and std::map by [@mrtineide](https://github.com/mrtineide)
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#14153](https://github.com/AliceO2Group/AliceO2/pull/14153) 2025-07-24: MFT: read track covariances from AO2Ds by [@aferrero2707](https://github.com/aferrero2707)
