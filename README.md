@@ -53,7 +53,6 @@
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14455](https://github.com/AliceO2Group/AliceO2/pull/14455) 2025-08-08: DPL Analysis: fix hash calculation for the string_views by [@aalkin](https://github.com/aalkin)
 - [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
-- [\#14527](https://github.com/AliceO2Group/AliceO2/pull/14527) 2025-07-19: DPL: out of line metrics related methods by [@ktf](https://github.com/ktf)
 - [\#14545](https://github.com/AliceO2Group/AliceO2/pull/14545) 2025-07-26: Fix coding rule violation by [@davidrohr](https://github.com/davidrohr)
 - [\#14561](https://github.com/AliceO2Group/AliceO2/pull/14561) 2025-08-08: DPL CCDB: move helper initialisation to a separate function by [@ktf](https://github.com/ktf)
 - [\#14562](https://github.com/AliceO2Group/AliceO2/pull/14562) 2025-08-08: DPL Analysis: add support for BinaryView columns by [@ktf](https://github.com/ktf)
