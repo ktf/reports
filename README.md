@@ -46,6 +46,7 @@
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 - [\#14589](https://github.com/AliceO2Group/AliceO2/pull/14589) 2025-08-15: Fix in TRD sector getter by [@shahor02](https://github.com/shahor02)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
+- [\#14599](https://github.com/AliceO2Group/AliceO2/pull/14599) 2025-08-18: Revert "Fix in TRD sector getter" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
