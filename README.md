@@ -22,7 +22,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14424](https://github.com/AliceO2Group/AliceO2/pull/14424) 2025-07-21: IWYU: TimeDeadMap.h by [@vkucera](https://github.com/vkucera)
-- [\#14511](https://github.com/AliceO2Group/AliceO2/pull/14511) 2025-07-21: ITS: cleanup lines and tracklet/clusterlines changes by [@f3sch](https://github.com/f3sch)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14528](https://github.com/AliceO2Group/AliceO2/pull/14528) 2025-07-30: Account for TPC clusters non-monotonous sorting by [@shahor02](https://github.com/shahor02)
 - [\#14531](https://github.com/AliceO2Group/AliceO2/pull/14531) 2025-07-22: ITS: print deltaRof option by [@f3sch](https://github.com/f3sch)
@@ -70,6 +69,7 @@
 - [\#14579](https://github.com/AliceO2Group/AliceO2/pull/14579) 2025-08-13: DPL: add benchmark for stack creation by [@ktf](https://github.com/ktf)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 - [\#14588](https://github.com/AliceO2Group/AliceO2/pull/14588) 2025-08-15: DPL: add more views on InputSpecs / OutputSpecs / DataProcessors by [@ktf](https://github.com/ktf)
+- [\#14591](https://github.com/AliceO2Group/AliceO2/pull/14591) 2025-08-19: DPL: don't print INVALID runNumber error when running with ALICE_O2_FST=1 by [@ehellbar](https://github.com/ehellbar)
 - [\#14598](https://github.com/AliceO2Group/AliceO2/pull/14598) 2025-08-18: DPL Analysis: support configurables in string expressions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
