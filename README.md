@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
+- [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14377](https://github.com/AliceO2Group/AliceO2/pull/14377) 2025-07-23: Added Lambda1520 PDG code to PhysicsConstants.h by [@hkoley](https://github.com/hkoley)
 - [\#14530](https://github.com/AliceO2Group/AliceO2/pull/14530) 2025-07-28: NN clusterizer: Bug-fixes and adding deterministic mode by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -62,6 +63,7 @@
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
 - [\#14571](https://github.com/AliceO2Group/AliceO2/pull/14571) 2025-08-14: DPL Analysis: use offset cache for sorted grouping by [@aalkin](https://github.com/aalkin)
+- [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 - [\#14576](https://github.com/AliceO2Group/AliceO2/pull/14576) 2025-08-12: DPL: add C++20 ranges views to filter vectors of InputSpecs / OutputSpecs by [@ktf](https://github.com/ktf)
 - [\#14579](https://github.com/AliceO2Group/AliceO2/pull/14579) 2025-08-13: DPL: add benchmark for stack creation by [@ktf](https://github.com/ktf)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)

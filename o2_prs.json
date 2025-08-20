@@ -2918,41 +2918,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL CCDB: move helper class to shared header",
-            "number": 14593,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-18T15:04:52Z",
             "title": "Revert \"Fix in TRD sector getter\"",
@@ -3890,26 +3855,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "tpcdigits.root readout",
+            "number": 14604,
             "author": {
-              "login": "github-actions"
+              "login": "ChSonnabend"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2025-08-o2_prs.json"
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDigitRootWriterSpec.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2025-08-o2_releases.json"
+                    "path": "Detectors/TPC/workflow/src/ChunkedDigitPublisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCDigitRootWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
                   }
                 }
               ]
@@ -3920,8 +3900,28 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: make addInputs support anything which provides base_specs",
-            "number": 14575,
+            "title": "GPU CMake: Force using alidist GCC for host compilation of CUDA/HIP code",
+            "number": 14581,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WIP DPL Analysis: centralised CCDB support in analysis",
+            "number": 14567,
             "author": {
               "login": "ktf"
             },
@@ -3929,7 +3929,97 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Framework/CCDBSupport/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/test/test_CCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestAnalysisCCDB.cxx"
                   }
                 }
               ]
@@ -3940,8 +4030,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Actually working",
-            "number": 14567,
+            "title": "DPL: adapt reconstruction CCDB Fetcher to use the new CCDBFetcherHelper",
+            "number": 14593,
             "author": {
               "login": "ktf"
             },
@@ -4053,43 +4143,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "tpcdigits.root readout",
-            "number": 14604,
+            "state": "MERGED",
+            "mergedAt": "2025-08-20T14:04:38Z",
+            "title": "DPL: make addInputs support anything which provides base_specs",
+            "number": 14575,
             "author": {
-              "login": "ChSonnabend"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDigitRootWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ChunkedDigitPublisher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCDigitRootWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
                   }
                 }
               ]
@@ -4100,16 +4165,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU CMake: Force using alidist GCC for host compilation of CUDA/HIP code",
-            "number": 14581,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
             "author": {
-              "login": "davidrohr"
+              "login": "github-actions"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-08-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2025-08-o2_releases.json"
                   }
                 }
               ]
