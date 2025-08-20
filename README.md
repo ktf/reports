@@ -69,6 +69,7 @@
 - [\#14588](https://github.com/AliceO2Group/AliceO2/pull/14588) 2025-08-15: DPL: add more views on InputSpecs / OutputSpecs / DataProcessors by [@ktf](https://github.com/ktf)
 - [\#14591](https://github.com/AliceO2Group/AliceO2/pull/14591) 2025-08-19: DPL: don't print INVALID runNumber error when running with ALICE_O2_FST=1 by [@ehellbar](https://github.com/ehellbar)
 - [\#14598](https://github.com/AliceO2Group/AliceO2/pull/14598) 2025-08-18: DPL Analysis: support configurables in string expressions by [@aalkin](https://github.com/aalkin)
+- [\#14603](https://github.com/AliceO2Group/AliceO2/pull/14603) 2025-08-20: DPL Analysis: fix for retrieving placeholder nodes in filters parsed from strings by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
