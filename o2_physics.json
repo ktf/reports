@@ -2116,36 +2116,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add a variable of the generated particle to the tree for QA",
-            "number": 12627,
-            "author": {
-              "login": "JaeYoonCHO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] taskPi0FlowEMC.cxx: increase energy binning for calibration",
             "number": 12647,
             "author": {
@@ -2424,8 +2394,268 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-01T06:28:00Z",
+            "title": "[PWGLF] Fixed bug in the processing of cascades",
+            "number": 12354,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/LFTreeCreatorClusterStudies.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-07-30T19:09:14Z",
+            "title": "[PWGLF] Process MC allows to store hadron-he3 pairs that do not come from the li4 decay",
+            "number": 12324,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFhe3HadronTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] GNN-based b-jet tagging analysis code updated",
+            "number": 12644,
+            "author": {
+              "login": "choich08365"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] V0 Jet Finder",
+            "number": 12636,
+            "author": {
+              "login": "GijsvWeelden"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderHF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Reduce multiplicity correlations histogram size",
+            "number": 12651,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding Preslice to tracks and McParticles",
+            "number": 12624,
+            "author": {
+              "login": "samrangy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Modify the file to select polarization",
+            "number": 12645,
+            "author": {
+              "login": "CyF1rmiana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-20T11:13:20Z",
+            "title": "[PWGLF] Add shift correctionfor event plane calibration",
+            "number": 12630,
+            "author": {
+              "login": "ChiaraDeMartin95"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGHF/HFC]  Added one QA histogram for multiplicity distribution ",
+            "number": 12653,
+            "author": {
+              "login": "deependra170598"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDstarToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF/HFC] adding a new QA histogram for multiplicity",
+            "number": 12654,
+            "author": {
+              "login": "deependra170598"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
+            "number": 12652,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-20T12:16:59Z",
             "title": "[PWGJE] Adding Ds and Xic to jet framework",
             "number": 12640,
             "author": {
@@ -2669,43 +2899,28 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-01T06:28:00Z",
-            "title": "[PWGLF] Fixed bug in the processing of cascades",
-            "number": 12354,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add a variable of the generated particle to the tree for QA",
+            "number": 12627,
             "author": {
-              "login": "GiorgioAlbertoLucia"
+              "login": "JaeYoonCHO"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/LFTreeCreatorClusterStudies.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-07-30T19:09:14Z",
-            "title": "[PWGLF] Process MC allows to store hadron-he3 pairs that do not come from the li4 decay",
-            "number": 12324,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFhe3HadronTables.h"
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
                   }
                 }
               ]
@@ -2731,221 +2946,6 @@
                 {
                   "node": {
                     "path": "Common/Tools/TrackTuner.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] GNN-based b-jet tagging analysis code updated",
-            "number": 12644,
-            "author": {
-              "login": "choich08365"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] V0 Jet Finder",
-            "number": 12636,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderHF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Reduce multiplicity correlations histogram size",
-            "number": 12651,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding Preslice to tracks and McParticles",
-            "number": 12624,
-            "author": {
-              "login": "samrangy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Modify the file to select polarization",
-            "number": 12645,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-20T11:13:20Z",
-            "title": "[PWGLF] Add shift correctionfor event plane calibration",
-            "number": 12630,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGHF/HFC]  Added one QA histogram for multiplicity distribution ",
-            "number": 12653,
-            "author": {
-              "login": "deependra170598"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDstarToD0Pi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF/HFC] adding a new QA histogram for multiplicity",
-            "number": 12654,
-            "author": {
-              "login": "deependra170598"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
-            "number": 12652,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
                   }
                 }
               ]
