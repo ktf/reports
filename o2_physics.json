@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-14T09:46:14Z",
-            "title": "[PWGLF] Avoid initialize unused parameters while running over reduced hypertrition 3body candidates",
-            "number": 12571,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-14T16:15:28Z",
             "title": "[PWGLF] Optimised code and added new reconstructed MC function",
             "number": 12579,
@@ -2151,26 +2131,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Modify the file to select polarization",
-            "number": 12645,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Simulate hadron decay",
             "number": 12615,
             "author": {
@@ -2926,6 +2886,61 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
+            "number": 12652,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Modify the file to select polarization",
+            "number": 12645,
+            "author": {
+              "login": "CyF1rmiana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
                   }
                 }
               ]
