@@ -2421,36 +2421,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] V0 Jet Finder",
-            "number": 12636,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderHF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Reduce multiplicity correlations histogram size",
             "number": 12651,
             "author": {
@@ -2821,36 +2791,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add a variable of the generated particle to the tree for QA",
-            "number": 12627,
-            "author": {
-              "login": "JaeYoonCHO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Customize tmpDir for TrackTuner download accoding to track-propagation devices.",
             "number": 12650,
             "author": {
@@ -2891,6 +2831,71 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/hadronPhotonCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
+            "number": 12652,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add a variable of the generated particle to the tree for QA",
+            "number": 12627,
+            "author": {
+              "login": "JaeYoonCHO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
                   }
                 }
               ]
@@ -2999,33 +3004,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
-            "number": 12652,
+            "state": "MERGED",
+            "mergedAt": "2025-08-20T13:21:17Z",
+            "title": "[PWGJE] V0 Jet Finder",
+            "number": 12636,
             "author": {
-              "login": "fcatalan92"
+              "login": "GijsvWeelden"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                    "path": "PWGJE/JetFinders/jetFinder.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                    "path": "PWGJE/JetFinders/jetFinderHF.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                    "path": "PWGJE/JetFinders/jetFinderV0.cxx"
                   }
                 }
               ]
