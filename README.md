@@ -22,7 +22,6 @@
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14528](https://github.com/AliceO2Group/AliceO2/pull/14528) 2025-07-30: Account for TPC clusters non-monotonous sorting by [@shahor02](https://github.com/shahor02)
-- [\#14531](https://github.com/AliceO2Group/AliceO2/pull/14531) 2025-07-22: ITS: print deltaRof option by [@f3sch](https://github.com/f3sch)
 - [\#14532](https://github.com/AliceO2Group/AliceO2/pull/14532) 2025-07-22: ITS: fix opt. label output if firstOrbit!=0 by [@f3sch](https://github.com/f3sch)
 - [\#14533](https://github.com/AliceO2Group/AliceO2/pull/14533) 2025-07-22: ITS: add CheckDROF macro by [@f3sch](https://github.com/f3sch)
 - [\#14534](https://github.com/AliceO2Group/AliceO2/pull/14534) 2025-07-23: Eov for orbitreset by [@lietava](https://github.com/lietava)
