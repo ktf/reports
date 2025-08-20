@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-14T21:56:41Z",
-            "title": "[PWGCF] FemtoUniverse: Add hist. binnings for momentum as configurables",
-            "number": 12585,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-14T23:59:16Z",
             "title": "[PWGCF] FemtoUniverse:  Add fill function for misidentifications",
             "number": 12587,
@@ -2091,31 +2071,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Simulate hadron decay",
-            "number": 12615,
-            "author": {
-              "login": "pestratm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/hadronPhotonCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] taskPi0FlowEMC.cxx: increase energy binning for calibration",
             "number": 12647,
             "author": {
@@ -2619,41 +2574,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
-            "number": 12652,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-20T12:16:59Z",
             "title": "[PWGJE] Adding Ds and Xic to jet framework",
@@ -2946,6 +2866,166 @@
                 {
                   "node": {
                     "path": "Common/Tools/TrackTuner.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Simulate hadron decay",
+            "number": 12615,
+            "author": {
+              "login": "pestratm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/hadronPhotonCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] - FemtoDream: Implementing phi and K* particles in FemtoDream",
+            "number": 12655,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamDetaDphiStar.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamObjectSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamResoSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamResoSelectionKStar.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamTrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamV0SelectionK0Short.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskK0ShortKStar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTasknewv1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamDebugReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskV0Reso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Utils/femtoDreamCutCulator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Utils/femtoDreamCutCulator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Split PID tables for 2prong, 3prong, Dstar (DO NOT MERGE)",
+            "number": 12652,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
                   }
                 }
               ]
