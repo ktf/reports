@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-13T20:42:06Z",
-            "title": "[DPG] new configs for nITScls, isGoodStaves etc.",
-            "number": 12562,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-13T22:43:30Z",
-            "title": "[PWGLF] Added MID in MC",
-            "number": 12565,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-13T23:17:18Z",
             "title": "[PWGCF] DptDpt - RCT validation support",
             "number": 12572,
@@ -1744,36 +1704,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add a variable of the generated particle to the tree for QA",
-            "number": 12627,
-            "author": {
-              "login": "JaeYoonCHO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-18T23:34:11Z",
             "title": "[PWGLF] Fill histogram for efficiency correction",
@@ -2831,6 +2761,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGUD] add MC codes",
+            "number": 12484,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".pre-commit-config.yaml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding Preslice",
+            "number": 12624,
+            "author": {
+              "login": "samrangy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add a variable of the generated particle to the tree for QA",
+            "number": 12627,
+            "author": {
+              "login": "JaeYoonCHO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Added variables to dielectronsAll table",
             "number": 12646,
             "author": {
@@ -2871,6 +2876,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] adding correct binning single muons",
+            "number": 10554,
+            "author": {
+              "login": "victorvalenciatorres"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] GNN-based b-jet tagging analysis code updated",
             "number": 12644,
             "author": {
@@ -2896,41 +2921,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGUD] add MC codes",
-            "number": 12484,
+            "title": "[Benchmarks] Introduce analysis benhcmark tasks",
+            "number": 10840,
             "author": {
-              "login": "miedema-11"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": ".pre-commit-config.yaml"
+                    "path": "Benchmarks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                    "path": "Benchmarks/include/tables.h"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding Preslice",
-            "number": 12624,
-            "author": {
-              "login": "samrangy"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                    "path": "Benchmarks/src/produce-dynamic-extension-calib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Benchmarks/src/produce-dynamic-extension-func.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Benchmarks/src/produce-dynamic-extension.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Benchmarks/src/produce-expression-calib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Benchmarks/src/produce-expression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
                   }
                 }
               ]
