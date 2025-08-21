@@ -5,40 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-23T06:40:36Z",
-            "title": "Eov for orbitreset",
-            "number": 14534,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctp-ccdb-orbit.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Todo: Changed GPUd to GPUdii (Force Inline)",
-            "number": 14536,
-            "author": {
-              "login": "vikasssinghal"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-07-23T08:25:10Z",
             "title": "Added Lambda1520 PDG code to PhysicsConstants.h",
             "number": 14377,
@@ -3535,51 +3501,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "tpcdigits.root readout",
-            "number": 14604,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDigitRootWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ChunkedDigitPublisher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCDigitRootWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU CMake: Force using alidist GCC for host compilation of CUDA/HIP code",
             "number": 14581,
             "author": {
@@ -4350,6 +4271,131 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIPkernel.template.hip"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "tpcdigits.root readout",
+            "number": 14604,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDigitRootWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ChunkedDigitPublisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCDigitRootWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MFT] Fixing wrong call of functions in construction of NoiseMaps",
+            "number": 14609,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable ROOT file output in TPC chunked-digit merger",
+            "number": 14608,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simworkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simworkflow/include/TPCSimWorkflow/TPCDigitRootWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simworkflow/src/ChunkedDigitPublisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simworkflow/src/TPCDigitRootWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/readers/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
                   }
                 }
               ]
