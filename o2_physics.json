@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-17T19:40:45Z",
-            "title": "[PWGLF] Optimised code",
-            "number": 12601,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/higherMassResonances.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-17T20:19:56Z",
             "title": "[PWGLF] updated derived data process function",
             "number": 12605,
@@ -2664,6 +2644,41 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-21T15:55:08Z",
+            "title": "[ALICE3] Update fasttracker and mcharm histograms",
+            "number": 12675,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-multicharmTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-multicharm.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] FemtoDream: added event sphericity calculation",
@@ -2709,33 +2724,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-21T15:55:08Z",
-            "title": "[ALICE3] Update fasttracker and mcharm histograms",
-            "number": 12675,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Implemented a postcalibration scheme for electrons in Pb-Pb collisions, and some cleanup",
+            "number": 12679,
             "author": {
-              "login": "jesgum"
+              "login": "iarsene"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FastTracker.h"
+                    "path": "PWGDQ/Core/VarManager.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3-multicharmTable.cxx"
+                    "path": "PWGDQ/Core/VarManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Tasks/alice3-multicharm.cxx"
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
