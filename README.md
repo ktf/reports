@@ -23,7 +23,6 @@
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14528](https://github.com/AliceO2Group/AliceO2/pull/14528) 2025-07-30: Account for TPC clusters non-monotonous sorting by [@shahor02](https://github.com/shahor02)
-- [\#14532](https://github.com/AliceO2Group/AliceO2/pull/14532) 2025-07-22: ITS: fix opt. label output if firstOrbit!=0 by [@f3sch](https://github.com/f3sch)
 - [\#14534](https://github.com/AliceO2Group/AliceO2/pull/14534) 2025-07-23: Eov for orbitreset by [@lietava](https://github.com/lietava)
 - [\#14538](https://github.com/AliceO2Group/AliceO2/pull/14538) 2025-07-23: ITS: last mod. for deltaROF and perVertex by [@f3sch](https://github.com/f3sch)
 - [\#14540](https://github.com/AliceO2Group/AliceO2/pull/14540) 2025-07-24: ITS: GPU: fix perVtx + upc iteration + atomic level update by [@f3sch](https://github.com/f3sch)
