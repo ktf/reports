@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add single track vars and MC validation for Bs meson",
-            "number": 12598,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskB0Reduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskBsReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-16T11:23:36Z",
             "title": "[PWGCF] FemtoUniverse v0cascade task -- implemented bitmask and CPR in v0-cascade task",
@@ -2181,26 +2151,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM,PWGEM-36] taskPi0FlowEMC: Add additional EMCal calib",
-            "number": 12661,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Add MC proton definitions ",
             "number": 12662,
             "author": {
@@ -2926,6 +2876,61 @@
                 {
                   "node": {
                     "path": "Common/Tools/TrackTuner.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-21T08:24:22Z",
+            "title": "[PWGEM,PWGEM-36] taskPi0FlowEMC: Add additional EMCal calib",
+            "number": 12661,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add MC mixing and adjusting task for use on Hyperloop",
+            "number": 12670,
+            "author": {
+              "login": "jkinner2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerProducer.cxx"
                   }
                 }
               ]
