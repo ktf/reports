@@ -23,7 +23,6 @@
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14528](https://github.com/AliceO2Group/AliceO2/pull/14528) 2025-07-30: Account for TPC clusters non-monotonous sorting by [@shahor02](https://github.com/shahor02)
-- [\#14540](https://github.com/AliceO2Group/AliceO2/pull/14540) 2025-07-24: ITS: GPU: fix perVtx + upc iteration + atomic level update by [@f3sch](https://github.com/f3sch)
 - [\#14544](https://github.com/AliceO2Group/AliceO2/pull/14544) 2025-07-29: Make max Xiu for pre-propagation settable by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
@@ -51,7 +50,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#14153](https://github.com/AliceO2Group/AliceO2/pull/14153) 2025-07-24: MFT: read track covariances from AO2Ds by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14455](https://github.com/AliceO2Group/AliceO2/pull/14455) 2025-08-08: DPL Analysis: fix hash calculation for the string_views by [@aalkin](https://github.com/aalkin)
