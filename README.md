@@ -18,6 +18,7 @@
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
+- [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14602](https://github.com/AliceO2Group/AliceO2/pull/14602) 2025-08-21: TPC: Add scaling of VDrift with T/P by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
@@ -40,6 +41,7 @@
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 - [\#14589](https://github.com/AliceO2Group/AliceO2/pull/14589) 2025-08-15: Fix in TRD sector getter by [@shahor02](https://github.com/shahor02)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
+- [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14594](https://github.com/AliceO2Group/AliceO2/pull/14594) 2025-08-19: ITS: create artefacts labels only on demand  by [@f3sch](https://github.com/f3sch)
 - [\#14596](https://github.com/AliceO2Group/AliceO2/pull/14596) 2025-08-18: ITS: GPU: overlap memcpy with compute kernels by [@f3sch](https://github.com/f3sch)
 - [\#14597](https://github.com/AliceO2Group/AliceO2/pull/14597) 2025-08-18: ITS: template Tracker, Cell and Road by [@f3sch](https://github.com/f3sch)
