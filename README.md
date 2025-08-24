@@ -47,6 +47,7 @@
 - [\#14602](https://github.com/AliceO2Group/AliceO2/pull/14602) 2025-08-21: TPC: Add scaling of VDrift with T/P by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14609](https://github.com/AliceO2Group/AliceO2/pull/14609) 2025-08-22: [MFT] Fixing wrong call of functions in construction of NoiseMaps by [@mcoquet642](https://github.com/mcoquet642)
+- [\#14612](https://github.com/AliceO2Group/AliceO2/pull/14612) 2025-08-24: Ctpdev: validity of orbitreset by [@lietava](https://github.com/lietava)
 - [\#14614](https://github.com/AliceO2Group/AliceO2/pull/14614) 2025-08-23: ITS: GPU: disallow nROFsPerIterations by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
