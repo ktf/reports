@@ -46,6 +46,7 @@
 - [\#14596](https://github.com/AliceO2Group/AliceO2/pull/14596) 2025-08-18: ITS: GPU: overlap memcpy with compute kernels by [@f3sch](https://github.com/f3sch)
 - [\#14597](https://github.com/AliceO2Group/AliceO2/pull/14597) 2025-08-18: ITS: template Tracker, Cell and Road by [@f3sch](https://github.com/f3sch)
 - [\#14599](https://github.com/AliceO2Group/AliceO2/pull/14599) 2025-08-18: Revert "Fix in TRD sector getter" by [@shahor02](https://github.com/shahor02)
+- [\#14601](https://github.com/AliceO2Group/AliceO2/pull/14601) 2025-08-25: TPC Workflow: Don't write triggerwords if they are not created by [@davidrohr](https://github.com/davidrohr)
 - [\#14602](https://github.com/AliceO2Group/AliceO2/pull/14602) 2025-08-21: TPC: Add scaling of VDrift with T/P by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14609](https://github.com/AliceO2Group/AliceO2/pull/14609) 2025-08-22: [MFT] Fixing wrong call of functions in construction of NoiseMaps by [@mcoquet642](https://github.com/mcoquet642)
