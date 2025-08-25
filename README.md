@@ -75,6 +75,7 @@
 - [\#14598](https://github.com/AliceO2Group/AliceO2/pull/14598) 2025-08-18: DPL Analysis: support configurables in string expressions by [@aalkin](https://github.com/aalkin)
 - [\#14603](https://github.com/AliceO2Group/AliceO2/pull/14603) 2025-08-20: DPL Analysis: fix for retrieving placeholder nodes in filters parsed from strings by [@aalkin](https://github.com/aalkin)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
+- [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Steer
 - [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
