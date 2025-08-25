@@ -6,11 +6,9 @@
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#14530](https://github.com/AliceO2Group/AliceO2/pull/14530) 2025-07-28: NN clusterizer: Bug-fixes and adding deterministic mode by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
-- [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14547](https://github.com/AliceO2Group/AliceO2/pull/14547) 2025-07-29: DataFormats: Add V0Type by [@f3sch](https://github.com/f3sch)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
@@ -77,6 +75,5 @@
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Steer
-- [\#14506](https://github.com/AliceO2Group/AliceO2/pull/14506) 2025-07-28: Add Lambda1405 to TDatabasePdg and O2MCApplication by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
