@@ -11,7 +11,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
-- [\#14547](https://github.com/AliceO2Group/AliceO2/pull/14547) 2025-07-29: DataFormats: Add V0Type by [@f3sch](https://github.com/f3sch)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14551](https://github.com/AliceO2Group/AliceO2/pull/14551) 2025-07-31: Add and use hash method for TrackParam by [@shahor02](https://github.com/shahor02)
 - [\#14578](https://github.com/AliceO2Group/AliceO2/pull/14578) 2025-08-13: Data Model: provide size when deallocating a Stack by [@ktf](https://github.com/ktf)
