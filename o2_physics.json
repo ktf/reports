@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-21T14:50:07Z",
-            "title": "[PWGLF] Update criteria for hypertriton kink analysis",
-            "number": 12664,
-            "author": {
-              "login": "wang-yuanzhe"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFHyperNucleiKinkTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGJE] Add MC mixing and adjusting task for use on Hyperloop",
@@ -2829,6 +2804,36 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE,PWGLF] New task to prepare training data to tag s-jets",
+            "number": 12599,
+            "author": {
+              "login": "lorber98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/sjetTreeCreator.cxx"
                   }
                 }
               ]
