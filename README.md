@@ -21,6 +21,7 @@
 - [\#14602](https://github.com/AliceO2Group/AliceO2/pull/14602) 2025-08-21: TPC: Add scaling of VDrift with T/P by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
