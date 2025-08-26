@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-21T16:59:19Z",
-            "title": "[PWGEM/Dilepton] add studyDCAFitter.cxx",
-            "number": 12666,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/studyDCAFitter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-21T19:07:10Z",
-            "title": "[PWGLF] Fix process function dNdEtaWPhiMcGen",
-            "number": 12678,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-21T19:08:29Z",
             "title": "[PWGCF] FemtoUniverse cascade task -- implemented strangeness TOF sigmas for cascade analysis",
             "number": 12668,
@@ -2732,26 +2687,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Modify the file to select polarization",
-            "number": 12744,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-26T09:22:34Z",
             "title": "[PWGHF] Fix the issue of incorrect use of `return`",
@@ -2809,6 +2744,76 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Simplify D0 ML selections in D* selector",
+            "number": 12746,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorDstarToD0Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-26T09:42:29Z",
+            "title": "[PWGCF] Modify the file to select polarization",
+            "number": 12744,
+            "author": {
+              "login": "CyF1rmiana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Save ML scores in LcToK0sP tree creator",
+            "number": 12331,
+            "author": {
+              "login": "DelloStritto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToK0sP.cxx"
                   }
                 }
               ]
