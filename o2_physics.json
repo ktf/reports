@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] First draft of Xic0XicpToHadronic workflow",
-            "number": 11697,
-            "author": {
-              "login": "jinhyunni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0QA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorToXiPiQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-08-23T09:31:47Z",
-            "title": "[PWGLF] Add e-loss to strangeness TOF",
-            "number": 12701,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-08-23T10:08:09Z",
             "title": "[PWGLF] Minor corrections",
@@ -2686,6 +2621,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] adding pp trigger analysis",
+            "number": 12768,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdalambda.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-27T14:44:46Z",
             "title": "[Infrastructure] Fix stale action permissions",
             "number": 12559,
             "author": {
@@ -2704,23 +2664,43 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] adding pp trigger analysis",
-            "number": 12768,
+            "state": "MERGED",
+            "mergedAt": "2025-08-27T14:45:36Z",
+            "title": "[Infrastructure] Bump actions/checkout from 4 to 5",
+            "number": 12611,
             "author": {
-              "login": "jikim1290"
+              "login": "dependabot"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                    "path": ".github/workflows/mega-linter.yml"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdalambda.cxx"
+                    "path": ".github/workflows/o2-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-08-27T14:47:08Z",
+            "title": "[Common] RecoDecay: Fix linter errors. Fix includes. Improve documentation.",
+            "number": 12341,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/RecoDecay.h"
                   }
                 }
               ]
