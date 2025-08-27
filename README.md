@@ -26,7 +26,6 @@
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
-- [\#14553](https://github.com/AliceO2Group/AliceO2/pull/14553) 2025-07-31: ITS: if TF dropped clear tracks by [@f3sch](https://github.com/f3sch)
 - [\#14555](https://github.com/AliceO2Group/AliceO2/pull/14555) 2025-08-04: ITS: GPU fix deltaROF tracking by [@f3sch](https://github.com/f3sch)
 - [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
 - [\#14563](https://github.com/AliceO2Group/AliceO2/pull/14563) 2025-08-09: ITS: GPU: better use of streams by [@f3sch](https://github.com/f3sch)
