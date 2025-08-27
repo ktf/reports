@@ -53,6 +53,8 @@
 - [\#14612](https://github.com/AliceO2Group/AliceO2/pull/14612) 2025-08-24: Ctpdev: validity of orbitreset by [@lietava](https://github.com/lietava)
 - [\#14614](https://github.com/AliceO2Group/AliceO2/pull/14614) 2025-08-23: ITS: GPU: disallow nROFsPerIterations by [@f3sch](https://github.com/f3sch)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
+- [\#14621](https://github.com/AliceO2Group/AliceO2/pull/14621) 2025-08-27: A3: Add customization of detector MID/Magnet/Absorber radius by [@njacazio](https://github.com/njacazio)
 - [\#14626](https://github.com/AliceO2Group/AliceO2/pull/14626) 2025-08-26: Add HBFUtilsConfig to allow standalone aggregation of TPC residuals by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
@@ -80,3 +82,4 @@
 ## Recent developments in O2 - Steer
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
+- [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
