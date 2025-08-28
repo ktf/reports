@@ -5,6 +5,7 @@
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
+- [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
@@ -83,6 +84,7 @@
 - [\#14603](https://github.com/AliceO2Group/AliceO2/pull/14603) 2025-08-20: DPL Analysis: fix for retrieving placeholder nodes in filters parsed from strings by [@aalkin](https://github.com/aalkin)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
+- [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
 - [\#14633](https://github.com/AliceO2Group/AliceO2/pull/14633) 2025-08-28: DPL CDDB: hide private implementation of CCDBFetrcherHelper by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
