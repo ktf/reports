@@ -59,6 +59,7 @@
 - [\#14624](https://github.com/AliceO2Group/AliceO2/pull/14624) 2025-08-28: TPC: change default max-delay to 1 for o2-tpc-calibrator-dedx by [@ehellbar](https://github.com/ehellbar)
 - [\#14626](https://github.com/AliceO2Group/AliceO2/pull/14626) 2025-08-26: Add HBFUtilsConfig to allow standalone aggregation of TPC residuals by [@shahor02](https://github.com/shahor02)
 - [\#14629](https://github.com/AliceO2Group/AliceO2/pull/14629) 2025-08-27: ITS: skip processing entirely if no clusters/rofs in TF by [@f3sch](https://github.com/f3sch)
+- [\#14631](https://github.com/AliceO2Group/AliceO2/pull/14631) 2025-08-28: [MFT] Fix DCS object sspec in noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 ## Recent developments in O2 - EventVisualisation
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -82,6 +83,7 @@
 - [\#14603](https://github.com/AliceO2Group/AliceO2/pull/14603) 2025-08-20: DPL Analysis: fix for retrieving placeholder nodes in filters parsed from strings by [@aalkin](https://github.com/aalkin)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
+- [\#14633](https://github.com/AliceO2Group/AliceO2/pull/14633) 2025-08-28: DPL CDDB: hide private implementation of CCDBFetrcherHelper by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
