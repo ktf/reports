@@ -11,7 +11,6 @@
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
-- [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14578](https://github.com/AliceO2Group/AliceO2/pull/14578) 2025-08-13: Data Model: provide size when deallocating a Stack by [@ktf](https://github.com/ktf)
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
@@ -25,7 +24,6 @@
 - [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
-- [\#14516](https://github.com/AliceO2Group/AliceO2/pull/14516) 2025-08-01: TOF: Header only param utilities libraryless call in O2Physics by [@njacazio](https://github.com/njacazio)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14555](https://github.com/AliceO2Group/AliceO2/pull/14555) 2025-08-04: ITS: GPU fix deltaROF tracking by [@f3sch](https://github.com/f3sch)
 - [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
