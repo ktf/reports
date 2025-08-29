@@ -53,6 +53,7 @@
 - [\#14615](https://github.com/AliceO2Group/AliceO2/pull/14615) 2025-08-27: add best knowldge of collision time in tof matching info by [@noferini](https://github.com/noferini)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
+- [\#14620](https://github.com/AliceO2Group/AliceO2/pull/14620) 2025-08-29: Add missing includes by [@njacazio](https://github.com/njacazio)
 - [\#14621](https://github.com/AliceO2Group/AliceO2/pull/14621) 2025-08-27: A3: Add customization of detector MID/Magnet/Absorber radius by [@njacazio](https://github.com/njacazio)
 - [\#14622](https://github.com/AliceO2Group/AliceO2/pull/14622) 2025-08-28: Add missing includes by [@njacazio](https://github.com/njacazio)
 - [\#14624](https://github.com/AliceO2Group/AliceO2/pull/14624) 2025-08-28: TPC: change default max-delay to 1 for o2-tpc-calibrator-dedx by [@ehellbar](https://github.com/ehellbar)
