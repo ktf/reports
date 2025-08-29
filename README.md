@@ -26,7 +26,6 @@
 - [\#14417](https://github.com/AliceO2Group/AliceO2/pull/14417) 2025-08-06: DPL: move to std::pmr where possible by [@ktf](https://github.com/ktf)
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14555](https://github.com/AliceO2Group/AliceO2/pull/14555) 2025-08-04: ITS: GPU fix deltaROF tracking by [@f3sch](https://github.com/f3sch)
-- [\#14556](https://github.com/AliceO2Group/AliceO2/pull/14556) 2025-08-01: ITS: GPU: allow to individually set kernel parameters by [@f3sch](https://github.com/f3sch)
 - [\#14563](https://github.com/AliceO2Group/AliceO2/pull/14563) 2025-08-09: ITS: GPU: better use of streams by [@f3sch](https://github.com/f3sch)
 - [\#14564](https://github.com/AliceO2Group/AliceO2/pull/14564) 2025-08-12: MCH: improvements to the pedestal calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14568](https://github.com/AliceO2Group/AliceO2/pull/14568) 2025-08-10: Fix TimingInfo.timeslice vs DPH.startTime mismatch by [@shahor02](https://github.com/shahor02)
