@@ -59,6 +59,7 @@
 - [\#14626](https://github.com/AliceO2Group/AliceO2/pull/14626) 2025-08-26: Add HBFUtilsConfig to allow standalone aggregation of TPC residuals by [@shahor02](https://github.com/shahor02)
 - [\#14629](https://github.com/AliceO2Group/AliceO2/pull/14629) 2025-08-27: ITS: skip processing entirely if no clusters/rofs in TF by [@f3sch](https://github.com/f3sch)
 - [\#14631](https://github.com/AliceO2Group/AliceO2/pull/14631) 2025-08-28: [MFT] Fix DCS object sspec in noise calibration by [@mcoquet642](https://github.com/mcoquet642)
+- [\#14635](https://github.com/AliceO2Group/AliceO2/pull/14635) 2025-08-29: Fix codechecker error by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#14529](https://github.com/AliceO2Group/AliceO2/pull/14529) 2025-08-05: added socket communication by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
