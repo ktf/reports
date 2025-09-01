@@ -59,6 +59,7 @@
 - [\#14629](https://github.com/AliceO2Group/AliceO2/pull/14629) 2025-08-27: ITS: skip processing entirely if no clusters/rofs in TF by [@f3sch](https://github.com/f3sch)
 - [\#14631](https://github.com/AliceO2Group/AliceO2/pull/14631) 2025-08-28: [MFT] Fix DCS object sspec in noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14635](https://github.com/AliceO2Group/AliceO2/pull/14635) 2025-08-29: Fix codechecker error by [@davidrohr](https://github.com/davidrohr)
+- [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14455](https://github.com/AliceO2Group/AliceO2/pull/14455) 2025-08-08: DPL Analysis: fix hash calculation for the string_views by [@aalkin](https://github.com/aalkin)
