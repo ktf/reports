@@ -61,7 +61,6 @@
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
-- [\#14562](https://github.com/AliceO2Group/AliceO2/pull/14562) 2025-08-08: DPL Analysis: add support for BinaryView columns by [@ktf](https://github.com/ktf)
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
