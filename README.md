@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
@@ -61,7 +60,6 @@
 - [\#14635](https://github.com/AliceO2Group/AliceO2/pull/14635) 2025-08-29: Fix codechecker error by [@davidrohr](https://github.com/davidrohr)
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#14454](https://github.com/AliceO2Group/AliceO2/pull/14454) 2025-08-08: DPL Analysis: add string expression parsing by [@aalkin](https://github.com/aalkin)
 - [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
 - [\#14562](https://github.com/AliceO2Group/AliceO2/pull/14562) 2025-08-08: DPL Analysis: add support for BinaryView columns by [@ktf](https://github.com/ktf)
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
