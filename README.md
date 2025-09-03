@@ -59,6 +59,7 @@
 - [\#14631](https://github.com/AliceO2Group/AliceO2/pull/14631) 2025-08-28: [MFT] Fix DCS object sspec in noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14635](https://github.com/AliceO2Group/AliceO2/pull/14635) 2025-08-29: Fix codechecker error by [@davidrohr](https://github.com/davidrohr)
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
+- [\#14644](https://github.com/AliceO2Group/AliceO2/pull/14644) 2025-09-03: ITS: GPU: added launch bounds for ITS kernels by [@cima22](https://github.com/cima22)
 ## Recent developments in O2 - Framework
 - [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
 - [\#14566](https://github.com/AliceO2Group/AliceO2/pull/14566) 2025-08-10: DPL: improve error message by [@ktf](https://github.com/ktf)
