@@ -24,7 +24,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14564](https://github.com/AliceO2Group/AliceO2/pull/14564) 2025-08-12: MCH: improvements to the pedestal calibrator by [@aferrero2707](https://github.com/aferrero2707)
-- [\#14568](https://github.com/AliceO2Group/AliceO2/pull/14568) 2025-08-10: Fix TimingInfo.timeslice vs DPH.startTime mismatch by [@shahor02](https://github.com/shahor02)
 - [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14574](https://github.com/AliceO2Group/AliceO2/pull/14574) 2025-08-13: Ctpdev: reducing logs in run manager by [@lietava](https://github.com/lietava)
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
