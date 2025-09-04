@@ -60,7 +60,6 @@
 - [\#14644](https://github.com/AliceO2Group/AliceO2/pull/14644) 2025-09-03: ITS: GPU: added launch bounds for ITS kernels by [@cima22](https://github.com/cima22)
 - [\#14647](https://github.com/AliceO2Group/AliceO2/pull/14647) 2025-09-03: ITS: add to macro pull distributions by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
-- [\#14501](https://github.com/AliceO2Group/AliceO2/pull/14501) 2025-08-11: Event mixing: Do not use arrow functions in groupTable by [@saganatt](https://github.com/saganatt)
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
 - [\#14571](https://github.com/AliceO2Group/AliceO2/pull/14571) 2025-08-14: DPL Analysis: use offset cache for sorted grouping by [@aalkin](https://github.com/aalkin)
