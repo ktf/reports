@@ -63,7 +63,6 @@
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
 - [\#14571](https://github.com/AliceO2Group/AliceO2/pull/14571) 2025-08-14: DPL Analysis: use offset cache for sorted grouping by [@aalkin](https://github.com/aalkin)
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
-- [\#14576](https://github.com/AliceO2Group/AliceO2/pull/14576) 2025-08-12: DPL: add C++20 ranges views to filter vectors of InputSpecs / OutputSpecs by [@ktf](https://github.com/ktf)
 - [\#14579](https://github.com/AliceO2Group/AliceO2/pull/14579) 2025-08-13: DPL: add benchmark for stack creation by [@ktf](https://github.com/ktf)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 - [\#14588](https://github.com/AliceO2Group/AliceO2/pull/14588) 2025-08-15: DPL: add more views on InputSpecs / OutputSpecs / DataProcessors by [@ktf](https://github.com/ktf)
