@@ -24,7 +24,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14564](https://github.com/AliceO2Group/AliceO2/pull/14564) 2025-08-12: MCH: improvements to the pedestal calibrator by [@aferrero2707](https://github.com/aferrero2707)
-- [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14574](https://github.com/AliceO2Group/AliceO2/pull/14574) 2025-08-13: Ctpdev: reducing logs in run manager by [@lietava](https://github.com/lietava)
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 - [\#14583](https://github.com/AliceO2Group/AliceO2/pull/14583) 2025-08-14: ITS: add common vertex definition and neighbours per road by [@f3sch](https://github.com/f3sch)
@@ -80,6 +79,5 @@
 - [\#14638](https://github.com/AliceO2Group/AliceO2/pull/14638) 2025-08-30: DPL: change exit transition timeout default on FLPs to 40 s by [@ehellbar](https://github.com/ehellbar)
 - [\#14639](https://github.com/AliceO2Group/AliceO2/pull/14639) 2025-08-29: DPL: print error when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Steer
-- [\#14569](https://github.com/AliceO2Group/AliceO2/pull/14569) 2025-08-11: Optionally store CTP lumi scaler (norm to 1s) in CTP digitizer output by [@shahor02](https://github.com/shahor02)
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
