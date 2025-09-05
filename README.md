@@ -9,6 +9,7 @@
 ## Recent developments in O2 - Common
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
+- [\#14650](https://github.com/AliceO2Group/AliceO2/pull/14650) 2025-09-05: Fix EnumFlags compilation for large enums by [@aferrero2707](https://github.com/aferrero2707)
 ## Recent developments in O2 - DataFormats
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14578](https://github.com/AliceO2Group/AliceO2/pull/14578) 2025-08-13: Data Model: provide size when deallocating a Stack by [@ktf](https://github.com/ktf)
@@ -54,6 +55,7 @@
 - [\#14626](https://github.com/AliceO2Group/AliceO2/pull/14626) 2025-08-26: Add HBFUtilsConfig to allow standalone aggregation of TPC residuals by [@shahor02](https://github.com/shahor02)
 - [\#14629](https://github.com/AliceO2Group/AliceO2/pull/14629) 2025-08-27: ITS: skip processing entirely if no clusters/rofs in TF by [@f3sch](https://github.com/f3sch)
 - [\#14631](https://github.com/AliceO2Group/AliceO2/pull/14631) 2025-08-28: [MFT] Fix DCS object sspec in noise calibration by [@mcoquet642](https://github.com/mcoquet642)
+- [\#14634](https://github.com/AliceO2Group/AliceO2/pull/14634) 2025-09-05: Geo: Fix Run 4 barrel beam pipe section by [@f3sch](https://github.com/f3sch)
 - [\#14635](https://github.com/AliceO2Group/AliceO2/pull/14635) 2025-08-29: Fix codechecker error by [@davidrohr](https://github.com/davidrohr)
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
 - [\#14644](https://github.com/AliceO2Group/AliceO2/pull/14644) 2025-09-03: ITS: GPU: added launch bounds for ITS kernels by [@cima22](https://github.com/cima22)
