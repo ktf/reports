@@ -59,6 +59,7 @@
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
 - [\#14644](https://github.com/AliceO2Group/AliceO2/pull/14644) 2025-09-03: ITS: GPU: added launch bounds for ITS kernels by [@cima22](https://github.com/cima22)
 - [\#14647](https://github.com/AliceO2Group/AliceO2/pull/14647) 2025-09-03: ITS: add to macro pull distributions by [@f3sch](https://github.com/f3sch)
+- [\#14653](https://github.com/AliceO2Group/AliceO2/pull/14653) 2025-09-05: ITS: make CA tracker the default by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
