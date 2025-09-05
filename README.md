@@ -70,6 +70,7 @@
 - [\#14588](https://github.com/AliceO2Group/AliceO2/pull/14588) 2025-08-15: DPL: add more views on InputSpecs / OutputSpecs / DataProcessors by [@ktf](https://github.com/ktf)
 - [\#14591](https://github.com/AliceO2Group/AliceO2/pull/14591) 2025-08-19: DPL: don't print INVALID runNumber error when running with ALICE_O2_FST=1 by [@ehellbar](https://github.com/ehellbar)
 - [\#14598](https://github.com/AliceO2Group/AliceO2/pull/14598) 2025-08-18: DPL Analysis: support configurables in string expressions by [@aalkin](https://github.com/aalkin)
+- [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
 - [\#14603](https://github.com/AliceO2Group/AliceO2/pull/14603) 2025-08-20: DPL Analysis: fix for retrieving placeholder nodes in filters parsed from strings by [@aalkin](https://github.com/aalkin)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
