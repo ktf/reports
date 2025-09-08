@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-09-03T07:06:37Z",
-            "title": "[PWGLF] Added rapidity cut for K0s daughters",
-            "number": 12834,
-            "author": {
-              "login": "SuJeong-Ji"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chk892Flow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-09-02T21:30:35Z",
             "title": "[PWGEM/Dilepton] fix in DimuonCut.h",
             "number": 12832,
@@ -3115,31 +3095,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] pi-hypertriton femto test",
-            "number": 12898,
+            "title": "[Common] Adding dimuon DCA histograms",
+            "number": 12903,
             "author": {
-              "login": "blacwovie"
+              "login": "ppoava"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/DataModel/PionDeuteronTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/DataModel/PionNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/PiNucleiFemto.cxx"
+                    "path": "Common/Tasks/qaMuon.cxx"
                   }
                 }
               ]
@@ -3190,16 +3155,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Adding dimuon DCA histograms",
-            "number": 12903,
+            "title": "[PWGCF] pi-hypertriton femto test",
+            "number": 12898,
             "author": {
-              "login": "ppoava"
+              "login": "blacwovie"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
+                    "path": "PWGCF/Femto/DataModel/PionDeuteronTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/DataModel/PionNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/PiNucleiFemto.cxx"
                   }
                 }
               ]
@@ -3220,6 +3200,26 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Bugfix: do not write KF minv into non-KF tree",
+            "number": 12906,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToPKPi.cxx"
                   }
                 }
               ]
