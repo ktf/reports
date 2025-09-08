@@ -13,7 +13,6 @@
 - [\#14654](https://github.com/AliceO2Group/AliceO2/pull/14654) 2025-09-05: Fix inconsistencies in the HelixHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
-- [\#14578](https://github.com/AliceO2Group/AliceO2/pull/14578) 2025-08-13: Data Model: provide size when deallocating a Stack by [@ktf](https://github.com/ktf)
 - [\#14580](https://github.com/AliceO2Group/AliceO2/pull/14580) 2025-08-14: Make sure extra tracks are randomized to avoid PHOS hole losses by [@shahor02](https://github.com/shahor02)
 - [\#14586](https://github.com/AliceO2Group/AliceO2/pull/14586) 2025-08-14: Revert UB fixes by [@ktf](https://github.com/ktf)
 - [\#14590](https://github.com/AliceO2Group/AliceO2/pull/14590) 2025-08-15: Align: Fix using local deltas as parameters by [@f3sch](https://github.com/f3sch)
