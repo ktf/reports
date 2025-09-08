@@ -72,6 +72,7 @@
 - [\#14637](https://github.com/AliceO2Group/AliceO2/pull/14637) 2025-08-30: DPL: fix for printing O2_SIGNPOST_END without start interval by [@ehellbar](https://github.com/ehellbar)
 - [\#14638](https://github.com/AliceO2Group/AliceO2/pull/14638) 2025-08-30: DPL: change exit transition timeout default on FLPs to 40 s by [@ehellbar](https://github.com/ehellbar)
 - [\#14639](https://github.com/AliceO2Group/AliceO2/pull/14639) 2025-08-29: DPL: print error when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
+- [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
