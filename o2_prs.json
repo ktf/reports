@@ -4126,26 +4126,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Removed work-around in FindGeant4.cmake",
-            "number": 14643,
-            "author": {
-              "login": "ihrivnac"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/FindGeant4.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Common: minor cleanup in flag helper",
             "number": 14655,
             "author": {
@@ -4496,6 +4476,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Optionaly use TF slice instead of TFcounter for CCDB cache validation",
+            "number": 14652,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "NN clusterizer: Fixing memory access faults",
             "number": 14657,
             "author": {
@@ -4561,31 +4576,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Optionaly use TF slice instead of TFcounter for CCDB cache validation",
-            "number": 14652,
+            "title": "Removed work-around in FindGeant4.cmake",
+            "number": 14643,
             "author": {
-              "login": "shahor02"
+              "login": "ihrivnac"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                    "path": "dependencies/FindGeant4.cmake"
                   }
                 }
               ]
