@@ -57,7 +57,6 @@
 ## Recent developments in O2 - Framework
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
-- [\#14571](https://github.com/AliceO2Group/AliceO2/pull/14571) 2025-08-14: DPL Analysis: use offset cache for sorted grouping by [@aalkin](https://github.com/aalkin)
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 - [\#14588](https://github.com/AliceO2Group/AliceO2/pull/14588) 2025-08-15: DPL: add more views on InputSpecs / OutputSpecs / DataProcessors by [@ktf](https://github.com/ktf)
 - [\#14591](https://github.com/AliceO2Group/AliceO2/pull/14591) 2025-08-19: DPL: don't print INVALID runNumber error when running with ALICE_O2_FST=1 by [@ehellbar](https://github.com/ehellbar)
