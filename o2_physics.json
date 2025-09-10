@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-09-04T20:44:28Z",
-            "title": "[PWGJE] Add secondary track's contamination inside jet",
-            "number": 12514,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-09-04T21:26:38Z",
-            "title": "[PWGCF] Fix angle calculation",
-            "number": 12861,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-09-04T21:50:06Z",
             "title": "[PWGCF] - FemtoDream: Cascade Update",
             "number": 12820,
@@ -2997,6 +2957,81 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Reduced workflow for charm hadron correlations",
+            "number": 12941,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorFlowCharmHadronsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Addition of deltaEta and deltaPhi columns to the EmcalMatchedTracks tables in the JE framework + fixed some bugs in the full-jet-spectra task",
+            "number": 12942,
+            "author": {
+              "login": "Archita-Dash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
                   }
                 }
               ]
