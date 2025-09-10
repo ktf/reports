@@ -2537,26 +2537,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Setting ghostRepeatN = 0 for jet reclusterer",
-            "number": 12931,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Small incorrect code for histogram name and name of table",
             "number": 12925,
             "author": {
@@ -2907,21 +2887,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Simulate hadron decay",
-            "number": 12615,
+            "title": "[PWGHF] Reduced workflow for charm hadron correlations",
+            "number": 12941,
             "author": {
-              "login": "pestratm"
+              "login": "Marcellocosti"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/hadronPhotonCorrelation.cxx"
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorFlowCharmHadronsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
                   }
                 }
               ]
@@ -2967,31 +2957,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Reduced workflow for charm hadron correlations",
-            "number": 12941,
+            "title": "[PWGJE] Simulate hadron decay",
+            "number": 12615,
             "author": {
-              "login": "Marcellocosti"
+              "login": "pestratm"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorFlowCharmHadronsReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
+                    "path": "PWGJE/Tasks/hadronPhotonCorrelation.cxx"
                   }
                 }
               ]
@@ -3032,6 +3012,26 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/fullJetSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Setting ghostRepeatN = 0 for jet reclusterer",
+            "number": 12931,
+            "author": {
+              "login": "dajones2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]
