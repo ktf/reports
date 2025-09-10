@@ -11,6 +11,7 @@
 - [\#14650](https://github.com/AliceO2Group/AliceO2/pull/14650) 2025-09-05: Fix EnumFlags compilation for large enums by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14654](https://github.com/AliceO2Group/AliceO2/pull/14654) 2025-09-05: Fix inconsistencies in the HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14657](https://github.com/AliceO2Group/AliceO2/pull/14657) 2025-09-09: NN clusterizer: Fixing memory access faults by [@ChSonnabend](https://github.com/ChSonnabend)
+- [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
@@ -51,6 +52,7 @@
 - [\#14647](https://github.com/AliceO2Group/AliceO2/pull/14647) 2025-09-03: ITS: add to macro pull distributions by [@f3sch](https://github.com/f3sch)
 - [\#14653](https://github.com/AliceO2Group/AliceO2/pull/14653) 2025-09-05: ITS: make CA tracker the default by [@f3sch](https://github.com/f3sch)
 - [\#14660](https://github.com/AliceO2Group/AliceO2/pull/14660) 2025-09-09: Check consistency of the TPC scaling request and map mean scaler by [@shahor02](https://github.com/shahor02)
+- [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14570](https://github.com/AliceO2Group/AliceO2/pull/14570) 2025-08-18: DPL Analysis: add an example of the string filter by [@aalkin](https://github.com/aalkin)
