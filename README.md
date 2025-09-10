@@ -21,7 +21,6 @@
 - [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
-- [\#14585](https://github.com/AliceO2Group/AliceO2/pull/14585) 2025-08-18: ITS: GPU: prepare to lazy loading of data by [@f3sch](https://github.com/f3sch)
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14594](https://github.com/AliceO2Group/AliceO2/pull/14594) 2025-08-19: ITS: create artefacts labels only on demand  by [@f3sch](https://github.com/f3sch)
 - [\#14595](https://github.com/AliceO2Group/AliceO2/pull/14595) 2025-08-27: ITS: cell neighbour step use atomicMax by [@f3sch](https://github.com/f3sch)
