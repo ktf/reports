@@ -20,6 +20,7 @@
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
+- [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
