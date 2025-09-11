@@ -3056,6 +3056,66 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Addition of deltaEta and deltaPhi columns to the EmcalMatchedTracks tables in the JE framework + fixed some bugs in the full-jet-spectra task",
+            "number": 12942,
+            "author": {
+              "login": "Archita-Dash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-09-11T03:37:24Z",
+            "title": "[PWGJE] Setting ghostRepeatN = 0 for jet reclusterer",
+            "number": 12931,
+            "author": {
+              "login": "dajones2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] add cascades' run by run NUA correction",
             "number": 12926,
             "author": {
@@ -3236,66 +3296,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/Utils/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Addition of deltaEta and deltaPhi columns to the EmcalMatchedTracks tables in the JE framework + fixed some bugs in the full-jet-spectra task",
-            "number": 12942,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-09-11T03:37:24Z",
-            "title": "[PWGJE] Setting ghostRepeatN = 0 for jet reclusterer",
-            "number": 12931,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]
