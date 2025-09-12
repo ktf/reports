@@ -13,7 +13,6 @@
 - [\#14657](https://github.com/AliceO2Group/AliceO2/pull/14657) 2025-09-09: NN clusterizer: Fixing memory access faults by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14602](https://github.com/AliceO2Group/AliceO2/pull/14602) 2025-08-21: TPC: Add scaling of VDrift with T/P by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14615](https://github.com/AliceO2Group/AliceO2/pull/14615) 2025-08-27: add best knowldge of collision time in tof matching info by [@noferini](https://github.com/noferini)
@@ -22,7 +21,6 @@
 - [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
 - [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#14550](https://github.com/AliceO2Group/AliceO2/pull/14550) 2025-08-19: ZDC: Add getter for hit secondary flag by [@fcatalan92](https://github.com/fcatalan92)
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14594](https://github.com/AliceO2Group/AliceO2/pull/14594) 2025-08-19: ITS: create artefacts labels only on demand  by [@f3sch](https://github.com/f3sch)
 - [\#14595](https://github.com/AliceO2Group/AliceO2/pull/14595) 2025-08-27: ITS: cell neighbour step use atomicMax by [@f3sch](https://github.com/f3sch)
