@@ -22,7 +22,6 @@
 - [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
-- [\#14594](https://github.com/AliceO2Group/AliceO2/pull/14594) 2025-08-19: ITS: create artefacts labels only on demand  by [@f3sch](https://github.com/f3sch)
 - [\#14595](https://github.com/AliceO2Group/AliceO2/pull/14595) 2025-08-27: ITS: cell neighbour step use atomicMax by [@f3sch](https://github.com/f3sch)
 - [\#14601](https://github.com/AliceO2Group/AliceO2/pull/14601) 2025-08-25: TPC Workflow: Don't write triggerwords if they are not created by [@davidrohr](https://github.com/davidrohr)
 - [\#14602](https://github.com/AliceO2Group/AliceO2/pull/14602) 2025-08-21: TPC: Add scaling of VDrift with T/P by [@matthias-kleiner](https://github.com/matthias-kleiner)
