@@ -54,7 +54,6 @@
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
-- [\#14603](https://github.com/AliceO2Group/AliceO2/pull/14603) 2025-08-20: DPL Analysis: fix for retrieving placeholder nodes in filters parsed from strings by [@aalkin](https://github.com/aalkin)
 - [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
 - [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
