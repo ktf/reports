@@ -67,3 +67,4 @@
 ## Recent developments in O2 - Steer
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
+- [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
