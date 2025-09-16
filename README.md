@@ -67,6 +67,7 @@
 - [\#14639](https://github.com/AliceO2Group/AliceO2/pull/14639) 2025-08-29: DPL: print error when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
 - [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
+- [\#14678](https://github.com/AliceO2Group/AliceO2/pull/14678) 2025-09-16: DPL: get CCDB and reader signposts to work. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
