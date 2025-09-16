@@ -7,6 +7,7 @@
 - [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
 - [\#14636](https://github.com/AliceO2Group/AliceO2/pull/14636) 2025-08-30: DPL: initial metric to debug size of the histograms / objects being written by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
 - [\#14650](https://github.com/AliceO2Group/AliceO2/pull/14650) 2025-09-05: Fix EnumFlags compilation for large enums by [@aferrero2707](https://github.com/aferrero2707)
 - [\#14654](https://github.com/AliceO2Group/AliceO2/pull/14654) 2025-09-05: Fix inconsistencies in the HelixHelper by [@shahor02](https://github.com/shahor02)
@@ -20,7 +21,9 @@
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
 - [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
+- [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
+- [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14595](https://github.com/AliceO2Group/AliceO2/pull/14595) 2025-08-27: ITS: cell neighbour step use atomicMax by [@f3sch](https://github.com/f3sch)
 - [\#14601](https://github.com/AliceO2Group/AliceO2/pull/14601) 2025-08-25: TPC Workflow: Don't write triggerwords if they are not created by [@davidrohr](https://github.com/davidrohr)
@@ -51,6 +54,7 @@
 - [\#14664](https://github.com/AliceO2Group/AliceO2/pull/14664) 2025-09-10: MCStudy: fix ITS/TPC extrapolation, optionally add TPC track.refs by [@shahor02](https://github.com/shahor02)
 - [\#14671](https://github.com/AliceO2Group/AliceO2/pull/14671) 2025-09-13: ITS: Tracker don't print expected exception by [@f3sch](https://github.com/f3sch)
 - [\#14672](https://github.com/AliceO2Group/AliceO2/pull/14672) 2025-09-15: ITS: GPU: partial Vertexer implementation by [@f3sch](https://github.com/f3sch)
+- [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14575](https://github.com/AliceO2Group/AliceO2/pull/14575) 2025-08-20: DPL: make addInputs support anything which provides base_specs by [@ktf](https://github.com/ktf)
