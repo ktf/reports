@@ -2381,36 +2381,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] Revert \"[PWGEM/Dilepton] change acceptance histograms\"",
-            "number": 13028,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/PhotonHBT.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[DPG] Added unit test for validating reconstruction software",
             "number": 12929,
             "author": {
@@ -2655,6 +2625,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Switch to KFParticle for decay3body daughter DCA computation",
+            "number": 13024,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Optimize de-duplication and DCAtoPV calculation",
             "number": 13031,
             "author": {
@@ -2678,28 +2678,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Switch to KFParticle for decay3body daughter DCA computation",
-            "number": 13024,
+            "state": "MERGED",
+            "mergedAt": "2025-09-18T14:35:19Z",
+            "title": "[PWGEM] Revert \"[PWGEM/Dilepton] change acceptance histograms\"",
+            "number": 13028,
             "author": {
-              "login": "creetz16"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                    "path": "PWGEM/Dilepton/Core/PhotonHBT.h"
                   }
                 }
               ]
