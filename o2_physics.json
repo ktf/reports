@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-09-15T08:11:11Z",
-            "title": "[PWGCF] A correlation task for triplets (track-track-v0) in Pb–Pb collisions",
-            "number": 12794,
-            "author": {
-              "login": "wrzesaCERN"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamCollisionMasker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackV0PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] EventPlane: adding shift correction",
@@ -2495,6 +2465,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] add FT0A-FT0C correlation",
+            "number": 13049,
+            "author": {
+              "login": "Luzhiyongg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] Update longrangeCorrelation task",
             "number": 13053,
             "author": {
@@ -2515,16 +2505,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] add FT0A-FT0C correlation",
-            "number": 13049,
+            "title": "[PWGCF] DptDpt - Consistent access to CCDB per period",
+            "number": 13054,
             "author": {
-              "login": "Luzhiyongg"
+              "login": "victor-gonzalez"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                    "path": "PWGCF/TableProducer/dptDptFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptDptFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/dptDptCorrelations.cxx"
                   }
                 }
               ]
