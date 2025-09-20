@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
-- [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
 - [\#14636](https://github.com/AliceO2Group/AliceO2/pull/14636) 2025-08-30: DPL: initial metric to debug size of the histograms / objects being written by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -26,7 +25,6 @@
 - [\#14595](https://github.com/AliceO2Group/AliceO2/pull/14595) 2025-08-27: ITS: cell neighbour step use atomicMax by [@f3sch](https://github.com/f3sch)
 - [\#14601](https://github.com/AliceO2Group/AliceO2/pull/14601) 2025-08-25: TPC Workflow: Don't write triggerwords if they are not created by [@davidrohr](https://github.com/davidrohr)
 - [\#14606](https://github.com/AliceO2Group/AliceO2/pull/14606) 2025-08-27: ITS: template Vertexer&Traits, IndexTableUtils by [@f3sch](https://github.com/f3sch)
-- [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14609](https://github.com/AliceO2Group/AliceO2/pull/14609) 2025-08-22: [MFT] Fixing wrong call of functions in construction of NoiseMaps by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14612](https://github.com/AliceO2Group/AliceO2/pull/14612) 2025-08-24: Ctpdev: validity of orbitreset by [@lietava](https://github.com/lietava)
 - [\#14614](https://github.com/AliceO2Group/AliceO2/pull/14614) 2025-08-23: ITS: GPU: disallow nROFsPerIterations by [@f3sch](https://github.com/f3sch)
@@ -56,7 +54,6 @@
 ## Recent developments in O2 - Framework
 - [\#14567](https://github.com/AliceO2Group/AliceO2/pull/14567) 2025-08-25: DPL Analysis: centralised CCDB support in analysis by [@ktf](https://github.com/ktf)
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
-- [\#14607](https://github.com/AliceO2Group/AliceO2/pull/14607) 2025-08-21: DPL Analysis: rework cursor logic keeping the `gsl::span` for VLAs by [@aalkin](https://github.com/aalkin)
 - [\#14616](https://github.com/AliceO2Group/AliceO2/pull/14616) 2025-08-25: Add missing includes by [@njacazio](https://github.com/njacazio)
 - [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
 - [\#14633](https://github.com/AliceO2Group/AliceO2/pull/14633) 2025-08-28: DPL CDDB: hide private implementation of CCDBFetrcherHelper by [@ktf](https://github.com/ktf)
@@ -68,6 +65,5 @@
 - [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
 - [\#14678](https://github.com/AliceO2Group/AliceO2/pull/14678) 2025-09-16: DPL: get CCDB and reader signposts to work. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#14608](https://github.com/AliceO2Group/AliceO2/pull/14608) 2025-08-21: Enable ROOT file output in TPC chunked-digit merger by [@sawenzel](https://github.com/sawenzel)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
 - [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
