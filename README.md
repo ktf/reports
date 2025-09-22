@@ -60,6 +60,7 @@
 - [\#14638](https://github.com/AliceO2Group/AliceO2/pull/14638) 2025-08-30: DPL: change exit transition timeout default on FLPs to 40 s by [@ehellbar](https://github.com/ehellbar)
 - [\#14639](https://github.com/AliceO2Group/AliceO2/pull/14639) 2025-08-29: DPL: print error when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
+- [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
 - [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
 - [\#14670](https://github.com/AliceO2Group/AliceO2/pull/14670) 2025-09-21: [Framework] Configurable.h: Fix PROCESS_SWITCH(_FULL) namespace issue by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14678](https://github.com/AliceO2Group/AliceO2/pull/14678) 2025-09-16: DPL: get CCDB and reader signposts to work. by [@ktf](https://github.com/ktf)
