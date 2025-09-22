@@ -26,7 +26,6 @@
 - [\#14601](https://github.com/AliceO2Group/AliceO2/pull/14601) 2025-08-25: TPC Workflow: Don't write triggerwords if they are not created by [@davidrohr](https://github.com/davidrohr)
 - [\#14606](https://github.com/AliceO2Group/AliceO2/pull/14606) 2025-08-27: ITS: template Vertexer&Traits, IndexTableUtils by [@f3sch](https://github.com/f3sch)
 - [\#14612](https://github.com/AliceO2Group/AliceO2/pull/14612) 2025-08-24: Ctpdev: validity of orbitreset by [@lietava](https://github.com/lietava)
-- [\#14614](https://github.com/AliceO2Group/AliceO2/pull/14614) 2025-08-23: ITS: GPU: disallow nROFsPerIterations by [@f3sch](https://github.com/f3sch)
 - [\#14615](https://github.com/AliceO2Group/AliceO2/pull/14615) 2025-08-27: add best knowldge of collision time in tof matching info by [@noferini](https://github.com/noferini)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
