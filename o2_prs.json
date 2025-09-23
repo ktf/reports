@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-08-21T21:48:29Z",
-            "title": "Enable ROOT file output in TPC chunked-digit merger",
-            "number": 14608,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simworkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simworkflow/include/TPCSimWorkflow/TPCDigitRootWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simworkflow/src/ChunkedDigitPublisher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simworkflow/src/TPCDigitRootWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/readers/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-22T14:26:21Z",
             "title": "[MFT] Fixing wrong call of functions in construction of NoiseMaps",
             "number": 14609,
@@ -4016,6 +3956,36 @@
                 {
                   "node": {
                     "path": "cmake/O2AddExecutable.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Websocket: Add protocol param to encode_websocket_handshake_reply which allows a response Sec-WebSocket-Accept in handshake.",
+            "number": 14687,
+            "author": {
+              "login": "nicolaspoffley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLWebSocket.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.h"
                   }
                 }
               ]
