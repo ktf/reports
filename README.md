@@ -12,7 +12,6 @@
 - [\#14657](https://github.com/AliceO2Group/AliceO2/pull/14657) 2025-09-09: NN clusterizer: Fixing memory access faults by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14615](https://github.com/AliceO2Group/AliceO2/pull/14615) 2025-08-27: add best knowldge of collision time in tof matching info by [@noferini](https://github.com/noferini)
 - [\#14617](https://github.com/AliceO2Group/AliceO2/pull/14617) 2025-08-25: GPU QA: Proper fix for fetching timebins of MC data by [@davidrohr](https://github.com/davidrohr)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -21,11 +20,9 @@
 - [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
-- [\#14592](https://github.com/AliceO2Group/AliceO2/pull/14592) 2025-08-24: Add residuals for external detectors by [@shahor02](https://github.com/shahor02)
 - [\#14595](https://github.com/AliceO2Group/AliceO2/pull/14595) 2025-08-27: ITS: cell neighbour step use atomicMax by [@f3sch](https://github.com/f3sch)
 - [\#14601](https://github.com/AliceO2Group/AliceO2/pull/14601) 2025-08-25: TPC Workflow: Don't write triggerwords if they are not created by [@davidrohr](https://github.com/davidrohr)
 - [\#14606](https://github.com/AliceO2Group/AliceO2/pull/14606) 2025-08-27: ITS: template Vertexer&Traits, IndexTableUtils by [@f3sch](https://github.com/f3sch)
-- [\#14612](https://github.com/AliceO2Group/AliceO2/pull/14612) 2025-08-24: Ctpdev: validity of orbitreset by [@lietava](https://github.com/lietava)
 - [\#14615](https://github.com/AliceO2Group/AliceO2/pull/14615) 2025-08-27: add best knowldge of collision time in tof matching info by [@noferini](https://github.com/noferini)
 - [\#14618](https://github.com/AliceO2Group/AliceO2/pull/14618) 2025-08-25: TPC: sort buffer of pressure in case it is not sorted by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14619](https://github.com/AliceO2Group/AliceO2/pull/14619) 2025-08-27: ALICE3-TRK: first version of working digitizer by [@atriolo](https://github.com/atriolo)
