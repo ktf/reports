@@ -41,6 +41,7 @@
 - [\#14672](https://github.com/AliceO2Group/AliceO2/pull/14672) 2025-09-15: ITS: GPU: partial Vertexer implementation by [@f3sch](https://github.com/f3sch)
 - [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 - [\#14676](https://github.com/AliceO2Group/AliceO2/pull/14676) 2025-09-16: Add TRD tracklets slopes to unbinned residuals tree by [@shahor02](https://github.com/shahor02)
+- [\#14684](https://github.com/AliceO2Group/AliceO2/pull/14684) 2025-09-25: ITS: allow sharing of innermost cluster among tracks by [@fchinu](https://github.com/fchinu)
 ## Recent developments in O2 - Framework
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
 - [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
