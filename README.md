@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#14630](https://github.com/AliceO2Group/AliceO2/pull/14630) 2025-08-28: DPL Analysis: percolate DataOrigin so that we can use it for multiple files reading. by [@ktf](https://github.com/ktf)
 - [\#14636](https://github.com/AliceO2Group/AliceO2/pull/14636) 2025-08-30: DPL: initial metric to debug size of the histograms / objects being written by [@ktf](https://github.com/ktf)
+- [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Common
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14650](https://github.com/AliceO2Group/AliceO2/pull/14650) 2025-09-05: Fix EnumFlags compilation for large enums by [@aferrero2707](https://github.com/aferrero2707)
@@ -36,6 +37,7 @@
 - [\#14660](https://github.com/AliceO2Group/AliceO2/pull/14660) 2025-09-09: Check consistency of the TPC scaling request and map mean scaler by [@shahor02](https://github.com/shahor02)
 - [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 - [\#14664](https://github.com/AliceO2Group/AliceO2/pull/14664) 2025-09-10: MCStudy: fix ITS/TPC extrapolation, optionally add TPC track.refs by [@shahor02](https://github.com/shahor02)
+- [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14668](https://github.com/AliceO2Group/AliceO2/pull/14668) 2025-09-25: TPC: Apply T/P scaling of VDrift only if T/P change is large enough by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14671](https://github.com/AliceO2Group/AliceO2/pull/14671) 2025-09-13: ITS: Tracker don't print expected exception by [@f3sch](https://github.com/f3sch)
 - [\#14672](https://github.com/AliceO2Group/AliceO2/pull/14672) 2025-09-15: ITS: GPU: partial Vertexer implementation by [@f3sch](https://github.com/f3sch)
@@ -54,6 +56,7 @@
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
 - [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
 - [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
+- [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14670](https://github.com/AliceO2Group/AliceO2/pull/14670) 2025-09-21: [Framework] Configurable.h: Fix PROCESS_SWITCH(_FULL) namespace issue by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14678](https://github.com/AliceO2Group/AliceO2/pull/14678) 2025-09-16: DPL: get CCDB and reader signposts to work. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
