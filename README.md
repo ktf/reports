@@ -12,7 +12,6 @@
 - [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14615](https://github.com/AliceO2Group/AliceO2/pull/14615) 2025-08-27: add best knowldge of collision time in tof matching info by [@noferini](https://github.com/noferini)
-- [\#14627](https://github.com/AliceO2Group/AliceO2/pull/14627) 2025-08-26: Fix UBs in Stack creation, take 2. by [@ktf](https://github.com/ktf)
 - [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
 - [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
@@ -25,7 +24,6 @@
 - [\#14621](https://github.com/AliceO2Group/AliceO2/pull/14621) 2025-08-27: A3: Add customization of detector MID/Magnet/Absorber radius by [@njacazio](https://github.com/njacazio)
 - [\#14622](https://github.com/AliceO2Group/AliceO2/pull/14622) 2025-08-28: Add missing includes by [@njacazio](https://github.com/njacazio)
 - [\#14624](https://github.com/AliceO2Group/AliceO2/pull/14624) 2025-08-28: TPC: change default max-delay to 1 for o2-tpc-calibrator-dedx by [@ehellbar](https://github.com/ehellbar)
-- [\#14626](https://github.com/AliceO2Group/AliceO2/pull/14626) 2025-08-26: Add HBFUtilsConfig to allow standalone aggregation of TPC residuals by [@shahor02](https://github.com/shahor02)
 - [\#14629](https://github.com/AliceO2Group/AliceO2/pull/14629) 2025-08-27: ITS: skip processing entirely if no clusters/rofs in TF by [@f3sch](https://github.com/f3sch)
 - [\#14631](https://github.com/AliceO2Group/AliceO2/pull/14631) 2025-08-28: [MFT] Fix DCS object sspec in noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#14634](https://github.com/AliceO2Group/AliceO2/pull/14634) 2025-09-05: Geo: Fix Run 4 barrel beam pipe section by [@f3sch](https://github.com/f3sch)
