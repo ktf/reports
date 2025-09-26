@@ -10,6 +10,7 @@
 - [\#14654](https://github.com/AliceO2Group/AliceO2/pull/14654) 2025-09-05: Fix inconsistencies in the HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14657](https://github.com/AliceO2Group/AliceO2/pull/14657) 2025-09-09: NN clusterizer: Fixing memory access faults by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
+- [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
 - [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
