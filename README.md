@@ -55,5 +55,6 @@
 - [\#14670](https://github.com/AliceO2Group/AliceO2/pull/14670) 2025-09-21: [Framework] Configurable.h: Fix PROCESS_SWITCH(_FULL) namespace issue by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14678](https://github.com/AliceO2Group/AliceO2/pull/14678) 2025-09-16: DPL: get CCDB and reader signposts to work. by [@ktf](https://github.com/ktf)
 - [\#14692](https://github.com/AliceO2Group/AliceO2/pull/14692) 2025-09-26: DPL: allow closing a signpost interval with an error by [@ktf](https://github.com/ktf)
+- [\#14696](https://github.com/AliceO2Group/AliceO2/pull/14696) 2025-09-26: DPL: improve message on quit by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
