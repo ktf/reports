@@ -4,106 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGHF] correlatorDMesonPairs.cxx: move ML sparse to separate signal and reflected candidates",
-            "number": 12576,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Addition of deltaEta and deltaPhi columns to the EmcalMatchedTracks tables in the JE framework + fixed some bugs in the full-jet-spectra task",
-            "number": 12942,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-09-23T10:05:21Z",
-            "title": "[Infrastructure] All LF coordinators can approve PWGLF/QC tasks",
-            "number": 13073,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-09-23T10:05:58Z",
-            "title": "[Infrastructure] Bump oxsecurity/megalinter from 8.8.0 to 9.0.1",
-            "number": 13072,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/mega-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF,PWGJE] Add D* spin alignment jet analysis task",
@@ -2651,6 +2551,96 @@
                 {
                   "node": {
                     "path": "Common/Tasks/qaMuon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "PWGHF: Add TPC/TOF nSig hist in Xic task",
+            "number": 2585,
+            "author": {
+              "login": "phymanshu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-04-26T07:30:15Z",
+            "title": "Common: TrackTuner with Pt smearing in MC",
+            "number": 5823,
+            "author": {
+              "login": "phymanshu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-02-18T22:32:45Z",
+            "title": "[PWGHF] fixing tpc-tof pid column names and getters mismatch",
+            "number": 10059,
+            "author": {
+              "login": "phymanshu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToPKPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-14T23:40:10Z",
+            "title": "[PWGHF] Add swapping info in XicToPKPi tree creator",
+            "number": 10497,
+            "author": {
+              "login": "phymanshu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToPKPi.cxx"
                   }
                 }
               ]
