@@ -37,6 +37,7 @@
 - [\#14681](https://github.com/AliceO2Group/AliceO2/pull/14681) 2025-09-25: ITS: GPU: use pinned framework memory  by [@f3sch](https://github.com/f3sch)
 - [\#14684](https://github.com/AliceO2Group/AliceO2/pull/14684) 2025-09-25: ITS: allow sharing of innermost cluster among tracks by [@fchinu](https://github.com/fchinu)
 - [\#14694](https://github.com/AliceO2Group/AliceO2/pull/14694) 2025-09-26: ITS3: use const view of ROFs, prepareROFData by [@f3sch](https://github.com/f3sch)
+- [\#14695](https://github.com/AliceO2Group/AliceO2/pull/14695) 2025-09-27: Methods for layer-dependend mat.LUT rescaling by [@shahor02](https://github.com/shahor02)
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Framework
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
