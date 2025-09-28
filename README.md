@@ -17,9 +17,7 @@
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Detectors
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
-- [\#14620](https://github.com/AliceO2Group/AliceO2/pull/14620) 2025-08-29: Add missing includes by [@njacazio](https://github.com/njacazio)
 - [\#14634](https://github.com/AliceO2Group/AliceO2/pull/14634) 2025-09-05: Geo: Fix Run 4 barrel beam pipe section by [@f3sch](https://github.com/f3sch)
-- [\#14635](https://github.com/AliceO2Group/AliceO2/pull/14635) 2025-08-29: Fix codechecker error by [@davidrohr](https://github.com/davidrohr)
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
 - [\#14644](https://github.com/AliceO2Group/AliceO2/pull/14644) 2025-09-03: ITS: GPU: added launch bounds for ITS kernels by [@cima22](https://github.com/cima22)
 - [\#14647](https://github.com/AliceO2Group/AliceO2/pull/14647) 2025-09-03: ITS: add to macro pull distributions by [@f3sch](https://github.com/f3sch)
@@ -44,7 +42,6 @@
 - [\#14636](https://github.com/AliceO2Group/AliceO2/pull/14636) 2025-08-30: DPL: initial metric to debug size of the histograms / objects being written by [@ktf](https://github.com/ktf)
 - [\#14637](https://github.com/AliceO2Group/AliceO2/pull/14637) 2025-08-30: DPL: fix for printing O2_SIGNPOST_END without start interval by [@ehellbar](https://github.com/ehellbar)
 - [\#14638](https://github.com/AliceO2Group/AliceO2/pull/14638) 2025-08-30: DPL: change exit transition timeout default on FLPs to 40 s by [@ehellbar](https://github.com/ehellbar)
-- [\#14639](https://github.com/AliceO2Group/AliceO2/pull/14639) 2025-08-29: DPL: print error when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
 - [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
 - [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
