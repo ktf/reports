@@ -11,10 +11,12 @@
 - [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
 - [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
+- [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14669](https://github.com/AliceO2Group/AliceO2/pull/14669) 2025-09-11: remove new line from Track::asString, set alpha to +-pi by [@shahor02](https://github.com/shahor02)
 - [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Detectors
+- [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14634](https://github.com/AliceO2Group/AliceO2/pull/14634) 2025-09-05: Geo: Fix Run 4 barrel beam pipe section by [@f3sch](https://github.com/f3sch)
 - [\#14641](https://github.com/AliceO2Group/AliceO2/pull/14641) 2025-09-01: Add to trackdata in the TPC residuals the TOF time difference and t0 error by [@shahor02](https://github.com/shahor02)
