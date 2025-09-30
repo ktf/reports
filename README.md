@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Common
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
@@ -45,6 +46,7 @@
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
+- [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
 - [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
 - [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
