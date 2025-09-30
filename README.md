@@ -58,5 +58,6 @@
 - [\#14696](https://github.com/AliceO2Group/AliceO2/pull/14696) 2025-09-26: DPL: improve message on quit by [@ktf](https://github.com/ktf)
 - [\#14700](https://github.com/AliceO2Group/AliceO2/pull/14700) 2025-09-26: DPL GUI: simplify and speed up by [@ktf](https://github.com/ktf)
 - [\#14702](https://github.com/AliceO2Group/AliceO2/pull/14702) 2025-09-27: DPL: Make RawParser errorMode settable by [@davidrohr](https://github.com/davidrohr)
+- [\#14708](https://github.com/AliceO2Group/AliceO2/pull/14708) 2025-09-30: DPL: fix typo in format by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
