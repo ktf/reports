@@ -41,6 +41,7 @@
 - [\#14694](https://github.com/AliceO2Group/AliceO2/pull/14694) 2025-09-26: ITS3: use const view of ROFs, prepareROFData by [@f3sch](https://github.com/f3sch)
 - [\#14695](https://github.com/AliceO2Group/AliceO2/pull/14695) 2025-09-27: Methods for layer-dependend mat.LUT rescaling by [@shahor02](https://github.com/shahor02)
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
+- [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
