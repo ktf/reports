@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
+- [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14650](https://github.com/AliceO2Group/AliceO2/pull/14650) 2025-09-05: Fix EnumFlags compilation for large enums by [@aferrero2707](https://github.com/aferrero2707)
@@ -46,6 +47,7 @@
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 - [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
+- [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
@@ -62,5 +64,6 @@
 - [\#14702](https://github.com/AliceO2Group/AliceO2/pull/14702) 2025-09-27: DPL: Make RawParser errorMode settable by [@davidrohr](https://github.com/davidrohr)
 - [\#14704](https://github.com/AliceO2Group/AliceO2/pull/14704) 2025-09-30: DPL: improve debugging of ComputingQuotaEvaluator by [@ktf](https://github.com/ktf)
 - [\#14708](https://github.com/AliceO2Group/AliceO2/pull/14708) 2025-09-30: DPL: fix typo in format by [@ktf](https://github.com/ktf)
+- [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
