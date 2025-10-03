@@ -47,6 +47,7 @@
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14715](https://github.com/AliceO2Group/AliceO2/pull/14715) 2025-10-02: ITS: fix truth seeding to only use signal events by [@f3sch](https://github.com/f3sch)
+- [\#14716](https://github.com/AliceO2Group/AliceO2/pull/14716) 2025-10-03: Fixes for modules at negative eta by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Framework
 - [\#14600](https://github.com/AliceO2Group/AliceO2/pull/14600) 2025-09-05: DPL Analysis: improve grouping performance further by [@aalkin](https://github.com/aalkin)
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
