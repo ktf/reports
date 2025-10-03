@@ -47,6 +47,7 @@
 - [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
+- [\#14714](https://github.com/AliceO2Group/AliceO2/pull/14714) 2025-10-03: Cavepipe update by [@amorsch](https://github.com/amorsch)
 - [\#14715](https://github.com/AliceO2Group/AliceO2/pull/14715) 2025-10-02: ITS: fix truth seeding to only use signal events by [@f3sch](https://github.com/f3sch)
 - [\#14716](https://github.com/AliceO2Group/AliceO2/pull/14716) 2025-10-03: Fixes for modules at negative eta by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Framework
