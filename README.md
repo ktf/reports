@@ -24,8 +24,6 @@
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14634](https://github.com/AliceO2Group/AliceO2/pull/14634) 2025-09-05: Geo: Fix Run 4 barrel beam pipe section by [@f3sch](https://github.com/f3sch)
-- [\#14644](https://github.com/AliceO2Group/AliceO2/pull/14644) 2025-09-03: ITS: GPU: added launch bounds for ITS kernels by [@cima22](https://github.com/cima22)
-- [\#14647](https://github.com/AliceO2Group/AliceO2/pull/14647) 2025-09-03: ITS: add to macro pull distributions by [@f3sch](https://github.com/f3sch)
 - [\#14648](https://github.com/AliceO2Group/AliceO2/pull/14648) 2025-09-22: ITS: simplify parallel_for loops by [@f3sch](https://github.com/f3sch)
 - [\#14653](https://github.com/AliceO2Group/AliceO2/pull/14653) 2025-09-05: ITS: make CA tracker the default by [@f3sch](https://github.com/f3sch)
 - [\#14660](https://github.com/AliceO2Group/AliceO2/pull/14660) 2025-09-09: Check consistency of the TPC scaling request and map mean scaler by [@shahor02](https://github.com/shahor02)
