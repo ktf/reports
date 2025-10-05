@@ -2818,26 +2818,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-10-04T23:51:41Z",
-            "title": "[PWGLF] Fix autodetection of old format in strangeness tof pid",
-            "number": 13236,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Update with safer ME",
@@ -3020,7 +3000,32 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add BCsWithTimestamps table in MC reconstruction",
+            "title": "[PWGHF,PWGCF] fix the issue of int configurable caste to int8_t and add QA plot of charm mass vs pt in MC rec",
+            "number": 13240,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add BCsWithTimestamps table in MC reconstruction to get the MC reconstruction result",
             "number": 13241,
             "author": {
               "login": "rashigupt"
@@ -3043,23 +3048,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF,PWGCF] fix the issue of int configurable caste to int8_t and add QA plot of charm mass vs pt in MC rec",
-            "number": 13240,
+            "state": "MERGED",
+            "mergedAt": "2025-10-04T23:51:41Z",
+            "title": "[PWGLF] Fix autodetection of old format in strangeness tof pid",
+            "number": 13236,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "ddobrigk"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsFemtoDream.cxx"
+                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
                   }
                 }
               ]
