@@ -12,6 +12,7 @@
 - [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
 - [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
+- [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
@@ -43,6 +44,7 @@
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 - [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
+- [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14714](https://github.com/AliceO2Group/AliceO2/pull/14714) 2025-10-03: Cavepipe update by [@amorsch](https://github.com/amorsch)
 - [\#14715](https://github.com/AliceO2Group/AliceO2/pull/14715) 2025-10-02: ITS: fix truth seeding to only use signal events by [@f3sch](https://github.com/f3sch)
