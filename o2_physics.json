@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-07-04T13:46:38Z",
-            "title": "[Common] Added further distinction of muon origins in MCH",
-            "number": 11912,
-            "author": {
-              "login": "ppoava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-09-30T05:04:04Z",
             "title": "[PWGEM/Dilepton] add possibility to select phiPosition",
             "number": 13166,
@@ -3075,6 +3055,51 @@
                 {
                   "node": {
                     "path": "PWGHF/Tasks/taskMcInjection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add ML to XicotoXiPi DCA Filter analysis",
+            "number": 12758,
+            "author": {
+              "login": "Tao-Fang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseXic0ToXiPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic0ToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
                   }
                 }
               ]
