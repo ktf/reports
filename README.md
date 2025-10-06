@@ -51,6 +51,7 @@
 - [\#14716](https://github.com/AliceO2Group/AliceO2/pull/14716) 2025-10-03: Fixes for modules at negative eta by [@ekryshen](https://github.com/ekryshen)
 - [\#14718](https://github.com/AliceO2Group/AliceO2/pull/14718) 2025-10-06: Fix protection of MC signal filtering to work with any embedPatt by [@fgrosa](https://github.com/fgrosa)
 - [\#14719](https://github.com/AliceO2Group/AliceO2/pull/14719) 2025-10-06: TPC: Silence by default IncompleteHBF check by [@wiechula](https://github.com/wiechula)
+- [\#14721](https://github.com/AliceO2Group/AliceO2/pull/14721) 2025-10-06: Glo: only initialzes AB geometry helper up to lowest allowed layer by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
