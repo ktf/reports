@@ -53,6 +53,7 @@
 - [\#14719](https://github.com/AliceO2Group/AliceO2/pull/14719) 2025-10-06: TPC: Silence by default IncompleteHBF check by [@wiechula](https://github.com/wiechula)
 - [\#14721](https://github.com/AliceO2Group/AliceO2/pull/14721) 2025-10-06: Glo: only initialzes AB geometry helper up to lowest allowed layer by [@f3sch](https://github.com/f3sch)
 - [\#14722](https://github.com/AliceO2Group/AliceO2/pull/14722) 2025-10-06: TPC Workflow: Fix option name in help text and comment by [@davidrohr](https://github.com/davidrohr)
+- [\#14724](https://github.com/AliceO2Group/AliceO2/pull/14724) 2025-10-07: Account for rejected clusters in unbinned residuals counters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14652](https://github.com/AliceO2Group/AliceO2/pull/14652) 2025-09-08: Optionaly use TF slice instead of TFcounter for CCDB cache validation by [@shahor02](https://github.com/shahor02)
