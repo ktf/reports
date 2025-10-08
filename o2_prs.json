@@ -3439,31 +3439,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Attempt at reducing makeEmptyTable bloat",
-            "number": 14294,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/Pack.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "GPU Framework: fixed mismatch between CUDA and HIP launch bounds definition",
@@ -3936,166 +3911,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Update of TPC fast space charge correction with splines",
-            "number": 14723,
-            "author": {
-              "login": "sgorbuno"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/TPCFastSpaceChargeCorrectionHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCFastSpaceChargeCorrectionHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/TPCFastTransformHelperO2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/test/testTPCFastTransform.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMSectorTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/render/GPUDisplayDraw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/render/GPUDisplayImportEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline1D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline1DSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline2DHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline2DHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline2DSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/Spline2DSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/SplineHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/SplineSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrectionMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransform.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/macro/TPCFastTransformInit.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Extending the CCDB API to optionally get the headers from first HTTP request",
             "number": 14709,
             "author": {
@@ -4131,6 +3946,51 @@
                 {
                   "node": {
                     "path": "CCDB/test/testCcdbApiHeaders.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-10-07T22:14:12Z",
+            "title": "Account for rejected clusters in unbinned residuals counters",
+            "number": 14724,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[O2-5887] Detect if an empty URL is passed to the CCDB api.",
+            "number": 14349,
+            "author": {
+              "login": "Barthelemy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
                   }
                 }
               ]
@@ -4294,18 +4154,158 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-10-07T22:14:12Z",
-            "title": "Account for rejected clusters in unbinned residuals counters",
-            "number": 14724,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update of TPC fast space charge correction with splines",
+            "number": 14723,
             "author": {
-              "login": "shahor02"
+              "login": "sgorbuno"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/TPCFastSpaceChargeCorrectionHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/TPCFastSpaceChargeCorrectionHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/TPCFastTransformHelperO2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testTPCFastTransform.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMSectorTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/render/GPUDisplayDraw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/render/GPUDisplayImportEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline1D.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline1DSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline2DHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline2DHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline2DSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/Spline2DSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/SplineHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/SplineSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrectionMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/macro/TPCFastTransformInit.C"
                   }
                 }
               ]
@@ -4346,21 +4346,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[O2-5887] Detect if an empty URL is passed to the CCDB api.",
-            "number": 14349,
+            "title": "Attempt at reducing makeEmptyTable bloat",
+            "number": 14294,
             "author": {
-              "login": "Barthelemy"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "CCDB/test/testCcdbApi.cxx"
+                    "path": "Framework/Foundation/include/Framework/Pack.h"
                   }
                 }
               ]
