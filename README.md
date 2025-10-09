@@ -7,7 +7,6 @@
 ## Recent developments in O2 - Common
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14655](https://github.com/AliceO2Group/AliceO2/pull/14655) 2025-09-29: Common: minor cleanup in flag helper by [@f3sch](https://github.com/f3sch)
-- [\#14657](https://github.com/AliceO2Group/AliceO2/pull/14657) 2025-09-09: NN clusterizer: Fixing memory access faults by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 - [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
 - [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
@@ -24,7 +23,6 @@
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14648](https://github.com/AliceO2Group/AliceO2/pull/14648) 2025-09-22: ITS: simplify parallel_for loops by [@f3sch](https://github.com/f3sch)
-- [\#14660](https://github.com/AliceO2Group/AliceO2/pull/14660) 2025-09-09: Check consistency of the TPC scaling request and map mean scaler by [@shahor02](https://github.com/shahor02)
 - [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 - [\#14664](https://github.com/AliceO2Group/AliceO2/pull/14664) 2025-09-10: MCStudy: fix ITS/TPC extrapolation, optionally add TPC track.refs by [@shahor02](https://github.com/shahor02)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
