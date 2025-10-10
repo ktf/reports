@@ -66,5 +66,6 @@
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14717](https://github.com/AliceO2Group/AliceO2/pull/14717) 2025-10-05: DPL: refactor resource offers to allow multi-resource ones by [@ktf](https://github.com/ktf)
 - [\#14727](https://github.com/AliceO2Group/AliceO2/pull/14727) 2025-10-09: DPL: print an error when the configuration is not parsed correctly by [@ktf](https://github.com/ktf)
+- [\#14728](https://github.com/AliceO2Group/AliceO2/pull/14728) 2025-10-10: DPL: support submitting directly to slurm by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
