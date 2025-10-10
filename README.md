@@ -7,7 +7,6 @@
 ## Recent developments in O2 - Common
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14655](https://github.com/AliceO2Group/AliceO2/pull/14655) 2025-09-29: Common: minor cleanup in flag helper by [@f3sch](https://github.com/f3sch)
-- [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
 - [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
 - [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
@@ -23,8 +22,6 @@
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14542](https://github.com/AliceO2Group/AliceO2/pull/14542) 2025-09-16: GPU TPC: Tracking Developments by [@davidrohr](https://github.com/davidrohr)
 - [\#14648](https://github.com/AliceO2Group/AliceO2/pull/14648) 2025-09-22: ITS: simplify parallel_for loops by [@f3sch](https://github.com/f3sch)
-- [\#14663](https://github.com/AliceO2Group/AliceO2/pull/14663) 2025-09-10: MaterialManager: Allow density modification on the individual materia… by [@sawenzel](https://github.com/sawenzel)
-- [\#14664](https://github.com/AliceO2Group/AliceO2/pull/14664) 2025-09-10: MCStudy: fix ITS/TPC extrapolation, optionally add TPC track.refs by [@shahor02](https://github.com/shahor02)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14668](https://github.com/AliceO2Group/AliceO2/pull/14668) 2025-09-25: TPC: Apply T/P scaling of VDrift only if T/P change is large enough by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14671](https://github.com/AliceO2Group/AliceO2/pull/14671) 2025-09-13: ITS: Tracker don't print expected exception by [@f3sch](https://github.com/f3sch)
@@ -55,7 +52,6 @@
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
-- [\#14661](https://github.com/AliceO2Group/AliceO2/pull/14661) 2025-09-10: Fix macro formatting by [@singiamtel](https://github.com/singiamtel)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14670](https://github.com/AliceO2Group/AliceO2/pull/14670) 2025-09-21: [Framework] Configurable.h: Fix PROCESS_SWITCH(_FULL) namespace issue by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14678](https://github.com/AliceO2Group/AliceO2/pull/14678) 2025-09-16: DPL: get CCDB and reader signposts to work. by [@ktf](https://github.com/ktf)
