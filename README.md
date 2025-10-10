@@ -31,6 +31,7 @@
 - [\#14676](https://github.com/AliceO2Group/AliceO2/pull/14676) 2025-09-16: Add TRD tracklets slopes to unbinned residuals tree by [@shahor02](https://github.com/shahor02)
 - [\#14681](https://github.com/AliceO2Group/AliceO2/pull/14681) 2025-09-25: ITS: GPU: use pinned framework memory  by [@f3sch](https://github.com/f3sch)
 - [\#14684](https://github.com/AliceO2Group/AliceO2/pull/14684) 2025-09-25: ITS: allow sharing of innermost cluster among tracks by [@fchinu](https://github.com/fchinu)
+- [\#14685](https://github.com/AliceO2Group/AliceO2/pull/14685) 2025-10-10: ITS3: improvements for simulation and reconstruction by [@f3sch](https://github.com/f3sch)
 - [\#14688](https://github.com/AliceO2Group/AliceO2/pull/14688) 2025-10-05: TPC: Add option to write reduced clusterNative, removing rejected clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#14689](https://github.com/AliceO2Group/AliceO2/pull/14689) 2025-10-01: TPC: Demote errors to warnings by [@wiechula](https://github.com/wiechula)
 - [\#14690](https://github.com/AliceO2Group/AliceO2/pull/14690) 2025-10-01: TPC: update drawing helpers and DCS CCDB Config macro by [@wiechula](https://github.com/wiechula)
