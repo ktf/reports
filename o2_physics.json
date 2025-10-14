@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-10T06:33:47Z",
-            "title": "[PWGCF] adding shift correction",
-            "number": 13297,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-09T21:40:55Z",
             "title": "[PWGEM,PWGEM-9] Fix `hCaloClusterFilter` filling and clean up of `emcalPi0Qc.cxx`",
             "number": 13279,
@@ -2251,23 +2231,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] fixed issues in nucleiqc",
-            "number": 13382,
+            "state": "MERGED",
+            "mergedAt": "2025-10-14T13:54:29Z",
+            "title": "[PWGCF] Added a finer centrality binning for the particle spectra",
+            "number": 13368,
             "author": {
-              "login": "GiorgioAlbertoLucia"
+              "login": "JStaa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
                   }
                 }
               ]
@@ -2278,7 +2253,47 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add ML to XicotoXiPi DCA Filter analysis",
+            "title": "[PWGCF] FemtoUniverse: Add function to pair MCTruth particles",
+            "number": 13376,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Memory loss problem resolve due to histogram",
+            "number": 13383,
+            "author": {
+              "login": "sdudi123"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/spectraKinkPiKa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add ML to Xic0ToXiPi DCA Filter analysis",
             "number": 12758,
             "author": {
               "login": "Tao-Fang"
@@ -2337,17 +2352,22 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-14T13:54:29Z",
-            "title": "[PWGCF] Added a finer centrality binning for the particle spectra",
-            "number": 13368,
+            "mergedAt": "2025-10-14T14:27:21Z",
+            "title": "[PWGLF] fixed issues in nucleiqc",
+            "number": 13382,
             "author": {
-              "login": "JStaa"
+              "login": "GiorgioAlbertoLucia"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
@@ -2358,36 +2378,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Add function to pair MCTruth particles",
-            "number": 13376,
+            "title": "[DPG] Adding new HMPID tasks",
+            "number": 13225,
             "author": {
-              "login": "prchakra"
+              "login": "gvolpe79"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/CMakeLists.txt"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Memory loss problem resolve due to histogram",
-            "number": 13383,
-            "author": {
-              "login": "sdudi123"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraKinkPiKa.cxx"
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/analysisHMPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/analysisHMPID_pb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/deuteronCS_HMPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/qaHMPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/qaHMPID_pb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/qaHMPID_pp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/tableHMPID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/tableHMPIDPb.h"
                   }
                 }
               ]
