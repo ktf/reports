@@ -25,7 +25,6 @@
 - [\#14648](https://github.com/AliceO2Group/AliceO2/pull/14648) 2025-09-22: ITS: simplify parallel_for loops by [@f3sch](https://github.com/f3sch)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14668](https://github.com/AliceO2Group/AliceO2/pull/14668) 2025-09-25: TPC: Apply T/P scaling of VDrift only if T/P change is large enough by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#14672](https://github.com/AliceO2Group/AliceO2/pull/14672) 2025-09-15: ITS: GPU: partial Vertexer implementation by [@f3sch](https://github.com/f3sch)
 - [\#14673](https://github.com/AliceO2Group/AliceO2/pull/14673) 2025-09-16: TPC: Add new raw data type for common mode values by [@wiechula](https://github.com/wiechula)
 - [\#14676](https://github.com/AliceO2Group/AliceO2/pull/14676) 2025-09-16: Add TRD tracklets slopes to unbinned residuals tree by [@shahor02](https://github.com/shahor02)
 - [\#14681](https://github.com/AliceO2Group/AliceO2/pull/14681) 2025-09-25: ITS: GPU: use pinned framework memory  by [@f3sch](https://github.com/f3sch)
@@ -71,5 +70,3 @@
 - [\#14720](https://github.com/AliceO2Group/AliceO2/pull/14720) 2025-10-10: DPL: refactor resource offering to be a function by [@ktf](https://github.com/ktf)
 - [\#14727](https://github.com/AliceO2Group/AliceO2/pull/14727) 2025-10-09: DPL: print an error when the configuration is not parsed correctly by [@ktf](https://github.com/ktf)
 - [\#14728](https://github.com/AliceO2Group/AliceO2/pull/14728) 2025-10-10: DPL: support submitting directly to slurm by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#14674](https://github.com/AliceO2Group/AliceO2/pull/14674) 2025-09-15: Updated spin and mass  with latest PDG by [@sawankumawat](https://github.com/sawankumawat)
