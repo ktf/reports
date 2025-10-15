@@ -72,6 +72,7 @@
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14717](https://github.com/AliceO2Group/AliceO2/pull/14717) 2025-10-05: DPL: refactor resource offers to allow multi-resource ones by [@ktf](https://github.com/ktf)
 - [\#14720](https://github.com/AliceO2Group/AliceO2/pull/14720) 2025-10-10: DPL: refactor resource offering to be a function by [@ktf](https://github.com/ktf)
+- [\#14726](https://github.com/AliceO2Group/AliceO2/pull/14726) 2025-10-15: DPL: add command line option to print error instead of warning when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
 - [\#14727](https://github.com/AliceO2Group/AliceO2/pull/14727) 2025-10-09: DPL: print an error when the configuration is not parsed correctly by [@ktf](https://github.com/ktf)
 - [\#14728](https://github.com/AliceO2Group/AliceO2/pull/14728) 2025-10-10: DPL: support submitting directly to slurm by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
