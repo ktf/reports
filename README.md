@@ -48,6 +48,7 @@
 - [\#14724](https://github.com/AliceO2Group/AliceO2/pull/14724) 2025-10-07: Account for rejected clusters in unbinned residuals counters by [@shahor02](https://github.com/shahor02)
 - [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14733](https://github.com/AliceO2Group/AliceO2/pull/14733) 2025-10-13: ALICE3-TRK: several fixes in the digitization code by [@atriolo](https://github.com/atriolo)
+- [\#14735](https://github.com/AliceO2Group/AliceO2/pull/14735) 2025-10-16: Fix unwanted behaviour in signal filtering with embedding pattern different from `@0:e1` by [@fgrosa](https://github.com/fgrosa)
 - [\#14740](https://github.com/AliceO2Group/AliceO2/pull/14740) 2025-10-15: Fix precalculated sector cos/sin values in TOF Geo by [@shahor02](https://github.com/shahor02)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
