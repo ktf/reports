@@ -18,6 +18,7 @@
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
+- [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
@@ -47,6 +48,7 @@
 - [\#14722](https://github.com/AliceO2Group/AliceO2/pull/14722) 2025-10-06: TPC Workflow: Fix option name in help text and comment by [@davidrohr](https://github.com/davidrohr)
 - [\#14724](https://github.com/AliceO2Group/AliceO2/pull/14724) 2025-10-07: Account for rejected clusters in unbinned residuals counters by [@shahor02](https://github.com/shahor02)
 - [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
+- [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14733](https://github.com/AliceO2Group/AliceO2/pull/14733) 2025-10-13: ALICE3-TRK: several fixes in the digitization code by [@atriolo](https://github.com/atriolo)
 - [\#14735](https://github.com/AliceO2Group/AliceO2/pull/14735) 2025-10-16: Fix unwanted behaviour in signal filtering with embedding pattern different from `@0:e1` by [@fgrosa](https://github.com/fgrosa)
 - [\#14740](https://github.com/AliceO2Group/AliceO2/pull/14740) 2025-10-15: Fix precalculated sector cos/sin values in TOF Geo by [@shahor02](https://github.com/shahor02)
