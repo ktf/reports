@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-15T13:54:00Z",
-            "title": "[ALICE3] Add option to fasttrack primaries",
-            "number": 13325,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-15T14:12:59Z",
             "title": "Please consider the following formatting changes to #13402",
             "number": 13403,
@@ -2453,31 +2433,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-20T16:07:46Z",
-            "title": "[PWGEM/Dilepton] fix mc label of muon",
-            "number": 13458,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/associateMCinfoDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-20T16:11:19Z",
             "title": "[PWGCF] FemtoUniverse: Add eta, pT cuts on MCTruth tracks",
             "number": 13457,
@@ -2509,6 +2464,56 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix isGoodCollision flag in decay3bodybuilder and add config for application of SVertexer cuts for mixing",
+            "number": 13460,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-10-20T16:07:46Z",
+            "title": "[PWGEM/Dilepton] fix mc label of muon",
+            "number": 13458,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/associateMCinfoDilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
                   }
                 }
               ]
@@ -2584,21 +2589,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix isGoodCollision flag in decay3bodybuilder and add config for application of SVertexer cuts for mixing",
-            "number": 13460,
+            "title": "[PWGCF] FemtoUniverse: Add flag and condition to select only primaries",
+            "number": 13466,
             "author": {
-              "login": "creetz16"
+              "login": "prchakra"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
                   }
                 }
               ]
