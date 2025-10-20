@@ -9,7 +9,6 @@
 - [\#14655](https://github.com/AliceO2Group/AliceO2/pull/14655) 2025-09-29: Common: minor cleanup in flag helper by [@f3sch](https://github.com/f3sch)
 - [\#14662](https://github.com/AliceO2Group/AliceO2/pull/14662) 2025-10-10: [Common] Add eta, omega and eta' to PhysicsConstants.h by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
-- [\#14686](https://github.com/AliceO2Group/AliceO2/pull/14686) 2025-09-23: Avoid recompiling fpu.cxx a gazillion of times by [@ktf](https://github.com/ktf)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
@@ -23,7 +22,6 @@
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
-- [\#14648](https://github.com/AliceO2Group/AliceO2/pull/14648) 2025-09-22: ITS: simplify parallel_for loops by [@f3sch](https://github.com/f3sch)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14668](https://github.com/AliceO2Group/AliceO2/pull/14668) 2025-09-25: TPC: Apply T/P scaling of VDrift only if T/P change is large enough by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14681](https://github.com/AliceO2Group/AliceO2/pull/14681) 2025-09-25: ITS: GPU: use pinned framework memory  by [@f3sch](https://github.com/f3sch)
@@ -60,9 +58,7 @@
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
-- [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
-- [\#14670](https://github.com/AliceO2Group/AliceO2/pull/14670) 2025-09-21: [Framework] Configurable.h: Fix PROCESS_SWITCH(_FULL) namespace issue by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14687](https://github.com/AliceO2Group/AliceO2/pull/14687) 2025-09-27: DPL Websocket: Add protocol param to encode_websocket_handshake_reply which allows a response Sec-WebSocket-Accept in handshake. by [@nicolaspoffley](https://github.com/nicolaspoffley)
 - [\#14692](https://github.com/AliceO2Group/AliceO2/pull/14692) 2025-09-26: DPL: allow closing a signpost interval with an error by [@ktf](https://github.com/ktf)
 - [\#14696](https://github.com/AliceO2Group/AliceO2/pull/14696) 2025-09-26: DPL: improve message on quit by [@ktf](https://github.com/ktf)
