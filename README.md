@@ -53,6 +53,7 @@
 - [\#14735](https://github.com/AliceO2Group/AliceO2/pull/14735) 2025-10-16: Fix unwanted behaviour in signal filtering with embedding pattern different from `@0:e1` by [@fgrosa](https://github.com/fgrosa)
 - [\#14740](https://github.com/AliceO2Group/AliceO2/pull/14740) 2025-10-15: Fix precalculated sector cos/sin values in TOF Geo by [@shahor02](https://github.com/shahor02)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
+- [\#14746](https://github.com/AliceO2Group/AliceO2/pull/14746) 2025-10-20: corrected positions of volumes in RB24 after recent Cave updates by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
