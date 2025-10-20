@@ -17,6 +17,7 @@
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
+- [\#14725](https://github.com/AliceO2Group/AliceO2/pull/14725) 2025-10-20: ability to take inject external vertices in collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
@@ -54,6 +55,8 @@
 - [\#14740](https://github.com/AliceO2Group/AliceO2/pull/14740) 2025-10-15: Fix precalculated sector cos/sin values in TOF Geo by [@shahor02](https://github.com/shahor02)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14746](https://github.com/AliceO2Group/AliceO2/pull/14746) 2025-10-20: corrected positions of volumes in RB24 after recent Cave updates by [@amorsch](https://github.com/amorsch)
+## Recent developments in O2 - Examples
+- [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14656](https://github.com/AliceO2Group/AliceO2/pull/14656) 2025-09-22: DPL: add possibility to disable downscaling of processing reporting by env variable by [@ehellbar](https://github.com/ehellbar)
@@ -74,3 +77,5 @@
 - [\#14727](https://github.com/AliceO2Group/AliceO2/pull/14727) 2025-10-09: DPL: print an error when the configuration is not parsed correctly by [@ktf](https://github.com/ktf)
 - [\#14728](https://github.com/AliceO2Group/AliceO2/pull/14728) 2025-10-10: DPL: support submitting directly to slurm by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#14725](https://github.com/AliceO2Group/AliceO2/pull/14725) 2025-10-20: ability to take inject external vertices in collision context by [@sawenzel](https://github.com/sawenzel)
