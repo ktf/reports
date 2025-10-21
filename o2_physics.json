@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-10-16T04:19:29Z",
-            "title": "[PWGLF] Return the current code of KstarInOO.cxx ",
-            "number": 13390,
-            "author": {
-              "login": "JimunLee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse -- Helicity ranges.",
@@ -2575,26 +2555,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] tpcSkimsTableCreator: algo bugfix; add nSigma TOF cut; code cleaning",
-            "number": 13438,
+            "title": "[Common,PWGLF] Task to study ZDC response and calibration in light ion data taking",
+            "number": 13401,
             "author": {
-              "login": "lubynets"
+              "login": "coppedis"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                    "path": "Common/DataModel/ZDCLightIons.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
+                    "path": "Common/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
+                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/TableProducer/CMakeLists.txt"
                   }
                 }
               ]
@@ -2603,7 +2588,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] NucleiTask - Fix bugs in mult dependent histos",
             "number": 13473,
@@ -2630,31 +2615,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGLF] Task to study ZDC response and calibration in light ion data taking",
-            "number": 13401,
+            "title": "[PWGLF] NucleiTask - Fix bugged hosts",
+            "number": 13474,
             "author": {
-              "login": "coppedis"
+              "login": "giovannimalfattore"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/ZDCLightIons.h"
+                    "path": "PWGLF/Tasks/Nuspex/LFNucleiBATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] tpcSkimsTableCreator: algo bugfix; add nSigma TOF cut; code cleaning",
+            "number": 13438,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/TableProducer/CMakeLists.txt"
+                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
                   }
                 }
               ]
