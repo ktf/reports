@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Task to study ZDC response and calibration in light ion data taking",
-            "number": 13401,
-            "author": {
-              "login": "coppedis"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/ZDCLightIons.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/TableProducer/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-10-15T18:20:21Z",
             "title": "[PWGLF] Optimize memory usage: move jet/area definitions outside event loop and use swap() to release vectors",
@@ -2470,26 +2435,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] update MB task",
-            "number": 13454,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/MaterialBudget.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] HadronPhotonCorrelation Task: Small bug fixes",
             "number": 13471,
             "author": {
@@ -2630,6 +2575,56 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] update MB task",
+            "number": 13454,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/MaterialBudget.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-10-21T07:21:48Z",
+            "title": "[Common] Add possibility to verify commit hash from metadata",
+            "number": 13343,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/MetadataHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/MetadataHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/macros/testMetadataHelper.C"
                   }
                 }
               ]
