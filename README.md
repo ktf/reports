@@ -26,7 +26,6 @@
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
 - [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
-- [\#14668](https://github.com/AliceO2Group/AliceO2/pull/14668) 2025-09-25: TPC: Apply T/P scaling of VDrift only if T/P change is large enough by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14681](https://github.com/AliceO2Group/AliceO2/pull/14681) 2025-09-25: ITS: GPU: use pinned framework memory  by [@f3sch](https://github.com/f3sch)
 - [\#14684](https://github.com/AliceO2Group/AliceO2/pull/14684) 2025-09-25: ITS: allow sharing of innermost cluster among tracks by [@fchinu](https://github.com/fchinu)
 - [\#14685](https://github.com/AliceO2Group/AliceO2/pull/14685) 2025-10-10: ITS3: improvements for simulation and reconstruction by [@f3sch](https://github.com/f3sch)
