@@ -8,7 +8,6 @@
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14655](https://github.com/AliceO2Group/AliceO2/pull/14655) 2025-09-29: Common: minor cleanup in flag helper by [@f3sch](https://github.com/f3sch)
 - [\#14662](https://github.com/AliceO2Group/AliceO2/pull/14662) 2025-10-10: [Common] Add eta, omega and eta' to PhysicsConstants.h by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#14675](https://github.com/AliceO2Group/AliceO2/pull/14675) 2025-09-26: Common: allow literal suffix and add tests for confkey by [@f3sch](https://github.com/f3sch)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
