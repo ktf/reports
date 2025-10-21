@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
-- [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -25,7 +24,6 @@
 ## Recent developments in O2 - Detectors
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
-- [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14685](https://github.com/AliceO2Group/AliceO2/pull/14685) 2025-10-10: ITS3: improvements for simulation and reconstruction by [@f3sch](https://github.com/f3sch)
 - [\#14688](https://github.com/AliceO2Group/AliceO2/pull/14688) 2025-10-05: TPC: Add option to write reduced clusterNative, removing rejected clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#14689](https://github.com/AliceO2Group/AliceO2/pull/14689) 2025-10-01: TPC: Demote errors to warnings by [@wiechula](https://github.com/wiechula)
@@ -58,7 +56,6 @@
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
-- [\#14666](https://github.com/AliceO2Group/AliceO2/pull/14666) 2025-09-25: Add ITS fake clusters information to the mcMask by [@fmazzasc](https://github.com/fmazzasc)
 - [\#14687](https://github.com/AliceO2Group/AliceO2/pull/14687) 2025-09-27: DPL Websocket: Add protocol param to encode_websocket_handshake_reply which allows a response Sec-WebSocket-Accept in handshake. by [@nicolaspoffley](https://github.com/nicolaspoffley)
 - [\#14692](https://github.com/AliceO2Group/AliceO2/pull/14692) 2025-09-26: DPL: allow closing a signpost interval with an error by [@ktf](https://github.com/ktf)
 - [\#14696](https://github.com/AliceO2Group/AliceO2/pull/14696) 2025-09-26: DPL: improve message on quit by [@ktf](https://github.com/ktf)
