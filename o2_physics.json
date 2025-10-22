@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-16T23:32:41Z",
-            "title": "[PWGJE] Updated GNN b-jet analysis histograms, applied proper event selections",
-            "number": 13418,
-            "author": {
-              "login": "choich08365"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetTaggerHF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-17T02:27:37Z",
             "title": "[PWGDQ] MC Acceptance check added to DileptonTrack + minor fixes",
             "number": 13419,
@@ -3139,7 +3114,27 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "MERGED",
+            "mergedAt": "2025-10-22T05:16:08Z",
+            "title": "[PWGLF] NucleiTask - Fix bugged hosts",
+            "number": 13474,
+            "author": {
+              "login": "giovannimalfattore"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/LFNucleiBATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGDQ] Save information of Mc tuned dE/dx",
             "number": 13487,
@@ -3164,18 +3159,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-10-22T05:16:08Z",
-            "title": "[PWGLF] NucleiTask - Fix bugged hosts",
-            "number": 13474,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Store Mc tuned dE/dx pr",
+            "number": 13488,
             "author": {
-              "login": "giovannimalfattore"
+              "login": "ypwangg"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/LFNucleiBATask.cxx"
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
                   }
                 }
               ]
