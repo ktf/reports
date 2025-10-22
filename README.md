@@ -51,6 +51,7 @@
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14746](https://github.com/AliceO2Group/AliceO2/pull/14746) 2025-10-20: corrected positions of volumes in RB24 after recent Cave updates by [@amorsch](https://github.com/amorsch)
 - [\#14750](https://github.com/AliceO2Group/AliceO2/pull/14750) 2025-10-20: ITS3: remove unused files by [@f3sch](https://github.com/f3sch)
+- [\#14755](https://github.com/AliceO2Group/AliceO2/pull/14755) 2025-10-22: [FOCAL-62,FOCAL-65] Adding cuts for air by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
