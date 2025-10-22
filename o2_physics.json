@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-15T05:15:08Z",
-            "title": "[PWGUD] updates to upcRhoAnalysis.cxx",
-            "number": 13375,
-            "author": {
-              "login": "jjuracka"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcRhoAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-17T07:34:56Z",
             "title": "[PWGHF] taskFlow.cxx: add FT0C, add cuts, remove MC gen for now",
             "number": 13359,
@@ -2356,31 +2336,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Charge Particle Flow",
-            "number": 13485,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-10-22T08:07:06Z",
             "title": "[PWGCF] add PID selection",
@@ -2518,6 +2473,126 @@
                 {
                   "node": {
                     "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF,Common] Add Cd to deKpi candidates reconstruction workflow into the HF framework",
+            "number": 13453,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TrackSelectorPID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorCd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/pidCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsPid.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Adding overflow short-circuit",
+            "number": 13336,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/occupancyTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] phosElId.cxx fixed DCA calls",
+            "number": 13491,
+            "author": {
+              "login": "yhambard"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosElId.cxx"
                   }
                 }
               ]
@@ -3043,76 +3118,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF,Common] Add Cd to deKpi candidates reconstruction workflow into the HF framework",
-            "number": 13453,
+            "title": "[PWGCF] Charge Particle Flow",
+            "number": 13485,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "yashpatley"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/TrackSelectorPID.h"
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorCd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/pidCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsPid.h"
+                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
                   }
                 }
               ]
@@ -3123,36 +3143,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Adding overflow short-circuit",
-            "number": 13336,
+            "title": "[PWGHF,Trigger] Fix redundant copies, useless conditions, variable scope",
+            "number": 13492,
             "author": {
-              "login": "ChSonnabend"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/occupancyTableProducer.cxx"
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] phosElId.cxx fixed DCA calls",
-            "number": 13491,
-            "author": {
-              "login": "yhambard"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGEM/Tasks/phosElId.cxx"
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
                   }
                 }
               ]
