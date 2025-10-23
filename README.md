@@ -73,6 +73,7 @@
 - [\#14727](https://github.com/AliceO2Group/AliceO2/pull/14727) 2025-10-09: DPL: print an error when the configuration is not parsed correctly by [@ktf](https://github.com/ktf)
 - [\#14728](https://github.com/AliceO2Group/AliceO2/pull/14728) 2025-10-10: DPL: support submitting directly to slurm by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
+- [\#14759](https://github.com/AliceO2Group/AliceO2/pull/14759) 2025-10-23: Fix typo in log message by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Generators
 - [\#14753](https://github.com/AliceO2Group/AliceO2/pull/14753) 2025-10-20: Generators: Embed into correct event when using collision-context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
