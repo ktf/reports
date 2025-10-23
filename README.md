@@ -23,6 +23,7 @@
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#14764](https://github.com/AliceO2Group/AliceO2/pull/14764) 2025-10-23: Add forgotten short->unsigned short redefinition by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
