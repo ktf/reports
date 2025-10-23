@@ -11,6 +11,7 @@
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
+- [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
@@ -21,6 +22,7 @@
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
+- [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14427](https://github.com/AliceO2Group/AliceO2/pull/14427) 2025-09-29: Custom streamer for std::vector<o2::tpc::PadFlags> by [@ktf](https://github.com/ktf)
@@ -56,6 +58,7 @@
 - [\#14751](https://github.com/AliceO2Group/AliceO2/pull/14751) 2025-10-23: ITS3: fix recently added service material by [@f3sch](https://github.com/f3sch)
 - [\#14755](https://github.com/AliceO2Group/AliceO2/pull/14755) 2025-10-22: [FOCAL-62,FOCAL-65] Adding cuts for air by [@hahassan7](https://github.com/hahassan7)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
+- [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
