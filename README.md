@@ -32,7 +32,6 @@
 - [\#14689](https://github.com/AliceO2Group/AliceO2/pull/14689) 2025-10-01: TPC: Demote errors to warnings by [@wiechula](https://github.com/wiechula)
 - [\#14690](https://github.com/AliceO2Group/AliceO2/pull/14690) 2025-10-01: TPC: update drawing helpers and DCS CCDB Config macro by [@wiechula](https://github.com/wiechula)
 - [\#14691](https://github.com/AliceO2Group/AliceO2/pull/14691) 2025-10-01: TPC: Extend time gain calibration by [@wiechula](https://github.com/wiechula)
-- [\#14694](https://github.com/AliceO2Group/AliceO2/pull/14694) 2025-09-26: ITS3: use const view of ROFs, prepareROFData by [@f3sch](https://github.com/f3sch)
 - [\#14695](https://github.com/AliceO2Group/AliceO2/pull/14695) 2025-09-27: Methods for layer-dependend mat.LUT rescaling by [@shahor02](https://github.com/shahor02)
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 - [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
