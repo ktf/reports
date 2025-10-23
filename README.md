@@ -53,6 +53,7 @@
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14746](https://github.com/AliceO2Group/AliceO2/pull/14746) 2025-10-20: corrected positions of volumes in RB24 after recent Cave updates by [@amorsch](https://github.com/amorsch)
 - [\#14750](https://github.com/AliceO2Group/AliceO2/pull/14750) 2025-10-20: ITS3: remove unused files by [@f3sch](https://github.com/f3sch)
+- [\#14751](https://github.com/AliceO2Group/AliceO2/pull/14751) 2025-10-23: ITS3: fix recently added service material by [@f3sch](https://github.com/f3sch)
 - [\#14755](https://github.com/AliceO2Group/AliceO2/pull/14755) 2025-10-22: [FOCAL-62,FOCAL-65] Adding cuts for air by [@hahassan7](https://github.com/hahassan7)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
