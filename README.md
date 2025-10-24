@@ -56,6 +56,7 @@
 - [\#14750](https://github.com/AliceO2Group/AliceO2/pull/14750) 2025-10-20: ITS3: remove unused files by [@f3sch](https://github.com/f3sch)
 - [\#14751](https://github.com/AliceO2Group/AliceO2/pull/14751) 2025-10-23: ITS3: fix recently added service material by [@f3sch](https://github.com/f3sch)
 - [\#14755](https://github.com/AliceO2Group/AliceO2/pull/14755) 2025-10-22: [FOCAL-62,FOCAL-65] Adding cuts for air by [@hahassan7](https://github.com/hahassan7)
+- [\#14756](https://github.com/AliceO2Group/AliceO2/pull/14756) 2025-10-24: ITS Calib: fix parallel processing for highly disordered data  by [@iravasen](https://github.com/iravasen)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#14765](https://github.com/AliceO2Group/AliceO2/pull/14765) 2025-10-24: Process TRD,TOF fake flags in MC study workflow by [@shahor02](https://github.com/shahor02)
