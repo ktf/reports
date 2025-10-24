@@ -32,6 +32,7 @@
 - [\#14689](https://github.com/AliceO2Group/AliceO2/pull/14689) 2025-10-01: TPC: Demote errors to warnings by [@wiechula](https://github.com/wiechula)
 - [\#14690](https://github.com/AliceO2Group/AliceO2/pull/14690) 2025-10-01: TPC: update drawing helpers and DCS CCDB Config macro by [@wiechula](https://github.com/wiechula)
 - [\#14691](https://github.com/AliceO2Group/AliceO2/pull/14691) 2025-10-01: TPC: Extend time gain calibration by [@wiechula](https://github.com/wiechula)
+- [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
 - [\#14695](https://github.com/AliceO2Group/AliceO2/pull/14695) 2025-09-27: Methods for layer-dependend mat.LUT rescaling by [@shahor02](https://github.com/shahor02)
 - [\#14697](https://github.com/AliceO2Group/AliceO2/pull/14697) 2025-09-26: First version of ECal sim, digitizer and clusterizer by [@ekryshen](https://github.com/ekryshen)
 - [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
@@ -65,7 +66,6 @@
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14687](https://github.com/AliceO2Group/AliceO2/pull/14687) 2025-09-27: DPL Websocket: Add protocol param to encode_websocket_handshake_reply which allows a response Sec-WebSocket-Accept in handshake. by [@nicolaspoffley](https://github.com/nicolaspoffley)
-- [\#14696](https://github.com/AliceO2Group/AliceO2/pull/14696) 2025-09-26: DPL: improve message on quit by [@ktf](https://github.com/ktf)
 - [\#14700](https://github.com/AliceO2Group/AliceO2/pull/14700) 2025-09-26: DPL GUI: simplify and speed up by [@ktf](https://github.com/ktf)
 - [\#14702](https://github.com/AliceO2Group/AliceO2/pull/14702) 2025-09-27: DPL: Make RawParser errorMode settable by [@davidrohr](https://github.com/davidrohr)
 - [\#14704](https://github.com/AliceO2Group/AliceO2/pull/14704) 2025-09-30: DPL: improve debugging of ComputingQuotaEvaluator by [@ktf](https://github.com/ktf)
