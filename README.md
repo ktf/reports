@@ -66,7 +66,6 @@
 ## Recent developments in O2 - Framework
 - [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14687](https://github.com/AliceO2Group/AliceO2/pull/14687) 2025-09-27: DPL Websocket: Add protocol param to encode_websocket_handshake_reply which allows a response Sec-WebSocket-Accept in handshake. by [@nicolaspoffley](https://github.com/nicolaspoffley)
-- [\#14700](https://github.com/AliceO2Group/AliceO2/pull/14700) 2025-09-26: DPL GUI: simplify and speed up by [@ktf](https://github.com/ktf)
 - [\#14702](https://github.com/AliceO2Group/AliceO2/pull/14702) 2025-09-27: DPL: Make RawParser errorMode settable by [@davidrohr](https://github.com/davidrohr)
 - [\#14704](https://github.com/AliceO2Group/AliceO2/pull/14704) 2025-09-30: DPL: improve debugging of ComputingQuotaEvaluator by [@ktf](https://github.com/ktf)
 - [\#14708](https://github.com/AliceO2Group/AliceO2/pull/14708) 2025-09-30: DPL: fix typo in format by [@ktf](https://github.com/ktf)
