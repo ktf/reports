@@ -59,6 +59,7 @@
 - [\#14755](https://github.com/AliceO2Group/AliceO2/pull/14755) 2025-10-22: [FOCAL-62,FOCAL-65] Adding cuts for air by [@hahassan7](https://github.com/hahassan7)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#14765](https://github.com/AliceO2Group/AliceO2/pull/14765) 2025-10-24: Process TRD,TOF fake flags in MC study workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
