@@ -6,7 +6,6 @@
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
-- [\#14655](https://github.com/AliceO2Group/AliceO2/pull/14655) 2025-09-29: Common: minor cleanup in flag helper by [@f3sch](https://github.com/f3sch)
 - [\#14662](https://github.com/AliceO2Group/AliceO2/pull/14662) 2025-10-10: [Common] Add eta, omega and eta' to PhysicsConstants.h by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14703](https://github.com/AliceO2Group/AliceO2/pull/14703) 2025-09-29: Robust propagation to certain R by [@shahor02](https://github.com/shahor02)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
