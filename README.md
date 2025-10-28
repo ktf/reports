@@ -55,6 +55,7 @@
 - [\#14756](https://github.com/AliceO2Group/AliceO2/pull/14756) 2025-10-24: ITS Calib: fix parallel processing for highly disordered data  by [@iravasen](https://github.com/iravasen)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#14763](https://github.com/AliceO2Group/AliceO2/pull/14763) 2025-10-28: Fix application of signal filtering when enabled by [@fgrosa](https://github.com/fgrosa)
 - [\#14765](https://github.com/AliceO2Group/AliceO2/pull/14765) 2025-10-24: Process TRD,TOF fake flags in MC study workflow by [@shahor02](https://github.com/shahor02)
 - [\#14771](https://github.com/AliceO2Group/AliceO2/pull/14771) 2025-10-27: Improve segmentation of material LUT generation by [@shahor02](https://github.com/shahor02)
 - [\#14773](https://github.com/AliceO2Group/AliceO2/pull/14773) 2025-10-27: Recover buildMatBudLUT mods for upgrades by [@shahor02](https://github.com/shahor02)
