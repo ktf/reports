@@ -56,6 +56,7 @@
 - [\#14765](https://github.com/AliceO2Group/AliceO2/pull/14765) 2025-10-24: Process TRD,TOF fake flags in MC study workflow by [@shahor02](https://github.com/shahor02)
 - [\#14771](https://github.com/AliceO2Group/AliceO2/pull/14771) 2025-10-27: Improve segmentation of material LUT generation by [@shahor02](https://github.com/shahor02)
 - [\#14773](https://github.com/AliceO2Group/AliceO2/pull/14773) 2025-10-27: Recover buildMatBudLUT mods for upgrades by [@shahor02](https://github.com/shahor02)
+- [\#14777](https://github.com/AliceO2Group/AliceO2/pull/14777) 2025-10-29: ALICE3-TRK: getMatrixPath() adapted to new hierarchical organization of the VD estabilished with PR#14693 by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
