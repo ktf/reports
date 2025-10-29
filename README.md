@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -59,7 +58,6 @@
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#14646](https://github.com/AliceO2Group/AliceO2/pull/14646) 2025-09-30: DPL Analysis: write HistogramRegistry incrementally by [@ktf](https://github.com/ktf)
 - [\#14704](https://github.com/AliceO2Group/AliceO2/pull/14704) 2025-09-30: DPL: improve debugging of ComputingQuotaEvaluator by [@ktf](https://github.com/ktf)
 - [\#14708](https://github.com/AliceO2Group/AliceO2/pull/14708) 2025-09-30: DPL: fix typo in format by [@ktf](https://github.com/ktf)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
