@@ -27,7 +27,6 @@
 - [\#14690](https://github.com/AliceO2Group/AliceO2/pull/14690) 2025-10-01: TPC: update drawing helpers and DCS CCDB Config macro by [@wiechula](https://github.com/wiechula)
 - [\#14691](https://github.com/AliceO2Group/AliceO2/pull/14691) 2025-10-01: TPC: Extend time gain calibration by [@wiechula](https://github.com/wiechula)
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
-- [\#14698](https://github.com/AliceO2Group/AliceO2/pull/14698) 2025-09-30: Add possibility to apply signal filtering for MC with embedding by [@fgrosa](https://github.com/fgrosa)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14714](https://github.com/AliceO2Group/AliceO2/pull/14714) 2025-10-03: Cavepipe update by [@amorsch](https://github.com/amorsch)
@@ -60,8 +59,6 @@
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#14704](https://github.com/AliceO2Group/AliceO2/pull/14704) 2025-09-30: DPL: improve debugging of ComputingQuotaEvaluator by [@ktf](https://github.com/ktf)
-- [\#14708](https://github.com/AliceO2Group/AliceO2/pull/14708) 2025-09-30: DPL: fix typo in format by [@ktf](https://github.com/ktf)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14717](https://github.com/AliceO2Group/AliceO2/pull/14717) 2025-10-05: DPL: refactor resource offers to allow multi-resource ones by [@ktf](https://github.com/ktf)
