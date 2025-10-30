@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Common
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14662](https://github.com/AliceO2Group/AliceO2/pull/14662) 2025-10-10: [Common] Add eta, omega and eta' to PhysicsConstants.h by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -61,6 +62,7 @@
 ## Recent developments in O2 - Examples
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
+- [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
 - [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14717](https://github.com/AliceO2Group/AliceO2/pull/14717) 2025-10-05: DPL: refactor resource offers to allow multi-resource ones by [@ktf](https://github.com/ktf)
