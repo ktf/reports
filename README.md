@@ -76,3 +76,5 @@
 - [\#14753](https://github.com/AliceO2Group/AliceO2/pull/14753) 2025-10-20: Generators: Embed into correct event when using collision-context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14725](https://github.com/AliceO2Group/AliceO2/pull/14725) 2025-10-20: ability to take inject external vertices in collision context by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#14781](https://github.com/AliceO2Group/AliceO2/pull/14781) 2025-10-31: Avoid deprecated spacing in user defined literals by [@ktf](https://github.com/ktf)
