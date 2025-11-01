@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
@@ -26,9 +25,7 @@
 - [\#14688](https://github.com/AliceO2Group/AliceO2/pull/14688) 2025-10-05: TPC: Add option to write reduced clusterNative, removing rejected clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
-- [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14714](https://github.com/AliceO2Group/AliceO2/pull/14714) 2025-10-03: Cavepipe update by [@amorsch](https://github.com/amorsch)
-- [\#14715](https://github.com/AliceO2Group/AliceO2/pull/14715) 2025-10-02: ITS: fix truth seeding to only use signal events by [@f3sch](https://github.com/f3sch)
 - [\#14716](https://github.com/AliceO2Group/AliceO2/pull/14716) 2025-10-03: Fixes for modules at negative eta by [@ekryshen](https://github.com/ekryshen)
 - [\#14718](https://github.com/AliceO2Group/AliceO2/pull/14718) 2025-10-06: Fix protection of MC signal filtering to work with any embedPatt by [@fgrosa](https://github.com/fgrosa)
 - [\#14719](https://github.com/AliceO2Group/AliceO2/pull/14719) 2025-10-06: TPC: Silence by default IncompleteHBF check by [@wiechula](https://github.com/wiechula)
@@ -63,7 +60,6 @@
 ## Recent developments in O2 - Framework
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
-- [\#14712](https://github.com/AliceO2Group/AliceO2/pull/14712) 2025-10-02: Move FragmentToBatch to separate class by [@ktf](https://github.com/ktf)
 - [\#14717](https://github.com/AliceO2Group/AliceO2/pull/14717) 2025-10-05: DPL: refactor resource offers to allow multi-resource ones by [@ktf](https://github.com/ktf)
 - [\#14720](https://github.com/AliceO2Group/AliceO2/pull/14720) 2025-10-10: DPL: refactor resource offering to be a function by [@ktf](https://github.com/ktf)
 - [\#14726](https://github.com/AliceO2Group/AliceO2/pull/14726) 2025-10-15: DPL: add command line option to print error instead of warning when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
