@@ -7,7 +7,6 @@
 - [\#14662](https://github.com/AliceO2Group/AliceO2/pull/14662) 2025-10-10: [Common] Add eta, omega and eta' to PhysicsConstants.h by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
-- [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#14769](https://github.com/AliceO2Group/AliceO2/pull/14769) 2025-10-29: Improve the PDG header script  by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - DataFormats
@@ -25,8 +24,6 @@
 - [\#14688](https://github.com/AliceO2Group/AliceO2/pull/14688) 2025-10-05: TPC: Add option to write reduced clusterNative, removing rejected clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
 - [\#14710](https://github.com/AliceO2Group/AliceO2/pull/14710) 2025-10-05: Suppress reduntant versions of HelixHelper by [@shahor02](https://github.com/shahor02)
-- [\#14714](https://github.com/AliceO2Group/AliceO2/pull/14714) 2025-10-03: Cavepipe update by [@amorsch](https://github.com/amorsch)
-- [\#14716](https://github.com/AliceO2Group/AliceO2/pull/14716) 2025-10-03: Fixes for modules at negative eta by [@ekryshen](https://github.com/ekryshen)
 - [\#14718](https://github.com/AliceO2Group/AliceO2/pull/14718) 2025-10-06: Fix protection of MC signal filtering to work with any embedPatt by [@fgrosa](https://github.com/fgrosa)
 - [\#14719](https://github.com/AliceO2Group/AliceO2/pull/14719) 2025-10-06: TPC: Silence by default IncompleteHBF check by [@wiechula](https://github.com/wiechula)
 - [\#14721](https://github.com/AliceO2Group/AliceO2/pull/14721) 2025-10-06: Glo: only initialzes AB geometry helper up to lowest allowed layer by [@f3sch](https://github.com/f3sch)
@@ -59,7 +56,6 @@
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
-- [\#14711](https://github.com/AliceO2Group/AliceO2/pull/14711) 2025-10-03: Improving signposts by [@ktf](https://github.com/ktf)
 - [\#14717](https://github.com/AliceO2Group/AliceO2/pull/14717) 2025-10-05: DPL: refactor resource offers to allow multi-resource ones by [@ktf](https://github.com/ktf)
 - [\#14720](https://github.com/AliceO2Group/AliceO2/pull/14720) 2025-10-10: DPL: refactor resource offering to be a function by [@ktf](https://github.com/ktf)
 - [\#14726](https://github.com/AliceO2Group/AliceO2/pull/14726) 2025-10-15: DPL: add command line option to print error instead of warning when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
