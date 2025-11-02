@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-27T20:55:47Z",
-            "title": "[Common] alternative matching as default for OO, NeNe, occupancy update",
-            "number": 13537,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-27T23:22:53Z",
             "title": "[PWGLF] [PWGMM] Only add non-zero ctp mask",
             "number": 13566,
@@ -201,31 +181,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/Tasks/femtoV0Qa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Common] TOF/FT0: merge event time tasks",
-            "number": 12736,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/ft0CorrectedTable.cxx"
                   }
                 }
               ]
@@ -1046,36 +1001,6 @@
                 {
                   "node": {
                     "path": "PWGCF/EbyEFluctuations/Tasks/kaonIsospinFluctuations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Common] Refactor ft0CorrectedTable by removing unused processes",
-            "number": 12910,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/ft0CorrectedTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/ft0CorrectedTableMcOverride.cxx"
                   }
                 }
               ]
@@ -4235,6 +4160,96 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/strangecasctrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Refactor ft0CorrectedTable by removing unused processes",
+            "number": 12910,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/ft0CorrectedTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/ft0CorrectedTableMcOverride.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Common] Add TOF Response parameters as a service",
+            "number": 12750,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] TOF/FT0: merge event time tasks",
+            "number": 12736,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/ft0CorrectedTable.cxx"
                   }
                 }
               ]
