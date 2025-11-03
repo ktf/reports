@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGCF] added efficiency correction via CCDB histogram, particle reconstruction to remove background",
-            "number": 13140,
-            "author": {
-              "login": "rahulverma012"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/TListHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/kaonIsospinFluctuations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-10-30T02:32:29Z",
             "title": "[Common] TrackTuner: dca calib. \"autodetection\" based on run number.",
@@ -4555,6 +4530,31 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/upcTauTau13topo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Fix bug in filling deta-dphi at lower and upper limit of kT",
+            "number": 13662,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
                   }
                 }
               ]
