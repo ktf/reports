@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-31T22:18:53Z",
-            "title": "[PWGEM/Dilepton] add status code in mc particle table",
-            "number": 13625,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/associateMCinfoDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/Converters/mcParticleConverter1.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/MCUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/associateMCinfoPhoton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-10-31T23:25:59Z",
-            "title": "[PWGEM/Dilepton] remove unnecessary lines",
-            "number": 13627,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/MCUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-01T08:24:47Z",
             "title": "[DPG] Adding new HMPID tasks",
             "number": 13225,
@@ -3408,26 +3333,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Added an event occupancy cut",
-            "number": 13696,
-            "author": {
-              "login": "JStaa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-04T12:43:58Z",
             "title": "[PWGJE] GNN b-jet QA histograms updated",
@@ -4365,6 +4270,71 @@
                 {
                   "node": {
                     "path": "PWGCF/JCorran/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added an event occupancy cut",
+            "number": 13696,
+            "author": {
+              "login": "JStaa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] New derived tabled based longrange correlation task",
+            "number": 13702,
+            "author": {
+              "login": "abmodak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Including global track DCAs and global splitting for MCH halves",
+            "number": 13703,
+            "author": {
+              "login": "ppoava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/qaMuon.cxx"
                   }
                 }
               ]
