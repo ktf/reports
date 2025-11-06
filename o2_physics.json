@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-03T08:34:48Z",
-            "title": "[PWGEM/Dilepton] remove unnecessary lines in prefilterDielectron.cxx",
-            "number": 13645,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-28T18:41:02Z",
             "title": "[PWGCF] FemtoUniverse: Create 3D histograms only when needed in FemtoUniversePairWithCentMultKt.h",
             "number": 13575,
@@ -3725,6 +3705,41 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Adding task to read the table created for light ions and ZDC analysis",
+            "number": 13721,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/ZDCLightIons.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcTableReader.cxx"
                   }
                 }
               ]
