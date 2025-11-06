@@ -27,7 +27,6 @@
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14685](https://github.com/AliceO2Group/AliceO2/pull/14685) 2025-10-10: ITS3: improvements for simulation and reconstruction by [@f3sch](https://github.com/f3sch)
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
-- [\#14724](https://github.com/AliceO2Group/AliceO2/pull/14724) 2025-10-07: Account for rejected clusters in unbinned residuals counters by [@shahor02](https://github.com/shahor02)
 - [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14733](https://github.com/AliceO2Group/AliceO2/pull/14733) 2025-10-13: ALICE3-TRK: several fixes in the digitization code by [@atriolo](https://github.com/atriolo)
