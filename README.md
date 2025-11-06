@@ -24,6 +24,7 @@
 - [\#14787](https://github.com/AliceO2Group/AliceO2/pull/14787) 2025-11-03: Fix one-off index problem when copying collision contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
 - [\#14798](https://github.com/AliceO2Group/AliceO2/pull/14798) 2025-11-06: Revert "Fix one-off index problem when copying collision contexts" by [@sawenzel](https://github.com/sawenzel)
+- [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14685](https://github.com/AliceO2Group/AliceO2/pull/14685) 2025-10-10: ITS3: improvements for simulation and reconstruction by [@f3sch](https://github.com/f3sch)
@@ -72,5 +73,6 @@
 - [\#14753](https://github.com/AliceO2Group/AliceO2/pull/14753) 2025-10-20: Generators: Embed into correct event when using collision-context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14725](https://github.com/AliceO2Group/AliceO2/pull/14725) 2025-10-20: ability to take inject external vertices in collision context by [@sawenzel](https://github.com/sawenzel)
+- [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14781](https://github.com/AliceO2Group/AliceO2/pull/14781) 2025-10-31: Avoid deprecated spacing in user defined literals by [@ktf](https://github.com/ktf)
