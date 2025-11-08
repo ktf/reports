@@ -61,7 +61,6 @@
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14720](https://github.com/AliceO2Group/AliceO2/pull/14720) 2025-10-10: DPL: refactor resource offering to be a function by [@ktf](https://github.com/ktf)
 - [\#14726](https://github.com/AliceO2Group/AliceO2/pull/14726) 2025-10-15: DPL: add command line option to print error instead of warning when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
-- [\#14728](https://github.com/AliceO2Group/AliceO2/pull/14728) 2025-10-10: DPL: support submitting directly to slurm by [@ktf](https://github.com/ktf)
 - [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
 - [\#14759](https://github.com/AliceO2Group/AliceO2/pull/14759) 2025-10-23: Fix typo in log message by [@vkucera](https://github.com/vkucera)
