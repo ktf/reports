@@ -14,7 +14,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14725](https://github.com/AliceO2Group/AliceO2/pull/14725) 2025-10-20: ability to take inject external vertices in collision context by [@sawenzel](https://github.com/sawenzel)
-- [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
@@ -26,9 +25,7 @@
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
-- [\#14685](https://github.com/AliceO2Group/AliceO2/pull/14685) 2025-10-10: ITS3: improvements for simulation and reconstruction by [@f3sch](https://github.com/f3sch)
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
-- [\#14729](https://github.com/AliceO2Group/AliceO2/pull/14729) 2025-10-10: Set default DCA in case of propagate call fail by [@ddobrigk](https://github.com/ddobrigk)
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14733](https://github.com/AliceO2Group/AliceO2/pull/14733) 2025-10-13: ALICE3-TRK: several fixes in the digitization code by [@atriolo](https://github.com/atriolo)
 - [\#14735](https://github.com/AliceO2Group/AliceO2/pull/14735) 2025-10-16: Fix unwanted behaviour in signal filtering with embedding pattern different from `@0:e1` by [@fgrosa](https://github.com/fgrosa)
@@ -58,7 +55,6 @@
 - [\#14732](https://github.com/AliceO2Group/AliceO2/pull/14732) 2025-10-20: Example to run HERWIG7 with o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
-- [\#14720](https://github.com/AliceO2Group/AliceO2/pull/14720) 2025-10-10: DPL: refactor resource offering to be a function by [@ktf](https://github.com/ktf)
 - [\#14726](https://github.com/AliceO2Group/AliceO2/pull/14726) 2025-10-15: DPL: add command line option to print error instead of warning when exit transition timer expires by [@ehellbar](https://github.com/ehellbar)
 - [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
 - [\#14742](https://github.com/AliceO2Group/AliceO2/pull/14742) 2025-10-15: DPL Analysis: fix multiple HistogramRegistry instances per task by [@ktf](https://github.com/ktf)
