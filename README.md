@@ -11,6 +11,7 @@
 - [\#14761](https://github.com/AliceO2Group/AliceO2/pull/14761) 2025-10-23: [Fix] Correct Reporting of CTF Compressed Payload in Metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#14769](https://github.com/AliceO2Group/AliceO2/pull/14769) 2025-10-29: Improve the PDG header script  by [@vkucera](https://github.com/vkucera)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
+- [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14725](https://github.com/AliceO2Group/AliceO2/pull/14725) 2025-10-20: ability to take inject external vertices in collision context by [@sawenzel](https://github.com/sawenzel)
@@ -27,7 +28,6 @@
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
-- [\#14733](https://github.com/AliceO2Group/AliceO2/pull/14733) 2025-10-13: ALICE3-TRK: several fixes in the digitization code by [@atriolo](https://github.com/atriolo)
 - [\#14735](https://github.com/AliceO2Group/AliceO2/pull/14735) 2025-10-16: Fix unwanted behaviour in signal filtering with embedding pattern different from `@0:e1` by [@fgrosa](https://github.com/fgrosa)
 - [\#14736](https://github.com/AliceO2Group/AliceO2/pull/14736) 2025-10-22: ALICE3-TRK: adding macro to check digitization output by [@atriolo](https://github.com/atriolo)
 - [\#14740](https://github.com/AliceO2Group/AliceO2/pull/14740) 2025-10-15: Fix precalculated sector cos/sin values in TOF Geo by [@shahor02](https://github.com/shahor02)
@@ -63,6 +63,7 @@
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14797](https://github.com/AliceO2Group/AliceO2/pull/14797) 2025-11-07: DPL: check for state transition updates also in input-proxy busy loop by [@ehellbar](https://github.com/ehellbar)
 - [\#14802](https://github.com/AliceO2Group/AliceO2/pull/14802) 2025-11-08: DPL: refactor dumping of performanceMetrics.json by [@ktf](https://github.com/ktf)
+- [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14753](https://github.com/AliceO2Group/AliceO2/pull/14753) 2025-10-20: Generators: Embed into correct event when using collision-context by [@sawenzel](https://github.com/sawenzel)
