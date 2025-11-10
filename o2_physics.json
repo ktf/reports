@@ -2969,12 +2969,12 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
-            "title": "[Common,PWGCF,PWGDQ,PWGEM,PWGHF,PWGJE,PWGLF,PWGUD,Trigger] Move Zorro into Common/Core",
-            "number": 13761,
+            "title": "Please consider the following formatting changes to #13761",
+            "number": 13763,
             "author": {
-              "login": "mpuccio"
+              "login": "alibuild"
             },
             "files": {
               "edges": [
@@ -3391,13 +3391,78 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Please consider the following formatting changes to #13761",
-            "number": 13763,
+            "title": "[PWGHF] Acceptance cut on D+ daughters",
+            "number": 13748,
             "author": {
-              "login": "alibuild"
+              "login": "Simple-Shyam"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGCF,PWGDQ,PWGEM,PWGHF,PWGJE,PWGLF,PWGUD,Trigger] Move Zorro into Common/Core",
+            "number": 13761,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/AnalysisCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/Zorro.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/Zorro.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/ZorroHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/ZorroSummary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/ZorroSummary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/EventFilteringUtilsLinkDef.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "EventFiltering/macros/uploadOTSobjects.C"
@@ -3405,7 +3470,27 @@
                 },
                 {
                   "node": {
+                    "path": "PWGCF/Femto/Core/collisionBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/Femto/FemtoNuclei/TableProducer/PiNucleiFemto.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
@@ -3420,6 +3505,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
                   }
                 },
@@ -3430,7 +3520,17 @@
                 },
                 {
                   "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
@@ -3445,7 +3545,22 @@
                 },
                 {
                   "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGDQ/Tasks/quarkoniaToHyperons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerOTS.cxx"
                   }
                 },
                 {
@@ -3455,7 +3570,17 @@
                 },
                 {
                   "node": {
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGEM/Dilepton/Tasks/eventQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/CMakeLists.txt"
                   }
                 },
                 {
@@ -3470,7 +3595,32 @@
                 },
                 {
                   "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
@@ -3480,12 +3630,42 @@
                 },
                 {
                   "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
                   }
                 },
                 {
                   "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
                   }
                 },
                 {
@@ -3530,6 +3710,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGLF/TableProducer/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGLF/TableProducer/Resonances/HeptaQuarktable.cxx"
                   }
                 },
@@ -3541,6 +3726,11 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Resonances/f1protonreducedtable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
                   }
                 },
                 {
@@ -3560,6 +3750,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGLF/Tasks/Nuspex/LFNucleiBATask.cxx"
                   }
                 },
@@ -3570,7 +3765,17 @@
                 },
                 {
                   "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGLF/Tasks/QC/trackedCascadeProperties.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
                   }
                 },
                 {
@@ -3605,27 +3810,17 @@
                 },
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/upcQuarkoniaCentralBarrel.cxx"
+                    "path": "PWGUD/TableProducer/CMakeLists.txt"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Acceptance cut on D+ daughters",
-            "number": 13748,
-            "author": {
-              "login": "Simple-Shyam"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcQuarkoniaCentralBarrel.cxx"
                   }
                 }
               ]
