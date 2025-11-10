@@ -1586,41 +1586,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Adding task to read the table created for light ions and ZDC analysis",
-            "number": 13721,
-            "author": {
-              "login": "coppedis"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/ZDCLightIons.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Add UPC process functions to taskDplus and taskD0",
             "number": 13603,
             "author": {
@@ -3266,6 +3231,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Adding hCounterTVXZDC & hCounterTVXZDCafterBCcuts",
+            "number": 13735,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] temporary location for tutorial files, will restage them to t…",
             "number": 13744,
             "author": {
@@ -3311,21 +3301,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Adding hCounterTVXZDC & hCounterTVXZDCafterBCcuts",
-            "number": 13735,
+            "title": "[Common] Adding task to read the table created for light ions and ZDC analysis",
+            "number": 13721,
             "author": {
-              "login": "lucamicheletti93"
+              "login": "coppedis"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
+                    "path": "Common/DataModel/ZDCLightIons.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
+                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcTableReader.cxx"
                   }
                 }
               ]
