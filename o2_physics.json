@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-06T12:19:13Z",
-            "title": "[PWGCF] Add eta gap on c3{4}",
-            "number": 13704,
-            "author": {
-              "login": "ilikmeta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[Common] adding extra histograms for PbPb",
@@ -3784,31 +3764,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] new processes in correlator flow",
-            "number": 13781,
-            "author": {
-              "login": "scattaru"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorFlowCharmHadronsReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-11T11:38:18Z",
             "title": "[PWGLF] Fixed the TOF cutting shape of KstarInOO.cxx",
@@ -3871,6 +3826,51 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] resolving cppchecker issue",
+            "number": 13783,
+            "author": {
+              "login": "jloemker"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/trackJetQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] new processes in correlator flow",
+            "number": 13781,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorFlowCharmHadronsReduced.cxx"
                   }
                 }
               ]
@@ -4151,16 +4151,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] resolving cppchecker issue",
-            "number": 13783,
+            "title": "[Tutorial] ML tutorial: update running script",
+            "number": 13784,
             "author": {
-              "login": "jloemker"
+              "login": "fmazzasc"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/trackJetQA.cxx"
+                    "path": "Tutorials/ML/config.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/ML/dpl-config_applyMlSelection.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/ML/run_applyMlSelection.sh"
                   }
                 }
               ]
