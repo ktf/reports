@@ -63,6 +63,7 @@
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14797](https://github.com/AliceO2Group/AliceO2/pull/14797) 2025-11-07: DPL: check for state transition updates also in input-proxy busy loop by [@ehellbar](https://github.com/ehellbar)
 - [\#14802](https://github.com/AliceO2Group/AliceO2/pull/14802) 2025-11-08: DPL: refactor dumping of performanceMetrics.json by [@ktf](https://github.com/ktf)
+- [\#14806](https://github.com/AliceO2Group/AliceO2/pull/14806) 2025-11-11: DPL: reduce chances to drop offers by [@ktf](https://github.com/ktf)
 - [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
