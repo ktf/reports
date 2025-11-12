@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add multiplicity analysis",
-            "number": 13296,
-            "author": {
-              "login": "dushmanta97"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/multiplicitypt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[Common] Update workflow definition to check for existing tables",
@@ -2264,26 +2239,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] : Added Lambda Azimuthal Correlation Study",
-            "number": 13736,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-11T17:12:56Z",
             "title": "[PWGJE,PWGLF,Trigger] Improvements to the JE framework",
@@ -2861,26 +2816,6 @@
                 {
                   "node": {
                     "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] A3TOF: add dead chip areas",
-            "number": 13356,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
                   }
                 }
               ]
@@ -3601,26 +3536,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Separate flow task trees",
-            "number": 13800,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] Add FV0 QVectors to EM event",
             "number": 13612,
             "author": {
@@ -3901,6 +3816,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] A3TOF: add dead chip areas",
+            "number": 13356,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] taskFlowCharmHadrons: Separate trees",
+            "number": 13800,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF,Tutorial] Tutorial task for spectator plane CF",
             "number": 13803,
             "author": {
@@ -3916,6 +3876,71 @@
                 {
                   "node": {
                     "path": "Tutorials/PWGCF/EventPlane/src/spectatorPlaneTutorial.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-12T16:43:13Z",
+            "title": "[PWGCF] : Added Lambda Azimuthal Correlation Study",
+            "number": 13736,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF,PWGJE] Add D* spin alignment jet analysis task",
+            "number": 12436,
+            "author": {
+              "login": "Mingze129"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/DerivedTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFJ/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFJ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFJ/Tasks/taskDstarPolarisationInJet.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetHFUtilities.h"
                   }
                 }
               ]
