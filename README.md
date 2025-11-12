@@ -30,7 +30,6 @@
 - [\#14730](https://github.com/AliceO2Group/AliceO2/pull/14730) 2025-10-17: TOF: param utilities are separated in a dedicated library for O2Physics usage by [@njacazio](https://github.com/njacazio)
 - [\#14735](https://github.com/AliceO2Group/AliceO2/pull/14735) 2025-10-16: Fix unwanted behaviour in signal filtering with embedding pattern different from `@0:e1` by [@fgrosa](https://github.com/fgrosa)
 - [\#14736](https://github.com/AliceO2Group/AliceO2/pull/14736) 2025-10-22: ALICE3-TRK: adding macro to check digitization output by [@atriolo](https://github.com/atriolo)
-- [\#14740](https://github.com/AliceO2Group/AliceO2/pull/14740) 2025-10-15: Fix precalculated sector cos/sin values in TOF Geo by [@shahor02](https://github.com/shahor02)
 - [\#14741](https://github.com/AliceO2Group/AliceO2/pull/14741) 2025-10-15: fix methods is/setInNominalSector of TOF cluster by [@shahor02](https://github.com/shahor02)
 - [\#14746](https://github.com/AliceO2Group/AliceO2/pull/14746) 2025-10-20: corrected positions of volumes in RB24 after recent Cave updates by [@amorsch](https://github.com/amorsch)
 - [\#14750](https://github.com/AliceO2Group/AliceO2/pull/14750) 2025-10-20: ITS3: remove unused files by [@f3sch](https://github.com/f3sch)
