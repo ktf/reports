@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
+- [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
@@ -61,6 +62,7 @@
 - [\#14802](https://github.com/AliceO2Group/AliceO2/pull/14802) 2025-11-08: DPL: refactor dumping of performanceMetrics.json by [@ktf](https://github.com/ktf)
 - [\#14806](https://github.com/AliceO2Group/AliceO2/pull/14806) 2025-11-11: DPL: reduce chances to drop offers by [@ktf](https://github.com/ktf)
 - [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
+- [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
 - [\#14810](https://github.com/AliceO2Group/AliceO2/pull/14810) 2025-11-12: DPL: properly handle excess of offers by [@ktf](https://github.com/ktf)
 - [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
 - [\#14812](https://github.com/AliceO2Group/AliceO2/pull/14812) 2025-11-12: DPL: fix accounting of consumed timeslices by [@ktf](https://github.com/ktf)
