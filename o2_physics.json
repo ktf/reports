@@ -2126,41 +2126,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Improvements to HFInvMassFitter",
-            "number": 13002,
-            "author": {
-              "login": "pstahlhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/config_massfitter.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Fix for D-Meson Trigger Count",
             "number": 13833,
             "author": {
@@ -2401,26 +2366,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] PWGLF:Added extra bin in hNEvents",
-            "number": 13842,
-            "author": {
-              "login": "nkaratze"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/v0ptinvmassplots.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Add correlation histos for UPC events",
             "number": 13843,
             "author": {
@@ -2534,6 +2479,31 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-15T13:07:07Z",
+            "title": "[PWGHF] Fix mismatch of the columns, and adding back the momentum components in tree treeCreat and add DCAFitter options to process conditions in task for Xic0ToXiPi DCA Filter analysis",
+            "number": 13811,
+            "author": {
+              "login": "Tao-Fang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic0ToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Add centrality dependence to D0–hadron correlator and correlation task",
@@ -2564,23 +2534,53 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-15T13:07:07Z",
-            "title": "[PWGHF] Fix mismatch of the columns, and adding back the momentum components in tree treeCreat and add DCAFitter options to process conditions in task for Xic0ToXiPi DCA Filter analysis",
-            "number": 13811,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Improvements to HFInvMassFitter",
+            "number": 13002,
             "author": {
-              "login": "Tao-Fang"
+              "login": "pstahlhu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic0ToXiPi.cxx"
+                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
+                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/config_massfitter.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-15T14:08:38Z",
+            "title": "[PWGLF] PWGLF:Added extra bin in hNEvents",
+            "number": 13842,
+            "author": {
+              "login": "nkaratze"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0ptinvmassplots.cxx"
                   }
                 }
               ]
