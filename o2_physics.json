@@ -2321,31 +2321,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Adding a task for two particle correlation in pp",
-            "number": 13775,
-            "author": {
-              "login": "JosueMtzGar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationPp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Add correlation histos for UPC events",
             "number": 13843,
             "author": {
@@ -2451,31 +2426,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-15T13:07:07Z",
-            "title": "[PWGHF] Fix mismatch of the columns, and adding back the momentum components in tree treeCreat and add DCAFitter options to process conditions in task for Xic0ToXiPi DCA Filter analysis",
-            "number": 13811,
-            "author": {
-              "login": "Tao-Fang"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic0ToXiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
                   }
                 }
               ]
@@ -2636,6 +2586,56 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsAnalysis.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-15T15:45:00Z",
+            "title": "[PWGCF] Adding a task for two particle correlation in pp",
+            "number": 13775,
+            "author": {
+              "login": "JosueMtzGar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationPp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-15T13:07:07Z",
+            "title": "[PWGHF] Fix column mismatch, restore momentum branches, add DCAFitter opts. for Xic0ToXiPi DCA Filter analysis",
+            "number": 13811,
+            "author": {
+              "login": "Tao-Fang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic0ToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
                   }
                 }
               ]
