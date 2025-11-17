@@ -25,6 +25,7 @@
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
 - [\#14798](https://github.com/AliceO2Group/AliceO2/pull/14798) 2025-11-06: Revert "Fix one-off index problem when copying collision contexts" by [@sawenzel](https://github.com/sawenzel)
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
+- [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#13476](https://github.com/AliceO2Group/AliceO2/pull/13476) 2025-10-20: FD detector by [@pkurash](https://github.com/pkurash)
@@ -76,5 +77,6 @@
 - [\#14753](https://github.com/AliceO2Group/AliceO2/pull/14753) 2025-10-20: Generators: Embed into correct event when using collision-context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
+- [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Utilities
 - [\#14781](https://github.com/AliceO2Group/AliceO2/pull/14781) 2025-10-31: Avoid deprecated spacing in user defined literals by [@ktf](https://github.com/ktf)
