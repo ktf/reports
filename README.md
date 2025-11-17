@@ -48,6 +48,7 @@
 - [\#14786](https://github.com/AliceO2Group/AliceO2/pull/14786) 2025-11-03: Update ALICE3 tracker: Fix chip composition and orientation by [@scannito](https://github.com/scannito)
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14805](https://github.com/AliceO2Group/AliceO2/pull/14805) 2025-11-12: Improved description of IB FPC capacitors by [@mario6829](https://github.com/mario6829)
+- [\#14819](https://github.com/AliceO2Group/AliceO2/pull/14819) 2025-11-17: ALICE3-TRK: fix nSimSteps to cover long hits at large Z + prints cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14820](https://github.com/AliceO2Group/AliceO2/pull/14820) 2025-11-15: Allow to SVertexer to use global tracks only (e.g. for online mode) by [@shahor02](https://github.com/shahor02)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
