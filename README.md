@@ -51,6 +51,7 @@
 - [\#14819](https://github.com/AliceO2Group/AliceO2/pull/14819) 2025-11-17: ALICE3-TRK: fix nSimSteps to cover long hits at large Z + prints cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14820](https://github.com/AliceO2Group/AliceO2/pull/14820) 2025-11-15: Allow to SVertexer to use global tracks only (e.g. for online mode) by [@shahor02](https://github.com/shahor02)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
+- [\#14822](https://github.com/AliceO2Group/AliceO2/pull/14822) 2025-11-17: dev: improvements of pb lumi macro by [@lietava](https://github.com/lietava)
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
