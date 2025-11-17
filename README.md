@@ -53,6 +53,8 @@
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14822](https://github.com/AliceO2Group/AliceO2/pull/14822) 2025-11-17: dev: improvements of pb lumi macro by [@lietava](https://github.com/lietava)
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - EventVisualisation
+- [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
