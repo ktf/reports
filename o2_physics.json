@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-13T08:01:28Z",
-            "title": "[PWGHF] replace legacy decay channels for SigmaC.",
-            "number": 13689,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/DecayChannels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/DecayChannelsLegacy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsCorrelations.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorSigmacCorrBkg.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-13T08:32:51Z",
-            "title": "[PWGCF,Tutorial] Tutorial task for spectator plane CF",
-            "number": 13803,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/EventPlane/src/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/EventPlane/src/spectatorPlaneTutorial.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-13T09:11:49Z",
             "title": "[PWGHF/D2H] Correcting delta mass definition in McRec proccess function",
             "number": 13792,
@@ -2591,6 +2516,51 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/chargedJetHadron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add event loss histogram and option to disable ROF boarder cut for MC",
+            "number": 13879,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/reduced3bodyCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added an option to skip correlating particles in same that are alone in their respective pT bin.",
+            "number": 13880,
+            "author": {
+              "login": "lcernusa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
                   }
                 }
               ]
