@@ -73,7 +73,6 @@
 - [\#14829](https://github.com/AliceO2Group/AliceO2/pull/14829) 2025-11-18: DPL Analysis: protect aod-spawner from empty input by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
-- [\#14753](https://github.com/AliceO2Group/AliceO2/pull/14753) 2025-10-20: Generators: Embed into correct event when using collision-context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
