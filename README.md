@@ -25,6 +25,7 @@
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
+- [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
 - [\#14736](https://github.com/AliceO2Group/AliceO2/pull/14736) 2025-10-22: ALICE3-TRK: adding macro to check digitization output by [@atriolo](https://github.com/atriolo)
@@ -53,6 +54,7 @@
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
 - [\#14824](https://github.com/AliceO2Group/AliceO2/pull/14824) 2025-11-17: GPU: Add GPUO2ExternalUser.h, to be included by external libraries using GPUTracking classes, instead of including the full GPUO2Interface.h + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#14828](https://github.com/AliceO2Group/AliceO2/pull/14828) 2025-11-18: GPU: Rename GPU ConfigurableParam header, and move it to DataTypes together with ExternalUser header by [@davidrohr](https://github.com/davidrohr)
+- [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
