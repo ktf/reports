@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-14T10:18:55Z",
-            "title": "[PWGJE] Fix event selection bits and added histograms for MC particles",
-            "number": 13810,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Fix ML selection for D0 and D0bar on data and MCRec",
@@ -1896,36 +1876,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add centrality dependence to D0–hadron correlator and correlation task",
-            "number": 13719,
-            "author": {
-              "login": "ayankrmanna"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] Add configuration indices to OnTheFly",
             "number": 13856,
             "author": {
@@ -2581,6 +2531,56 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-14T09:34:15Z",
+            "title": "[PWGHF] Bugfix taskLc: check mlProb vector size for correct PKPi/PiKP hypothesis",
+            "number": 13808,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add centrality dependence to D0–hadron correlator and correlation task",
+            "number": 13719,
+            "author": {
+              "login": "ayankrmanna"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
                   }
                 }
               ]
