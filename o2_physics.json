@@ -1639,36 +1639,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add centrality dependence to D0–hadron correlator and correlation task",
-            "number": 13719,
-            "author": {
-              "login": "ayankrmanna"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-18T09:20:33Z",
             "title": "[PWGUD] Adding event counter for multiplicity ranges",
@@ -2224,31 +2194,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add pt, rapidity cuts; separate Xi and Omega cuts; expand efficiency correction options",
-            "number": 13883,
-            "author": {
-              "login": "yakparo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangeCascTrack.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-19T07:35:09Z",
             "title": "[PWGEM/Dilepton] add phi protection in EMTrack.h",
@@ -2361,31 +2306,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] adding vertex selection to q-vector framework",
-            "number": 13862,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qVectorsCorrection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Update on femtoDream Framework：Event Plane & Qn",
             "number": 13801,
             "author": {
@@ -2441,6 +2361,151 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetShape.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-19T09:22:40Z",
+            "title": "[PWGEM] more MC truth info inside phosElId.cxx",
+            "number": 13882,
+            "author": {
+              "login": "yhambard"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosElId.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] adding vertex selection to q-vector framework",
+            "number": 13862,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add centrality dependence to D0–hadron correlator and correlation task",
+            "number": 13719,
+            "author": {
+              "login": "ayankrmanna"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Add configuration indices to OnTheFly",
+            "number": 13856,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/OTFMulticharm.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/OTFTracks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-multicharmTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-multicharm.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-19T10:16:42Z",
+            "title": "[PWGLF] Add pt, rapidity cuts; separate Xi and Omega cuts; expand efficiency correction options",
+            "number": 13883,
+            "author": {
+              "login": "yakparo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangeCascTrack.cxx"
                   }
                 }
               ]
@@ -2506,71 +2571,6 @@
                 {
                   "node": {
                     "path": "ALICE3/Utils/utilsSelectionsAlice3.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-19T09:22:40Z",
-            "title": "[PWGEM] more MC truth info inside phosElId.cxx",
-            "number": 13882,
-            "author": {
-              "login": "yhambard"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/phosElId.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Add configuration indices to OnTheFly",
-            "number": 13856,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFMulticharm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFTracks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-multicharmTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-multicharm.cxx"
                   }
                 }
               ]
