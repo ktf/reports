@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-13T23:46:04Z",
-            "title": "[PWGCF] Update: PWGCF/EbyEFluctuations/Tasks/PartNumFluc.cxx",
-            "number": 13804,
-            "author": {
-              "login": "fsii"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-14T02:02:45Z",
             "title": "[PWGLF] Add run number information",
             "number": 13806,
@@ -1849,31 +1829,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] small refactoring, added process function for the purity",
-            "number": 13874,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFhe3HadronTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-19T00:06:09Z",
             "title": "[PWGLF] [PWGMM/LumiStability] Fix floating point number bug",
@@ -2316,71 +2271,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Implement task and tree creator for 3-prong candidates",
-            "number": 13845,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/A3DecayFinderTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/ML/MlResponse3Prong.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-decayfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3HfSelector3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3HfTreeCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3HfTask3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Utils/utilsHfAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Utils/utilsSelectionsAlice3.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Add UPC process functions to taskDplus and taskD0",
             "number": 13603,
             "author": {
@@ -2531,6 +2421,131 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/trackEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] dqEfficiency_withAssoc/VarManager: Add MC-truth secondary vertex for B→J/ψK triplet quantities",
+            "number": 13890,
+            "author": {
+              "login": "torkjellsdatter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Implement task and tree creator for 3-prong candidates",
+            "number": 13845,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/A3DecayFinderTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/ML/HfMlResponse3Prong.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-decayfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3HfSelector3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3HfTreeCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3HfTask3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Utils/utilsHfAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Utils/utilsSelectionsAlice3.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] small refactoring, added process function for the purity",
+            "number": 13874,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFhe3HadronTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
                   }
                 }
               ]
