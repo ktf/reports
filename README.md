@@ -53,6 +53,7 @@
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
 - [\#14824](https://github.com/AliceO2Group/AliceO2/pull/14824) 2025-11-17: GPU: Add GPUO2ExternalUser.h, to be included by external libraries using GPUTracking classes, instead of including the full GPUO2Interface.h + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#14828](https://github.com/AliceO2Group/AliceO2/pull/14828) 2025-11-18: GPU: Rename GPU ConfigurableParam header, and move it to DataTypes together with ExternalUser header by [@davidrohr](https://github.com/davidrohr)
+- [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
@@ -76,5 +77,6 @@
 ## Recent developments in O2 - Steer
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
+- [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Utilities
 - [\#14781](https://github.com/AliceO2Group/AliceO2/pull/14781) 2025-10-31: Avoid deprecated spacing in user defined literals by [@ktf](https://github.com/ktf)

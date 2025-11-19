@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-13T16:46:57Z",
-            "title": "[Common] Adding task to read the table created for light ions and ZDC analysis",
-            "number": 13721,
-            "author": {
-              "login": "coppedis"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/ZDCLightIons.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-13T11:55:53Z",
             "title": "[PWGEM] Add FV0 QVectors to EM event",
             "number": 13612,
@@ -2399,71 +2364,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Implement task and tree creator for 3-prong candidates",
-            "number": 13845,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/A3DecayFinderTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/ML/MlResponse3Prong.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-decayfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3HfSelector3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3HfTreeCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3HfTask3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Utils/utilsHfAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Utils/utilsSelectionsAlice3.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-19T11:04:52Z",
             "title": "[PWGLF] now checking mcprocess to flag primaries and secondaries",
@@ -2576,6 +2476,91 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] separate max eta range for full region and subevent region",
+            "number": 13888,
+            "author": {
+              "login": "Luzhiyongg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Implement task and tree creator for 3-prong candidates",
+            "number": 13845,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/A3DecayFinderTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/ML/MlResponse3Prong.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-decayfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3HfSelector3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3HfTreeCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3HfTask3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Utils/utilsHfAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Utils/utilsSelectionsAlice3.h"
                   }
                 }
               ]
