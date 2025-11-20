@@ -28,7 +28,6 @@
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
-- [\#14736](https://github.com/AliceO2Group/AliceO2/pull/14736) 2025-10-22: ALICE3-TRK: adding macro to check digitization output by [@atriolo](https://github.com/atriolo)
 - [\#14751](https://github.com/AliceO2Group/AliceO2/pull/14751) 2025-10-23: ITS3: fix recently added service material by [@f3sch](https://github.com/f3sch)
 - [\#14756](https://github.com/AliceO2Group/AliceO2/pull/14756) 2025-10-24: ITS Calib: fix parallel processing for highly disordered data  by [@iravasen](https://github.com/iravasen)
 - [\#14760](https://github.com/AliceO2Group/AliceO2/pull/14760) 2025-10-23: Redefing BasicXYZVHit::mDetectorID from short to ushort by [@shahor02](https://github.com/shahor02)
