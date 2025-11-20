@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-22T09:05:19Z",
-            "title": "[FOCAL-62,FOCAL-65] Adding cuts for air",
-            "number": 14755,
-            "author": {
-              "login": "hahassan7"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/simulation/data/simcuts.dat"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-22T19:07:22Z",
             "title": "ALICE3-TRK: adding macro to check digitization output",
             "number": 14736,
@@ -3861,6 +3841,76 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/src/RuntimeError.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix a few errors reported by cpplint using Claude Code",
+            "number": 14836,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Algorithm/include/Algorithm/BitstreamReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/include/Algorithm/FlattenRestore.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/include/Algorithm/PageParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/StaticSequenceAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/o2formatparser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/pageparser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/parser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/test_BitstreamReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/test_FlattenRestore.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/test_RangeTokenizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Algorithm/test/test_mpl_tools.cxx"
                   }
                 }
               ]
