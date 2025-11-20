@@ -75,6 +75,7 @@
 - [\#14825](https://github.com/AliceO2Group/AliceO2/pull/14825) 2025-11-20: DPL: use rapidjson to dump metrics by [@ktf](https://github.com/ktf)
 - [\#14829](https://github.com/AliceO2Group/AliceO2/pull/14829) 2025-11-18: DPL Analysis: protect aod-spawner from empty input by [@aalkin](https://github.com/aalkin)
 - [\#14834](https://github.com/AliceO2Group/AliceO2/pull/14834) 2025-11-19: DPL Analysis: add label to the spawned table metadata by [@aalkin](https://github.com/aalkin)
+- [\#14835](https://github.com/AliceO2Group/AliceO2/pull/14835) 2025-11-20: DPL: fix thread safety of slot allocation in runtime_error_f by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
