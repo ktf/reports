@@ -25,6 +25,7 @@
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
+- [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
 - [\#14756](https://github.com/AliceO2Group/AliceO2/pull/14756) 2025-10-24: ITS Calib: fix parallel processing for highly disordered data  by [@iravasen](https://github.com/iravasen)
