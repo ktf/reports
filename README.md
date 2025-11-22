@@ -15,7 +15,6 @@
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#14764](https://github.com/AliceO2Group/AliceO2/pull/14764) 2025-10-23: Add forgotten short->unsigned short redefinition by [@shahor02](https://github.com/shahor02)
 - [\#14787](https://github.com/AliceO2Group/AliceO2/pull/14787) 2025-11-03: Fix one-off index problem when copying collision contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
 - [\#14798](https://github.com/AliceO2Group/AliceO2/pull/14798) 2025-11-06: Revert "Fix one-off index problem when copying collision contexts" by [@sawenzel](https://github.com/sawenzel)
