@@ -24,10 +24,7 @@
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#14693](https://github.com/AliceO2Group/AliceO2/pull/14693) 2025-10-24: Refactor: IRIS tracker geometry (ALICE 3) by [@plariono](https://github.com/plariono)
-- [\#14756](https://github.com/AliceO2Group/AliceO2/pull/14756) 2025-10-24: ITS Calib: fix parallel processing for highly disordered data  by [@iravasen](https://github.com/iravasen)
 - [\#14763](https://github.com/AliceO2Group/AliceO2/pull/14763) 2025-10-28: Fix application of signal filtering when enabled by [@fgrosa](https://github.com/fgrosa)
-- [\#14765](https://github.com/AliceO2Group/AliceO2/pull/14765) 2025-10-24: Process TRD,TOF fake flags in MC study workflow by [@shahor02](https://github.com/shahor02)
 - [\#14771](https://github.com/AliceO2Group/AliceO2/pull/14771) 2025-10-27: Improve segmentation of material LUT generation by [@shahor02](https://github.com/shahor02)
 - [\#14772](https://github.com/AliceO2Group/AliceO2/pull/14772) 2025-11-03: additional features added to TRK geometry by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#14773](https://github.com/AliceO2Group/AliceO2/pull/14773) 2025-10-27: Recover buildMatBudLUT mods for upgrades by [@shahor02](https://github.com/shahor02)
