@@ -47,6 +47,7 @@
 - [\#14828](https://github.com/AliceO2Group/AliceO2/pull/14828) 2025-11-18: GPU: Rename GPU ConfigurableParam header, and move it to DataTypes together with ExternalUser header by [@davidrohr](https://github.com/davidrohr)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
+- [\#14844](https://github.com/AliceO2Group/AliceO2/pull/14844) 2025-11-23: Add DPG code to special ITS output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
