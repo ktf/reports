@@ -4,151 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-19T11:04:52Z",
-            "title": "[PWGLF] now checking mcprocess to flag primaries and secondaries",
-            "number": 13878,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-19T07:35:09Z",
-            "title": "[PWGEM/Dilepton] add phi protection in EMTrack.h",
-            "number": 13867,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EMTrack.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGUD] Minor chages to the task",
-            "number": 13886,
-            "author": {
-              "login": "amatyja"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/TauThreeProngEventTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/tauThreeProngEventTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-19T12:13:42Z",
-            "title": "[PWGHF] Added PID histograms for V0 daughter and fixed bug for selection of V0 mass window",
-            "number": 13835,
-            "author": {
-              "login": "singhra1994"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-19T13:01:01Z",
-            "title": "[PWGEM/Dilepton,Common] update global muon propagation",
-            "number": 13881,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/fwdtrackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/createResolutionMap.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/matchingMFT.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] fixed QAEventFlowCut",
@@ -2721,6 +2576,271 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskDstarToD0Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-18T07:29:44Z",
+            "title": "[PWGCF] Enabeling the simultanously selecting two different V0s, Cascades and Resonances in the ProducerReso task",
+            "number": 13868,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamCascadeSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamResoSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamV0SelectionK0Short.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamDebugReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamDebugV0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-04T17:09:07Z",
+            "title": "[PWGCF] Add missing histogram and multiple QA Registries",
+            "number": 13663,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskReso.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-10-27T13:08:53Z",
+            "title": "[PWGCF] Adding support for cascade triggers in the FemtoDream producer",
+            "number": 13533,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-09-04T21:50:06Z",
+            "title": "[PWGCF] - FemtoDream: Cascade Update",
+            "number": 12820,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamCascadeSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamTrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamV0Selection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtodreamPairCascadeCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] - FemtoDream: Implementing phi and K* particles in FemtoDream",
+            "number": 12655,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamDetaDphiStar.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamObjectSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamResoSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamResoSelectionK0Short.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamTrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamV0SelectionK0Short.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskResoKshort.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamDebugReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskV0Reso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Utils/femtoDreamCutCulator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Utils/femtoDreamCutCulator.h"
                   }
                 }
               ]
