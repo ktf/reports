@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-19T00:06:09Z",
-            "title": "[PWGLF] [PWGMM/LumiStability] Fix floating point number bug",
-            "number": 13877,
-            "author": {
-              "login": "nstrangm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiStabilityLightIons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-19T07:42:18Z",
             "title": "[ALICE3] A3TOF: add dead chip areas",
             "number": 13356,
@@ -2706,6 +2686,41 @@
                 {
                   "node": {
                     "path": "PWGMM/Lumi/Tasks/LumiFDDFT0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add Data Model for LF signals in jet to improve analysis efficiency, adapt current task to analyse new data model",
+            "number": 13950,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFInJets.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lfinjets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJets.cxx"
                   }
                 }
               ]
