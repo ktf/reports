@@ -14,6 +14,7 @@
 - [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
+- [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#14787](https://github.com/AliceO2Group/AliceO2/pull/14787) 2025-11-03: Fix one-off index problem when copying collision contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
@@ -70,6 +71,7 @@
 - [\#14835](https://github.com/AliceO2Group/AliceO2/pull/14835) 2025-11-20: DPL: fix thread safety of slot allocation in runtime_error_f by [@ktf](https://github.com/ktf)
 - [\#14838](https://github.com/AliceO2Group/AliceO2/pull/14838) 2025-11-22: DPL: add test for MessageSet by [@ktf](https://github.com/ktf)
 - [\#14840](https://github.com/AliceO2Group/AliceO2/pull/14840) 2025-11-22: DPL Analysis: increase default shared memory offer per reader by [@ktf](https://github.com/ktf)
+- [\#14847](https://github.com/AliceO2Group/AliceO2/pull/14847) 2025-11-24: DPL: improve test by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
