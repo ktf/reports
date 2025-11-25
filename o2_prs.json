@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "MCH: add cut random fraction setting for the cases with and without ITS",
-            "number": 14028,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-10-28T12:19:26Z",
             "title": "Fix application of signal filtering when enabled",
@@ -3711,81 +3691,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Default TPC loopers in o2-sim",
-            "number": 14851,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/TPCLoopers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/TPCLoopersParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/ScalerComptonParams.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/ScalerPairParams.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/gaussian_params.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/poisson_params.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/TPCLoopers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/TPCLoopersParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: Ensure lifecycle of MessageSet",
             "number": 14853,
             "author": {
@@ -4006,6 +3911,111 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Calibration/macros/build_rejectlist.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Default TPC loopers in o2-sim",
+            "number": 14851,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TPCLoopers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TPCLoopersParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/ScalerComptonParams.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/ScalerPairParams.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/gaussian_params.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/poisson_params.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TPCLoopers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TPCLoopersParam.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CalDet<TPCPadFlags>: Protect against invalid reads",
+            "number": 14855,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CalDet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/TPCFlagsMemberCustomStreamer.cxx"
                   }
                 }
               ]
