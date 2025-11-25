@@ -26,7 +26,6 @@
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14763](https://github.com/AliceO2Group/AliceO2/pull/14763) 2025-10-28: Fix application of signal filtering when enabled by [@fgrosa](https://github.com/fgrosa)
-- [\#14771](https://github.com/AliceO2Group/AliceO2/pull/14771) 2025-10-27: Improve segmentation of material LUT generation by [@shahor02](https://github.com/shahor02)
 - [\#14772](https://github.com/AliceO2Group/AliceO2/pull/14772) 2025-11-03: additional features added to TRK geometry by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#14773](https://github.com/AliceO2Group/AliceO2/pull/14773) 2025-10-27: Recover buildMatBudLUT mods for upgrades by [@shahor02](https://github.com/shahor02)
 - [\#14776](https://github.com/AliceO2Group/AliceO2/pull/14776) 2025-10-30: Update ALICE3 tracker segmentation + chip indexing scheme by [@scannito](https://github.com/scannito)
