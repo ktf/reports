@@ -27,7 +27,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14763](https://github.com/AliceO2Group/AliceO2/pull/14763) 2025-10-28: Fix application of signal filtering when enabled by [@fgrosa](https://github.com/fgrosa)
 - [\#14772](https://github.com/AliceO2Group/AliceO2/pull/14772) 2025-11-03: additional features added to TRK geometry by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
-- [\#14773](https://github.com/AliceO2Group/AliceO2/pull/14773) 2025-10-27: Recover buildMatBudLUT mods for upgrades by [@shahor02](https://github.com/shahor02)
 - [\#14776](https://github.com/AliceO2Group/AliceO2/pull/14776) 2025-10-30: Update ALICE3 tracker segmentation + chip indexing scheme by [@scannito](https://github.com/scannito)
 - [\#14777](https://github.com/AliceO2Group/AliceO2/pull/14777) 2025-10-29: ALICE3-TRK: getMatrixPath() adapted to new hierarchical organization of the VD estabilished with PR#14693 by [@atriolo](https://github.com/atriolo)
 - [\#14778](https://github.com/AliceO2Group/AliceO2/pull/14778) 2025-10-30: ALICE3-TRK: Fix `readability-braces-around-statements` errors by [@mconcas](https://github.com/mconcas)
