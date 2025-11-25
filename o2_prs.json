@@ -3514,26 +3514,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-24T20:26:45Z",
-            "title": "Exercise CalArray<PadFlags> loading in a TPC unit test",
-            "number": 14850,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/test/testTPCCalDet.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "GPU Vulkan Display: Device layers are deprecated",
@@ -3921,6 +3901,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "CalDet<TPCPadFlags>: Protect against invalid reads",
+            "number": 14855,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CalDet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/TPCFlagsMemberCustomStreamer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-24T20:26:45Z",
+            "title": "Exercise CalArray<PadFlags> loading in a TPC unit test",
+            "number": 14850,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/test/testTPCCalDet.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Default TPC loopers in o2-sim",
             "number": 14851,
             "author": {
@@ -3986,36 +4016,6 @@
                 {
                   "node": {
                     "path": "Generators/src/TPCLoopersParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "CalDet<TPCPadFlags>: Protect against invalid reads",
-            "number": 14855,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CalDet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/TPCFlagsMemberCustomStreamer.cxx"
                   }
                 }
               ]
