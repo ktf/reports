@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-29T09:38:05Z",
-            "title": "MCH add cut random fraction setting for the cases with and without ITS",
-            "number": 14774,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-29T09:38:16Z",
             "title": "[MFT] Option to disable selection of ITS irFrames",
             "number": 14775,
@@ -3509,146 +3489,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: rework of aod-spawner and aod-index-builder",
-            "number": 14854,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODReaderHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/OnDemandPlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ArrowTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Expressions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/IndexBuilderHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExpressionJSONHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Expressions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/IndexBuilderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/IndexJSONHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/IndexJSONHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Expressions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_IndexBuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-24T20:26:45Z",
             "title": "Exercise CalArray<PadFlags> loading in a TPC unit test",
@@ -4011,6 +3851,166 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/src/TPCFlagsMemberCustomStreamer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix time measurements of reco steps, synchronization was missing",
+            "number": 14857,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChain.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: rework of aod-spawner and aod-index-builder",
+            "number": 14854,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODReaderHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/OnDemandPlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ArrowTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Expressions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/IndexBuilderHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExpressionJSONHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Expressions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/IndexBuilderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/IndexJSONHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/IndexJSONHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Expressions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_IndexBuilder.cxx"
                   }
                 }
               ]
