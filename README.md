@@ -5,6 +5,7 @@
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
+- [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
@@ -71,6 +72,7 @@
 - [\#14838](https://github.com/AliceO2Group/AliceO2/pull/14838) 2025-11-22: DPL: add test for MessageSet by [@ktf](https://github.com/ktf)
 - [\#14840](https://github.com/AliceO2Group/AliceO2/pull/14840) 2025-11-22: DPL Analysis: increase default shared memory offer per reader by [@ktf](https://github.com/ktf)
 - [\#14847](https://github.com/AliceO2Group/AliceO2/pull/14847) 2025-11-24: DPL: improve test by [@ktf](https://github.com/ktf)
+- [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
