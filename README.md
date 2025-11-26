@@ -9,7 +9,6 @@
 ## Recent developments in O2 - Common
 - [\#14701](https://github.com/AliceO2Group/AliceO2/pull/14701) 2025-10-30: DPL: refactor TransitionState calculation by [@ktf](https://github.com/ktf)
 - [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
-- [\#14769](https://github.com/AliceO2Group/AliceO2/pull/14769) 2025-10-29: Improve the PDG header script  by [@vkucera](https://github.com/vkucera)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
 - [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
 - [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
