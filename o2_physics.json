@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-21T18:41:17Z",
-            "title": "[PWGJE] trackEfficiency: FT0M or C for centrality, other fixes/cleaning",
-            "number": 13729,
-            "author": {
-              "login": "aimeric-landou"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-21T18:50:45Z",
-            "title": "[PWGLF] Improvement in Kink vertex finder",
-            "number": 13921,
-            "author": {
-              "login": "sdudi123"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraKinkPiKa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-21T19:59:30Z",
             "title": "[ALICE3] new task",
             "number": 13911,
@@ -2930,6 +2890,71 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdak0seff.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add TOF PID to the Data Model for LF signals in jet and adapt current…",
+            "number": 13987,
+            "author": {
+              "login": "spucillo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFInJets.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lfinjets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] TPC PID: Cleanup of CCDB accessors",
+            "number": 13265,
+            "author": {
+              "login": "jezwilkinson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCServiceRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
                   }
                 }
               ]
