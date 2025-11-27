@@ -74,8 +74,6 @@
 - [\#14847](https://github.com/AliceO2Group/AliceO2/pull/14847) 2025-11-24: DPL: improve test by [@ktf](https://github.com/ktf)
 - [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
 - [\#14858](https://github.com/AliceO2Group/AliceO2/pull/14858) 2025-11-26: DPL: add protection against fork bomb by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#14737](https://github.com/AliceO2Group/AliceO2/pull/14737) 2025-10-29: Make GeneratorHybrid a singleton by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
