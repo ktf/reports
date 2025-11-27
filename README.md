@@ -14,6 +14,7 @@
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
+- [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14787](https://github.com/AliceO2Group/AliceO2/pull/14787) 2025-11-03: Fix one-off index problem when copying collision contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
