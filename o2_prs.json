@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-10-30T14:06:20Z",
-            "title": "ITS3: update matLUT macro",
-            "number": 14779,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/macros/test/buildMatBudLUT.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-10-30T15:10:35Z",
             "title": "DPL: refactor TransitionState calculation",
             "number": 14701,
@@ -4011,6 +3991,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Global/GPUChainITS.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: cleanup Variant copying for ArrayString",
+            "number": 14864,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Variant.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/VariantPropertyTreeHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Variant.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/VariantPropertyTreeHelpers.cxx"
                   }
                 }
               ]

@@ -27,7 +27,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14772](https://github.com/AliceO2Group/AliceO2/pull/14772) 2025-11-03: additional features added to TRK geometry by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#14776](https://github.com/AliceO2Group/AliceO2/pull/14776) 2025-10-30: Update ALICE3 tracker segmentation + chip indexing scheme by [@scannito](https://github.com/scannito)
-- [\#14779](https://github.com/AliceO2Group/AliceO2/pull/14779) 2025-10-30: ITS3: update matLUT macro by [@f3sch](https://github.com/f3sch)
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
 - [\#14782](https://github.com/AliceO2Group/AliceO2/pull/14782) 2025-10-30: ITS: fix truth seeding for events which are not in acceptance by [@f3sch](https://github.com/f3sch)
 - [\#14786](https://github.com/AliceO2Group/AliceO2/pull/14786) 2025-11-03: Update ALICE3 tracker: Fix chip composition and orientation by [@scannito](https://github.com/scannito)
