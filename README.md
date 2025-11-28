@@ -17,7 +17,6 @@
 - [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
 - [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14787](https://github.com/AliceO2Group/AliceO2/pull/14787) 2025-11-03: Fix one-off index problem when copying collision contexts by [@sawenzel](https://github.com/sawenzel)
 - [\#14791](https://github.com/AliceO2Group/AliceO2/pull/14791) 2025-11-04: Fix namespace closing for o2 in BunchFilling.h by [@njacazio](https://github.com/njacazio)
 - [\#14798](https://github.com/AliceO2Group/AliceO2/pull/14798) 2025-11-06: Revert "Fix one-off index problem when copying collision contexts" by [@sawenzel](https://github.com/sawenzel)
 - [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
