@@ -75,5 +75,3 @@
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 - [\#14833](https://github.com/AliceO2Group/AliceO2/pull/14833) 2025-11-20: Generalize IR setting by [@jackal1-66](https://github.com/jackal1-66)
-## Recent developments in O2 - Utilities
-- [\#14781](https://github.com/AliceO2Group/AliceO2/pull/14781) 2025-10-31: Avoid deprecated spacing in user defined literals by [@ktf](https://github.com/ktf)
