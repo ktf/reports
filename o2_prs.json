@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-01T20:03:38Z",
-            "title": "GPU Standalone: Support running QA on async reco",
-            "number": 14784,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-02T19:34:05Z",
             "title": "GPU QA: Some improvements and fixes",
             "number": 14789,
@@ -3976,6 +3956,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix handling of non critical errors in double-pipeline mode",
+            "number": 14870,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
                   }
                 }
               ]
