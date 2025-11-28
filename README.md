@@ -13,6 +13,7 @@
 - [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
+- [\#14841](https://github.com/AliceO2Group/AliceO2/pull/14841) 2025-11-28: [NN Clusterizer] CCDB fetching within reco workflow by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
 - [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
@@ -40,6 +41,7 @@
 - [\#14828](https://github.com/AliceO2Group/AliceO2/pull/14828) 2025-11-18: GPU: Rename GPU ConfigurableParam header, and move it to DataTypes together with ExternalUser header by [@davidrohr](https://github.com/davidrohr)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
+- [\#14841](https://github.com/AliceO2Group/AliceO2/pull/14841) 2025-11-28: [NN Clusterizer] CCDB fetching within reco workflow by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14844](https://github.com/AliceO2Group/AliceO2/pull/14844) 2025-11-23: Add DPG code to special ITS output by [@shahor02](https://github.com/shahor02)
 - [\#14850](https://github.com/AliceO2Group/AliceO2/pull/14850) 2025-11-24: Exercise CalArray<PadFlags> loading in a TPC unit test by [@sawenzel](https://github.com/sawenzel)
 - [\#14855](https://github.com/AliceO2Group/AliceO2/pull/14855) 2025-11-25: CalDet<TPCPadFlags>: Protect against invalid reads by [@sawenzel](https://github.com/sawenzel)
