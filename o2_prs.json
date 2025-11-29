@@ -3771,31 +3771,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "jobutils: Remove exception list from previous commands",
-            "number": 14868,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/jobutils.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Methods for Kalman filter linearized wrt reference track",
             "number": 14866,
             "author": {
@@ -3931,6 +3906,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Moved namespace gpu_reconstruction_kernels defination in GPUReconstruction.h",
+            "number": 14869,
+            "author": {
+              "login": "vikasssinghal"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-29T07:35:56Z",
+            "title": "jobutils: Remove exception list from previous commands",
+            "number": 14868,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/jobutils.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-29T07:36:10Z",
             "title": "GPU Standalone: Add GPUCA_BUILD_DEBUG_HOSTONLY debug option",
             "number": 14871,
             "author": {
@@ -3951,31 +3976,6 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Moved namespace gpu_reconstruction_kernels defination in GPUReconstruction.h",
-            "number": 14869,
-            "author": {
-              "login": "vikasssinghal"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionProcessing.h"
                   }
                 }
               ]
