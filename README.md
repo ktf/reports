@@ -24,6 +24,7 @@
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
+- [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14772](https://github.com/AliceO2Group/AliceO2/pull/14772) 2025-11-03: additional features added to TRK geometry by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
@@ -46,6 +47,7 @@
 - [\#14855](https://github.com/AliceO2Group/AliceO2/pull/14855) 2025-11-25: CalDet<TPCPadFlags>: Protect against invalid reads by [@sawenzel](https://github.com/sawenzel)
 - [\#14856](https://github.com/AliceO2Group/AliceO2/pull/14856) 2025-11-26: Fix of custom streamer code by [@sawenzel](https://github.com/sawenzel)
 - [\#14861](https://github.com/AliceO2Group/AliceO2/pull/14861) 2025-11-27: Possibility to combine 2 material LUTs by [@shahor02](https://github.com/shahor02)
+- [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
