@@ -78,5 +78,6 @@
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 - [\#14833](https://github.com/AliceO2Group/AliceO2/pull/14833) 2025-11-20: Generalize IR setting by [@jackal1-66](https://github.com/jackal1-66)
+- [\#14867](https://github.com/AliceO2Group/AliceO2/pull/14867) 2025-11-29: Generalize path/file finding for external collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14868](https://github.com/AliceO2Group/AliceO2/pull/14868) 2025-11-29: jobutils: Remove exception list from previous commands by [@davidrohr](https://github.com/davidrohr)
