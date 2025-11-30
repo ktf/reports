@@ -47,6 +47,7 @@
 - [\#14856](https://github.com/AliceO2Group/AliceO2/pull/14856) 2025-11-26: Fix of custom streamer code by [@sawenzel](https://github.com/sawenzel)
 - [\#14861](https://github.com/AliceO2Group/AliceO2/pull/14861) 2025-11-27: Possibility to combine 2 material LUTs by [@shahor02](https://github.com/shahor02)
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
+- [\#14874](https://github.com/AliceO2Group/AliceO2/pull/14874) 2025-11-30: different options for track refits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
