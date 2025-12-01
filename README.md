@@ -1,13 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
 - [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
 - [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
@@ -49,8 +47,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#14731](https://github.com/AliceO2Group/AliceO2/pull/14731) 2025-11-05: DPL analysis: support timeslice rate limiting in DPL resource manager by [@ktf](https://github.com/ktf)
-- [\#14792](https://github.com/AliceO2Group/AliceO2/pull/14792) 2025-11-04: DPL: get rid of call_if_defined by [@ktf](https://github.com/ktf)
 - [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14797](https://github.com/AliceO2Group/AliceO2/pull/14797) 2025-11-07: DPL: check for state transition updates also in input-proxy busy loop by [@ehellbar](https://github.com/ehellbar)
 - [\#14802](https://github.com/AliceO2Group/AliceO2/pull/14802) 2025-11-08: DPL: refactor dumping of performanceMetrics.json by [@ktf](https://github.com/ktf)
