@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
@@ -24,7 +23,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
 - [\#14786](https://github.com/AliceO2Group/AliceO2/pull/14786) 2025-11-03: Update ALICE3 tracker: Fix chip composition and orientation by [@scannito](https://github.com/scannito)
-- [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14805](https://github.com/AliceO2Group/AliceO2/pull/14805) 2025-11-12: Improved description of IB FPC capacitors by [@mario6829](https://github.com/mario6829)
 - [\#14815](https://github.com/AliceO2Group/AliceO2/pull/14815) 2025-11-19: ITS: GPU: free artefacts from memory after iteration by [@f3sch](https://github.com/f3sch)
 - [\#14819](https://github.com/AliceO2Group/AliceO2/pull/14819) 2025-11-17: ALICE3-TRK: fix nSimSteps to cover long hits at large Z + prints cleanup by [@atriolo](https://github.com/atriolo)
@@ -47,7 +45,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#14793](https://github.com/AliceO2Group/AliceO2/pull/14793) 2025-11-05: DPL: move TableToTree to AnalysisSupport, on its way to be deprecated by [@ktf](https://github.com/ktf)
 - [\#14797](https://github.com/AliceO2Group/AliceO2/pull/14797) 2025-11-07: DPL: check for state transition updates also in input-proxy busy loop by [@ehellbar](https://github.com/ehellbar)
 - [\#14802](https://github.com/AliceO2Group/AliceO2/pull/14802) 2025-11-08: DPL: refactor dumping of performanceMetrics.json by [@ktf](https://github.com/ktf)
 - [\#14806](https://github.com/AliceO2Group/AliceO2/pull/14806) 2025-11-11: DPL: reduce chances to drop offers by [@ktf](https://github.com/ktf)
