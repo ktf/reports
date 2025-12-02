@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Adding DCA trends as function of collision z",
-            "number": 13988,
-            "author": {
-              "login": "ppoava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-26T17:13:54Z",
-            "title": "[PWGHF] Move configurable belonging to HF event selection in proper struct",
-            "number": 13983,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-11-26T17:34:44Z",
             "title": "[PWGLF] QA code for eff calculation",
@@ -2396,21 +2326,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] add a beta histogram in dileptonPolarization.cxx",
-            "number": 14056,
+            "title": "[PWGJE] Add task for particle-level jet cross-section efficiency evaluation",
+            "number": 14057,
             "author": {
-              "login": "dsekihat"
+              "login": "joonsukbae"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Utils/EMTrack.h"
+                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] filll correct rapidity distribution for the upc case in the taskLc.cxx",
+            "number": 14058,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
                   }
                 }
               ]
@@ -2479,23 +2429,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
-            "title": "[PWGJE] Add task for particle-level jet cross-section efficiency evaluation",
-            "number": 14057,
+            "title": "Please consider the following formatting changes to #14059",
+            "number": 14060,
             "author": {
-              "login": "joonsukbae"
+              "login": "alibuild"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
+                    "path": "ALICE3/Core/DetLayer.h"
                   }
                 }
               ]
@@ -2506,16 +2451,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] filll correct rapidity distribution for the upc case in the taskLc.cxx",
-            "number": 14058,
+            "title": "[PWGEM/Dilepton] add a beta histogram in dileptonPolarization.cxx",
+            "number": 14056,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EMTrack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Update DetLayer indices",
+            "number": 14059,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DetLayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DetLayer.h"
                   }
                 }
               ]
