@@ -13,8 +13,6 @@
 - [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
 - [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14798](https://github.com/AliceO2Group/AliceO2/pull/14798) 2025-11-06: Revert "Fix one-off index problem when copying collision contexts" by [@sawenzel](https://github.com/sawenzel)
-- [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
@@ -68,7 +66,6 @@
 - [\#14864](https://github.com/AliceO2Group/AliceO2/pull/14864) 2025-11-28: DPL: cleanup Variant copying for ArrayString by [@ktf](https://github.com/ktf)
 - [\#14872](https://github.com/AliceO2Group/AliceO2/pull/14872) 2025-12-01: DPL Analysis: Case-insensitive index access by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
-- [\#14799](https://github.com/AliceO2Group/AliceO2/pull/14799) 2025-11-06: Fix of O2-6437 by [@sawenzel](https://github.com/sawenzel)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 - [\#14833](https://github.com/AliceO2Group/AliceO2/pull/14833) 2025-11-20: Generalize IR setting by [@jackal1-66](https://github.com/jackal1-66)
