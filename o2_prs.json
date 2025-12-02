@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-08T21:54:13Z",
-            "title": "GPU QA: Fix counting of compressed clusters and cleanup and better reporting",
-            "number": 14803,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCClusterRejection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/GPUQA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Integrate TRD extra data support in AOD production workflow",
@@ -3726,81 +3666,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Default TPC loopers in o2-sim",
-            "number": 14851,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/TPCLoopers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/TPCLoopersParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/ScalerComptonParams.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/ScalerPairParams.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/gaussian_params.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/poisson_params.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/TPCLoopers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/TPCLoopersParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU: Add throughput to pad filter kernel timer.",
             "number": 14883,
             "author": {
@@ -3946,6 +3811,121 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/qa/GPUQA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Default TPC loopers in o2-sim",
+            "number": 14851,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TPCLoopers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TPCLoopersParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/ScalerComptonParams.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/ScalerPairParams.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/gaussian_params.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/poisson_params.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TPCLoopers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TPCLoopersParam.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: refactor input forwarding routing",
+            "number": 14886,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ForwardInputs.cxx"
                   }
                 }
               ]
