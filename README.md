@@ -45,7 +45,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#14797](https://github.com/AliceO2Group/AliceO2/pull/14797) 2025-11-07: DPL: check for state transition updates also in input-proxy busy loop by [@ehellbar](https://github.com/ehellbar)
 - [\#14802](https://github.com/AliceO2Group/AliceO2/pull/14802) 2025-11-08: DPL: refactor dumping of performanceMetrics.json by [@ktf](https://github.com/ktf)
 - [\#14806](https://github.com/AliceO2Group/AliceO2/pull/14806) 2025-11-11: DPL: reduce chances to drop offers by [@ktf](https://github.com/ktf)
 - [\#14807](https://github.com/AliceO2Group/AliceO2/pull/14807) 2025-11-10: DPL: fix wrong log level by [@ktf](https://github.com/ktf)
