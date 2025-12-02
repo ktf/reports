@@ -12,6 +12,7 @@
 - [\#14841](https://github.com/AliceO2Group/AliceO2/pull/14841) 2025-11-28: [NN Clusterizer] CCDB fetching within reco workflow by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
 - [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
+- [\#14882](https://github.com/AliceO2Group/AliceO2/pull/14882) 2025-12-02: DPL: remove direct dependency on fair::mq::Device from the FairMQDeviceProxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
@@ -63,6 +64,7 @@
 - [\#14858](https://github.com/AliceO2Group/AliceO2/pull/14858) 2025-11-26: DPL: add protection against fork bomb by [@ktf](https://github.com/ktf)
 - [\#14864](https://github.com/AliceO2Group/AliceO2/pull/14864) 2025-11-28: DPL: cleanup Variant copying for ArrayString by [@ktf](https://github.com/ktf)
 - [\#14872](https://github.com/AliceO2Group/AliceO2/pull/14872) 2025-12-01: DPL Analysis: Case-insensitive index access by [@aalkin](https://github.com/aalkin)
+- [\#14882](https://github.com/AliceO2Group/AliceO2/pull/14882) 2025-12-02: DPL: remove direct dependency on fair::mq::Device from the FairMQDeviceProxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
