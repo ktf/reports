@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-26T16:07:13Z",
-            "title": "[PWGCF] remove obsolete histograms",
-            "number": 13975,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-26T16:10:39Z",
-            "title": "[Infrastructure] Bump actions/checkout from 5 to 6",
-            "number": 13944,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/mega-linter.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": ".github/workflows/o2-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] TPC PID: Cleanup of CCDB accessors",
-            "number": 13265,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCServiceRun2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] Adding DCA trends as function of collision z",
@@ -2476,6 +2396,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGEM/Dilepton] add a beta histogram in dileptonPolarization.cxx",
+            "number": 14056,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EMTrack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Refactory of charm reso derived data creator to improve compilation time",
             "number": 14027,
             "author": {
@@ -2526,6 +2471,51 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Utils/utilsRedDataFormat.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add task for particle-level jet cross-section efficiency evaluation",
+            "number": 14057,
+            "author": {
+              "login": "joonsukbae"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] filll correct rapidity distribution for the upc case in the taskLc.cxx",
+            "number": 14058,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
                   }
                 }
               ]
