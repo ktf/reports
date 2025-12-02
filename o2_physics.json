@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-26T19:20:49Z",
-            "title": "[PWGEM/Dilepton] update norm001 table after #13971",
-            "number": 13990,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonProducer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/Converters/eventNormConverter1.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/createEMEventPhoton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-26T21:52:27Z",
-            "title": "[PWGCF] Update to include Run3 DCA pt dep selection",
-            "number": 13994,
-            "author": {
-              "login": "lauraser"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamDebugTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrack.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-26T21:53:46Z",
             "title": "[PWGEM/Dilepton] update dileptonPolarization.cxx",
             "number": 13995,
@@ -2426,6 +2351,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGEM/Dilepton] add a beta histogram in dileptonPolarization.cxx",
+            "number": 14056,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EMTrack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] updated rec loop for eff",
+            "number": 14062,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdak0seff.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[DPG] TRD: Changes for TRD-PID study",
             "number": 13074,
             "author": {
@@ -2456,21 +2426,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] add a beta histogram in dileptonPolarization.cxx",
-            "number": 14056,
+            "title": "[PWGJE] add the UE subtruction from jetPt",
+            "number": 14063,
             "author": {
-              "login": "dsekihat"
+              "login": "ynishida-style"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EMTrack.h"
+                    "path": "PWGJE/Tasks/jetShape.cxx"
                   }
                 }
               ]
