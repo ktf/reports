@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-11-27T15:28:25Z",
-            "title": "[PWGLF] Add TOF PID to the Data Model for LF signals in jet and adapt current…",
-            "number": 13987,
-            "author": {
-              "login": "spucillo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFInJets.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lfinjets.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-11-27T15:40:52Z",
             "title": "[PWGUD] fix for upcRhoAnalysis.cxx",
             "number": 14008,
@@ -1834,31 +1804,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Add task for particle-level jet cross-section efficiency evaluation",
-            "number": 14057,
-            "author": {
-              "login": "joonsukbae"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-12-02T15:30:20Z",
             "title": "[PWGHF] filll correct rapidity distribution for the upc case in the taskLc.cxx",
@@ -2069,26 +2014,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Di-hadron correlation check",
-            "number": 14064,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-12-02T20:28:09Z",
             "title": "[PWGEM/Dilepton] add a beta histogram in dileptonPolarization.cxx",
@@ -2126,26 +2051,6 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] add the UE subtruction from jetPt",
-            "number": 14063,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
                   }
                 }
               ]
@@ -2451,6 +2356,126 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-03T13:45:10Z",
+            "title": "[PWGJE] Di-hadron correlation check",
+            "number": 14064,
+            "author": {
+              "login": "KotliarovAr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/recoilJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-03T13:45:32Z",
+            "title": "[PWGJE] add the UE subtruction from jetPt",
+            "number": 14063,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-03T13:47:05Z",
+            "title": "[PWGJE] Add task for particle-level jet cross-section efficiency evaluation",
+            "number": 14057,
+            "author": {
+              "login": "joonsukbae"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] move files to proper place",
+            "number": 14073,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/PhotonHBT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/PhotonHBTPCMEE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/PhotonHBTPCMPCM.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EventHistograms.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/PhotonHBT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/PhotonHBTPCMPCM.cxx"
                   }
                 }
               ]
