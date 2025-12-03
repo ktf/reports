@@ -41,6 +41,7 @@
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
 - [\#14874](https://github.com/AliceO2Group/AliceO2/pull/14874) 2025-11-30: different options for track refits by [@shahor02](https://github.com/shahor02)
 - [\#14875](https://github.com/AliceO2Group/AliceO2/pull/14875) 2025-12-01: Exclude TPC CalDet test in dataflow builds by [@sawenzel](https://github.com/sawenzel)
+- [\#14877](https://github.com/AliceO2Group/AliceO2/pull/14877) 2025-12-03: ITS: GPU: adapt seed refit by [@f3sch](https://github.com/f3sch)
 - [\#14879](https://github.com/AliceO2Group/AliceO2/pull/14879) 2025-12-01: Use linearization ref. in AB refit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
