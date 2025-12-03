@@ -21,7 +21,6 @@
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
-- [\#14786](https://github.com/AliceO2Group/AliceO2/pull/14786) 2025-11-03: Update ALICE3 tracker: Fix chip composition and orientation by [@scannito](https://github.com/scannito)
 - [\#14805](https://github.com/AliceO2Group/AliceO2/pull/14805) 2025-11-12: Improved description of IB FPC capacitors by [@mario6829](https://github.com/mario6829)
 - [\#14815](https://github.com/AliceO2Group/AliceO2/pull/14815) 2025-11-19: ITS: GPU: free artefacts from memory after iteration by [@f3sch](https://github.com/f3sch)
 - [\#14819](https://github.com/AliceO2Group/AliceO2/pull/14819) 2025-11-17: ALICE3-TRK: fix nSimSteps to cover long hits at large Z + prints cleanup by [@atriolo](https://github.com/atriolo)
