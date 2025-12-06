@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-29T13:23:47Z",
-            "title": "[PWGCF] Optimize nsigma shift and MC closure test in EbyE task partNumFluc",
-            "number": 14031,
-            "author": {
-              "login": "fsii"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGJE] modify the delta pT methods",
@@ -2839,6 +2819,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Added event selection in event and signal loss calculation",
+            "number": 14104,
+            "author": {
+              "login": "5ub-Man"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-28T07:37:12Z",
+            "title": "[PWGLF] General improvements of the analysis task",
+            "number": 13955,
+            "author": {
+              "login": "5ub-Man"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[DPG] TRD: Changes for TRD-PID study",
             "number": 13074,
             "author": {
@@ -2889,36 +2909,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Added event selection in event and signal loss calculation",
-            "number": 14104,
+            "title": "[PWGHF] Add process function for EP resolution in charm polarisation task",
+            "number": 14105,
             "author": {
-              "login": "5ub-Man"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-11-28T07:37:12Z",
-            "title": "[PWGLF] General improvements of the analysis task",
-            "number": 13955,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
