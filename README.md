@@ -49,7 +49,6 @@
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
-- [\#14810](https://github.com/AliceO2Group/AliceO2/pull/14810) 2025-11-12: DPL: properly handle excess of offers by [@ktf](https://github.com/ktf)
 - [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
 - [\#14812](https://github.com/AliceO2Group/AliceO2/pull/14812) 2025-11-12: DPL: fix accounting of consumed timeslices by [@ktf](https://github.com/ktf)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
