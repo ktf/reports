@@ -5,7 +5,6 @@
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14841](https://github.com/AliceO2Group/AliceO2/pull/14841) 2025-11-28: [NN Clusterizer] CCDB fetching within reco workflow by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -51,8 +50,6 @@
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#14808](https://github.com/AliceO2Group/AliceO2/pull/14808) 2025-11-13: DPL Analysis: Generalize aod-spawner by [@aalkin](https://github.com/aalkin)
-- [\#14811](https://github.com/AliceO2Group/AliceO2/pull/14811) 2025-11-12: DPL Analysis: improve default value for timeframes rate limiting by [@ktf](https://github.com/ktf)
-- [\#14812](https://github.com/AliceO2Group/AliceO2/pull/14812) 2025-11-12: DPL: fix accounting of consumed timeslices by [@ktf](https://github.com/ktf)
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
 - [\#14825](https://github.com/AliceO2Group/AliceO2/pull/14825) 2025-11-20: DPL: use rapidjson to dump metrics by [@ktf](https://github.com/ktf)
 - [\#14829](https://github.com/AliceO2Group/AliceO2/pull/14829) 2025-11-18: DPL Analysis: protect aod-spawner from empty input by [@aalkin](https://github.com/aalkin)
