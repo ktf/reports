@@ -13,12 +13,14 @@
 - [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
 - [\#14882](https://github.com/AliceO2Group/AliceO2/pull/14882) 2025-12-02: DPL: remove direct dependency on fair::mq::Device from the FairMQDeviceProxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
+- [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
 - [\#14805](https://github.com/AliceO2Group/AliceO2/pull/14805) 2025-11-12: Improved description of IB FPC capacitors by [@mario6829](https://github.com/mario6829)
 - [\#14815](https://github.com/AliceO2Group/AliceO2/pull/14815) 2025-11-19: ITS: GPU: free artefacts from memory after iteration by [@f3sch](https://github.com/f3sch)
