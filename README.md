@@ -42,6 +42,7 @@
 - [\#14888](https://github.com/AliceO2Group/AliceO2/pull/14888) 2025-12-05: Use stable lin.ref. point for alignment track initial fit by [@shahor02](https://github.com/shahor02)
 - [\#14895](https://github.com/AliceO2Group/AliceO2/pull/14895) 2025-12-07: add missing reset ot ITS track before the refit by [@shahor02](https://github.com/shahor02)
 - [\#14896](https://github.com/AliceO2Group/AliceO2/pull/14896) 2025-12-09: workflow to study ITS residuals by [@shahor02](https://github.com/shahor02)
+- [\#14903](https://github.com/AliceO2Group/AliceO2/pull/14903) 2025-12-09: ALICE3-TRK: adjusted VD segmentation taking into account gaps between adjacent layers by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - EventVisualisation
 - [\#14809](https://github.com/AliceO2Group/AliceO2/pull/14809) 2025-11-17: Event Display: catch several filesystem exceptions by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
