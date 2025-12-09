@@ -22,7 +22,6 @@
 - [\#14815](https://github.com/AliceO2Group/AliceO2/pull/14815) 2025-11-19: ITS: GPU: free artefacts from memory after iteration by [@f3sch](https://github.com/f3sch)
 - [\#14816](https://github.com/AliceO2Group/AliceO2/pull/14816) 2025-12-06: ALICE 3 FT3: Modular structure implementation for OT disks by [@sadekr](https://github.com/sadekr)
 - [\#14819](https://github.com/AliceO2Group/AliceO2/pull/14819) 2025-11-17: ALICE3-TRK: fix nSimSteps to cover long hits at large Z + prints cleanup by [@atriolo](https://github.com/atriolo)
-- [\#14820](https://github.com/AliceO2Group/AliceO2/pull/14820) 2025-11-15: Allow to SVertexer to use global tracks only (e.g. for online mode) by [@shahor02](https://github.com/shahor02)
 - [\#14822](https://github.com/AliceO2Group/AliceO2/pull/14822) 2025-11-17: dev: improvements of pb lumi macro by [@lietava](https://github.com/lietava)
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
 - [\#14824](https://github.com/AliceO2Group/AliceO2/pull/14824) 2025-11-17: GPU: Add GPUO2ExternalUser.h, to be included by external libraries using GPUTracking classes, instead of including the full GPUO2Interface.h + some fixes by [@davidrohr](https://github.com/davidrohr)
