@@ -17,6 +17,7 @@
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
+- [\#14893](https://github.com/AliceO2Group/AliceO2/pull/14893) 2025-12-09: Non uniform BC InteractionSampler by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
