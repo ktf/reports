@@ -5,7 +5,6 @@
 - [\#14854](https://github.com/AliceO2Group/AliceO2/pull/14854) 2025-11-26: DPL Analysis: rework of aod-spawner and aod-index-builder by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14818](https://github.com/AliceO2Group/AliceO2/pull/14818) 2025-11-16: DPL: fix timeslice rate limiting issues by [@ktf](https://github.com/ktf)
-- [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14841](https://github.com/AliceO2Group/AliceO2/pull/14841) 2025-11-28: [NN Clusterizer] CCDB fetching within reco workflow by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#14846](https://github.com/AliceO2Group/AliceO2/pull/14846) 2025-11-24: o2-sim: Avoid duplicate printout of detector list by [@sawenzel](https://github.com/sawenzel)
 - [\#14865](https://github.com/AliceO2Group/AliceO2/pull/14865) 2025-11-27: GPU: Hide FairLogger more effectively when compiling kernels by [@davidrohr](https://github.com/davidrohr)
@@ -13,7 +12,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
-- [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
@@ -25,7 +23,6 @@
 - [\#14816](https://github.com/AliceO2Group/AliceO2/pull/14816) 2025-12-06: ALICE 3 FT3: Modular structure implementation for OT disks by [@sadekr](https://github.com/sadekr)
 - [\#14819](https://github.com/AliceO2Group/AliceO2/pull/14819) 2025-11-17: ALICE3-TRK: fix nSimSteps to cover long hits at large Z + prints cleanup by [@atriolo](https://github.com/atriolo)
 - [\#14820](https://github.com/AliceO2Group/AliceO2/pull/14820) 2025-11-15: Allow to SVertexer to use global tracks only (e.g. for online mode) by [@shahor02](https://github.com/shahor02)
-- [\#14821](https://github.com/AliceO2Group/AliceO2/pull/14821) 2025-11-15: EncodedBlocks should report real output size, not the allocated buffer by [@shahor02](https://github.com/shahor02)
 - [\#14822](https://github.com/AliceO2Group/AliceO2/pull/14822) 2025-11-17: dev: improvements of pb lumi macro by [@lietava](https://github.com/lietava)
 - [\#14823](https://github.com/AliceO2Group/AliceO2/pull/14823) 2025-11-16: Optional ITStracks details output from TrackMCStudy by [@shahor02](https://github.com/shahor02)
 - [\#14824](https://github.com/AliceO2Group/AliceO2/pull/14824) 2025-11-17: GPU: Add GPUO2ExternalUser.h, to be included by external libraries using GPUTracking classes, instead of including the full GPUO2Interface.h + some fixes by [@davidrohr](https://github.com/davidrohr)
