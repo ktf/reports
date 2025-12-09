@@ -61,6 +61,7 @@
 - [\#14886](https://github.com/AliceO2Group/AliceO2/pull/14886) 2025-12-05: DPL: refactor input forwarding routing by [@ktf](https://github.com/ktf)
 - [\#14887](https://github.com/AliceO2Group/AliceO2/pull/14887) 2025-12-03: DPL: sanity check silently skipping actual data by [@ktf](https://github.com/ktf)
 - [\#14892](https://github.com/AliceO2Group/AliceO2/pull/14892) 2025-12-07: DPL: test for ConsumeExisting when forwarding by [@ktf](https://github.com/ktf)
+- [\#14897](https://github.com/AliceO2Group/AliceO2/pull/14897) 2025-12-09: DPL: drop support for FairMQ versions without shallow copy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
