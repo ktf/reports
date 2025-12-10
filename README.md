@@ -19,7 +19,6 @@
 - [\#14780](https://github.com/AliceO2Group/AliceO2/pull/14780) 2025-11-21: ITS3: add study workflow and fix QA macros by [@f3sch](https://github.com/f3sch)
 - [\#14815](https://github.com/AliceO2Group/AliceO2/pull/14815) 2025-11-19: ITS: GPU: free artefacts from memory after iteration by [@f3sch](https://github.com/f3sch)
 - [\#14816](https://github.com/AliceO2Group/AliceO2/pull/14816) 2025-12-06: ALICE 3 FT3: Modular structure implementation for OT disks by [@sadekr](https://github.com/sadekr)
-- [\#14824](https://github.com/AliceO2Group/AliceO2/pull/14824) 2025-11-17: GPU: Add GPUO2ExternalUser.h, to be included by external libraries using GPUTracking classes, instead of including the full GPUO2Interface.h + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#14828](https://github.com/AliceO2Group/AliceO2/pull/14828) 2025-11-18: GPU: Rename GPU ConfigurableParam header, and move it to DataTypes together with ExternalUser header by [@davidrohr](https://github.com/davidrohr)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
