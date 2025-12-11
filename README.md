@@ -9,7 +9,6 @@
 - [\#14882](https://github.com/AliceO2Group/AliceO2/pull/14882) 2025-12-02: DPL: remove direct dependency on fair::mq::Device from the FairMQDeviceProxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
-- [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14830](https://github.com/AliceO2Group/AliceO2/pull/14830) 2025-11-19: Custom member streamer for CalArray<o2::tpc::PadFlags>::mData by [@sawenzel](https://github.com/sawenzel)
 - [\#14839](https://github.com/AliceO2Group/AliceO2/pull/14839) 2025-11-21: Set proper EOR to anchored MC GRPECS by [@shahor02](https://github.com/shahor02)
 - [\#14866](https://github.com/AliceO2Group/AliceO2/pull/14866) 2025-11-29: Methods for Kalman filter linearized wrt reference track by [@shahor02](https://github.com/shahor02)
@@ -56,7 +55,6 @@
 - [\#14897](https://github.com/AliceO2Group/AliceO2/pull/14897) 2025-12-09: DPL: drop support for FairMQ versions without shallow copy by [@ktf](https://github.com/ktf)
 - [\#14898](https://github.com/AliceO2Group/AliceO2/pull/14898) 2025-12-10: DPL: Refactor ccdb backend service device injection by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
-- [\#14817](https://github.com/AliceO2Group/AliceO2/pull/14817) 2025-11-17: Forward interaction rate to collision context by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14831](https://github.com/AliceO2Group/AliceO2/pull/14831) 2025-11-19: ALICE3-TRK: adapting to recent changes in the ML/OT geometry and to the new type definition o2::trk::Hit by [@atriolo](https://github.com/atriolo)
 - [\#14833](https://github.com/AliceO2Group/AliceO2/pull/14833) 2025-11-20: Generalize IR setting by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14867](https://github.com/AliceO2Group/AliceO2/pull/14867) 2025-11-29: Generalize path/file finding for external collision context by [@sawenzel](https://github.com/sawenzel)
