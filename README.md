@@ -36,6 +36,7 @@
 - [\#14895](https://github.com/AliceO2Group/AliceO2/pull/14895) 2025-12-07: add missing reset ot ITS track before the refit by [@shahor02](https://github.com/shahor02)
 - [\#14896](https://github.com/AliceO2Group/AliceO2/pull/14896) 2025-12-09: workflow to study ITS residuals by [@shahor02](https://github.com/shahor02)
 - [\#14903](https://github.com/AliceO2Group/AliceO2/pull/14903) 2025-12-09: ALICE3-TRK: adjusted VD segmentation taking into account gaps between adjacent layers by [@atriolo](https://github.com/atriolo)
+- [\#14906](https://github.com/AliceO2Group/AliceO2/pull/14906) 2025-12-11: Several bug fixes in PHOS calibrator by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#14825](https://github.com/AliceO2Group/AliceO2/pull/14825) 2025-11-20: DPL: use rapidjson to dump metrics by [@ktf](https://github.com/ktf)
 - [\#14829](https://github.com/AliceO2Group/AliceO2/pull/14829) 2025-11-18: DPL Analysis: protect aod-spawner from empty input by [@aalkin](https://github.com/aalkin)
