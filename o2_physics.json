@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-06T21:10:24Z",
-            "title": "[PWGCF] FemtoUniverse: Fix bug",
-            "number": 14106,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseDetaDphiStar.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-07T11:10:25Z",
             "title": "[PWGLF] Added event selection in event and signal loss calculation",
             "number": 14104,
@@ -406,46 +386,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-06T19:17:29Z",
-            "title": "[PWGHF] Add process function for EP resolution in charm polarisation task",
-            "number": 14105,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
@@ -1041,26 +981,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetSubstructureXicToXiPiPiOutput.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Delete unused source file",
-            "number": 14134,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/dedx_analysys.cxx"
                   }
                 }
               ]
@@ -3135,6 +3055,156 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Fix track table with PID",
+            "number": 14185,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-06T19:17:29Z",
+            "title": "[PWGHF] Add process function for EP resolution in charm polarisation task",
+            "number": 14105,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] HfEventSelection: Get ZorroSummary output object via optional pointer",
+            "number": 14189,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoToD0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoToDplusReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmResoToDstarReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJpsiHadReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF,PWGHF] Refactor and complete the charm femtoscopy framework",
             "number": 14187,
             "author": {
@@ -3190,21 +3260,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Fix track table with PID",
-            "number": 14185,
+            "title": "[PWGLF] Delete unused source file",
+            "number": 14134,
             "author": {
-              "login": "scattaru"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                    "path": "PWGMM/UE/Tasks/dedx_analysys.cxx"
                   }
                 }
               ]
