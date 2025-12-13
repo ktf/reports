@@ -12,6 +12,7 @@
 - [\#14903](https://github.com/AliceO2Group/AliceO2/pull/14903) 2025-12-09: ALICE3-TRK: adjusted VD segmentation taking into account gaps between adjacent layers by [@atriolo](https://github.com/atriolo)
 - [\#14906](https://github.com/AliceO2Group/AliceO2/pull/14906) 2025-12-11: Several bug fixes in PHOS calibrator by [@sawenzel](https://github.com/sawenzel)
 - [\#14912](https://github.com/AliceO2Group/AliceO2/pull/14912) 2025-12-11: Demote warning to debug level by [@shahor02](https://github.com/shahor02)
+- [\#14919](https://github.com/AliceO2Group/AliceO2/pull/14919) 2025-12-13: TPC: Use CTP as fallback if no IDCs are available by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#14886](https://github.com/AliceO2Group/AliceO2/pull/14886) 2025-12-05: DPL: refactor input forwarding routing by [@ktf](https://github.com/ktf)
 - [\#14892](https://github.com/AliceO2Group/AliceO2/pull/14892) 2025-12-07: DPL: test for ConsumeExisting when forwarding by [@ktf](https://github.com/ktf)
