@@ -3,6 +3,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
 - [\#14893](https://github.com/AliceO2Group/AliceO2/pull/14893) 2025-12-09: Non uniform BC InteractionSampler by [@sawenzel](https://github.com/sawenzel)
+- [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#14770](https://github.com/AliceO2Group/AliceO2/pull/14770) 2025-12-08: TRD add digit phases to CTF encoding, collapse phases on reading. by [@bazinski](https://github.com/bazinski)
 - [\#14816](https://github.com/AliceO2Group/AliceO2/pull/14816) 2025-12-06: ALICE 3 FT3: Modular structure implementation for OT disks by [@sadekr](https://github.com/sadekr)
@@ -17,5 +18,7 @@
 - [\#14897](https://github.com/AliceO2Group/AliceO2/pull/14897) 2025-12-09: DPL: drop support for FairMQ versions without shallow copy by [@ktf](https://github.com/ktf)
 - [\#14898](https://github.com/AliceO2Group/AliceO2/pull/14898) 2025-12-10: DPL: Refactor ccdb backend service device injection by [@aalkin](https://github.com/aalkin)
 - [\#14915](https://github.com/AliceO2Group/AliceO2/pull/14915) 2025-12-12: DPL: fix reversed index when filling DataProcessingStates by [@aalkin](https://github.com/aalkin)
+## Recent developments in O2 - Steer
+- [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14901](https://github.com/AliceO2Group/AliceO2/pull/14901) 2025-12-13: Cleanup jobutils2 to work on ARM by [@ktf](https://github.com/ktf)
