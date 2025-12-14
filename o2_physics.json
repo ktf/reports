@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-09T04:51:07Z",
-            "title": "[PWGHF] Implementation of MassLike/MassUnlike Columns and Move TPC–TOF PID Cuts to electronSelectionWithTPCEmcal.cxx",
-            "number": 14045,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/DataModel/ElectronSelectionTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-09T08:22:26Z",
             "title": "[PWGLF] Exchange Cent. for Nch in MC closure",
             "number": 14135,
@@ -1779,36 +1749,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Delete unused source files",
-            "number": 14132,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautracksconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautracksextraconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chk892flow_pp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Added option to reject the inside or the outside of the detector ring of FT0",
@@ -3356,6 +3296,56 @@
                 {
                   "node": {
                     "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add missing converters to the CMakeLists.txt",
+            "number": 14211,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Delete unused source files",
+            "number": 14132,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautracksconverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautracksextraconverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/chk892flow_pp.cxx"
                   }
                 }
               ]
