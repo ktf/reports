@@ -17,6 +17,7 @@
 - [\#14897](https://github.com/AliceO2Group/AliceO2/pull/14897) 2025-12-09: DPL: drop support for FairMQ versions without shallow copy by [@ktf](https://github.com/ktf)
 - [\#14898](https://github.com/AliceO2Group/AliceO2/pull/14898) 2025-12-10: DPL: Refactor ccdb backend service device injection by [@aalkin](https://github.com/aalkin)
 - [\#14915](https://github.com/AliceO2Group/AliceO2/pull/14915) 2025-12-12: DPL: fix reversed index when filling DataProcessingStates by [@aalkin](https://github.com/aalkin)
+- [\#14916](https://github.com/AliceO2Group/AliceO2/pull/14916) 2025-12-15: DPL GUI: Fix activity display by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
