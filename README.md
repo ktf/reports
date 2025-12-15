@@ -11,6 +11,7 @@
 - [\#14912](https://github.com/AliceO2Group/AliceO2/pull/14912) 2025-12-11: Demote warning to debug level by [@shahor02](https://github.com/shahor02)
 - [\#14914](https://github.com/AliceO2Group/AliceO2/pull/14914) 2025-12-14: GPU: Some cleanup for QA, DataTypes, sync mode settings by [@davidrohr](https://github.com/davidrohr)
 - [\#14919](https://github.com/AliceO2Group/AliceO2/pull/14919) 2025-12-13: TPC: Use CTP as fallback if no IDCs are available by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#14920](https://github.com/AliceO2Group/AliceO2/pull/14920) 2025-12-15: ITS calib: change option name to avoid ambiguity by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Framework
 - [\#14897](https://github.com/AliceO2Group/AliceO2/pull/14897) 2025-12-09: DPL: drop support for FairMQ versions without shallow copy by [@ktf](https://github.com/ktf)
 - [\#14898](https://github.com/AliceO2Group/AliceO2/pull/14898) 2025-12-10: DPL: Refactor ccdb backend service device injection by [@aalkin](https://github.com/aalkin)
