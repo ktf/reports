@@ -4,7 +4,6 @@
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
-- [\#14893](https://github.com/AliceO2Group/AliceO2/pull/14893) 2025-12-09: Non uniform BC InteractionSampler by [@sawenzel](https://github.com/sawenzel)
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
 - [\#14914](https://github.com/AliceO2Group/AliceO2/pull/14914) 2025-12-14: GPU: Some cleanup for QA, DataTypes, sync mode settings by [@davidrohr](https://github.com/davidrohr)
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
