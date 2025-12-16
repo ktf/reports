@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+- [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
@@ -22,6 +24,7 @@
 - [\#14920](https://github.com/AliceO2Group/AliceO2/pull/14920) 2025-12-15: ITS calib: change option name to avoid ambiguity by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Framework
 - [\#14898](https://github.com/AliceO2Group/AliceO2/pull/14898) 2025-12-10: DPL: Refactor ccdb backend service device injection by [@aalkin](https://github.com/aalkin)
+- [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
 - [\#14915](https://github.com/AliceO2Group/AliceO2/pull/14915) 2025-12-12: DPL: fix reversed index when filling DataProcessingStates by [@aalkin](https://github.com/aalkin)
 - [\#14916](https://github.com/AliceO2Group/AliceO2/pull/14916) 2025-12-15: DPL GUI: Fix activity display by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
