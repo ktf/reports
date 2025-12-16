@@ -12,6 +12,7 @@
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#14896](https://github.com/AliceO2Group/AliceO2/pull/14896) 2025-12-09: workflow to study ITS residuals by [@shahor02](https://github.com/shahor02)
+- [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14903](https://github.com/AliceO2Group/AliceO2/pull/14903) 2025-12-09: ALICE3-TRK: adjusted VD segmentation taking into account gaps between adjacent layers by [@atriolo](https://github.com/atriolo)
 - [\#14906](https://github.com/AliceO2Group/AliceO2/pull/14906) 2025-12-11: Several bug fixes in PHOS calibrator by [@sawenzel](https://github.com/sawenzel)
 - [\#14912](https://github.com/AliceO2Group/AliceO2/pull/14912) 2025-12-11: Demote warning to debug level by [@shahor02](https://github.com/shahor02)
@@ -24,6 +25,7 @@
 - [\#14915](https://github.com/AliceO2Group/AliceO2/pull/14915) 2025-12-12: DPL: fix reversed index when filling DataProcessingStates by [@aalkin](https://github.com/aalkin)
 - [\#14916](https://github.com/AliceO2Group/AliceO2/pull/14916) 2025-12-15: DPL GUI: Fix activity display by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
+- [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#14901](https://github.com/AliceO2Group/AliceO2/pull/14901) 2025-12-13: Cleanup jobutils2 to work on ARM by [@ktf](https://github.com/ktf)
