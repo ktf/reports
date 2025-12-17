@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Nuspex: nuclei proton analysis fix same event filling",
-            "number": 14199,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-12T19:29:10Z",
-            "title": "[PWGLF] DCAz cut is added for kink kaon",
-            "number": 14193,
-            "author": {
-              "login": "sdudi123"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraKinkPiKa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-12T22:20:03Z",
-            "title": "[PWGLF] Checks if has_foundFT0()",
-            "number": 14201,
-            "author": {
-              "login": "omvazque"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-12T22:59:07Z",
-            "title": "[PWGCF] add MC mean pt",
-            "number": 14192,
-            "author": {
-              "login": "Luzhiyongg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF,PWGJE] Add D* spin alignment jet analysis task",
@@ -2136,26 +2056,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Adding an option for rejecting part of the FT0 detectors",
-            "number": 14245,
-            "author": {
-              "login": "lcernusa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE,PWGUD] adding upc selections to JE framework",
             "number": 14243,
             "author": {
@@ -2989,36 +2889,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] nucleiQC and nucleiUtils",
-            "number": 14263,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-12-17T14:14:07Z",
             "title": "[Common] Adding fwdtrack utility to shift z of tracks",
@@ -3091,6 +2961,136 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] Adding an option for rejecting part of the FT0 detectors",
+            "number": 14245,
+            "author": {
+              "login": "lcernusa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] nucleiQC and nucleiUtils",
+            "number": 14263,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add mini trees to Ds task",
+            "number": 14266,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] heavyionMultiplicity.cxx - QA plots",
+            "number": 14267,
+            "author": {
+              "login": "murioni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] Adding the option to reject the inner or the outer ring of the FT0 detectors. Also adding the option to remap the dead channels of the FT0 detectors and fill them with the amplitudes of the mirrored channels of the detector",
+            "number": 14265,
+            "author": {
+              "login": "MartijnLaarhoven"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adding an option to reject the inner or outher rings of the FT0 detectors, and adding the option to fill the 'dead' parts of the detector with the mirrored parts.",
+            "number": 14268,
+            "author": {
+              "login": "MartijnLaarhoven"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
                   }
                 }
               ]
