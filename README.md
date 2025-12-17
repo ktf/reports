@@ -15,7 +15,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
 - [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
-- [\#14903](https://github.com/AliceO2Group/AliceO2/pull/14903) 2025-12-09: ALICE3-TRK: adjusted VD segmentation taking into account gaps between adjacent layers by [@atriolo](https://github.com/atriolo)
 - [\#14906](https://github.com/AliceO2Group/AliceO2/pull/14906) 2025-12-11: Several bug fixes in PHOS calibrator by [@sawenzel](https://github.com/sawenzel)
 - [\#14912](https://github.com/AliceO2Group/AliceO2/pull/14912) 2025-12-11: Demote warning to debug level by [@shahor02](https://github.com/shahor02)
 - [\#14914](https://github.com/AliceO2Group/AliceO2/pull/14914) 2025-12-14: GPU: Some cleanup for QA, DataTypes, sync mode settings by [@davidrohr](https://github.com/davidrohr)
