@@ -20,6 +20,7 @@
 - [\#14914](https://github.com/AliceO2Group/AliceO2/pull/14914) 2025-12-14: GPU: Some cleanup for QA, DataTypes, sync mode settings by [@davidrohr](https://github.com/davidrohr)
 - [\#14919](https://github.com/AliceO2Group/AliceO2/pull/14919) 2025-12-13: TPC: Use CTP as fallback if no IDCs are available by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14920](https://github.com/AliceO2Group/AliceO2/pull/14920) 2025-12-15: ITS calib: change option name to avoid ambiguity by [@iravasen](https://github.com/iravasen)
+- [\#14930](https://github.com/AliceO2Group/AliceO2/pull/14930) 2025-12-17: Avoid early initialization of Cling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
 - [\#14915](https://github.com/AliceO2Group/AliceO2/pull/14915) 2025-12-12: DPL: fix reversed index when filling DataProcessingStates by [@aalkin](https://github.com/aalkin)
