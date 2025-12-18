@@ -2011,61 +2011,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE,PWGUD] adding upc selections to JE framework",
-            "number": 14243,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/FastJetUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/SGSelector.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Add missing event selection to processReco in jetShape task",
             "number": 14280,
             "author": {
@@ -2166,6 +2111,351 @@
                 {
                   "node": {
                     "path": "PWGMM/Lumi/Tasks/lumiStabilityLightIons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-18T20:56:57Z",
+            "title": "[Infrastructure] Bump pre-commit hooks",
+            "number": 14256,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".pre-commit-config.yaml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-18T20:57:34Z",
+            "title": "[Common] eventSelectionService: Set correct logger severity for warnings",
+            "number": 14171,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelectionService.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Fix problems found by Cppcheck",
+            "number": 14178,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/selectionStudyTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qaMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,ALICE3] Add A3 geo provider",
+            "number": 14272,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Cfg/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Cfg/a3geo.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Cfg/a3geometry_v2.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Cfg/a3geometry_v4.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TableHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-18T21:50:54Z",
+            "title": "[Common] Support parameter inheritance of vectors of strings",
+            "number": 14276,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TableHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add missing converters to the CMakeLists.txt",
+            "number": 14211,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautracksconverter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-18T22:11:48Z",
+            "title": "[PWGCF] Added a centrality axis to the purity histograms",
+            "number": 14285,
+            "author": {
+              "login": "JStaa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM,PWGEM-36] Seperate flow resolution and QA from Pi0FlowEMC task",
+            "number": 14287,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/PWGEMPhotonMesonCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/calibTaskEmc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskFlowReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix const ref in loops",
+            "number": 14288,
+            "author": {
+              "login": "rspijkers"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-18T22:39:58Z",
+            "title": "[PWGLF] Omegahm",
+            "number": 14279,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
+            "number": 14145,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
                   }
                 }
               ]
@@ -2689,343 +2979,53 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-18T20:56:57Z",
-            "title": "[Infrastructure] Bump pre-commit hooks",
-            "number": 14256,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".pre-commit-config.yaml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-18T20:57:34Z",
-            "title": "[Common] eventSelectionService: Set correct logger severity for warnings",
-            "number": 14171,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelectionService.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Fix problems found by Cppcheck",
-            "number": 14178,
+            "title": "[PWGJE,PWGUD] adding upc selections to JE framework",
+            "number": 14243,
             "author": {
-              "login": "vkucera"
+              "login": "nzardosh"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/PID/pidTPCBase.h"
+                    "path": "PWGJE/Core/FastJetUtilities.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/selectionStudyTable.cxx"
+                    "path": "PWGJE/DataModel/JetReducedData.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,ALICE3] Add A3 geo provider",
-            "number": 14272,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/CMakeLists.txt"
+                    "path": "PWGJE/TableProducer/derivedDataSelector.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Cfg/CMakeLists.txt"
+                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Cfg/a3geo.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Cfg/a3geometry_v2.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Cfg/a3geometry_v4.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TableHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-18T21:50:54Z",
-            "title": "[Common] Support parameter inheritance of vectors of strings",
-            "number": 14276,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TableHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add missing converters to the CMakeLists.txt",
-            "number": 14211,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautracksconverter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-18T22:11:48Z",
-            "title": "[PWGCF] Added a centrality axis to the purity histograms",
-            "number": 14285,
-            "author": {
-              "login": "JStaa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/threeParticleCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM,PWGEM-36] Seperate flow resolution and QA from Pi0FlowEMC task",
-            "number": 14287,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/PWGEMPhotonMesonCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/calibTaskEmc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskFlowReso.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix const ref in loops",
-            "number": 14288,
-            "author": {
-              "login": "rspijkers"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascadecorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-18T22:39:58Z",
-            "title": "[PWGLF] Omegahm",
-            "number": 14279,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
-            "number": 14145,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                    "path": "PWGUD/Core/SGSelector.h"
                   }
                 }
               ]
