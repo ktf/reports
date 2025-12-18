@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
+- [\#14922](https://github.com/AliceO2Group/AliceO2/pull/14922) 2025-12-18: Common: EnumFlags add set by [@f3sch](https://github.com/f3sch)
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
