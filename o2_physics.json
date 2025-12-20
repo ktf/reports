@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-16T18:33:49Z",
-            "title": "[PWGDQ] enabling the rest of the tasks in the dq-efficiency-with-assoc-direct",
-            "number": 14247,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-16T18:39:21Z",
             "title": "[DPG] Add plots for match qa",
             "number": 14248,
@@ -3026,6 +3006,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] taskLc: configure thn axes for bdtScore prompt and nonprompt individually",
+            "number": 14306,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF,DPG] tpcSkimsTableCreator: add columns and refactor code",
             "number": 14307,
             "author": {
@@ -3061,16 +3061,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] taskLc: configure thn axes for bdtScore prompt and nonprompt individually",
-            "number": 14306,
+            "title": "[Common] Refactor ft0CorrectedTable by removing unused processes",
+            "number": 12910,
             "author": {
-              "login": "lubynets"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/ft0CorrectedTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/ft0CorrectedTableMcOverride.cxx"
                   }
                 }
               ]
