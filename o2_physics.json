@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-14T17:00:51Z",
-            "title": "[PWGCF] Add TimeStamp column to collision tables",
-            "number": 14204,
-            "author": {
-              "login": "subhadee-ali"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-18T12:54:52Z",
-            "title": "[PWGCF] Add PID QA and MCprocess for efficiency",
-            "number": 14253,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwOmegaXi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-18T12:57:01Z",
             "title": "[PWGCF] modify the usage of pt-pt corr since FlowPtContainer was changed",
             "number": 14271,
@@ -2001,66 +1956,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,ALICE3] Add A3 geo provider",
-            "number": 14272,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Configuration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Configuration/a3geometry_v3.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Add missing event selection to processReco in jetShape task",
             "number": 14280,
             "author": {
@@ -3251,26 +3146,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add preselection and centrality to st tree creator",
-            "number": 14252,
-            "author": {
-              "login": "FDUEnrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] A3 OTF tracker, simplify histo filling",
             "number": 14333,
             "author": {
@@ -3306,6 +3181,166 @@
                 {
                   "node": {
                     "path": "ALICE3/Macros/Configuration/a3geometry_v3.ini"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,ALICE3] Add A3 geo provider",
+            "number": 14272,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geometry_v3.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-16T18:39:21Z",
+            "title": "[DPG] Add plots for match qa",
+            "number": 14248,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFBetaImp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaFakeHits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add preselection and centrality to st tree creator",
+            "number": 14252,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Add A3 geometry provider task",
+            "number": 14344,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
                   }
                 }
               ]
