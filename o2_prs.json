@@ -5311,26 +5311,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DCA Fitter GPU: Disable failing test, which was not active before and seems broken",
-            "number": 14935,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/GPU/cuda/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "MathUtils: move BetheBlochAleph to a common header",
             "number": 14918,
             "author": {
@@ -5491,6 +5471,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DCA Fitter GPU: Disable failing test, which was not active before and seems broken",
+            "number": 14935,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/CMakeLists.txt"
                   }
                 }
               ]
