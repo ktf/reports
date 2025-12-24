@@ -6,6 +6,7 @@
 - [\#14922](https://github.com/AliceO2Group/AliceO2/pull/14922) 2025-12-18: Common: EnumFlags add set by [@f3sch](https://github.com/f3sch)
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
+- [\#14935](https://github.com/AliceO2Group/AliceO2/pull/14935) 2025-12-24: DCA Fitter GPU: Disable failing test, which was not active before and seems broken by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
