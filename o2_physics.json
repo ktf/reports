@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-16T08:40:38Z",
-            "title": "[PWGLF] added pt correction for he3 tracked as triton in the purity s…",
-            "number": 14221,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-14T17:00:51Z",
             "title": "[PWGCF] Add TimeStamp column to collision tables",
             "number": 14204,
@@ -3271,6 +3251,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Add preselection and centrality to st tree creator",
+            "number": 14252,
+            "author": {
+              "login": "FDUEnrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[ALICE3] A3 OTF tracker, simplify histo filling",
             "number": 14333,
             "author": {
@@ -3291,16 +3291,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add preselection and centrality to st tree creator",
-            "number": 14252,
+            "title": "[ALICE3] Add v3 A3 geo",
+            "number": 14343,
             "author": {
-              "login": "FDUEnrich"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
+                    "path": "ALICE3/Macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geometry_v3.ini"
                   }
                 }
               ]
