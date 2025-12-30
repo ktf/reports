@@ -16,6 +16,7 @@
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
+- [\#14848](https://github.com/AliceO2Group/AliceO2/pull/14848) 2025-12-30: Increase time range search to include QCDB objects created after EOR by [@dstocco](https://github.com/dstocco)
 - [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14906](https://github.com/AliceO2Group/AliceO2/pull/14906) 2025-12-11: Several bug fixes in PHOS calibrator by [@sawenzel](https://github.com/sawenzel)
 - [\#14912](https://github.com/AliceO2Group/AliceO2/pull/14912) 2025-12-11: Demote warning to debug level by [@shahor02](https://github.com/shahor02)
