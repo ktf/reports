@@ -30,6 +30,10 @@
 - [\#14915](https://github.com/AliceO2Group/AliceO2/pull/14915) 2025-12-12: DPL: fix reversed index when filling DataProcessingStates by [@aalkin](https://github.com/aalkin)
 - [\#14916](https://github.com/AliceO2Group/AliceO2/pull/14916) 2025-12-15: DPL GUI: Fix activity display by [@aalkin](https://github.com/aalkin)
 - [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Generators
+- [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
+- [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
+- [\#14940](https://github.com/AliceO2Group/AliceO2/pull/14940) 2026-01-05: Revert "Default TPC loopers in o2-sim" by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
