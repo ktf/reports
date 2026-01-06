@@ -16,6 +16,7 @@
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
 - [\#14924](https://github.com/AliceO2Group/AliceO2/pull/14924) 2025-12-15: Reco: Add cov setters for ind. elements by [@f3sch](https://github.com/f3sch)
 - [\#14925](https://github.com/AliceO2Group/AliceO2/pull/14925) 2025-12-15: Common: new linkdef for TimeStamp by [@f3sch](https://github.com/f3sch)
+- [\#14942](https://github.com/AliceO2Group/AliceO2/pull/14942) 2026-01-06: DataModel: improve DataHeader formatter by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
 - [\#14848](https://github.com/AliceO2Group/AliceO2/pull/14848) 2025-12-30: Increase time range search to include QCDB objects created after EOR by [@dstocco](https://github.com/dstocco)
