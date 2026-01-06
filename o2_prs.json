@@ -4921,7 +4921,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: move PadFlags and related classes to TPCCore",
+            "title": "TPC: move PadFlags and related classes to TPCBaseRecSim",
             "number": 14913,
             "author": {
               "login": "ktf"
@@ -4956,6 +4956,66 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/test/testTPCCDBInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/include/TPCBaseRecSim/CDBInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/include/TPCBaseRecSim/CDBTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/include/TPCBaseRecSim/DeadChannelMapCreator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/include/TPCBaseRecSim/PadFlags.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/include/TPCBaseRecSim/Painter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/src/CDBInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/src/DeadChannelMapCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/src/Painter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/src/TPCCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/src/TPCFlagsMemberCustomStreamer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/baserecsim/test/testTPCCalDet.cxx"
                   }
                 },
                 {
@@ -5046,66 +5106,6 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/src/VDriftHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/include/TPCCore/CDBInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/include/TPCCore/CDBTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/include/TPCCore/DeadChannelMapCreator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/include/TPCCore/PadFlags.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/include/TPCCore/Painter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/src/CDBInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/src/DeadChannelMapCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/src/Painter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/src/TPCCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/src/TPCFlagsMemberCustomStreamer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/core/test/testTPCCalDet.cxx"
                   }
                 },
                 {
