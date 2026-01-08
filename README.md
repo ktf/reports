@@ -40,6 +40,7 @@
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
 - [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
+- [\#14946](https://github.com/AliceO2Group/AliceO2/pull/14946) 2026-01-08: DPL: avoid MessageSet abstractions when forwarding by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
