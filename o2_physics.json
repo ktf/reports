@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-20T08:30:18Z",
-            "title": "[PWGEM/Dilepton] update trigger analyses",
-            "number": 14168,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerOTS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/createEMEventPhoton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-31T15:59:06Z",
             "title": "[PWGCF] Update femto framework",
             "number": 14366,
@@ -2599,41 +2544,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Add geometries for V2",
-            "number": 14433,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Configuration/a3geometry_v2_10kG.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Configuration/a3geometry_v2_20kG.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Configuration/a3geometry_v2_20kG_dipole.ini"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] changes to upcRhoAnalysis.cxx",
             "number": 14430,
             "author": {
@@ -2804,21 +2714,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Use helix propagation to compute fwdtrack DCA in fwdtrackextension",
-            "number": 14282,
+            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
+            "number": 14145,
             "author": {
-              "login": "mcoquet642"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/fwdtrackextension.cxx"
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
                   }
                 }
               ]
@@ -2894,16 +2799,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
-            "number": 14145,
+            "title": "[PWGHF] Fix bug in process MC rec due to abs",
+            "number": 14436,
             "author": {
-              "login": "ktf"
+              "login": "scattaru"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-08T16:41:02Z",
+            "title": "[ALICE3] Add geometries for V2",
+            "number": 14433,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geometry_v2_10kG.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geometry_v2_20kG.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geometry_v2_20kG_dipole.ini"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Use helix propagation to compute fwdtrack DCA in fwdtrackextension",
+            "number": 14282,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/fwdtrackextension.cxx"
                   }
                 }
               ]
