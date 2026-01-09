@@ -13,6 +13,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
+- [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14914](https://github.com/AliceO2Group/AliceO2/pull/14914) 2025-12-14: GPU: Some cleanup for QA, DataTypes, sync mode settings by [@davidrohr](https://github.com/davidrohr)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14923](https://github.com/AliceO2Group/AliceO2/pull/14923) 2025-12-15: Common: add host symbols to RangeRef by [@f3sch](https://github.com/f3sch)
@@ -25,6 +26,7 @@
 - [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14906](https://github.com/AliceO2Group/AliceO2/pull/14906) 2025-12-11: Several bug fixes in PHOS calibrator by [@sawenzel](https://github.com/sawenzel)
 - [\#14912](https://github.com/AliceO2Group/AliceO2/pull/14912) 2025-12-11: Demote warning to debug level by [@shahor02](https://github.com/shahor02)
+- [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14914](https://github.com/AliceO2Group/AliceO2/pull/14914) 2025-12-14: GPU: Some cleanup for QA, DataTypes, sync mode settings by [@davidrohr](https://github.com/davidrohr)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14919](https://github.com/AliceO2Group/AliceO2/pull/14919) 2025-12-13: TPC: Use CTP as fallback if no IDCs are available by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -50,5 +52,6 @@
 ## Recent developments in O2 - Steer
 - [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14904](https://github.com/AliceO2Group/AliceO2/pull/14904) 2025-12-13: Integrate non-uniform InteractionSampler into CollisionContextTool by [@sawenzel](https://github.com/sawenzel)
+- [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#14901](https://github.com/AliceO2Group/AliceO2/pull/14901) 2025-12-13: Cleanup jobutils2 to work on ARM by [@ktf](https://github.com/ktf)
