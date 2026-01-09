@@ -32,6 +32,7 @@
 - [\#14929](https://github.com/AliceO2Group/AliceO2/pull/14929) 2026-01-08: ITS: remove CookedTracker and older ClustererTask by [@f3sch](https://github.com/f3sch)
 - [\#14930](https://github.com/AliceO2Group/AliceO2/pull/14930) 2025-12-17: Avoid early initialization of Cling by [@ktf](https://github.com/ktf)
 - [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
+- [\#14943](https://github.com/AliceO2Group/AliceO2/pull/14943) 2026-01-09: [EMCAL] implementation of number of local maxima variable by [@fjonasALICE](https://github.com/fjonasALICE)
 ## Recent developments in O2 - Framework
 - [\#14859](https://github.com/AliceO2Group/AliceO2/pull/14859) 2026-01-08: DPL: fix routing issues in forwarding by [@ktf](https://github.com/ktf)
 - [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
