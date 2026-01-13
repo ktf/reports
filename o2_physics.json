@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Added the spin alignment measurements",
-            "number": 14406,
-            "author": {
-              "login": "navneetkumar231295"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-01-07T07:00:53Z",
             "title": "[Common,PWGCF,PWGHF,PWGLF,DPG,Trigger] Drop old name for BetheBlochAleph function",
@@ -2708,6 +2683,196 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-12T20:30:49Z",
+            "title": "[PWGCF] Add bootstrap for statistic analysis; Fix bug in nua correction",
+            "number": 14455,
+            "author": {
+              "login": "huinaibing"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-12T21:32:43Z",
+            "title": "[PWGLF] Code refactoring for phi-strange correlation analysis",
+            "number": 14463,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFPhiStrangeCorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/phiStrangeCorrelator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phiStrangeCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ,PWGJE] Add variables to dielectronAll and mixing library",
+            "number": 13700,
+            "author": {
+              "login": "JinjooSeo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/DQMlResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MixingLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDQUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Fix problems found by Cppcheck",
+            "number": 14178,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/selectionStudyTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qaMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-12-03T23:47:45Z",
+            "title": "[ALICE3] Update V0 reconstruction in onTheFlyTracker",
+            "number": 14015,
+            "author": {
+              "login": "lhusova"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common,DPG,Tutorial,PWGCF,PWGDQ,PWGEM,PWGLF,PWGUD] Clean remaining usage of PIDResponse.h",
@@ -2924,6 +3089,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGLF/Tasks/Resonances/chk892Flow.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGLF/Tasks/Resonances/chk892pp.cxx"
                   }
                 },
@@ -3083,168 +3253,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-12T20:30:49Z",
-            "title": "[PWGCF] Add bootstrap for statistic analysis; Fix bug in nua correction",
-            "number": 14455,
-            "author": {
-              "login": "huinaibing"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-12T21:32:43Z",
-            "title": "[PWGLF] Code refactoring for phi-strange correlation analysis",
-            "number": 14463,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFPhiStrangeCorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/phiStrangeCorrelator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phiStrangeCorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phik0shortanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ,PWGJE] Add variables to dielectronAll and mixing library",
-            "number": 13700,
+            "title": "[ALICE3] ALICE3 - improvement of configurables in strangeness task",
+            "number": 14464,
             "author": {
-              "login": "JinjooSeo"
+              "login": "lhusova"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/DQMlResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MixingLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDQUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Fix problems found by Cppcheck",
-            "number": 14178,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/selectionStudyTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
+                    "path": "ALICE3/Tasks/alice3-strangeness.cxx"
                   }
                 }
               ]
@@ -3273,38 +3293,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-12-03T23:47:45Z",
-            "title": "[ALICE3] Update V0 reconstruction in onTheFlyTracker",
-            "number": 14015,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] ALICE3 - improvement of configurables in strangeness task",
-            "number": 14464,
+            "title": "[ALICE3] Add histogram registry and update process method to geo provider",
+            "number": 14465,
             "author": {
-              "login": "lhusova"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Tasks/alice3-strangeness.cxx"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
                   }
                 }
               ]
