@@ -41,6 +41,7 @@
 - [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [\#14946](https://github.com/AliceO2Group/AliceO2/pull/14946) 2026-01-08: DPL: avoid MessageSet abstractions when forwarding by [@ktf](https://github.com/ktf)
 - [\#14947](https://github.com/AliceO2Group/AliceO2/pull/14947) 2026-01-09: DPL: fix a few warnings by [@ktf](https://github.com/ktf)
+- [\#14950](https://github.com/AliceO2Group/AliceO2/pull/14950) 2026-01-13: DPL: use better criterion to add arrow support service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
