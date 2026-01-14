@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-07-19T07:37:47Z",
-            "title": "DPL Analysis: modernize expressions",
-            "number": 13285,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Expressions.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-07-15T14:33:59Z",
             "title": "DPL Analysis: data model: allow to specify the column/branch name explicitly for an index column",
             "number": 13291,
@@ -4746,36 +4726,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "AFIT-1 FV0 digitzer dead channel map",
-            "number": 14908,
-            "author": {
-              "login": "wpierozak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "ASoA: Apply rule of five",
             "number": 14905,
             "author": {
@@ -4921,61 +4871,6 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Switch option from external to hybrid",
-            "number": 14951,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/GeneratorHyperloopHybrid.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/GeneratorHyperloopHybridCocktail.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/cocktail.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/rundpl.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/sequential.json"
                   }
                 }
               ]
@@ -5151,6 +5046,136 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Use dangling edges context in more places",
+            "number": 14953,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "AFIT-1 FV0 digitzer dead channel map",
+            "number": 14908,
+            "author": {
+              "login": "wpierozak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Switch option from external to hybrid",
+            "number": 14951,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/ExternalToHybrid/GeneratorHyperloopHybrid.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/ExternalToHybrid/GeneratorHyperloopHybridCocktail.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/ExternalToHybrid/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/ExternalToHybrid/cocktail.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/ExternalToHybrid/rundpl.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/ExternalToHybrid/sequential.json"
                   }
                 }
               ]
