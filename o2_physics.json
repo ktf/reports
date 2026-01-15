@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-09T07:54:34Z",
-            "title": "Please consider the following formatting changes to #14434",
-            "number": 14435,
-            "author": {
-              "login": "alibuild"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTrackerPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-09T09:25:48Z",
             "title": "Please consider the following formatting changes to #14438",
             "number": 14439,
@@ -3286,6 +3266,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Add missing event selection to processReco in jetShape task",
+            "number": 14280,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF/D2H] adding track efficiency weight",
             "number": 14503,
             "author": {
@@ -3306,16 +3306,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add missing event selection to processReco in jetShape task",
-            "number": 14280,
+            "title": "[PWGLF] Differentiate table naming for phi-strange analysis",
+            "number": 14506,
             "author": {
-              "login": "ynishida-style"
+              "login": "scannito"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
+                    "path": "PWGLF/DataModel/LFPhiStrangeCorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/phiStrangeCorrelator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phiStrangeCorrelation.cxx"
                   }
                 }
               ]
