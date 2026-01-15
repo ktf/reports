@@ -23,6 +23,7 @@
 - [\#14943](https://github.com/AliceO2Group/AliceO2/pull/14943) 2026-01-09: [EMCAL] implementation of number of local maxima variable by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#14945](https://github.com/AliceO2Group/AliceO2/pull/14945) 2026-01-12: add TOF channel in TPC timeseries by [@noferini](https://github.com/noferini)
 - [\#14956](https://github.com/AliceO2Group/AliceO2/pull/14956) 2026-01-14: Fix code checker report by [@ktf](https://github.com/ktf)
+- [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14859](https://github.com/AliceO2Group/AliceO2/pull/14859) 2026-01-08: DPL: fix routing issues in forwarding by [@ktf](https://github.com/ktf)
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
