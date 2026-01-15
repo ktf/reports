@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
@@ -9,15 +8,12 @@
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
 - [\#14935](https://github.com/AliceO2Group/AliceO2/pull/14935) 2025-12-24: DCA Fitter GPU: Disable failing test, which was not active before and seems broken by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14942](https://github.com/AliceO2Group/AliceO2/pull/14942) 2026-01-06: DataModel: improve DataHeader formatter by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#14794](https://github.com/AliceO2Group/AliceO2/pull/14794) 2025-12-16: TOF: Refine parameter getter methods with error handling by [@njacazio](https://github.com/njacazio)
 - [\#14848](https://github.com/AliceO2Group/AliceO2/pull/14848) 2025-12-30: Increase time range search to include QCDB objects created after EOR by [@dstocco](https://github.com/dstocco)
 - [\#14890](https://github.com/AliceO2Group/AliceO2/pull/14890) 2026-01-13: TPC space-charge: Improve GEM frame charging-up distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14928](https://github.com/AliceO2Group/AliceO2/pull/14928) 2026-01-13: reduce verbosity of ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
@@ -29,7 +25,6 @@
 - [\#14956](https://github.com/AliceO2Group/AliceO2/pull/14956) 2026-01-14: Fix code checker report by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#14859](https://github.com/AliceO2Group/AliceO2/pull/14859) 2026-01-08: DPL: fix routing issues in forwarding by [@ktf](https://github.com/ktf)
-- [\#14907](https://github.com/AliceO2Group/AliceO2/pull/14907) 2025-12-16: DPL: modernize workflow construction code using ranges by [@aalkin](https://github.com/aalkin)
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
 - [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
@@ -41,5 +36,4 @@
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14940](https://github.com/AliceO2Group/AliceO2/pull/14940) 2026-01-05: Revert "Default TPC loopers in o2-sim" by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#14902](https://github.com/AliceO2Group/AliceO2/pull/14902) 2025-12-16: ITSMFT&ITS3&TRK: load response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
