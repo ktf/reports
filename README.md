@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
+- [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14922](https://github.com/AliceO2Group/AliceO2/pull/14922) 2025-12-18: Common: EnumFlags add set by [@f3sch](https://github.com/f3sch)
@@ -30,6 +31,7 @@
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
 - [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
+- [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
 - [\#14946](https://github.com/AliceO2Group/AliceO2/pull/14946) 2026-01-08: DPL: avoid MessageSet abstractions when forwarding by [@ktf](https://github.com/ktf)
 - [\#14947](https://github.com/AliceO2Group/AliceO2/pull/14947) 2026-01-09: DPL: fix a few warnings by [@ktf](https://github.com/ktf)
 - [\#14950](https://github.com/AliceO2Group/AliceO2/pull/14950) 2026-01-13: DPL: use better criterion to add arrow support service by [@aalkin](https://github.com/aalkin)
