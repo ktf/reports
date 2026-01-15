@@ -34,6 +34,7 @@
 - [\#14950](https://github.com/AliceO2Group/AliceO2/pull/14950) 2026-01-13: DPL: use better criterion to add arrow support service by [@aalkin](https://github.com/aalkin)
 - [\#14952](https://github.com/AliceO2Group/AliceO2/pull/14952) 2026-01-15: DPL Analysis: do not override error-handler reader for MC injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#14955](https://github.com/AliceO2Group/AliceO2/pull/14955) 2026-01-15: DPL: more prerequisites for earlier forwarding by [@ktf](https://github.com/ktf)
+- [\#14960](https://github.com/AliceO2Group/AliceO2/pull/14960) 2026-01-15: DPL Analysis: fix for slice index builder resetting its caches in a wrong order by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
