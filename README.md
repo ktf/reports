@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
 - [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
+- [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14922](https://github.com/AliceO2Group/AliceO2/pull/14922) 2025-12-18: Common: EnumFlags add set by [@f3sch](https://github.com/f3sch)
@@ -41,6 +42,7 @@
 - [\#14952](https://github.com/AliceO2Group/AliceO2/pull/14952) 2026-01-15: DPL Analysis: do not override error-handler reader for MC injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#14955](https://github.com/AliceO2Group/AliceO2/pull/14955) 2026-01-15: DPL: more prerequisites for earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14960](https://github.com/AliceO2Group/AliceO2/pull/14960) 2026-01-15: DPL Analysis: fix for slice index builder resetting its caches in a wrong order by [@aalkin](https://github.com/aalkin)
+- [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
