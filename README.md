@@ -15,6 +15,7 @@
 ## Recent developments in O2 - Detectors
 - [\#14848](https://github.com/AliceO2Group/AliceO2/pull/14848) 2025-12-30: Increase time range search to include QCDB objects created after EOR by [@dstocco](https://github.com/dstocco)
 - [\#14890](https://github.com/AliceO2Group/AliceO2/pull/14890) 2026-01-13: TPC space-charge: Improve GEM frame charging-up distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#14900](https://github.com/AliceO2Group/AliceO2/pull/14900) 2026-01-16: TPC_MC_anchoring_simple: Added per region relative gas gain to simulate the change in the voltage settings of GEMs by [@tubagundem](https://github.com/tubagundem)
 - [\#14908](https://github.com/AliceO2Group/AliceO2/pull/14908) 2026-01-15: AFIT-1 FV0 digitzer dead channel map by [@wpierozak](https://github.com/wpierozak)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
