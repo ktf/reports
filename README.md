@@ -25,6 +25,7 @@
 - [\#14945](https://github.com/AliceO2Group/AliceO2/pull/14945) 2026-01-12: add TOF channel in TPC timeseries by [@noferini](https://github.com/noferini)
 - [\#14956](https://github.com/AliceO2Group/AliceO2/pull/14956) 2026-01-14: Fix code checker report by [@ktf](https://github.com/ktf)
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
+- [\#14965](https://github.com/AliceO2Group/AliceO2/pull/14965) 2026-01-16: ALICE3-TRK: partial fix to issue #14959 by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Examples
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
