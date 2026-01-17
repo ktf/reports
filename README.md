@@ -6,7 +6,6 @@
 - [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
-- [\#14922](https://github.com/AliceO2Group/AliceO2/pull/14922) 2025-12-18: Common: EnumFlags add set by [@f3sch](https://github.com/f3sch)
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
 - [\#14935](https://github.com/AliceO2Group/AliceO2/pull/14935) 2025-12-24: DCA Fitter GPU: Disable failing test, which was not active before and seems broken by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
@@ -28,6 +27,7 @@
 - [\#14956](https://github.com/AliceO2Group/AliceO2/pull/14956) 2026-01-14: Fix code checker report by [@ktf](https://github.com/ktf)
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
 - [\#14965](https://github.com/AliceO2Group/AliceO2/pull/14965) 2026-01-16: ALICE3-TRK: partial fix to issue #14959 by [@atriolo](https://github.com/atriolo)
+- [\#14967](https://github.com/AliceO2Group/AliceO2/pull/14967) 2026-01-17: ALICE3-TRK: fix the length of the layers for the kCylinder layout for ML and OT by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Examples
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
