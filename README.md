@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
 - [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
+- [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
@@ -42,6 +43,7 @@
 - [\#14947](https://github.com/AliceO2Group/AliceO2/pull/14947) 2026-01-09: DPL: fix a few warnings by [@ktf](https://github.com/ktf)
 - [\#14950](https://github.com/AliceO2Group/AliceO2/pull/14950) 2026-01-13: DPL: use better criterion to add arrow support service by [@aalkin](https://github.com/aalkin)
 - [\#14952](https://github.com/AliceO2Group/AliceO2/pull/14952) 2026-01-15: DPL Analysis: do not override error-handler reader for MC injected workflows by [@aalkin](https://github.com/aalkin)
+- [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14955](https://github.com/AliceO2Group/AliceO2/pull/14955) 2026-01-15: DPL: more prerequisites for earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14960](https://github.com/AliceO2Group/AliceO2/pull/14960) 2026-01-15: DPL Analysis: fix for slice index builder resetting its caches in a wrong order by [@aalkin](https://github.com/aalkin)
 - [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
