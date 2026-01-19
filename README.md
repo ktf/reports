@@ -26,6 +26,7 @@
 - [\#14945](https://github.com/AliceO2Group/AliceO2/pull/14945) 2026-01-12: add TOF channel in TPC timeseries by [@noferini](https://github.com/noferini)
 - [\#14956](https://github.com/AliceO2Group/AliceO2/pull/14956) 2026-01-14: Fix code checker report by [@ktf](https://github.com/ktf)
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
+- [\#14962](https://github.com/AliceO2Group/AliceO2/pull/14962) 2026-01-19: Optionally refit ITS outward seeding with inward refit result by [@shahor02](https://github.com/shahor02)
 - [\#14965](https://github.com/AliceO2Group/AliceO2/pull/14965) 2026-01-16: ALICE3-TRK: partial fix to issue #14959 by [@atriolo](https://github.com/atriolo)
 - [\#14967](https://github.com/AliceO2Group/AliceO2/pull/14967) 2026-01-17: ALICE3-TRK: fix the length of the layers for the kCylinder layout for ML and OT by [@atriolo](https://github.com/atriolo)
 - [\#14968](https://github.com/AliceO2Group/AliceO2/pull/14968) 2026-01-19: Fix geometry building of FT3 by [@njacazio](https://github.com/njacazio)
