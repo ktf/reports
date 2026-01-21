@@ -48,6 +48,8 @@
 - [\#14955](https://github.com/AliceO2Group/AliceO2/pull/14955) 2026-01-15: DPL: more prerequisites for earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14960](https://github.com/AliceO2Group/AliceO2/pull/14960) 2026-01-15: DPL Analysis: fix for slice index builder resetting its caches in a wrong order by [@aalkin](https://github.com/aalkin)
 - [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
+- [\#14974](https://github.com/AliceO2Group/AliceO2/pull/14974) 2026-01-21: DPL: avoid needless copy of messages when cleaning up early forwarding by [@ktf](https://github.com/ktf)
+- [\#14981](https://github.com/AliceO2Group/AliceO2/pull/14981) 2026-01-21: DPL: make new early forward optional by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
