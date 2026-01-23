@@ -9,7 +9,6 @@
 ## Recent developments in O2 - Common
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
-- [\#14935](https://github.com/AliceO2Group/AliceO2/pull/14935) 2025-12-24: DCA Fitter GPU: Disable failing test, which was not active before and seems broken by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
@@ -23,7 +22,6 @@
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
 - [\#14928](https://github.com/AliceO2Group/AliceO2/pull/14928) 2026-01-13: reduce verbosity of ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 - [\#14929](https://github.com/AliceO2Group/AliceO2/pull/14929) 2026-01-08: ITS: remove CookedTracker and older ClustererTask by [@f3sch](https://github.com/f3sch)
-- [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [\#14943](https://github.com/AliceO2Group/AliceO2/pull/14943) 2026-01-09: [EMCAL] implementation of number of local maxima variable by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#14945](https://github.com/AliceO2Group/AliceO2/pull/14945) 2026-01-12: add TOF channel in TPC timeseries by [@noferini](https://github.com/noferini)
 - [\#14956](https://github.com/AliceO2Group/AliceO2/pull/14956) 2026-01-14: Fix code checker report by [@ktf](https://github.com/ktf)
@@ -41,7 +39,6 @@
 - [\#14910](https://github.com/AliceO2Group/AliceO2/pull/14910) 2026-01-19: DPL: earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14931](https://github.com/AliceO2Group/AliceO2/pull/14931) 2026-01-07: DPL: allow to disable oldest possible timeframe propagation with a label by [@knopers8](https://github.com/knopers8)
 - [\#14932](https://github.com/AliceO2Group/AliceO2/pull/14932) 2026-01-07: DPL: Introduce dangling edges context by [@aalkin](https://github.com/aalkin)
-- [\#14936](https://github.com/AliceO2Group/AliceO2/pull/14936) 2025-12-24: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
 - [\#14946](https://github.com/AliceO2Group/AliceO2/pull/14946) 2026-01-08: DPL: avoid MessageSet abstractions when forwarding by [@ktf](https://github.com/ktf)
 - [\#14947](https://github.com/AliceO2Group/AliceO2/pull/14947) 2026-01-09: DPL: fix a few warnings by [@ktf](https://github.com/ktf)
