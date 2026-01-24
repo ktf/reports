@@ -12,6 +12,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
+- [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 - [\#14942](https://github.com/AliceO2Group/AliceO2/pull/14942) 2026-01-06: DataModel: improve DataHeader formatter by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#14848](https://github.com/AliceO2Group/AliceO2/pull/14848) 2025-12-30: Increase time range search to include QCDB objects created after EOR by [@dstocco](https://github.com/dstocco)
@@ -20,6 +21,7 @@
 - [\#14908](https://github.com/AliceO2Group/AliceO2/pull/14908) 2026-01-15: AFIT-1 FV0 digitzer dead channel map by [@wpierozak](https://github.com/wpierozak)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14918](https://github.com/AliceO2Group/AliceO2/pull/14918) 2026-01-05: MathUtils: move BetheBlochAleph to a common header by [@ktf](https://github.com/ktf)
+- [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 - [\#14928](https://github.com/AliceO2Group/AliceO2/pull/14928) 2026-01-13: reduce verbosity of ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 - [\#14929](https://github.com/AliceO2Group/AliceO2/pull/14929) 2026-01-08: ITS: remove CookedTracker and older ClustererTask by [@f3sch](https://github.com/f3sch)
 - [\#14943](https://github.com/AliceO2Group/AliceO2/pull/14943) 2026-01-09: [EMCAL] implementation of number of local maxima variable by [@fjonasALICE](https://github.com/fjonasALICE)
@@ -61,3 +63,4 @@
 ## Recent developments in O2 - Steer
 - [\#14908](https://github.com/AliceO2Group/AliceO2/pull/14908) 2026-01-15: AFIT-1 FV0 digitzer dead channel map by [@wpierozak](https://github.com/wpierozak)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
+- [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
