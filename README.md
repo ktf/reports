@@ -32,6 +32,7 @@
 - [\#14968](https://github.com/AliceO2Group/AliceO2/pull/14968) 2026-01-19: Fix geometry building of FT3 by [@njacazio](https://github.com/njacazio)
 - [\#14977](https://github.com/AliceO2Group/AliceO2/pull/14977) 2026-01-21: TRD: add missing OutputSpec in trd-pulseheight device by [@ehellbar](https://github.com/ehellbar)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
+- [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
