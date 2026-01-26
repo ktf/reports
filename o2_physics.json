@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-20T21:35:27Z",
-            "title": "[PWGLF] adding hq selection to remove soft backgrounds",
-            "number": 14490,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/ReducedHeptaQuarkTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/HeptaQuarktable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/heptaquark.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-20T21:38:26Z",
             "title": "[PWGLF] Added the processJetData part of kstarInOO.cxx",
             "number": 14558,
@@ -1956,26 +1926,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add a new histogram for the DCAxy template fit",
-            "number": 14609,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] process functions for on-the-fly simulatioons",
             "number": 14610,
             "author": {
@@ -2851,6 +2801,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
+            "number": 14145,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-26T12:05:18Z",
             "title": "[PWGJE] Add sumw2 to histograms",
             "number": 14630,
             "author": {
@@ -2871,16 +2841,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
-            "number": 14145,
+            "title": "[PWGCF] Update femto framework",
+            "number": 14634,
             "author": {
-              "login": "ktf"
+              "login": "ariedel-cern"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                    "path": "PWGCF/Femto/Core/closePairRejection.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add a new histogram for the DCAxy template fit",
+            "number": 14609,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
                   }
                 }
               ]
