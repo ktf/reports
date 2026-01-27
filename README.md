@@ -33,6 +33,7 @@
 - [\#14965](https://github.com/AliceO2Group/AliceO2/pull/14965) 2026-01-16: ALICE3-TRK: partial fix to issue #14959 by [@atriolo](https://github.com/atriolo)
 - [\#14967](https://github.com/AliceO2Group/AliceO2/pull/14967) 2026-01-17: ALICE3-TRK: fix the length of the layers for the kCylinder layout for ML and OT by [@atriolo](https://github.com/atriolo)
 - [\#14968](https://github.com/AliceO2Group/AliceO2/pull/14968) 2026-01-19: Fix geometry building of FT3 by [@njacazio](https://github.com/njacazio)
+- [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14977](https://github.com/AliceO2Group/AliceO2/pull/14977) 2026-01-21: TRD: add missing OutputSpec in trd-pulseheight device by [@ehellbar](https://github.com/ehellbar)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
@@ -68,3 +69,4 @@
 - [\#14908](https://github.com/AliceO2Group/AliceO2/pull/14908) 2026-01-15: AFIT-1 FV0 digitzer dead channel map by [@wpierozak](https://github.com/wpierozak)
 - [\#14913](https://github.com/AliceO2Group/AliceO2/pull/14913) 2026-01-09: TPC: move PadFlags and related classes to TPCBaseRecSim by [@ktf](https://github.com/ktf)
 - [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
+- [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
