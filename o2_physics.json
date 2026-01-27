@@ -2116,46 +2116,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add a new histogram for the DCAxy template fit",
-            "number": 14609,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] fix pointer issue",
-            "number": 14586,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] modify the delta pT methods to except the zero jet evnets",
             "number": 14476,
             "author": {
@@ -2166,51 +2126,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetBackgroundAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] process functions for on-the-fly simulatioons",
-            "number": 14610,
-            "author": {
-              "login": "jaimenorman"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] adding substructure to gammaJetTreeProducer",
-            "number": 14636,
-            "author": {
-              "login": "fjonasALICE"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/GammaJetAnalysisTree.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/gammaJetTreeProducer.cxx"
                   }
                 }
               ]
@@ -2619,6 +2534,26 @@
         },
         {
           "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
+            "number": 14145,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "MERGED",
             "mergedAt": "2026-01-26T23:02:52Z",
             "title": "[PWGCF] Add configurable collision centrality/multiplicity value",
@@ -2639,18 +2574,83 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
-            "number": 14145,
+            "state": "MERGED",
+            "mergedAt": "2026-01-27T00:30:22Z",
+            "title": "[PWGJE] adding substructure to gammaJetTreeProducer",
+            "number": 14636,
             "author": {
-              "login": "ktf"
+              "login": "fjonasALICE"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                    "path": "PWGJE/DataModel/GammaJetAnalysisTree.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/gammaJetTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-27T00:31:10Z",
+            "title": "[PWGJE] process functions for on-the-fly simulatioons",
+            "number": 14610,
+            "author": {
+              "login": "jaimenorman"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] fix pointer issue",
+            "number": 14586,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add a new histogram for the DCAxy template fit",
+            "number": 14609,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
                   }
                 }
               ]
