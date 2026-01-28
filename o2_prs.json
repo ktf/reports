@@ -5,106 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-16T10:37:27Z",
-            "title": "ITSMFT&ITS3&TRK: load response functions from ccdb",
-            "number": 14902,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/data/AlpideResponseData/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/DigiParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/DigiParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKSimulationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/data/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/DigiParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/DigiParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITS3DigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TRKDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-16T15:50:47Z",
             "title": "TOF: Refine parameter getter methods with error handling",
             "number": 14794,
@@ -4911,6 +4811,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/utils/strtag.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: disable early forwarding for output proxies",
+            "number": 15000,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]
