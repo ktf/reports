@@ -63,6 +63,7 @@
 - [\#14987](https://github.com/AliceO2Group/AliceO2/pull/14987) 2026-01-22: Revert "DPL Analysis: Use dangling edges context in more places" by [@ktf](https://github.com/ktf)
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14990](https://github.com/AliceO2Group/AliceO2/pull/14990) 2026-01-26: DPL: move snapshot code to use concepts by [@ktf](https://github.com/ktf)
+- [\#15000](https://github.com/AliceO2Group/AliceO2/pull/15000) 2026-01-28: DPL: disable early forwarding for output proxies by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
