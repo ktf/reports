@@ -34,6 +34,7 @@
 - [\#14965](https://github.com/AliceO2Group/AliceO2/pull/14965) 2026-01-16: ALICE3-TRK: partial fix to issue #14959 by [@atriolo](https://github.com/atriolo)
 - [\#14967](https://github.com/AliceO2Group/AliceO2/pull/14967) 2026-01-17: ALICE3-TRK: fix the length of the layers for the kCylinder layout for ML and OT by [@atriolo](https://github.com/atriolo)
 - [\#14968](https://github.com/AliceO2Group/AliceO2/pull/14968) 2026-01-19: Fix geometry building of FT3 by [@njacazio](https://github.com/njacazio)
+- [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
 - [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14977](https://github.com/AliceO2Group/AliceO2/pull/14977) 2026-01-21: TRD: add missing OutputSpec in trd-pulseheight device by [@ehellbar](https://github.com/ehellbar)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
