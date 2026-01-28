@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-23T23:46:53Z",
-            "title": "[PWGCF] Update femto framework",
-            "number": 14612,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/closePairRejection.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-23T22:19:26Z",
             "title": "[PWGEM/Dilepton] update TVX, scalers, selections for trigger analysis",
             "number": 14613,
@@ -2315,6 +2295,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Add PCH for JET tasks",
+            "number": 14655,
+            "author": {
+              "login": "singiamtel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureHFPCH.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] pV recal with daughter track removal",
             "number": 14677,
             "author": {
@@ -2322,6 +2327,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "PWGDQ/Core/VarManager.h"
@@ -2340,21 +2350,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add PCH for JET tasks",
-            "number": 14655,
+            "title": "[Trigger,PWGHF] Add granular event selection in HF triggers",
+            "number": 14678,
             "author": {
-              "login": "singiamtel"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSubstructureHFPCH.h"
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
                   }
                 }
               ]
