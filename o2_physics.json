@@ -5,141 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-22T22:58:05Z",
-            "title": "[PWGLF] update QA plots for phi",
-            "number": 14595,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-23T07:44:51Z",
-            "title": "[PWGLF] Added switch for sel8 selection",
-            "number": 14590,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-23T08:44:49Z",
-            "title": "[DPG] Remove PIDResponse from DPG",
-            "number": 14598,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLiteProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TOF/tofSkimsTableCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-23T09:31:18Z",
-            "title": "[PWGCF] Remove PIDResponse from CF",
-            "number": 14596,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/SPTableZDC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Core/femto3dPairTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/DataModel/PIDutils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/DataModel/singletrackselector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Core/femtoDreamTrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/Core/FemtoWorldTrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/DataModel/FemtoWorldDerived.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-23T10:55:51Z",
             "title": "[DPG] Remove PIDResponse from DPG-TPC",
             "number": 14599,
@@ -2690,6 +2555,91 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/strangenessInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse V0 Task -- changed combinations policy for v0v0 and improved v0 duplicates check",
+            "number": 14672,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Adding a task for short range correlations",
+            "number": 14670,
+            "author": {
+              "login": "MartijnLaarhoven"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/etaDihadron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add event centrality QA plots for events containing charm candidates in the charm flow task",
+            "number": 14671,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGEM] fix TAP in globalDimuonFilter.cxx",
+            "number": 14673,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGEM/globalDimuonFilter.cxx"
                   }
                 }
               ]
