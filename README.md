@@ -67,6 +67,7 @@
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14940](https://github.com/AliceO2Group/AliceO2/pull/14940) 2026-01-05: Revert "Default TPC loopers in o2-sim" by [@sawenzel](https://github.com/sawenzel)
+- [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14908](https://github.com/AliceO2Group/AliceO2/pull/14908) 2026-01-15: AFIT-1 FV0 digitzer dead channel map by [@wpierozak](https://github.com/wpierozak)
