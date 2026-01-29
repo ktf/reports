@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-25T14:38:54Z",
-            "title": "[PWGLF] Cascades in jets fix selections for derived data",
-            "number": 14624,
-            "author": {
-              "login": "spucillo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-15T17:46:02Z",
-            "title": "[PWGJE] Code refactoring",
-            "number": 14502,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-25T14:35:44Z",
             "title": "[PWGEM/Dilepton] update trigger analysis",
             "number": 14625,
@@ -1383,26 +1343,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Add REUSE_FROM option for workflows",
-            "number": 14668,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-01-28T12:08:12Z",
             "title": "[PWGCF,Trigger] Add granular event selection",
@@ -2040,31 +1980,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] add a small task to check MC template",
-            "number": 14681,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/checkMCTemplate.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
             "number": 14145,
             "author": {
@@ -2233,7 +2148,77 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-29T12:09:40Z",
+            "title": "[Infrastructure] Add REUSE_FROM option for workflows",
+            "number": 14668,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Use Precompiled headers for Jet Substructure tasks",
+            "number": 14690,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureHFPCH.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-01-29T12:16:00Z",
+            "title": "[PWGEM/Dilepton] add a small task to check MC template",
+            "number": 14681,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/checkMCTemplate.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] // Apply efficiency corrections as a function of pT, eta, phi and mult.",
             "number": 14679,
@@ -2241,15 +2226,34 @@
               "login": "gengjiabin12"
             },
             "files": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Update the rest of the multicharm histograms to per config",
+            "number": 14691,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelationComplete.cxx"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
                   }
                 }
               ]
