@@ -38,6 +38,7 @@
 - [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
 - [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14977](https://github.com/AliceO2Group/AliceO2/pull/14977) 2026-01-21: TRD: add missing OutputSpec in trd-pulseheight device by [@ehellbar](https://github.com/ehellbar)
+- [\#14979](https://github.com/AliceO2Group/AliceO2/pull/14979) 2026-01-30: ALICE 3: add fully cylindrical IRIS, correct Si thickness, add v3 building by [@plariono](https://github.com/plariono)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
 - [\#14993](https://github.com/AliceO2Group/AliceO2/pull/14993) 2026-01-25: Ctpdev: task for populating BK with ctp config/scalers by [@lietava](https://github.com/lietava)
