@@ -66,6 +66,7 @@
 - [\#14990](https://github.com/AliceO2Group/AliceO2/pull/14990) 2026-01-26: DPL: move snapshot code to use concepts by [@ktf](https://github.com/ktf)
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15000](https://github.com/AliceO2Group/AliceO2/pull/15000) 2026-01-28: DPL: disable early forwarding for output proxies by [@ktf](https://github.com/ktf)
+- [\#15003](https://github.com/AliceO2Group/AliceO2/pull/15003) 2026-01-30: DPL: fix device signpost segfaults for o2-dpl-raw-proxy by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Generators
 - [\#14851](https://github.com/AliceO2Group/AliceO2/pull/14851) 2026-01-05: Default TPC loopers in o2-sim by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14933](https://github.com/AliceO2Group/AliceO2/pull/14933) 2026-01-05: Moved configFile check + expand env vars by [@jackal1-66](https://github.com/jackal1-66)
