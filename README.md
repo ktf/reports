@@ -33,6 +33,7 @@
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
 - [\#14993](https://github.com/AliceO2Group/AliceO2/pull/14993) 2026-01-25: Ctpdev: task for populating BK with ctp config/scalers by [@lietava](https://github.com/lietava)
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
+- [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
