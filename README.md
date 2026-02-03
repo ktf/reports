@@ -14,7 +14,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
-- [\#14890](https://github.com/AliceO2Group/AliceO2/pull/14890) 2026-01-13: TPC space-charge: Improve GEM frame charging-up distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#14900](https://github.com/AliceO2Group/AliceO2/pull/14900) 2026-01-16: TPC_MC_anchoring_simple: Added per region relative gas gain to simulate the change in the voltage settings of GEMs by [@tubagundem](https://github.com/tubagundem)
 - [\#14908](https://github.com/AliceO2Group/AliceO2/pull/14908) 2026-01-15: AFIT-1 FV0 digitzer dead channel map by [@wpierozak](https://github.com/wpierozak)
 - [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
@@ -58,6 +57,7 @@
 - [\#15005](https://github.com/AliceO2Group/AliceO2/pull/15005) 2026-01-30: Revert "DPL Analysis: cleanup AnalysisTask.h and ASoA.h" by [@ktf](https://github.com/ktf)
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
+- [\#15011](https://github.com/AliceO2Group/AliceO2/pull/15011) 2026-02-03: Disable tests for reverted exceptions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
