@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-30T14:39:57Z",
-            "title": "[PWGEM/Dilepton] update matchingMFT.cxx",
-            "number": 14710,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/matchingMFT.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-30T15:17:24Z",
-            "title": "[PWGCF] Mechanism to choose uniquely reconstructed D0bars",
-            "number": 14709,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-30T13:22:13Z",
             "title": "[Infrastructure] Disable triggers for O2 linter workflow",
             "number": 14711,
@@ -1558,26 +1508,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Replace eta with rapidity",
-            "number": 14759,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-02T23:38:57Z",
             "title": "[PWGDQ] Allow for rejection of split collisions in asymmetric-pairing task",
@@ -2132,31 +2062,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] added task to generate the training data for the ML matching",
-            "number": 14758,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-03T13:57:56Z",
             "title": "[ALICE3] Refactor LUT download path and cleanup settings",
@@ -2319,6 +2224,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] added task to generate the training data for the ML matching",
+            "number": 14758,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Add new task - PWGLF/Tasks/Nuspex/deutInJetsTrgPt",
             "number": 14781,
             "author": {
@@ -2334,6 +2264,76 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/DeuteronInJetsTrgPt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Replace eta with rapidity",
+            "number": 14759,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] PhotonMeson: Add basic EMCal QA to EMCPhotonCut",
+            "number": 14785,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGHF] Add pidITS and remove unused includes",
+            "number": 14784,
+            "author": {
+              "login": "MRazza879"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/H2fromLbFilter.cxx"
                   }
                 }
               ]
