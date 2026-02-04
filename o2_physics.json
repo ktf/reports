@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Trigger,PWGLF] Omegahm - adding track multiplicity selections",
-            "number": 14621,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-31T18:46:43Z",
-            "title": "[PWGLF] enable cut variation of tpc crossed rows in run 3",
-            "number": 14730,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/ebyeMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-01-31T16:10:21Z",
             "title": "[PWGLF] Updates on DCAz, LorentzVectors, QA plots for 'chk892pp.cxx', 'chk892Flow.cxx'",
@@ -2349,6 +2304,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Add coalescence for corr analysis",
+            "number": 14639,
+            "author": {
+              "login": "FrancescaCasillo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] update a3 geo and fix mcharm histogram axis",
+            "number": 14794,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geo.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Configuration/a3geometry_v3.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Adding new reduced table and process function for electron-muon analysis",
             "number": 14793,
             "author": {
@@ -2374,16 +2384,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add coalescence for corr analysis",
-            "number": 14639,
+            "title": "[PWGJE] Adding D0+JET correlation task",
+            "number": 14795,
             "author": {
-              "login": "FrancescaCasillo"
+              "login": "MattOckleton"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
                   }
                 }
               ]
