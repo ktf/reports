@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-01T05:35:48Z",
-            "title": "[PWGJE] GNN b-jet tagging analysis updated",
-            "number": 14684,
-            "author": {
-              "login": "choich08365"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-01T05:36:39Z",
-            "title": "[PWGJE] templatization of process functions to accomodate D0 and Lc jets to charm hadronisation analysis",
-            "number": 14664,
-            "author": {
-              "login": "christianreckziegel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Infrastructure,PWGJE] Constrain PWGJE to only one compilation thread",
@@ -1712,26 +1672,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] fix bug for the shift correction",
-            "number": 14791,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-04T08:00:38Z",
             "title": "[PWGLF] Add a configurable for Zvtx of the MC collision and for INEL > 0 selection in cascadeAnalysisLightIonsDerivedData.cxx",
@@ -2069,26 +2009,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] adding a check of DataType (Data/MC) before nOrbitsPerTF extraction from runInfo",
-            "number": 14796,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Lc-h correlations: adding true signal THnSparse in MCRec mode",
             "number": 14792,
             "author": {
@@ -2174,36 +2094,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/checkMCPairTemplate.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Added trigger for Sc-proton correlation",
-            "number": 14786,
-            "author": {
-              "login": "singhra1994"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
                   }
                 }
               ]
@@ -2369,6 +2259,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Trigger,PWGHF] Add more cuts for Xi+(N)bachelor triggers",
+            "number": 14800,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-04T15:00:38Z",
+            "title": "[Common] fix bug for the shift correction",
+            "number": 14791,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM] PhotonMeson: change more cutlibs to use concepts",
             "number": 14798,
             "author": {
@@ -2399,10 +2334,70 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Trigger,PWGHF] Add more cuts for Xi+(N)bachelor triggers",
-            "number": 14800,
+            "title": "[Trigger,PWGLF] Few changes for high mult + omega filters",
+            "number": 14801,
             "author": {
-              "login": "fgrosa"
+              "login": "ChiaraDeMartin95"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Optimized the UPC THnSparse",
+            "number": 14802,
+            "author": {
+              "login": "Rrantu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-04T15:14:44Z",
+            "title": "[Common] adding a check of DataType (Data/MC) before nOrbitsPerTF extraction from runInfo",
+            "number": 14796,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Added trigger for Sc-proton correlation",
+            "number": 14786,
+            "author": {
+              "login": "singhra1994"
             },
             "files": {
               "edges": [
@@ -2414,6 +2409,11 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
                   }
                 }
               ]
