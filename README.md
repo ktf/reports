@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
-- [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14987](https://github.com/AliceO2Group/AliceO2/pull/14987) 2026-01-22: Revert "DPL Analysis: Use dangling edges context in more places" by [@ktf](https://github.com/ktf)
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
@@ -18,7 +17,6 @@
 - [\#14928](https://github.com/AliceO2Group/AliceO2/pull/14928) 2026-01-13: reduce verbosity of ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
 - [\#14962](https://github.com/AliceO2Group/AliceO2/pull/14962) 2026-01-19: Optionally refit ITS outward seeding with inward refit result by [@shahor02](https://github.com/shahor02)
-- [\#14965](https://github.com/AliceO2Group/AliceO2/pull/14965) 2026-01-16: ALICE3-TRK: partial fix to issue #14959 by [@atriolo](https://github.com/atriolo)
 - [\#14967](https://github.com/AliceO2Group/AliceO2/pull/14967) 2026-01-17: ALICE3-TRK: fix the length of the layers for the kCylinder layout for ML and OT by [@atriolo](https://github.com/atriolo)
 - [\#14968](https://github.com/AliceO2Group/AliceO2/pull/14968) 2026-01-19: Fix geometry building of FT3 by [@njacazio](https://github.com/njacazio)
 - [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
@@ -34,7 +32,6 @@
 ## Recent developments in O2 - Framework
 - [\#14910](https://github.com/AliceO2Group/AliceO2/pull/14910) 2026-01-19: DPL: earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
-- [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 - [\#14974](https://github.com/AliceO2Group/AliceO2/pull/14974) 2026-01-21: DPL: avoid needless copy of messages when cleaning up early forwarding by [@ktf](https://github.com/ktf)
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14981](https://github.com/AliceO2Group/AliceO2/pull/14981) 2026-01-21: DPL: make new early forward optional by [@ktf](https://github.com/ktf)
