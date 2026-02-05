@@ -19,7 +19,6 @@
 - [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
 - [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14972](https://github.com/AliceO2Group/AliceO2/pull/14972) 2026-02-05: GPU Framework: automatically generate GPUDefParametersDefaults.h by [@cima22](https://github.com/cima22)
-- [\#14977](https://github.com/AliceO2Group/AliceO2/pull/14977) 2026-01-21: TRD: add missing OutputSpec in trd-pulseheight device by [@ehellbar](https://github.com/ehellbar)
 - [\#14979](https://github.com/AliceO2Group/AliceO2/pull/14979) 2026-01-30: ALICE 3: add fully cylindrical IRIS, correct Si thickness, add v3 building by [@plariono](https://github.com/plariono)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
@@ -27,9 +26,7 @@
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#14974](https://github.com/AliceO2Group/AliceO2/pull/14974) 2026-01-21: DPL: avoid needless copy of messages when cleaning up early forwarding by [@ktf](https://github.com/ktf)
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
-- [\#14981](https://github.com/AliceO2Group/AliceO2/pull/14981) 2026-01-21: DPL: make new early forward optional by [@ktf](https://github.com/ktf)
 - [\#14984](https://github.com/AliceO2Group/AliceO2/pull/14984) 2026-01-22: DPL: do not do the new early forwarding for some of the data by [@ktf](https://github.com/ktf)
 - [\#14987](https://github.com/AliceO2Group/AliceO2/pull/14987) 2026-01-22: Revert "DPL Analysis: Use dangling edges context in more places" by [@ktf](https://github.com/ktf)
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
