@@ -37,7 +37,6 @@
 ## Recent developments in O2 - Framework
 - [\#14910](https://github.com/AliceO2Group/AliceO2/pull/14910) 2026-01-19: DPL: earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
-- [\#14952](https://github.com/AliceO2Group/AliceO2/pull/14952) 2026-01-15: DPL Analysis: do not override error-handler reader for MC injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14960](https://github.com/AliceO2Group/AliceO2/pull/14960) 2026-01-15: DPL Analysis: fix for slice index builder resetting its caches in a wrong order by [@aalkin](https://github.com/aalkin)
 - [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
@@ -56,6 +55,7 @@
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
 - [\#15011](https://github.com/AliceO2Group/AliceO2/pull/15011) 2026-02-03: Disable tests for reverted exceptions by [@ktf](https://github.com/ktf)
 - [\#15012](https://github.com/AliceO2Group/AliceO2/pull/15012) 2026-02-03: Brown paperbag issue with reverted feature. by [@ktf](https://github.com/ktf)
+- [\#15016](https://github.com/AliceO2Group/AliceO2/pull/15016) 2026-02-05: DPL: Improve message when we do not have enough resources to process. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
