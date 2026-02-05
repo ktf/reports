@@ -31,8 +31,6 @@
 - [\#14993](https://github.com/AliceO2Group/AliceO2/pull/14993) 2026-01-25: Ctpdev: task for populating BK with ctp config/scalers by [@lietava](https://github.com/lietava)
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Examples
-- [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#14910](https://github.com/AliceO2Group/AliceO2/pull/14910) 2026-01-19: DPL: earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
@@ -55,7 +53,6 @@
 - [\#15016](https://github.com/AliceO2Group/AliceO2/pull/15016) 2026-02-05: DPL: Improve message when we do not have enough resources to process. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
-- [\#14951](https://github.com/AliceO2Group/AliceO2/pull/14951) 2026-01-16: Switch option from external to hybrid by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)

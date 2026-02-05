@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-16T14:00:07Z",
-            "title": "Switch option from external to hybrid",
-            "number": 14951,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/GeneratorHyperloopHybrid.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/GeneratorHyperloopHybridCocktail.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/cocktail.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/rundpl.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/ExternalToHybrid/sequential.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-16T15:23:38Z",
             "title": "ALICE3-TRK: partial fix to issue #14959",
             "number": 14965,
@@ -4701,6 +4646,36 @@
                 {
                   "node": {
                     "path": "doc/data/2026-02-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU CMake: Avoid repetitive JSON parsing",
+            "number": 15024,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/cmake/gpu_param_header_generator.cmake"
                   }
                 }
               ]
