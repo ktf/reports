@@ -27,7 +27,6 @@
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#14910](https://github.com/AliceO2Group/AliceO2/pull/14910) 2026-01-19: DPL: earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14974](https://github.com/AliceO2Group/AliceO2/pull/14974) 2026-01-21: DPL: avoid needless copy of messages when cleaning up early forwarding by [@ktf](https://github.com/ktf)
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14981](https://github.com/AliceO2Group/AliceO2/pull/14981) 2026-01-21: DPL: make new early forward optional by [@ktf](https://github.com/ktf)
