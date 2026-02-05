@@ -39,7 +39,6 @@
 - [\#14910](https://github.com/AliceO2Group/AliceO2/pull/14910) 2026-01-19: DPL: earlier forwarding by [@ktf](https://github.com/ktf)
 - [\#14944](https://github.com/AliceO2Group/AliceO2/pull/14944) 2026-01-15: DPL Analysis: Rework table input record extraction by [@aalkin](https://github.com/aalkin)
 - [\#14953](https://github.com/AliceO2Group/AliceO2/pull/14953) 2026-01-19: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
-- [\#14960](https://github.com/AliceO2Group/AliceO2/pull/14960) 2026-01-15: DPL Analysis: fix for slice index builder resetting its caches in a wrong order by [@aalkin](https://github.com/aalkin)
 - [\#14966](https://github.com/AliceO2Group/AliceO2/pull/14966) 2026-01-16: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 - [\#14974](https://github.com/AliceO2Group/AliceO2/pull/14974) 2026-01-21: DPL: avoid needless copy of messages when cleaning up early forwarding by [@ktf](https://github.com/ktf)
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
