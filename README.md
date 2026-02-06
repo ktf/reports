@@ -25,6 +25,7 @@
 - [\#14993](https://github.com/AliceO2Group/AliceO2/pull/14993) 2026-01-25: Ctpdev: task for populating BK with ctp config/scalers by [@lietava](https://github.com/lietava)
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
+- [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14984](https://github.com/AliceO2Group/AliceO2/pull/14984) 2026-01-22: DPL: do not do the new early forwarding for some of the data by [@ktf](https://github.com/ktf)
