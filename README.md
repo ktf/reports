@@ -8,6 +8,7 @@
 - [\#15005](https://github.com/AliceO2Group/AliceO2/pull/15005) 2026-01-30: Revert "DPL Analysis: cleanup AnalysisTask.h and ASoA.h" by [@ktf](https://github.com/ktf)
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
+- [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
@@ -25,6 +26,8 @@
 - [\#14993](https://github.com/AliceO2Group/AliceO2/pull/14993) 2026-01-25: Ctpdev: task for populating BK with ctp config/scalers by [@lietava](https://github.com/lietava)
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
+- [\#15010](https://github.com/AliceO2Group/AliceO2/pull/15010) 2026-02-07: Add ability to retain TrackQA for all global tracks by [@ddobrigk](https://github.com/ddobrigk)
+- [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
 - [\#15023](https://github.com/AliceO2Group/AliceO2/pull/15023) 2026-02-06: ITS: GPU: partial revert of memory clearing by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
@@ -41,6 +44,7 @@
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
 - [\#15011](https://github.com/AliceO2Group/AliceO2/pull/15011) 2026-02-03: Disable tests for reverted exceptions by [@ktf](https://github.com/ktf)
 - [\#15012](https://github.com/AliceO2Group/AliceO2/pull/15012) 2026-02-03: Brown paperbag issue with reverted feature. by [@ktf](https://github.com/ktf)
+- [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15016](https://github.com/AliceO2Group/AliceO2/pull/15016) 2026-02-05: DPL: Improve message when we do not have enough resources to process. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
