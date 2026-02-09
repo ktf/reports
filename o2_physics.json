@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-04T17:54:53Z",
-            "title": "[Trigger,PWGLF] Few changes for high mult + omega filters",
-            "number": 14801,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-04T17:47:41Z",
             "title": "[PWGEM] PhotonMeson: change more cutlibs to use concepts",
             "number": 14798,
@@ -2854,6 +2834,51 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[ALICE3,PWGDQ] Updated variables, cuts and histograms for ALICE3 resolution studies.",
+            "number": 14868,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] Bugfix in femto framework",
@@ -2924,43 +2949,68 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3,PWGDQ] Updated variables, cuts and histograms for ALICE3 resolution studies.",
-            "number": 14868,
+            "title": "[ALICE3] Nj a3vtx",
+            "number": 14871,
             "author": {
-              "login": "axti98"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
+                    "path": "ALICE3/Core/FastTracker.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                    "path": "ALICE3/Core/FastTracker.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                    "path": "ALICE3/Macros/makeSimpleAO2D.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3HfTask3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tools/LUTs/testDetectorALICE3.C333"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tools/LUTs/testDetectorALICE3_original.C"
                   }
                 }
               ]
