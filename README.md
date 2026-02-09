@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15025](https://github.com/AliceO2Group/AliceO2/pull/15025) 2026-02-09: Algorithm: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Analysis
-- [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15005](https://github.com/AliceO2Group/AliceO2/pull/15005) 2026-01-30: Revert "DPL Analysis: cleanup AnalysisTask.h and ASoA.h" by [@ktf](https://github.com/ktf)
@@ -32,7 +31,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14990](https://github.com/AliceO2Group/AliceO2/pull/14990) 2026-01-26: DPL: move snapshot code to use concepts by [@ktf](https://github.com/ktf)
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
