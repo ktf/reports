@@ -4,101 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching",
-            "number": 14989,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalGain.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalVdriftExB.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/TrackletTransformer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibrationParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorVdExB.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/macros/manualCalibFit.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-01-24T17:13:56Z",
             "title": "ITSMFT: scaffolding for staggered digitization",
@@ -4689,41 +4594,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Integrate TRD extra data support in AOD production workflow",
-            "number": 14734,
-            "author": {
-              "login": "KangkanGoswami"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-09T08:14:55Z",
             "title": "GPU CMake: Improve architecture detection, split parameter header between device and non-device options",
@@ -4756,41 +4626,6 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-09T08:25:15Z",
-            "title": "Utilities: Delete unused files",
-            "number": 15039,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/DataCompression/include/DataCompression/CodingModelDispatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataCompression/include/DataCompression/runtime_container.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataCompression/tpccluster_parameter_model.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/containers/HistogramInterface.h"
                   }
                 }
               ]
@@ -4909,23 +4744,78 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-09T09:10:32Z",
-            "title": "DataFormats: Delete unused files",
-            "number": 15029,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Integrate TRD extra data support in AOD production workflow",
+            "number": 14734,
             "author": {
-              "login": "vkucera"
+              "login": "KangkanGoswami"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Headers/include/Headers/SubframeMetadata.h"
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "DataFormats/Legacy/HLT/include/AliceHLT/TPCRawCluster.h"
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[A3 TRK] Sensor orientation fix + first try to close in-stave gaps",
+            "number": 15043,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update omp detection for macOS",
+            "number": 15040,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindOpenMPMacOS.cmake"
                   }
                 }
               ]
@@ -4950,6 +4840,11 @@
                 },
                 {
                   "node": {
+                    "path": "dependencies/FindOpenMPMacOS.cmake"
+                  }
+                },
+                {
+                  "node": {
                     "path": "doc/data/2026-02-o2_prs.json"
                   }
                 },
@@ -4964,18 +4859,58 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Update omp detection for macOS",
-            "number": 15040,
+            "state": "MERGED",
+            "mergedAt": "2026-02-09T08:25:15Z",
+            "title": "Utilities: Delete unused files",
+            "number": 15039,
             "author": {
-              "login": "f3sch"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "dependencies/FindOpenMPMacOS.cmake"
+                    "path": "Utilities/DataCompression/include/DataCompression/CodingModelDispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataCompression/include/DataCompression/runtime_container.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataCompression/tpccluster_parameter_model.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/HistogramInterface.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-09T09:10:32Z",
+            "title": "DataFormats: Delete unused files",
+            "number": 15029,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/SubframeMetadata.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Legacy/HLT/include/AliceHLT/TPCRawCluster.h"
                   }
                 }
               ]
