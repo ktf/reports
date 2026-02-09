@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] update strangenesstofpid.cxx to use primary-TOF calibration",
-            "number": 14782,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-04T15:00:38Z",
             "title": "[Common] fix bug for the shift correction",
@@ -2781,26 +2736,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
-            "number": 14145,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] add the DCAxy axis to the primary mc-particle histogram",
             "number": 14836,
             "author": {
@@ -2896,6 +2831,46 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
+            "number": 14145,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Fix cov. matrix smearing for sigma^2(q/pt) in TrackTuner.",
+            "number": 14867,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
                   }
                 }
               ]
