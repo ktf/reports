@@ -3556,31 +3556,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DataFormats: Delete unused files",
-            "number": 15029,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/SubframeMetadata.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Legacy/HLT/include/AliceHLT/TPCRawCluster.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "SimulationDataFormat: Delete unused files",
             "number": 15030,
             "author": {
@@ -4406,41 +4381,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Utilities: Delete unused files",
-            "number": 15039,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/DataCompression/include/DataCompression/CodingModelDispatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataCompression/include/DataCompression/runtime_container.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataCompression/tpccluster_parameter_model.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/containers/HistogramInterface.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Vertexing: Delete unused files",
             "number": 15037,
             "author": {
@@ -4881,6 +4821,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Integrate TRD extra data support in AOD production workflow",
+            "number": 14734,
+            "author": {
+              "login": "KangkanGoswami"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-09T08:14:55Z",
             "title": "GPU CMake: Improve architecture detection, split parameter header between device and non-device options",
             "number": 15042,
             "author": {
@@ -4921,31 +4896,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Integrate TRD extra data support in AOD production workflow",
-            "number": 14734,
+            "title": "DataFormats: Delete unused files",
+            "number": 15029,
             "author": {
-              "login": "KangkanGoswami"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                    "path": "DataFormats/Headers/include/Headers/SubframeMetadata.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                    "path": "DataFormats/Legacy/HLT/include/AliceHLT/TPCRawCluster.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-09T08:25:15Z",
+            "title": "Utilities: Delete unused files",
+            "number": 15039,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataCompression/include/DataCompression/CodingModelDispatcher.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
+                    "path": "Utilities/DataCompression/include/DataCompression/runtime_container.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                    "path": "Utilities/DataCompression/tpccluster_parameter_model.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/HistogramInterface.h"
                   }
                 }
               ]
