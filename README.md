@@ -23,13 +23,14 @@
 - [\#14979](https://github.com/AliceO2Group/AliceO2/pull/14979) 2026-01-30: ALICE 3: add fully cylindrical IRIS, correct Si thickness, add v3 building by [@plariono](https://github.com/plariono)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
-- [\#14993](https://github.com/AliceO2Group/AliceO2/pull/14993) 2026-01-25: Ctpdev: task for populating BK with ctp config/scalers by [@lietava](https://github.com/lietava)
 - [\#14999](https://github.com/AliceO2Group/AliceO2/pull/14999) 2026-01-29: ITS: GPU: reduce memory allocations by [@f3sch](https://github.com/f3sch)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
 - [\#15010](https://github.com/AliceO2Group/AliceO2/pull/15010) 2026-02-07: Add ability to retain TrackQA for all global tracks by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
 - [\#15023](https://github.com/AliceO2Group/AliceO2/pull/15023) 2026-02-06: ITS: GPU: partial revert of memory clearing by [@f3sch](https://github.com/f3sch)
+## Recent developments in O2 - EventVisualisation
+- [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#14975](https://github.com/AliceO2Group/AliceO2/pull/14975) 2026-01-26: DPL Analysis: modernize and cleanup some code by [@aalkin](https://github.com/aalkin)
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
