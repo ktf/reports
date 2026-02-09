@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-26T07:56:50Z",
-            "title": "Implement AO2D file checks for full_system_test",
-            "number": 14991,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-26T09:23:21Z",
             "title": "DPL Analysis: modernize and cleanup some code",
             "number": 14975,
@@ -4861,6 +4841,121 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching",
+            "number": 14989,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalGain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalVdriftExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/TrackletTransformer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibrationParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorVdExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/manualCalibFit.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/VdAndExBCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
                   }
                 }
               ]
