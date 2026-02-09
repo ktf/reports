@@ -11,11 +11,9 @@
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 - [\#15029](https://github.com/AliceO2Group/AliceO2/pull/15029) 2026-02-09: DataFormats: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
 - [\#14900](https://github.com/AliceO2Group/AliceO2/pull/14900) 2026-01-16: TPC_MC_anchoring_simple: Added per region relative gas gain to simulate the change in the voltage settings of GEMs by [@tubagundem](https://github.com/tubagundem)
-- [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 - [\#14928](https://github.com/AliceO2Group/AliceO2/pull/14928) 2026-01-13: reduce verbosity of ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
 - [\#14962](https://github.com/AliceO2Group/AliceO2/pull/14962) 2026-01-19: Optionally refit ITS outward seeding with inward refit result by [@shahor02](https://github.com/shahor02)
@@ -50,7 +48,6 @@
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#14927](https://github.com/AliceO2Group/AliceO2/pull/14927) 2026-01-24: ITSMFT: scaffolding for staggered digitization by [@f3sch](https://github.com/f3sch)
 - [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14997](https://github.com/AliceO2Group/AliceO2/pull/14997) 2026-01-27: ITSMFT: fix number of rofs per TF by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
