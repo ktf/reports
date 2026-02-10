@@ -36,7 +36,6 @@
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
-- [\#14990](https://github.com/AliceO2Group/AliceO2/pull/14990) 2026-01-26: DPL: move snapshot code to use concepts by [@ktf](https://github.com/ktf)
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15000](https://github.com/AliceO2Group/AliceO2/pull/15000) 2026-01-28: DPL: disable early forwarding for output proxies by [@ktf](https://github.com/ktf)
 - [\#15003](https://github.com/AliceO2Group/AliceO2/pull/15003) 2026-01-30: DPL: fix device signpost segfaults for o2-dpl-raw-proxy by [@ehellbar](https://github.com/ehellbar)
