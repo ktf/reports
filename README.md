@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15025](https://github.com/AliceO2Group/AliceO2/pull/15025) 2026-02-09: Algorithm: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Analysis
-- [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15005](https://github.com/AliceO2Group/AliceO2/pull/15005) 2026-01-30: Revert "DPL Analysis: cleanup AnalysisTask.h and ASoA.h" by [@ktf](https://github.com/ktf)
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
@@ -18,7 +17,6 @@
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
 - [\#14962](https://github.com/AliceO2Group/AliceO2/pull/14962) 2026-01-19: Optionally refit ITS outward seeding with inward refit result by [@shahor02](https://github.com/shahor02)
 - [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
-- [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14972](https://github.com/AliceO2Group/AliceO2/pull/14972) 2026-02-05: GPU Framework: automatically generate GPUDefParametersDefaults.h by [@cima22](https://github.com/cima22)
 - [\#14979](https://github.com/AliceO2Group/AliceO2/pull/14979) 2026-01-30: ALICE 3: add fully cylindrical IRIS, correct Si thickness, add v3 building by [@plariono](https://github.com/plariono)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
@@ -32,10 +30,10 @@
 - [\#15032](https://github.com/AliceO2Group/AliceO2/pull/15032) 2026-02-10: GlobalTrackingWorkflow: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15036](https://github.com/AliceO2Group/AliceO2/pull/15036) 2026-02-10: TRD: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15043](https://github.com/AliceO2Group/AliceO2/pull/15043) 2026-02-10: [A3 TRK] Sensor orientation fix + first try to close in-stave gaps by [@scannito](https://github.com/scannito)
+- [\#15047](https://github.com/AliceO2Group/AliceO2/pull/15047) 2026-02-10: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#14988](https://github.com/AliceO2Group/AliceO2/pull/14988) 2026-01-27: DPL Analysis: Use dangling edges context in more places by [@aalkin](https://github.com/aalkin)
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15000](https://github.com/AliceO2Group/AliceO2/pull/15000) 2026-01-28: DPL: disable early forwarding for output proxies by [@ktf](https://github.com/ktf)
 - [\#15003](https://github.com/AliceO2Group/AliceO2/pull/15003) 2026-01-30: DPL: fix device signpost segfaults for o2-dpl-raw-proxy by [@ehellbar](https://github.com/ehellbar)
@@ -51,7 +49,6 @@
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#14971](https://github.com/AliceO2Group/AliceO2/pull/14971) 2026-01-27: ALICE3-TRK: added possibility to use a local version of the response file during digitization by [@atriolo](https://github.com/atriolo)
 - [\#14997](https://github.com/AliceO2Group/AliceO2/pull/14997) 2026-01-27: ITSMFT: fix number of rofs per TF by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
 - [\#15039](https://github.com/AliceO2Group/AliceO2/pull/15039) 2026-02-09: Utilities: Delete unused files by [@vkucera](https://github.com/vkucera)

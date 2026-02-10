@@ -5,101 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-27T09:43:27Z",
-            "title": "ALICE3-TRK: added possibility to use a local version of the response file during digitization",
-            "number": 14971,
-            "author": {
-              "login": "atriolo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/Specs.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/DigiParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TRKDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-01-27T13:50:19Z",
-            "title": "DPL Analysis: Use dangling edges context in more places",
-            "number": 14988,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-27T22:01:19Z",
             "title": "ITSMFT: fix number of rofs per TF",
             "number": 14997,
@@ -4584,113 +4489,78 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching",
-            "number": 14989,
+            "state": "MERGED",
+            "mergedAt": "2026-02-10T12:27:46Z",
+            "title": "GPU Parameters: Add script to generate parameter file from parameter list csv/json and architecture",
+            "number": 15044,
             "author": {
-              "login": "glegras"
+              "login": "davidrohr"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalGain.h"
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalVdriftExB.h"
+                    "path": "GPU/GPUTracking/Definitions/Parameters/gpu_param_header_generator.cmake"
                   }
                 },
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/TrackletTransformer.h"
+                    "path": "GPU/GPUTracking/Standalone/tools/dumpGPUParamByArch.sh"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
+                    "path": "GPU/GPUTracking/display/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/calibration/README.md"
+                    "path": "GPU/GPUTracking/display/filterMacros/setinclude.sh.in"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibrationParams.h"
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: oldest possible timeframe triggered CompletionPolicy",
+            "number": 15046,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CompletionPolicyHelpers.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorVdExB.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/macros/manualCalibFit.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/VdAndExBCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                    "path": "Framework/Core/src/CompletionPolicyHelpers.cxx"
                   }
                 }
               ]
@@ -4845,9 +4715,9 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-10T12:27:46Z",
-            "title": "GPU Parameters: Add script to generate parameter file from parameter list csv/json and architecture",
-            "number": 15044,
+            "mergedAt": "2026-02-10T13:21:56Z",
+            "title": "Fix codechecker violation",
+            "number": 15047,
             "author": {
               "login": "davidrohr"
             },
@@ -4855,42 +4725,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/Parameters/gpu_param_header_generator.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/tools/dumpGPUParamByArch.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/filterMacros/setinclude.sh.in"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
+                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
                   }
                 }
               ]
@@ -4921,6 +4756,121 @@
                 {
                   "node": {
                     "path": "doc/data/2026-02-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching",
+            "number": 14989,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalGain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalVdriftExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/TrackletTransformer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibrationParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorVdExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/manualCalibFit.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/VdAndExBCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
                   }
                 }
               ]
