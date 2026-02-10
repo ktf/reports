@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-27T22:01:19Z",
-            "title": "ITSMFT: fix number of rofs per TF",
-            "number": 14997,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-28T08:12:21Z",
             "title": "GPU CMake: Improve architecture auto-detection",
             "number": 14998,
@@ -4871,6 +4851,51 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight",
+            "number": 15048,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DefaultsHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DefaultsHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]

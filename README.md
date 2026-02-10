@@ -48,7 +48,5 @@
 ## Recent developments in O2 - Generators
 - [\#14941](https://github.com/AliceO2Group/AliceO2/pull/14941) 2026-01-28: Implementation of TPC loopers in O2 by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
-## Recent developments in O2 - Steer
-- [\#14997](https://github.com/AliceO2Group/AliceO2/pull/14997) 2026-01-27: ITSMFT: fix number of rofs per TF by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
 - [\#15039](https://github.com/AliceO2Group/AliceO2/pull/15039) 2026-02-09: Utilities: Delete unused files by [@vkucera](https://github.com/vkucera)
