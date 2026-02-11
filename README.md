@@ -28,6 +28,7 @@
 - [\#15023](https://github.com/AliceO2Group/AliceO2/pull/15023) 2026-02-06: ITS: GPU: partial revert of memory clearing by [@f3sch](https://github.com/f3sch)
 - [\#15032](https://github.com/AliceO2Group/AliceO2/pull/15032) 2026-02-10: GlobalTrackingWorkflow: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15036](https://github.com/AliceO2Group/AliceO2/pull/15036) 2026-02-10: TRD: Delete unused files by [@vkucera](https://github.com/vkucera)
+- [\#15037](https://github.com/AliceO2Group/AliceO2/pull/15037) 2026-02-11: Vertexing: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15043](https://github.com/AliceO2Group/AliceO2/pull/15043) 2026-02-10: [A3 TRK] Sensor orientation fix + first try to close in-stave gaps by [@scannito](https://github.com/scannito)
 - [\#15047](https://github.com/AliceO2Group/AliceO2/pull/15047) 2026-02-10: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation

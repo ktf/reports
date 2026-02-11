@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-06T19:50:51Z",
-            "title": "[PWGLF] Temporary fix for unsorted collision Id of tracked cascades",
-            "number": 14849,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-06T20:30:27Z",
             "title": "[PWGJE] bug fixes to core tasks",
             "number": 14846,
@@ -2819,26 +2799,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Fixed the conditional clause in isAcceptedReco function to properly reject jets which was otherwise processing all jets and returned empty histos.",
-            "number": 14913,
-            "author": {
-              "login": "Archita-Dash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-11T12:33:42Z",
             "title": "[PWGDQ] Fix typo in histogram paths",
@@ -2871,51 +2831,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] only load lut if requested and move lut cleanup to geo provider",
-            "number": 14910,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
                   }
                 }
               ]
@@ -2996,6 +2911,96 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fixed the conditional clause in isAcceptedReco function to properly reject jets which was otherwise processing all jets and returned empty histos.",
+            "number": 14913,
+            "author": {
+              "login": "Archita-Dash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] only load lut if requested and move lut cleanup to geo provider",
+            "number": 14910,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add new columns to DimuonAll to flag whether a track is associated with the correct event",
+            "number": 14917,
+            "author": {
+              "login": "lstanislas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
                   }
                 }
               ]
