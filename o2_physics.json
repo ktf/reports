@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-09T09:15:30Z",
-            "title": "[PWGLF] NucleiTask - Add pt fix for wrong tracking",
-            "number": 14859,
-            "author": {
-              "login": "giovannimalfattore"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/LFTreeCreatorNuclei.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/LFNucleiBATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-09T09:15:54Z",
             "title": "[PWGCF] DptDpt - Fix centrality distribution dip at 10% in pp",
             "number": 14856,
@@ -2916,6 +2886,31 @@
                 {
                   "node": {
                     "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] pT dep. DCA_xy cut added, track selection bits added for Efficiency",
+            "number": 14927,
+            "author": {
+              "login": "nmallick19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
                   }
                 }
               ]

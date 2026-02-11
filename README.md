@@ -33,6 +33,7 @@
 - [\#15043](https://github.com/AliceO2Group/AliceO2/pull/15043) 2026-02-10: [A3 TRK] Sensor orientation fix + first try to close in-stave gaps by [@scannito](https://github.com/scannito)
 - [\#15047](https://github.com/AliceO2Group/AliceO2/pull/15047) 2026-02-10: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15062](https://github.com/AliceO2Group/AliceO2/pull/15062) 2026-02-11: DCS: Fix undefined behavior and invalid pointer access by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
