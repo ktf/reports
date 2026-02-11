@@ -35,7 +35,6 @@
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#14996](https://github.com/AliceO2Group/AliceO2/pull/14996) 2026-01-29: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
-- [\#15000](https://github.com/AliceO2Group/AliceO2/pull/15000) 2026-01-28: DPL: disable early forwarding for output proxies by [@ktf](https://github.com/ktf)
 - [\#15003](https://github.com/AliceO2Group/AliceO2/pull/15003) 2026-01-30: DPL: fix device signpost segfaults for o2-dpl-raw-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#15005](https://github.com/AliceO2Group/AliceO2/pull/15005) 2026-01-30: Revert "DPL Analysis: cleanup AnalysisTask.h and ASoA.h" by [@ktf](https://github.com/ktf)
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
