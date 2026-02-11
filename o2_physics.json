@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-06T16:19:30Z",
-            "title": "[PWGJE] add a switch for applying RCT flags, finer binnings of track p…",
-            "number": 14826,
-            "author": {
-              "login": "joonsukbae"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-06T16:21:54Z",
             "title": "[PWGJE] Added back the maximum track and cluster pT cuts at reco level only + additional jet matching function for debugs and fixes",
             "number": 14838,
@@ -2991,6 +2966,26 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fixed the conditional clause in isAcceptedReco function to properly reject jets which was otherwise processing all jets and returned empty histos.",
+            "number": 14913,
+            "author": {
+              "login": "Archita-Dash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/fullJetSpectra.cxx"
                   }
                 }
               ]
