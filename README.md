@@ -17,7 +17,6 @@
 - [\#14962](https://github.com/AliceO2Group/AliceO2/pull/14962) 2026-01-19: Optionally refit ITS outward seeding with inward refit result by [@shahor02](https://github.com/shahor02)
 - [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
 - [\#14972](https://github.com/AliceO2Group/AliceO2/pull/14972) 2026-02-05: GPU Framework: automatically generate GPUDefParametersDefaults.h by [@cima22](https://github.com/cima22)
-- [\#14979](https://github.com/AliceO2Group/AliceO2/pull/14979) 2026-01-30: ALICE 3: add fully cylindrical IRIS, correct Si thickness, add v3 building by [@plariono](https://github.com/plariono)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
