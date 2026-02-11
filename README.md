@@ -7,6 +7,7 @@
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
+- [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#15029](https://github.com/AliceO2Group/AliceO2/pull/15029) 2026-02-09: DataFormats: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15030](https://github.com/AliceO2Group/AliceO2/pull/15030) 2026-02-10: SimulationDataFormat: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
@@ -18,6 +19,7 @@
 - [\#14972](https://github.com/AliceO2Group/AliceO2/pull/14972) 2026-02-05: GPU Framework: automatically generate GPUDefParametersDefaults.h by [@cima22](https://github.com/cima22)
 - [\#14979](https://github.com/AliceO2Group/AliceO2/pull/14979) 2026-01-30: ALICE 3: add fully cylindrical IRIS, correct Si thickness, add v3 building by [@plariono](https://github.com/plariono)
 - [\#14983](https://github.com/AliceO2Group/AliceO2/pull/14983) 2026-01-21: Store missing GlobalTrackID in the CheckResid output by [@shahor02](https://github.com/shahor02)
+- [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#14992](https://github.com/AliceO2Group/AliceO2/pull/14992) 2026-01-24: PVertexer::refitVertexFull for refitting with different geom. by [@shahor02](https://github.com/shahor02)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
 - [\#15010](https://github.com/AliceO2Group/AliceO2/pull/15010) 2026-02-07: Add ability to retain TrackQA for all global tracks by [@ddobrigk](https://github.com/ddobrigk)
