@@ -32,7 +32,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#15003](https://github.com/AliceO2Group/AliceO2/pull/15003) 2026-01-30: DPL: fix device signpost segfaults for o2-dpl-raw-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#15005](https://github.com/AliceO2Group/AliceO2/pull/15005) 2026-01-30: Revert "DPL Analysis: cleanup AnalysisTask.h and ASoA.h" by [@ktf](https://github.com/ktf)
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
 - [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
@@ -42,6 +41,7 @@
 - [\#15016](https://github.com/AliceO2Group/AliceO2/pull/15016) 2026-02-05: DPL: Improve message when we do not have enough resources to process. by [@ktf](https://github.com/ktf)
 - [\#15038](https://github.com/AliceO2Group/AliceO2/pull/15038) 2026-02-09: Framework: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15046](https://github.com/AliceO2Group/AliceO2/pull/15046) 2026-02-11: DPL: oldest possible timeframe triggered CompletionPolicy by [@ktf](https://github.com/ktf)
+- [\#15053](https://github.com/AliceO2Group/AliceO2/pull/15053) 2026-02-11: DPL Analysis: fix topology adjust corner case by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Utilities
