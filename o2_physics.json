@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-09T15:45:57Z",
-            "title": "[PWGDQ,ALICE3] Updated variables, cuts and histograms for ALICE3 resolution studies.",
-            "number": 14869,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] TPC PID: Cleanup of CCDB accessors",
-            "number": 13265,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCServiceRun2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] adding efficiency correction and too for systematic studies",
@@ -2449,26 +2369,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fixed the processJeteff part of KstarInOO.cxx",
-            "number": 14914,
-            "author": {
-              "login": "JimunLee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-10T16:02:58Z",
             "title": "[ALICE3] Remove unnecessary includes, configurables and tables in ALICE3 DQ software",
@@ -2486,26 +2386,6 @@
                 {
                   "node": {
                     "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Trigger,PWGLF] Omegahm: adding extra configurable cut for HM tail",
-            "number": 14930,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
                   }
                 }
               ]
@@ -2816,6 +2696,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Updating the channel mirroring logic and adding an option to fill histograms run by run",
+            "number": 14940,
+            "author": {
+              "login": "MartijnLaarhoven"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Differentiate between b2c2e and b2cc2e, add function hasNCharmHadrons…",
+            "number": 14941,
+            "author": {
+              "login": "feisenhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/MCUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-12T14:50:00Z",
             "title": "[PWGCF] deleting duplicated qvector table usage",
             "number": 14938,
             "author": {
@@ -2836,16 +2756,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Updating the channel mirroring logic and adding an option to fill histograms run by run",
-            "number": 14940,
+            "title": "[PWGLF] Fixed the processJeteff part of KstarInOO.cxx",
+            "number": 14914,
             "author": {
-              "login": "MartijnLaarhoven"
+              "login": "JimunLee"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
                   }
                 }
               ]
@@ -2871,6 +2791,56 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsUpcHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] [Commom] deleting duplicated qvector tables",
+            "number": 14942,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGLF] Omegahm: adding extra configurable cut for HM tail",
+            "number": 14930,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
                   }
                 }
               ]
