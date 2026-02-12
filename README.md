@@ -4,7 +4,6 @@
 - [\#15025](https://github.com/AliceO2Group/AliceO2/pull/15025) 2026-02-09: Algorithm: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Analysis
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
-- [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
@@ -37,7 +36,6 @@
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
-- [\#15009](https://github.com/AliceO2Group/AliceO2/pull/15009) 2026-02-02: Revert abbreviations until we get green light from the affected people by [@ktf](https://github.com/ktf)
 - [\#15011](https://github.com/AliceO2Group/AliceO2/pull/15011) 2026-02-03: Disable tests for reverted exceptions by [@ktf](https://github.com/ktf)
 - [\#15012](https://github.com/AliceO2Group/AliceO2/pull/15012) 2026-02-03: Brown paperbag issue with reverted feature. by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
