@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-09T09:16:27Z",
-            "title": "[PWGHF] Add hadron and electron PID cuts in HFE–hadron correlation",
-            "number": 14767,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-09T09:09:51Z",
             "title": "[PWGEM] PhotonMeson: Add basic QA for V0Photons",
             "number": 14842,
@@ -1030,31 +1005,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-10T16:02:58Z",
-            "title": "[ALICE3] Remove unnecessary includes, configurables and tables in ALICE3 DQ software",
-            "number": 14887,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-10T16:07:08Z",
             "title": "[PWGHF,Tools] Address Bug tracker issues in LcToPKPi-related files",
             "number": 14358,
@@ -1850,26 +1800,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-11T08:51:17Z",
-            "title": "[ALICE3] Mark variables as maybe unused",
-            "number": 14907,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-11T09:51:27Z",
             "title": "[PWGLF] Remove fix on Preslice of TrackedCascData",
             "number": 14906,
@@ -2389,26 +2319,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] modify corrfig log info and add V02",
-            "number": 14919,
-            "author": {
-              "login": "Luzhiyongg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGHF] Fix sgSelector defaults and reduce UPC QA histogram binning",
@@ -2856,26 +2766,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] taskSingleMuonMult.cxx Single muon multiplicity Update",
-            "number": 14885,
-            "author": {
-              "login": "mislam17"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleMuonMult.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
             "number": 14145,
             "author": {
@@ -2906,6 +2796,111 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] taskSingleMuonMult.cxx Single muon multiplicity Update",
+            "number": 14885,
+            "author": {
+              "login": "mislam17"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskSingleMuonMult.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-10T16:02:58Z",
+            "title": "[ALICE3] Remove unnecessary includes, configurables and tables in ALICE3 DQ software",
+            "number": 14887,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGLF] Omegahm: adding extra configurable cut for HM tail",
+            "number": 14930,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-11T08:51:17Z",
+            "title": "[ALICE3] Mark variables as maybe unused",
+            "number": 14907,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-12T09:04:21Z",
+            "title": "[PWGCF] modify corrfig log info and add V02",
+            "number": 14919,
+            "author": {
+              "login": "Luzhiyongg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
                   }
                 }
               ]
