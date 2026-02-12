@@ -3701,76 +3701,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "MUON: Delete unused files",
-            "number": 15027,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MCH/src/DsChannelGroup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Mapping/SegContour/src/SegmentationSVGWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferCRUBare.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferCRUUserLogic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferGBTBare.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferGBTUserLogic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/test/bench_Filter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/DecodedDataDumpSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/RawAggregatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/DecodedDataDumpSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/decoded-data-dump-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "HMPID: Delete unused files",
             "number": 15033,
             "author": {
@@ -4506,6 +4436,156 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "MID: remove input wildcards in MID workflows",
+            "number": 15049,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/ColumnDataSpecsUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/CalibDataProcessorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/ClusterizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/ColumnDataSpecsUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/DecodedDataAggregatorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/FilteringBCSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/FilteringSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/MaskMakerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/TimingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/ZeroSuppressionSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-02-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-02-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-12T08:01:29Z",
+            "title": "ITS3: load chip response functions from ccdb",
+            "number": 15051,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckChipResponseFile.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-12T08:01:55Z",
+            "title": "ITS3: split longerons, improving stepping speed",
+            "number": 15052,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SpecsV2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/ITS3Layer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/ITS3Layer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "ITSMFT: scaffolding for staggered clusterization",
             "number": 15004,
             "author": {
@@ -4651,146 +4731,66 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "MID: remove input wildcards in MID workflows",
-            "number": 15049,
+            "title": "MUON: Delete unused files",
+            "number": 15027,
             "author": {
-              "login": "ehellbar"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/ColumnDataSpecsUtils.h"
+                    "path": "DataFormats/Detectors/MUON/MCH/src/DsChannelGroup.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/CalibDataProcessorSpec.cxx"
+                    "path": "Detectors/MUON/MCH/Mapping/SegContour/src/SegmentationSVGWriter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/ClusterizerSpec.cxx"
+                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferCRUBare.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/ColumnDataSpecsUtils.cxx"
+                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferCRUUserLogic.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/DecodedDataAggregatorSpec.cxx"
+                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferGBTBare.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/EntropyEncoderSpec.cxx"
+                    "path": "Detectors/MUON/MCH/Raw/Encoder/Payload/RefBufferGBTUserLogic.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/FilteringBCSpec.cxx"
+                    "path": "Detectors/MUON/MID/Filtering/test/bench_Filter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/FilteringSpec.cxx"
+                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/DecodedDataDumpSpec.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/MaskMakerSpec.cxx"
+                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/RawAggregatorSpec.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/TimingSpec.cxx"
+                    "path": "Detectors/MUON/MID/Workflow/src/DecodedDataDumpSpec.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/ZeroSuppressionSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-02-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-02-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-12T08:01:29Z",
-            "title": "ITS3: load chip response functions from ccdb",
-            "number": 15051,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckChipResponseFile.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-12T08:01:55Z",
-            "title": "ITS3: split longerons, improving stepping speed",
-            "number": 15052,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SpecsV2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/ITS3Layer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/ITS3Layer.cxx"
+                    "path": "Detectors/MUON/MID/Workflow/src/decoded-data-dump-workflow.cxx"
                   }
                 }
               ]
