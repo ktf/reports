@@ -13,7 +13,6 @@
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#14900](https://github.com/AliceO2Group/AliceO2/pull/14900) 2026-01-16: TPC_MC_anchoring_simple: Added per region relative gas gain to simulate the change in the voltage settings of GEMs by [@tubagundem](https://github.com/tubagundem)
-- [\#14928](https://github.com/AliceO2Group/AliceO2/pull/14928) 2026-01-13: reduce verbosity of ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 - [\#14957](https://github.com/AliceO2Group/AliceO2/pull/14957) 2026-01-15: Fix ITS/MFT clusterization for some complex shapes, O2-6424. by [@shahor02](https://github.com/shahor02)
 - [\#14962](https://github.com/AliceO2Group/AliceO2/pull/14962) 2026-01-19: Optionally refit ITS outward seeding with inward refit result by [@shahor02](https://github.com/shahor02)
 - [\#14969](https://github.com/AliceO2Group/AliceO2/pull/14969) 2026-01-28: Add extra info with charge and timing to unbinned residuals by [@shahor02](https://github.com/shahor02)
