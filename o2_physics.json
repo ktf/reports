@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-10T14:08:37Z",
-            "title": "[PWGCF] FemtoUniverse: Fix ranges in FracSharedTPCCluster histogram",
-            "number": 14889,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-10T14:24:55Z",
-            "title": "[ALICE3] fix for when using ini file for a3 detector setup from ccdb",
-            "number": 14886,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-10T14:47:26Z",
             "title": "[PWGDQ] Adding the new event Selection kIsTVXTriggered",
             "number": 14851,
@@ -2876,6 +2831,71 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Trigger,PWGHF] Nj ev lb",
+            "number": 14747,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/H2fromLbFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add new columns to dimuonAll to flag track-collision association",
+            "number": 14959,
+            "author": {
+              "login": "lstanislas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
