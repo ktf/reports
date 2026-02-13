@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-10T14:47:26Z",
-            "title": "[PWGDQ] Adding the new event Selection kIsTVXTriggered",
-            "number": 14851,
-            "author": {
-              "login": "rebeccacerri"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-10T15:25:34Z",
             "title": "[ALICE3] Remove outdated fasttracker methods",
             "number": 14844,
@@ -2246,6 +2216,261 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] Separate the geometry into a separate header",
+            "number": 14950,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/GeometryContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/GeometryContainer.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-11T11:20:07Z",
+            "title": "[PWGHF] Implement the kaon PID strategy used in Run2 into the charm track femto task",
+            "number": 14898,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/producerCharmHadronsTrackFemtoDream.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsTrackFemtoDream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-13T13:47:31Z",
+            "title": "[PWGJE] Adding features for derived data",
+            "number": 14953,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM,PWGEM-36] Add EMNonLin class",
+            "number": 14958,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMNonLin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMNonLin.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/calibTaskEmc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
+            "number": 14145,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Separate TPCnsigma cut for tracks and daughters, pair debug histograms",
+            "number": 14954,
+            "author": {
+              "login": "alicja-pp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Trigger,PWGHF] Nj ev lb",
+            "number": 14747,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/H2fromLbFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add new columns to dimuonAll to flag track-collision association",
+            "number": 14959,
+            "author": {
+              "login": "lstanislas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] IWYU. Minor fixes. Remove mass aliases.",
             "number": 14498,
             "author": {
@@ -2651,223 +2876,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Separate the geometry into a separate header",
-            "number": 14950,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/GeometryContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/GeometryContainer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-11T11:20:07Z",
-            "title": "[PWGHF] Implement the kaon PID strategy used in Run2 into the charm track femto task",
-            "number": 14898,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/producerCharmHadronsTrackFemtoDream.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsTrackFemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-13T13:47:31Z",
-            "title": "[PWGJE] Adding features for derived data",
-            "number": 14953,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalClusterHadronicCorrectionTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM,PWGEM-36] Add EMNonLin class",
-            "number": 14958,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMNonLin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMNonLin.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/calibTaskEmc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf=single to improve linking",
-            "number": 14145,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Separate TPCnsigma cut for tracks and daughters, pair debug histograms",
-            "number": 14954,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Trigger,PWGHF] Nj ev lb",
-            "number": 14747,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/H2fromLbFilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add new columns to dimuonAll to flag track-collision association",
-            "number": 14959,
+            "title": "[PWGDQ] Add new columns to dimuonAll to flag track-collision associations",
+            "number": 14960,
             "author": {
               "login": "lstanislas"
             },
