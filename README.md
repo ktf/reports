@@ -34,6 +34,7 @@
 - [\#15052](https://github.com/AliceO2Group/AliceO2/pull/15052) 2026-02-12: ITS3: split longerons, improving stepping speed by [@f3sch](https://github.com/f3sch)
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15062](https://github.com/AliceO2Group/AliceO2/pull/15062) 2026-02-11: DCS: Fix undefined behavior and invalid pointer access by [@davidrohr](https://github.com/davidrohr)
+- [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
@@ -52,5 +53,8 @@
 - [\#15061](https://github.com/AliceO2Group/AliceO2/pull/15061) 2026-02-12: DPL: introduce range based views to navigate data model by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15068](https://github.com/AliceO2Group/AliceO2/pull/15068) 2026-02-13: Fix Header info forwarding by [@jackal1-66](https://github.com/jackal1-66)
+## Recent developments in O2 - Steer
+- [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#15039](https://github.com/AliceO2Group/AliceO2/pull/15039) 2026-02-09: Utilities: Delete unused files by [@vkucera](https://github.com/vkucera)
