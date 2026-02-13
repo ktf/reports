@@ -5,6 +5,8 @@
 ## Recent developments in O2 - Analysis
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Common
+- [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
@@ -44,6 +46,7 @@
 - [\#15016](https://github.com/AliceO2Group/AliceO2/pull/15016) 2026-02-05: DPL: Improve message when we do not have enough resources to process. by [@ktf](https://github.com/ktf)
 - [\#15038](https://github.com/AliceO2Group/AliceO2/pull/15038) 2026-02-09: Framework: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15046](https://github.com/AliceO2Group/AliceO2/pull/15046) 2026-02-11: DPL: oldest possible timeframe triggered CompletionPolicy by [@ktf](https://github.com/ktf)
+- [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 - [\#15053](https://github.com/AliceO2Group/AliceO2/pull/15053) 2026-02-11: DPL Analysis: fix topology adjust corner case by [@aalkin](https://github.com/aalkin)
 - [\#15061](https://github.com/AliceO2Group/AliceO2/pull/15061) 2026-02-12: DPL: introduce range based views to navigate data model by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
