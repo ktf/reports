@@ -29,6 +29,7 @@
 - [\#15036](https://github.com/AliceO2Group/AliceO2/pull/15036) 2026-02-10: TRD: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15037](https://github.com/AliceO2Group/AliceO2/pull/15037) 2026-02-11: Vertexing: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15043](https://github.com/AliceO2Group/AliceO2/pull/15043) 2026-02-10: [A3 TRK] Sensor orientation fix + first try to close in-stave gaps by [@scannito](https://github.com/scannito)
+- [\#15045](https://github.com/AliceO2Group/AliceO2/pull/15045) 2026-02-14: Add option to compress out non-dEdx info in TrackQA table by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15047](https://github.com/AliceO2Group/AliceO2/pull/15047) 2026-02-10: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
 - [\#15051](https://github.com/AliceO2Group/AliceO2/pull/15051) 2026-02-12: ITS3: load chip response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#15052](https://github.com/AliceO2Group/AliceO2/pull/15052) 2026-02-12: ITS3: split longerons, improving stepping speed by [@f3sch](https://github.com/f3sch)
