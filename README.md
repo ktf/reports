@@ -50,6 +50,7 @@
 - [\#15046](https://github.com/AliceO2Group/AliceO2/pull/15046) 2026-02-11: DPL: oldest possible timeframe triggered CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 - [\#15053](https://github.com/AliceO2Group/AliceO2/pull/15053) 2026-02-11: DPL Analysis: fix topology adjust corner case by [@aalkin](https://github.com/aalkin)
+- [\#15059](https://github.com/AliceO2Group/AliceO2/pull/15059) 2026-02-15: DPL Examples: use the new completion policy for parallel processing by [@ktf](https://github.com/ktf)
 - [\#15061](https://github.com/AliceO2Group/AliceO2/pull/15061) 2026-02-12: DPL: introduce range based views to navigate data model by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
