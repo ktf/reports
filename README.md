@@ -14,7 +14,6 @@
 - [\#15030](https://github.com/AliceO2Group/AliceO2/pull/15030) 2026-02-10: SimulationDataFormat: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#14900](https://github.com/AliceO2Group/AliceO2/pull/14900) 2026-01-16: TPC_MC_anchoring_simple: Added per region relative gas gain to simulate the change in the voltage settings of GEMs by [@tubagundem](https://github.com/tubagundem)
 - [\#14972](https://github.com/AliceO2Group/AliceO2/pull/14972) 2026-02-05: GPU Framework: automatically generate GPUDefParametersDefaults.h by [@cima22](https://github.com/cima22)
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
