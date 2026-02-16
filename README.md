@@ -36,6 +36,7 @@
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15062](https://github.com/AliceO2Group/AliceO2/pull/15062) 2026-02-11: DCS: Fix undefined behavior and invalid pointer access by [@davidrohr](https://github.com/davidrohr)
 - [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
+- [\#15066](https://github.com/AliceO2Group/AliceO2/pull/15066) 2026-02-16: First version of the hit based CA tracker for ALICE3 IT/OT by [@mpuccio](https://github.com/mpuccio)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
