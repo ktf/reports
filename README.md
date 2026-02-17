@@ -4,6 +4,7 @@
 - [\#15025](https://github.com/AliceO2Group/AliceO2/pull/15025) 2026-02-09: Algorithm: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Analysis
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
+- [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
@@ -44,6 +45,7 @@
 - [\#15056](https://github.com/AliceO2Group/AliceO2/pull/15056) 2026-02-13: Update examples on AO2D creation from MCTracks by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
+- [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15011](https://github.com/AliceO2Group/AliceO2/pull/15011) 2026-02-03: Disable tests for reverted exceptions by [@ktf](https://github.com/ktf)
 - [\#15012](https://github.com/AliceO2Group/AliceO2/pull/15012) 2026-02-03: Brown paperbag issue with reverted feature. by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
