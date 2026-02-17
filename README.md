@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15025](https://github.com/AliceO2Group/AliceO2/pull/15025) 2026-02-09: Algorithm: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Analysis
-- [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
@@ -15,7 +14,6 @@
 - [\#15030](https://github.com/AliceO2Group/AliceO2/pull/15030) 2026-02-10: SimulationDataFormat: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#14972](https://github.com/AliceO2Group/AliceO2/pull/14972) 2026-02-05: GPU Framework: automatically generate GPUDefParametersDefaults.h by [@cima22](https://github.com/cima22)
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
@@ -23,7 +21,6 @@
 - [\#15010](https://github.com/AliceO2Group/AliceO2/pull/15010) 2026-02-07: Add ability to retain TrackQA for all global tracks by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
-- [\#15023](https://github.com/AliceO2Group/AliceO2/pull/15023) 2026-02-06: ITS: GPU: partial revert of memory clearing by [@f3sch](https://github.com/f3sch)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15032](https://github.com/AliceO2Group/AliceO2/pull/15032) 2026-02-10: GlobalTrackingWorkflow: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15034](https://github.com/AliceO2Group/AliceO2/pull/15034) 2026-02-11: MFT: Delete unused files by [@vkucera](https://github.com/vkucera)
@@ -49,12 +46,8 @@
 ## Recent developments in O2 - Examples
 - [\#15056](https://github.com/AliceO2Group/AliceO2/pull/15056) 2026-02-13: Update examples on AO2D creation from MCTracks by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#15006](https://github.com/AliceO2Group/AliceO2/pull/15006) 2026-01-31: DPL: improve type_to_task_name function by [@ktf](https://github.com/ktf)
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
-- [\#15011](https://github.com/AliceO2Group/AliceO2/pull/15011) 2026-02-03: Disable tests for reverted exceptions by [@ktf](https://github.com/ktf)
-- [\#15012](https://github.com/AliceO2Group/AliceO2/pull/15012) 2026-02-03: Brown paperbag issue with reverted feature. by [@ktf](https://github.com/ktf)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
-- [\#15016](https://github.com/AliceO2Group/AliceO2/pull/15016) 2026-02-05: DPL: Improve message when we do not have enough resources to process. by [@ktf](https://github.com/ktf)
 - [\#15038](https://github.com/AliceO2Group/AliceO2/pull/15038) 2026-02-09: Framework: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15046](https://github.com/AliceO2Group/AliceO2/pull/15046) 2026-02-11: DPL: oldest possible timeframe triggered CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
@@ -62,7 +55,6 @@
 - [\#15059](https://github.com/AliceO2Group/AliceO2/pull/15059) 2026-02-15: DPL Examples: use the new completion policy for parallel processing by [@ktf](https://github.com/ktf)
 - [\#15061](https://github.com/AliceO2Group/AliceO2/pull/15061) 2026-02-12: DPL: introduce range based views to navigate data model by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#15013](https://github.com/AliceO2Group/AliceO2/pull/15013) 2026-02-04: Fix and improve TPC Loopers implementation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15068](https://github.com/AliceO2Group/AliceO2/pull/15068) 2026-02-13: Fix Header info forwarding by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
