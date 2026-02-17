@@ -4421,36 +4421,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Adapt CA for 2T simulations",
-            "number": 15075,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/include/TRKReconstruction/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TimeFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/src/TrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TPC: Delete unused files",
             "number": 15035,
             "author": {
@@ -4821,6 +4791,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Change to upper-case 'S' in \"FT3sensor_*\" strings ",
+            "number": 15078,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Module.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4849,23 +4844,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Change to upper-case 'S' in \"FT3sensor_*\" strings ",
-            "number": 15078,
+            "state": "MERGED",
+            "mergedAt": "2026-02-17T21:08:44Z",
+            "title": "[ALICE3] Adapt CA for 2T simulations",
+            "number": 15075,
             "author": {
-              "login": "altsybee"
+              "login": "mpuccio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/Detector.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/include/TRKReconstruction/TimeFrame.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Module.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TimeFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/src/TrackerSpec.cxx"
                   }
                 }
               ]

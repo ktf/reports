@@ -43,6 +43,7 @@
 - [\#15070](https://github.com/AliceO2Group/AliceO2/pull/15070) 2026-02-17: ALICE3-TRK: adapt ordering key for digits to the large number of columns in the VD by [@atriolo](https://github.com/atriolo)
 - [\#15072](https://github.com/AliceO2Group/AliceO2/pull/15072) 2026-02-17: [ALICE3] Fix geometry overlaps in tracker (ML/OT) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15073](https://github.com/AliceO2Group/AliceO2/pull/15073) 2026-02-17: A3: Add geometries for IOTOF by [@njacazio](https://github.com/njacazio)
+- [\#15075](https://github.com/AliceO2Group/AliceO2/pull/15075) 2026-02-17: [ALICE3] Adapt CA for 2T simulations by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Examples
