@@ -40,6 +40,7 @@
 - [\#15070](https://github.com/AliceO2Group/AliceO2/pull/15070) 2026-02-17: ALICE3-TRK: adapt ordering key for digits to the large number of columns in the VD by [@atriolo](https://github.com/atriolo)
 - [\#15072](https://github.com/AliceO2Group/AliceO2/pull/15072) 2026-02-17: [ALICE3] Fix geometry overlaps in tracker (ML/OT) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15073](https://github.com/AliceO2Group/AliceO2/pull/15073) 2026-02-17: A3: Add geometries for IOTOF by [@njacazio](https://github.com/njacazio)
+- [\#15074](https://github.com/AliceO2Group/AliceO2/pull/15074) 2026-02-18: ALICE3-TRK: fix detector ID assignment to hits by [@atriolo](https://github.com/atriolo)
 - [\#15075](https://github.com/AliceO2Group/AliceO2/pull/15075) 2026-02-17: [ALICE3] Adapt CA for 2T simulations by [@mpuccio](https://github.com/mpuccio)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
