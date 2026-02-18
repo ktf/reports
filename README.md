@@ -61,5 +61,3 @@
 ## Recent developments in O2 - Steer
 - [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#15039](https://github.com/AliceO2Group/AliceO2/pull/15039) 2026-02-09: Utilities: Delete unused files by [@vkucera](https://github.com/vkucera)
