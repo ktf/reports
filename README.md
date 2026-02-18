@@ -19,7 +19,6 @@
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#15002](https://github.com/AliceO2Group/AliceO2/pull/15002) 2026-02-02: Leave single implementation of TRD RecoParam by [@shahor02](https://github.com/shahor02)
 - [\#15004](https://github.com/AliceO2Group/AliceO2/pull/15004) 2026-02-12: ITSMFT: scaffolding for staggered clusterization by [@f3sch](https://github.com/f3sch)
-- [\#15010](https://github.com/AliceO2Group/AliceO2/pull/15010) 2026-02-07: Add ability to retain TrackQA for all global tracks by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
