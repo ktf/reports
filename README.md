@@ -11,7 +11,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15029](https://github.com/AliceO2Group/AliceO2/pull/15029) 2026-02-09: DataFormats: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15030](https://github.com/AliceO2Group/AliceO2/pull/15030) 2026-02-10: SimulationDataFormat: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
