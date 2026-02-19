@@ -47,8 +47,6 @@
 - [\#15078](https://github.com/AliceO2Group/AliceO2/pull/15078) 2026-02-19: [ALICE3] Change to upper-case 'S' in "FT3sensor_*" strings  by [@altsybee](https://github.com/altsybee)
 - [\#15079](https://github.com/AliceO2Group/AliceO2/pull/15079) 2026-02-19: [ITS] Protect ultra low pt selections at the tracklet level by [@mpuccio](https://github.com/mpuccio)
 - [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
-## Recent developments in O2 - EventVisualisation
-- [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Examples
 - [\#15056](https://github.com/AliceO2Group/AliceO2/pull/15056) 2026-02-13: Update examples on AO2D creation from MCTracks by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
