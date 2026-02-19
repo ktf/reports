@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-16T08:42:29Z",
-            "title": "[PWGLF] Added the nEvents_Gen of processJetsGen of KstarInOO.cxx",
-            "number": 14977,
-            "author": {
-              "login": "JimunLee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-22T14:42:42Z",
             "title": "[PWGLF] Strangeness: v0s in jets fix selections for derived data",
             "number": 14324,
@@ -2275,36 +2255,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] added extended table and fixed downscaling",
-            "number": 15055,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] set trackParCov pid before fasttracker smearing",
             "number": 15056,
             "author": {
@@ -2375,16 +2325,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Add per BCId definition of mu",
-            "number": 15044,
+            "title": "[PWGLF] added extended table and fixed downscaling",
+            "number": 15055,
             "author": {
-              "login": "fgrosa"
+              "login": "GiorgioAlbertoLucia"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiStabilityPP.cxx"
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
@@ -2430,6 +2390,46 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsPid.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Add per BCId definition of mu",
+            "number": 15044,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/lumiStabilityPP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix B mass determination in B->JPsi(->µµ)X data creator",
+            "number": 15059,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJpsiHadReduced.cxx"
                   }
                 }
               ]
