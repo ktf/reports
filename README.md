@@ -26,6 +26,7 @@
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15032](https://github.com/AliceO2Group/AliceO2/pull/15032) 2026-02-10: GlobalTrackingWorkflow: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15034](https://github.com/AliceO2Group/AliceO2/pull/15034) 2026-02-11: MFT: Delete unused files by [@vkucera](https://github.com/vkucera)
+- [\#15035](https://github.com/AliceO2Group/AliceO2/pull/15035) 2026-02-19: TPC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15036](https://github.com/AliceO2Group/AliceO2/pull/15036) 2026-02-10: TRD: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15037](https://github.com/AliceO2Group/AliceO2/pull/15037) 2026-02-11: Vertexing: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15043](https://github.com/AliceO2Group/AliceO2/pull/15043) 2026-02-10: [A3 TRK] Sensor orientation fix + first try to close in-stave gaps by [@scannito](https://github.com/scannito)
