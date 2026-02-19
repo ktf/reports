@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#15025](https://github.com/AliceO2Group/AliceO2/pull/15025) 2026-02-09: Algorithm: Delete unused files by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Analysis
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
