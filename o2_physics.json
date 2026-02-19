@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Common] Zorro: use scalers and fix normalisation computation",
-            "number": 14259,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/Zorro.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/ZorroSummary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/ZorroSummary.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-14T06:58:49Z",
-            "title": "[ALICE3] Fix geo provider",
-            "number": 14970,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDetectorGeometryProvider.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-14T12:37:20Z",
             "title": "[PWGEM] Add fillRec for b2cc2l histograms in checkMCPairTemplates",
@@ -2315,31 +2265,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Trigger,PWGHF] Add forceTOF for bach proton in Lc* resonances",
-            "number": 15019,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF,PWGMM] Add per BCId definition of mu",
             "number": 15044,
             "author": {
@@ -2390,6 +2315,81 @@
                 {
                   "node": {
                     "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] separate flags to enable Lc and Sc THnSparses.",
+            "number": 15045,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Jet substructure SoftDrop",
+            "number": 14916,
+            "author": {
+              "login": "louisemillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetSubstructure.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureSoftDrop.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGHF] Add forceTOF for bach proton in Lc* resonances",
+            "number": 15019,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
                   }
                 }
               ]

@@ -10,6 +10,7 @@
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#14986](https://github.com/AliceO2Group/AliceO2/pull/14986) 2026-02-11: EventsPerBC calibration task for FT0 (O2-6563) by [@wpierozak](https://github.com/wpierozak)
+- [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15030](https://github.com/AliceO2Group/AliceO2/pull/15030) 2026-02-10: SimulationDataFormat: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -21,6 +22,7 @@
 - [\#15004](https://github.com/AliceO2Group/AliceO2/pull/15004) 2026-02-12: ITSMFT: scaffolding for staggered clusterization by [@f3sch](https://github.com/f3sch)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
+- [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15032](https://github.com/AliceO2Group/AliceO2/pull/15032) 2026-02-10: GlobalTrackingWorkflow: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15034](https://github.com/AliceO2Group/AliceO2/pull/15034) 2026-02-11: MFT: Delete unused files by [@vkucera](https://github.com/vkucera)
