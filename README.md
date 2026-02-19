@@ -42,6 +42,7 @@
 - [\#15074](https://github.com/AliceO2Group/AliceO2/pull/15074) 2026-02-18: ALICE3-TRK: fix detector ID assignment to hits by [@atriolo](https://github.com/atriolo)
 - [\#15075](https://github.com/AliceO2Group/AliceO2/pull/15075) 2026-02-17: [ALICE3] Adapt CA for 2T simulations by [@mpuccio](https://github.com/mpuccio)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
+- [\#15078](https://github.com/AliceO2Group/AliceO2/pull/15078) 2026-02-19: [ALICE3] Change to upper-case 'S' in "FT3sensor_*" strings  by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - EventVisualisation
 - [\#14948](https://github.com/AliceO2Group/AliceO2/pull/14948) 2026-02-09: Event Display: add OnlineMode and safety checks by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Examples
