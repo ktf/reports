@@ -49,6 +49,7 @@
 - [\#15078](https://github.com/AliceO2Group/AliceO2/pull/15078) 2026-02-19: [ALICE3] Change to upper-case 'S' in "FT3sensor_*" strings  by [@altsybee](https://github.com/altsybee)
 - [\#15079](https://github.com/AliceO2Group/AliceO2/pull/15079) 2026-02-19: [ITS] Protect ultra low pt selections at the tracklet level by [@mpuccio](https://github.com/mpuccio)
 - [\#15080](https://github.com/AliceO2Group/AliceO2/pull/15080) 2026-02-19: path for LHCphase ccdb configurable by [@noferini](https://github.com/noferini)
+- [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
 - [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
 - [\#15084](https://github.com/AliceO2Group/AliceO2/pull/15084) 2026-02-20: FT0: Implemented condtion on sum of amplitudes in EventsPerBc calibration by [@wpierozak](https://github.com/wpierozak)
 - [\#15085](https://github.com/AliceO2Group/AliceO2/pull/15085) 2026-02-20: [A3 TRK] Fix services crossing by [@scannito](https://github.com/scannito)
