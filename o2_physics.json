@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-17T11:43:05Z",
-            "title": "[ALICE3] Update lutmaker",
-            "number": 15001,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-lutmaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-17T11:45:48Z",
-            "title": "[PWGCF] Update femto framework",
-            "number": 14988,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/collisionBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-17T13:33:19Z",
             "title": "[PWGLF,PWGMM] Fix typo in criterion to skip delta of BCs between two stored BCs for mu calculation",
             "number": 15003,
@@ -2448,6 +2403,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-20T17:49:08Z",
+            "title": "[ALICE3] set trackParCov pid before fasttracker smearing",
+            "number": 15056,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] heavyionmultiplicity.cxx",
@@ -2468,18 +2443,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-20T17:49:08Z",
-            "title": "[ALICE3] set trackParCov pid before fasttracker smearing",
-            "number": 15056,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add INEL cut and QA in task partNumFluc",
+            "number": 15079,
             "author": {
-              "login": "jesgum"
+              "login": "fsii"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] NucleiTask - Fixed wrong pid for tracking in MC",
+            "number": 15080,
+            "author": {
+              "login": "giovannimalfattore"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/LFNucleiBATask.cxx"
                   }
                 }
               ]
