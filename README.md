@@ -58,7 +58,6 @@
 ## Recent developments in O2 - Framework
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
-- [\#15038](https://github.com/AliceO2Group/AliceO2/pull/15038) 2026-02-09: Framework: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15046](https://github.com/AliceO2Group/AliceO2/pull/15046) 2026-02-11: DPL: oldest possible timeframe triggered CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 - [\#15053](https://github.com/AliceO2Group/AliceO2/pull/15053) 2026-02-11: DPL Analysis: fix topology adjust corner case by [@aalkin](https://github.com/aalkin)
