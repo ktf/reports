@@ -23,7 +23,6 @@
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15032](https://github.com/AliceO2Group/AliceO2/pull/15032) 2026-02-10: GlobalTrackingWorkflow: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15034](https://github.com/AliceO2Group/AliceO2/pull/15034) 2026-02-11: MFT: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15035](https://github.com/AliceO2Group/AliceO2/pull/15035) 2026-02-19: TPC: Delete unused files by [@vkucera](https://github.com/vkucera)
