@@ -31,6 +31,7 @@
 - [\#15037](https://github.com/AliceO2Group/AliceO2/pull/15037) 2026-02-11: Vertexing: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15045](https://github.com/AliceO2Group/AliceO2/pull/15045) 2026-02-14: Add option to compress out non-dEdx info in TrackQA table by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15047](https://github.com/AliceO2Group/AliceO2/pull/15047) 2026-02-10: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
+- [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15051](https://github.com/AliceO2Group/AliceO2/pull/15051) 2026-02-12: ITS3: load chip response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#15052](https://github.com/AliceO2Group/AliceO2/pull/15052) 2026-02-12: ITS3: split longerons, improving stepping speed by [@f3sch](https://github.com/f3sch)
 - [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
