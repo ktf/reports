@@ -3094,51 +3094,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "POD version of TPCFastSpaceChargeCorrection",
-            "number": 13301,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformPOD.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformPOD.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-17T20:54:35Z",
             "title": "A3: Add geometries for IOTOF",
@@ -4246,6 +4201,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "o2sim: fix time aggregation in dpl-eventgen",
+            "number": 15091,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/dpl_eventgen.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_to_aod.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "ZDC: Delete unused files",
             "number": 15028,
             "author": {
@@ -4279,33 +4269,43 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
-            "title": "o2sim: fix time aggregation in dpl-eventgen",
-            "number": 15091,
+            "title": "POD version of TPCFastSpaceChargeCorrection",
+            "number": 13301,
             "author": {
-              "login": "aalkin"
+              "login": "shahor02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Generators/include/Generators/GeneratorService.h"
+                    "path": "GPU/TPCFastTransformation/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/src/GeneratorService.cxx"
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "run/dpl_eventgen.cxx"
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "run/o2sim_mctracks_to_aod.cxx"
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformPOD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformPOD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
                   }
                 }
               ]
@@ -4355,7 +4355,17 @@
                 },
                 {
                   "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.h"
                   }
                 }
               ]
