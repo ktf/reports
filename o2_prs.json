@@ -4281,6 +4281,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "o2sim: fix time aggregation in dpl-eventgen",
+            "number": 15091,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/dpl_eventgen.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_to_aod.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[WIP] add treatment of TOF DRM Errors",
             "number": 15090,
             "author": {
@@ -4317,40 +4352,10 @@
                   "node": {
                     "path": "Detectors/TOF/prototyping/makeDRMobj_tof.C"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "o2sim: fix time aggregation in dpl-eventgen",
-            "number": 15091,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorService.h"
-                  }
                 },
                 {
                   "node": {
-                    "path": "Generators/src/GeneratorService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/dpl_eventgen.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_mctracks_to_aod.cxx"
+                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.cxx"
                   }
                 }
               ]
