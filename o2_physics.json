@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-23T07:44:51Z",
-            "title": "[PWGLF] Added switch for sel8 selection",
-            "number": 14590,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-20T18:07:06Z",
             "title": "[PWGHF] Fix B mass determination in B->JPsi(->µµ)X data creator",
             "number": 15059,
@@ -1910,26 +1890,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Fixing missing table bug in MCD task",
-            "number": 15121,
-            "author": {
-              "login": "dajones2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Add SlimTables data model and producer for future standalone embedding studies",
             "number": 15132,
             "author": {
@@ -2713,7 +2673,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse V0 Task -- implemented bitmask for mc reco and fixed mc collision check for v0 mc in the producer",
             "number": 15136,
@@ -2749,7 +2709,67 @@
               "edges": [
                 {
                   "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGHF/Utils/utilsPid.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Update on Xi1820 Analysis and add the Armenteros-Qt, Alpha info. on the ResoV0s table",
+            "number": 15140,
+            "author": {
+              "login": "mjkim525"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse Producer -- fixed mc collision reco check for v0",
+            "number": 15142,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
                   }
                 }
               ]
@@ -2803,33 +2823,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] [PWGLF]Update Xi1820 Analysis and add Armenteros-Qt, Alpha info. on ResoV0s",
-            "number": 15140,
+            "state": "MERGED",
+            "mergedAt": "2026-02-24T13:08:31Z",
+            "title": "[PWGJE] Fixing missing table bug in MCD task",
+            "number": 15121,
             "author": {
-              "login": "mjkim525"
+              "login": "dajones2"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
                   }
                 }
               ]

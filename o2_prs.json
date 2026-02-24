@@ -3746,66 +3746,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] add treatment of TOF DRM Errors",
-            "number": 15090,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/Diagnostic.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/CalibTOFapi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/CalibTOFapi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/prototyping/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/prototyping/checkDRMobj_tof.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/prototyping/makeDRMobj_tof.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "ZDC: Delete unused files",
             "number": 15028,
             "author": {
@@ -4169,6 +4109,96 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-24T12:32:51Z",
+            "title": "Fix missing accumulate of covmatrix in fall-back case",
+            "number": 15094,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-24T12:33:41Z",
+            "title": "Workaround for HepMC3 bug",
+            "number": 15093,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-24T12:40:16Z",
+            "title": "Update MC header when using event pool generator",
+            "number": 15092,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-02-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-02-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Fix in CTFCoders initialization + default --ctf-dict none for encoders",
@@ -4344,88 +4374,73 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-24T12:32:51Z",
-            "title": "Fix missing accumulate of covmatrix in fall-back case",
-            "number": 15094,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-24T12:33:41Z",
-            "title": "Workaround for HepMC3 bug",
-            "number": 15093,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-24T12:40:16Z",
-            "title": "Update MC header when using event pool generator",
-            "number": 15092,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "[WIP] add treatment of TOF DRM Errors",
+            "number": 15090,
             "author": {
-              "login": "github-actions"
+              "login": "noferini"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/Diagnostic.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-02-o2_prs.json"
+                    "path": "Detectors/TOF/base/include/TOFBase/CalibTOFapi.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-02-o2_releases.json"
+                    "path": "Detectors/TOF/base/include/TOFBase/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/CalibTOFapi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/prototyping/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/prototyping/checkDRMobj_tof.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/prototyping/makeDRMobj_tof.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.h"
                   }
                 }
               ]
