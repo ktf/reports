@@ -25,7 +25,6 @@
 - [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15034](https://github.com/AliceO2Group/AliceO2/pull/15034) 2026-02-11: MFT: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15035](https://github.com/AliceO2Group/AliceO2/pull/15035) 2026-02-19: TPC: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15037](https://github.com/AliceO2Group/AliceO2/pull/15037) 2026-02-11: Vertexing: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15045](https://github.com/AliceO2Group/AliceO2/pull/15045) 2026-02-14: Add option to compress out non-dEdx info in TrackQA table by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15051](https://github.com/AliceO2Group/AliceO2/pull/15051) 2026-02-12: ITS3: load chip response functions from ccdb by [@f3sch](https://github.com/f3sch)
