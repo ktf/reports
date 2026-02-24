@@ -7,6 +7,7 @@
 - [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
+- [\#15094](https://github.com/AliceO2Group/AliceO2/pull/15094) 2026-02-24: Fix missing accumulate of covmatrix in fall-back case by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
@@ -61,6 +62,8 @@
 ## Recent developments in O2 - Generators
 - [\#15068](https://github.com/AliceO2Group/AliceO2/pull/15068) 2026-02-13: Fix Header info forwarding by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15091](https://github.com/AliceO2Group/AliceO2/pull/15091) 2026-02-23: o2sim: fix time aggregation in dpl-eventgen by [@aalkin](https://github.com/aalkin)
+- [\#15092](https://github.com/AliceO2Group/AliceO2/pull/15092) 2026-02-24: Update MC header when using event pool generator by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15093](https://github.com/AliceO2Group/AliceO2/pull/15093) 2026-02-24: Workaround for HepMC3 bug by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)

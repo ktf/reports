@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-20T15:51:51Z",
-            "title": "[PWGHF] separate flags to enable Lc and Sc THnSparses.",
-            "number": 15045,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] ALICE3 modification the translator from ACTS output and strangeness finding",
-            "number": 15050,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/ALICE3CoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/tracksAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-01-23T07:44:51Z",
             "title": "[PWGLF] Added switch for sel8 selection",
             "number": 14590,
@@ -2780,6 +2715,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse V0 Task -- implemented bitmask for mc reco and fixed mc collision check for v0 mc in the producer",
+            "number": 15136,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] add the missing header in PID utilities header",
+            "number": 15141,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsPid.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM] Add optional PCM material-budget weights in PCMPCM",
             "number": 15139,
             "author": {
@@ -2825,21 +2805,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse V0 Task -- implemented bitmask for mc reco and fixed mc collision check for v0 mc in the producer",
-            "number": 15136,
+            "title": "[PWGLF] [PWGLF]Update Xi1820 Analysis and add Armenteros-Qt, Alpha info. on ResoV0s",
+            "number": 15140,
             "author": {
-              "login": "Eloviyo"
+              "login": "mjkim525"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
                   }
                 }
               ]
