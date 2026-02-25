@@ -52,6 +52,7 @@
 - [\#15085](https://github.com/AliceO2Group/AliceO2/pull/15085) 2026-02-20: [A3 TRK] Fix services crossing by [@scannito](https://github.com/scannito)
 - [\#15088](https://github.com/AliceO2Group/AliceO2/pull/15088) 2026-02-21: Add missing reset for FV0 channels vector at TF start by [@shahor02](https://github.com/shahor02)
 - [\#15096](https://github.com/AliceO2Group/AliceO2/pull/15096) 2026-02-24: [ALICE3] update TOF geometry by [@njacazio](https://github.com/njacazio)
+- [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#15056](https://github.com/AliceO2Group/AliceO2/pull/15056) 2026-02-13: Update examples on AO2D creation from MCTracks by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
