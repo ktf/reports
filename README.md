@@ -12,7 +12,6 @@
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15027](https://github.com/AliceO2Group/AliceO2/pull/15027) 2026-02-12: MUON: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
@@ -31,7 +30,6 @@
 - [\#15051](https://github.com/AliceO2Group/AliceO2/pull/15051) 2026-02-12: ITS3: load chip response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#15052](https://github.com/AliceO2Group/AliceO2/pull/15052) 2026-02-12: ITS3: split longerons, improving stepping speed by [@f3sch](https://github.com/f3sch)
 - [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
-- [\#15057](https://github.com/AliceO2Group/AliceO2/pull/15057) 2026-02-11: TPC: time gain calibration optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15062](https://github.com/AliceO2Group/AliceO2/pull/15062) 2026-02-11: DCS: Fix undefined behavior and invalid pointer access by [@davidrohr](https://github.com/davidrohr)
 - [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15066](https://github.com/AliceO2Group/AliceO2/pull/15066) 2026-02-16: First version of the hit based CA tracker for ALICE3 IT/OT by [@mpuccio](https://github.com/mpuccio)
