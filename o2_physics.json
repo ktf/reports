@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-22T13:52:33Z",
-            "title": "[PWGCF] Refactor LambdaSpinPolarization processing logic",
-            "number": 15052,
-            "author": {
-              "login": "subhadee-ali"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-22T14:02:50Z",
-            "title": "[PWGLF] Add generated k* in sigmaproton task",
-            "number": 15095,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSigmaProtonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigmaProtonCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-22T14:50:48Z",
             "title": "[PWGDQ] Modified the trimming options for the bimodal coefficiencts; Fill bimodality and other quantities in the VarManager; Add histograms in the library",
             "number": 15098,
@@ -2554,26 +2509,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Mixing Event in buffer",
-            "number": 15163,
-            "author": {
-              "login": "gengjiabin12"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-25T12:59:50Z",
             "title": "[PWGCF] Add 2d matrices for decorrelation",
@@ -2826,6 +2761,71 @@
                 {
                   "node": {
                     "path": "PWGJE/TableProducer/slimTablesProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Bug fix: replace return with continue statement in processMCgenerated",
+            "number": 15168,
+            "author": {
+              "login": "lorber98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-02-25T15:57:32Z",
+            "title": "[PWGLF] Mixing Event in buffer",
+            "number": 15163,
+            "author": {
+              "login": "gengjiabin12"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding D0+JET correlation task",
+            "number": 14795,
+            "author": {
+              "login": "MattOckleton"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
                   }
                 }
               ]
