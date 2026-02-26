@@ -30,7 +30,6 @@
 - [\#15051](https://github.com/AliceO2Group/AliceO2/pull/15051) 2026-02-12: ITS3: load chip response functions from ccdb by [@f3sch](https://github.com/f3sch)
 - [\#15052](https://github.com/AliceO2Group/AliceO2/pull/15052) 2026-02-12: ITS3: split longerons, improving stepping speed by [@f3sch](https://github.com/f3sch)
 - [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
-- [\#15062](https://github.com/AliceO2Group/AliceO2/pull/15062) 2026-02-11: DCS: Fix undefined behavior and invalid pointer access by [@davidrohr](https://github.com/davidrohr)
 - [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15066](https://github.com/AliceO2Group/AliceO2/pull/15066) 2026-02-16: First version of the hit based CA tracker for ALICE3 IT/OT by [@mpuccio](https://github.com/mpuccio)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
