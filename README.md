@@ -46,6 +46,7 @@
 - [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
 - [\#15101](https://github.com/AliceO2Group/AliceO2/pull/15101) 2026-02-26: [ALICE3] Change 'layoutOL' to 'layoutOT', update ALICE3/README with a config table by [@altsybee](https://github.com/altsybee)
 - [\#15105](https://github.com/AliceO2Group/AliceO2/pull/15105) 2026-02-26: [ALICE3] TRK: fix extrusions and overlaps b/n staves by [@scannito](https://github.com/scannito)
+- [\#15106](https://github.com/AliceO2Group/AliceO2/pull/15106) 2026-02-27: [ALICE3] Update README.md with additional detector options by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Examples
 - [\#15056](https://github.com/AliceO2Group/AliceO2/pull/15056) 2026-02-13: Update examples on AO2D creation from MCTracks by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
