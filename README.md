@@ -56,6 +56,7 @@
 - [\#15059](https://github.com/AliceO2Group/AliceO2/pull/15059) 2026-02-15: DPL Examples: use the new completion policy for parallel processing by [@ktf](https://github.com/ktf)
 - [\#15061](https://github.com/AliceO2Group/AliceO2/pull/15061) 2026-02-12: DPL: introduce range based views to navigate data model by [@ktf](https://github.com/ktf)
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
+- [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Generators
 - [\#15068](https://github.com/AliceO2Group/AliceO2/pull/15068) 2026-02-13: Fix Header info forwarding by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15091](https://github.com/AliceO2Group/AliceO2/pull/15091) 2026-02-23: o2sim: fix time aggregation in dpl-eventgen by [@aalkin](https://github.com/aalkin)
