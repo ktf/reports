@@ -51,6 +51,7 @@
 - [\#15106](https://github.com/AliceO2Group/AliceO2/pull/15106) 2026-02-27: [ALICE3] Update README.md with additional detector options by [@njacazio](https://github.com/njacazio)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
+- [\#15111](https://github.com/AliceO2Group/AliceO2/pull/15111) 2026-03-02: Clusterer fix: suppress stray ROFs keeping their clusters unaddressed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
