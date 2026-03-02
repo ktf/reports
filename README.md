@@ -27,7 +27,6 @@
 - [\#15045](https://github.com/AliceO2Group/AliceO2/pull/15045) 2026-02-14: Add option to compress out non-dEdx info in TrackQA table by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
-- [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15066](https://github.com/AliceO2Group/AliceO2/pull/15066) 2026-02-16: First version of the hit based CA tracker for ALICE3 IT/OT by [@mpuccio](https://github.com/mpuccio)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15070](https://github.com/AliceO2Group/AliceO2/pull/15070) 2026-02-17: ALICE3-TRK: adapt ordering key for digits to the large number of columns in the VD by [@atriolo](https://github.com/atriolo)
@@ -68,5 +67,4 @@
 - [\#15093](https://github.com/AliceO2Group/AliceO2/pull/15093) 2026-02-24: Workaround for HepMC3 bug by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15100](https://github.com/AliceO2Group/AliceO2/pull/15100) 2026-03-02: Fix type mismatch by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#15064](https://github.com/AliceO2Group/AliceO2/pull/15064) 2026-02-13: Support to plug-and-play external (CAD) geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
