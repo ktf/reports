@@ -5,7 +5,6 @@
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 ## Recent developments in O2 - Common
-- [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#15094](https://github.com/AliceO2Group/AliceO2/pull/15094) 2026-02-24: Fix missing accumulate of covmatrix in fall-back case by [@shahor02](https://github.com/shahor02)
@@ -52,12 +51,9 @@
 - [\#15106](https://github.com/AliceO2Group/AliceO2/pull/15106) 2026-02-27: [ALICE3] Update README.md with additional detector options by [@njacazio](https://github.com/njacazio)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
-## Recent developments in O2 - Examples
-- [\#15056](https://github.com/AliceO2Group/AliceO2/pull/15056) 2026-02-13: Update examples on AO2D creation from MCTracks by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
-- [\#15048](https://github.com/AliceO2Group/AliceO2/pull/15048) 2026-02-13: DPL: Enforce that dpl pipeline length is at least as long as number of TFs in flight by [@davidrohr](https://github.com/davidrohr)
 - [\#15059](https://github.com/AliceO2Group/AliceO2/pull/15059) 2026-02-15: DPL Examples: use the new completion policy for parallel processing by [@ktf](https://github.com/ktf)
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
