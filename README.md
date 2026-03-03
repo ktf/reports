@@ -14,6 +14,7 @@
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
 - [\#15109](https://github.com/AliceO2Group/AliceO2/pull/15109) 2026-03-02: Fix in the 3D field propagation final step by [@shahor02](https://github.com/shahor02)
+- [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
@@ -52,6 +53,7 @@
 - [\#15106](https://github.com/AliceO2Group/AliceO2/pull/15106) 2026-02-27: [ALICE3] Update README.md with additional detector options by [@njacazio](https://github.com/njacazio)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
+- [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15111](https://github.com/AliceO2Group/AliceO2/pull/15111) 2026-03-02: Clusterer fix: suppress stray ROFs keeping their clusters unaddressed by [@shahor02](https://github.com/shahor02)
 - [\#15112](https://github.com/AliceO2Group/AliceO2/pull/15112) 2026-03-03: [ALICE3] TRK/Geometry: small bug fix by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 ## Recent developments in O2 - Framework
@@ -62,7 +64,6 @@
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 ## Recent developments in O2 - Generators
-- [\#15068](https://github.com/AliceO2Group/AliceO2/pull/15068) 2026-02-13: Fix Header info forwarding by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15091](https://github.com/AliceO2Group/AliceO2/pull/15091) 2026-02-23: o2sim: fix time aggregation in dpl-eventgen by [@aalkin](https://github.com/aalkin)
 - [\#15092](https://github.com/AliceO2Group/AliceO2/pull/15092) 2026-02-24: Update MC header when using event pool generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15093](https://github.com/AliceO2Group/AliceO2/pull/15093) 2026-02-24: Workaround for HepMC3 bug by [@jackal1-66](https://github.com/jackal1-66)
