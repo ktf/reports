@@ -62,6 +62,7 @@
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
+- [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#15091](https://github.com/AliceO2Group/AliceO2/pull/15091) 2026-02-23: o2sim: fix time aggregation in dpl-eventgen by [@aalkin](https://github.com/aalkin)
 - [\#15092](https://github.com/AliceO2Group/AliceO2/pull/15092) 2026-02-24: Update MC header when using event pool generator by [@jackal1-66](https://github.com/jackal1-66)
