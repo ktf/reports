@@ -13,6 +13,7 @@
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
+- [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15109](https://github.com/AliceO2Group/AliceO2/pull/15109) 2026-03-02: Fix in the 3D field propagation final step by [@shahor02](https://github.com/shahor02)
 - [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
@@ -41,6 +42,7 @@
 - [\#15084](https://github.com/AliceO2Group/AliceO2/pull/15084) 2026-02-20: FT0: Implemented condtion on sum of amplitudes in EventsPerBc calibration by [@wpierozak](https://github.com/wpierozak)
 - [\#15085](https://github.com/AliceO2Group/AliceO2/pull/15085) 2026-02-20: [A3 TRK] Fix services crossing by [@scannito](https://github.com/scannito)
 - [\#15088](https://github.com/AliceO2Group/AliceO2/pull/15088) 2026-02-21: Add missing reset for FV0 channels vector at TF start by [@shahor02](https://github.com/shahor02)
+- [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15096](https://github.com/AliceO2Group/AliceO2/pull/15096) 2026-02-24: [ALICE3] update TOF geometry by [@njacazio](https://github.com/njacazio)
 - [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
 - [\#15098](https://github.com/AliceO2Group/AliceO2/pull/15098) 2026-03-02: [ALICE 3] Add IRIS option with inclined walls material   by [@plariono](https://github.com/plariono)
@@ -71,3 +73,4 @@
 - [\#15100](https://github.com/AliceO2Group/AliceO2/pull/15100) 2026-03-02: Fix type mismatch by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
+- [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
