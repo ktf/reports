@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-27T14:22:08Z",
-            "title": "[PWGLF,PWGMM] Properly account for -1 shift between CTPinput and test bit function",
-            "number": 15195,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiStabilityPP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-27T15:18:52Z",
             "title": "[PWGLF] Minor Table Subscription Change",
             "number": 15192,
@@ -2936,6 +2916,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Change Generated Event selection in NucleiSpectra.cxx",
+            "number": 15158,
+            "author": {
+              "login": "Cristian-Moscatelli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGUD] UPC tag logic change for generated event MC",
             "number": 15252,
             "author": {
@@ -2956,21 +2961,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Change Generated Event selection in NucleiSpectra.cxx",
-            "number": 15158,
+            "title": "[PWGDQ] Add a new file dqEnergyCorrelator_direct.cxx for the energy correlator analysis",
+            "number": 15253,
             "author": {
-              "login": "Cristian-Moscatelli"
+              "login": "YazhenLin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                    "path": "PWGDQ/Core/VarManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiSpectra.cxx"
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
                   }
                 }
               ]
