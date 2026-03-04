@@ -26,7 +26,6 @@
 - [\#15035](https://github.com/AliceO2Group/AliceO2/pull/15035) 2026-02-19: TPC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
-- [\#15066](https://github.com/AliceO2Group/AliceO2/pull/15066) 2026-02-16: First version of the hit based CA tracker for ALICE3 IT/OT by [@mpuccio](https://github.com/mpuccio)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15070](https://github.com/AliceO2Group/AliceO2/pull/15070) 2026-02-17: ALICE3-TRK: adapt ordering key for digits to the large number of columns in the VD by [@atriolo](https://github.com/atriolo)
 - [\#15072](https://github.com/AliceO2Group/AliceO2/pull/15072) 2026-02-17: [ALICE3] Fix geometry overlaps in tracker (ML/OT) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
@@ -55,6 +54,7 @@
 - [\#15111](https://github.com/AliceO2Group/AliceO2/pull/15111) 2026-03-02: Clusterer fix: suppress stray ROFs keeping their clusters unaddressed by [@shahor02](https://github.com/shahor02)
 - [\#15112](https://github.com/AliceO2Group/AliceO2/pull/15112) 2026-03-03: [ALICE3] TRK/Geometry: small bug fix by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#15115](https://github.com/AliceO2Group/AliceO2/pull/15115) 2026-03-03: Fix in filling empty ROFs 1st entry by [@shahor02](https://github.com/shahor02)
+- [\#15116](https://github.com/AliceO2Group/AliceO2/pull/15116) 2026-03-04: [ALICE 3] Fix VD full cyl building for ACTS by [@plariono](https://github.com/plariono)
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
