@@ -56,6 +56,7 @@
 - [\#15115](https://github.com/AliceO2Group/AliceO2/pull/15115) 2026-03-03: Fix in filling empty ROFs 1st entry by [@shahor02](https://github.com/shahor02)
 - [\#15116](https://github.com/AliceO2Group/AliceO2/pull/15116) 2026-03-04: [ALICE 3] Fix VD full cyl building for ACTS by [@plariono](https://github.com/plariono)
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
+- [\#15120](https://github.com/AliceO2Group/AliceO2/pull/15120) 2026-03-04: [ALICE3] Add possibility to set the chip thickness by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#15008](https://github.com/AliceO2Group/AliceO2/pull/15008) 2026-02-17: DPL Analysis: cleanup AnalysisTask.h and ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
