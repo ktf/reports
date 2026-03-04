@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-16T10:20:12Z",
-            "title": "GPU TPC: Assume more sector track hits for low field data",
-            "number": 15069,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUMemorySizeScalers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SectorTracker/GPUTPCTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-16T13:10:23Z",
             "title": "Add Kine publisher test",
             "number": 15058,
@@ -4180,6 +4155,26 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/VDLayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once",
+            "number": 15118,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/OptionsHelpers.h"
                   }
                 }
               ]
