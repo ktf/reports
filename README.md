@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 ## Recent developments in O2 - Common
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
@@ -18,7 +17,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
-- [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
@@ -55,7 +53,6 @@
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
 - [\#15120](https://github.com/AliceO2Group/AliceO2/pull/15120) 2026-03-04: [ALICE3] Add possibility to set the chip thickness by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
-- [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)

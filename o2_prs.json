@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-07T12:02:07Z",
-            "title": "Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits",
-            "number": 15014,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataTypes.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-06T08:26:36Z",
             "title": "Promote --ctf-dict from process to workflow level option",
             "number": 15021,
@@ -4190,6 +4160,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE 3] Implementation of peacock layour for services",
+            "number": 15122,
+            "author": {
+              "login": "marcovanleeuwen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/TRKBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Nj a3tofgeo",
             "number": 15125,
             "author": {
@@ -4205,6 +4210,11 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/FT3/simulation/include/FT3Simulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/include/FT3Simulation/FT3Layer.h"
                   }
                 },
                 {
@@ -4295,31 +4305,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE 3] Implementation of peacock layour for services",
-            "number": 15122,
+            "title": "[ALICE3] Update FT3 geometry",
+            "number": 15126,
             "author": {
-              "login": "marcovanleeuwen"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/README.md"
+                    "path": "Detectors/Upgrades/ALICE3/FT3/base/include/FT3Base/GeometryTGeo.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/TRKBaseParam.h"
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/include/FT3Simulation/Detector.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKServices.h"
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/include/FT3Simulation/FT3Layer.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Module.cxx"
                   }
                 }
               ]
