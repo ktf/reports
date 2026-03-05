@@ -25,7 +25,6 @@
 - [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15035](https://github.com/AliceO2Group/AliceO2/pull/15035) 2026-02-19: TPC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
-- [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15070](https://github.com/AliceO2Group/AliceO2/pull/15070) 2026-02-17: ALICE3-TRK: adapt ordering key for digits to the large number of columns in the VD by [@atriolo](https://github.com/atriolo)
 - [\#15073](https://github.com/AliceO2Group/AliceO2/pull/15073) 2026-02-17: A3: Add geometries for IOTOF by [@njacazio](https://github.com/njacazio)
