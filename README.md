@@ -28,7 +28,6 @@
 - [\#15055](https://github.com/AliceO2Group/AliceO2/pull/15055) 2026-02-17: ALICE 3 feat: Configurable VD design, set def to IRIS 4, remove IRIS disks by [@plariono](https://github.com/plariono)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15070](https://github.com/AliceO2Group/AliceO2/pull/15070) 2026-02-17: ALICE3-TRK: adapt ordering key for digits to the large number of columns in the VD by [@atriolo](https://github.com/atriolo)
-- [\#15072](https://github.com/AliceO2Group/AliceO2/pull/15072) 2026-02-17: [ALICE3] Fix geometry overlaps in tracker (ML/OT) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15073](https://github.com/AliceO2Group/AliceO2/pull/15073) 2026-02-17: A3: Add geometries for IOTOF by [@njacazio](https://github.com/njacazio)
 - [\#15074](https://github.com/AliceO2Group/AliceO2/pull/15074) 2026-02-18: ALICE3-TRK: fix detector ID assignment to hits by [@atriolo](https://github.com/atriolo)
 - [\#15075](https://github.com/AliceO2Group/AliceO2/pull/15075) 2026-02-17: [ALICE3] Adapt CA for 2T simulations by [@mpuccio](https://github.com/mpuccio)
