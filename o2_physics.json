@@ -6,61 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] update strangenesstofpid.cxx to use primary-TOF calibration",
-            "number": 14782,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[DPG] [PID] add QA for TOF dynamic columns",
             "number": 14883,
             "author": {
@@ -2921,56 +2866,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] update electron table 6 to add pid for tracking",
-            "number": 15281,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/Converters/electronConverter6.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Delete redundant MC columns from the data model",
             "number": 14962,
             "author": {
@@ -3176,6 +3071,91 @@
                 {
                   "node": {
                     "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-05T22:15:50Z",
+            "title": "[PWGEM/Dilepton] update electron table 6 to add pid for tracking",
+            "number": 15281,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/Converters/electronConverter6.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] pTHat handling, remove HepMCXSections dependency, add R-d…",
+            "number": 15284,
+            "author": {
+              "login": "joonsukbae"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetMatchingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/Matching/jetMatchingMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
                   }
                 }
               ]
