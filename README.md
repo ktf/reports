@@ -53,6 +53,7 @@
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
 - [\#15120](https://github.com/AliceO2Group/AliceO2/pull/15120) 2026-03-04: [ALICE3] Add possibility to set the chip thickness by [@njacazio](https://github.com/njacazio)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
+- [\#15123](https://github.com/AliceO2Group/AliceO2/pull/15123) 2026-03-06: Do not parse/init TPC correction options if TPC is absent by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
