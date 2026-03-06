@@ -18,7 +18,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
-- [\#15021](https://github.com/AliceO2Group/AliceO2/pull/15021) 2026-02-06: Promote --ctf-dict from process to workflow level option by [@shahor02](https://github.com/shahor02)
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
