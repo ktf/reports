@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-02T18:26:44Z",
-            "title": "[PWGHF] Fix corr. bkg. Sc tree filling.",
-            "number": 15226,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorSigmacCorrBkg.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGDQ] Adding dileptonMiniTree in tableReader_withAssoc",
@@ -2801,6 +2781,51 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-10-05T13:01:51Z",
+            "title": "[PWGLF] added QC task for nuclei, moved nucleiUtils.h to the appropriate folder",
+            "number": 13212,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiFlowTree.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
