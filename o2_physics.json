@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-02T22:16:30Z",
-            "title": "[PWGLF] Add new process function for MC spin correlation, fix systematic selection for f1-p correlation",
-            "number": 15230,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/f1protonreducedtable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/f1protoncorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phipbpb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGEM] Add optional PCM material-budget weights in PCMPCM",
@@ -3101,6 +3066,31 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-02T18:49:39Z",
+            "title": "[Common] Use helix propagation to compute fwdtrack DCA in fwdtrackextension",
+            "number": 14282,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/fwdtrackextension.cxx"
                   }
                 }
               ]
