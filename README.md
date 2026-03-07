@@ -56,6 +56,7 @@
 - [\#15120](https://github.com/AliceO2Group/AliceO2/pull/15120) 2026-03-04: [ALICE3] Add possibility to set the chip thickness by [@njacazio](https://github.com/njacazio)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
 - [\#15123](https://github.com/AliceO2Group/AliceO2/pull/15123) 2026-03-06: Do not parse/init TPC correction options if TPC is absent by [@shahor02](https://github.com/shahor02)
+- [\#15131](https://github.com/AliceO2Group/AliceO2/pull/15131) 2026-03-07: fix include in one TOF macro by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 - [\#15014](https://github.com/AliceO2Group/AliceO2/pull/15014) 2026-02-07: Store TPC track A/C side info in the AO2D TrackExtra.fFlags unused bits by [@shahor02](https://github.com/shahor02)
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
