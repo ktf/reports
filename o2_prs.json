@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-09-16T20:36:29Z",
-            "title": "Add TRD tracklets slopes to unbinned residuals tree",
-            "number": 14676,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-09-11T16:30:44Z",
-            "title": "remove new line from Track::asString, set alpha to +-pi",
-            "number": 14669,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-09-10T23:07:07Z",
             "title": "MCStudy: fix ITS/TPC extrapolation, optionally add TPC track.refs",
             "number": 14664,
@@ -4330,6 +4275,61 @@
                 {
                   "node": {
                     "path": "doc/data/2026-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ALICE3-TRK: fix orientation of response function both for APTS and ALICE3 response + set reasonable threshold",
+            "number": 15135,
+            "author": {
+              "login": "atriolo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/SegmentationChip.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/DigiParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ALICE3-TRK: fix macro CheckDigits.C",
+            "number": 15136,
+            "author": {
+              "login": "atriolo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/CheckDigits.C"
                   }
                 }
               ]
