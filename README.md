@@ -52,6 +52,7 @@
 - [\#15115](https://github.com/AliceO2Group/AliceO2/pull/15115) 2026-03-03: Fix in filling empty ROFs 1st entry by [@shahor02](https://github.com/shahor02)
 - [\#15116](https://github.com/AliceO2Group/AliceO2/pull/15116) 2026-03-04: [ALICE 3] Fix VD full cyl building for ACTS by [@plariono](https://github.com/plariono)
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
+- [\#15119](https://github.com/AliceO2Group/AliceO2/pull/15119) 2026-03-10: [ALICE 3] fix petal Z cap positions, remove overlaps by [@plariono](https://github.com/plariono)
 - [\#15120](https://github.com/AliceO2Group/AliceO2/pull/15120) 2026-03-04: [ALICE3] Add possibility to set the chip thickness by [@njacazio](https://github.com/njacazio)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
 - [\#15123](https://github.com/AliceO2Group/AliceO2/pull/15123) 2026-03-06: Do not parse/init TPC correction options if TPC is absent by [@shahor02](https://github.com/shahor02)
