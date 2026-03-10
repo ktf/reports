@@ -55,6 +55,7 @@
 - [\#15120](https://github.com/AliceO2Group/AliceO2/pull/15120) 2026-03-04: [ALICE3] Add possibility to set the chip thickness by [@njacazio](https://github.com/njacazio)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
 - [\#15123](https://github.com/AliceO2Group/AliceO2/pull/15123) 2026-03-06: Do not parse/init TPC correction options if TPC is absent by [@shahor02](https://github.com/shahor02)
+- [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
 - [\#15131](https://github.com/AliceO2Group/AliceO2/pull/15131) 2026-03-07: fix include in one TOF macro by [@noferini](https://github.com/noferini)
 - [\#15136](https://github.com/AliceO2Group/AliceO2/pull/15136) 2026-03-09: ALICE3-TRK: fix macro CheckDigits.C by [@atriolo](https://github.com/atriolo)
 - [\#15138](https://github.com/AliceO2Group/AliceO2/pull/15138) 2026-03-10: ITS: fix zero field seeding by [@f3sch](https://github.com/f3sch)
