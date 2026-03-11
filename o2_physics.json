@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-06T03:17:08Z",
-            "title": "[ALICE3] Pass number of silicon hits to the track and store it.",
-            "number": 15265,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Use -gsplit-dwarf to improve linking",
-            "number": 14145,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-06T03:54:44Z",
-            "title": "[PWGEM] PhotonMeson: Add converter from EMEvents_004 to PMEvents",
-            "number": 15272,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/Converters/converterEmeventPmevent.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-06T09:25:05Z",
             "title": "[PWGJE] adding mcCollision selections for TVX trigger",
             "number": 15278,
@@ -2506,6 +2441,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGUD] simplified filter",
+            "number": 15344,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] [PID] add QA for TOF dynamic columns",
+            "number": 14883,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFDynamic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Infrastructure] Bump actions/upload-artifact from 6 to 7",
             "number": 15212,
             "author": {
@@ -2526,16 +2511,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGUD] simplified filter",
-            "number": 15344,
+            "title": "[Infrastructure] Add `photon` label to labeler config",
+            "number": 15138,
             "author": {
-              "login": "miedema-11"
+              "login": "mhemmer-cern"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                    "path": ".github/labeler.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.3.0 to 9.4.0",
+            "number": 15211,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
                   }
                 }
               ]
