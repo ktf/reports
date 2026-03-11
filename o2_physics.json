@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-06T11:59:08Z",
-            "title": "[ALICE3] Refactor track hit storage to use std::array",
-            "number": 15275,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-06T12:49:39Z",
             "title": "[PWGCF] use zdc energy to do some try",
             "number": 15288,
@@ -2431,6 +2411,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Cut variation script enhancement",
+            "number": 15342,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/compute_fraction_cutvar.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/config_cutvar_example.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Macros/cut_variation.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Multiplicity dependence pi, K, p analysis",
+            "number": 15319,
+            "author": {
+              "login": "dushmanta97"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/MultiplicityPt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM] Add optional PCM material-budget weights in PCMPCM",
             "number": 15139,
             "author": {
@@ -2486,46 +2516,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Cut variation script enhancement",
-            "number": 15342,
+            "title": "[PWGEM/Dilepton] remove unnecessary headers",
+            "number": 15350,
             "author": {
-              "login": "lubynets"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Macros/compute_fraction_cutvar.py"
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Macros/config_cutvar_example.json"
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Macros/cut_variation.py"
+                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Multiplicity dependence pi, K, p analysis",
-            "number": 15319,
-            "author": {
-              "login": "dushmanta97"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/MultiplicityPt.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonProducer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/associateMCinfoDilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/prefilterDimuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMFTTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/checkMCPairTemplate.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dileptonPolarization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/evaluateAcceptance.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/testBremsstrahlung.cxx"
                   }
                 }
               ]
