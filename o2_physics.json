@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-06T10:10:17Z",
-            "title": "[PWGLF] Add new process function for spin correlation to study mixing in data and MC",
-            "number": 15280,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-06T11:18:13Z",
             "title": "[PWGHF] Adding missing subscriptions to important tables in correlator, separating charges of D mesons candidates in the task",
             "number": 15178,
@@ -2451,6 +2431,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Add new D0 substructure task",
+            "number": 15311,
+            "author": {
+              "login": "pdhankhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetD0AngSubstructure.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF/NuSpEx] Changed track selection: nTPCClus -> ntpcNClsCrossedRows and fix EvtSel",
             "number": 15345,
             "author": {
@@ -2471,21 +2476,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add new D0 substructure task",
-            "number": 15311,
+            "title": "[DPG] Add ccosThetaStar in D0 derived data creator for calibration studies",
+            "number": 15346,
             "author": {
-              "login": "pdhankhe"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                    "path": "DPG/Tasks/AOTTrack/D0CalibTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetD0AngSubstructure.cxx"
+                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
                   }
                 }
               ]
