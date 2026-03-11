@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-25T21:25:48Z",
-            "title": "Move bulk of the code to cxx to not expose extra headers",
-            "number": 14436,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/TimeDeadMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/src/TimeDeadMap.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-19T15:00:38Z",
             "title": "Misc fixes for TrackMCStudy workflow",
             "number": 14423,
@@ -4310,6 +4280,26 @@
                 {
                   "node": {
                     "path": "doc/data/2026-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "full_system_test.sh: add --shm-segment-size to MCTracks-to-AO2D conversion tool workflow",
+            "number": 15148,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
                   }
                 }
               ]
