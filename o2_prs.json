@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-06-19T15:00:38Z",
-            "title": "Misc fixes for TrackMCStudy workflow",
-            "number": 14423,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudyTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackMCStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-16T13:53:25Z",
             "title": "Make TPC resid.extracton to work in runs w/o TRD or TOF",
             "number": 14405,
@@ -4297,6 +4267,31 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Parse and pass SOR to o2-steer-colcontexttool in FST",
+            "number": 15149,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/testMacros/getRunParameters.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
