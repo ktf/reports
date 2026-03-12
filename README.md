@@ -66,6 +66,7 @@
 - [\#15141](https://github.com/AliceO2Group/AliceO2/pull/15141) 2026-03-10: Please consider the following formatting changes to #15140 by [@alibuild](https://github.com/alibuild)
 - [\#15145](https://github.com/AliceO2Group/AliceO2/pull/15145) 2026-03-12: [ALICE 3] TRKLayer refactoring by [@scannito](https://github.com/scannito)
 - [\#15146](https://github.com/AliceO2Group/AliceO2/pull/15146) 2026-03-11: [ALICE3] Update IOTOF README.md by [@njacazio](https://github.com/njacazio)
+- [\#15151](https://github.com/AliceO2Group/AliceO2/pull/15151) 2026-03-12: [ALICE 3] Update TRK README by [@scannito](https://github.com/scannito)
 ## Recent developments in O2 - Framework
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
