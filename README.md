@@ -65,6 +65,7 @@
 - [\#15136](https://github.com/AliceO2Group/AliceO2/pull/15136) 2026-03-09: ALICE3-TRK: fix macro CheckDigits.C by [@atriolo](https://github.com/atriolo)
 - [\#15138](https://github.com/AliceO2Group/AliceO2/pull/15138) 2026-03-10: ITS: fix zero field seeding by [@f3sch](https://github.com/f3sch)
 - [\#15141](https://github.com/AliceO2Group/AliceO2/pull/15141) 2026-03-10: Please consider the following formatting changes to #15140 by [@alibuild](https://github.com/alibuild)
+- [\#15145](https://github.com/AliceO2Group/AliceO2/pull/15145) 2026-03-12: [ALICE 3] TRKLayer refactoring by [@scannito](https://github.com/scannito)
 - [\#15146](https://github.com/AliceO2Group/AliceO2/pull/15146) 2026-03-11: [ALICE3] Update IOTOF README.md by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
