@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-12T06:48:55Z",
-            "title": "[PWGDQ] Analysis workflow for MC, which runs directly on full AO2Ds",
-            "number": 14151,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCProng.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-07T12:37:51Z",
             "title": "[PWGCF] Addition of dEdx distributions after PID cut",
             "number": 15297,
@@ -1794,31 +1734,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Add SlimTables data model and producer for future standalone embedding studies",
-            "number": 15132,
-            "author": {
-              "login": "louisemillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/slimTablesProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-11T20:12:41Z",
             "title": "[PWGLF/NuSpEx] Changed track selection: nTPCClus -> ntpcNClsCrossedRows and fix EvtSel",
@@ -2174,31 +2089,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add variables to derivedDataCreatorBplusToD0Pi.cxx",
-            "number": 15349,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/DerivedTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/derivedDataCreatorBplusToD0Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-12T12:24:07Z",
             "title": "[PWGJE] fixing bug in background eta",
@@ -2389,26 +2279,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Fixing jetCorrelationD0 table columns",
-            "number": 15365,
-            "author": {
-              "login": "MattOckleton"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-12T15:36:13Z",
             "title": "[PWGDQ] Add some code in dqEnergyCorrelator_direct.cxx",
@@ -2421,6 +2291,46 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-12T15:42:58Z",
+            "title": "[PWGLF] Implements RCT-based selections in Data and MC",
+            "number": 15355,
+            "author": {
+              "login": "omvazque"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGCF: Add two-particle azimuthal correlation analysis task",
+            "number": 15366,
+            "author": {
+              "login": "mintu1999"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "twoParticleAzimuthalCorr.cxx"
                   }
                 }
               ]
@@ -2464,26 +2374,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-12T15:42:58Z",
-            "title": "[PWGLF] Implements RCT-based selections in Data and MC",
-            "number": 15355,
-            "author": {
-              "login": "omvazque"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] Add V0 decay length to ML variables for LcK0sP",
@@ -2506,16 +2396,86 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGCF: Add two-particle azimuthal correlation analysis task",
-            "number": 15366,
+            "title": "[PWGHF] Add variables to derivedDataCreatorBplusToD0Pi.cxx",
+            "number": 15349,
             "author": {
-              "login": "mintu1999"
+              "login": "atavirag"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "twoParticleAzimuthalCorr.cxx"
+                    "path": "PWGHF/DataModel/DerivedTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/derivedDataCreatorBplusToD0Pi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fixing jetCorrelationD0 table columns",
+            "number": 15365,
+            "author": {
+              "login": "MattOckleton"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add SlimTables data model and producer for future standalone embedding studies",
+            "number": 15132,
+            "author": {
+              "login": "louisemillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/slimTablesProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Small fixes",
+            "number": 15368,
+            "author": {
+              "login": "nkaratze"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/v0ptinvmassplots.cxx"
                   }
                 }
               ]
