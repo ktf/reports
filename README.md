@@ -5,7 +5,6 @@
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
-- [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#15094](https://github.com/AliceO2Group/AliceO2/pull/15094) 2026-02-24: Fix missing accumulate of covmatrix in fall-back case by [@shahor02](https://github.com/shahor02)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
@@ -28,7 +27,6 @@
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15073](https://github.com/AliceO2Group/AliceO2/pull/15073) 2026-02-17: A3: Add geometries for IOTOF by [@njacazio](https://github.com/njacazio)
 - [\#15074](https://github.com/AliceO2Group/AliceO2/pull/15074) 2026-02-18: ALICE3-TRK: fix detector ID assignment to hits by [@atriolo](https://github.com/atriolo)
-- [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#15078](https://github.com/AliceO2Group/AliceO2/pull/15078) 2026-02-19: [ALICE3] Change to upper-case 'S' in "FT3sensor_*" strings  by [@altsybee](https://github.com/altsybee)
 - [\#15079](https://github.com/AliceO2Group/AliceO2/pull/15079) 2026-02-19: [ITS] Protect ultra low pt selections at the tracklet level by [@mpuccio](https://github.com/mpuccio)
 - [\#15080](https://github.com/AliceO2Group/AliceO2/pull/15080) 2026-02-19: path for LHCphase ccdb configurable by [@noferini](https://github.com/noferini)
@@ -79,5 +77,4 @@
 - [\#15093](https://github.com/AliceO2Group/AliceO2/pull/15093) 2026-02-24: Workaround for HepMC3 bug by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15100](https://github.com/AliceO2Group/AliceO2/pull/15100) 2026-03-02: Fix type mismatch by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#15077](https://github.com/AliceO2Group/AliceO2/pull/15077) 2026-02-18: o2-sim: Possibility to switch between TGeo and Geant4 navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
