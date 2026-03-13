@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-19T10:53:33Z",
-            "title": "EMCAL: Delete unused files",
-            "number": 15026,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EMCALChannelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/EMCALChannelData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/run/rawReaderTRUDigits.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-19T11:53:16Z",
             "title": "TPC: Delete unused files",
             "number": 15035,
@@ -4315,6 +4285,31 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix ITS seeding for B=0",
+            "number": 15157,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
                   }
                 }
               ]
