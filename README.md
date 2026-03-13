@@ -61,6 +61,7 @@
 - [\#15146](https://github.com/AliceO2Group/AliceO2/pull/15146) 2026-03-11: [ALICE3] Update IOTOF README.md by [@njacazio](https://github.com/njacazio)
 - [\#15149](https://github.com/AliceO2Group/AliceO2/pull/15149) 2026-03-12: Parse and pass SOR to o2-steer-colcontexttool in FST by [@shahor02](https://github.com/shahor02)
 - [\#15151](https://github.com/AliceO2Group/AliceO2/pull/15151) 2026-03-12: [ALICE 3] Update TRK README by [@scannito](https://github.com/scannito)
+- [\#15157](https://github.com/AliceO2Group/AliceO2/pull/15157) 2026-03-13: Fix ITS seeding for B=0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
