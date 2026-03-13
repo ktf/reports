@@ -11,7 +11,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15026](https://github.com/AliceO2Group/AliceO2/pull/15026) 2026-02-19: EMCAL: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15109](https://github.com/AliceO2Group/AliceO2/pull/15109) 2026-03-02: Fix in the 3D field propagation final step by [@shahor02](https://github.com/shahor02)
 - [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
@@ -29,7 +28,6 @@
 - [\#15079](https://github.com/AliceO2Group/AliceO2/pull/15079) 2026-02-19: [ITS] Protect ultra low pt selections at the tracklet level by [@mpuccio](https://github.com/mpuccio)
 - [\#15080](https://github.com/AliceO2Group/AliceO2/pull/15080) 2026-02-19: path for LHCphase ccdb configurable by [@noferini](https://github.com/noferini)
 - [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
-- [\#15082](https://github.com/AliceO2Group/AliceO2/pull/15082) 2026-02-19: Ctpdev: getting list of unmasked inputs by [@lietava](https://github.com/lietava)
 - [\#15084](https://github.com/AliceO2Group/AliceO2/pull/15084) 2026-02-20: FT0: Implemented condtion on sum of amplitudes in EventsPerBc calibration by [@wpierozak](https://github.com/wpierozak)
 - [\#15085](https://github.com/AliceO2Group/AliceO2/pull/15085) 2026-02-20: [A3 TRK] Fix services crossing by [@scannito](https://github.com/scannito)
 - [\#15088](https://github.com/AliceO2Group/AliceO2/pull/15088) 2026-02-21: Add missing reset for FV0 channels vector at TF start by [@shahor02](https://github.com/shahor02)
