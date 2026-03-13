@@ -27,7 +27,6 @@
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15073](https://github.com/AliceO2Group/AliceO2/pull/15073) 2026-02-17: A3: Add geometries for IOTOF by [@njacazio](https://github.com/njacazio)
-- [\#15074](https://github.com/AliceO2Group/AliceO2/pull/15074) 2026-02-18: ALICE3-TRK: fix detector ID assignment to hits by [@atriolo](https://github.com/atriolo)
 - [\#15078](https://github.com/AliceO2Group/AliceO2/pull/15078) 2026-02-19: [ALICE3] Change to upper-case 'S' in "FT3sensor_*" strings  by [@altsybee](https://github.com/altsybee)
 - [\#15079](https://github.com/AliceO2Group/AliceO2/pull/15079) 2026-02-19: [ITS] Protect ultra low pt selections at the tracklet level by [@mpuccio](https://github.com/mpuccio)
 - [\#15080](https://github.com/AliceO2Group/AliceO2/pull/15080) 2026-02-19: path for LHCphase ccdb configurable by [@noferini](https://github.com/noferini)
