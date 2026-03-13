@@ -6,7 +6,6 @@
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15094](https://github.com/AliceO2Group/AliceO2/pull/15094) 2026-02-24: Fix missing accumulate of covmatrix in fall-back case by [@shahor02](https://github.com/shahor02)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
@@ -62,7 +61,6 @@
 - [\#15149](https://github.com/AliceO2Group/AliceO2/pull/15149) 2026-03-12: Parse and pass SOR to o2-steer-colcontexttool in FST by [@shahor02](https://github.com/shahor02)
 - [\#15151](https://github.com/AliceO2Group/AliceO2/pull/15151) 2026-03-12: [ALICE 3] Update TRK README by [@scannito](https://github.com/scannito)
 ## Recent developments in O2 - Framework
-- [\#15076](https://github.com/AliceO2Group/AliceO2/pull/15076) 2026-02-19: CCDB: report stats about CCDB fetches / misses to DPL by [@ktf](https://github.com/ktf)
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
