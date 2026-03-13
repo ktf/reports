@@ -22,7 +22,6 @@
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15035](https://github.com/AliceO2Group/AliceO2/pull/15035) 2026-02-19: TPC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15080](https://github.com/AliceO2Group/AliceO2/pull/15080) 2026-02-19: path for LHCphase ccdb configurable by [@noferini](https://github.com/noferini)
