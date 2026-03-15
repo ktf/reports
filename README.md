@@ -22,7 +22,6 @@
 - [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
-- [\#15067](https://github.com/AliceO2Group/AliceO2/pull/15067) 2026-02-13: [A3 TRK] Fix kCylinder option + services crossing by [@scannito](https://github.com/scannito)
 - [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
 - [\#15084](https://github.com/AliceO2Group/AliceO2/pull/15084) 2026-02-20: FT0: Implemented condtion on sum of amplitudes in EventsPerBc calibration by [@wpierozak](https://github.com/wpierozak)
 - [\#15085](https://github.com/AliceO2Group/AliceO2/pull/15085) 2026-02-20: [A3 TRK] Fix services crossing by [@scannito](https://github.com/scannito)
