@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
+- [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15094](https://github.com/AliceO2Group/AliceO2/pull/15094) 2026-02-24: Fix missing accumulate of covmatrix in fall-back case by [@shahor02](https://github.com/shahor02)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
@@ -19,7 +20,6 @@
 ## Recent developments in O2 - Detectors
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
-- [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
 - [\#15084](https://github.com/AliceO2Group/AliceO2/pull/15084) 2026-02-20: FT0: Implemented condtion on sum of amplitudes in EventsPerBc calibration by [@wpierozak](https://github.com/wpierozak)
@@ -65,6 +65,7 @@
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
+- [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15155](https://github.com/AliceO2Group/AliceO2/pull/15155) 2026-03-14: DPL: Fix order of initialisation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15091](https://github.com/AliceO2Group/AliceO2/pull/15091) 2026-02-23: o2sim: fix time aggregation in dpl-eventgen by [@aalkin](https://github.com/aalkin)
