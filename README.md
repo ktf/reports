@@ -20,7 +20,6 @@
 - [\#14985](https://github.com/AliceO2Group/AliceO2/pull/14985) 2026-02-16: Afit 124 by [@wpierozak](https://github.com/wpierozak)
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15031](https://github.com/AliceO2Group/AliceO2/pull/15031) 2026-02-20: FIT: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15033](https://github.com/AliceO2Group/AliceO2/pull/15033) 2026-02-20: HMPID: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
 - [\#15084](https://github.com/AliceO2Group/AliceO2/pull/15084) 2026-02-20: FT0: Implemented condtion on sum of amplitudes in EventsPerBc calibration by [@wpierozak](https://github.com/wpierozak)
