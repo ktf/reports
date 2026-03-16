@@ -22,7 +22,6 @@
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
-- [\#15085](https://github.com/AliceO2Group/AliceO2/pull/15085) 2026-02-20: [A3 TRK] Fix services crossing by [@scannito](https://github.com/scannito)
 - [\#15088](https://github.com/AliceO2Group/AliceO2/pull/15088) 2026-02-21: Add missing reset for FV0 channels vector at TF start by [@shahor02](https://github.com/shahor02)
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15096](https://github.com/AliceO2Group/AliceO2/pull/15096) 2026-02-24: [ALICE3] update TOF geometry by [@njacazio](https://github.com/njacazio)
