@@ -67,7 +67,6 @@
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15155](https://github.com/AliceO2Group/AliceO2/pull/15155) 2026-03-14: DPL: Fix order of initialisation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#15091](https://github.com/AliceO2Group/AliceO2/pull/15091) 2026-02-23: o2sim: fix time aggregation in dpl-eventgen by [@aalkin](https://github.com/aalkin)
 - [\#15092](https://github.com/AliceO2Group/AliceO2/pull/15092) 2026-02-24: Update MC header when using event pool generator by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15093](https://github.com/AliceO2Group/AliceO2/pull/15093) 2026-02-24: Workaround for HepMC3 bug by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15100](https://github.com/AliceO2Group/AliceO2/pull/15100) 2026-03-02: Fix type mismatch by [@jackal1-66](https://github.com/jackal1-66)
