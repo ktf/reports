@@ -22,7 +22,6 @@
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15050](https://github.com/AliceO2Group/AliceO2/pull/15050) 2026-02-23: ITS3: define alignable volumes by [@f3sch](https://github.com/f3sch)
 - [\#15081](https://github.com/AliceO2Group/AliceO2/pull/15081) 2026-02-20: [ALICE3] Add proto segmentation of TF3 by [@njacazio](https://github.com/njacazio)
-- [\#15088](https://github.com/AliceO2Group/AliceO2/pull/15088) 2026-02-21: Add missing reset for FV0 channels vector at TF start by [@shahor02](https://github.com/shahor02)
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15096](https://github.com/AliceO2Group/AliceO2/pull/15096) 2026-02-24: [ALICE3] update TOF geometry by [@njacazio](https://github.com/njacazio)
 - [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
@@ -59,6 +58,7 @@
 - [\#15157](https://github.com/AliceO2Group/AliceO2/pull/15157) 2026-03-13: Fix ITS seeding for B=0 by [@shahor02](https://github.com/shahor02)
 - [\#15158](https://github.com/AliceO2Group/AliceO2/pull/15158) 2026-03-14: [ALICE3] adding trapezoidal disk option for FT3; fixing overlaps in FT3 and TOF by [@altsybee](https://github.com/altsybee)
 - [\#15159](https://github.com/AliceO2Group/AliceO2/pull/15159) 2026-03-16: [ALICE3] oTOF: fix missing tilt shift for overlaps by [@njacazio](https://github.com/njacazio)
+- [\#15160](https://github.com/AliceO2Group/AliceO2/pull/15160) 2026-03-16: Pass missing ctf-dict options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
