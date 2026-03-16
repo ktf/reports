@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-13T16:44:24Z",
-            "title": "[A3 TRK] Fix kCylinder option + services crossing",
-            "number": 15067,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "AFIT 117",
-            "number": 14949,
-            "author": {
-              "login": "wpierozak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RecPoint.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/RecPoints.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/RecPoints.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/ChannelDataBit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/reconstruction/src/BaseRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-21T15:31:27Z",
             "title": "Add missing reset for FV0 channels vector at TF start",
             "number": 15088,
@@ -3643,31 +3578,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "FT0: align trigger definition in Digitizer with data trigger logic",
-            "number": 15156,
-            "author": {
-              "login": "spulawsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/include/FT0Base/FT0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-13T16:15:16Z",
             "title": "Mergers: Retry with gDebug if merging fails",
@@ -4345,6 +4255,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "FT0: align trigger definition in Digitizer with data trigger logic",
+            "number": 15156,
+            "author": {
+              "login": "spulawsk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/base/include/FT0Base/FT0DigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: allow determining the origin from user provide input",
             "number": 15163,
             "author": {
@@ -4352,6 +4287,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
@@ -4369,7 +4309,72 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/AnalysisSupport/test/test_NavigateToLevel.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/Parameters/csv_to_json.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Multiplatform fix",
+            "number": 15164,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/Parameters/csv_to_json.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add some initial skills to improve Claude Code / Codex / whatever experience",
+            "number": 15165,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".skills/build-software-stack/SKILL.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".skills/create-a-new-file/SKILL.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".skills/create-a-new-file/o2-copyright-statement.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CLAUDE.md"
                   }
                 }
               ]
