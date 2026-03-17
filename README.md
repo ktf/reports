@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -24,7 +23,6 @@
 - [\#15098](https://github.com/AliceO2Group/AliceO2/pull/15098) 2026-03-02: [ALICE 3] Add IRIS option with inclined walls material   by [@plariono](https://github.com/plariono)
 - [\#15104](https://github.com/AliceO2Group/AliceO2/pull/15104) 2026-03-02: TPC: Add missing test by [@wiechula](https://github.com/wiechula)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
-- [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15111](https://github.com/AliceO2Group/AliceO2/pull/15111) 2026-03-02: Clusterer fix: suppress stray ROFs keeping their clusters unaddressed by [@shahor02](https://github.com/shahor02)
 - [\#15112](https://github.com/AliceO2Group/AliceO2/pull/15112) 2026-03-03: [ALICE3] TRK/Geometry: small bug fix by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
@@ -56,7 +54,6 @@
 - [\#15168](https://github.com/AliceO2Group/AliceO2/pull/15168) 2026-03-17: [ALICE 3] Fix cylindrical MLOT layout by [@scannito](https://github.com/scannito)
 - [\#15176](https://github.com/AliceO2Group/AliceO2/pull/15176) 2026-03-17: Fix boost 1.90.0 / clang issue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
