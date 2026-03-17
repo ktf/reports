@@ -23,7 +23,6 @@
 - [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
 - [\#15098](https://github.com/AliceO2Group/AliceO2/pull/15098) 2026-03-02: [ALICE 3] Add IRIS option with inclined walls material   by [@plariono](https://github.com/plariono)
 - [\#15104](https://github.com/AliceO2Group/AliceO2/pull/15104) 2026-03-02: TPC: Add missing test by [@wiechula](https://github.com/wiechula)
-- [\#15105](https://github.com/AliceO2Group/AliceO2/pull/15105) 2026-02-26: [ALICE3] TRK: fix extrusions and overlaps b/n staves by [@scannito](https://github.com/scannito)
 - [\#15106](https://github.com/AliceO2Group/AliceO2/pull/15106) 2026-02-27: [ALICE3] Update README.md with additional detector options by [@njacazio](https://github.com/njacazio)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
