@@ -7,7 +7,6 @@
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#15094](https://github.com/AliceO2Group/AliceO2/pull/15094) 2026-02-24: Fix missing accumulate of covmatrix in fall-back case by [@shahor02](https://github.com/shahor02)
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
