@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-20T20:00:57Z",
-            "title": "[ALICE3] Add proto segmentation of TF3",
-            "number": 15081,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/IOTOFBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Layer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/base/src/GeometryTGeo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-24T20:14:53Z",
             "title": "[ALICE3] update TOF geometry",
             "number": 15096,
@@ -4479,11 +4434,6 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/ClustererSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUParam.h"
                   }
                 },
@@ -4530,6 +4480,26 @@
                 {
                   "node": {
                     "path": "doc/data/2026-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix boost 1.90.0 / clang issue",
+            "number": 15176,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalibdEdx.cxx"
                   }
                 }
               ]
