@@ -54,6 +54,7 @@
 - [\#15160](https://github.com/AliceO2Group/AliceO2/pull/15160) 2026-03-16: Pass missing ctf-dict options by [@shahor02](https://github.com/shahor02)
 - [\#15166](https://github.com/AliceO2Group/AliceO2/pull/15166) 2026-03-17: fix field/material usage in the propagateToR... methods by [@shahor02](https://github.com/shahor02)
 - [\#15168](https://github.com/AliceO2Group/AliceO2/pull/15168) 2026-03-17: [ALICE 3] Fix cylindrical MLOT layout by [@scannito](https://github.com/scannito)
+- [\#15176](https://github.com/AliceO2Group/AliceO2/pull/15176) 2026-03-17: Fix boost 1.90.0 / clang issue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)

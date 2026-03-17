@@ -3959,26 +3959,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix boost 1.90.0 / clang issue",
-            "number": 15176,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalibdEdx.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-17T12:49:44Z",
             "title": "Workaround for non-null vertexes in event pools",
@@ -3991,36 +3971,6 @@
                 {
                   "node": {
                     "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-03-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-03-o2_releases.json"
                   }
                 }
               ]
@@ -4426,31 +4376,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD: small fix for gain and VdExB calib",
-            "number": 15181,
+            "title": "Adding error msg for TGeo features and QA macro for reco",
+            "number": 15183,
             "author": {
-              "login": "glegras"
+              "login": "AizatDaribayeva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalGain.h"
+                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/GeometryTGeo.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalVdriftExB.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorGain.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/CheckTracksCA.C"
                   }
                 }
               ]
@@ -4489,23 +4429,83 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Adding error msg for TGeo features and QA macro for reco",
-            "number": 15183,
+            "state": "MERGED",
+            "mergedAt": "2026-03-17T16:11:40Z",
+            "title": "Fix boost 1.90.0 / clang issue",
+            "number": 15176,
             "author": {
-              "login": "AizatDaribayeva"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/GeometryTGeo.h"
+                    "path": "Detectors/TPC/calibration/src/CalibdEdx.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/CheckTracksCA.C"
+                    "path": "doc/data/2026-03-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-03-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: small fix for gain and VdExB calib",
+            "number": 15181,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalGain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CalVdriftExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorGain.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
                   }
                 }
               ]
