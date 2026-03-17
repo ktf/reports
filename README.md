@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
+- [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15121](https://github.com/AliceO2Group/AliceO2/pull/15121) 2026-03-06: Fetch only GPUSettingsRecTRD for TRD tasks not all GPU ConfigurableParam by [@davidrohr](https://github.com/davidrohr)
@@ -60,6 +61,7 @@
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15155](https://github.com/AliceO2Group/AliceO2/pull/15155) 2026-03-14: DPL: Fix order of initialisation by [@ktf](https://github.com/ktf)
+- [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15100](https://github.com/AliceO2Group/AliceO2/pull/15100) 2026-03-02: Fix type mismatch by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
