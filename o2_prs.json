@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-02-24T20:14:53Z",
-            "title": "[ALICE3] update TOF geometry",
-            "number": 15096,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/GeometryTGeo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Layer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "BinningPolicy: Fix bug in getAllBinsCount",
@@ -4400,6 +4360,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix boost 1.90.0 / clang issue",
+            "number": 15176,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalibdEdx.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-17T12:49:44Z",
             "title": "Workaround for non-null vertexes in event pools",
             "number": 15169,
             "author": {
@@ -4434,46 +4414,6 @@
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/GPUParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChain.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceUtils.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "doc/data/2026-03-o2_prs.json"
                   }
                 },
@@ -4490,16 +4430,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix boost 1.90.0 / clang issue",
-            "number": 15176,
+            "title": "DPL Analysis: force index to only bind with tables of the same origin",
+            "number": 15177,
             "author": {
-              "login": "ktf"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/TPC/calibration/src/CalibdEdx.cxx"
+                    "path": "Framework/Core/include/Framework/ASoA.h"
                   }
                 }
               ]
