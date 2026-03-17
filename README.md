@@ -22,7 +22,6 @@
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
 - [\#15098](https://github.com/AliceO2Group/AliceO2/pull/15098) 2026-03-02: [ALICE 3] Add IRIS option with inclined walls material   by [@plariono](https://github.com/plariono)
-- [\#15101](https://github.com/AliceO2Group/AliceO2/pull/15101) 2026-02-26: [ALICE3] Change 'layoutOL' to 'layoutOT', update ALICE3/README with a config table by [@altsybee](https://github.com/altsybee)
 - [\#15104](https://github.com/AliceO2Group/AliceO2/pull/15104) 2026-03-02: TPC: Add missing test by [@wiechula](https://github.com/wiechula)
 - [\#15105](https://github.com/AliceO2Group/AliceO2/pull/15105) 2026-02-26: [ALICE3] TRK: fix extrusions and overlaps b/n staves by [@scannito](https://github.com/scannito)
 - [\#15106](https://github.com/AliceO2Group/AliceO2/pull/15106) 2026-02-27: [ALICE3] Update README.md with additional detector options by [@njacazio](https://github.com/njacazio)
