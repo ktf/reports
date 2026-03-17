@@ -55,7 +55,6 @@
 - [\#15166](https://github.com/AliceO2Group/AliceO2/pull/15166) 2026-03-17: fix field/material usage in the propagateToR... methods by [@shahor02](https://github.com/shahor02)
 - [\#15168](https://github.com/AliceO2Group/AliceO2/pull/15168) 2026-03-17: [ALICE 3] Fix cylindrical MLOT layout by [@scannito](https://github.com/scannito)
 ## Recent developments in O2 - Framework
-- [\#15087](https://github.com/AliceO2Group/AliceO2/pull/15087) 2026-02-27: DPL: clean up leftovers from input stream after parsing a workflow by [@ehellbar](https://github.com/ehellbar)
 - [\#15108](https://github.com/AliceO2Group/AliceO2/pull/15108) 2026-02-28: Integrate TRD extra data support in AOD production workflow by [@KangkanGoswami](https://github.com/KangkanGoswami)
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
