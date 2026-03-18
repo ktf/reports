@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-04T09:56:13Z",
-            "title": "[ALICE 3] Fix VD full cyl building for ACTS",
-            "number": 15116,
-            "author": {
-              "login": "plariono"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/VDLayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-16T13:14:29Z",
             "title": "Afit 124",
             "number": 14985,
@@ -3609,36 +3589,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Write standalone --debug output to CSV file",
-            "number": 15182,
-            "author": {
-              "login": "OliverRietmann"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-17T16:11:40Z",
             "title": "Fix boost 1.90.0 / clang issue",
@@ -4376,6 +4326,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "DPL: allow pipelining of the CCDB fetcher",
+            "number": 15192,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Write standalone --debug output to CSV file",
+            "number": 15182,
+            "author": {
+              "login": "OliverRietmann"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "ITS: staggering [DO NOT MERGE]",
             "number": 15188,
             "author": {
@@ -4383,21 +4388,6 @@
             },
             "files": {
               "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/IndexTableUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Smoother.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
-                  }
-                },
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
@@ -4571,6 +4561,11 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/base/include/ITSMFTBase/DPLAlpideParam.h"
                   }
                 },
                 {
@@ -4881,6 +4876,16 @@
                 {
                   "node": {
                     "path": "doc/data/2022-01-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_rawdecoding_its.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_rawdecoding_mft.C"
                   }
                 }
               ]
