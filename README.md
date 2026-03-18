@@ -50,9 +50,11 @@
 - [\#15159](https://github.com/AliceO2Group/AliceO2/pull/15159) 2026-03-16: [ALICE3] oTOF: fix missing tilt shift for overlaps by [@njacazio](https://github.com/njacazio)
 - [\#15160](https://github.com/AliceO2Group/AliceO2/pull/15160) 2026-03-16: Pass missing ctf-dict options by [@shahor02](https://github.com/shahor02)
 - [\#15166](https://github.com/AliceO2Group/AliceO2/pull/15166) 2026-03-17: fix field/material usage in the propagateToR... methods by [@shahor02](https://github.com/shahor02)
+- [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
 - [\#15168](https://github.com/AliceO2Group/AliceO2/pull/15168) 2026-03-17: [ALICE 3] Fix cylindrical MLOT layout by [@scannito](https://github.com/scannito)
 - [\#15176](https://github.com/AliceO2Group/AliceO2/pull/15176) 2026-03-17: Fix boost 1.90.0 / clang issue by [@ktf](https://github.com/ktf)
 - [\#15178](https://github.com/AliceO2Group/AliceO2/pull/15178) 2026-03-17: [ALICE3] update of readme for FT3 and ALICE3 by [@altsybee](https://github.com/altsybee)
+- [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
 ## Recent developments in O2 - Framework
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
