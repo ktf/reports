@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,DPG] [PID] add QA for TOF dynamic columns",
-            "number": 14883,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponseTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFDynamic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-12T13:48:51Z",
             "title": "[PWGJE] GNN b-jet histograms revised",
@@ -6474,31 +6444,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-17T19:39:34Z",
-            "title": "[PWGEM] PM: Increase histogram type from float to double for...",
-            "number": 15423,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/EventHistograms.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/NMHistograms.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-17T20:48:03Z",
             "title": "[PWGEM] Rewrite Header file + Add QA histograms",
             "number": 15424,
@@ -7015,6 +6960,61 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-17T19:39:34Z",
+            "title": "[PWGEM] PM: Increase histogram type from float to double for...",
+            "number": 15423,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/EventHistograms.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/NMHistograms.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] PM: Add TooCloseV0 cut to `AreSelectedRunning` function call:",
+            "number": 15442,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/calibTaskEmc.cxx"
                   }
                 }
               ]
