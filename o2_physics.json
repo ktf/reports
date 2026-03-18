@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-13T06:40:55Z",
-            "title": "[PWGCF] FemtoUniverse V0 Task -- has TOF check under same and mixed events",
-            "number": 15371,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-13T07:19:32Z",
-            "title": "[PWGCF] Update histogram definitions",
-            "number": 15369,
-            "author": {
-              "login": "fsii"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-13T08:27:26Z",
-            "title": "[PWGHF] Add V0 decay length to ML variables for LcK0sP",
-            "number": 15367,
-            "author": {
-              "login": "DelloStritto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseLcToK0sP.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-13T09:40:05Z",
             "title": "[PWGCF] adding q2 plots and switch for track selection",
             "number": 15338,
@@ -5504,26 +5444,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-16T08:41:30Z",
-            "title": "[Infrastructure] Sync clang-format version in pre-commit hooks with the CI",
-            "number": 15398,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".pre-commit-config.yaml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-16T09:35:42Z",
             "title": "[PWGCF] Add QA histos and fix a bug for v0 and casc PID",
             "number": 15359,
@@ -6938,26 +6858,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] Updating the table producer for VM->twotracks Monte Carlo",
-            "number": 15443,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/twoTracksEventTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-18T17:02:13Z",
             "title": "[PWGCF] Adding FT0Cvariant2 option for centrality",
@@ -7020,6 +6920,111 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Include pThat rejection for particles",
+            "number": 15444,
+            "author": {
+              "login": "jaimenorman"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-16T08:41:30Z",
+            "title": "[Infrastructure] Sync clang-format version in pre-commit hooks with the CI",
+            "number": 15398,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".pre-commit-config.yaml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Consider propagation of Tracks in TrackPropagationModule",
+            "number": 14114,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-18T18:47:26Z",
+            "title": "[Infrastructure] Sync clang-format version in pre-commit hooks with the CI",
+            "number": 15445,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".pre-commit-config.yaml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-18T18:47:55Z",
+            "title": "[PWGUD] Updating the table producer for VM->twotracks Monte Carlo",
+            "number": 15443,
+            "author": {
+              "login": "rolavick"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/twoTracksEventTableProducer.cxx"
                   }
                 }
               ]
