@@ -25,7 +25,6 @@
 - [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15111](https://github.com/AliceO2Group/AliceO2/pull/15111) 2026-03-02: Clusterer fix: suppress stray ROFs keeping their clusters unaddressed by [@shahor02](https://github.com/shahor02)
-- [\#15112](https://github.com/AliceO2Group/AliceO2/pull/15112) 2026-03-03: [ALICE3] TRK/Geometry: small bug fix by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#15115](https://github.com/AliceO2Group/AliceO2/pull/15115) 2026-03-03: Fix in filling empty ROFs 1st entry by [@shahor02](https://github.com/shahor02)
 - [\#15116](https://github.com/AliceO2Group/AliceO2/pull/15116) 2026-03-04: [ALICE 3] Fix VD full cyl building for ACTS by [@plariono](https://github.com/plariono)
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
