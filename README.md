@@ -16,6 +16,7 @@
 - [\#15110](https://github.com/AliceO2Group/AliceO2/pull/15110) 2026-03-03: [ALICE3] Cluster finding of TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15142](https://github.com/AliceO2Group/AliceO2/pull/15142) 2026-03-11: Add getR method to TrackPar by [@shahor02](https://github.com/shahor02)
 - [\#15150](https://github.com/AliceO2Group/AliceO2/pull/15150) 2026-03-12: Methods for Barrel <-> Forward tracks conversion by [@shahor02](https://github.com/shahor02)
+- [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 ## Recent developments in O2 - Detectors
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
@@ -57,6 +58,8 @@
 - [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
 - [\#15176](https://github.com/AliceO2Group/AliceO2/pull/15176) 2026-03-17: Fix boost 1.90.0 / clang issue by [@ktf](https://github.com/ktf)
 - [\#15178](https://github.com/AliceO2Group/AliceO2/pull/15178) 2026-03-17: [ALICE3] update of readme for FT3 and ALICE3 by [@altsybee](https://github.com/altsybee)
+- [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
+- [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
 - [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
 ## Recent developments in O2 - Framework
 - [\#15118](https://github.com/AliceO2Group/AliceO2/pull/15118) 2026-03-04: Include sstream to avoid implicit instantion of forward-declared object (header anyway only used once by [@davidrohr](https://github.com/davidrohr)
