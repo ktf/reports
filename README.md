@@ -60,6 +60,7 @@
 - [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
 - [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
 ## Recent developments in O2 - Framework
+- [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
