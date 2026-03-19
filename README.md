@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
+- [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
@@ -73,3 +74,4 @@
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Utilities
 - [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
+- [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
