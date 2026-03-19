@@ -57,6 +57,7 @@
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 - [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
 - [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
+- [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
