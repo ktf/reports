@@ -29,7 +29,6 @@
 - [\#15117](https://github.com/AliceO2Group/AliceO2/pull/15117) 2026-03-03: Possibility to dump FT0 eventsPerBC to file by [@shahor02](https://github.com/shahor02)
 - [\#15119](https://github.com/AliceO2Group/AliceO2/pull/15119) 2026-03-10: [ALICE 3] fix petal Z cap positions, remove overlaps by [@plariono](https://github.com/plariono)
 - [\#15122](https://github.com/AliceO2Group/AliceO2/pull/15122) 2026-03-11: [ALICE 3] Implementation of peacock layour for services by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
-- [\#15123](https://github.com/AliceO2Group/AliceO2/pull/15123) 2026-03-06: Do not parse/init TPC correction options if TPC is absent by [@shahor02](https://github.com/shahor02)
 - [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
 - [\#15131](https://github.com/AliceO2Group/AliceO2/pull/15131) 2026-03-07: fix include in one TOF macro by [@noferini](https://github.com/noferini)
 - [\#15134](https://github.com/AliceO2Group/AliceO2/pull/15134) 2026-03-11: ALICE3-TRK: fix y-axis orientation in the sensor local coordinate system, keeping the geometry unchanged by [@atriolo](https://github.com/atriolo)
@@ -67,6 +66,7 @@
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 - [\#15186](https://github.com/AliceO2Group/AliceO2/pull/15186) 2026-03-18: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#15192](https://github.com/AliceO2Group/AliceO2/pull/15192) 2026-03-18: DPL: allow pipelining of the CCDB fetcher by [@ktf](https://github.com/ktf)
+- [\#15197](https://github.com/AliceO2Group/AliceO2/pull/15197) 2026-03-20: Revert "DPL: Better detection for injected workflows" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15169](https://github.com/AliceO2Group/AliceO2/pull/15169) 2026-03-17: Workaround for non-null vertexes in event pools by [@jackal1-66](https://github.com/jackal1-66)
