@@ -57,6 +57,7 @@
 - [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
 - [\#15198](https://github.com/AliceO2Group/AliceO2/pull/15198) 2026-03-20: [ALICE3] Updated ALICE 3 IRIS coldplate in O2 geometry by [@fcolamar](https://github.com/fcolamar)
 - [\#15199](https://github.com/AliceO2Group/AliceO2/pull/15199) 2026-03-20: AODProducer: Option to specify and forward parent AOD file by [@sawenzel](https://github.com/sawenzel)
+- [\#15200](https://github.com/AliceO2Group/AliceO2/pull/15200) 2026-03-21: Fix MLOT digit residuals by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
