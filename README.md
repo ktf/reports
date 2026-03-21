@@ -66,6 +66,7 @@
 - [\#15155](https://github.com/AliceO2Group/AliceO2/pull/15155) 2026-03-14: DPL: Fix order of initialisation by [@ktf](https://github.com/ktf)
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 - [\#15186](https://github.com/AliceO2Group/AliceO2/pull/15186) 2026-03-18: Fix warnings by [@ktf](https://github.com/ktf)
+- [\#15187](https://github.com/AliceO2Group/AliceO2/pull/15187) 2026-03-21: DPL: propaedeutic to navigate a MessageSet without caching pairs by [@ktf](https://github.com/ktf)
 - [\#15192](https://github.com/AliceO2Group/AliceO2/pull/15192) 2026-03-18: DPL: allow pipelining of the CCDB fetcher by [@ktf](https://github.com/ktf)
 - [\#15197](https://github.com/AliceO2Group/AliceO2/pull/15197) 2026-03-20: Revert "DPL: Better detection for injected workflows" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
