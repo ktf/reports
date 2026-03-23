@@ -5,181 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-25T01:11:38Z",
-            "title": "Fix in CTFCoders initialization + default --ctf-dict none for encoders",
-            "number": 15097,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/CTFCoderBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/reconstruction/include/FDDReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/reconstruction/include/FT0Reconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/reconstruction/include/FV0Reconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/CTF/include/MCHCTF/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/CTF/include/MIDCTF/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-06T13:02:26Z",
             "title": "Update CODEOWNERS",
             "number": 15129,
@@ -4641,6 +4466,31 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/Specs.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix OutputSpec metadata ignored in workflow deserialization",
+            "number": 15204,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
                   }
                 }
               ]
