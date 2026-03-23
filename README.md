@@ -7,8 +7,6 @@
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Common
-- [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
@@ -22,7 +20,6 @@
 - [\#15097](https://github.com/AliceO2Group/AliceO2/pull/15097) 2026-02-25: Fix in CTFCoders initialization + default --ctf-dict none for encoders by [@shahor02](https://github.com/shahor02)
 - [\#15102](https://github.com/AliceO2Group/AliceO2/pull/15102) 2026-03-18: TPC MC: Add treatment of channel saturation to all scenarios by [@wiechula](https://github.com/wiechula)
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
-- [\#15107](https://github.com/AliceO2Group/AliceO2/pull/15107) 2026-03-02: Dump uniformly important reco ConfigParams to be collected in AO2D metadata by [@shahor02](https://github.com/shahor02)
 - [\#15111](https://github.com/AliceO2Group/AliceO2/pull/15111) 2026-03-02: Clusterer fix: suppress stray ROFs keeping their clusters unaddressed by [@shahor02](https://github.com/shahor02)
 - [\#15119](https://github.com/AliceO2Group/AliceO2/pull/15119) 2026-03-10: [ALICE 3] fix petal Z cap positions, remove overlaps by [@plariono](https://github.com/plariono)
 - [\#15122](https://github.com/AliceO2Group/AliceO2/pull/15122) 2026-03-11: [ALICE 3] Implementation of peacock layour for services by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
