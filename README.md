@@ -56,6 +56,7 @@
 - [\#15200](https://github.com/AliceO2Group/AliceO2/pull/15200) 2026-03-21: Fix MLOT digit residuals by [@mpuccio](https://github.com/mpuccio)
 - [\#15201](https://github.com/AliceO2Group/AliceO2/pull/15201) 2026-03-22: [ALICE 3] Properly set FT3 sensitive volumes; improve tiling by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15203](https://github.com/AliceO2Group/AliceO2/pull/15203) 2026-03-23: ALICE3-TRK: changed ML/OT pitch to 20 um by [@atriolo](https://github.com/atriolo)
+- [\#15207](https://github.com/AliceO2Group/AliceO2/pull/15207) 2026-03-24: Fix using MeanVertex in the residuals monitoring workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
