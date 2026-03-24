@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-10T17:25:04Z",
-            "title": "[PWGCF] FemtoUniverse V0 Task -- added has TOF check for combined signa PID",
-            "number": 15317,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-03T23:48:43Z",
-            "title": "[PWGCF] FemtoUniverse V0 Task -- implemented bitmask and strangeness TOF for v0 mc reco",
-            "number": 15156,
-            "author": {
-              "login": "Eloviyo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-02-24T16:00:47Z",
             "title": "[PWGCF] FemtoUniverse Producer -- fixed mc collision reco check for v0",
             "number": 15142,
@@ -2081,56 +2041,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add histograms for MC truth signal for prompt/non-prompt polarization",
-            "number": 15506,
-            "author": {
-              "login": "dmallick2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF/NuSpEx] Saved tpcNClsCrossedRows inside the LFLnnTable + minor changes",
-            "number": 15507,
-            "author": {
-              "login": "mapalhares"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFLnnTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/lnnRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Adjust DCA informations in data and MC",
             "number": 15505,
             "author": {
@@ -2229,6 +2139,61 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-24T17:34:48Z",
+            "title": "[PWGCF] FemtoUniverse: Check process that generated MC particle when processing fractions",
+            "number": 15503,
+            "author": {
+              "login": "alicja-pp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-24T18:22:16Z",
+            "title": "[PWGLF/NuSpEx] Saved tpcNClsCrossedRows inside the LFLnnTable + minor changes",
+            "number": 15507,
+            "author": {
+              "login": "mapalhares"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFLnnTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/lnnRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Table producer for photonDe correlation study",
@@ -2259,28 +2224,108 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-24T17:34:48Z",
-            "title": "[PWGCF] FemtoUniverse: Check process that generated MC particle when processing fractions",
-            "number": 15503,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Fit bit implementation",
+            "number": 15510,
             "author": {
-              "login": "alicja-pp"
+              "login": "sandor-lokos"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                    "path": "PWGUD/Core/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
+                    "path": "PWGUD/Core/FITCutParHolder.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                    "path": "PWGUD/Core/FITCutParHolder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/FITCutParHolderLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/UDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/SGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTestFITBitMapping.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add histograms for MC truth signal for prompt/non-prompt polarization",
+            "number": 15506,
+            "author": {
+              "login": "dmallick2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Flow-decorrelations ITS layers",
+            "number": 15511,
+            "author": {
+              "login": "lcernusa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/flowDecorrelation.cxx"
                   }
                 }
               ]
