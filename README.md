@@ -10,7 +10,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15142](https://github.com/AliceO2Group/AliceO2/pull/15142) 2026-03-11: Add getR method to TrackPar by [@shahor02](https://github.com/shahor02)
 - [\#15150](https://github.com/AliceO2Group/AliceO2/pull/15150) 2026-03-12: Methods for Barrel <-> Forward tracks conversion by [@shahor02](https://github.com/shahor02)
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
@@ -18,7 +17,6 @@
 - [\#14989](https://github.com/AliceO2Group/AliceO2/pull/14989) 2026-02-24: TRD: updates in vdrift and ExB calibration + possibility to use slope in chi2 matching by [@glegras](https://github.com/glegras)
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15049](https://github.com/AliceO2Group/AliceO2/pull/15049) 2026-03-18: MID: remove input wildcards in MID workflows by [@ehellbar](https://github.com/ehellbar)
-- [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 - [\#15102](https://github.com/AliceO2Group/AliceO2/pull/15102) 2026-03-18: TPC MC: Add treatment of channel saturation to all scenarios by [@wiechula](https://github.com/wiechula)
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15119](https://github.com/AliceO2Group/AliceO2/pull/15119) 2026-03-10: [ALICE 3] fix petal Z cap positions, remove overlaps by [@plariono](https://github.com/plariono)
@@ -75,8 +73,6 @@
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15169](https://github.com/AliceO2Group/AliceO2/pull/15169) 2026-03-17: Workaround for non-null vertexes in event pools by [@jackal1-66](https://github.com/jackal1-66)
-## Recent developments in O2 - Steer
-- [\#15090](https://github.com/AliceO2Group/AliceO2/pull/15090) 2026-03-04: add treatment of TOF DRM Errors by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Utilities
 - [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
