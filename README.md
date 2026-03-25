@@ -10,6 +10,7 @@
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15142](https://github.com/AliceO2Group/AliceO2/pull/15142) 2026-03-11: Add getR method to TrackPar by [@shahor02](https://github.com/shahor02)
 - [\#15150](https://github.com/AliceO2Group/AliceO2/pull/15150) 2026-03-12: Methods for Barrel <-> Forward tracks conversion by [@shahor02](https://github.com/shahor02)
+- [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 ## Recent developments in O2 - Detectors
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
@@ -57,6 +58,7 @@
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15155](https://github.com/AliceO2Group/AliceO2/pull/15155) 2026-03-14: DPL: Fix order of initialisation by [@ktf](https://github.com/ktf)
+- [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15177](https://github.com/AliceO2Group/AliceO2/pull/15177) 2026-03-24: DPL Analysis: force index to only bind with tables of the same origin by [@aalkin](https://github.com/aalkin)
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 - [\#15186](https://github.com/AliceO2Group/AliceO2/pull/15186) 2026-03-18: Fix warnings by [@ktf](https://github.com/ktf)
