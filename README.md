@@ -22,7 +22,6 @@
 - [\#15119](https://github.com/AliceO2Group/AliceO2/pull/15119) 2026-03-10: [ALICE 3] fix petal Z cap positions, remove overlaps by [@plariono](https://github.com/plariono)
 - [\#15122](https://github.com/AliceO2Group/AliceO2/pull/15122) 2026-03-11: [ALICE 3] Implementation of peacock layour for services by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
-- [\#15131](https://github.com/AliceO2Group/AliceO2/pull/15131) 2026-03-07: fix include in one TOF macro by [@noferini](https://github.com/noferini)
 - [\#15134](https://github.com/AliceO2Group/AliceO2/pull/15134) 2026-03-11: ALICE3-TRK: fix y-axis orientation in the sensor local coordinate system, keeping the geometry unchanged by [@atriolo](https://github.com/atriolo)
 - [\#15135](https://github.com/AliceO2Group/AliceO2/pull/15135) 2026-03-11: ALICE3-TRK: fix orientation of response function both for APTS and ALICE3 response + set reasonable threshold by [@atriolo](https://github.com/atriolo)
 - [\#15136](https://github.com/AliceO2Group/AliceO2/pull/15136) 2026-03-09: ALICE3-TRK: fix macro CheckDigits.C by [@atriolo](https://github.com/atriolo)
