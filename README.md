@@ -22,7 +22,6 @@
 - [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
 - [\#15134](https://github.com/AliceO2Group/AliceO2/pull/15134) 2026-03-11: ALICE3-TRK: fix y-axis orientation in the sensor local coordinate system, keeping the geometry unchanged by [@atriolo](https://github.com/atriolo)
 - [\#15135](https://github.com/AliceO2Group/AliceO2/pull/15135) 2026-03-11: ALICE3-TRK: fix orientation of response function both for APTS and ALICE3 response + set reasonable threshold by [@atriolo](https://github.com/atriolo)
-- [\#15136](https://github.com/AliceO2Group/AliceO2/pull/15136) 2026-03-09: ALICE3-TRK: fix macro CheckDigits.C by [@atriolo](https://github.com/atriolo)
 - [\#15138](https://github.com/AliceO2Group/AliceO2/pull/15138) 2026-03-10: ITS: fix zero field seeding by [@f3sch](https://github.com/f3sch)
 - [\#15140](https://github.com/AliceO2Group/AliceO2/pull/15140) 2026-03-13: [ALICE3] update oTOF radius by [@njacazio](https://github.com/njacazio)
 - [\#15141](https://github.com/AliceO2Group/AliceO2/pull/15141) 2026-03-10: Please consider the following formatting changes to #15140 by [@alibuild](https://github.com/alibuild)
