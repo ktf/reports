@@ -65,6 +65,7 @@
 - [\#15197](https://github.com/AliceO2Group/AliceO2/pull/15197) 2026-03-20: Revert "DPL: Better detection for injected workflows" by [@ktf](https://github.com/ktf)
 - [\#15204](https://github.com/AliceO2Group/AliceO2/pull/15204) 2026-03-24: DPL: fix OutputSpec metadata ignored in workflow deserialization by [@aalkin](https://github.com/aalkin)
 - [\#15206](https://github.com/AliceO2Group/AliceO2/pull/15206) 2026-03-24: DPL: get rid of the size method of the MessageSet by [@ktf](https://github.com/ktf)
+- [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15169](https://github.com/AliceO2Group/AliceO2/pull/15169) 2026-03-17: Workaround for non-null vertexes in event pools by [@jackal1-66](https://github.com/jackal1-66)
