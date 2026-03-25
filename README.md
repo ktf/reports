@@ -4,7 +4,6 @@
 - [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -55,7 +54,6 @@
 - [\#15207](https://github.com/AliceO2Group/AliceO2/pull/15207) 2026-03-24: Fix using MeanVertex in the residuals monitoring workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
-- [\#15133](https://github.com/AliceO2Group/AliceO2/pull/15133) 2026-03-09: DPL Analysis: fix missing sourceMatcher by [@aalkin](https://github.com/aalkin)
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15155](https://github.com/AliceO2Group/AliceO2/pull/15155) 2026-03-14: DPL: Fix order of initialisation by [@ktf](https://github.com/ktf)

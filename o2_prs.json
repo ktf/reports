@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add Lc resonances to physics constants",
-            "number": 14994,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-09T12:24:04Z",
-            "title": "DPL Analysis: fix missing sourceMatcher",
-            "number": 15133,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-09T20:13:41Z",
             "title": "ALICE3-TRK: fix macro CheckDigits.C",
@@ -4236,6 +4191,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/benchmark_DataRelayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: treat --ccdb-fetchers like --readers",
+            "number": 15217,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Drop async-list-label action",
+            "number": 15218,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/async-list-label.yml"
                   }
                 }
               ]
