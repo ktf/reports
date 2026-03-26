@@ -19,7 +19,6 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15122](https://github.com/AliceO2Group/AliceO2/pull/15122) 2026-03-11: [ALICE 3] Implementation of peacock layour for services by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
-- [\#15134](https://github.com/AliceO2Group/AliceO2/pull/15134) 2026-03-11: ALICE3-TRK: fix y-axis orientation in the sensor local coordinate system, keeping the geometry unchanged by [@atriolo](https://github.com/atriolo)
 - [\#15135](https://github.com/AliceO2Group/AliceO2/pull/15135) 2026-03-11: ALICE3-TRK: fix orientation of response function both for APTS and ALICE3 response + set reasonable threshold by [@atriolo](https://github.com/atriolo)
 - [\#15140](https://github.com/AliceO2Group/AliceO2/pull/15140) 2026-03-13: [ALICE3] update oTOF radius by [@njacazio](https://github.com/njacazio)
 - [\#15145](https://github.com/AliceO2Group/AliceO2/pull/15145) 2026-03-12: [ALICE 3] TRKLayer refactoring by [@scannito](https://github.com/scannito)
