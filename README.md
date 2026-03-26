@@ -17,7 +17,6 @@
 - [\#15049](https://github.com/AliceO2Group/AliceO2/pull/15049) 2026-03-18: MID: remove input wildcards in MID workflows by [@ehellbar](https://github.com/ehellbar)
 - [\#15102](https://github.com/AliceO2Group/AliceO2/pull/15102) 2026-03-18: TPC MC: Add treatment of channel saturation to all scenarios by [@wiechula](https://github.com/wiechula)
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
-- [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
 - [\#15140](https://github.com/AliceO2Group/AliceO2/pull/15140) 2026-03-13: [ALICE3] update oTOF radius by [@njacazio](https://github.com/njacazio)
 - [\#15145](https://github.com/AliceO2Group/AliceO2/pull/15145) 2026-03-12: [ALICE 3] TRKLayer refactoring by [@scannito](https://github.com/scannito)
 - [\#15146](https://github.com/AliceO2Group/AliceO2/pull/15146) 2026-03-11: [ALICE3] Update IOTOF README.md by [@njacazio](https://github.com/njacazio)
@@ -65,6 +64,7 @@
 - [\#15206](https://github.com/AliceO2Group/AliceO2/pull/15206) 2026-03-24: DPL: get rid of the size method of the MessageSet by [@ktf](https://github.com/ktf)
 - [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15212](https://github.com/AliceO2Group/AliceO2/pull/15212) 2026-03-26: DPL: fix DataModelViews behavior by [@ktf](https://github.com/ktf)
+- [\#15216](https://github.com/AliceO2Group/AliceO2/pull/15216) 2026-03-26: DPL: make sure DataRelayer benchmark works again by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15169](https://github.com/AliceO2Group/AliceO2/pull/15169) 2026-03-17: Workaround for non-null vertexes in event pools by [@jackal1-66](https://github.com/jackal1-66)
