@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Processing of common mode values in O2",
-            "number": 15020,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/CMV.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/RDHUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CMVContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CMVToVectorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFLPCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CMVToVectorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-cmv-to-vector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-distribute-cmv.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-factorize-cmv.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-flp-cmv.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-11T06:36:59Z",
             "title": "[ALICE 3] Implementation of peacock layour for services",
@@ -2764,46 +2684,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: Better detection for injected workflows (fixed)",
-            "number": 15202,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_hepmc_publisher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_kine_publisher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_mctracks_to_aod.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "ITS: do not query GRPECS anymore",
@@ -4291,6 +4171,66 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix BasicCCDBManager::isCacheValid(ts) method",
+            "number": 15223,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-26T10:29:14Z",
+            "title": "DPL: Better detection for injected workflows (fixed)",
+            "number": 15202,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_hepmc_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_kine_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_to_aod.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4321,16 +4261,106 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix BasicCCDBManager::isCacheValid(ts) method",
-            "number": 15223,
+            "title": "Cleanup: Remove old version of jobutils and cpulimit tool",
+            "number": 15224,
             "author": {
-              "login": "shahor02"
+              "login": "sawenzel"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
+                    "path": "Utilities/Tools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/.clang-format"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/README"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/cpulimit.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/list.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/list.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_group.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_group.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_apple.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_freebsd.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_linux.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_ci_extra_tests.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_pipeline.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
                   }
                 }
               ]

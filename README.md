@@ -61,6 +61,7 @@
 - [\#15187](https://github.com/AliceO2Group/AliceO2/pull/15187) 2026-03-21: DPL: propaedeutic to navigate a MessageSet without caching pairs by [@ktf](https://github.com/ktf)
 - [\#15192](https://github.com/AliceO2Group/AliceO2/pull/15192) 2026-03-18: DPL: allow pipelining of the CCDB fetcher by [@ktf](https://github.com/ktf)
 - [\#15197](https://github.com/AliceO2Group/AliceO2/pull/15197) 2026-03-20: Revert "DPL: Better detection for injected workflows" by [@ktf](https://github.com/ktf)
+- [\#15202](https://github.com/AliceO2Group/AliceO2/pull/15202) 2026-03-26: DPL: Better detection for injected workflows (fixed) by [@aalkin](https://github.com/aalkin)
 - [\#15204](https://github.com/AliceO2Group/AliceO2/pull/15204) 2026-03-24: DPL: fix OutputSpec metadata ignored in workflow deserialization by [@aalkin](https://github.com/aalkin)
 - [\#15206](https://github.com/AliceO2Group/AliceO2/pull/15206) 2026-03-24: DPL: get rid of the size method of the MessageSet by [@ktf](https://github.com/ktf)
 - [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
