@@ -8,7 +8,6 @@
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15142](https://github.com/AliceO2Group/AliceO2/pull/15142) 2026-03-11: Add getR method to TrackPar by [@shahor02](https://github.com/shahor02)
 - [\#15150](https://github.com/AliceO2Group/AliceO2/pull/15150) 2026-03-12: Methods for Barrel <-> Forward tracks conversion by [@shahor02](https://github.com/shahor02)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
