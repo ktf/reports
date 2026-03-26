@@ -18,7 +18,6 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15140](https://github.com/AliceO2Group/AliceO2/pull/15140) 2026-03-13: [ALICE3] update oTOF radius by [@njacazio](https://github.com/njacazio)
 - [\#15145](https://github.com/AliceO2Group/AliceO2/pull/15145) 2026-03-12: [ALICE 3] TRKLayer refactoring by [@scannito](https://github.com/scannito)
-- [\#15146](https://github.com/AliceO2Group/AliceO2/pull/15146) 2026-03-11: [ALICE3] Update IOTOF README.md by [@njacazio](https://github.com/njacazio)
 - [\#15149](https://github.com/AliceO2Group/AliceO2/pull/15149) 2026-03-12: Parse and pass SOR to o2-steer-colcontexttool in FST by [@shahor02](https://github.com/shahor02)
 - [\#15151](https://github.com/AliceO2Group/AliceO2/pull/15151) 2026-03-12: [ALICE 3] Update TRK README by [@scannito](https://github.com/scannito)
 - [\#15157](https://github.com/AliceO2Group/AliceO2/pull/15157) 2026-03-13: Fix ITS seeding for B=0 by [@shahor02](https://github.com/shahor02)
