@@ -17,7 +17,6 @@
 - [\#15049](https://github.com/AliceO2Group/AliceO2/pull/15049) 2026-03-18: MID: remove input wildcards in MID workflows by [@ehellbar](https://github.com/ehellbar)
 - [\#15102](https://github.com/AliceO2Group/AliceO2/pull/15102) 2026-03-18: TPC MC: Add treatment of channel saturation to all scenarios by [@wiechula](https://github.com/wiechula)
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
-- [\#15119](https://github.com/AliceO2Group/AliceO2/pull/15119) 2026-03-10: [ALICE 3] fix petal Z cap positions, remove overlaps by [@plariono](https://github.com/plariono)
 - [\#15122](https://github.com/AliceO2Group/AliceO2/pull/15122) 2026-03-11: [ALICE 3] Implementation of peacock layour for services by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
 - [\#15134](https://github.com/AliceO2Group/AliceO2/pull/15134) 2026-03-11: ALICE3-TRK: fix y-axis orientation in the sensor local coordinate system, keeping the geometry unchanged by [@atriolo](https://github.com/atriolo)
