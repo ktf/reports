@@ -19,7 +19,6 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15122](https://github.com/AliceO2Group/AliceO2/pull/15122) 2026-03-11: [ALICE 3] Implementation of peacock layour for services by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15126](https://github.com/AliceO2Group/AliceO2/pull/15126) 2026-03-10: [ALICE3] Update FT3 geometry by [@njacazio](https://github.com/njacazio)
-- [\#15135](https://github.com/AliceO2Group/AliceO2/pull/15135) 2026-03-11: ALICE3-TRK: fix orientation of response function both for APTS and ALICE3 response + set reasonable threshold by [@atriolo](https://github.com/atriolo)
 - [\#15140](https://github.com/AliceO2Group/AliceO2/pull/15140) 2026-03-13: [ALICE3] update oTOF radius by [@njacazio](https://github.com/njacazio)
 - [\#15145](https://github.com/AliceO2Group/AliceO2/pull/15145) 2026-03-12: [ALICE 3] TRKLayer refactoring by [@scannito](https://github.com/scannito)
 - [\#15146](https://github.com/AliceO2Group/AliceO2/pull/15146) 2026-03-11: [ALICE3] Update IOTOF README.md by [@njacazio](https://github.com/njacazio)
@@ -48,6 +47,7 @@
 - [\#15201](https://github.com/AliceO2Group/AliceO2/pull/15201) 2026-03-22: [ALICE 3] Properly set FT3 sensitive volumes; improve tiling by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15203](https://github.com/AliceO2Group/AliceO2/pull/15203) 2026-03-23: ALICE3-TRK: changed ML/OT pitch to 20 um by [@atriolo](https://github.com/atriolo)
 - [\#15207](https://github.com/AliceO2Group/AliceO2/pull/15207) 2026-03-24: Fix using MeanVertex in the residuals monitoring workflow by [@shahor02](https://github.com/shahor02)
+- [\#15219](https://github.com/AliceO2Group/AliceO2/pull/15219) 2026-03-26: Add missing track->resetCov before refit for revertexing by [@shahor02](https://github.com/shahor02)
 - [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
