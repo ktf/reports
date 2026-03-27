@@ -47,6 +47,7 @@
 - [\#15219](https://github.com/AliceO2Group/AliceO2/pull/15219) 2026-03-26: Add missing track->resetCov before refit for revertexing by [@shahor02](https://github.com/shahor02)
 - [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
+- [\#15232](https://github.com/AliceO2Group/AliceO2/pull/15232) 2026-03-27: Avoid premature loop termination in the ITS vertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
