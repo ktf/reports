@@ -36,6 +36,7 @@
 - [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
 - [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
 - [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
+- [\#15195](https://github.com/AliceO2Group/AliceO2/pull/15195) 2026-03-27: [ALICE3] IOTOF: fix non segmented layers by [@njacazio](https://github.com/njacazio)
 - [\#15198](https://github.com/AliceO2Group/AliceO2/pull/15198) 2026-03-20: [ALICE3] Updated ALICE 3 IRIS coldplate in O2 geometry by [@fcolamar](https://github.com/fcolamar)
 - [\#15199](https://github.com/AliceO2Group/AliceO2/pull/15199) 2026-03-20: AODProducer: Option to specify and forward parent AOD file by [@sawenzel](https://github.com/sawenzel)
 - [\#15200](https://github.com/AliceO2Group/AliceO2/pull/15200) 2026-03-21: Fix MLOT digit residuals by [@mpuccio](https://github.com/mpuccio)
