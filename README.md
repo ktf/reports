@@ -8,7 +8,6 @@
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
-- [\#15150](https://github.com/AliceO2Group/AliceO2/pull/15150) 2026-03-12: Methods for Barrel <-> Forward tracks conversion by [@shahor02](https://github.com/shahor02)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 ## Recent developments in O2 - Detectors
@@ -18,7 +17,6 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15140](https://github.com/AliceO2Group/AliceO2/pull/15140) 2026-03-13: [ALICE3] update oTOF radius by [@njacazio](https://github.com/njacazio)
 - [\#15149](https://github.com/AliceO2Group/AliceO2/pull/15149) 2026-03-12: Parse and pass SOR to o2-steer-colcontexttool in FST by [@shahor02](https://github.com/shahor02)
-- [\#15151](https://github.com/AliceO2Group/AliceO2/pull/15151) 2026-03-12: [ALICE 3] Update TRK README by [@scannito](https://github.com/scannito)
 - [\#15157](https://github.com/AliceO2Group/AliceO2/pull/15157) 2026-03-13: Fix ITS seeding for B=0 by [@shahor02](https://github.com/shahor02)
 - [\#15158](https://github.com/AliceO2Group/AliceO2/pull/15158) 2026-03-14: [ALICE3] adding trapezoidal disk option for FT3; fixing overlaps in FT3 and TOF by [@altsybee](https://github.com/altsybee)
 - [\#15159](https://github.com/AliceO2Group/AliceO2/pull/15159) 2026-03-16: [ALICE3] oTOF: fix missing tilt shift for overlaps by [@njacazio](https://github.com/njacazio)
