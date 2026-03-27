@@ -23,6 +23,7 @@
 - [\#15158](https://github.com/AliceO2Group/AliceO2/pull/15158) 2026-03-14: [ALICE3] adding trapezoidal disk option for FT3; fixing overlaps in FT3 and TOF by [@altsybee](https://github.com/altsybee)
 - [\#15159](https://github.com/AliceO2Group/AliceO2/pull/15159) 2026-03-16: [ALICE3] oTOF: fix missing tilt shift for overlaps by [@njacazio](https://github.com/njacazio)
 - [\#15160](https://github.com/AliceO2Group/AliceO2/pull/15160) 2026-03-16: Pass missing ctf-dict options by [@shahor02](https://github.com/shahor02)
+- [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15166](https://github.com/AliceO2Group/AliceO2/pull/15166) 2026-03-17: fix field/material usage in the propagateToR... methods by [@shahor02](https://github.com/shahor02)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
 - [\#15168](https://github.com/AliceO2Group/AliceO2/pull/15168) 2026-03-17: [ALICE 3] Fix cylindrical MLOT layout by [@scannito](https://github.com/scannito)
@@ -67,6 +68,8 @@
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15169](https://github.com/AliceO2Group/AliceO2/pull/15169) 2026-03-17: Workaround for non-null vertexes in event pools by [@jackal1-66](https://github.com/jackal1-66)
+## Recent developments in O2 - Steer
+- [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
 - [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
