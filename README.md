@@ -6,10 +6,13 @@
 ## Recent developments in O2 - Analysis
 - [\#15154](https://github.com/AliceO2Group/AliceO2/pull/15154) 2026-03-15: DPL: simplify argument passing and do not scatter configuration by [@ktf](https://github.com/ktf)
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Common
+- [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
+- [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15049](https://github.com/AliceO2Group/AliceO2/pull/15049) 2026-03-18: MID: remove input wildcards in MID workflows by [@ehellbar](https://github.com/ehellbar)
@@ -44,6 +47,7 @@
 - [\#15207](https://github.com/AliceO2Group/AliceO2/pull/15207) 2026-03-24: Fix using MeanVertex in the residuals monitoring workflow by [@shahor02](https://github.com/shahor02)
 - [\#15219](https://github.com/AliceO2Group/AliceO2/pull/15219) 2026-03-26: Add missing track->resetCov before refit for revertexing by [@shahor02](https://github.com/shahor02)
 - [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
+- [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15152](https://github.com/AliceO2Group/AliceO2/pull/15152) 2026-03-16: O2: Adapt to Arrow 23 by [@aalkin](https://github.com/aalkin)
