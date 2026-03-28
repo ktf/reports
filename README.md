@@ -66,6 +66,7 @@
 - [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15212](https://github.com/AliceO2Group/AliceO2/pull/15212) 2026-03-26: DPL: fix DataModelViews behavior by [@ktf](https://github.com/ktf)
 - [\#15216](https://github.com/AliceO2Group/AliceO2/pull/15216) 2026-03-26: DPL: make sure DataRelayer benchmark works again by [@ktf](https://github.com/ktf)
+- [\#15226](https://github.com/AliceO2Group/AliceO2/pull/15226) 2026-03-28: DPL: more validation of MessageSet::header / payload replacement by [@ktf](https://github.com/ktf)
 - [\#15228](https://github.com/AliceO2Group/AliceO2/pull/15228) 2026-03-27: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
