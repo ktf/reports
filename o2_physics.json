@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-23T14:24:02Z",
-            "title": "[PWGCF] Add some QA plots",
-            "number": 15494,
-            "author": {
-              "login": "kegang02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcEnergy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-23T14:47:23Z",
             "title": "[PWGCF] add pid efficiency loading",
             "number": 15495,
@@ -7030,6 +7010,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Add PID, track eta and ZDC time histograms in UPC process",
+            "number": 15559,
+            "author": {
+              "login": "phymanshu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] Createqg tree creator",
             "number": 15555,
             "author": {
@@ -7055,16 +7055,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add PID, track eta and ZDC time histograms in UPC process",
-            "number": 15559,
+            "title": "Major modifications related to MFT analysis",
+            "number": 15561,
             "author": {
-              "login": "phymanshu"
+              "login": "tutripat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
+                    "path": "PWGLF/Tasks/GlobalEventProperties/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/dndeta-mft-pp.cxx"
                   }
                 }
               ]
