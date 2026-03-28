@@ -65,6 +65,7 @@
 - [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15212](https://github.com/AliceO2Group/AliceO2/pull/15212) 2026-03-26: DPL: fix DataModelViews behavior by [@ktf](https://github.com/ktf)
 - [\#15216](https://github.com/AliceO2Group/AliceO2/pull/15216) 2026-03-26: DPL: make sure DataRelayer benchmark works again by [@ktf](https://github.com/ktf)
+- [\#15217](https://github.com/AliceO2Group/AliceO2/pull/15217) 2026-03-28: DPL: treat --ccdb-fetchers like --readers by [@ktf](https://github.com/ktf)
 - [\#15226](https://github.com/AliceO2Group/AliceO2/pull/15226) 2026-03-28: DPL: more validation of MessageSet::header / payload replacement by [@ktf](https://github.com/ktf)
 - [\#15228](https://github.com/AliceO2Group/AliceO2/pull/15228) 2026-03-27: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15229](https://github.com/AliceO2Group/AliceO2/pull/15229) 2026-03-28: DPL: replace MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
