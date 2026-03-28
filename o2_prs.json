@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-14T12:32:15Z",
-            "title": "DPL: Fix order of initialisation",
-            "number": 15155,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-15T18:30:17Z",
             "title": "DPL: simplify argument passing and do not scatter configuration",
             "number": 15154,
@@ -4346,36 +4326,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-03-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-03-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Drop unneeded workaround",
             "number": 15235,
             "author": {
@@ -4391,6 +4341,101 @@
                 {
                   "node": {
                     "path": "Common/MathUtils/include/MathUtils/CartesianGPU.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"DPL: Better detection for injected workflows (fixed)\"",
+            "number": 15236,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_hepmc_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_kine_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_to_aod.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-03-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-03-o2_releases.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_hepmc_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_kine_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_to_aod.cxx"
                   }
                 }
               ]
