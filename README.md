@@ -65,6 +65,7 @@
 - [\#15228](https://github.com/AliceO2Group/AliceO2/pull/15228) 2026-03-27: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15229](https://github.com/AliceO2Group/AliceO2/pull/15229) 2026-03-28: DPL: replace MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
 - [\#15233](https://github.com/AliceO2Group/AliceO2/pull/15233) 2026-03-28: DPL: exponential back-off for missing resources. by [@ktf](https://github.com/ktf)
+- [\#15234](https://github.com/AliceO2Group/AliceO2/pull/15234) 2026-03-29: DPL: drop MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
 - [\#15236](https://github.com/AliceO2Group/AliceO2/pull/15236) 2026-03-28: Revert "DPL: Better detection for injected workflows (fixed)" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15147](https://github.com/AliceO2Group/AliceO2/pull/15147) 2026-03-16: Improve Vertex handling in MCEventHeader by [@jackal1-66](https://github.com/jackal1-66)
