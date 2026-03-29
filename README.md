@@ -17,8 +17,6 @@
 - [\#15049](https://github.com/AliceO2Group/AliceO2/pull/15049) 2026-03-18: MID: remove input wildcards in MID workflows by [@ehellbar](https://github.com/ehellbar)
 - [\#15102](https://github.com/AliceO2Group/AliceO2/pull/15102) 2026-03-18: TPC MC: Add treatment of channel saturation to all scenarios by [@wiechula](https://github.com/wiechula)
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
-- [\#15159](https://github.com/AliceO2Group/AliceO2/pull/15159) 2026-03-16: [ALICE3] oTOF: fix missing tilt shift for overlaps by [@njacazio](https://github.com/njacazio)
-- [\#15160](https://github.com/AliceO2Group/AliceO2/pull/15160) 2026-03-16: Pass missing ctf-dict options by [@shahor02](https://github.com/shahor02)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15166](https://github.com/AliceO2Group/AliceO2/pull/15166) 2026-03-17: fix field/material usage in the propagateToR... methods by [@shahor02](https://github.com/shahor02)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
