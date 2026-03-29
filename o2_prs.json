@@ -4311,26 +4311,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "Drop unneeded workaround",
+            "number": 15235,
             "author": {
-              "login": "github-actions"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-03-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-03-o2_releases.json"
+                    "path": "Common/MathUtils/include/MathUtils/CartesianGPU.h"
                   }
                 }
               ]
@@ -4341,6 +4336,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE 3] Fix extrusions in TOF and forward tracker (FT3)",
+            "number": 15242,
+            "author": {
+              "login": "marcovanleeuwen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-29T21:53:06Z",
             "title": "DPL: migrate away from MessageSet",
             "number": 15241,
             "author": {
@@ -4411,51 +4436,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Drop unneeded workaround",
-            "number": 15235,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
             "author": {
-              "login": "ktf"
+              "login": "github-actions"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
+                    "path": "CHANGELOG.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/MathUtils/include/MathUtils/CartesianGPU.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE 3] Fix extrusions in TOF and forward tracker (FT3)",
-            "number": 15242,
-            "author": {
-              "login": "marcovanleeuwen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Layer.cxx"
+                    "path": "doc/data/2026-03-o2_prs.json"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKLayer.cxx"
+                    "path": "doc/data/2026-03-o2_releases.json"
                   }
                 }
               ]
