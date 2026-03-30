@@ -5,6 +5,7 @@
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
+- [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -19,7 +20,6 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
-- [\#15168](https://github.com/AliceO2Group/AliceO2/pull/15168) 2026-03-17: [ALICE 3] Fix cylindrical MLOT layout by [@scannito](https://github.com/scannito)
 - [\#15172](https://github.com/AliceO2Group/AliceO2/pull/15172) 2026-03-18: [ALICE3] Update stave tilt angles for iTOF and oTOF layers by [@njacazio](https://github.com/njacazio)
 - [\#15173](https://github.com/AliceO2Group/AliceO2/pull/15173) 2026-03-18: [ALICE3] Refactor TRK Hit class to rely on ITSMFT by [@njacazio](https://github.com/njacazio)
 - [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
@@ -66,6 +66,7 @@
 - [\#15236](https://github.com/AliceO2Group/AliceO2/pull/15236) 2026-03-28: Revert "DPL: Better detection for injected workflows (fixed)" by [@ktf](https://github.com/ktf)
 - [\#15237](https://github.com/AliceO2Group/AliceO2/pull/15237) 2026-03-29: DPL: get rid of MessageSet::pairMap by [@ktf](https://github.com/ktf)
 - [\#15241](https://github.com/AliceO2Group/AliceO2/pull/15241) 2026-03-29: DPL: migrate away from MessageSet by [@ktf](https://github.com/ktf)
+- [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#15169](https://github.com/AliceO2Group/AliceO2/pull/15169) 2026-03-17: Workaround for non-null vertexes in event pools by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
