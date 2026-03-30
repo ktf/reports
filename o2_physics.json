@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-25T16:15:04Z",
-            "title": "[PWGEM/Dilepton] fix in dimuon MC",
-            "number": 15518,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-25T17:32:13Z",
-            "title": "[PWGLF] Inclusion of bestCollision to treat outliers",
-            "number": 15519,
-            "author": {
-              "login": "lucasjsilva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/studyPnch.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGEM] Add TOF nsigma pi, K, p histos to study structure in TOFnSigEle due t…",
@@ -5314,26 +5274,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-28T19:49:44Z",
-            "title": "[PWGCF] Prompt scores support, no prompt selection for reflections",
-            "number": 15558,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-28T22:30:41Z",
             "title": "[PWGLF] Add forward detector timing information in strangeness data model",
             "number": 15547,
@@ -6863,41 +6803,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-30T14:42:53Z",
-            "title": "[PWGLF] EMCal in sigma0 analysis",
-            "number": 15577,
-            "author": {
-              "login": "gianniliveraro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSigmaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/sigmaanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGJE] jetFinderQA: QcMultCutCheck add histograms",
@@ -6995,26 +6900,6 @@
                 {
                   "node": {
                     "path": "PWGJE/TableProducer/slimTablesProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add experimental evsels, rapidity histos to strangeCascTrack",
-            "number": 15581,
-            "author": {
-              "login": "yakparo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangeCascTrack.cxx"
                   }
                 }
               ]
@@ -7275,6 +7160,66 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Infrastructure] O2 linter: Re-enable workflow. Fix branch names. Print commit and branch.",
+            "number": 15582,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/o2-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-21T19:44:46Z",
+            "title": "[Common] Update kTVXinHMP alias",
+            "number": 15478,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_trigger_aliases_run3.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-28T19:49:44Z",
+            "title": "[PWGCF] Prompt scores support, no prompt selection for reflections",
+            "number": 15558,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Update HFL task taskSingleMuonSource.cxx with new function and parameter adjustment",
             "number": 15580,
             "author": {
@@ -7285,6 +7230,61 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskSingleMuonSource.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-30T14:42:53Z",
+            "title": "[PWGLF] EMCal in sigma0 analysis",
+            "number": 15577,
+            "author": {
+              "login": "gianniliveraro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSigmaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/sigmaanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add experimental evsels, rapidity histos to strangeCascTrack",
+            "number": 15581,
+            "author": {
+              "login": "yakparo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangeCascTrack.cxx"
                   }
                 }
               ]
