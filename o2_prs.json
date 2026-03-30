@@ -2594,41 +2594,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "FT0: update Digitizer signal shape and trigger logic; FV0: update trigger logic in digitizer",
-            "number": 15209,
-            "author": {
-              "login": "spulawsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/include/FT0Base/FT0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/FV0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: migrate away from MessageSet",
@@ -3139,116 +3104,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Cleanup: Remove old version of jobutils and cpulimit tool",
-            "number": 15224,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/Tools/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/.clang-format"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/README"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/cpulimit.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/list.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/list.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_group.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_group.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator_apple.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator_freebsd.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator_linux.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test_ci_extra_tests.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test_pipeline.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/sim_challenge.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-27T16:49:49Z",
             "title": "Protect time-slice calibration from stray TFs",
@@ -3741,31 +3596,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/MessageSet.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Drop unneeded workaround",
-            "number": 15235,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/CartesianGPU.h"
                   }
                 }
               ]
@@ -4456,6 +4286,176 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldV3Magnet.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0: update Digitizer signal shape and trigger logic; FV0: update trigger logic in digitizer",
+            "number": 15209,
+            "author": {
+              "login": "spulawsk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/base/include/FT0Base/FT0DigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/FV0DigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Cleanup: Remove old version of jobutils and cpulimit tool",
+            "number": 15224,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/.clang-format"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/README"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/cpulimit.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/list.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/list.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_group.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_group.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_apple.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_freebsd.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_linux.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_ci_extra_tests.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_pipeline.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Drop unneeded workaround",
+            "number": 15235,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/CartesianGPU.h"
                   }
                 }
               ]
