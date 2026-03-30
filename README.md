@@ -41,6 +41,7 @@
 - [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15232](https://github.com/AliceO2Group/AliceO2/pull/15232) 2026-03-27: Avoid premature loop termination in the ITS vertexer by [@shahor02](https://github.com/shahor02)
+- [\#15242](https://github.com/AliceO2Group/AliceO2/pull/15242) 2026-03-30: [ALICE 3] Fix extrusions in TOF and forward tracker (FT3) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
