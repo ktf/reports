@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-- [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
@@ -74,5 +73,4 @@
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
-- [\#15153](https://github.com/AliceO2Group/AliceO2/pull/15153) 2026-03-13: Mergers: Retry with gDebug if merging fails by [@knopers8](https://github.com/knopers8)
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
