@@ -3101,36 +3101,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE,Infrastructure] Create qg tree creator",
-            "number": 15555,
-            "author": {
-              "login": "Physicistdana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/o2-linter.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/qgTreeCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Tools] Fix includes and using statements",
             "number": 15391,
             "author": {
@@ -4944,38 +4914,48 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add new centralities in StraCents table",
-            "number": 15589,
+            "state": "MERGED",
+            "mergedAt": "2026-03-31T20:17:05Z",
+            "title": "[PWGLF] Add NUA correction",
+            "number": 15601,
             "author": {
-              "login": "romainschotter"
+              "login": "skundu692"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGJE,Infrastructure] Create qg tree creator",
+            "number": 15555,
+            "author": {
+              "login": "Physicistdana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/o2-linter.yml"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stracentconverter2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/stracents.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                    "path": "PWGJE/Tasks/qgTreeCreator.cxx"
                   }
                 }
               ]
@@ -5010,17 +4990,37 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-31T20:17:05Z",
-            "title": "[PWGLF] Add NUA correction",
-            "number": 15601,
+            "mergedAt": "2026-03-31T20:39:12Z",
+            "title": "[PWGLF] Add new centralities in StraCents table",
+            "number": 15589,
             "author": {
-              "login": "skundu692"
+              "login": "romainschotter"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stracentconverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/stracents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
                   }
                 }
               ]
