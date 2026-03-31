@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-27T05:35:01Z",
-            "title": "[PWGCF] fix pid efficiency logic, counting logic",
-            "number": 15514,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-27T06:50:23Z",
             "title": "[PWGLF] Fix Kshort selection",
             "number": 15527,
@@ -3036,26 +3011,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Remove the phi axis and additional histogram and add the MC task",
-            "number": 15586,
-            "author": {
-              "login": "navneetkumar231295"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Phi prime cut was added",
             "number": 15553,
             "author": {
@@ -4971,6 +4926,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Fix bug in flag switch for ITS and TPC CPR",
+            "number": 15597,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Add new centralities in StraCents table",
             "number": 15589,
             "author": {
@@ -4985,7 +4960,22 @@
                 },
                 {
                   "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stracentconverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGLF/TableProducer/Strangeness/stracents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
                   }
                 }
               ]
@@ -4994,18 +4984,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Fix bug in flag switch for ITS and TPC CPR",
-            "number": 15597,
+            "state": "MERGED",
+            "mergedAt": "2026-03-31T14:58:39Z",
+            "title": "Please consider the following formatting changes to #15589",
+            "number": 15598,
             "author": {
-              "login": "prchakra"
+              "login": "alibuild"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stracentconverter2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-31T15:06:39Z",
+            "title": "[PWGLF] Remove the phi axis and additional histogram and add the MC task",
+            "number": 15586,
+            "author": {
+              "login": "navneetkumar231295"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
                   }
                 }
               ]
