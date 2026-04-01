@@ -70,6 +70,7 @@
 - [\#15237](https://github.com/AliceO2Group/AliceO2/pull/15237) 2026-03-29: DPL: get rid of MessageSet::pairMap by [@ktf](https://github.com/ktf)
 - [\#15241](https://github.com/AliceO2Group/AliceO2/pull/15241) 2026-03-29: DPL: migrate away from MessageSet by [@ktf](https://github.com/ktf)
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
+- [\#15246](https://github.com/AliceO2Group/AliceO2/pull/15246) 2026-04-01: DPL: add MCP server for DPL by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
