@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-17T12:49:44Z",
-            "title": "Workaround for non-null vertexes in event pools",
-            "number": 15169,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-17T16:11:40Z",
             "title": "Fix boost 1.90.0 / clang issue",
             "number": 15176,
@@ -4476,6 +4456,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-flp-cmv.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "require min num of entries for TOF Diagnostic calibs",
+            "number": 15249,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFDiagnosticCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFDiagnosticCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDiagnosticCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/tof-diagnostic-workflow.cxx"
                   }
                 }
               ]
