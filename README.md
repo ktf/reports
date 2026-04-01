@@ -7,6 +7,7 @@
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
+- [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
@@ -42,6 +43,7 @@
 - [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15232](https://github.com/AliceO2Group/AliceO2/pull/15232) 2026-03-27: Avoid premature loop termination in the ITS vertexer by [@shahor02](https://github.com/shahor02)
+- [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15240](https://github.com/AliceO2Group/AliceO2/pull/15240) 2026-03-31: Rework DCS point classes to have default assign operators by [@ktf](https://github.com/ktf)
 - [\#15242](https://github.com/AliceO2Group/AliceO2/pull/15242) 2026-03-30: [ALICE 3] Fix extrusions in TOF and forward tracker (FT3) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15247](https://github.com/AliceO2Group/AliceO2/pull/15247) 2026-04-01: [ALICE3] IOTOF: allow reduced sensor thickness wihout reducing chip size by [@njacazio](https://github.com/njacazio)
@@ -68,6 +70,7 @@
 - [\#15234](https://github.com/AliceO2Group/AliceO2/pull/15234) 2026-03-29: DPL: drop MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
 - [\#15236](https://github.com/AliceO2Group/AliceO2/pull/15236) 2026-03-28: Revert "DPL: Better detection for injected workflows (fixed)" by [@ktf](https://github.com/ktf)
 - [\#15237](https://github.com/AliceO2Group/AliceO2/pull/15237) 2026-03-29: DPL: get rid of MessageSet::pairMap by [@ktf](https://github.com/ktf)
+- [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15241](https://github.com/AliceO2Group/AliceO2/pull/15241) 2026-03-29: DPL: migrate away from MessageSet by [@ktf](https://github.com/ktf)
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 - [\#15246](https://github.com/AliceO2Group/AliceO2/pull/15246) 2026-04-01: DPL: add MCP server for DPL by [@ktf](https://github.com/ktf)
