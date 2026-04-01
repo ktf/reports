@@ -27,6 +27,7 @@
 - [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
 - [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
 - [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
+- [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
 - [\#15195](https://github.com/AliceO2Group/AliceO2/pull/15195) 2026-03-27: [ALICE3] IOTOF: fix non segmented layers by [@njacazio](https://github.com/njacazio)
 - [\#15198](https://github.com/AliceO2Group/AliceO2/pull/15198) 2026-03-20: [ALICE3] Updated ALICE 3 IRIS coldplate in O2 geometry by [@fcolamar](https://github.com/fcolamar)
 - [\#15199](https://github.com/AliceO2Group/AliceO2/pull/15199) 2026-03-20: AODProducer: Option to specify and forward parent AOD file by [@sawenzel](https://github.com/sawenzel)
@@ -35,6 +36,7 @@
 - [\#15203](https://github.com/AliceO2Group/AliceO2/pull/15203) 2026-03-23: ALICE3-TRK: changed ML/OT pitch to 20 um by [@atriolo](https://github.com/atriolo)
 - [\#15207](https://github.com/AliceO2Group/AliceO2/pull/15207) 2026-03-24: Fix using MeanVertex in the residuals monitoring workflow by [@shahor02](https://github.com/shahor02)
 - [\#15209](https://github.com/AliceO2Group/AliceO2/pull/15209) 2026-03-30: FT0: update Digitizer signal shape and trigger logic; FV0: update trigger logic in digitizer by [@spulawsk](https://github.com/spulawsk)
+- [\#15215](https://github.com/AliceO2Group/AliceO2/pull/15215) 2026-04-01: [ALICE3] TRK: Collect services in a dedicated volume assembly by [@njacazio](https://github.com/njacazio)
 - [\#15219](https://github.com/AliceO2Group/AliceO2/pull/15219) 2026-03-26: Add missing track->resetCov before refit for revertexing by [@shahor02](https://github.com/shahor02)
 - [\#15220](https://github.com/AliceO2Group/AliceO2/pull/15220) 2026-03-30: [ALICE3] IOTOF: Adjust layer radius calculations for stave tilt and chip thickness by [@njacazio](https://github.com/njacazio)
 - [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
@@ -42,6 +44,7 @@
 - [\#15232](https://github.com/AliceO2Group/AliceO2/pull/15232) 2026-03-27: Avoid premature loop termination in the ITS vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15240](https://github.com/AliceO2Group/AliceO2/pull/15240) 2026-03-31: Rework DCS point classes to have default assign operators by [@ktf](https://github.com/ktf)
 - [\#15242](https://github.com/AliceO2Group/AliceO2/pull/15242) 2026-03-30: [ALICE 3] Fix extrusions in TOF and forward tracker (FT3) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
+- [\#15247](https://github.com/AliceO2Group/AliceO2/pull/15247) 2026-04-01: [ALICE3] IOTOF: allow reduced sensor thickness wihout reducing chip size by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
