@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
@@ -51,7 +50,6 @@
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15177](https://github.com/AliceO2Group/AliceO2/pull/15177) 2026-03-24: DPL Analysis: force index to only bind with tables of the same origin by [@aalkin](https://github.com/aalkin)
-- [\#15179](https://github.com/AliceO2Group/AliceO2/pull/15179) 2026-03-17: DPL: allow non-owning TFileFileSystem by [@ktf](https://github.com/ktf)
 - [\#15186](https://github.com/AliceO2Group/AliceO2/pull/15186) 2026-03-18: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#15187](https://github.com/AliceO2Group/AliceO2/pull/15187) 2026-03-21: DPL: propaedeutic to navigate a MessageSet without caching pairs by [@ktf](https://github.com/ktf)
 - [\#15192](https://github.com/AliceO2Group/AliceO2/pull/15192) 2026-03-18: DPL: allow pipelining of the CCDB fetcher by [@ktf](https://github.com/ktf)
