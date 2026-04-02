@@ -25,7 +25,6 @@
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 - [\#15183](https://github.com/AliceO2Group/AliceO2/pull/15183) 2026-03-22: [ALICE3] Adding error msg for TGeo features and QA macro for reco by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
-- [\#15185](https://github.com/AliceO2Group/AliceO2/pull/15185) 2026-03-18: ALICE 3 fix: overlap bw IRIS material and vacuum by [@plariono](https://github.com/plariono)
 - [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
 - [\#15195](https://github.com/AliceO2Group/AliceO2/pull/15195) 2026-03-27: [ALICE3] IOTOF: fix non segmented layers by [@njacazio](https://github.com/njacazio)
