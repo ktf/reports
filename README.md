@@ -20,7 +20,6 @@
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
 - [\#15172](https://github.com/AliceO2Group/AliceO2/pull/15172) 2026-03-18: [ALICE3] Update stave tilt angles for iTOF and oTOF layers by [@njacazio](https://github.com/njacazio)
-- [\#15173](https://github.com/AliceO2Group/AliceO2/pull/15173) 2026-03-18: [ALICE3] Refactor TRK Hit class to rely on ITSMFT by [@njacazio](https://github.com/njacazio)
 - [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 - [\#15183](https://github.com/AliceO2Group/AliceO2/pull/15183) 2026-03-22: [ALICE3] Adding error msg for TGeo features and QA macro for reco by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#15184](https://github.com/AliceO2Group/AliceO2/pull/15184) 2026-03-18: Use finer Z bins for mat LUT in 56.5 < R< 76 cm by [@shahor02](https://github.com/shahor02)
