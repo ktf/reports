@@ -70,6 +70,7 @@
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 - [\#15246](https://github.com/AliceO2Group/AliceO2/pull/15246) 2026-04-01: DPL: add MCP server for DPL by [@ktf](https://github.com/ktf)
 - [\#15253](https://github.com/AliceO2Group/AliceO2/pull/15253) 2026-04-02: DPL: fix long standing bug with ArrayString serialization by [@ktf](https://github.com/ktf)
+- [\#15255](https://github.com/AliceO2Group/AliceO2/pull/15255) 2026-04-02: DPL: Update serialization/deserialization test for string array Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
