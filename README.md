@@ -72,6 +72,7 @@
 - [\#15253](https://github.com/AliceO2Group/AliceO2/pull/15253) 2026-04-02: DPL: fix long standing bug with ArrayString serialization by [@ktf](https://github.com/ktf)
 - [\#15254](https://github.com/AliceO2Group/AliceO2/pull/15254) 2026-04-02: DPL: speedup old split parts indexing by [@ktf](https://github.com/ktf)
 - [\#15255](https://github.com/AliceO2Group/AliceO2/pull/15255) 2026-04-02: DPL: Update serialization/deserialization test for string array Variant by [@aalkin](https://github.com/aalkin)
+- [\#15258](https://github.com/AliceO2Group/AliceO2/pull/15258) 2026-04-03: DPL MCP: add tool to resume a stopped topology by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
