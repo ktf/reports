@@ -10,7 +10,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
-- [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
@@ -19,7 +18,6 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
-- [\#15181](https://github.com/AliceO2Group/AliceO2/pull/15181) 2026-03-18: TRD: small fix for gain and VdExB calib by [@glegras](https://github.com/glegras)
 - [\#15183](https://github.com/AliceO2Group/AliceO2/pull/15183) 2026-03-22: [ALICE3] Adding error msg for TGeo features and QA macro for reco by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
@@ -73,6 +71,7 @@
 - [\#15254](https://github.com/AliceO2Group/AliceO2/pull/15254) 2026-04-02: DPL: speedup old split parts indexing by [@ktf](https://github.com/ktf)
 - [\#15255](https://github.com/AliceO2Group/AliceO2/pull/15255) 2026-04-02: DPL: Update serialization/deserialization test for string array Variant by [@aalkin](https://github.com/aalkin)
 - [\#15258](https://github.com/AliceO2Group/AliceO2/pull/15258) 2026-04-03: DPL MCP: add tool to resume a stopped topology by [@ktf](https://github.com/ktf)
+- [\#15259](https://github.com/AliceO2Group/AliceO2/pull/15259) 2026-04-03: DPL: add formatters for ConfigParamSpec by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
