@@ -45,7 +45,6 @@
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15177](https://github.com/AliceO2Group/AliceO2/pull/15177) 2026-03-24: DPL Analysis: force index to only bind with tables of the same origin by [@aalkin](https://github.com/aalkin)
 - [\#15187](https://github.com/AliceO2Group/AliceO2/pull/15187) 2026-03-21: DPL: propaedeutic to navigate a MessageSet without caching pairs by [@ktf](https://github.com/ktf)
-- [\#15192](https://github.com/AliceO2Group/AliceO2/pull/15192) 2026-03-18: DPL: allow pipelining of the CCDB fetcher by [@ktf](https://github.com/ktf)
 - [\#15197](https://github.com/AliceO2Group/AliceO2/pull/15197) 2026-03-20: Revert "DPL: Better detection for injected workflows" by [@ktf](https://github.com/ktf)
 - [\#15202](https://github.com/AliceO2Group/AliceO2/pull/15202) 2026-03-26: DPL: Better detection for injected workflows (fixed) by [@aalkin](https://github.com/aalkin)
 - [\#15204](https://github.com/AliceO2Group/AliceO2/pull/15204) 2026-03-24: DPL: fix OutputSpec metadata ignored in workflow deserialization by [@aalkin](https://github.com/aalkin)
