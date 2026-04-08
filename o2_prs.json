@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-19T13:43:57Z",
-            "title": "TPC: Implement ad-hoc correction for r and z in old SCD map creation",
-            "number": 15103,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-19T14:19:54Z",
             "title": "TPC: Change default SCD calibration interval to 5min",
             "number": 15193,
@@ -5006,6 +4976,31 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/TRK/workflow/include/TRKWorkflow/TrackerSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix wrong long_to_int converstion in TOF readout window indexing",
+            "number": 15265,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/WindowFiller.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
                   }
                 }
               ]
