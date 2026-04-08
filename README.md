@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
@@ -16,6 +14,7 @@
 - [\#15103](https://github.com/AliceO2Group/AliceO2/pull/15103) 2026-03-19: TPC: Implement ad-hoc correction for r and z in old SCD map creation by [@wiechula](https://github.com/wiechula)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
+- [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
 - [\#15183](https://github.com/AliceO2Group/AliceO2/pull/15183) 2026-03-22: [ALICE3] Adding error msg for TGeo features and QA macro for reco by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
 - [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
@@ -42,7 +41,6 @@
 - [\#15260](https://github.com/AliceO2Group/AliceO2/pull/15260) 2026-04-07: ITS3: add cylinder parameterisation preserving zero gaussian curvature by [@f3sch](https://github.com/f3sch)
 - [\#15263](https://github.com/AliceO2Group/AliceO2/pull/15263) 2026-04-08: [ALICE3] TRK: Add TrackerACTS header for ACTS-based tracking by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
-- [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15177](https://github.com/AliceO2Group/AliceO2/pull/15177) 2026-03-24: DPL Analysis: force index to only bind with tables of the same origin by [@aalkin](https://github.com/aalkin)
 - [\#15187](https://github.com/AliceO2Group/AliceO2/pull/15187) 2026-03-21: DPL: propaedeutic to navigate a MessageSet without caching pairs by [@ktf](https://github.com/ktf)
@@ -77,5 +75,4 @@
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Utilities
-- [\#15189](https://github.com/AliceO2Group/AliceO2/pull/15189) 2026-03-19: Correctly handle errors in merging histograms with kAverage by [@knopers8](https://github.com/knopers8)
 - [\#15256](https://github.com/AliceO2Group/AliceO2/pull/15256) 2026-04-08: DPL: refactor InputSpan by [@ktf](https://github.com/ktf)
