@@ -40,6 +40,7 @@
 - [\#15249](https://github.com/AliceO2Group/AliceO2/pull/15249) 2026-04-07: require min num of entries for TOF Diagnostic calibs by [@noferini](https://github.com/noferini)
 - [\#15250](https://github.com/AliceO2Group/AliceO2/pull/15250) 2026-04-02: Remove TrackerACTS from CMakeLists.txt by [@njacazio](https://github.com/njacazio)
 - [\#15260](https://github.com/AliceO2Group/AliceO2/pull/15260) 2026-04-07: ITS3: add cylinder parameterisation preserving zero gaussian curvature by [@f3sch](https://github.com/f3sch)
+- [\#15263](https://github.com/AliceO2Group/AliceO2/pull/15263) 2026-04-08: [ALICE3] TRK: Add TrackerACTS header for ACTS-based tracking by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#15130](https://github.com/AliceO2Group/AliceO2/pull/15130) 2026-03-19: DPL: Better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
