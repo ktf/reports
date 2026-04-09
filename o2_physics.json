@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-02T18:10:16Z",
-            "title": "[PWGMM/LumiStability] Separate ZDC QA into dedicated task",
-            "number": 15625,
-            "author": {
-              "login": "nstrangm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiStabilityLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiZdcQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-03T02:47:58Z",
-            "title": "[PWGCF] DptDpt - Tracking particle origin at generator level",
-            "number": 15637,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/particleOriginAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-03T02:56:18Z",
             "title": "[PWGHF] ppbar decay channel for hidden charm",
             "number": 15638,
@@ -1621,6 +1566,751 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] Add QA matching derived tables AO2D outputs",
+            "number": 15517,
+            "author": {
+              "login": "nivram-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGUD] MC analysis for flow",
+            "number": 15626,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T06:57:37Z",
+            "title": "[PWGDQ] Adding missing flag for event selection",
+            "number": 15677,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T09:11:04Z",
+            "title": "[PWGLF] Update on Xi1530 and Reso-init",
+            "number": 15668,
+            "author": {
+              "login": "mjkim525"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1530Analysisqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add Lc->pK0s channel in polarization task.",
+            "number": 15635,
+            "author": {
+              "login": "XXL-2025"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T10:14:55Z",
+            "title": "[Common] Fix compilation errors in macros",
+            "number": 15630,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/ctpRateF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/macros/testMetadataHelper.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T13:26:39Z",
+            "title": "[PWGJE] jetFinderQA: quickfix",
+            "number": 15682,
+            "author": {
+              "login": "aimeric-landou"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T13:47:21Z",
+            "title": "[PWGEM/Dilepton] update dimuon producer",
+            "number": 15680,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonProducer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EMTrackUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Adding new process function for electron-muon analysis",
+            "number": 15490,
+            "author": {
+              "login": "Shunsuke-Kurita"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T15:50:58Z",
+            "title": "[PWGLF] Added a switch for the pbpb collision selection",
+            "number": 15685,
+            "author": {
+              "login": "gengjiabin12"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-08T16:23:25Z",
+            "title": "[PWGLF] small change in heavyionMultiplicity.cxx",
+            "number": 15687,
+            "author": {
+              "login": "murioni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGEM] LMee: Adding more DCA correlation histograms to various signals.",
+            "number": 15688,
+            "author": {
+              "login": "jjungIKF"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] LMee: Adding more DCA correlation histograms to various signals.",
+            "number": 15602,
+            "author": {
+              "login": "jjungIKF"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] EbyE: fix MC process, added some qa histos",
+            "number": 15671,
+            "author": {
+              "login": "baasingh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/master"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] EbyE: fix MC process, added some qa histos",
+            "number": 15690,
+            "author": {
+              "login": "baasingh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/master"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T07:31:38Z",
+            "title": "[PWGLF] nuclei proton correlation: fix mixed event for identical pairs and O2linter",
+            "number": 15686,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T08:17:51Z",
+            "title": "[PWGCF] add purity analysis process",
+            "number": 15654,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] use get track size and add flowMC",
+            "number": 15679,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Update event selection, cuts, and histograms for analysis",
+            "number": 15692,
+            "author": {
+              "login": "PaolaVT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/multiplicityPt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add flow  workflow directly in the table maker",
+            "number": 15691,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T09:50:22Z",
+            "title": "[PWGDQ] add decay length related variables for MCtruth pairs",
+            "number": 15634,
+            "author": {
+              "login": "ffionda"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T09:57:56Z",
+            "title": "[PWGDQ] Adding q-vector to table-maker",
+            "number": 15693,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T10:02:17Z",
+            "title": "[PWGEM/Dilepton] add option for vn{EP}",
+            "number": 15694,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EventHistograms.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] deuteron proton correlation: include acceptance cut in generate process functions",
+            "number": 15695,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T11:16:27Z",
+            "title": "[Common] Add evsel isFlangeEvent to centrality study",
+            "number": 15593,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-01T10:08:43Z",
+            "title": "[PWGJE] Add Lund jet plane task",
+            "number": 15536,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetLundPlane.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-31T13:11:45Z",
+            "title": "[PWGJE] Adding Matched MC function + dPhi fixes",
+            "number": 15551,
+            "author": {
+              "login": "MattOckleton"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T06:30:19Z",
+            "title": "[PWGJE] Add random cone method",
+            "number": 15689,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T08:59:41Z",
+            "title": "[DPG] Fix chamber and cluster charge",
+            "number": 15684,
+            "author": {
+              "login": "rliotino99"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Added a process function in dqFlow to compute FT0C cumulant for flow analysis",
+            "number": 15681,
+            "author": {
+              "login": "Ankyyadav"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] HMPID: Double revert fixes",
+            "number": 15696,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T12:07:36Z",
+            "title": "[PWGDQ] Add and change some code for the energy correlator study",
+            "number": 15641,
+            "author": {
+              "login": "YazhenLin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Tutorial,PWGCF,PWGEM,PWGHF,PWGLF,PWGMM,PWGUD] Fix includes and using statements",
             "number": 15392,
             "author": {
@@ -2136,101 +2826,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add QA matching derived tables AO2D outputs",
-            "number": 15517,
+            "title": "[PWGHF] add new classifications for like-sign muon pairs",
+            "number": 15683,
             "author": {
-              "login": "nivram-phy"
+              "login": "MaolinZH"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGUD] MC analysis for flow",
-            "number": 15626,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T06:57:37Z",
-            "title": "[PWGDQ] Adding missing flag for event selection",
-            "number": 15677,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T09:11:04Z",
-            "title": "[PWGLF] Update on Xi1530 and Reso-init",
-            "number": 15668,
-            "author": {
-              "login": "mjkim525"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/xi1530Analysisqa.cxx"
+                    "path": "PWGHF/HFL/Tasks/taskSingleMuonSource.cxx"
                   }
                 }
               ]
@@ -2241,33 +2846,23 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add Lc->pK0s channel in polarization task.",
-            "number": 15635,
-            "author": {
-              "login": "XXL-2025"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T10:14:55Z",
-            "title": "[Common] Fix compilation errors in macros",
-            "number": 15630,
+            "title": "[Common] Fix includes and using statements",
+            "number": 15380,
             "author": {
               "login": "vkucera"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "Common/CCDB/macros/ctpRateF.C"
@@ -2280,152 +2875,292 @@
                 },
                 {
                   "node": {
-                    "path": "Common/Core/macros/testMetadataHelper.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T13:26:39Z",
-            "title": "[PWGJE] jetFinderQA: quickfix",
-            "number": 15682,
-            "author": {
-              "login": "aimeric-landou"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T13:47:21Z",
-            "title": "[PWGEM/Dilepton] update dimuon producer",
-            "number": 15680,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonProducer.h"
+                    "path": "Common/CCDB/macros/upload_event_selection_params_run3.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Utils/EMTrackUtilities.h"
+                    "path": "Common/CCDB/macros/upload_trigger_aliases.C"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Adding new process function for electron-muon analysis",
-            "number": 15490,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
+                    "path": "Common/CCDB/macros/upload_trigger_aliases_run3.C"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T15:50:58Z",
-            "title": "[PWGLF] Added a switch for the pbpb collision selection",
-            "number": 15685,
-            "author": {
-              "login": "gengjiabin12"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "Common/Core/EventMixing.h"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T16:23:25Z",
-            "title": "[PWGLF] small change in heavyionMultiplicity.cxx",
-            "number": 15687,
-            "author": {
-              "login": "murioni"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
+                    "path": "Common/Core/FFitWeights.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGEM] LMee: Adding more DCA correlation histograms to various signals.",
-            "number": 15688,
-            "author": {
-              "login": "jjungIKF"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                    "path": "Common/Core/MetadataHelper.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] LMee: Adding more DCA correlation histograms to various signals.",
-            "number": 15602,
-            "author": {
-              "login": "jjungIKF"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFParamService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/TPCPIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TableHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/Zorro.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/Zorro.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/ZorroHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/ZorroSummary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/fwdtrackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/macros/testCollisionTypeHelper.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/macros/testMetadataHelper.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/EventSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/PIDResponseTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/ZDCLightIons.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/run2TinyToFullPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCServiceRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/centralityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eseTableProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelectionServiceRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/fwdtrackextension.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/mcCollsExtra.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/mftmchMatchingML.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackDcaCovFillerRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackselection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdcExtraTableProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcTableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/macros/runCalibration.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/macros/runGlauberFit.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/macros/saveCorrelation.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/multGlauberNBDFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/handleParamTPCResponse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
                   }
                 }
               ]
@@ -3464,471 +4199,6 @@
         },
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] EbyE: fix MC process, added some qa histos",
-            "number": 15671,
-            "author": {
-              "login": "baasingh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/master"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] EbyE: fix MC process, added some qa histos",
-            "number": 15690,
-            "author": {
-              "login": "baasingh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/master"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T07:31:38Z",
-            "title": "[PWGLF] nuclei proton correlation: fix mixed event for identical pairs and O2linter",
-            "number": 15686,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T08:17:51Z",
-            "title": "[PWGCF] add purity analysis process",
-            "number": 15654,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] use get track size and add flowMC",
-            "number": 15679,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Update event selection, cuts, and histograms for analysis",
-            "number": 15692,
-            "author": {
-              "login": "PaolaVT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/multiplicityPt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add flow  workflow directly in the table maker",
-            "number": 15691,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] add new classifications for like-sign muon pairs",
-            "number": 15683,
-            "author": {
-              "login": "MaolinZH"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleMuonSource.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T09:50:22Z",
-            "title": "[PWGDQ] add decay length related variables for MCtruth pairs",
-            "number": 15634,
-            "author": {
-              "login": "ffionda"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T09:57:56Z",
-            "title": "[PWGDQ] Adding q-vector to table-maker",
-            "number": 15693,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T10:02:17Z",
-            "title": "[PWGEM/Dilepton] add option for vn{EP}",
-            "number": 15694,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EventHistograms.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add and change some code for the energy correlator study",
-            "number": 15641,
-            "author": {
-              "login": "YazhenLin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] deuteron proton correlation: include acceptance cut in generate process functions",
-            "number": 15695,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T11:16:27Z",
-            "title": "[Common] Add evsel isFlangeEvent to centrality study",
-            "number": 15593,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-01T10:08:43Z",
-            "title": "[PWGJE] Add Lund jet plane task",
-            "number": 15536,
-            "author": {
-              "login": "zovarga"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetLundPlane.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-31T13:11:45Z",
-            "title": "[PWGJE] Adding Matched MC function + dPhi fixes",
-            "number": 15551,
-            "author": {
-              "login": "MattOckleton"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T06:30:19Z",
-            "title": "[PWGJE] Add random cone method",
-            "number": 15689,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T08:59:41Z",
-            "title": "[DPG] Fix chamber and cluster charge",
-            "number": 15684,
-            "author": {
-              "login": "rliotino99"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Added a process function in dqFlow to compute FT0C cumulant for flow analysis",
-            "number": 15681,
-            "author": {
-              "login": "Ankyyadav"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] HMPID: Double revert fixes",
-            "number": 15696,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGUD] Modification to global muon producer",
@@ -3941,6 +4211,26 @@
                 {
                   "node": {
                     "path": "PWGUD/TableProducer/upcCandProducerGlobalMuon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix output table content - Wrong bachelor Id given",
+            "number": 15698,
+            "author": {
+              "login": "jinhyunni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0Qa.cxx"
                   }
                 }
               ]
