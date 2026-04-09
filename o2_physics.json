@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-02T18:15:26Z",
-            "title": "[PWGCF] flowSP: Add constant limit to tight DCA cut (same as XY)",
-            "number": 15608,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-02T18:15:02Z",
-            "title": "[PWGCF] Refresh naming convention of table producer",
-            "number": 15620,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-01T09:52:20Z",
-            "title": "[PWGHF] fix event mixing binning setup in D0-h correlator",
-            "number": 15595,
-            "author": {
-              "login": "swapneshkhade"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGHF] Add Lc->pK0s channel in polarization task",
@@ -1216,36 +1146,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add and change some code for the energy correlator study",
-            "number": 15641,
-            "author": {
-              "login": "YazhenLin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Remove isPhysicalPrimary tag",
             "number": 15324,
             "author": {
@@ -1391,36 +1291,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/photonDeuteron.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add evsel isFlangeEvent to centrality study",
-            "number": 15593,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
@@ -3715,26 +3585,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-09T06:30:19Z",
-            "title": "[PWGJE] Add random cone method",
-            "number": 15689,
-            "author": {
-              "login": "ynishida-style"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetShape.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-09T07:31:38Z",
             "title": "[PWGLF] nuclei proton correlation: fix mixed event for identical pairs and O2linter",
             "number": 15686,
@@ -3956,6 +3806,151 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add and change some code for the energy correlator study",
+            "number": 15641,
+            "author": {
+              "login": "YazhenLin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] deuteron proton correlation: include acceptance cut in generate process functions",
+            "number": 15695,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T11:16:27Z",
+            "title": "[Common] Add evsel isFlangeEvent to centrality study",
+            "number": 15593,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-01T10:08:43Z",
+            "title": "[PWGJE] Add Lund jet plane task",
+            "number": 15536,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetLundPlane.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-31T13:11:45Z",
+            "title": "[PWGJE] Adding Matched MC function + dPhi fixes",
+            "number": 15551,
+            "author": {
+              "login": "MattOckleton"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T06:30:19Z",
+            "title": "[PWGJE] Add random cone method",
+            "number": 15689,
+            "author": {
+              "login": "ynishida-style"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetShape.cxx"
                   }
                 }
               ]
