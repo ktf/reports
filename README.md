@@ -15,7 +15,6 @@
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
 - [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
 - [\#15183](https://github.com/AliceO2Group/AliceO2/pull/15183) 2026-03-22: [ALICE3] Adding error msg for TGeo features and QA macro for reco by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
-- [\#15193](https://github.com/AliceO2Group/AliceO2/pull/15193) 2026-03-19: TPC: Change default SCD calibration interval to 5min by [@wiechula](https://github.com/wiechula)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
 - [\#15195](https://github.com/AliceO2Group/AliceO2/pull/15195) 2026-03-27: [ALICE3] IOTOF: fix non segmented layers by [@njacazio](https://github.com/njacazio)
 - [\#15198](https://github.com/AliceO2Group/AliceO2/pull/15198) 2026-03-20: [ALICE3] Updated ALICE 3 IRIS coldplate in O2 geometry by [@fcolamar](https://github.com/fcolamar)
