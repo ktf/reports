@@ -741,26 +741,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Lambda BF Update",
-            "number": 15675,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common,DPG,PWGDQ,PWGEM,PWGLF,PWGUD] bulk rename for include DPLAlpideParam",
             "number": 15676,
             "author": {
@@ -3519,23 +3499,88 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] added a process function for mixed event combinatorial bkg for phi",
-            "number": 15710,
+            "state": "MERGED",
+            "mergedAt": "2026-04-09T12:07:36Z",
+            "title": "[PWGDQ] Add and change some code for the energy correlator study",
+            "number": 15641,
             "author": {
-              "login": "prottayCMT"
+              "login": "YazhenLin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                    "path": "PWGDQ/Core/VarManager.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-10T09:51:29Z",
+            "title": "[PWGLF] modifications for vertex association studies",
+            "number": 15707,
+            "author": {
+              "login": "tutripat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] Add new cut kIsGoodZvtxFT0vsPV",
+            "number": 15701,
+            "author": {
+              "login": "YashParakh007"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/netprotcumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add Lc->pK0s channel in polarization task.",
+            "number": 15635,
+            "author": {
+              "login": "XXL-2025"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
                   }
                 }
               ]
@@ -4059,68 +4104,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T12:07:36Z",
-            "title": "[PWGDQ] Add and change some code for the energy correlator study",
-            "number": 15641,
-            "author": {
-              "login": "YazhenLin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-10T09:51:29Z",
-            "title": "[PWGLF] modifications for vertex association studies",
-            "number": 15707,
-            "author": {
-              "login": "tutripat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add new cut kIsGoodZvtxFT0vsPV",
-            "number": 15701,
+            "title": "[PWGCF] Lambda BF Update",
+            "number": 15675,
             "author": {
-              "login": "YashParakh007"
+              "login": "yashpatley"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netprotcumulants.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
                   }
                 }
               ]
@@ -4131,16 +4126,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add Lc->pK0s channel in polarization task.",
-            "number": 15635,
+            "title": "[PWGCF] added a process function for mixed event combinatorial bkg for phi",
+            "number": 15710,
             "author": {
-              "login": "XXL-2025"
+              "login": "prottayCMT"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
                   }
                 }
               ]
