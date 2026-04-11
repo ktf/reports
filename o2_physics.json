@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
-            "number": 15636,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-07T11:28:56Z",
             "title": "[DPG] PID: add QA for TOF dynamic columns",
@@ -4361,6 +4331,51 @@
                 {
                   "node": {
                     "path": ".mega-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-10-05T13:01:51Z",
+            "title": "[PWGLF] added QC task for nuclei, moved nucleiUtils.h to the appropriate folder",
+            "number": 13212,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiFlowTree.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
