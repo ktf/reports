@@ -7,14 +7,17 @@
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
+- [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
+- [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
 - [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
 - [\#15183](https://github.com/AliceO2Group/AliceO2/pull/15183) 2026-03-22: [ALICE3] Adding error msg for TGeo features and QA macro for reco by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
+- [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
 - [\#15195](https://github.com/AliceO2Group/AliceO2/pull/15195) 2026-03-27: [ALICE3] IOTOF: fix non segmented layers by [@njacazio](https://github.com/njacazio)
 - [\#15200](https://github.com/AliceO2Group/AliceO2/pull/15200) 2026-03-21: Fix MLOT digit residuals by [@mpuccio](https://github.com/mpuccio)
@@ -39,6 +42,8 @@
 - [\#15264](https://github.com/AliceO2Group/AliceO2/pull/15264) 2026-04-08: [ALICE3] Fix missing bool in ACTS integration by [@njacazio](https://github.com/njacazio)
 - [\#15265](https://github.com/AliceO2Group/AliceO2/pull/15265) 2026-04-09: fix wrong long_to_int converstion in TOF readout window indexing by [@noferini](https://github.com/noferini)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
+## Recent developments in O2 - EventVisualisation
+- [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15177](https://github.com/AliceO2Group/AliceO2/pull/15177) 2026-03-24: DPL Analysis: force index to only bind with tables of the same origin by [@aalkin](https://github.com/aalkin)
@@ -73,6 +78,7 @@
 - [\#15270](https://github.com/AliceO2Group/AliceO2/pull/15270) 2026-04-11: DPL: use new indices methods to navigate through InputRecord in output-proxy by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
+- [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Utilities
 - [\#15256](https://github.com/AliceO2Group/AliceO2/pull/15256) 2026-04-08: DPL: refactor InputSpan by [@ktf](https://github.com/ktf)
