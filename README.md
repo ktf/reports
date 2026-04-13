@@ -39,6 +39,7 @@
 - [\#15263](https://github.com/AliceO2Group/AliceO2/pull/15263) 2026-04-08: [ALICE3] TRK: Add TrackerACTS header for ACTS-based tracking by [@njacazio](https://github.com/njacazio)
 - [\#15264](https://github.com/AliceO2Group/AliceO2/pull/15264) 2026-04-08: [ALICE3] Fix missing bool in ACTS integration by [@njacazio](https://github.com/njacazio)
 - [\#15265](https://github.com/AliceO2Group/AliceO2/pull/15265) 2026-04-09: fix wrong long_to_int converstion in TOF readout window indexing by [@noferini](https://github.com/noferini)
+- [\#15266](https://github.com/AliceO2Group/AliceO2/pull/15266) 2026-04-13: secondary-vertexing-workflow: request CTP sources only if TPC is included by [@ehellbar](https://github.com/ehellbar)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15271](https://github.com/AliceO2Group/AliceO2/pull/15271) 2026-04-13: Allow BC correction in FIT CTF decoders by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
