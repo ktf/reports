@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-08T09:11:04Z",
-            "title": "[PWGLF] Update on Xi1530 and Reso-init",
-            "number": 15668,
-            "author": {
-              "login": "mjkim525"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/xi1530Analysisqa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-08T10:14:55Z",
-            "title": "[Common] Fix compilation errors in macros",
-            "number": 15630,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/macros/ctpRateF.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/macros/testMetadataHelper.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-08T13:26:39Z",
             "title": "[PWGJE] jetFinderQA: quickfix",
             "number": 15682,
@@ -4361,6 +4296,61 @@
                 {
                   "node": {
                     "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Integration of dqFlow workflow into the tableMaker",
+            "number": 15746,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-13T15:25:55Z",
+            "title": "[PWGHF] Add filter to only fill Xic0 MC candidates in the tree",
+            "number": 15745,
+            "author": {
+              "login": "Rrantu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXic0ToXiPiKf.cxx"
                   }
                 }
               ]
