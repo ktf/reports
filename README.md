@@ -40,6 +40,7 @@
 - [\#15266](https://github.com/AliceO2Group/AliceO2/pull/15266) 2026-04-13: secondary-vertexing-workflow: request CTP sources only if TPC is included by [@ehellbar](https://github.com/ehellbar)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15271](https://github.com/AliceO2Group/AliceO2/pull/15271) 2026-04-13: Allow BC correction in FIT CTF decoders by [@shahor02](https://github.com/shahor02)
+- [\#15276](https://github.com/AliceO2Group/AliceO2/pull/15276) 2026-04-14: Restrict ITS track timestamp max uncertainty to shortest ROF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
