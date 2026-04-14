@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "FT0: align trigger definition in Digitizer with data trigger logic",
-            "number": 15156,
-            "author": {
-              "login": "spulawsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/include/FT0Base/FT0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-18T05:39:12Z",
-            "title": "ALICE3-TRK: add noise to the digitization process",
-            "number": 15167,
-            "author": {
-              "login": "atriolo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/ChipDigitsContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/DPLDigitizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/DigiParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/ChipDigitsContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-03-23T17:36:31Z",
             "title": "ALICE3-TRK: changed ML/OT pitch to 20 um",
@@ -5081,6 +5016,46 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restrict ITS track timestamp max uncertainty to shortest ROF",
+            "number": 15276,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] TRK: Fix getNrof calls to use index in TrackerACTS",
+            "number": 15277,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TrackerACTS.cxx"
                   }
                 }
               ]

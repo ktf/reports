@@ -14,7 +14,6 @@
 - [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
-- [\#15167](https://github.com/AliceO2Group/AliceO2/pull/15167) 2026-03-18: ALICE3-TRK: add noise to the digitization process by [@atriolo](https://github.com/atriolo)
 - [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)

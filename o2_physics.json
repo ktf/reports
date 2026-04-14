@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-09T13:40:28Z",
-            "title": "[PWGUD] Modification to global muon producer",
-            "number": 15697,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/upcCandProducerGlobalMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-09T15:31:11Z",
-            "title": "[PWGEM] LMee: Adding more DCA correlation histograms to various signals.",
-            "number": 15602,
-            "author": {
-              "login": "jjungIKF"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-09T16:09:54Z",
             "title": "[PWGLF] deuteron proton correlation: include acceptance cut in generate process functions",
             "number": 15695,
@@ -3859,71 +3819,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] Added timing information of ZDC to output tree",
-            "number": 15760,
-            "author": {
-              "login": "amatyja"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/TauThreeProngEventTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/tauThreeProngEventTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM/Dilepton] add protection in DileptonHadronMPC.h",
-            "number": 15761,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add axis to store eta of D0 prongs in UPC process",
-            "number": 15762,
-            "author": {
-              "login": "phymanshu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-14T11:29:12Z",
             "title": "[PWGDQ] updates to the ML training data producer task",
@@ -3989,6 +3884,51 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-14T11:58:41Z",
+            "title": "[DPG] Add flag to reject particles from background events",
+            "number": 15339,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-14T12:23:54Z",
+            "title": "[PWGUD] Added timing information of ZDC to output tree",
+            "number": 15760,
+            "author": {
+              "login": "amatyja"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/TauThreeProngEventTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/tauThreeProngEventTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Update true event and MC filling logic",
@@ -4009,18 +3949,88 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-14T11:58:41Z",
-            "title": "[DPG] Add flag to reject particles from background events",
-            "number": 15339,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Fix TTCA weights when using cfgRequireTrueAssociation in PWGEM/Dilepton tasks",
+            "number": 15764,
             "author": {
-              "login": "fchinu"
+              "login": "feisenhu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/checkMCPairTemplate.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-14T12:29:24Z",
+            "title": "[PWGEM/Dilepton] add protection in DileptonHadronMPC.h",
+            "number": 15761,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM,PWGEM-36] Add new axis configurbale for relative axis",
+            "number": 15763,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/photonResoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-14T12:32:47Z",
+            "title": "[PWGHF] Add axis to store eta of D0 prongs in UPC process",
+            "number": 15762,
+            "author": {
+              "login": "phymanshu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
                   }
                 }
               ]
