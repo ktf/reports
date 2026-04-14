@@ -5001,6 +5001,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] TRK: Fix getNrof calls to use index in TrackerACTS",
+            "number": 15277,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TrackerACTS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "add CheckClusterSizeVsEta.C macro",
             "number": 15274,
             "author": {
@@ -5026,26 +5046,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] TRK: Fix getNrof calls to use index in TrackerACTS",
-            "number": 15277,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TrackerACTS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU/TPC: Simplify pad indexing in noisy-pad filter",
             "number": 15278,
             "author": {
@@ -5055,12 +5055,32 @@
               "edges": [
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/TPCPadBitMap.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/DataTypes/TPCPadBitMap.h"
                   }
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/DataTypes/TPCPadGainCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/DataTypes/TPCPadGainCalib.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/TPCZSLinkMapping.cxx"
                   }
                 },
                 {
