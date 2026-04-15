@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-01T14:48:07Z",
-            "title": "[PWGCF] Add dalitz plot for track-v0 analysis in femto framework",
-            "number": 15605,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/femtoUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/pairBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/pairHistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/pairProcessHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/trackHistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-12-18T22:39:58Z",
             "title": "[PWGLF] Omegahm",
             "number": 14279,
@@ -3818,23 +3773,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Replace UPC Lc THnSparse with TTree",
-            "number": 15786,
+            "state": "MERGED",
+            "mergedAt": "2026-04-15T13:38:23Z",
+            "title": "[PWGLF] Add minimum bias (MB) histograms to compute signal loss + configurable rapidity cut for MB events",
+            "number": 15787,
             "author": {
-              "login": "Rrantu"
+              "login": "lorber98"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsUpcHf.h"
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
                   }
                 }
               ]
@@ -4358,18 +4308,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-15T13:38:23Z",
-            "title": "[PWGLF] Add minimum bias (MB) histograms to compute signal loss + configurable rapidity cut for MB events",
-            "number": 15787,
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix bugs",
+            "number": 15788,
             "author": {
-              "login": "lorber98"
+              "login": "gengjiabin12"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Replace UPC Lc THnSparse with TTree",
+            "number": 15786,
+            "author": {
+              "login": "Rrantu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLc.cxx"
                   }
                 }
               ]
