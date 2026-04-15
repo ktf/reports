@@ -4,96 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGEM] update of emcalPi0Qc task to allow running over (weighted) MC productions",
-            "number": 15714,
-            "author": {
-              "login": "fjonasALICE"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalPi0Qc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleMuonSource.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/studyPnch.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-10T15:14:21Z",
-            "title": "[PWGDQ] add variables for global polarization",
-            "number": 15713,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add Lc->pK0s channel in polarization task.",
-            "number": 15635,
-            "author": {
-              "login": "XXL-2025"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGJE] Fix includes and using statements",
@@ -3271,56 +3181,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,DPG,PWGDQ,PWGEM,PWGLF,PWGUD] bulk rename for include DPLAlpideParam",
-            "number": 15676,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/rofOccupancyQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/tableReaderBarrel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcEventITSROFcounter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] LMee: Fix for adding more DCA correlation histograms to vario…",
             "number": 15773,
             "author": {
@@ -3331,26 +3191,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Core/DileptonMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Update Track Sel. -> ARC request",
-            "number": 15774,
-            "author": {
-              "login": "omvazque"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
                   }
                 }
               ]
@@ -3831,46 +3671,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowEsePHe3.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Add ITS PID table in DataModel, fill related PIDNsigmas and QA plots",
-            "number": 15772,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
                   }
                 }
               ]
@@ -4426,6 +4226,176 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,DPG,PWGDQ,PWGEM,PWGLF,PWGUD] bulk rename for include DPLAlpideParam",
+            "number": 15676,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/eventSelectionQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/rofOccupancyQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/tableReaderBarrel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcEventITSROFcounter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Add ITS PID table in DataModel, fill related PIDNsigmas and QA plots",
+            "number": 15772,
+            "author": {
+              "login": "prchakra"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseTrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Update Track Sel. -> ARC request",
+            "number": 15774,
+            "author": {
+              "login": "omvazque"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] preslice particles",
+            "number": 15776,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGMM] dndeta-hi: add SD/DD/ND classification and fix sliceBy on fil…",
+            "number": 15775,
+            "author": {
+              "login": "hyungjun-lee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM,PWGEM-36,PWGEM-40] PM/photonResoTask: remove unnecessary confi…",
+            "number": 15777,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/photonResoTask.cxx"
                   }
                 }
               ]
