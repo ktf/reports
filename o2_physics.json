@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGJE] Rename task to jetDsSpecSubs",
-            "number": 15726,
-            "author": {
-              "login": "monamelop"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Multiplicity dependence pi, K, p analysis",
@@ -1111,31 +1086,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Non-prompt flag for the filter2prong",
-            "number": 15747,
-            "author": {
-              "login": "jaelpark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
                   }
                 }
               ]
@@ -3904,36 +3854,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] change some code for the energy correlator study",
-            "number": 15778,
-            "author": {
-              "login": "YazhenLin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2025-12-14T09:03:50Z",
             "title": "[PWGCF] modified and renamed the workflow for kaon-deuteron femto",
@@ -4338,6 +4258,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-15T09:47:05Z",
+            "title": "[ALICE3] Add tracking performance info to task",
+            "number": 15781,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3TrackingPerformance.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse: Add gamma pair rejection in track-track tasks",
@@ -4363,18 +4303,73 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-15T09:47:05Z",
-            "title": "[ALICE3] Add tracking performance info to task",
-            "number": 15781,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Adding configurable to reduce memory usage for muon track extension",
+            "number": 15784,
             "author": {
-              "login": "njacazio"
+              "login": "lucamicheletti93"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Tasks/alice3TrackingPerformance.cxx"
+                    "path": "Common/TableProducer/fwdtrackextension.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-15T10:14:48Z",
+            "title": "[PWGCF] Non-prompt flag for the filter2prong",
+            "number": 15747,
+            "author": {
+              "login": "jaelpark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filter2Prong.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-15T10:29:24Z",
+            "title": "[PWGDQ] change some code for the energy correlator study",
+            "number": 15778,
+            "author": {
+              "login": "YazhenLin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
                   }
                 }
               ]
