@@ -49,7 +49,6 @@
 - [\#15202](https://github.com/AliceO2Group/AliceO2/pull/15202) 2026-03-26: DPL: Better detection for injected workflows (fixed) by [@aalkin](https://github.com/aalkin)
 - [\#15204](https://github.com/AliceO2Group/AliceO2/pull/15204) 2026-03-24: DPL: fix OutputSpec metadata ignored in workflow deserialization by [@aalkin](https://github.com/aalkin)
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
-- [\#15206](https://github.com/AliceO2Group/AliceO2/pull/15206) 2026-03-24: DPL: get rid of the size method of the MessageSet by [@ktf](https://github.com/ktf)
 - [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15212](https://github.com/AliceO2Group/AliceO2/pull/15212) 2026-03-26: DPL: fix DataModelViews behavior by [@ktf](https://github.com/ktf)
 - [\#15216](https://github.com/AliceO2Group/AliceO2/pull/15216) 2026-03-26: DPL: make sure DataRelayer benchmark works again by [@ktf](https://github.com/ktf)
