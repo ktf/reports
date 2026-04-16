@@ -6,12 +6,10 @@
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
-- [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#15028](https://github.com/AliceO2Group/AliceO2/pull/15028) 2026-03-24: ZDC: Delete unused files by [@vkucera](https://github.com/vkucera)
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15174](https://github.com/AliceO2Group/AliceO2/pull/15174) 2026-03-18: [ALICE3] TRK: allow ACTS clustering by [@njacazio](https://github.com/njacazio)
