@@ -41,6 +41,7 @@
 - [\#15272](https://github.com/AliceO2Group/AliceO2/pull/15272) 2026-04-16: FastMultEst does not need to be streamed by [@mpuccio](https://github.com/mpuccio)
 - [\#15276](https://github.com/AliceO2Group/AliceO2/pull/15276) 2026-04-14: Restrict ITS track timestamp max uncertainty to shortest ROF by [@shahor02](https://github.com/shahor02)
 - [\#15279](https://github.com/AliceO2Group/AliceO2/pull/15279) 2026-04-16: ITS: speedup final step in vertexer by [@f3sch](https://github.com/f3sch)
+- [\#15285](https://github.com/AliceO2Group/AliceO2/pull/15285) 2026-04-16: ITS: move all pp settings to dpl-workflow.sh by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
