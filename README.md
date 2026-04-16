@@ -39,6 +39,7 @@
 - [\#15269](https://github.com/AliceO2Group/AliceO2/pull/15269) 2026-04-16: [ALICE3] Rough attempt to pave ML disks as done for OT by [@scannito](https://github.com/scannito)
 - [\#15271](https://github.com/AliceO2Group/AliceO2/pull/15271) 2026-04-13: Allow BC correction in FIT CTF decoders by [@shahor02](https://github.com/shahor02)
 - [\#15272](https://github.com/AliceO2Group/AliceO2/pull/15272) 2026-04-16: FastMultEst does not need to be streamed by [@mpuccio](https://github.com/mpuccio)
+- [\#15273](https://github.com/AliceO2Group/AliceO2/pull/15273) 2026-04-16: Remove unnecessary dictionaries in ALICE3 by [@mpuccio](https://github.com/mpuccio)
 - [\#15276](https://github.com/AliceO2Group/AliceO2/pull/15276) 2026-04-14: Restrict ITS track timestamp max uncertainty to shortest ROF by [@shahor02](https://github.com/shahor02)
 - [\#15279](https://github.com/AliceO2Group/AliceO2/pull/15279) 2026-04-16: ITS: speedup final step in vertexer by [@f3sch](https://github.com/f3sch)
 - [\#15285](https://github.com/AliceO2Group/AliceO2/pull/15285) 2026-04-16: ITS: move all pp settings to dpl-workflow.sh by [@f3sch](https://github.com/f3sch)
