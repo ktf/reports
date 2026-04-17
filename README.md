@@ -7,8 +7,8 @@
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
-- [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
+- [\#15284](https://github.com/AliceO2Group/AliceO2/pull/15284) 2026-04-17: Tentative improvement of 3-body decay cov. matrix creation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
@@ -48,7 +48,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
-- [\#15175](https://github.com/AliceO2Group/AliceO2/pull/15175) 2026-03-25: DPL: use constexpr for data description of EOS data header by [@ehellbar](https://github.com/ehellbar)
 - [\#15202](https://github.com/AliceO2Group/AliceO2/pull/15202) 2026-03-26: DPL: Better detection for injected workflows (fixed) by [@aalkin](https://github.com/aalkin)
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
 - [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)

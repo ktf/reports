@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] Merge multiparticle-correlations-ab files",
-            "number": 15377,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Configurables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-DataMembers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-Enums.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-GlobalConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Core/MuPa-MemberFunctions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticle-correlations-ab.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-14T20:37:36Z",
-            "title": "[PWGLF] Added a new table producer; Cascadederivedqaanalysis",
-            "number": 15736,
-            "author": {
-              "login": "BilgeJinONEN"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascderivedqaanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGEM] LMee: Fix for adding more DCA correlation histograms to vario…",
@@ -3750,41 +3670,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
-            "number": 15823,
-            "author": {
-              "login": "nasirmehdimalik"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceMergeDF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Flow-decorr added TPC-FT0A MC-true",
             "number": 15828,
             "author": {
@@ -3820,6 +3705,76 @@
                 {
                   "node": {
                     "path": "PWGJE/TableProducer/slimTablesProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
+            "number": 15826,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
                   }
                 }
               ]
@@ -4150,66 +4105,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
-            "number": 15826,
+            "title": "[PWGJE] modification for systematic uncertainty of b-jets and multiplicity analysis",
+            "number": 15830,
             "author": {
-              "login": "aalkin"
+              "login": "hanseopark"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Core/CMakeLists.txt"
+                    "path": "PWGJE/TableProducer/secondaryVertexReconstruction.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                    "path": "PWGJE/Tasks/bjetCentMult.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                    "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] fix axis title in skimmerPrimaryMuon.cxx",
+            "number": 15829,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
+            "number": 15823,
+            "author": {
+              "login": "nasirmehdimalik"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.h"
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.cxx"
+                    "path": "PWGLF/TableProducer/Resonances/resonanceMergeDF.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
                   }
                 }
               ]
