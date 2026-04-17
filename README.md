@@ -45,6 +45,7 @@
 - [\#15277](https://github.com/AliceO2Group/AliceO2/pull/15277) 2026-04-17: [ALICE3] TRK: Fix getNrof calls to use index in TrackerACTS by [@njacazio](https://github.com/njacazio)
 - [\#15279](https://github.com/AliceO2Group/AliceO2/pull/15279) 2026-04-16: ITS: speedup final step in vertexer by [@f3sch](https://github.com/f3sch)
 - [\#15285](https://github.com/AliceO2Group/AliceO2/pull/15285) 2026-04-16: ITS: move all pp settings to dpl-workflow.sh by [@f3sch](https://github.com/f3sch)
+- [\#15288](https://github.com/AliceO2Group/AliceO2/pull/15288) 2026-04-17: Fix typo in the TPCTimeSeriesSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
