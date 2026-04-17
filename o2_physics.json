@@ -2907,26 +2907,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add QA matching derived tables AO2D outputs",
-            "number": 15517,
-            "author": {
-              "login": "nivram-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Replace UPC Lc THnSparse with TTree",
             "number": 15786,
             "author": {
@@ -3765,6 +3745,111 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
+            "number": 15826,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
+            "number": 15823,
+            "author": {
+              "login": "nasirmehdimalik"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceMergeDF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-17T11:00:41Z",
             "title": "[Common] Fix includes and using statements",
             "number": 15380,
             "author": {
@@ -4085,101 +4170,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
-            "number": 15826,
+            "title": "[PWGDQ] Add QA matching derived tables AO2D outputs",
+            "number": 15517,
             "author": {
-              "login": "aalkin"
+              "login": "nivram-phy"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
-            "number": 15823,
-            "author": {
-              "login": "nasirmehdimalik"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceMergeDF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
                   }
                 }
               ]
