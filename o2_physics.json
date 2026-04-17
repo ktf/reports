@@ -2113,26 +2113,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Fill q-vector tables for all PbPb process functions in tableMaker_withAssoc",
-            "number": 15741,
-            "author": {
-              "login": "Ankyyadav"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Added TPC-FT0A MC-true",
@@ -3693,68 +3673,88 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
-            "number": 15826,
+            "state": "MERGED",
+            "mergedAt": "2026-04-17T09:47:03Z",
+            "title": "[PWGEM/Dilepton] fix axis title in skimmerPrimaryMuon.cxx",
+            "number": 15829,
             "author": {
-              "login": "aalkin"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Core/CMakeLists.txt"
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] modification for systematic uncertainty of b-jets and multiplicity analysis",
+            "number": 15830,
+            "author": {
+              "login": "hanseopark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/secondaryVertexReconstruction.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                    "path": "PWGJE/Tasks/bjetCentMult.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                    "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-17T09:58:43Z",
+            "title": "[PWGUD] iterate collision manually",
+            "number": 15825,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.h"
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Fill q-vector tables for all PbPb process functions in tableMaker_withAssoc",
+            "number": 15741,
+            "author": {
+              "login": "Ankyyadav"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
                   }
                 }
               ]
@@ -4085,6 +4085,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
+            "number": 15826,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
             "number": 15823,
             "author": {
@@ -4110,76 +4180,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-17T09:47:03Z",
-            "title": "[PWGEM/Dilepton] fix axis title in skimmerPrimaryMuon.cxx",
-            "number": 15829,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] modification for systematic uncertainty of b-jets and multiplicity analysis",
-            "number": 15830,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/secondaryVertexReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetCentMult.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetTaggerHFQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-17T09:58:43Z",
-            "title": "[PWGUD] iterate collision manually",
-            "number": 15825,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
                   }
                 }
               ]
