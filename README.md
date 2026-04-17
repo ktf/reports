@@ -30,6 +30,7 @@
 - [\#15250](https://github.com/AliceO2Group/AliceO2/pull/15250) 2026-04-02: Remove TrackerACTS from CMakeLists.txt by [@njacazio](https://github.com/njacazio)
 - [\#15257](https://github.com/AliceO2Group/AliceO2/pull/15257) 2026-04-14: [ALICE3] IOTOF: Add geometry macros by [@njacazio](https://github.com/njacazio)
 - [\#15260](https://github.com/AliceO2Group/AliceO2/pull/15260) 2026-04-07: ITS3: add cylinder parameterisation preserving zero gaussian curvature by [@f3sch](https://github.com/f3sch)
+- [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
 - [\#15263](https://github.com/AliceO2Group/AliceO2/pull/15263) 2026-04-08: [ALICE3] TRK: Add TrackerACTS header for ACTS-based tracking by [@njacazio](https://github.com/njacazio)
 - [\#15264](https://github.com/AliceO2Group/AliceO2/pull/15264) 2026-04-08: [ALICE3] Fix missing bool in ACTS integration by [@njacazio](https://github.com/njacazio)
 - [\#15265](https://github.com/AliceO2Group/AliceO2/pull/15265) 2026-04-09: fix wrong long_to_int converstion in TOF readout window indexing by [@noferini](https://github.com/noferini)
