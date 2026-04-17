@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-14T17:47:35Z",
-            "title": "[PWGEM] Fix TTCA weights when using cfgRequireTrueAssociation in PWGEM/Dilepton tasks",
-            "number": 15764,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/checkMCPairTemplate.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-14T18:17:08Z",
-            "title": "[Common] Fetch FIT ccdb also if only BC cent requested",
-            "number": 15664,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-14T18:19:17Z",
             "title": "[Tutorial,PWGCF,PWGEM,PWGHF,PWGLF,PWGMM,PWGUD] Fix includes and using statements",
             "number": 15392,
@@ -3651,61 +3601,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Add improved LUT format",
-            "number": 15711,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutEntry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatLutWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FlatTrackSmearer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Flow-decorrelation added TPC-FT0A MC-true",
@@ -4321,36 +4216,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
-            "number": 15823,
-            "author": {
-              "login": "nasirmehdimalik"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] Track matching checks for phosElId.cxx",
             "number": 15820,
             "author": {
@@ -4381,6 +4246,181 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] iterate collision manually",
+            "number": 15825,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added separate fn for signal loss correction using mt scaling",
+            "number": 15823,
+            "author": {
+              "login": "nasirmehdimalik"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[ALICE3] Add improved LUT format",
+            "number": 15711,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Introduce flat LUT container for the TrackSmearer and rebase OTF code to use it",
+            "number": 15826,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTrackerLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutEntry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatLutWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FlatTrackSmearer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRichPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
                   }
                 }
               ]
