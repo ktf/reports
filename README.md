@@ -50,7 +50,6 @@
 ## Recent developments in O2 - Framework
 - [\#15202](https://github.com/AliceO2Group/AliceO2/pull/15202) 2026-03-26: DPL: Better detection for injected workflows (fixed) by [@aalkin](https://github.com/aalkin)
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
-- [\#15208](https://github.com/AliceO2Group/AliceO2/pull/15208) 2026-03-25: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15212](https://github.com/AliceO2Group/AliceO2/pull/15212) 2026-03-26: DPL: fix DataModelViews behavior by [@ktf](https://github.com/ktf)
 - [\#15216](https://github.com/AliceO2Group/AliceO2/pull/15216) 2026-03-26: DPL: make sure DataRelayer benchmark works again by [@ktf](https://github.com/ktf)
 - [\#15217](https://github.com/AliceO2Group/AliceO2/pull/15217) 2026-03-28: DPL: treat --ccdb-fetchers like --readers by [@ktf](https://github.com/ktf)
