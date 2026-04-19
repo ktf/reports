@@ -19,7 +19,6 @@
 - [\#15215](https://github.com/AliceO2Group/AliceO2/pull/15215) 2026-04-01: [ALICE3] TRK: Collect services in a dedicated volume assembly by [@njacazio](https://github.com/njacazio)
 - [\#15219](https://github.com/AliceO2Group/AliceO2/pull/15219) 2026-03-26: Add missing track->resetCov before refit for revertexing by [@shahor02](https://github.com/shahor02)
 - [\#15220](https://github.com/AliceO2Group/AliceO2/pull/15220) 2026-03-30: [ALICE3] IOTOF: Adjust layer radius calculations for stave tilt and chip thickness by [@njacazio](https://github.com/njacazio)
-- [\#15221](https://github.com/AliceO2Group/AliceO2/pull/15221) 2026-03-25: Please consider the following formatting changes to #15220 by [@alibuild](https://github.com/alibuild)
 - [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15232](https://github.com/AliceO2Group/AliceO2/pull/15232) 2026-03-27: Avoid premature loop termination in the ITS vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
