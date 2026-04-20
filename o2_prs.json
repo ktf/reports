@@ -3321,116 +3321,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Cleanup: Remove old version of jobutils and cpulimit tool",
-            "number": 15224,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/Tools/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/.clang-format"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/README"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/cpulimit.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/list.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/list.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_group.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_group.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator_apple.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator_freebsd.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Tools/cpulimit/process_iterator_linux.c"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test_ci_extra_tests.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test_pipeline.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/sim_challenge.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TRD: correction for pile-up",
             "number": 15282,
             "author": {
@@ -3871,26 +3761,6 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/postClusterSizeVsEta.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "link to neutron point-like cross-sections needed starting from FLUKA_4.5",
-            "number": 15286,
-            "author": {
-              "login": "amorsch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/FlukaConfig.cxx"
                   }
                 }
               ]
@@ -4846,36 +4716,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-04-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-04-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "ITS: factor out CPU/GPU common code & separate Cell class",
             "number": 15293,
             "author": {
@@ -5036,6 +4876,166 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-20T07:27:28Z",
+            "title": "link to neutron point-like cross-sections needed starting from FLUKA_4.5",
+            "number": 15286,
+            "author": {
+              "login": "amorsch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/FlukaConfig.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-20T07:31:39Z",
+            "title": "Cleanup: Remove old version of jobutils and cpulimit tool",
+            "number": 15224,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/.clang-format"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/README"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/cpulimit.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/list.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/list.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_group.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_group.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_apple.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_freebsd.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/process_iterator_linux.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_ci_extra_tests.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_pipeline.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-04-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-04-o2_releases.json"
                   }
                 }
               ]
