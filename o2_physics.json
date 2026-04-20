@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-16T14:31:23Z",
-            "title": "[PWGCF] FemtoUniverse: Fix range in ITS PIDnsigma histogram",
-            "number": 15805,
-            "author": {
-              "login": "prchakra"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-16T15:09:55Z",
-            "title": "[PWGEM/Dilepton] add QA plots in skimmerPrimaryMuon.cxx",
-            "number": 15811,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Flow-decorr added TPC-FT0A MC-True option",
@@ -394,31 +354,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Utils/EMTrack.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Rename Ds jet task and add THnSparse histograms",
-            "number": 15749,
-            "author": {
-              "login": "monamelop"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
                   }
                 }
               ]
@@ -1262,26 +1197,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Adding new process function for electron-muon analysis",
-            "number": 15490,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
                   }
                 }
               ]
@@ -2970,26 +2885,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] adding an additional Mult histo (counting events with >1 particle candidate)",
-            "number": 15881,
-            "author": {
-              "login": "glromane"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/femto3dPairTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-20T13:25:10Z",
             "title": "[PWGCF] FemtoUniverse: Increase max TPC occupancy",
@@ -3082,26 +2977,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix includes",
-            "number": 15874,
+            "title": "[PWGLF] Added event filter switches and per-event conditional selection histograms.",
+            "number": 15882,
             "author": {
-              "login": "vkucera"
+              "login": "15071832337"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Rename Ds jet task and add THnSparse histograms",
+            "number": 15749,
+            "author": {
+              "login": "monamelop"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascderivedqaanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
+                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
                   }
                 }
               ]
@@ -3137,6 +3047,96 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-20T14:03:39Z",
+            "title": "[PWGDQ] Adding new process function for electron-muon analysis",
+            "number": 15490,
+            "author": {
+              "login": "Shunsuke-Kurita"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-20T14:04:12Z",
+            "title": "[PWGCF] adding an additional Mult histo (counting events with >1 particle candidate)",
+            "number": 15881,
+            "author": {
+              "login": "glromane"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/Tasks/femto3dPairTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix includes",
+            "number": 15874,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascderivedqaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Infrastructure] Test",
+            "number": 15883,
+            "author": {
+              "login": "Lolle2001"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "README.md"
                   }
                 }
               ]
