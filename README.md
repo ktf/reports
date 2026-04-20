@@ -46,6 +46,7 @@
 - [\#15286](https://github.com/AliceO2Group/AliceO2/pull/15286) 2026-04-20: link to neutron point-like cross-sections needed starting from FLUKA_4.5 by [@amorsch](https://github.com/amorsch)
 - [\#15288](https://github.com/AliceO2Group/AliceO2/pull/15288) 2026-04-17: Fix typo in the TPCTimeSeriesSpec by [@shahor02](https://github.com/shahor02)
 - [\#15289](https://github.com/AliceO2Group/AliceO2/pull/15289) 2026-04-20: ITS: restore previous UPC iteration by [@f3sch](https://github.com/f3sch)
+- [\#15291](https://github.com/AliceO2Group/AliceO2/pull/15291) 2026-04-20: Modernize to std::greater<> to please code checker by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
