@@ -73,6 +73,7 @@
 - [\#15259](https://github.com/AliceO2Group/AliceO2/pull/15259) 2026-04-03: DPL: add formatters for ConfigParamSpec by [@ktf](https://github.com/ktf)
 - [\#15261](https://github.com/AliceO2Group/AliceO2/pull/15261) 2026-04-05: DPL: add ability to get next pair by [@ktf](https://github.com/ktf)
 - [\#15270](https://github.com/AliceO2Group/AliceO2/pull/15270) 2026-04-11: DPL: use new indices methods to navigate through InputRecord in output-proxy by [@ehellbar](https://github.com/ehellbar)
+- [\#15275](https://github.com/AliceO2Group/AliceO2/pull/15275) 2026-04-20: DPL Analysis: return span directly if the CCDB column is declared as a span by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
