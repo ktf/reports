@@ -4001,51 +4001,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: revamp / remove Endian.h",
-            "number": 15292,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TableTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FragmentToBatch.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/Endian.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "ITS: factor out CPU/GPU common code & separate Cell class",
             "number": 15293,
             "author": {
@@ -5026,6 +4981,71 @@
                 {
                   "node": {
                     "path": "doc/data/2026-04-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: revamp / remove Endian.h",
+            "number": 15292,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TableTreeHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FragmentToBatch.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/BigEndian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Endian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/test/benchmark_BigEndian.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/test/test_BigEndian.cxx"
                   }
                 }
               ]
