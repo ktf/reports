@@ -51,7 +51,6 @@
 - [\#15224](https://github.com/AliceO2Group/AliceO2/pull/15224) 2026-04-20: Cleanup: Remove old version of jobutils and cpulimit tool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
-- [\#15216](https://github.com/AliceO2Group/AliceO2/pull/15216) 2026-03-26: DPL: make sure DataRelayer benchmark works again by [@ktf](https://github.com/ktf)
 - [\#15217](https://github.com/AliceO2Group/AliceO2/pull/15217) 2026-03-28: DPL: treat --ccdb-fetchers like --readers by [@ktf](https://github.com/ktf)
 - [\#15226](https://github.com/AliceO2Group/AliceO2/pull/15226) 2026-03-28: DPL: more validation of MessageSet::header / payload replacement by [@ktf](https://github.com/ktf)
 - [\#15228](https://github.com/AliceO2Group/AliceO2/pull/15228) 2026-03-27: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
