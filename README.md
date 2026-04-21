@@ -14,7 +14,6 @@
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
-- [\#15195](https://github.com/AliceO2Group/AliceO2/pull/15195) 2026-03-27: [ALICE3] IOTOF: fix non segmented layers by [@njacazio](https://github.com/njacazio)
 - [\#15209](https://github.com/AliceO2Group/AliceO2/pull/15209) 2026-03-30: FT0: update Digitizer signal shape and trigger logic; FV0: update trigger logic in digitizer by [@spulawsk](https://github.com/spulawsk)
 - [\#15215](https://github.com/AliceO2Group/AliceO2/pull/15215) 2026-04-01: [ALICE3] TRK: Collect services in a dedicated volume assembly by [@njacazio](https://github.com/njacazio)
 - [\#15220](https://github.com/AliceO2Group/AliceO2/pull/15220) 2026-03-30: [ALICE3] IOTOF: Adjust layer radius calculations for stave tilt and chip thickness by [@njacazio](https://github.com/njacazio)
