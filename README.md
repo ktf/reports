@@ -4,22 +4,18 @@
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
-- [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15284](https://github.com/AliceO2Group/AliceO2/pull/15284) 2026-04-17: Tentative improvement of 3-body decay cov. matrix creation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
-- [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
 - [\#15209](https://github.com/AliceO2Group/AliceO2/pull/15209) 2026-03-30: FT0: update Digitizer signal shape and trigger logic; FV0: update trigger logic in digitizer by [@spulawsk](https://github.com/spulawsk)
 - [\#15215](https://github.com/AliceO2Group/AliceO2/pull/15215) 2026-04-01: [ALICE3] TRK: Collect services in a dedicated volume assembly by [@njacazio](https://github.com/njacazio)
 - [\#15220](https://github.com/AliceO2Group/AliceO2/pull/15220) 2026-03-30: [ALICE3] IOTOF: Adjust layer radius calculations for stave tilt and chip thickness by [@njacazio](https://github.com/njacazio)
-- [\#15231](https://github.com/AliceO2Group/AliceO2/pull/15231) 2026-03-27: Protect time-slice calibration from stray TFs by [@shahor02](https://github.com/shahor02)
 - [\#15232](https://github.com/AliceO2Group/AliceO2/pull/15232) 2026-03-27: Avoid premature loop termination in the ITS vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15240](https://github.com/AliceO2Group/AliceO2/pull/15240) 2026-03-31: Rework DCS point classes to have default assign operators by [@ktf](https://github.com/ktf)
@@ -50,6 +46,7 @@
 - [\#15291](https://github.com/AliceO2Group/AliceO2/pull/15291) 2026-04-20: Modernize to std::greater<> to please code checker by [@shahor02](https://github.com/shahor02)
 - [\#15294](https://github.com/AliceO2Group/AliceO2/pull/15294) 2026-04-21: GLO: fix missing wfx option by [@f3sch](https://github.com/f3sch)
 - [\#15295](https://github.com/AliceO2Group/AliceO2/pull/15295) 2026-04-21: ALICE3: Add VD bandwidth monitoring macro by [@mpuccio](https://github.com/mpuccio)
+- [\#15301](https://github.com/AliceO2Group/AliceO2/pull/15301) 2026-04-21: Please consider the following formatting changes to #15300 by [@alibuild](https://github.com/alibuild)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
@@ -81,7 +78,6 @@
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
-- [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Utilities
