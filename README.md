@@ -47,6 +47,7 @@
 - [\#15288](https://github.com/AliceO2Group/AliceO2/pull/15288) 2026-04-17: Fix typo in the TPCTimeSeriesSpec by [@shahor02](https://github.com/shahor02)
 - [\#15289](https://github.com/AliceO2Group/AliceO2/pull/15289) 2026-04-20: ITS: restore previous UPC iteration by [@f3sch](https://github.com/f3sch)
 - [\#15291](https://github.com/AliceO2Group/AliceO2/pull/15291) 2026-04-20: Modernize to std::greater<> to please code checker by [@shahor02](https://github.com/shahor02)
+- [\#15295](https://github.com/AliceO2Group/AliceO2/pull/15295) 2026-04-21: ALICE3: Add VD bandwidth monitoring macro by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
@@ -55,7 +56,6 @@
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
 - [\#15217](https://github.com/AliceO2Group/AliceO2/pull/15217) 2026-03-28: DPL: treat --ccdb-fetchers like --readers by [@ktf](https://github.com/ktf)
 - [\#15226](https://github.com/AliceO2Group/AliceO2/pull/15226) 2026-03-28: DPL: more validation of MessageSet::header / payload replacement by [@ktf](https://github.com/ktf)
-- [\#15228](https://github.com/AliceO2Group/AliceO2/pull/15228) 2026-03-27: DPL: move away from MessageSet::header / payload by [@ktf](https://github.com/ktf)
 - [\#15229](https://github.com/AliceO2Group/AliceO2/pull/15229) 2026-03-28: DPL: replace MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
 - [\#15233](https://github.com/AliceO2Group/AliceO2/pull/15233) 2026-03-28: DPL: exponential back-off for missing resources. by [@ktf](https://github.com/ktf)
 - [\#15234](https://github.com/AliceO2Group/AliceO2/pull/15234) 2026-03-29: DPL: drop MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
@@ -75,6 +75,8 @@
 - [\#15261](https://github.com/AliceO2Group/AliceO2/pull/15261) 2026-04-05: DPL: add ability to get next pair by [@ktf](https://github.com/ktf)
 - [\#15270](https://github.com/AliceO2Group/AliceO2/pull/15270) 2026-04-11: DPL: use new indices methods to navigate through InputRecord in output-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#15275](https://github.com/AliceO2Group/AliceO2/pull/15275) 2026-04-20: DPL Analysis: return span directly if the CCDB column is declared as a span by [@aalkin](https://github.com/aalkin)
+## Recent developments in O2 - Generators
+- [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#15161](https://github.com/AliceO2Group/AliceO2/pull/15161) 2026-03-27: ITS3: alignment code by [@f3sch](https://github.com/f3sch)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)

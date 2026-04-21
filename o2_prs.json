@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-27T00:55:43Z",
-            "title": "In absence of svertexing pass --disable-strangeness-tracker to AOD pr…",
-            "number": 15210,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-27T05:51:14Z",
-            "title": "DPL: move away from MessageSet::header / payload",
-            "number": 15228,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_MessageSet.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-27T08:08:30Z",
             "title": "[ALICE3] IOTOF: fix non segmented layers",
             "number": 15195,
@@ -4136,26 +4091,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ALICE3: Add VD bandwidth monitoring macro",
-            "number": 15295,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/CheckBandwidth.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TRD: correction for pile-up",
             "number": 15282,
             "author": {
@@ -4401,36 +4336,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-04-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-04-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "CCDB: add extra metrics for amount of data requested / fetched",
             "number": 15296,
             "author": {
@@ -4484,8 +4389,78 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-21T08:40:04Z",
+            "title": "ALICE3: Add VD bandwidth monitoring macro",
+            "number": 15295,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/CheckBandwidth.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Avoid spurious cyclic dependencies",
+            "number": 15297,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "cmake/AddRootDictionary.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2SetROOTPCMDependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-12-05T18:51:28Z",
+            "title": "DPL Analysis: fix for iterator not setting the originals correctly",
+            "number": 13771,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-21T08:59:38Z",
             "title": "Update of TPC fast space charge correction with splines",
             "number": 14921,
             "author": {
@@ -4991,6 +4966,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-04-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-04-o2_releases.json"
                   }
                 }
               ]
