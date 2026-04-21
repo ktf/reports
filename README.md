@@ -48,6 +48,7 @@
 - [\#15288](https://github.com/AliceO2Group/AliceO2/pull/15288) 2026-04-17: Fix typo in the TPCTimeSeriesSpec by [@shahor02](https://github.com/shahor02)
 - [\#15289](https://github.com/AliceO2Group/AliceO2/pull/15289) 2026-04-20: ITS: restore previous UPC iteration by [@f3sch](https://github.com/f3sch)
 - [\#15291](https://github.com/AliceO2Group/AliceO2/pull/15291) 2026-04-20: Modernize to std::greater<> to please code checker by [@shahor02](https://github.com/shahor02)
+- [\#15294](https://github.com/AliceO2Group/AliceO2/pull/15294) 2026-04-21: GLO: fix missing wfx option by [@f3sch](https://github.com/f3sch)
 - [\#15295](https://github.com/AliceO2Group/AliceO2/pull/15295) 2026-04-21: ALICE3: Add VD bandwidth monitoring macro by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
