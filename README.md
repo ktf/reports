@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
@@ -53,6 +54,7 @@
 - [\#15224](https://github.com/AliceO2Group/AliceO2/pull/15224) 2026-04-20: Cleanup: Remove old version of jobutils and cpulimit tool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
+- [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15241](https://github.com/AliceO2Group/AliceO2/pull/15241) 2026-03-29: DPL: migrate away from MessageSet by [@ktf](https://github.com/ktf)
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
