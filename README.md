@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#15244](https://github.com/AliceO2Group/AliceO2/pull/15244) 2026-03-30: Fix typo on the TPC A||C side contribution check by [@shahor02](https://github.com/shahor02)
+- [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
@@ -73,6 +74,7 @@
 - [\#15261](https://github.com/AliceO2Group/AliceO2/pull/15261) 2026-04-05: DPL: add ability to get next pair by [@ktf](https://github.com/ktf)
 - [\#15270](https://github.com/AliceO2Group/AliceO2/pull/15270) 2026-04-11: DPL: use new indices methods to navigate through InputRecord in output-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#15275](https://github.com/AliceO2Group/AliceO2/pull/15275) 2026-04-20: DPL Analysis: return span directly if the CCDB column is declared as a span by [@aalkin](https://github.com/aalkin)
+- [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
