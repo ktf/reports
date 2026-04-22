@@ -54,7 +54,6 @@
 ## Recent developments in O2 - Framework
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
 - [\#15217](https://github.com/AliceO2Group/AliceO2/pull/15217) 2026-03-28: DPL: treat --ccdb-fetchers like --readers by [@ktf](https://github.com/ktf)
-- [\#15226](https://github.com/AliceO2Group/AliceO2/pull/15226) 2026-03-28: DPL: more validation of MessageSet::header / payload replacement by [@ktf](https://github.com/ktf)
 - [\#15229](https://github.com/AliceO2Group/AliceO2/pull/15229) 2026-03-28: DPL: replace MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
 - [\#15233](https://github.com/AliceO2Group/AliceO2/pull/15233) 2026-03-28: DPL: exponential back-off for missing resources. by [@ktf](https://github.com/ktf)
 - [\#15234](https://github.com/AliceO2Group/AliceO2/pull/15234) 2026-03-29: DPL: drop MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
