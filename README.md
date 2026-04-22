@@ -54,7 +54,6 @@
 ## Recent developments in O2 - Framework
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
 - [\#15234](https://github.com/AliceO2Group/AliceO2/pull/15234) 2026-03-29: DPL: drop MessageSet::associateHeader / associatePayload by [@ktf](https://github.com/ktf)
-- [\#15236](https://github.com/AliceO2Group/AliceO2/pull/15236) 2026-03-28: Revert "DPL: Better detection for injected workflows (fixed)" by [@ktf](https://github.com/ktf)
 - [\#15237](https://github.com/AliceO2Group/AliceO2/pull/15237) 2026-03-29: DPL: get rid of MessageSet::pairMap by [@ktf](https://github.com/ktf)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15241](https://github.com/AliceO2Group/AliceO2/pull/15241) 2026-03-29: DPL: migrate away from MessageSet by [@ktf](https://github.com/ktf)
