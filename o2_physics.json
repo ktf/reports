@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-20T16:39:23Z",
-            "title": "[PWGLF] Refactor MC analysis and add kaon/omega histograms",
-            "number": 15878,
-            "author": {
-              "login": "hkoley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1520analysisinpp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-20T16:46:48Z",
             "title": "[PWGMM/Lumi] Fix FDD trigger requirement",
             "number": 15880,
@@ -2650,21 +2630,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Bug fix in FT0 gain equalization",
-            "number": 15928,
+            "title": "[PWGUD] delete hasmccollision",
+            "number": 15908,
             "author": {
-              "login": "abmodak"
+              "login": "miedema-11"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
                   }
                 }
               ]
@@ -2693,18 +2668,48 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] delete hasmccollision",
-            "number": 15908,
+            "state": "MERGED",
+            "mergedAt": "2026-04-23T03:17:45Z",
+            "title": "[PWGCF] Bug fix in FT0 gain equalization",
+            "number": 15928,
             "author": {
-              "login": "miedema-11"
+              "login": "abmodak"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] skipping collisions without mc collision",
+            "number": 15497,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
                   }
                 }
               ]
