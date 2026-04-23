@@ -20,7 +20,6 @@
 - [\#15220](https://github.com/AliceO2Group/AliceO2/pull/15220) 2026-03-30: [ALICE3] IOTOF: Adjust layer radius calculations for stave tilt and chip thickness by [@njacazio](https://github.com/njacazio)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15240](https://github.com/AliceO2Group/AliceO2/pull/15240) 2026-03-31: Rework DCS point classes to have default assign operators by [@ktf](https://github.com/ktf)
-- [\#15242](https://github.com/AliceO2Group/AliceO2/pull/15242) 2026-03-30: [ALICE 3] Fix extrusions in TOF and forward tracker (FT3) by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15247](https://github.com/AliceO2Group/AliceO2/pull/15247) 2026-04-01: [ALICE3] IOTOF: allow reduced sensor thickness wihout reducing chip size by [@njacazio](https://github.com/njacazio)
 - [\#15249](https://github.com/AliceO2Group/AliceO2/pull/15249) 2026-04-07: require min num of entries for TOF Diagnostic calibs by [@noferini](https://github.com/noferini)
 - [\#15250](https://github.com/AliceO2Group/AliceO2/pull/15250) 2026-04-02: Remove TrackerACTS from CMakeLists.txt by [@njacazio](https://github.com/njacazio)
