@@ -5,6 +5,7 @@
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 - [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
+- [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
@@ -14,7 +15,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
-- [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15249](https://github.com/AliceO2Group/AliceO2/pull/15249) 2026-04-07: require min num of entries for TOF Diagnostic calibs by [@noferini](https://github.com/noferini)
 - [\#15250](https://github.com/AliceO2Group/AliceO2/pull/15250) 2026-04-02: Remove TrackerACTS from CMakeLists.txt by [@njacazio](https://github.com/njacazio)
@@ -71,6 +71,7 @@
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 - [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
 - [\#15312](https://github.com/AliceO2Group/AliceO2/pull/15312) 2026-04-24: DPL Analysis: better detection for injected workflows by [@aalkin](https://github.com/aalkin)
+- [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
