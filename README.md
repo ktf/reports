@@ -6,6 +6,7 @@
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 - [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
 - [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
+- [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -54,7 +55,6 @@
 - [\#15205](https://github.com/AliceO2Group/AliceO2/pull/15205) 2026-04-02: aodMerger: Special option to merge only folders of the same name by [@sawenzel](https://github.com/sawenzel)
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15252](https://github.com/AliceO2Group/AliceO2/pull/15252) 2026-04-03: DPL MCP: allow client to control signposts by [@ktf](https://github.com/ktf)
-- [\#15253](https://github.com/AliceO2Group/AliceO2/pull/15253) 2026-04-02: DPL: fix long standing bug with ArrayString serialization by [@ktf](https://github.com/ktf)
 - [\#15254](https://github.com/AliceO2Group/AliceO2/pull/15254) 2026-04-02: DPL: speedup old split parts indexing by [@ktf](https://github.com/ktf)
 - [\#15255](https://github.com/AliceO2Group/AliceO2/pull/15255) 2026-04-02: DPL: Update serialization/deserialization test for string array Variant by [@aalkin](https://github.com/aalkin)
 - [\#15256](https://github.com/AliceO2Group/AliceO2/pull/15256) 2026-04-08: DPL: refactor InputSpan by [@ktf](https://github.com/ktf)
@@ -68,6 +68,7 @@
 - [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
 - [\#15312](https://github.com/AliceO2Group/AliceO2/pull/15312) 2026-04-24: DPL Analysis: better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 - [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
+- [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
