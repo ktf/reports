@@ -5,111 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-03-30T21:00:48Z",
-            "title": "FT0: update Digitizer signal shape and trigger logic; FV0: update trigger logic in digitizer",
-            "number": 15209,
-            "author": {
-              "login": "spulawsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/include/FT0Base/FT0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/FV0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-03-31T12:57:19Z",
-            "title": "Rework DCS point classes to have default assign operators",
-            "number": 15240,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointCompositeObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointIdentifier.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Use default constructor",
-            "number": 15239,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointCompositeObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointIdentifier.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-01T11:14:31Z",
-            "title": "Align to coding conventions",
-            "number": 15248,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionDebug.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-01T13:17:49Z",
             "title": "Drop async-list-label action",
             "number": 15218,
@@ -4896,6 +4791,86 @@
                 {
                   "node": {
                     "path": "doc/data/2026-04-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-03-07T14:47:39Z",
+            "title": "Decrease SAC writeout rate by 10",
+            "number": 14018,
+            "author": {
+              "login": "rmunzer"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-10-20T21:36:52Z",
+            "title": "Add default option for zdc_digits_reco",
+            "number": 13607,
+            "author": {
+              "login": "rmunzer"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-09-13T15:09:49Z",
+            "title": "TPC: Add Writing of Pad Status Map",
+            "number": 11859,
+            "author": {
+              "login": "rmunzer"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-08-08T13:26:57Z",
+            "title": "Change path for tpc idc metafile writeout",
+            "number": 11739,
+            "author": {
+              "login": "rmunzer"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
                   }
                 }
               ]
