@@ -15,7 +15,6 @@
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15194](https://github.com/AliceO2Group/AliceO2/pull/15194) 2026-04-01: [ALICE3] Copy class of ITSMFT Hit for TRK Hit by [@njacazio](https://github.com/njacazio)
-- [\#15215](https://github.com/AliceO2Group/AliceO2/pull/15215) 2026-04-01: [ALICE3] TRK: Collect services in a dedicated volume assembly by [@njacazio](https://github.com/njacazio)
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15249](https://github.com/AliceO2Group/AliceO2/pull/15249) 2026-04-07: require min num of entries for TOF Diagnostic calibs by [@noferini](https://github.com/noferini)
 - [\#15250](https://github.com/AliceO2Group/AliceO2/pull/15250) 2026-04-02: Remove TrackerACTS from CMakeLists.txt by [@njacazio](https://github.com/njacazio)
