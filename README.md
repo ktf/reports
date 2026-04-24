@@ -28,6 +28,7 @@
 - [\#15265](https://github.com/AliceO2Group/AliceO2/pull/15265) 2026-04-09: fix wrong long_to_int converstion in TOF readout window indexing by [@noferini](https://github.com/noferini)
 - [\#15266](https://github.com/AliceO2Group/AliceO2/pull/15266) 2026-04-13: secondary-vertexing-workflow: request CTP sources only if TPC is included by [@ehellbar](https://github.com/ehellbar)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
+- [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15269](https://github.com/AliceO2Group/AliceO2/pull/15269) 2026-04-16: [ALICE3] Rough attempt to pave ML disks as done for OT by [@scannito](https://github.com/scannito)
 - [\#15271](https://github.com/AliceO2Group/AliceO2/pull/15271) 2026-04-13: Allow BC correction in FIT CTF decoders by [@shahor02](https://github.com/shahor02)
 - [\#15272](https://github.com/AliceO2Group/AliceO2/pull/15272) 2026-04-16: FastMultEst does not need to be streamed by [@mpuccio](https://github.com/mpuccio)
