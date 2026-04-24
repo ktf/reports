@@ -4,6 +4,7 @@
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
+- [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15238](https://github.com/AliceO2Group/AliceO2/pull/15238) 2026-04-01: C++ standard fobids specializations of `is_trivially_copyable` by [@aalkin](https://github.com/aalkin)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
@@ -66,6 +67,8 @@
 - [\#15275](https://github.com/AliceO2Group/AliceO2/pull/15275) 2026-04-20: DPL Analysis: return span directly if the CCDB column is declared as a span by [@aalkin](https://github.com/aalkin)
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
+- [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
+- [\#15312](https://github.com/AliceO2Group/AliceO2/pull/15312) 2026-04-24: DPL Analysis: better detection for injected workflows by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
