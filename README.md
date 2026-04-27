@@ -48,6 +48,7 @@
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
 - [\#15328](https://github.com/AliceO2Group/AliceO2/pull/15328) 2026-04-27: ITS: fix ITSTrackROF outpu by [@f3sch](https://github.com/f3sch)
+- [\#15334](https://github.com/AliceO2Group/AliceO2/pull/15334) 2026-04-27: Fix sign of the tgL in ITS seeding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
