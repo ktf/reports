@@ -55,7 +55,6 @@
 ## Recent developments in O2 - Framework
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15252](https://github.com/AliceO2Group/AliceO2/pull/15252) 2026-04-03: DPL MCP: allow client to control signposts by [@ktf](https://github.com/ktf)
-- [\#15254](https://github.com/AliceO2Group/AliceO2/pull/15254) 2026-04-02: DPL: speedup old split parts indexing by [@ktf](https://github.com/ktf)
 - [\#15256](https://github.com/AliceO2Group/AliceO2/pull/15256) 2026-04-08: DPL: refactor InputSpan by [@ktf](https://github.com/ktf)
 - [\#15258](https://github.com/AliceO2Group/AliceO2/pull/15258) 2026-04-03: DPL MCP: add tool to resume a stopped topology by [@ktf](https://github.com/ktf)
 - [\#15259](https://github.com/AliceO2Group/AliceO2/pull/15259) 2026-04-03: DPL: add formatters for ConfigParamSpec by [@ktf](https://github.com/ktf)
