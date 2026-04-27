@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-22T12:11:50Z",
-            "title": "[PWGDQ] Add and fix some code for the energy correlator study",
-            "number": 15912,
-            "author": {
-              "login": "YazhenLin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-22T14:19:58Z",
-            "title": "[PWGDQ] fixed match type for tracks without MC particle",
-            "number": 15897,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-22T19:01:38Z",
-            "title": "[PWGEM/Dilepton] update treeCreatorMuonML.cxx",
-            "number": 15917,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorMuonML.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-22T19:53:07Z",
             "title": "[ALICE3] fix handling of neutral particles in decayer",
             "number": 15916,
@@ -2260,6 +2180,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF/NuSpEx] Added missing } in processMC and fix clang issues",
+            "number": 15978,
+            "author": {
+              "login": "mapalhares"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/lnnRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF] Uniformed workflow to nucleiSpectra, updated nuclei flags",
+            "number": 15979,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-27T14:25:26Z",
+            "title": "[PWGEM] PM: Fix Pi0EtaToGammaGamma for EMCal",
+            "number": 15977,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGammaMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Table producer for photonDe correlation study",
             "number": 15509,
             "author": {
@@ -2290,21 +2275,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] PM: Fix Pi0EtaToGammaGamma for EMCal",
-            "number": 15977,
+            "title": "[PWGCF] changed histogram name, and criteria for creating them",
+            "number": 15982,
             "author": {
-              "login": "mhemmer-cern"
+              "login": "Thorkj"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrFit.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] refactor nucleiqc logic, fixed previous errors",
+            "number": 15980,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGammaMC.h"
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
@@ -2313,28 +2318,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF/NuSpEx] Added missing } in processMC and fix clang issues",
-            "number": 15978,
-            "author": {
-              "login": "mapalhares"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/lnnRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-04-27T14:38:45Z",
             "title": "[PWGLF] Added square PID cut",
             "number": 15974,
             "author": {
@@ -2355,16 +2340,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Uniformed workflow to nucleiSpectra, updated nuclei flags",
-            "number": 15979,
+            "title": "[PWGHF] Add task of net charm fluctuations",
+            "number": 15981,
             "author": {
-              "login": "GiorgioAlbertoLucia"
+              "login": "zhangbiao-phy"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskNetCharmFluctuations.cxx"
                   }
                 }
               ]
