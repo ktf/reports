@@ -64,6 +64,7 @@
 - [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
+- [\#15333](https://github.com/AliceO2Group/AliceO2/pull/15333) 2026-04-27: DPL: boost::property_tree::json_parser::write_json no longer adds EoL by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
