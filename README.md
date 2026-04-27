@@ -17,7 +17,6 @@
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15249](https://github.com/AliceO2Group/AliceO2/pull/15249) 2026-04-07: require min num of entries for TOF Diagnostic calibs by [@noferini](https://github.com/noferini)
-- [\#15250](https://github.com/AliceO2Group/AliceO2/pull/15250) 2026-04-02: Remove TrackerACTS from CMakeLists.txt by [@njacazio](https://github.com/njacazio)
 - [\#15257](https://github.com/AliceO2Group/AliceO2/pull/15257) 2026-04-14: [ALICE3] IOTOF: Add geometry macros by [@njacazio](https://github.com/njacazio)
 - [\#15260](https://github.com/AliceO2Group/AliceO2/pull/15260) 2026-04-07: ITS3: add cylinder parameterisation preserving zero gaussian curvature by [@f3sch](https://github.com/f3sch)
 - [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
@@ -48,6 +47,7 @@
 - [\#15301](https://github.com/AliceO2Group/AliceO2/pull/15301) 2026-04-21: Please consider the following formatting changes to #15300 by [@alibuild](https://github.com/alibuild)
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
+- [\#15328](https://github.com/AliceO2Group/AliceO2/pull/15328) 2026-04-27: ITS: fix ITSTrackROF outpu by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
