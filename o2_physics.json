@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-22T19:53:07Z",
-            "title": "[ALICE3] fix handling of neutral particles in decayer",
-            "number": 15916,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/Decayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/TrackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-22T14:21:00Z",
             "title": "[PWGDQ] fix swapped covariance values",
             "number": 15792,
@@ -2243,28 +2213,63 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Table producer for photonDe correlation study",
-            "number": 15509,
+            "state": "MERGED",
+            "mergedAt": "2026-04-27T14:38:45Z",
+            "title": "[PWGLF] Added square PID cut",
+            "number": 15974,
             "author": {
-              "login": "arvindkhuntia"
+              "login": "sawankumawat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFPhotonDeuteronTables.h"
+                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add task of net charm fluctuations",
+            "number": 15981,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
+                    "path": "PWGHF/D2H/Tasks/taskNetCharmFluctuations.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] mftReassociationValidation.cxx : more log improvement",
+            "number": 15983,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/photonDeuteron.cxx"
+                    "path": "PWGMM/Mult/Tasks/mftReassociationValidation.cxx"
                   }
                 }
               ]
@@ -2318,43 +2323,28 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-27T14:38:45Z",
-            "title": "[PWGLF] Added square PID cut",
-            "number": 15974,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add task of net charm fluctuations",
-            "number": 15981,
+            "title": "[PWGLF] Table producer for photonDe correlation study",
+            "number": 15509,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "arvindkhuntia"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                    "path": "PWGLF/DataModel/LFPhotonDeuteronTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskNetCharmFluctuations.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/photonDeuteron.cxx"
                   }
                 }
               ]
