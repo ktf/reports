@@ -19,7 +19,6 @@
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15257](https://github.com/AliceO2Group/AliceO2/pull/15257) 2026-04-14: [ALICE3] IOTOF: Add geometry macros by [@njacazio](https://github.com/njacazio)
 - [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
-- [\#15263](https://github.com/AliceO2Group/AliceO2/pull/15263) 2026-04-08: [ALICE3] TRK: Add TrackerACTS header for ACTS-based tracking by [@njacazio](https://github.com/njacazio)
 - [\#15264](https://github.com/AliceO2Group/AliceO2/pull/15264) 2026-04-08: [ALICE3] Fix missing bool in ACTS integration by [@njacazio](https://github.com/njacazio)
 - [\#15265](https://github.com/AliceO2Group/AliceO2/pull/15265) 2026-04-09: fix wrong long_to_int converstion in TOF readout window indexing by [@noferini](https://github.com/noferini)
 - [\#15266](https://github.com/AliceO2Group/AliceO2/pull/15266) 2026-04-13: secondary-vertexing-workflow: request CTP sources only if TPC is included by [@ehellbar](https://github.com/ehellbar)
