@@ -13,6 +13,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15284](https://github.com/AliceO2Group/AliceO2/pull/15284) 2026-04-17: Tentative improvement of 3-body decay cov. matrix creation by [@shahor02](https://github.com/shahor02)
+- [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
@@ -48,6 +49,7 @@
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
 - [\#15328](https://github.com/AliceO2Group/AliceO2/pull/15328) 2026-04-27: ITS: fix ITSTrackROF outpu by [@f3sch](https://github.com/f3sch)
+- [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15334](https://github.com/AliceO2Group/AliceO2/pull/15334) 2026-04-27: Fix sign of the tgL in ITS seeding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
@@ -65,6 +67,7 @@
 - [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
+- [\#15330](https://github.com/AliceO2Group/AliceO2/pull/15330) 2026-04-28: DPL: improve messages about missing resources by [@ktf](https://github.com/ktf)
 - [\#15333](https://github.com/AliceO2Group/AliceO2/pull/15333) 2026-04-27: DPL: boost::property_tree::json_parser::write_json no longer adds EoL by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
@@ -72,6 +75,7 @@
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15267](https://github.com/AliceO2Group/AliceO2/pull/15267) 2026-04-13: ALICE3: Introduce Almira params and shorten ROF/response for TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
+- [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#15224](https://github.com/AliceO2Group/AliceO2/pull/15224) 2026-04-20: Cleanup: Remove old version of jobutils and cpulimit tool by [@sawenzel](https://github.com/sawenzel)
 - [\#15256](https://github.com/AliceO2Group/AliceO2/pull/15256) 2026-04-08: DPL: refactor InputSpan by [@ktf](https://github.com/ktf)

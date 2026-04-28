@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-23T03:17:45Z",
-            "title": "[PWGCF] Bug fix in FT0 gain equalization",
-            "number": 15928,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-23T08:33:34Z",
             "title": "[Common] Extend option to reassociate PV contributors to different collisions",
             "number": 15929,
@@ -1534,31 +1509,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
-            "number": 15755,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGJE] Rename task to jetDsSpecSubs and add angularity",
@@ -2264,31 +2214,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Move the dndeta analysis to LF tasks.",
-            "number": 15988,
-            "author": {
-              "login": "hyungjun-lee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/dndetaHi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-28T06:26:27Z",
             "title": "[PWGCF] Add QA plots for q2 check",
@@ -2301,31 +2226,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add task of net charm fluctuations",
-            "number": 15981,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskNetCharmFluctuations.cxx"
                   }
                 }
               ]
@@ -2361,6 +2261,101 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Utils/utilsFlow.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add task of net charm fluctuations",
+            "number": 15981,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskNetCharmFluctuations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Move the dndeta analysis to LF tasks.",
+            "number": 15988,
+            "author": {
+              "login": "hyungjun-lee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/dndetaHi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
+            "number": 15755,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] fix efficiency & cuts",
+            "number": 15989,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
                   }
                 }
               ]

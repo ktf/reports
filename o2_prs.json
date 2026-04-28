@@ -4484,91 +4484,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: improve messages about missing resources",
-            "number": 15330,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ComputingQuotaEvaluator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ResourcePolicy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ComputingQuotaEvaluator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ResourcePolicyHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[MCH] filter trackable ROFs before clustering",
-            "number": 15331,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/Trackable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/src/Trackable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/ROFFiltering/include/MCHROFFiltering/TrackableFilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/ClusterFinderOriginalSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-27T11:28:34Z",
             "title": "Fix typo in GPUTPCGMMerger::MergedTrackStreamer",
@@ -4626,36 +4541,6 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object",
-            "number": 15332,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/EventsPerBc.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/CollisionContextTool.cxx"
                   }
                 }
               ]
@@ -4909,6 +4794,121 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-28T08:21:05Z",
+            "title": "DPL: improve messages about missing resources",
+            "number": 15330,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ComputingQuotaEvaluator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ResourcePolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ComputingQuotaEvaluator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ResourcePolicyHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] filter trackable ROFs before clustering",
+            "number": 15331,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/Trackable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/src/Trackable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/include/MCHROFFiltering/TrackableFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/ClusterFinderOriginalSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-28T08:56:16Z",
+            "title": "CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object",
+            "number": 15332,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/EventsPerBc.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/CollisionContextTool.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -4921,41 +4921,6 @@
                 {
                   "node": {
                     "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/reconstruction/include/FDDReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/reconstruction/include/FT0Reconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/reconstruction/include/FV0Reconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCDecompression.cxx"
                   }
                 },
                 {
