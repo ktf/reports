@@ -17,9 +17,7 @@
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
-- [\#15249](https://github.com/AliceO2Group/AliceO2/pull/15249) 2026-04-07: require min num of entries for TOF Diagnostic calibs by [@noferini](https://github.com/noferini)
 - [\#15257](https://github.com/AliceO2Group/AliceO2/pull/15257) 2026-04-14: [ALICE3] IOTOF: Add geometry macros by [@njacazio](https://github.com/njacazio)
-- [\#15260](https://github.com/AliceO2Group/AliceO2/pull/15260) 2026-04-07: ITS3: add cylinder parameterisation preserving zero gaussian curvature by [@f3sch](https://github.com/f3sch)
 - [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
 - [\#15263](https://github.com/AliceO2Group/AliceO2/pull/15263) 2026-04-08: [ALICE3] TRK: Add TrackerACTS header for ACTS-based tracking by [@njacazio](https://github.com/njacazio)
 - [\#15264](https://github.com/AliceO2Group/AliceO2/pull/15264) 2026-04-08: [ALICE3] Fix missing bool in ACTS integration by [@njacazio](https://github.com/njacazio)
@@ -49,6 +47,7 @@
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
 - [\#15328](https://github.com/AliceO2Group/AliceO2/pull/15328) 2026-04-27: ITS: fix ITSTrackROF outpu by [@f3sch](https://github.com/f3sch)
+- [\#15331](https://github.com/AliceO2Group/AliceO2/pull/15331) 2026-04-28: [MCH] filter trackable ROFs before clustering by [@pillot](https://github.com/pillot)
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15334](https://github.com/AliceO2Group/AliceO2/pull/15334) 2026-04-27: Fix sign of the tgL in ITS seeding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
