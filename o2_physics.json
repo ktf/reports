@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-23T18:50:37Z",
-            "title": "[PWGUD] GlobalMuon matching based on chi2matching",
-            "number": 15938,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/upcCandProducerGlobalMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-23T19:22:45Z",
-            "title": "[PWGCF] Tables for Volume fluctuations",
-            "number": 15949,
-            "author": {
-              "login": "YashParakh007"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netprotcumulants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-23T18:52:54Z",
             "title": "[PWGCF] Add switch for applying FIT gain correction",
             "number": 15950,
@@ -2479,31 +2439,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] adding new task for multiparticle cumulants",
-            "number": 15997,
-            "author": {
-              "login": "pykuan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGUD] fix efficiency & cuts",
@@ -2681,51 +2616,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM,PWGEM-36] Fix flow reso task",
-            "number": 16004,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskFlowReso.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
-            "number": 15755,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Added table for Sc reco info",
             "number": 16006,
             "author": {
@@ -2809,6 +2699,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-28T16:11:47Z",
+            "title": "[PWGEM,PWGEM-36] Fix flow reso task",
+            "number": 16004,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskFlowReso.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] Reshape task partNumFluc",
@@ -2821,6 +2731,106 @@
                 {
                   "node": {
                     "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
+            "number": 15755,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Migrate track propagation",
+            "number": 16007,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagationV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] adding new task for multiparticle cumulants",
+            "number": 15997,
+            "author": {
+              "login": "pykuan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-28T16:42:09Z",
+            "title": "[PWGHF] Fix Gen Level associated particles condition in Lc-h",
+            "number": 16008,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
                   }
                 }
               ]
