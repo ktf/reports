@@ -46,6 +46,7 @@
 - [\#15301](https://github.com/AliceO2Group/AliceO2/pull/15301) 2026-04-21: Please consider the following formatting changes to #15300 by [@alibuild](https://github.com/alibuild)
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
+- [\#15327](https://github.com/AliceO2Group/AliceO2/pull/15327) 2026-04-29: ITS: fix rare valid lookup at the edge of acceptance by [@f3sch](https://github.com/f3sch)
 - [\#15328](https://github.com/AliceO2Group/AliceO2/pull/15328) 2026-04-27: ITS: fix ITSTrackROF outpu by [@f3sch](https://github.com/f3sch)
 - [\#15331](https://github.com/AliceO2Group/AliceO2/pull/15331) 2026-04-28: [MCH] filter trackable ROFs before clustering by [@pillot](https://github.com/pillot)
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
