@@ -1501,41 +1501,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
-            "number": 15636,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Add task of net charm fluctuations",
             "number": 15981,
             "author": {
@@ -2654,46 +2619,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Migrate track propagation",
-            "number": 16007,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".claude/commands/migrate-ccdb.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/GloCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationServiceV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackPropagationV2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-28T21:20:05Z",
             "title": "[PWGCF] feat: integrate angular histograms into PairHistManager",
@@ -2794,18 +2719,23 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] fix efficiency and cuts",
-            "number": 16001,
+            "state": "MERGED",
+            "mergedAt": "2026-04-29T06:52:37Z",
+            "title": "[PWGLF] Added K*0 resonance",
+            "number": 15984,
             "author": {
-              "login": "miedema-11"
+              "login": "sawankumawat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/mcParticle.h"
                   }
                 }
               ]
@@ -2839,23 +2769,93 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-29T06:52:37Z",
-            "title": "[PWGLF] Added K*0 resonance",
-            "number": 15984,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] fix efficiency and cuts",
+            "number": 16001,
             "author": {
-              "login": "sawankumawat"
+              "login": "miedema-11"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Migrate track propagation",
+            "number": 16007,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Utils/mcParticle.h"
+                    "path": "Common/DataModel/GloCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceV2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagationV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
+            "number": 15636,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
                   }
                 }
               ]
