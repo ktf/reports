@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-25T07:54:08Z",
-            "title": "[PWGHF] taskCharmPolarisation: Fix THnSparseCosThStarEP axis configuration",
-            "number": 15963,
-            "author": {
-              "login": "Mingze129"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmPolarisation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-20T11:40:13Z",
-            "title": "[PWGJE] Add SlimTables data model and producer for future standalone embedding studies",
-            "number": 15132,
-            "author": {
-              "login": "louisemillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/slimTablesProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-23T11:26:53Z",
             "title": "[PWGCF] adding new analysis task for multiharmonic correlations",
             "number": 15896,
@@ -1931,31 +1886,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Adding file jetHadronsPID.cxx and it's workflow",
-            "number": 16012,
-            "author": {
-              "login": "MyFavoriteGitHub"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Migrate track propagation",
             "number": 16007,
             "author": {
@@ -2593,26 +2523,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add PID support for feasibility study of charm nuclei candidates for cascades channel",
-            "number": 16020,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-23T11:56:12Z",
             "title": "[PWGLF] Added centrality dependence of DCAxy cut and tighten DCAz cut",
@@ -2725,21 +2635,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] update taggingHFE.cxx",
-            "number": 16032,
+            "title": "[PWGCF] Add pp ESE flow fluctuation task",
+            "number": 16009,
             "author": {
-              "login": "dsekihat"
+              "login": "losiash"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
+                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
                   }
                 }
               ]
@@ -2773,23 +2683,108 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add pp ESE flow fluctuation task",
-            "number": 16009,
+            "state": "MERGED",
+            "mergedAt": "2026-04-29T19:56:17Z",
+            "title": "[PWGEM/Dilepton] update taggingHFE.cxx",
+            "number": 16032,
             "author": {
-              "login": "losiash"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
+                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] fix to add sign of lz",
+            "number": 16033,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/SemiCharmTag.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-29T20:13:24Z",
+            "title": "[PWGHF] Add PID support for feasibility study of charm nuclei candidates for cascades channel",
+            "number": 16020,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fix remaining issues in pair efficiency task",
+            "number": 16034,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding file jetHadronsPID.cxx and it's workflow",
+            "number": 16012,
+            "author": {
+              "login": "MyFavoriteGitHub"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
                   }
                 }
               ]
