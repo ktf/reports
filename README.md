@@ -8,6 +8,7 @@
 - [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
+- [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -66,6 +67,7 @@
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
 - [\#15330](https://github.com/AliceO2Group/AliceO2/pull/15330) 2026-04-28: DPL: improve messages about missing resources by [@ktf](https://github.com/ktf)
 - [\#15333](https://github.com/AliceO2Group/AliceO2/pull/15333) 2026-04-27: DPL: boost::property_tree::json_parser::write_json no longer adds EoL by [@aalkin](https://github.com/aalkin)
+- [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
