@@ -57,7 +57,6 @@
 - [\#15224](https://github.com/AliceO2Group/AliceO2/pull/15224) 2026-04-20: Cleanup: Remove old version of jobutils and cpulimit tool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
-- [\#15270](https://github.com/AliceO2Group/AliceO2/pull/15270) 2026-04-11: DPL: use new indices methods to navigate through InputRecord in output-proxy by [@ehellbar](https://github.com/ehellbar)
 - [\#15275](https://github.com/AliceO2Group/AliceO2/pull/15275) 2026-04-20: DPL Analysis: return span directly if the CCDB column is declared as a span by [@aalkin](https://github.com/aalkin)
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)

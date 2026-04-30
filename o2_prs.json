@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-11T09:52:55Z",
-            "title": "DPL: use new indices methods to navigate through InputRecord in output-proxy",
-            "number": 15270,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-13T12:02:26Z",
             "title": "ALICE3: Introduce Almira params and shorten ROF/response for TRK",
             "number": 15267,
@@ -4786,6 +4766,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Avoid duplication of enable-M-shape-correction option",
+            "number": 15343,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add Lc resonances to physics constants",
+            "number": 14994,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: streamline option building",
             "number": 15320,
             "author": {
@@ -4801,26 +4826,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Avoid duplication of enable-M-shape-correction option",
-            "number": 15343,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
@@ -4861,21 +4866,151 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add Lc resonances to physics constants",
-            "number": 14994,
+            "title": "Nj a3tofgeo",
+            "number": 15125,
             "author": {
-              "login": "apalasciano"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/include/DataFormatsIOTOF/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/DataFormatsIOTOFLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/test/CheckClusters.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/include/TRKReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/include/TRKReconstruction/ClustererACTS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/include/TRKReconstruction/TimeFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/include/TRKReconstruction/TrackerACTS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/ClustererACTS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TRKReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/TrackerACTS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Hit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/include/TRKWorkflow/ClustererSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/workflow/src/ClustererSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldShortMagnet.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
