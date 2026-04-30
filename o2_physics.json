@@ -94,31 +94,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add tag and probe method for dalitz selection",
-            "number": 15948,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-27T09:49:07Z",
             "title": "[PWGEM,PWGEM-36] PM: add config to store all daughters of all interes…",
@@ -2298,26 +2273,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Ignore warnings for C-style VLAs",
-            "number": 16036,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Added check for mother particle in closure test",
@@ -2688,18 +2643,73 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add model prediction process",
-            "number": 16043,
+            "state": "MERGED",
+            "mergedAt": "2026-04-30T14:08:37Z",
+            "title": "[PWGCF] Add pp ESE flow fluctuation task",
+            "number": 16009,
             "author": {
-              "login": "kcui1"
+              "login": "losiash"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add tag and probe method for dalitz selection",
+            "number": 15948,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
+            "number": 15755,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
@@ -2733,23 +2743,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-30T14:08:37Z",
-            "title": "[PWGCF] Add pp ESE flow fluctuation task",
-            "number": 16009,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Ignore warnings for C-style VLAs",
+            "number": 16036,
             "author": {
-              "login": "losiash"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
                   }
                 }
               ]
@@ -2778,23 +2783,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
-            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
-            "number": 15755,
+            "title": "[PWGLF] Add model prediction process",
+            "number": 16043,
             "author": {
-              "login": "Marcellocosti"
+              "login": "kcui1"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
