@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-26T23:27:31Z",
-            "title": "[PWGCF] Calculating efficiency",
-            "number": 15972,
-            "author": {
-              "login": "SwatiSaha-1997"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/v0ptHadPiKaProt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-27T06:34:31Z",
-            "title": "[PWGJE] hfFragmentationFunction: MC truth decay classification fix and cleanup",
-            "number": 15970,
-            "author": {
-              "login": "christianreckziegel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-27T09:49:07Z",
-            "title": "[PWGEM,PWGEM-36] PM: add config to store all daughters of all interes…",
-            "number": 15975,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/associateMCinfoPhoton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonResoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-03-25T17:32:13Z",
             "title": "[PWGLF] Inclusion of bestCollision to treat outliers",
             "number": 15519,
@@ -2668,31 +2603,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add tag and probe method for dalitz selection",
-            "number": 15948,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-30T15:33:58Z",
             "title": "[Infrastructure] Ignore warnings for C-style VLAs",
@@ -2775,6 +2685,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Implemented suggestions from comments on previous pull request.",
+            "number": 16002,
+            "author": {
+              "login": "Lolle2001"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetD0AngSubstructure.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add tag and probe method for dalitz selection",
+            "number": 15948,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/AnalysisCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-30T16:55:48Z",
             "title": "[PWGLF] Add Model Prediction Process in H-SCorrelation",
             "number": 16045,
             "author": {
@@ -2793,18 +2753,63 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Implemented suggestions from comments on previous pull request.",
-            "number": 16002,
+            "state": "MERGED",
+            "mergedAt": "2026-02-01T20:41:18Z",
+            "title": "[PWGLF] Updated event count histogram",
+            "number": 14733,
             "author": {
-              "login": "Lolle2001"
+              "login": "sawankumawat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetD0AngSubstructure.cxx"
+                    "path": "PWGLF/Tasks/Resonances/higherMassResonances.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Added code for model prediction for Kstar, Phi resonance",
+            "number": 16046,
+            "author": {
+              "login": "sawankumawat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/mcKstarPrediction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added analysis profiles with weighted average, configurables for some PID cuts, and occupancy histograms",
+            "number": 16047,
+            "author": {
+              "login": "SwatiSaha-1997"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/v0ptHadPiKaProt.cxx"
                   }
                 }
               ]
