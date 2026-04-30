@@ -51,6 +51,7 @@
 - [\#15334](https://github.com/AliceO2Group/AliceO2/pull/15334) 2026-04-27: Fix sign of the tgL in ITS seeding by [@shahor02](https://github.com/shahor02)
 - [\#15335](https://github.com/AliceO2Group/AliceO2/pull/15335) 2026-04-30: ALICE3: introduce the staggering of ROFs in the TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
+- [\#15341](https://github.com/AliceO2Group/AliceO2/pull/15341) 2026-04-30: ITS: update Pb-Pb vertex settings by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
