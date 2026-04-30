@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
@@ -10,6 +11,7 @@
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
+- [\#15281](https://github.com/AliceO2Group/AliceO2/pull/15281) 2026-04-30: Add physics constants for K1(1270) by [@SuJeong-Ji](https://github.com/SuJeong-Ji)
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
@@ -21,7 +23,6 @@
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15257](https://github.com/AliceO2Group/AliceO2/pull/15257) 2026-04-14: [ALICE3] IOTOF: Add geometry macros by [@njacazio](https://github.com/njacazio)
 - [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
-- [\#15266](https://github.com/AliceO2Group/AliceO2/pull/15266) 2026-04-13: secondary-vertexing-workflow: request CTP sources only if TPC is included by [@ehellbar](https://github.com/ehellbar)
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15269](https://github.com/AliceO2Group/AliceO2/pull/15269) 2026-04-16: [ALICE3] Rough attempt to pave ML disks as done for OT by [@scannito](https://github.com/scannito)
 - [\#15272](https://github.com/AliceO2Group/AliceO2/pull/15272) 2026-04-16: FastMultEst does not need to be streamed by [@mpuccio](https://github.com/mpuccio)
@@ -55,6 +56,7 @@
 ## Recent developments in O2 - Examples
 - [\#15224](https://github.com/AliceO2Group/AliceO2/pull/15224) 2026-04-20: Cleanup: Remove old version of jobutils and cpulimit tool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
+- [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15275](https://github.com/AliceO2Group/AliceO2/pull/15275) 2026-04-20: DPL Analysis: return span directly if the CCDB column is declared as a span by [@aalkin](https://github.com/aalkin)
 - [\#15292](https://github.com/AliceO2Group/AliceO2/pull/15292) 2026-04-22: DPL: revamp / remove Endian.h by [@ktf](https://github.com/ktf)
