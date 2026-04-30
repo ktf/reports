@@ -21,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
-- [\#15257](https://github.com/AliceO2Group/AliceO2/pull/15257) 2026-04-14: [ALICE3] IOTOF: Add geometry macros by [@njacazio](https://github.com/njacazio)
 - [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15269](https://github.com/AliceO2Group/AliceO2/pull/15269) 2026-04-16: [ALICE3] Rough attempt to pave ML disks as done for OT by [@scannito](https://github.com/scannito)
