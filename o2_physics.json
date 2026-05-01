@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-27T22:25:58Z",
-            "title": "[PWGLF] refactor nucleiqc logic, fixed previous errors",
-            "number": 15980,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-27T22:32:44Z",
             "title": "[PWGLF/NuSpEx] Added missing } in processMC and fix clang issues",
             "number": 15978,
@@ -2048,26 +2023,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] SpectraTOF: allow FT0 in MC",
-            "number": 16041,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-30T13:46:08Z",
             "title": "[PWGJE] efficiency 3d",
@@ -2795,6 +2750,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] Using fwdUtilities tools for muon propagation",
+            "number": 15947,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] timing cuts, post-processing update",
             "number": 16058,
             "author": {
@@ -2823,33 +2813,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Using fwdUtilities tools for muon propagation",
-            "number": 15947,
+            "state": "MERGED",
+            "mergedAt": "2026-05-01T18:53:33Z",
+            "title": "[PWGLF] SpectraTOF: allow FT0 in MC",
+            "number": 16041,
             "author": {
-              "login": "mcoquet642"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
+                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] correct run error for lightions",
+            "number": 16059,
+            "author": {
+              "login": "SwatiSaha-1997"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
+                    "path": "PWGCF/EbyEFluctuations/Tasks/v0ptHadPiKaProt.cxx"
                   }
                 }
               ]
