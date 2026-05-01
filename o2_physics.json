@@ -2075,31 +2075,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add jpsiKineDcaQualitynoPID2 cut and Change binning",
-            "number": 16003,
-            "author": {
-              "login": "LucasFerrandi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] updated code for mixing hadrons with mixed phi from diff events",
             "number": 16029,
             "author": {
@@ -2270,31 +2245,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
-            "number": 15755,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
@@ -2620,41 +2570,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] [PWGLF} added inegt0 flag  need for lambda1520 tasks",
-            "number": 16051,
-            "author": {
-              "login": "nasirmehdimalik"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceMergeDF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] add tag and probe method for dalitz selection",
             "number": 15948,
             "author": {
@@ -2793,6 +2708,66 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-01T14:52:28Z",
+            "title": "[PWGLF] Spincorr selection",
+            "number": 16054,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-01T15:10:37Z",
+            "title": "[PWGLF] [PWGLF} added inegt0 flag  need for lambda1520 tasks",
+            "number": 16051,
+            "author": {
+              "login": "nasirmehdimalik"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceMergeDF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1520_PbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] adding new task for multiparticle cumulants",
@@ -2818,23 +2793,48 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-01T14:52:28Z",
-            "title": "[PWGLF] Spincorr selection",
-            "number": 16054,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add jpsiKineDcaQualitynoPID2 cut and Change binning",
+            "number": 16003,
             "author": {
-              "login": "skundu692"
+              "login": "LucasFerrandi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
+            "number": 15755,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
