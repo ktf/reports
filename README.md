@@ -50,6 +50,7 @@
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
 - [\#15341](https://github.com/AliceO2Group/AliceO2/pull/15341) 2026-04-30: ITS: update Pb-Pb vertex settings by [@f3sch](https://github.com/f3sch)
 - [\#15346](https://github.com/AliceO2Group/AliceO2/pull/15346) 2026-05-01: Optionally produce HistoManager file and pdf report + lot of fixes. by [@shahor02](https://github.com/shahor02)
+- [\#15347](https://github.com/AliceO2Group/AliceO2/pull/15347) 2026-05-02: ITS: smaller fixes by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
