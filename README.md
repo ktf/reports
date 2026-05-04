@@ -47,6 +47,7 @@
 - [\#15341](https://github.com/AliceO2Group/AliceO2/pull/15341) 2026-04-30: ITS: update Pb-Pb vertex settings by [@f3sch](https://github.com/f3sch)
 - [\#15346](https://github.com/AliceO2Group/AliceO2/pull/15346) 2026-05-01: Optionally produce HistoManager file and pdf report + lot of fixes. by [@shahor02](https://github.com/shahor02)
 - [\#15347](https://github.com/AliceO2Group/AliceO2/pull/15347) 2026-05-02: ITS: smaller fixes by [@f3sch](https://github.com/f3sch)
+- [\#15353](https://github.com/AliceO2Group/AliceO2/pull/15353) 2026-05-04: Option to write only ROFRecord to ITS/MFT clusters file: by [@shahor02](https://github.com/shahor02)
 - [\#15354](https://github.com/AliceO2Group/AliceO2/pull/15354) 2026-05-04: Check for streamer presence before writing the output by [@shahor02](https://github.com/shahor02)
 - [\#15355](https://github.com/AliceO2Group/AliceO2/pull/15355) 2026-05-04: Optionally postpocess histoManagers before drawing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
