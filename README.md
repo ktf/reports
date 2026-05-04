@@ -21,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
-- [\#15262](https://github.com/AliceO2Group/AliceO2/pull/15262) 2026-04-17: [ALICE3] Further developments for TRK by [@scannito](https://github.com/scannito)
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15273](https://github.com/AliceO2Group/AliceO2/pull/15273) 2026-04-16: Remove unnecessary dictionaries in ALICE3 by [@mpuccio](https://github.com/mpuccio)
 - [\#15274](https://github.com/AliceO2Group/AliceO2/pull/15274) 2026-04-17: add CheckClusterSizeVsEta.C macro by [@altsybee](https://github.com/altsybee)
@@ -48,6 +47,7 @@
 - [\#15341](https://github.com/AliceO2Group/AliceO2/pull/15341) 2026-04-30: ITS: update Pb-Pb vertex settings by [@f3sch](https://github.com/f3sch)
 - [\#15346](https://github.com/AliceO2Group/AliceO2/pull/15346) 2026-05-01: Optionally produce HistoManager file and pdf report + lot of fixes. by [@shahor02](https://github.com/shahor02)
 - [\#15347](https://github.com/AliceO2Group/AliceO2/pull/15347) 2026-05-02: ITS: smaller fixes by [@f3sch](https://github.com/f3sch)
+- [\#15354](https://github.com/AliceO2Group/AliceO2/pull/15354) 2026-05-04: Check for streamer presence before writing the output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
