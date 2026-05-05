@@ -46,6 +46,7 @@
 - [\#15354](https://github.com/AliceO2Group/AliceO2/pull/15354) 2026-05-04: Check for streamer presence before writing the output by [@shahor02](https://github.com/shahor02)
 - [\#15355](https://github.com/AliceO2Group/AliceO2/pull/15355) 2026-05-04: Optionally postpocess histoManagers before drawing by [@shahor02](https://github.com/shahor02)
 - [\#15359](https://github.com/AliceO2Group/AliceO2/pull/15359) 2026-05-05: Use currentTS+14days to define EOV of TRD DCS-DP processor objects by [@shahor02](https://github.com/shahor02)
+- [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
