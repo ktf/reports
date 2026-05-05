@@ -2420,16 +2420,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Change default cutInvMassCascCharmNuclei threshold to 0 in the track skimming task",
-            "number": 16110,
+            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
+            "number": 15636,
             "author": {
-              "login": "zhangbiao-phy"
+              "login": "Marcellocosti"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
                   }
                 }
               ]
@@ -2458,33 +2473,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
-            "number": 15636,
+            "state": "MERGED",
+            "mergedAt": "2026-05-05T08:29:37Z",
+            "title": "[PWGHF] Change default cutInvMassCascCharmNuclei threshold to 0 in the track skimming task",
+            "number": 16110,
             "author": {
-              "login": "Marcellocosti"
+              "login": "zhangbiao-phy"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
