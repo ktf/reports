@@ -66,6 +66,7 @@
 - [\#15330](https://github.com/AliceO2Group/AliceO2/pull/15330) 2026-04-28: DPL: improve messages about missing resources by [@ktf](https://github.com/ktf)
 - [\#15333](https://github.com/AliceO2Group/AliceO2/pull/15333) 2026-04-27: DPL: boost::property_tree::json_parser::write_json no longer adds EoL by [@aalkin](https://github.com/aalkin)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
+- [\#15358](https://github.com/AliceO2Group/AliceO2/pull/15358) 2026-05-05: DPL: improve catching of low memory related bugs by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#14921](https://github.com/AliceO2Group/AliceO2/pull/14921) 2026-04-21: Update of TPC fast space charge correction with splines by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
