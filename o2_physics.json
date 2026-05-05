@@ -309,36 +309,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF/HFC] Adding initial setup for correlation and event mixing at MC truth level",
-            "number": 16061,
-            "author": {
-              "login": "deependra170598"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDstarHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-01T17:38:57Z",
             "title": "[PWGLF] Compute feeddown matrix for Lambda/AntiLambda",
@@ -2239,26 +2209,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] annalysis task for the v0 pt of the charm-bulk",
-            "number": 15941,
-            "author": {
-              "login": "wuctlby"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskPtFlucCharmHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] PWGLF - new QA hist in hStrangeCorrelation.cxx",
             "number": 16111,
             "author": {
@@ -2269,26 +2219,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Propagate uncertainty from efficiency if required",
-            "number": 16116,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/phiStrangeCorrelation.cxx"
                   }
                 }
               ]
@@ -2494,6 +2424,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
+            "number": 15755,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-05T13:59:57Z",
+            "title": "[PWGLF] Propagate uncertainty from efficiency if required",
+            "number": 16116,
+            "author": {
+              "login": "scannito"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/phiStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGUD] add true gap service and TPC-FT0 correlations",
             "number": 16083,
             "author": {
@@ -2529,21 +2504,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Species-dependent minimum prong pt cut in skimming",
-            "number": 15755,
+            "title": "[PWGHF/HFC] Adding initial setup for correlation and event mixing at MC truth level",
+            "number": 16061,
             "author": {
-              "login": "Marcellocosti"
+              "login": "deependra170598"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDstarHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] annalysis task for the v0 pt of the charm-bulk",
+            "number": 15941,
+            "author": {
+              "login": "wuctlby"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskPtFlucCharmHadrons.cxx"
                   }
                 }
               ]
