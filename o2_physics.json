@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-30T08:31:41Z",
-            "title": "[PWGCF] change 3d histo type to float",
-            "number": 16010,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-30T08:32:15Z",
             "title": "[PWGEM/Dilepton] fix in taggingHFE.cxx",
             "number": 16035,
@@ -1673,41 +1653,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] add true gap service and TPC-FT0 correlations",
-            "number": 16083,
-            "author": {
-              "login": "Luzhiyongg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UpcService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowLongRangeCorrUpc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcTrueGapService.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-04T13:43:34Z",
             "title": "[PWGJE] Fix includes",
@@ -2475,6 +2420,76 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] add true gap service and TPC-FT0 correlations",
+            "number": 16083,
+            "author": {
+              "login": "Luzhiyongg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UpcService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowLongRangeCorrUpc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcTrueGapService.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Migrate track propagation",
+            "number": 16007,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/GloCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceV2.cxx"
                   }
                 }
               ]
