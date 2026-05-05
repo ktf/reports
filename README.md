@@ -15,7 +15,7 @@
 - [\#15296](https://github.com/AliceO2Group/AliceO2/pull/15296) 2026-04-21: CCDB: add extra metrics for amount of data requested / fetched by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
-- [\#15284](https://github.com/AliceO2Group/AliceO2/pull/15284) 2026-04-17: Tentative improvement of 3-body decay cov. matrix creation by [@shahor02](https://github.com/shahor02)
+- [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Detectors
@@ -32,6 +32,7 @@
 - [\#15299](https://github.com/AliceO2Group/AliceO2/pull/15299) 2026-04-23: AOD producer: improve MC collision labels for embedded events by [@sawenzel](https://github.com/sawenzel)
 - [\#15300](https://github.com/AliceO2Group/AliceO2/pull/15300) 2026-04-24: ITS: Implement early return for missing cluster data by [@f3sch](https://github.com/f3sch)
 - [\#15301](https://github.com/AliceO2Group/AliceO2/pull/15301) 2026-04-21: Please consider the following formatting changes to #15300 by [@alibuild](https://github.com/alibuild)
+- [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
 - [\#15308](https://github.com/AliceO2Group/AliceO2/pull/15308) 2026-04-30: TPC_CMV: Fix handling of buffered TFs, refactor tpc-cmv-distribute and create tpc-cmv-aggregate by [@tubagundem](https://github.com/tubagundem)
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
