@@ -22,7 +22,6 @@
 - [\#15137](https://github.com/AliceO2Group/AliceO2/pull/15137) 2026-04-13: TPC: Processing of common mode values in O2 by [@tubagundem](https://github.com/tubagundem)
 - [\#15188](https://github.com/AliceO2Group/AliceO2/pull/15188) 2026-04-13: ITS: staggering by [@f3sch](https://github.com/f3sch)
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
-- [\#15274](https://github.com/AliceO2Group/AliceO2/pull/15274) 2026-04-17: add CheckClusterSizeVsEta.C macro by [@altsybee](https://github.com/altsybee)
 - [\#15286](https://github.com/AliceO2Group/AliceO2/pull/15286) 2026-04-20: link to neutron point-like cross-sections needed starting from FLUKA_4.5 by [@amorsch](https://github.com/amorsch)
 - [\#15288](https://github.com/AliceO2Group/AliceO2/pull/15288) 2026-04-17: Fix typo in the TPCTimeSeriesSpec by [@shahor02](https://github.com/shahor02)
 - [\#15289](https://github.com/AliceO2Group/AliceO2/pull/15289) 2026-04-20: ITS: restore previous UPC iteration by [@f3sch](https://github.com/f3sch)
