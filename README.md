@@ -20,7 +20,6 @@
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Detectors
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
-- [\#15289](https://github.com/AliceO2Group/AliceO2/pull/15289) 2026-04-20: ITS: restore previous UPC iteration by [@f3sch](https://github.com/f3sch)
 - [\#15291](https://github.com/AliceO2Group/AliceO2/pull/15291) 2026-04-20: Modernize to std::greater<> to please code checker by [@shahor02](https://github.com/shahor02)
 - [\#15293](https://github.com/AliceO2Group/AliceO2/pull/15293) 2026-04-24: ITS: factor out CPU/GPU common code & separate Cell class by [@f3sch](https://github.com/f3sch)
 - [\#15294](https://github.com/AliceO2Group/AliceO2/pull/15294) 2026-04-21: GLO: fix missing wfx option by [@f3sch](https://github.com/f3sch)
