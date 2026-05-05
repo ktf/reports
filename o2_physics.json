@@ -4,106 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] For centrality calibration in MC",
-            "number": 16030,
-            "author": {
-              "login": "BanajitBarman"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-30T13:46:08Z",
-            "title": "[PWGJE] efficiency 3d",
-            "number": 16021,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-30T13:46:52Z",
-            "title": "[PWGJE] Increase Ds sparse hist binning",
-            "number": 16031,
-            "author": {
-              "login": "monamelop"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-30T15:33:58Z",
-            "title": "[Infrastructure] Ignore warnings for C-style VLAs",
-            "number": 16036,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-30T15:41:30Z",
-            "title": "[PWGUD] fix efficiency and cuts",
-            "number": 16001,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-01T20:41:18Z",
             "title": "[PWGLF] Updated event count histogram",
@@ -2385,41 +2285,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
-            "number": 15636,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] annalysis task for the v0 pt of the charm-bulk",
             "number": 15941,
             "author": {
@@ -2485,6 +2350,141 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/TableProducer/electronSelectionWithTpcEmcal.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-28T10:16:40Z",
+            "title": "[PWGLF,PWGMM] mftReassociationValidation.cxx : more log improvement",
+            "number": 15983,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/mftReassociationValidation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-23T08:34:34Z",
+            "title": "[PWGHF] taskFlow.cxx : add DCA cuts for MFT tracks, correct RCT flags checkers, add new process functions",
+            "number": 15922,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-10T14:39:25Z",
+            "title": "[PWGHF] taskFlow.cxx : solve issue with CorrelationContainer",
+            "number": 15279,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-14T18:46:56Z",
+            "title": "[PWGLF,PWGMM] mftReassociationValidation.cxx : add features, solve issues",
+            "number": 15402,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/mftReassociationValidation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-04T10:08:57Z",
+            "title": "[PWGLF,PWGMM] mftReassociationValidation.cxx : add features, rename some plots",
+            "number": 15640,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/mftReassociationValidation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGHF] Add reduced q vectors for Event-shape Engineering",
+            "number": 15636,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Utils/utilsFlow.h"
                   }
                 }
               ]
