@@ -58,6 +58,7 @@
 - [\#15358](https://github.com/AliceO2Group/AliceO2/pull/15358) 2026-05-05: DPL: improve catching of low memory related bugs by [@ktf](https://github.com/ktf)
 - [\#15364](https://github.com/AliceO2Group/AliceO2/pull/15364) 2026-05-05: DPL: more debug messages for the reader by [@ktf](https://github.com/ktf)
 - [\#15367](https://github.com/AliceO2Group/AliceO2/pull/15367) 2026-05-06: DPL: avoid hiding the actual issue by [@ktf](https://github.com/ktf)
+- [\#15371](https://github.com/AliceO2Group/AliceO2/pull/15371) 2026-05-06: DPL GUI: improve palette, add "light" mode by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15314](https://github.com/AliceO2Group/AliceO2/pull/15314) 2026-04-23: ITSMFT: ensure backward comptability for MC2ROF by [@f3sch](https://github.com/f3sch)
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
