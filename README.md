@@ -22,7 +22,6 @@
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15293](https://github.com/AliceO2Group/AliceO2/pull/15293) 2026-04-24: ITS: factor out CPU/GPU common code & separate Cell class by [@f3sch](https://github.com/f3sch)
 - [\#15294](https://github.com/AliceO2Group/AliceO2/pull/15294) 2026-04-21: GLO: fix missing wfx option by [@f3sch](https://github.com/f3sch)
-- [\#15295](https://github.com/AliceO2Group/AliceO2/pull/15295) 2026-04-21: ALICE3: Add VD bandwidth monitoring macro by [@mpuccio](https://github.com/mpuccio)
 - [\#15299](https://github.com/AliceO2Group/AliceO2/pull/15299) 2026-04-23: AOD producer: improve MC collision labels for embedded events by [@sawenzel](https://github.com/sawenzel)
 - [\#15300](https://github.com/AliceO2Group/AliceO2/pull/15300) 2026-04-24: ITS: Implement early return for missing cluster data by [@f3sch](https://github.com/f3sch)
 - [\#15301](https://github.com/AliceO2Group/AliceO2/pull/15301) 2026-04-21: Please consider the following formatting changes to #15300 by [@alibuild](https://github.com/alibuild)
