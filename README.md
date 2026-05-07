@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
-- [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
 - [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
@@ -30,6 +29,7 @@
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15334](https://github.com/AliceO2Group/AliceO2/pull/15334) 2026-04-27: Fix sign of the tgL in ITS seeding by [@shahor02](https://github.com/shahor02)
 - [\#15335](https://github.com/AliceO2Group/AliceO2/pull/15335) 2026-04-30: ALICE3: introduce the staggering of ROFs in the TRK by [@mpuccio](https://github.com/mpuccio)
+- [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15339](https://github.com/AliceO2Group/AliceO2/pull/15339) 2026-05-04: FT3 Tiling: Stave Geometry by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
 - [\#15341](https://github.com/AliceO2Group/AliceO2/pull/15341) 2026-04-30: ITS: update Pb-Pb vertex settings by [@f3sch](https://github.com/f3sch)
@@ -43,7 +43,6 @@
 - [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
-- [\#15230](https://github.com/AliceO2Group/AliceO2/pull/15230) 2026-04-22: DPL Analysis: remove special origins and add `From<>` version for auto-generated tables by [@aalkin](https://github.com/aalkin)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
 - [\#15306](https://github.com/AliceO2Group/AliceO2/pull/15306) 2026-04-24: DPL Analysis: add dummy output to analysis objects sink by [@aalkin](https://github.com/aalkin)
 - [\#15312](https://github.com/AliceO2Group/AliceO2/pull/15312) 2026-04-24: DPL Analysis: better detection for injected workflows by [@aalkin](https://github.com/aalkin)
