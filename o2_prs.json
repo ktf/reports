@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-22T08:09:33Z",
-            "title": "DPL: revamp / remove Endian.h",
-            "number": 15292,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TableTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FragmentToBatch.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/BigEndian.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/Endian.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/test/benchmark_BigEndian.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/test/test_BigEndian.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Increment TPCFastSpaceChargeCorrection class version",
@@ -4006,6 +3941,51 @@
                 {
                   "node": {
                     "path": "doc/data/2026-05-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Raw TF dump workflow",
+            "number": 15374,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/NameConf.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/NameConf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/tf-data-dump-workflow.cxx"
                   }
                 }
               ]
