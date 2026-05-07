@@ -7,6 +7,7 @@
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
+- [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15281](https://github.com/AliceO2Group/AliceO2/pull/15281) 2026-04-30: Add physics constants for K1(1270) by [@SuJeong-Ji](https://github.com/SuJeong-Ji)
 - [\#15349](https://github.com/AliceO2Group/AliceO2/pull/15349) 2026-05-05: Common: Allow EnumFlags on gpu by [@f3sch](https://github.com/f3sch)
@@ -14,6 +15,7 @@
 - [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
+- [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15293](https://github.com/AliceO2Group/AliceO2/pull/15293) 2026-04-24: ITS: factor out CPU/GPU common code & separate Cell class by [@f3sch](https://github.com/f3sch)
@@ -38,6 +40,8 @@
 - [\#15353](https://github.com/AliceO2Group/AliceO2/pull/15353) 2026-05-04: Option to write only ROFRecord to ITS/MFT clusters file: by [@shahor02](https://github.com/shahor02)
 - [\#15354](https://github.com/AliceO2Group/AliceO2/pull/15354) 2026-05-04: Check for streamer presence before writing the output by [@shahor02](https://github.com/shahor02)
 - [\#15355](https://github.com/AliceO2Group/AliceO2/pull/15355) 2026-05-04: Optionally postpocess histoManagers before drawing by [@shahor02](https://github.com/shahor02)
+- [\#15356](https://github.com/AliceO2Group/AliceO2/pull/15356) 2026-05-07: ITS: fix truth seeding mode by [@f3sch](https://github.com/f3sch)
+- [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 - [\#15359](https://github.com/AliceO2Group/AliceO2/pull/15359) 2026-05-05: Use currentTS+14days to define EOV of TRD DCS-DP processor objects by [@shahor02](https://github.com/shahor02)
 - [\#15365](https://github.com/AliceO2Group/AliceO2/pull/15365) 2026-05-06: FT3 Stave tiling bugfixes & readme by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
@@ -52,6 +56,7 @@
 - [\#15330](https://github.com/AliceO2Group/AliceO2/pull/15330) 2026-04-28: DPL: improve messages about missing resources by [@ktf](https://github.com/ktf)
 - [\#15333](https://github.com/AliceO2Group/AliceO2/pull/15333) 2026-04-27: DPL: boost::property_tree::json_parser::write_json no longer adds EoL by [@aalkin](https://github.com/aalkin)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
+- [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 - [\#15358](https://github.com/AliceO2Group/AliceO2/pull/15358) 2026-05-05: DPL: improve catching of low memory related bugs by [@ktf](https://github.com/ktf)
 - [\#15364](https://github.com/AliceO2Group/AliceO2/pull/15364) 2026-05-05: DPL: more debug messages for the reader by [@ktf](https://github.com/ktf)
 - [\#15367](https://github.com/AliceO2Group/AliceO2/pull/15367) 2026-05-06: DPL: avoid hiding the actual issue by [@ktf](https://github.com/ktf)
