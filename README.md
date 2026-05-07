@@ -43,6 +43,7 @@
 - [\#15356](https://github.com/AliceO2Group/AliceO2/pull/15356) 2026-05-07: ITS: fix truth seeding mode by [@f3sch](https://github.com/f3sch)
 - [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 - [\#15359](https://github.com/AliceO2Group/AliceO2/pull/15359) 2026-05-05: Use currentTS+14days to define EOV of TRD DCS-DP processor objects by [@shahor02](https://github.com/shahor02)
+- [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15365](https://github.com/AliceO2Group/AliceO2/pull/15365) 2026-05-06: FT3 Stave tiling bugfixes & readme by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Framework
