@@ -49,6 +49,7 @@
 - [\#15372](https://github.com/AliceO2Group/AliceO2/pull/15372) 2026-05-08: [ALICE3] IOTOF: Digitization for the TOF3  by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15376](https://github.com/AliceO2Group/AliceO2/pull/15376) 2026-05-08: ITSMFT: simplify setting of input filter of the decoder by [@ehellbar](https://github.com/ehellbar)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
+- [\#15384](https://github.com/AliceO2Group/AliceO2/pull/15384) 2026-05-08: move OT barrel service disks closer to stave 'edges', change rMax by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
