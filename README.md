@@ -16,6 +16,7 @@
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15340](https://github.com/AliceO2Group/AliceO2/pull/15340) 2026-04-29: [ALICE3] TF3: add proto-digitizer by [@njacazio](https://github.com/njacazio)
 - [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
+- [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
 ## Recent developments in O2 - Detectors
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15293](https://github.com/AliceO2Group/AliceO2/pull/15293) 2026-04-24: ITS: factor out CPU/GPU common code & separate Cell class by [@f3sch](https://github.com/f3sch)
