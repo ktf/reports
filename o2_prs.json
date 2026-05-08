@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: move nthreads to local option",
-            "number": 15315,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFourierTransformAggregatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-fouriertransform-aggregator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-04-23T18:42:23Z",
             "title": "ITSMFT: ensure backward comptability for MC2ROF",
@@ -3881,6 +3851,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "TPC: move nthreads to local option",
+            "number": 15315,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFourierTransformAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-fouriertransform-aggregator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -3895,12 +3895,32 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/DCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "doc/data/2026-05-o2_prs.json"
                   }
                 },
                 {
                   "node": {
                     "path": "doc/data/2026-05-o2_releases.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
                   }
                 }
               ]
