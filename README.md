@@ -46,6 +46,7 @@
 - [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15365](https://github.com/AliceO2Group/AliceO2/pull/15365) 2026-05-06: FT3 Stave tiling bugfixes & readme by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
+- [\#15372](https://github.com/AliceO2Group/AliceO2/pull/15372) 2026-05-08: [ALICE3] IOTOF: Digitization for the TOF3  by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
