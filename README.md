@@ -19,6 +19,7 @@
 - [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
 ## Recent developments in O2 - Detectors
 - [\#15268](https://github.com/AliceO2Group/AliceO2/pull/15268) 2026-04-24: ITS Beam background studies - first workflow by [@nicolovalle](https://github.com/nicolovalle)
+- [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
 - [\#15293](https://github.com/AliceO2Group/AliceO2/pull/15293) 2026-04-24: ITS: factor out CPU/GPU common code & separate Cell class by [@f3sch](https://github.com/f3sch)
 - [\#15299](https://github.com/AliceO2Group/AliceO2/pull/15299) 2026-04-23: AOD producer: improve MC collision labels for embedded events by [@sawenzel](https://github.com/sawenzel)
 - [\#15300](https://github.com/AliceO2Group/AliceO2/pull/15300) 2026-04-24: ITS: Implement early return for missing cluster data by [@f3sch](https://github.com/f3sch)
