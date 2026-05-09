@@ -10,6 +10,7 @@
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15281](https://github.com/AliceO2Group/AliceO2/pull/15281) 2026-04-30: Add physics constants for K1(1270) by [@SuJeong-Ji](https://github.com/SuJeong-Ji)
+- [\#15348](https://github.com/AliceO2Group/AliceO2/pull/15348) 2026-05-09: Common: add count trailing zeros Ctz by [@f3sch](https://github.com/f3sch)
 - [\#15349](https://github.com/AliceO2Group/AliceO2/pull/15349) 2026-05-05: Common: Allow EnumFlags on gpu by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
