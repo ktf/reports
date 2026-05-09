@@ -69,6 +69,7 @@
 - [\#15371](https://github.com/AliceO2Group/AliceO2/pull/15371) 2026-05-06: DPL GUI: improve palette, add "light" mode by [@ktf](https://github.com/ktf)
 - [\#15378](https://github.com/AliceO2Group/AliceO2/pull/15378) 2026-05-07: DPL: allow for larger state information to be sent around by [@ktf](https://github.com/ktf)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
+- [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
 - [\#15335](https://github.com/AliceO2Group/AliceO2/pull/15335) 2026-04-30: ALICE3: introduce the staggering of ROFs in the TRK by [@mpuccio](https://github.com/mpuccio)
