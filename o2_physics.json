@@ -4,101 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF/HFC] Adding initial setup for correlation and event mixing at MC truth level",
-            "number": 16061,
-            "author": {
-              "login": "deependra170598"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDstarHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-05T14:41:51Z",
-            "title": "[PWGEM/Dilepton] reduce ML data in taggingHFE.cxx",
-            "number": 16113,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-05T16:18:08Z",
-            "title": "[PWGCF] FemtoUniverse -- Add extra histograms for K0S and Lambda.",
-            "number": 16117,
-            "author": {
-              "login": "a-m-andrushko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Helicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-05T16:18:42Z",
-            "title": "[PWGLF] Add histos of inv mass for true cascades",
-            "number": 16119,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-05T13:34:26Z",
             "title": "[PWGHF] HFInvMassFitter enhancement",
@@ -2383,41 +2288,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-09T16:57:08Z",
-            "title": "[PWGHF] Extending derived data for D+-h correl",
-            "number": 16176,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadronsReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] added Lambda1520 for simulation",
@@ -2575,6 +2445,136 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/phianalysisrun3pbpb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-09T16:57:08Z",
+            "title": "[PWGHF] Extending derived data for D+-h correl",
+            "number": 16176,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/DerivedDataCorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadronsReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-14T15:25:58Z",
+            "title": "[PWGHF] enabling MC checks on Lc-h correl",
+            "number": 15767,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorLcScHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationLcHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2025-11-14T18:37:31Z",
+            "title": "[PWGHF] Remove unneeded file",
+            "number": 13838,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/.taskCorrelationLcHadrons.cxx.swp"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-03-27T17:43:07Z",
+            "title": "[PWGHF] Add forceTOF option in CharmReso bach selections",
+            "number": 15521,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Core/DataCreationCharmReso.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Hist missing declaration in DpH correlator",
+            "number": 16182,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
                   }
                 }
               ]
