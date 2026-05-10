@@ -50,6 +50,7 @@
 - [\#15365](https://github.com/AliceO2Group/AliceO2/pull/15365) 2026-05-06: FT3 Stave tiling bugfixes & readme by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
 - [\#15372](https://github.com/AliceO2Group/AliceO2/pull/15372) 2026-05-08: [ALICE3] IOTOF: Digitization for the TOF3  by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
+- [\#15373](https://github.com/AliceO2Group/AliceO2/pull/15373) 2026-05-10: Vertexing: make material correction configurable by [@mpuccio](https://github.com/mpuccio)
 - [\#15376](https://github.com/AliceO2Group/AliceO2/pull/15376) 2026-05-08: ITSMFT: simplify setting of input filter of the decoder by [@ehellbar](https://github.com/ehellbar)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
 - [\#15384](https://github.com/AliceO2Group/AliceO2/pull/15384) 2026-05-08: move OT barrel service disks closer to stave 'edges', change rMax by [@altsybee](https://github.com/altsybee)
