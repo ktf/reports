@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-24T13:33:28Z",
-            "title": "Fixes in processCosmics, allow pipelining",
-            "number": 15317,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCRefitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-refitter-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-24T13:56:26Z",
             "title": "DPL Analysis: put back AMD origin for the metadata message",
             "number": 15322,
@@ -4021,6 +3996,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "update of TRK and FT3 services, to better match with Corrado's scheme",
+            "number": 15392,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/base/include/FT3Base/FT3BaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
                   }
                 }
               ]

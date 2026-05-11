@@ -24,7 +24,6 @@
 - [\#15299](https://github.com/AliceO2Group/AliceO2/pull/15299) 2026-04-23: AOD producer: improve MC collision labels for embedded events by [@sawenzel](https://github.com/sawenzel)
 - [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
 - [\#15308](https://github.com/AliceO2Group/AliceO2/pull/15308) 2026-04-30: TPC_CMV: Fix handling of buffered TFs, refactor tpc-cmv-distribute and create tpc-cmv-aggregate by [@tubagundem](https://github.com/tubagundem)
-- [\#15317](https://github.com/AliceO2Group/AliceO2/pull/15317) 2026-04-24: Fixes in processCosmics, allow pipelining by [@shahor02](https://github.com/shahor02)
 - [\#15327](https://github.com/AliceO2Group/AliceO2/pull/15327) 2026-04-29: ITS: fix rare valid lookup at the edge of acceptance by [@f3sch](https://github.com/f3sch)
 - [\#15328](https://github.com/AliceO2Group/AliceO2/pull/15328) 2026-04-27: ITS: fix ITSTrackROF outpu by [@f3sch](https://github.com/f3sch)
 - [\#15331](https://github.com/AliceO2Group/AliceO2/pull/15331) 2026-04-28: [MCH] filter trackable ROFs before clustering by [@pillot](https://github.com/pillot)
