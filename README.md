@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
-- [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
@@ -60,7 +59,6 @@
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
-- [\#15322](https://github.com/AliceO2Group/AliceO2/pull/15322) 2026-04-24: DPL Analysis: put back AMD origin for the metadata message by [@aalkin](https://github.com/aalkin)
 - [\#15325](https://github.com/AliceO2Group/AliceO2/pull/15325) 2026-04-24: Revert "DPL Analysis: put back AMD origin for the metadata message" by [@ktf](https://github.com/ktf)
 - [\#15326](https://github.com/AliceO2Group/AliceO2/pull/15326) 2026-04-24: DPL Analysis: fix metadata writing by [@aalkin](https://github.com/aalkin)
 - [\#15330](https://github.com/AliceO2Group/AliceO2/pull/15330) 2026-04-28: DPL: improve messages about missing resources by [@ktf](https://github.com/ktf)

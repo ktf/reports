@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-04-24T13:56:26Z",
-            "title": "DPL Analysis: put back AMD origin for the metadata message",
-            "number": 15322,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-04-24T21:08:58Z",
             "title": "Revert \"DPL Analysis: put back AMD origin for the metadata message\"",
             "number": 15325,
@@ -3611,36 +3591,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix OOB access in case the ROF bin has no tracks",
-            "number": 15345,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering)",
             "number": 15351,
             "author": {
@@ -4021,6 +3971,66 @@
                 {
                   "node": {
                     "path": ".clang-tidy"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix OOB access in case the ROF bin has no tracks",
+            "number": 15345,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger",
+            "number": 15393,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFLPCMVSpec.h"
                   }
                 }
               ]
