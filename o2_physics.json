@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-07T20:59:05Z",
-            "title": "[PWGEM/Dilepton] update taggingHFE to include D*",
-            "number": 16155,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-07T21:25:36Z",
-            "title": "[PWGEM/Dilepton] update skimmerPrimaryEelctronQC.cxx for flexible cut to tag",
-            "number": 16152,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-07T21:28:34Z",
             "title": "[PWGEM/Dilepton] fix after #16155",
             "number": 16156,
@@ -1848,26 +1803,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] use reconstructed eventType in cascade analysis",
-            "number": 16208,
-            "author": {
-              "login": "nepeivodaRS"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-11T22:53:22Z",
             "title": "[PWGLF] Add a configurable to turn on and off INELGt0 condition",
@@ -2320,51 +2255,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Bug Fix in hStrangeCorrelation.cxx",
-            "number": 16218,
-            "author": {
-              "login": "kcui1"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] small fixes",
-            "number": 16217,
-            "author": {
-              "login": "Oussama3030"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSigmaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[DPG] tpcSkimsTableCreator: add RCT check, minor refactory",
             "number": 16196,
             "author": {
@@ -2465,6 +2355,126 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Strangeness/sigmaHadCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-12T13:55:35Z",
+            "title": "[PWGLF] small fixes",
+            "number": 16217,
+            "author": {
+              "login": "Oussama3030"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSigmaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-12T14:34:30Z",
+            "title": "[PWGLF] Bug Fix in hStrangeCorrelation.cxx",
+            "number": 16218,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix event selection in MC table for spin correlation and add new process function for high mass resonance ananlysis",
+            "number": 16220,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] RCTflag fix + addition to flowMC",
+            "number": 16221,
+            "author": {
+              "login": "vojmach"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowMc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-12T14:52:34Z",
+            "title": "[PWGLF] use reconstructed eventType in cascade analysis",
+            "number": 16208,
+            "author": {
+              "login": "nepeivodaRS"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
                   }
                 }
               ]
