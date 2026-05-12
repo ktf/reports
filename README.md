@@ -56,6 +56,7 @@
 - [\#15382](https://github.com/AliceO2Group/AliceO2/pull/15382) 2026-05-11: [ALICE 3] Changed chip size and module number for TRK barrel + updated TRK documentation + included low services around beam pipe by [@scannito](https://github.com/scannito)
 - [\#15384](https://github.com/AliceO2Group/AliceO2/pull/15384) 2026-05-08: move OT barrel service disks closer to stave 'edges', change rMax by [@altsybee](https://github.com/altsybee)
 - [\#15389](https://github.com/AliceO2Group/AliceO2/pull/15389) 2026-05-11: Fix nLayers calculation for MFT detector by [@f3sch](https://github.com/f3sch)
+- [\#15392](https://github.com/AliceO2Group/AliceO2/pull/15392) 2026-05-12: update of TRK and FT3 services, to better match with Corrado's scheme by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
