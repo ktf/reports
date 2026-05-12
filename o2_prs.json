@@ -3916,31 +3916,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add actual handling of --aod-origin-level-mapping",
-            "number": 15396,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "adjustments for z and r of services, split OT barrel into two halves",
             "number": 15395,
             "author": {
@@ -4016,6 +3991,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix OOB access in case the ROF bin has no tracks",
+            "number": 15345,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: streamline option building",
             "number": 15320,
             "author": {
@@ -4041,8 +4046,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix OOB access in case the ROF bin has no tracks",
-            "number": 15345,
+            "title": "DPL: add actual handling of --aod-origin-level-mapping",
+            "number": 15396,
             "author": {
               "login": "ktf"
             },
@@ -4050,17 +4055,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "CMakeLists.txt"
+                    "path": "Framework/Core/src/Plugin.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
