@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-07T11:59:53Z",
-            "title": "[PWGCF] Fix MC processing, remove tmp histograms from registry",
-            "number": 16106,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-07T13:08:44Z",
-            "title": "[PWGHF] Fix a bug for kaon pid in charm femto track task",
-            "number": 16147,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/producerCharmHadronsTrackFemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-07T13:28:37Z",
             "title": "[PWGHF] Decouple SP and EsE process functions",
             "number": 16143,
@@ -631,41 +591,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/tableReaderBarrel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] Fix includes",
-            "number": 16087,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLite.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLite.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLiteProducer.cxx"
                   }
                 }
               ]
@@ -1998,36 +1923,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add efficiency weight method",
-            "number": 16203,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-11T17:23:47Z",
             "title": "[ALICE3,PWGCF] replace -1 with 1 in getForTimeStamp",
@@ -2405,16 +2300,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] jEPFlowAnalysis.cxx: define a new configurable axis of pseudorapidity and add one more dimension to the scalar product histograms",
-            "number": 16187,
+            "title": "[PWGLF] [PWG:LF] To remove the unused function and add the KShot selection",
+            "number": 16211,
             "author": {
-              "login": "jikim1290"
+              "login": "navneetkumar231295"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
                   }
                 }
               ]
@@ -2468,18 +2363,123 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] [PWG:LF] To remove the unused function and add the KShot selection",
-            "number": 16211,
+            "state": "MERGED",
+            "mergedAt": "2026-03-18T13:21:14Z",
+            "title": "[PWGDQ] Changed MyEvents to MyEventsBasic in PrefilterSelection task",
+            "number": 15437,
             "author": {
-              "login": "navneetkumar231295"
+              "login": "axti98"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] jEPFlowAnalysis.cxx: define a new configurable axis of pseudorapidity and add one more dimension to the scalar product histograms",
+            "number": 16187,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Fix includes",
+            "number": 16087,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLite.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLite.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLiteProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-12T11:41:33Z",
+            "title": "[PWGDQ] add efficiency weight method",
+            "number": 16203,
+            "author": {
+              "login": "zjxiongOvO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-12T11:42:14Z",
+            "title": "[PWGEM,PWGEM-36] PM/taskFlowReso: Add auto correlation histograms",
+            "number": 16213,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskFlowReso.cxx"
                   }
                 }
               ]
