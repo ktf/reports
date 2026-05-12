@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-07T21:28:34Z",
-            "title": "[PWGEM/Dilepton] fix after #16155",
-            "number": 16156,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-07T20:36:33Z",
-            "title": "[Common] Decouple EsE and EP Q vector correction",
-            "number": 16148,
-            "author": {
-              "login": "stefanopolitano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-07T05:59:12Z",
             "title": "[PWGCF] Add plots for Q-vector check",
             "number": 16137,
@@ -1689,61 +1649,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-11T17:23:47Z",
-            "title": "[ALICE3,PWGCF] replace -1 with 1 in getForTimeStamp",
-            "number": 16204,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/FastTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-centrality.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/meanPtFlucId.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/Lambdacascadecorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-11T17:51:35Z",
             "title": "[PWGEM/Dilepton] improve CCDB access in smearing.cxx",
             "number": 16205,
@@ -2283,26 +2188,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add custom nsigma calculations for helium-3",
-            "number": 16219,
-            "author": {
-              "login": "chiarapinto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-12T13:21:08Z",
             "title": "[PWGCF] jEPFlowAnalysis.cxx: define a new configurable axis of pseudorapidity and add one more dimension to the scalar product histograms",
@@ -2408,28 +2293,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix event selection in MC table for spin correlation and add new process function for high mass resonance ananlysis",
-            "number": 16220,
+            "state": "MERGED",
+            "mergedAt": "2026-05-12T14:52:34Z",
+            "title": "[PWGLF] use reconstructed eventType in cascade analysis",
+            "number": 16208,
             "author": {
-              "login": "skundu692"
+              "login": "nepeivodaRS"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                    "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
                   }
                 }
               ]
@@ -2464,17 +2339,142 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-12T14:52:34Z",
-            "title": "[PWGLF] use reconstructed eventType in cascade analysis",
-            "number": 16208,
+            "mergedAt": "2026-05-12T15:02:35Z",
+            "title": "[PWGLF] Add custom nsigma calculations for helium-3",
+            "number": 16219,
             "author": {
-              "login": "nepeivodaRS"
+              "login": "chiarapinto"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-11T17:23:47Z",
+            "title": "[ALICE3,PWGCF] replace -1 with 1 in getForTimeStamp",
+            "number": 16204,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/FastTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-centrality.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/eventMeanPtId.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/meanPtFlucId.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/Lambdacascadecorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix event selection in MC table for spin correlation and add new process function for high mass resonance ananlysis",
+            "number": 16220,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Update Flow Event Plane Changed the rapidity axis in Lambda",
+            "number": 16223,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse -- Improve K0Short histogramming.",
+            "number": 16222,
+            "author": {
+              "login": "a-m-andrushko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Helicity.cxx"
                   }
                 }
               ]
