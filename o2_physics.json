@@ -1773,36 +1773,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] tpcSkimsTableCreator: add RCT check, minor refactory",
-            "number": 16196,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-12T13:21:08Z",
             "title": "[PWGCF] jEPFlowAnalysis.cxx: define a new configurable axis of pseudorapidity and add one more dimension to the scalar product histograms",
@@ -1920,31 +1890,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] RCTflag fix + addition to flowMC",
-            "number": 16221,
-            "author": {
-              "login": "vojmach"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowMc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
                   }
                 }
               ]
@@ -2143,36 +2088,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Refactor OTF tracker",
-            "number": 16209,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/tracksAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-12T16:39:05Z",
             "title": "[Trigger,PWGHF] Add Xic ct QA histogram to HFFilter task",
@@ -2330,86 +2245,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Net charge fluctuations3",
-            "number": 16229,
-            "author": {
-              "login": "pravatp98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/nchCumulantsId.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] added THn for QA of electrons from Z",
-            "number": 16231,
-            "author": {
-              "login": "sashingo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] remove unnecessary N",
-            "number": 16232,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix bug in v0 loop for MC",
-            "number": 16233,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] extend the input features in MLResponse class",
             "number": 16228,
             "author": {
@@ -2465,6 +2300,171 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-13T11:05:54Z",
+            "title": "[Common] remove unnecessary N",
+            "number": 16232,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/RecoDecay.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-13T11:22:47Z",
+            "title": "[PWGLF] Fix bug in v0 loop for MC",
+            "number": 16233,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-13T11:32:00Z",
+            "title": "[PWGCF] RCTflag fix + addition to flowMC",
+            "number": 16221,
+            "author": {
+              "login": "vojmach"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowMc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] added THn for QA of electrons from Z",
+            "number": 16231,
+            "author": {
+              "login": "sashingo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Refactor OTF tracker",
+            "number": 16209,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/tracksAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] tpcSkimsTableCreator: add RCT check, minor refactory",
+            "number": 16196,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Net charge fluctuations3",
+            "number": 16229,
+            "author": {
+              "login": "pravatp98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/nchCumulantsId.cxx"
                   }
                 }
               ]
