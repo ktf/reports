@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-08T15:06:10Z",
-            "title": "[PWGCF] removed obsolete variables and adjusted binning for 3d zdc and centra…",
-            "number": 16136,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-08T15:06:40Z",
-            "title": "[PWGCF] Added RCTevent selection, and track counter configurable",
-            "number": 16149,
-            "author": {
-              "login": "Thorkj"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/corrFit.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] Fix MFT pseudorapidity cut + add configurables",
@@ -2391,6 +2351,56 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Utils/SemiCharmTag.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add EsE q-vectors to q-vector calibration task",
+            "number": 16244,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Feat/antin cex task update",
+            "number": 16243,
+            "author": {
+              "login": "FabiolaLP"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFAntinCexTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/nucleiAntineutronCex.cxx"
                   }
                 }
               ]
