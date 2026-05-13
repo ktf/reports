@@ -34,6 +34,7 @@
 - [\#15341](https://github.com/AliceO2Group/AliceO2/pull/15341) 2026-04-30: ITS: update Pb-Pb vertex settings by [@f3sch](https://github.com/f3sch)
 - [\#15346](https://github.com/AliceO2Group/AliceO2/pull/15346) 2026-05-01: Optionally produce HistoManager file and pdf report + lot of fixes. by [@shahor02](https://github.com/shahor02)
 - [\#15347](https://github.com/AliceO2Group/AliceO2/pull/15347) 2026-05-02: ITS: smaller fixes by [@f3sch](https://github.com/f3sch)
+- [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
 - [\#15353](https://github.com/AliceO2Group/AliceO2/pull/15353) 2026-05-04: Option to write only ROFRecord to ITS/MFT clusters file: by [@shahor02](https://github.com/shahor02)
 - [\#15354](https://github.com/AliceO2Group/AliceO2/pull/15354) 2026-05-04: Check for streamer presence before writing the output by [@shahor02](https://github.com/shahor02)
 - [\#15355](https://github.com/AliceO2Group/AliceO2/pull/15355) 2026-05-04: Optionally postpocess histoManagers before drawing by [@shahor02](https://github.com/shahor02)
@@ -55,6 +56,7 @@
 - [\#15389](https://github.com/AliceO2Group/AliceO2/pull/15389) 2026-05-11: Fix nLayers calculation for MFT detector by [@f3sch](https://github.com/f3sch)
 - [\#15392](https://github.com/AliceO2Group/AliceO2/pull/15392) 2026-05-12: update of TRK and FT3 services, to better match with Corrado's scheme by [@altsybee](https://github.com/altsybee)
 - [\#15393](https://github.com/AliceO2Group/AliceO2/pull/15393) 2026-05-13: Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger by [@shahor02](https://github.com/shahor02)
+- [\#15395](https://github.com/AliceO2Group/AliceO2/pull/15395) 2026-05-13: [ALICE3] TRK: adjustments for z and r of services, split OT barrel into two halves by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
