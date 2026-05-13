@@ -58,6 +58,7 @@
 - [\#15393](https://github.com/AliceO2Group/AliceO2/pull/15393) 2026-05-13: Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger by [@shahor02](https://github.com/shahor02)
 - [\#15394](https://github.com/AliceO2Group/AliceO2/pull/15394) 2026-05-13: Fixes for ITS/MFT decoding ensureContinuousROF effects. by [@shahor02](https://github.com/shahor02)
 - [\#15395](https://github.com/AliceO2Group/AliceO2/pull/15395) 2026-05-13: [ALICE3] TRK: adjustments for z and r of services, split OT barrel into two halves by [@altsybee](https://github.com/altsybee)
+- [\#15397](https://github.com/AliceO2Group/AliceO2/pull/15397) 2026-05-13: [ALICE 3] Fix sensitive volumes definition for FT3  by [@scannito](https://github.com/scannito)
 ## Recent developments in O2 - Framework
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
