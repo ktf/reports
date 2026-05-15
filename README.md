@@ -54,6 +54,7 @@
 - [\#15382](https://github.com/AliceO2Group/AliceO2/pull/15382) 2026-05-11: [ALICE 3] Changed chip size and module number for TRK barrel + updated TRK documentation + included low services around beam pipe by [@scannito](https://github.com/scannito)
 - [\#15384](https://github.com/AliceO2Group/AliceO2/pull/15384) 2026-05-08: move OT barrel service disks closer to stave 'edges', change rMax by [@altsybee](https://github.com/altsybee)
 - [\#15389](https://github.com/AliceO2Group/AliceO2/pull/15389) 2026-05-11: Fix nLayers calculation for MFT detector by [@f3sch](https://github.com/f3sch)
+- [\#15390](https://github.com/AliceO2Group/AliceO2/pull/15390) 2026-05-15: ITS: allow to reconstruct incomplete track topologies by [@f3sch](https://github.com/f3sch)
 - [\#15392](https://github.com/AliceO2Group/AliceO2/pull/15392) 2026-05-12: update of TRK and FT3 services, to better match with Corrado's scheme by [@altsybee](https://github.com/altsybee)
 - [\#15393](https://github.com/AliceO2Group/AliceO2/pull/15393) 2026-05-13: Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger by [@shahor02](https://github.com/shahor02)
 - [\#15394](https://github.com/AliceO2Group/AliceO2/pull/15394) 2026-05-13: Fixes for ITS/MFT decoding ensureContinuousROF effects. by [@shahor02](https://github.com/shahor02)
