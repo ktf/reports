@@ -63,7 +63,6 @@
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
 - [\#15330](https://github.com/AliceO2Group/AliceO2/pull/15330) 2026-04-28: DPL: improve messages about missing resources by [@ktf](https://github.com/ktf)
-- [\#15333](https://github.com/AliceO2Group/AliceO2/pull/15333) 2026-04-27: DPL: boost::property_tree::json_parser::write_json no longer adds EoL by [@aalkin](https://github.com/aalkin)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 - [\#15358](https://github.com/AliceO2Group/AliceO2/pull/15358) 2026-05-05: DPL: improve catching of low memory related bugs by [@ktf](https://github.com/ktf)

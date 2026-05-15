@@ -6,26 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Update to `jetD0AngSubstructure.cxx` to include Monte Carlo calculations.",
-            "number": 16002,
-            "author": {
-              "login": "Lolle2001"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetD0AngSubstructure.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Added anti-particles",
             "number": 16188,
             "author": {
@@ -1519,31 +1499,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add EsE q-vectors to q-vector calibration task",
-            "number": 16244,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qVectorsCorrection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-13T20:25:12Z",
             "title": "[PWGEM/Dilepton] add v0,cascade type in taggingHFE",
@@ -2194,36 +2149,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-15T12:32:30Z",
-            "title": "[DPG] tpcSkimsTableCreator: add RCT check, minor refactory",
-            "number": 16196,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] taskSingleElectron: Fix names and descriptions of configurables",
@@ -2236,31 +2161,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] major_update_producer",
-            "number": 16257,
-            "author": {
-              "login": "rliotino99"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
                   }
                 }
               ]
@@ -2366,6 +2266,106 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add EsE q-vectors to q-vector calibration task",
+            "number": 16244,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] fix linter warnings, add further QA",
+            "number": 16264,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudypp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-15T12:32:30Z",
+            "title": "[DPG] tpcSkimsTableCreator: add RCT check, minor refactory",
+            "number": 16196,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] major_update_producer",
+            "number": 16257,
+            "author": {
+              "login": "rliotino99"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
                   }
                 }
               ]
