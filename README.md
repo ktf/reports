@@ -24,7 +24,6 @@
 - [\#15327](https://github.com/AliceO2Group/AliceO2/pull/15327) 2026-04-29: ITS: fix rare valid lookup at the edge of acceptance by [@f3sch](https://github.com/f3sch)
 - [\#15331](https://github.com/AliceO2Group/AliceO2/pull/15331) 2026-04-28: [MCH] filter trackable ROFs before clustering by [@pillot](https://github.com/pillot)
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
-- [\#15334](https://github.com/AliceO2Group/AliceO2/pull/15334) 2026-04-27: Fix sign of the tgL in ITS seeding by [@shahor02](https://github.com/shahor02)
 - [\#15335](https://github.com/AliceO2Group/AliceO2/pull/15335) 2026-04-30: ALICE3: introduce the staggering of ROFs in the TRK by [@mpuccio](https://github.com/mpuccio)
 - [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15339](https://github.com/AliceO2Group/AliceO2/pull/15339) 2026-05-04: FT3 Tiling: Stave Geometry by [@JustusRudolph](https://github.com/JustusRudolph)
