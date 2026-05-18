@@ -4,6 +4,7 @@
 - [\#15163](https://github.com/AliceO2Group/AliceO2/pull/15163) 2026-04-30: DPL: allow determining the origin from user provide input by [@ktf](https://github.com/ktf)
 - [\#15336](https://github.com/AliceO2Group/AliceO2/pull/15336) 2026-04-29: DPL Analysis: fix analysis CCDB fetcher still using origin by [@aalkin](https://github.com/aalkin)
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
+- [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15281](https://github.com/AliceO2Group/AliceO2/pull/15281) 2026-04-30: Add physics constants for K1(1270) by [@SuJeong-Ji](https://github.com/SuJeong-Ji)
 - [\#15348](https://github.com/AliceO2Group/AliceO2/pull/15348) 2026-05-09: Common: add count trailing zeros Ctz by [@f3sch](https://github.com/f3sch)
@@ -75,6 +76,7 @@
 - [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
 - [\#15385](https://github.com/AliceO2Group/AliceO2/pull/15385) 2026-05-11: DPL: allDone should really be atomic by [@ktf](https://github.com/ktf)
+- [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15396](https://github.com/AliceO2Group/AliceO2/pull/15396) 2026-05-13: DPL: add actual handling of --aod-origin-level-mapping by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15332](https://github.com/AliceO2Group/AliceO2/pull/15332) 2026-04-28: CollisionContextTool: Ability to use o2::ft0::EventsPerBC calib object by [@sawenzel](https://github.com/sawenzel)
