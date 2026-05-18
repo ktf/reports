@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-12T11:41:33Z",
-            "title": "[PWGDQ] add efficiency weight method",
-            "number": 16203,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-10T22:44:55Z",
-            "title": "[PWGJE] Dev bugf",
-            "number": 16186,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-12T11:42:14Z",
             "title": "[PWGEM,PWGEM-36] PM/taskFlowReso: Add auto correlation histograms",
             "number": 16213,
@@ -984,31 +934,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Adding file jetHadronsPID.cxx and it's workflow",
-            "number": 16012,
-            "author": {
-              "login": "llorenc-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Feat/antin cex task update",
@@ -1301,31 +1226,6 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] major_update_producer",
-            "number": 16257,
-            "author": {
-              "login": "rliotino99"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
                   }
                 }
               ]
@@ -2278,26 +2178,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Jet reconstruction with V0s + MC models process function + Event loss, splitting",
-            "number": 16284,
-            "author": {
-              "login": "lorber98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-18T10:31:17Z",
             "title": "[PWGLF] Changed ptmultCorr track selections to align with piKpRAA track selections",
@@ -2310,6 +2190,141 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/GlobalEventProperties/ptmultCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding file jetHadronsPID.cxx and it's workflow",
+            "number": 16012,
+            "author": {
+              "login": "llorenc-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] add production time to daughters in otf-decayer",
+            "number": 16286,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/Decayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/OTFParticle.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-18T10:53:06Z",
+            "title": "[DPG] major_update_producer",
+            "number": 16257,
+            "author": {
+              "login": "rliotino99"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] TrackerPID improved plotting and LUT handling",
+            "number": 16287,
+            "author": {
+              "login": "hfribert"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTrackerPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-18T11:24:32Z",
+            "title": "[PWGLF] Jet reconstruction with V0s + MC models process function + Event loss, splitting",
+            "number": 16284,
+            "author": {
+              "login": "lorber98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
                   }
                 }
               ]
