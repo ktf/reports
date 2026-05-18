@@ -574,31 +574,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add jpsiKineDcaQualitynoPID2 cut and Change binning",
-            "number": 16003,
-            "author": {
-              "login": "LucasFerrandi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-13T07:51:44Z",
             "title": "[Common] add cpaRZ in RecoDecay.h",
@@ -1274,31 +1249,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add new task: PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents",
-            "number": 16128,
-            "author": {
-              "login": "Cristian-Moscatelli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-14T15:35:53Z",
             "title": "[PWGLF] added configurables for its pid and tpc corrections for he3 and pid in tracking. Removed pool processes",
@@ -1401,26 +1351,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add track-to-collision association in dalitzSelection.cxx",
-            "number": 16259,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
                   }
                 }
               ]
@@ -1893,26 +1823,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Changed ptmultCorr track selections to align with piKpRAA track selections",
-            "number": 16260,
-            "author": {
-              "login": "akyadav1963"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/ptmultCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-16T16:21:29Z",
             "title": "[Common] Add extra debug printouts for QA",
@@ -1975,41 +1885,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/mcParticle.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add e-mu pairing with MC matching to dqEfficiency_withAssoc",
-            "number": 16276,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
                   }
                 }
               ]
@@ -2183,6 +2058,126 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-17T16:50:28Z",
+            "title": "[PWGLF] Added new PID method for kaon identification",
+            "number": 16274,
+            "author": {
+              "login": "sawankumawat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.4.0 to 9.5.0",
+            "number": 16280,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-18T06:17:24Z",
+            "title": "[Common] Fix MFT pseudorapidity cut + add configurables",
+            "number": 14943,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-18T07:04:07Z",
+            "title": "[PWGEM] add MC histograms",
+            "number": 16281,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add track-to-collision association in dalitzSelection.cxx",
+            "number": 16259,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Changed ptmultCorr track selections to align with piKpRAA track selections",
+            "number": 16260,
+            "author": {
+              "login": "akyadav1963"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/ptmultCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Omegahm: data for deco",
@@ -2208,18 +2203,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-17T16:50:28Z",
-            "title": "[PWGLF] Added new PID method for kaon identification",
-            "number": 16274,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add jpsiKineDcaQualitynoPID2 cut and Change binning",
+            "number": 16003,
             "author": {
-              "login": "sawankumawat"
+              "login": "LucasFerrandi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
                 }
               ]
@@ -2260,36 +2260,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.4.0 to 9.5.0",
-            "number": 16280,
+            "title": "[PWGLF] Add new task: PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents",
+            "number": 16128,
             "author": {
-              "login": "dependabot"
+              "login": "Cristian-Moscatelli"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": ".github/workflows/mega-linter.yml"
+                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] add MC histograms",
-            "number": 16281,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
                   }
                 }
               ]
@@ -2299,17 +2284,32 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-18T06:17:24Z",
-            "title": "[Common] Fix MFT pseudorapidity cut + add configurables",
-            "number": 14943,
+            "mergedAt": "2026-05-18T07:35:40Z",
+            "title": "[PWGDQ] Add e-mu pairing with MC matching to dqEfficiency_withAssoc",
+            "number": 16276,
             "author": {
-              "login": "romainschotter"
+              "login": "Shunsuke-Kurita"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
                   }
                 }
               ]
