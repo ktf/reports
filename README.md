@@ -51,6 +51,7 @@
 - [\#15403](https://github.com/AliceO2Group/AliceO2/pull/15403) 2026-05-15: Configure TPCFLPCMVSpec output accorging to the triggerPerFlp flag by [@shahor02](https://github.com/shahor02)
 - [\#15404](https://github.com/AliceO2Group/AliceO2/pull/15404) 2026-05-15: Disable ensureContinuousROF when calibration data is requested by [@shahor02](https://github.com/shahor02)
 - [\#15405](https://github.com/AliceO2Group/AliceO2/pull/15405) 2026-05-17: Repair raw tf part counters / headers by [@shahor02](https://github.com/shahor02)
+- [\#15410](https://github.com/AliceO2Group/AliceO2/pull/15410) 2026-05-19: [MFT] Fixing number of links per RU/zone in mapping by [@mcoquet642](https://github.com/mcoquet642)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
