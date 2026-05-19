@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-15T07:26:54Z",
-            "title": "[PWGLF] MC Centralty: allow to turn on and off FT0M",
-            "number": 16236,
-            "author": {
-              "login": "BanajitBarman"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-14T15:35:53Z",
-            "title": "[PWGLF] added configurables for its pid and tpc corrections for he3 and pid in tracking. Removed pool processes",
-            "number": 16252,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-15T08:33:24Z",
             "title": "[ALICE3] Refactor OTF tracker",
             "number": 16209,
@@ -2258,8 +2218,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-05-19T17:25:47Z",
+            "title": "[PWGLF] Fix bug",
+            "number": 16309,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-19T18:05:01Z",
             "title": "[PWGLF] Add process function for data in minimum bias events",
             "number": 16310,
             "author": {
@@ -2278,18 +2258,48 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-19T17:25:47Z",
-            "title": "[PWGLF] Fix bug",
-            "number": 16309,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] cascades in pp: generated border cuts and PDG QA",
+            "number": 16311,
             "author": {
-              "login": "romainschotter"
+              "login": "nepeivodaRS"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
+                    "path": "PWGLF/DataModel/cascqaanalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascqaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascpostprocessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse Cascade Task -- added track-track efficiency",
+            "number": 16312,
+            "author": {
+              "login": "Eloviyo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
                   }
                 }
               ]
