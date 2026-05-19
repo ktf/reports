@@ -5,7 +5,6 @@
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#15281](https://github.com/AliceO2Group/AliceO2/pull/15281) 2026-04-30: Add physics constants for K1(1270) by [@SuJeong-Ji](https://github.com/SuJeong-Ji)
 - [\#15348](https://github.com/AliceO2Group/AliceO2/pull/15348) 2026-05-09: Common: add count trailing zeros Ctz by [@f3sch](https://github.com/f3sch)
 - [\#15349](https://github.com/AliceO2Group/AliceO2/pull/15349) 2026-05-05: Common: Allow EnumFlags on gpu by [@f3sch](https://github.com/f3sch)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
