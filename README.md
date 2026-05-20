@@ -16,7 +16,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
 - [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
-- [\#15308](https://github.com/AliceO2Group/AliceO2/pull/15308) 2026-04-30: TPC_CMV: Fix handling of buffered TFs, refactor tpc-cmv-distribute and create tpc-cmv-aggregate by [@tubagundem](https://github.com/tubagundem)
 - [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15339](https://github.com/AliceO2Group/AliceO2/pull/15339) 2026-05-04: FT3 Tiling: Stave Geometry by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
