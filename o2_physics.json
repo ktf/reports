@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-15T19:58:02Z",
-            "title": "[Common] Add EsE q-vectors to q-vector calibration task",
-            "number": 16244,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Qvectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qVectorsCorrection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] change centrality estimator in 3d histo to FT0C",
-            "number": 16266,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-15T20:23:49Z",
-            "title": "[Common] fix linter warnings, add further QA",
-            "number": 16264,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudypp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-16T08:05:52Z",
             "title": "[PWGCF] change pion selection",
             "number": 16267,
@@ -1549,26 +1484,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-18T20:27:33Z",
-            "title": "[PWGDQ] add code to emulate a shift of the dipole",
-            "number": 16294,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-19T04:51:28Z",
             "title": "[Common] Do not add configurables when not needed.",
             "number": 16298,
@@ -1948,46 +1863,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-19T22:13:23Z",
-            "title": "[PWGDQ] extend the input features in MLResponse class",
-            "number": 16228,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MuonMatchingMlResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Feat/antin cex hist update",
@@ -2280,6 +2155,126 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/higherMassResonances.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-19T22:13:23Z",
+            "title": "[PWGDQ] extend the input features in MLResponse class",
+            "number": 16228,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MuonMatchingMlResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-18T20:27:33Z",
+            "title": "[PWGDQ] add code to emulate a shift of the dipole",
+            "number": 16294,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/PhotonMeson] include of check for gamma gamma contamination in Dalitz decays",
+            "number": 16318,
+            "author": {
+              "login": "lgansbartl"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGammaMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Update histograms in otf decayer QA task",
+            "number": 16319,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3DecayerQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Minor adjustments to match multCentTable function",
+            "number": 16320,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudypp.cxx"
                   }
                 }
               ]
