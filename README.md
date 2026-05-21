@@ -5,7 +5,6 @@
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15348](https://github.com/AliceO2Group/AliceO2/pull/15348) 2026-05-09: Common: add count trailing zeros Ctz by [@f3sch](https://github.com/f3sch)
-- [\#15349](https://github.com/AliceO2Group/AliceO2/pull/15349) 2026-05-05: Common: Allow EnumFlags on gpu by [@f3sch](https://github.com/f3sch)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -49,6 +48,7 @@
 - [\#15414](https://github.com/AliceO2Group/AliceO2/pull/15414) 2026-05-21: [ALICE3] IOTOF: align geometry to specs by [@njacazio](https://github.com/njacazio)
 - [\#15418](https://github.com/AliceO2Group/AliceO2/pull/15418) 2026-05-21: TPC: add option for disabling corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15420](https://github.com/AliceO2Group/AliceO2/pull/15420) 2026-05-21: ALICE3: factor GPU tracking into dynamically loaded CUDA/HIP backend by [@mpuccio](https://github.com/mpuccio)
+- [\#15423](https://github.com/AliceO2Group/AliceO2/pull/15423) 2026-05-21: Update CorrectionMapsOptions help hints by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
