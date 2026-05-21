@@ -51,7 +51,6 @@
 - [\#15420](https://github.com/AliceO2Group/AliceO2/pull/15420) 2026-05-21: ALICE3: factor GPU tracking into dynamically loaded CUDA/HIP backend by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
-- [\#15304](https://github.com/AliceO2Group/AliceO2/pull/15304) 2026-05-05: DPL: make sure data preparation remains on the main thread by [@ktf](https://github.com/ktf)
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 - [\#15358](https://github.com/AliceO2Group/AliceO2/pull/15358) 2026-05-05: DPL: improve catching of low memory related bugs by [@ktf](https://github.com/ktf)
 - [\#15364](https://github.com/AliceO2Group/AliceO2/pull/15364) 2026-05-05: DPL: more debug messages for the reader by [@ktf](https://github.com/ktf)
