@@ -9,13 +9,11 @@
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
 - [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
 ## Recent developments in O2 - Detectors
 - [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
-- [\#15303](https://github.com/AliceO2Group/AliceO2/pull/15303) 2026-05-05: FT0: fix return type mismatch in ChannelData getters (int16_t) by [@spulawsk](https://github.com/spulawsk)
 - [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15339](https://github.com/AliceO2Group/AliceO2/pull/15339) 2026-05-04: FT3 Tiling: Stave Geometry by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
