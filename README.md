@@ -12,6 +12,7 @@
 - [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
+- [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 ## Recent developments in O2 - Detectors
 - [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
 - [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
@@ -42,6 +43,7 @@
 - [\#15403](https://github.com/AliceO2Group/AliceO2/pull/15403) 2026-05-15: Configure TPCFLPCMVSpec output accorging to the triggerPerFlp flag by [@shahor02](https://github.com/shahor02)
 - [\#15404](https://github.com/AliceO2Group/AliceO2/pull/15404) 2026-05-15: Disable ensureContinuousROF when calibration data is requested by [@shahor02](https://github.com/shahor02)
 - [\#15405](https://github.com/AliceO2Group/AliceO2/pull/15405) 2026-05-17: Repair raw tf part counters / headers by [@shahor02](https://github.com/shahor02)
+- [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15410](https://github.com/AliceO2Group/AliceO2/pull/15410) 2026-05-19: [MFT] Fixing number of links per RU/zone in mapping by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15411](https://github.com/AliceO2Group/AliceO2/pull/15411) 2026-05-20: Fixes for ROFs downscaling for ITS tracking by [@shahor02](https://github.com/shahor02)
 - [\#15414](https://github.com/AliceO2Group/AliceO2/pull/15414) 2026-05-21: [ALICE3] IOTOF: align geometry to specs by [@njacazio](https://github.com/njacazio)
