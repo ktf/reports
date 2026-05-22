@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-06T09:29:12Z",
-            "title": "FT3 Stave tiling bugfixes & readme",
-            "number": 15365,
-            "author": {
-              "login": "JustusRudolph"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/include/FT3Simulation/FT3ModuleConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Module.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Harden merging of VLAs",
@@ -4040,6 +4010,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "TPC timeseries: make data requests conditional on input sources",
+            "number": 15426,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: Remove redundant 'const' from getter methods",
+            "number": 15429,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/TrackITS.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4054,32 +4064,17 @@
                 },
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/TrackITS.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "doc/data/2026-05-o2_prs.json"
                   }
                 },
                 {
                   "node": {
                     "path": "doc/data/2026-05-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC timeseries: make data requests conditional on input sources",
-            "number": 15426,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
                   }
                 }
               ]

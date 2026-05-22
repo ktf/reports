@@ -22,7 +22,6 @@
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15363](https://github.com/AliceO2Group/AliceO2/pull/15363) 2026-05-11: ITS: simplify configuration of iterations by [@f3sch](https://github.com/f3sch)
-- [\#15365](https://github.com/AliceO2Group/AliceO2/pull/15365) 2026-05-06: FT3 Stave tiling bugfixes & readme by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15372](https://github.com/AliceO2Group/AliceO2/pull/15372) 2026-05-08: [ALICE3] IOTOF: Digitization for the TOF3  by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15373](https://github.com/AliceO2Group/AliceO2/pull/15373) 2026-05-10: Vertexing: make material correction configurable by [@mpuccio](https://github.com/mpuccio)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
