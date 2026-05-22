@@ -23,7 +23,6 @@
 - [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15363](https://github.com/AliceO2Group/AliceO2/pull/15363) 2026-05-11: ITS: simplify configuration of iterations by [@f3sch](https://github.com/f3sch)
 - [\#15365](https://github.com/AliceO2Group/AliceO2/pull/15365) 2026-05-06: FT3 Stave tiling bugfixes & readme by [@JustusRudolph](https://github.com/JustusRudolph)
-- [\#15366](https://github.com/AliceO2Group/AliceO2/pull/15366) 2026-05-05: adjust z length of cylinder for ML barrel services, make it parametrized by [@altsybee](https://github.com/altsybee)
 - [\#15372](https://github.com/AliceO2Group/AliceO2/pull/15372) 2026-05-08: [ALICE3] IOTOF: Digitization for the TOF3  by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15373](https://github.com/AliceO2Group/AliceO2/pull/15373) 2026-05-10: Vertexing: make material correction configurable by [@mpuccio](https://github.com/mpuccio)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
@@ -51,7 +50,6 @@
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
-- [\#15364](https://github.com/AliceO2Group/AliceO2/pull/15364) 2026-05-05: DPL: more debug messages for the reader by [@ktf](https://github.com/ktf)
 - [\#15367](https://github.com/AliceO2Group/AliceO2/pull/15367) 2026-05-06: DPL: avoid hiding the actual issue by [@ktf](https://github.com/ktf)
 - [\#15371](https://github.com/AliceO2Group/AliceO2/pull/15371) 2026-05-06: DPL GUI: improve palette, add "light" mode by [@ktf](https://github.com/ktf)
 - [\#15378](https://github.com/AliceO2Group/AliceO2/pull/15378) 2026-05-07: DPL: allow for larger state information to be sent around by [@ktf](https://github.com/ktf)

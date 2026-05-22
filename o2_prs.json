@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-05T21:31:52Z",
-            "title": "DPL: more debug messages for the reader",
-            "number": 15364,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FragmentToBatch.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-05T22:13:38Z",
-            "title": "adjust z length of cylinder for ML barrel services, make it parametrized",
-            "number": 15366,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Nj a3tofgeo",
@@ -4140,6 +4100,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "ITS: fix building of upc ROF mask",
+            "number": 15425,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC timeseries: make data requests conditional on input sources",
+            "number": 15426,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "optional use of Geant4 fluence weighting added",
             "number": 15417,
             "author": {
@@ -4185,16 +4185,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ITS: fix building of upc ROF mask",
-            "number": 15425,
+            "title": "o2-raw-tf-reader supports remote TF reading (with --copy-cmd none)",
+            "number": 15427,
             "author": {
-              "login": "f3sch"
+              "login": "shahor02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                    "path": "Detectors/Raw/TFReaderDD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/include/TFReaderDD/BinFileOp.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/include/TFReaderDD/SubTimeFrameFileReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/BinFileOp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/SubTimeFrameFileReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/tf-reader-workflow.cxx"
                   }
                 }
               ]
