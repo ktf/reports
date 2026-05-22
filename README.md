@@ -19,7 +19,6 @@
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
 - [\#15356](https://github.com/AliceO2Group/AliceO2/pull/15356) 2026-05-07: ITS: fix truth seeding mode by [@f3sch](https://github.com/f3sch)
 - [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
-- [\#15359](https://github.com/AliceO2Group/AliceO2/pull/15359) 2026-05-05: Use currentTS+14days to define EOV of TRD DCS-DP processor objects by [@shahor02](https://github.com/shahor02)
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15363](https://github.com/AliceO2Group/AliceO2/pull/15363) 2026-05-11: ITS: simplify configuration of iterations by [@f3sch](https://github.com/f3sch)
