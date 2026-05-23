@@ -14,6 +14,7 @@
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 ## Recent developments in O2 - Detectors
 - [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
+- [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15339](https://github.com/AliceO2Group/AliceO2/pull/15339) 2026-05-04: FT3 Tiling: Stave Geometry by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
