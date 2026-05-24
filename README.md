@@ -61,3 +61,4 @@
 - [\#15396](https://github.com/AliceO2Group/AliceO2/pull/15396) 2026-05-13: DPL: add actual handling of --aod-origin-level-mapping by [@ktf](https://github.com/ktf)
 - [\#15408](https://github.com/AliceO2Group/AliceO2/pull/15408) 2026-05-19: DPL MCP: support multiple workflows by [@ktf](https://github.com/ktf)
 - [\#15428](https://github.com/AliceO2Group/AliceO2/pull/15428) 2026-05-22: DPL MCP: allow connecting to a running Hyperloop test by [@ktf](https://github.com/ktf)
+- [\#15433](https://github.com/AliceO2Group/AliceO2/pull/15433) 2026-05-24: DPL: add debug information for rate limiting by [@ktf](https://github.com/ktf)
