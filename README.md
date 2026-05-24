@@ -52,7 +52,6 @@
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
-- [\#15371](https://github.com/AliceO2Group/AliceO2/pull/15371) 2026-05-06: DPL GUI: improve palette, add "light" mode by [@ktf](https://github.com/ktf)
 - [\#15378](https://github.com/AliceO2Group/AliceO2/pull/15378) 2026-05-07: DPL: allow for larger state information to be sent around by [@ktf](https://github.com/ktf)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
 - [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)

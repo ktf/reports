@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-06T19:09:58Z",
-            "title": "DPL GUI: improve palette, add \"light\" mode",
-            "number": 15371,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIState.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/PaletteHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "ITS: replace input filter with DataSpecUtils::dataDescriptorMatcherFrom",
@@ -4075,6 +4045,31 @@
                 {
                   "node": {
                     "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL MCP: expose the version in the MCP",
+            "number": 15432,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/scripts/dpl-mcp-server/dpl_mcp_server.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StatusWebSocketHandler.cxx"
                   }
                 }
               ]
