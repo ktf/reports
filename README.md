@@ -1,25 +1,22 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15348](https://github.com/AliceO2Group/AliceO2/pull/15348) 2026-05-09: Common: add count trailing zeros Ctz by [@f3sch](https://github.com/f3sch)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 ## Recent developments in O2 - Detectors
 - [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
 - [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15338](https://github.com/AliceO2Group/AliceO2/pull/15338) 2026-05-07: AODProducer option to store all mft covariances by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15339](https://github.com/AliceO2Group/AliceO2/pull/15339) 2026-05-04: FT3 Tiling: Stave Geometry by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
+- [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
 - [\#15356](https://github.com/AliceO2Group/AliceO2/pull/15356) 2026-05-07: ITS: fix truth seeding mode by [@f3sch](https://github.com/f3sch)
-- [\#15357](https://github.com/AliceO2Group/AliceO2/pull/15357) 2026-05-07: ITS: add hash function over clidx by [@f3sch](https://github.com/f3sch)
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15363](https://github.com/AliceO2Group/AliceO2/pull/15363) 2026-05-11: ITS: simplify configuration of iterations by [@f3sch](https://github.com/f3sch)
@@ -51,7 +48,6 @@
 - [\#15430](https://github.com/AliceO2Group/AliceO2/pull/15430) 2026-05-22: Fix output file name for checkResid streamers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
-- [\#15337](https://github.com/AliceO2Group/AliceO2/pull/15337) 2026-05-07: DPL: allow for configurable CCDB paths by [@ktf](https://github.com/ktf)
 - [\#15378](https://github.com/AliceO2Group/AliceO2/pull/15378) 2026-05-07: DPL: allow for larger state information to be sent around by [@ktf](https://github.com/ktf)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
 - [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)
@@ -62,3 +58,4 @@
 - [\#15408](https://github.com/AliceO2Group/AliceO2/pull/15408) 2026-05-19: DPL MCP: support multiple workflows by [@ktf](https://github.com/ktf)
 - [\#15428](https://github.com/AliceO2Group/AliceO2/pull/15428) 2026-05-22: DPL MCP: allow connecting to a running Hyperloop test by [@ktf](https://github.com/ktf)
 - [\#15433](https://github.com/AliceO2Group/AliceO2/pull/15433) 2026-05-24: DPL: add debug information for rate limiting by [@ktf](https://github.com/ktf)
+- [\#15435](https://github.com/AliceO2Group/AliceO2/pull/15435) 2026-05-25: DPL: fix mismatched type in signpost by [@ktf](https://github.com/ktf)

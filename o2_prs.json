@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-07T09:43:42Z",
-            "title": "AODProducer option to store all mft covariances",
-            "number": 15338,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-07T11:30:46Z",
-            "title": "DPL: allow for configurable CCDB paths",
-            "number": 15337,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Configurable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2TestAnalysisCCDB.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-07T12:02:21Z",
-            "title": "ITS: add hash function over clidx",
-            "number": 15357,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/TrackITS.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-07T12:03:10Z",
             "title": "ITS: fix truth seeding mode",
             "number": 15356,
@@ -946,26 +856,6 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] TRK: fix ACTS clusterer compilation",
-            "number": 15352,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/ClustererACTS.cxx"
                   }
                 }
               ]
@@ -4003,7 +3893,32 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "MERGED",
+            "mergedAt": "2026-05-24T19:30:29Z",
+            "title": "DPL: add debug information for rate limiting",
+            "number": 15433,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DevicesManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL MCP: expose the version in the MCP",
             "number": 15432,
@@ -4029,9 +3944,49 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-24T19:30:29Z",
-            "title": "DPL: add debug information for rate limiting",
-            "number": 15433,
+            "mergedAt": "2026-05-25T07:14:47Z",
+            "title": "[ALICE3] TRK: fix ACTS clusterer compilation",
+            "number": 15352,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/reconstruction/src/ClustererACTS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: reduce number of spurious warnings",
+            "number": 15434,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-25T08:02:35Z",
+            "title": "DPL: fix mismatched type in signpost",
+            "number": 15435,
             "author": {
               "login": "ktf"
             },
@@ -4040,11 +3995,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DevicesManager.cxx"
                   }
                 }
               ]
@@ -4075,6 +4025,26 @@
                 {
                   "node": {
                     "path": "doc/data/2026-05-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Ctpdev",
+            "number": 15436,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/PlotPbLumi.C"
                   }
                 }
               ]
