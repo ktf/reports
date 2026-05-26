@@ -18,7 +18,6 @@
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
-- [\#15362](https://github.com/AliceO2Group/AliceO2/pull/15362) 2026-05-07: ITS: add 11-layer GPU tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15363](https://github.com/AliceO2Group/AliceO2/pull/15363) 2026-05-11: ITS: simplify configuration of iterations by [@f3sch](https://github.com/f3sch)
 - [\#15372](https://github.com/AliceO2Group/AliceO2/pull/15372) 2026-05-08: [ALICE3] IOTOF: Digitization for the TOF3  by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15373](https://github.com/AliceO2Group/AliceO2/pull/15373) 2026-05-10: Vertexing: make material correction configurable by [@mpuccio](https://github.com/mpuccio)
@@ -51,7 +50,6 @@
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
-- [\#15378](https://github.com/AliceO2Group/AliceO2/pull/15378) 2026-05-07: DPL: allow for larger state information to be sent around by [@ktf](https://github.com/ktf)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
 - [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
@@ -63,3 +61,4 @@
 - [\#15433](https://github.com/AliceO2Group/AliceO2/pull/15433) 2026-05-24: DPL: add debug information for rate limiting by [@ktf](https://github.com/ktf)
 - [\#15434](https://github.com/AliceO2Group/AliceO2/pull/15434) 2026-05-25: DPL: reduce number of spurious warnings by [@ktf](https://github.com/ktf)
 - [\#15435](https://github.com/AliceO2Group/AliceO2/pull/15435) 2026-05-25: DPL: fix mismatched type in signpost by [@ktf](https://github.com/ktf)
+- [\#15438](https://github.com/AliceO2Group/AliceO2/pull/15438) 2026-05-26: DPL MCP: add server to inspect the perf results by [@ktf](https://github.com/ktf)
