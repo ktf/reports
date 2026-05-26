@@ -50,6 +50,7 @@
 - [\#15430](https://github.com/AliceO2Group/AliceO2/pull/15430) 2026-05-22: Fix output file name for checkResid streamers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
+- [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
 - [\#15378](https://github.com/AliceO2Group/AliceO2/pull/15378) 2026-05-07: DPL: allow for larger state information to be sent around by [@ktf](https://github.com/ktf)
 - [\#15379](https://github.com/AliceO2Group/AliceO2/pull/15379) 2026-05-07: Add missing includes reported by gcc 16.1 by [@wiechula](https://github.com/wiechula)
 - [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)
