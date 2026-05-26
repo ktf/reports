@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-21T14:42:06Z",
-            "title": "[ALICE3] Update multicharm bdt histograms",
-            "number": 16339,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Multicharm.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-21T14:01:18Z",
             "title": "[PWGLF] Fix Qvec ampl",
             "number": 16337,
@@ -1815,26 +1795,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] improve Lund plane MC collision handling and pthard weighting",
-            "number": 16367,
-            "author": {
-              "login": "zovarga"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetLundPlane.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Add task for TrackTrackCascade analysis",
             "number": 16371,
             "author": {
@@ -2243,6 +2203,56 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-26T20:19:28Z",
+            "title": "[PWGEM/Dilepton] put pair.pt back in taggingHFE",
+            "number": 16402,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/SemiCharmTag.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-26T20:34:37Z",
+            "title": "[PWGJE] improve Lund plane MC collision handling and pthard weighting",
+            "number": 16367,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetLundPlane.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common,PWGLF] Add TOF NSigma from TOF PID framework",
@@ -2308,28 +2318,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-26T20:19:28Z",
-            "title": "[PWGEM/Dilepton] put pair.pt back in taggingHFE",
-            "number": 16402,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] adding new analysis for multiharmonic correlations",
+            "number": 16403,
             "author": {
-              "login": "dsekihat"
+              "login": "pengchon"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/SemiCharmTag.h"
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
                   }
                 }
               ]
