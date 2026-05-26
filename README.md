@@ -11,6 +11,7 @@
 - [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
+- [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#15290](https://github.com/AliceO2Group/AliceO2/pull/15290) 2026-05-09: ITSMFT: remove redirect header for DPLAlpideParam by [@f3sch](https://github.com/f3sch)
 - [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -45,6 +46,7 @@
 - [\#15426](https://github.com/AliceO2Group/AliceO2/pull/15426) 2026-05-23: TPC timeseries: make data requests conditional on input sources by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15430](https://github.com/AliceO2Group/AliceO2/pull/15430) 2026-05-22: Fix output file name for checkResid streamers by [@shahor02](https://github.com/shahor02)
+- [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
