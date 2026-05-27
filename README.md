@@ -48,6 +48,7 @@
 - [\#15423](https://github.com/AliceO2Group/AliceO2/pull/15423) 2026-05-21: Update CorrectionMapsOptions help hints by [@shahor02](https://github.com/shahor02)
 - [\#15425](https://github.com/AliceO2Group/AliceO2/pull/15425) 2026-05-27: ITS: fix building of upc ROF mask by [@f3sch](https://github.com/f3sch)
 - [\#15426](https://github.com/AliceO2Group/AliceO2/pull/15426) 2026-05-23: TPC timeseries: make data requests conditional on input sources by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15427](https://github.com/AliceO2Group/AliceO2/pull/15427) 2026-05-27: o2-raw-tf-reader supports remote TF reading (with --copy-cmd no-copy) by [@shahor02](https://github.com/shahor02)
 - [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15430](https://github.com/AliceO2Group/AliceO2/pull/15430) 2026-05-22: Fix output file name for checkResid streamers by [@shahor02](https://github.com/shahor02)
 - [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
