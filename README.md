@@ -43,6 +43,7 @@
 - [\#15420](https://github.com/AliceO2Group/AliceO2/pull/15420) 2026-05-21: ALICE3: factor GPU tracking into dynamically loaded CUDA/HIP backend by [@mpuccio](https://github.com/mpuccio)
 - [\#15422](https://github.com/AliceO2Group/AliceO2/pull/15422) 2026-05-26: ITS: adjust printing and use mask by [@f3sch](https://github.com/f3sch)
 - [\#15423](https://github.com/AliceO2Group/AliceO2/pull/15423) 2026-05-21: Update CorrectionMapsOptions help hints by [@shahor02](https://github.com/shahor02)
+- [\#15425](https://github.com/AliceO2Group/AliceO2/pull/15425) 2026-05-27: ITS: fix building of upc ROF mask by [@f3sch](https://github.com/f3sch)
 - [\#15426](https://github.com/AliceO2Group/AliceO2/pull/15426) 2026-05-23: TPC timeseries: make data requests conditional on input sources by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15430](https://github.com/AliceO2Group/AliceO2/pull/15430) 2026-05-22: Fix output file name for checkResid streamers by [@shahor02](https://github.com/shahor02)
