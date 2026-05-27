@@ -10,6 +10,7 @@
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
 - [\#15361](https://github.com/AliceO2Group/AliceO2/pull/15361) 2026-05-08: Add new particles to O2DatabasePDG by [@romainschotter](https://github.com/romainschotter)
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
+- [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
@@ -38,6 +39,7 @@
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15410](https://github.com/AliceO2Group/AliceO2/pull/15410) 2026-05-19: [MFT] Fixing number of links per RU/zone in mapping by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15411](https://github.com/AliceO2Group/AliceO2/pull/15411) 2026-05-20: Fixes for ROFs downscaling for ITS tracking by [@shahor02](https://github.com/shahor02)
+- [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15414](https://github.com/AliceO2Group/AliceO2/pull/15414) 2026-05-21: [ALICE3] IOTOF: align geometry to specs by [@njacazio](https://github.com/njacazio)
 - [\#15418](https://github.com/AliceO2Group/AliceO2/pull/15418) 2026-05-21: TPC: add option for disabling corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15420](https://github.com/AliceO2Group/AliceO2/pull/15420) 2026-05-21: ALICE3: factor GPU tracking into dynamically loaded CUDA/HIP backend by [@mpuccio](https://github.com/mpuccio)

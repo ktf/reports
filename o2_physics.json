@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-20T15:11:26Z",
-            "title": "[PWGLF] Add quadratic response option",
-            "number": 16323,
-            "author": {
-              "login": "lbariogl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/flowQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-06-17T13:01:35Z",
-            "title": "[PWGLF] Adapt flowQC to higher harmonics for updated ep-tables",
-            "number": 11646,
-            "author": {
-              "login": "lbariogl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/flowQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-06-16T13:07:00Z",
             "title": "[PWGLF] Generalise epvector.cxx to higher harmonics",
             "number": 11543,
@@ -2305,6 +2265,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] [xic0omegac0] Update codes to fix PID assignment in KFParticle",
+            "number": 16381,
+            "author": {
+              "login": "jinhyunni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0Qa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-27T08:24:28Z",
             "title": "[PWGDQ] use correct momentum scaling when computing invariant mass",
             "number": 16365,
             "author": {
@@ -2325,16 +2305,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] [xic0omegac0] Update codes to fix PID assignment in KFParticle",
-            "number": 16381,
+            "title": "[PWGLF] Initialize variables, remove unused includes and use Particle constructor",
+            "number": 16405,
             "author": {
-              "login": "jinhyunni"
+              "login": "alcaliva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0Qa.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/coalescenceTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-07T14:35:23Z",
+            "title": "[ALICE3] Fix includes",
+            "number": 16086,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/Decayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3TrackingPerformance.cxx"
                   }
                 }
               ]
