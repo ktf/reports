@@ -22,7 +22,6 @@
 - [\#15363](https://github.com/AliceO2Group/AliceO2/pull/15363) 2026-05-11: ITS: simplify configuration of iterations by [@f3sch](https://github.com/f3sch)
 - [\#15373](https://github.com/AliceO2Group/AliceO2/pull/15373) 2026-05-10: Vertexing: make material correction configurable by [@mpuccio](https://github.com/mpuccio)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
-- [\#15376](https://github.com/AliceO2Group/AliceO2/pull/15376) 2026-05-08: ITSMFT: simplify setting of input filter of the decoder by [@ehellbar](https://github.com/ehellbar)
 - [\#15382](https://github.com/AliceO2Group/AliceO2/pull/15382) 2026-05-11: [ALICE 3] Changed chip size and module number for TRK barrel + updated TRK documentation + included low services around beam pipe by [@scannito](https://github.com/scannito)
 - [\#15384](https://github.com/AliceO2Group/AliceO2/pull/15384) 2026-05-08: move OT barrel service disks closer to stave 'edges', change rMax by [@altsybee](https://github.com/altsybee)
 - [\#15389](https://github.com/AliceO2Group/AliceO2/pull/15389) 2026-05-11: Fix nLayers calculation for MFT detector by [@f3sch](https://github.com/f3sch)
