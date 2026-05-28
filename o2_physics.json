@@ -234,26 +234,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Flow Event Plane Update on CosPA and CTau selection",
-            "number": 16363,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-25T00:55:00Z",
             "title": "[PWGEM/Dilepton] fix nBins CutDir",
@@ -2176,31 +2156,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add task h2fromlb",
-            "number": 16372,
-            "author": {
-              "login": "MRazza879"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
             "number": 16424,
             "author": {
@@ -2231,71 +2186,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Add TOF NSigma from TOF PID framework",
-            "number": 16393,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTOFParamService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
                   }
                 }
               ]
@@ -2521,16 +2411,126 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Update tree creator for Xic0Omegac0",
-            "number": 16421,
+            "title": "[PWGDQ] Implement new analysis cuts for Electron2025_4_ldong",
+            "number": 16427,
             "author": {
-              "login": "jinhyunni"
+              "login": "donglovo"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Flow Event Plane Update on CosPA and CTau selection",
+            "number": 16363,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Add TOF NSigma from TOF PID framework",
+            "number": 16393,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFParamService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-28T11:19:26Z",
+            "title": "[PWGHF] Add task h2fromlb",
+            "number": 16372,
+            "author": {
+              "login": "MRazza879"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
                   }
                 }
               ]
@@ -2561,16 +2561,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Implement new analysis cuts for Electron2025_4_ldong",
-            "number": 16427,
+            "title": "[PWGHF] Update tree creator for Xic0Omegac0",
+            "number": 16421,
             "author": {
-              "login": "donglovo"
+              "login": "jinhyunni"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
                   }
                 }
               ]
