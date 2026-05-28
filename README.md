@@ -32,6 +32,7 @@
 - [\#15395](https://github.com/AliceO2Group/AliceO2/pull/15395) 2026-05-13: [ALICE3] TRK: adjustments for z and r of services, split OT barrel into two halves by [@altsybee](https://github.com/altsybee)
 - [\#15397](https://github.com/AliceO2Group/AliceO2/pull/15397) 2026-05-13: [ALICE 3] Fix sensitive volumes definition for FT3  by [@scannito](https://github.com/scannito)
 - [\#15398](https://github.com/AliceO2Group/AliceO2/pull/15398) 2026-05-27: Update ALICE3 RICH base parameters to v3b by [@NNicassio99](https://github.com/NNicassio99)
+- [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15403](https://github.com/AliceO2Group/AliceO2/pull/15403) 2026-05-15: Configure TPCFLPCMVSpec output accorging to the triggerPerFlp flag by [@shahor02](https://github.com/shahor02)
 - [\#15404](https://github.com/AliceO2Group/AliceO2/pull/15404) 2026-05-15: Disable ensureContinuousROF when calibration data is requested by [@shahor02](https://github.com/shahor02)
 - [\#15405](https://github.com/AliceO2Group/AliceO2/pull/15405) 2026-05-17: Repair raw tf part counters / headers by [@shahor02](https://github.com/shahor02)
@@ -70,3 +71,5 @@
 - [\#15438](https://github.com/AliceO2Group/AliceO2/pull/15438) 2026-05-26: DPL MCP: add server to inspect the perf results by [@ktf](https://github.com/ktf)
 - [\#15439](https://github.com/AliceO2Group/AliceO2/pull/15439) 2026-05-27: DPL: recycle buffers when sending metrics by [@ktf](https://github.com/ktf)
 - [\#15441](https://github.com/AliceO2Group/AliceO2/pull/15441) 2026-05-26: Allow retries by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
