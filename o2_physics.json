@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-22T21:42:55Z",
-            "title": "[PWGLF] Fix rapidity cut to use asymmetric range",
-            "number": 16353,
-            "author": {
-              "login": "SuJeong-Ji"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chk892LI.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-22T21:46:51Z",
-            "title": "[PWGEM/PhotonMeson] Add histograms for resolution studies",
-            "number": 16355,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-23T10:30:35Z",
             "title": "[PWGEM/Dilepton] reject diquarks for taggingHFE",
             "number": 16357,
@@ -2136,26 +2096,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Rename event selection bits",
-            "number": 16423,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdcExtraTableProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
             "number": 16424,
             "author": {
@@ -2344,26 +2284,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add centrality branch to Lc candidate tree",
-            "number": 16343,
-            "author": {
-              "login": "GiuliaRusso02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorLcToPKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-28T09:02:26Z",
             "title": "[PWGUD] Add ptSpectraInclusiveUpc.cxx",
@@ -2381,26 +2301,6 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/ptSpectraInclusiveUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] fix reduced MCH track index in output table",
-            "number": 16429,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
                   }
                 }
               ]
@@ -2541,6 +2441,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Update tree creator for Xic0Omegac0",
+            "number": 16421,
+            "author": {
+              "login": "jinhyunni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Add explicit ROOT leaflists for coalescence tree branches",
             "number": 16430,
             "author": {
@@ -2561,16 +2481,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Update tree creator for Xic0Omegac0",
-            "number": 16421,
+            "title": "[Common] Rename event selection bits",
+            "number": 16423,
             "author": {
-              "login": "jinhyunni"
+              "login": "udmitrie"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
+                    "path": "Common/TableProducer/zdcExtraTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-28T12:23:34Z",
+            "title": "[PWGDQ] Fix bin index retrieval for efficiency histogram",
+            "number": 16431,
+            "author": {
+              "login": "zjxiongOvO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Avoid recalculating BB over and over",
+            "number": 16432,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/PID/TPCPIDResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add centrality branch to Lc candidate tree",
+            "number": 16343,
+            "author": {
+              "login": "GiuliaRusso02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToPKPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-28T12:44:01Z",
+            "title": "[PWGDQ] fix reduced MCH track index in output table",
+            "number": 16429,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
                   }
                 }
               ]

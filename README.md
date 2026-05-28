@@ -56,7 +56,6 @@
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
-- [\#15381](https://github.com/AliceO2Group/AliceO2/pull/15381) 2026-05-09: DPL: ensure dummy sink is added with correct rate limiting configuration by [@aalkin](https://github.com/aalkin)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
 - [\#15385](https://github.com/AliceO2Group/AliceO2/pull/15385) 2026-05-11: DPL: allDone should really be atomic by [@ktf](https://github.com/ktf)
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
