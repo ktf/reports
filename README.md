@@ -4,7 +4,6 @@
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#15348](https://github.com/AliceO2Group/AliceO2/pull/15348) 2026-05-09: Common: add count trailing zeros Ctz by [@f3sch](https://github.com/f3sch)
 - [\#15374](https://github.com/AliceO2Group/AliceO2/pull/15374) 2026-05-11: Raw TF dump workflow by [@shahor02](https://github.com/shahor02)
 - [\#15383](https://github.com/AliceO2Group/AliceO2/pull/15383) 2026-05-09: DPL: schedule rescan when oldest possible timeframe updated by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
