@@ -55,7 +55,6 @@
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
-- [\#15385](https://github.com/AliceO2Group/AliceO2/pull/15385) 2026-05-11: DPL: allDone should really be atomic by [@ktf](https://github.com/ktf)
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15396](https://github.com/AliceO2Group/AliceO2/pull/15396) 2026-05-13: DPL: add actual handling of --aod-origin-level-mapping by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
