@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-11T14:19:35Z",
-            "title": "Fix nLayers calculation for MFT detector",
-            "number": 15389,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-11T16:25:49Z",
-            "title": "[ALICE 3] Changed chip size and module number for TRK barrel + updated TRK documentation + included low services around beam pipe",
-            "number": 15382,
-            "author": {
-              "login": "scannito"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/Specs.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/base/include/TRKBase/TRKBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/TRKServices.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-11T18:14:10Z",
             "title": "Raw TF dump workflow",
             "number": 15374,
@@ -4088,6 +4023,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-28T16:11:34Z",
+            "title": "dpl-workflow: Add missing flags to disable ctp-lumi-request",
+            "number": 15446,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -4118,18 +4073,58 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-28T16:11:34Z",
-            "title": "dpl-workflow: Add missing flags to disable ctp-lumi-request",
-            "number": 15446,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
+            "number": 15245,
             "author": {
-              "login": "fweig"
+              "login": "wpierozak"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/compareLUT.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/convertLUTCSVtoROOT.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/fetchLUT.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add Lc resonances to physics constants",
+            "number": 14994,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
                   }
                 }
               ]
