@@ -2201,66 +2201,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Switch from McPartWithDaus to McParticles with --aod-origin-replace in otf decayer",
-            "number": 16448,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/Decayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/OTFParticle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFMCParticle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/tracksAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3DecayerQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] Adding PID checks",
             "number": 16443,
             "author": {
@@ -2296,36 +2236,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/trackJetSpectra.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-29T23:19:10Z",
-            "title": "[PWGCF] Remove dynamic columns and checks of reassociated MFT tracks",
-            "number": 16464,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
                   }
                 }
               ]
@@ -2579,8 +2489,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-05-30T07:58:26Z",
+            "title": "[ALICE3] Implement basic bremsstrahlung model in OTF tracker",
+            "number": 16417,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-30T08:00:43Z",
             "title": "[PWGHF] taskD0: Add axis for the number of primary-vertex contributors",
             "number": 16350,
             "author": {
@@ -2600,17 +2530,87 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-30T07:58:26Z",
-            "title": "[ALICE3] Implement basic bremsstrahlung model in OTF tracker",
-            "number": 16417,
+            "mergedAt": "2026-05-29T23:19:10Z",
+            "title": "[PWGCF] Remove dynamic columns and checks of reassociated MFT tracks",
+            "number": 16464,
             "author": {
-              "login": "axti98"
+              "login": "abmodak"
             },
             "files": {
               "edges": [
                 {
                   "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-30T08:02:12Z",
+            "title": "[ALICE3] Switch from McPartWithDaus to McParticles with --aod-origin-replace in otf decayer",
+            "number": 16448,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/Decayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/OTFParticle.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/OTFMCParticle.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/tracksAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3DecayerQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
                   }
                 }
               ]
