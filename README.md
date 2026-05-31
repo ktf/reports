@@ -6,6 +6,7 @@
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
+- [\#14994](https://github.com/AliceO2Group/AliceO2/pull/14994) 2026-05-31: Add Lc resonances to physics constants by [@apalasciano](https://github.com/apalasciano)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - DataFormats
 - [\#15360](https://github.com/AliceO2Group/AliceO2/pull/15360) 2026-05-12: TPC_CMV: Improving the CMV workflows by [@tubagundem](https://github.com/tubagundem)
