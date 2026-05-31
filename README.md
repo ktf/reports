@@ -20,7 +20,6 @@
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
 - [\#15390](https://github.com/AliceO2Group/AliceO2/pull/15390) 2026-05-15: ITS: allow to reconstruct incomplete track topologies by [@f3sch](https://github.com/f3sch)
-- [\#15392](https://github.com/AliceO2Group/AliceO2/pull/15392) 2026-05-12: update of TRK and FT3 services, to better match with Corrado's scheme by [@altsybee](https://github.com/altsybee)
 - [\#15393](https://github.com/AliceO2Group/AliceO2/pull/15393) 2026-05-13: Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger by [@shahor02](https://github.com/shahor02)
 - [\#15394](https://github.com/AliceO2Group/AliceO2/pull/15394) 2026-05-13: Fixes for ITS/MFT decoding ensureContinuousROF effects. by [@shahor02](https://github.com/shahor02)
 - [\#15395](https://github.com/AliceO2Group/AliceO2/pull/15395) 2026-05-13: [ALICE3] TRK: adjustments for z and r of services, split OT barrel into two halves by [@altsybee](https://github.com/altsybee)
