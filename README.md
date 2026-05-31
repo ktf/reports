@@ -14,6 +14,7 @@
 - [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
 - [\#15454](https://github.com/AliceO2Group/AliceO2/pull/15454) 2026-05-30: Add PV-related rejections to cosmic matcher for interleaved mode by [@shahor02](https://github.com/shahor02)
+- [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
@@ -49,6 +50,7 @@
 - [\#15442](https://github.com/AliceO2Group/AliceO2/pull/15442) 2026-05-28: TOF: pre-filter hypotheses in getStartTimeInSet by [@ktf](https://github.com/ktf)
 - [\#15445](https://github.com/AliceO2Group/AliceO2/pull/15445) 2026-05-27: Create the inputs filter on the fly if it was not set externally by [@shahor02](https://github.com/shahor02)
 - [\#15454](https://github.com/AliceO2Group/AliceO2/pull/15454) 2026-05-30: Add PV-related rejections to cosmic matcher for interleaved mode by [@shahor02](https://github.com/shahor02)
+- [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
