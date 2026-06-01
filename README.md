@@ -65,6 +65,7 @@
 - [\#15438](https://github.com/AliceO2Group/AliceO2/pull/15438) 2026-05-26: DPL MCP: add server to inspect the perf results by [@ktf](https://github.com/ktf)
 - [\#15439](https://github.com/AliceO2Group/AliceO2/pull/15439) 2026-05-27: DPL: recycle buffers when sending metrics by [@ktf](https://github.com/ktf)
 - [\#15441](https://github.com/AliceO2Group/AliceO2/pull/15441) 2026-05-26: Allow retries by [@ktf](https://github.com/ktf)
+- [\#15444](https://github.com/AliceO2Group/AliceO2/pull/15444) 2026-06-01: StepTHn: do a pre lookup for the bin using a uniform grid by [@ktf](https://github.com/ktf)
 - [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15451](https://github.com/AliceO2Group/AliceO2/pull/15451) 2026-05-29: DPL MCP: a server to investigate running trains on hyperloop by [@ktf](https://github.com/ktf)
 - [\#15465](https://github.com/AliceO2Group/AliceO2/pull/15465) 2026-06-01: Improve ability to inspect trains on hyperloop by [@ktf](https://github.com/ktf)
