@@ -51,6 +51,7 @@
 - [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
 - [\#15458](https://github.com/AliceO2Group/AliceO2/pull/15458) 2026-06-01: Use full TrackParCov for TPC residuals TrackData.par by [@shahor02](https://github.com/shahor02)
 - [\#15460](https://github.com/AliceO2Group/AliceO2/pull/15460) 2026-06-01: Optionally store refs on ITS parts of all PV contributors by [@shahor02](https://github.com/shahor02)
+- [\#15467](https://github.com/AliceO2Group/AliceO2/pull/15467) 2026-06-01: Optionally use direct ITS contributor refs stored with PV by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
