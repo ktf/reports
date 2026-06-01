@@ -49,6 +49,7 @@
 - [\#15445](https://github.com/AliceO2Group/AliceO2/pull/15445) 2026-05-27: Create the inputs filter on the fly if it was not set externally by [@shahor02](https://github.com/shahor02)
 - [\#15454](https://github.com/AliceO2Group/AliceO2/pull/15454) 2026-05-30: Add PV-related rejections to cosmic matcher for interleaved mode by [@shahor02](https://github.com/shahor02)
 - [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
+- [\#15458](https://github.com/AliceO2Group/AliceO2/pull/15458) 2026-06-01: Use full TrackParCov for TPC residuals TrackData.par by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
