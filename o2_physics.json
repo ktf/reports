@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-28T16:31:40Z",
-            "title": "[PWGLF] Add extra histo for charged track pt",
-            "number": 16437,
-            "author": {
-              "login": "gbencedi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-28T06:07:40Z",
-            "title": "[PWGLF] Added extra MID condition",
-            "number": 16362,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGDQ] Implement new analysis cuts for Electron2025_4_ldong",
@@ -1985,31 +1945,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] MC matching for kinkBuilder + SP process function for L1405",
             "number": 16484,
             "author": {
@@ -2378,26 +2313,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Remove workaround for trigger bc shift",
-            "number": 16489,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-01T15:27:43Z",
             "title": "[PWGLF] Bug Fix in hStrangeCorrelation.cxx",
@@ -2492,6 +2407,26 @@
             "mergedAt": "2026-06-01T14:12:32Z",
             "title": "[Infrastructure] Adding rights for the new PWG-CF convener (me) and new femtoscopy PAG…",
             "number": 16488,
+            "author": {
+              "login": "lauraser"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-01T16:36:40Z",
+            "title": "[Infrastructure] Delete old convener",
+            "number": 16491,
             "author": {
               "login": "lauraser"
             },
@@ -2619,17 +2554,97 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-01T16:36:40Z",
-            "title": "[Infrastructure] Delete old convener",
-            "number": 16491,
+            "mergedAt": "2026-06-01T17:00:37Z",
+            "title": "[Common] Remove workaround for trigger bc shift",
+            "number": 16489,
             "author": {
-              "login": "lauraser"
+              "login": "ekryshen"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CODEOWNERS"
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] feat(taskLcToK0sP): add THnSparse with ML scores, align with taskLc patterns",
+            "number": 16492,
+            "author": {
+              "login": "dongfangqingxin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add zdc-extra-table-reader task",
+            "number": 16028,
+            "author": {
+              "login": "udmitrie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Store different MFT track type info into LRTables",
+            "number": 16493,
+            "author": {
+              "login": "abmodak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
                   }
                 }
               ]
