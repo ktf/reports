@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-13T07:04:36Z",
-            "title": "Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger",
-            "number": 15393,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFLPCMVSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL: streamline option building",
-            "number": 15320,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-13T08:54:08Z",
             "title": "[ALICE3] TRK: adjustments for z and r of services, split OT barrel into two halves",
             "number": 15395,
@@ -2980,36 +2925,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL Analysis: fix for parent file reading",
-            "number": 15449,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
             "number": 15380,
             "author": {
@@ -3763,26 +3678,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS: Modify computePhi to constexpr and clean includes",
-            "number": 15461,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-01T08:50:37Z",
             "title": "Add TPCCorrMap configurable to tpc-scalers only",
@@ -3855,6 +3750,141 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "StepTHn: speedup filling",
+            "number": 15443,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StepTHn.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StepTHn.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "ITS: Modify computePhi to constexpr and clean includes",
+            "number": 15461,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: constexpr computePhi",
+            "number": 15462,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/detail/basicMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "StepTHn: do a pre lookup for the bin using a uniform grid",
+            "number": 15444,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StepTHn.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StepTHn.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-01T09:33:25Z",
+            "title": "DPL Analysis: fix for parent file reading",
+            "number": 15449,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -3885,46 +3915,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "StepTHn: speedup filling",
-            "number": 15443,
+            "title": "DPL Analysis: reserve binary views to avoid arrow preallocating extra buffers",
+            "number": 15463,
             "author": {
-              "login": "ktf"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/StepTHn.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/StepTHn.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "StepTHn: do a pre lookup for the bin using a uniform grid",
-            "number": 15444,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/StepTHn.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/StepTHn.cxx"
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
                   }
                 }
               ]

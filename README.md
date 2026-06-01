@@ -6,6 +6,7 @@
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
+- [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14994](https://github.com/AliceO2Group/AliceO2/pull/14994) 2026-05-31: Add Lc resonances to physics constants by [@apalasciano](https://github.com/apalasciano)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
@@ -22,7 +23,6 @@
 - [\#15351](https://github.com/AliceO2Group/AliceO2/pull/15351) 2026-05-13: ALICE3: start global tracking directory with TRK tracking (CPU+GPU and ROF staggering) by [@mpuccio](https://github.com/mpuccio)
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
 - [\#15390](https://github.com/AliceO2Group/AliceO2/pull/15390) 2026-05-15: ITS: allow to reconstruct incomplete track topologies by [@f3sch](https://github.com/f3sch)
-- [\#15393](https://github.com/AliceO2Group/AliceO2/pull/15393) 2026-05-13: Optionally aggregate CMV triggers per FLP + Optionally exclude certain specs from the trigger by [@shahor02](https://github.com/shahor02)
 - [\#15394](https://github.com/AliceO2Group/AliceO2/pull/15394) 2026-05-13: Fixes for ITS/MFT decoding ensureContinuousROF effects. by [@shahor02](https://github.com/shahor02)
 - [\#15395](https://github.com/AliceO2Group/AliceO2/pull/15395) 2026-05-13: [ALICE3] TRK: adjustments for z and r of services, split OT barrel into two halves by [@altsybee](https://github.com/altsybee)
 - [\#15397](https://github.com/AliceO2Group/AliceO2/pull/15397) 2026-05-13: [ALICE 3] Fix sensitive volumes definition for FT3  by [@scannito](https://github.com/scannito)
@@ -69,6 +69,7 @@
 - [\#15438](https://github.com/AliceO2Group/AliceO2/pull/15438) 2026-05-26: DPL MCP: add server to inspect the perf results by [@ktf](https://github.com/ktf)
 - [\#15439](https://github.com/AliceO2Group/AliceO2/pull/15439) 2026-05-27: DPL: recycle buffers when sending metrics by [@ktf](https://github.com/ktf)
 - [\#15441](https://github.com/AliceO2Group/AliceO2/pull/15441) 2026-05-26: Allow retries by [@ktf](https://github.com/ktf)
+- [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15451](https://github.com/AliceO2Group/AliceO2/pull/15451) 2026-05-29: DPL MCP: a server to investigate running trains on hyperloop by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
