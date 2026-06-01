@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Implement new analysis cuts for Electron2025_4_ldong",
-            "number": 16427,
-            "author": {
-              "login": "donglovo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-29T05:05:26Z",
             "title": "[PWGCF] flowDirectedFlowTask.cxx: adding q1 axis th the resolution",
@@ -901,31 +881,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Improve performance of FulfillsITSHitRequirements",
-            "number": 16397,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelection.h"
                   }
                 }
               ]
@@ -2380,31 +2335,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] feat(taskLcToK0sP): add THnSparse with ML scores, align with taskLc patterns",
-            "number": 16492,
-            "author": {
-              "login": "dongfangqingxin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add zdc-extra-table-reader task",
             "number": 16028,
             "author": {
@@ -2540,36 +2470,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Store different MFT track type info into LRTables",
-            "number": 16493,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Add globalBc to DQ MC data model for MC truth BC checks",
             "number": 16398,
             "author": {
@@ -2645,6 +2545,116 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/nucleiAntineutronCex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-01T20:29:19Z",
+            "title": "[PWGCF] Store different MFT track type info into LRTables",
+            "number": 16493,
+            "author": {
+              "login": "abmodak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Improve performance of FulfillsITSHitRequirements",
+            "number": 16397,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TrackSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TrackSelection.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] feat(taskLcToK0sP): add THnSparse with ML scores, align with taskLc patterns",
+            "number": 16492,
+            "author": {
+              "login": "dongfangqingxin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF/HFC] Adding initial setup for correlation and event mixing at MC truth level",
+            "number": 16061,
+            "author": {
+              "login": "deependra170598"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDstarHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDstarHadrons.cxx"
                   }
                 }
               ]
