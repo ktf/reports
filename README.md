@@ -9,6 +9,7 @@
 - [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#14994](https://github.com/AliceO2Group/AliceO2/pull/14994) 2026-05-31: Add Lc resonances to physics constants by [@apalasciano](https://github.com/apalasciano)
+- [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - DataFormats
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
@@ -21,7 +22,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
-- [\#15390](https://github.com/AliceO2Group/AliceO2/pull/15390) 2026-05-15: ITS: allow to reconstruct incomplete track topologies by [@f3sch](https://github.com/f3sch)
 - [\#15398](https://github.com/AliceO2Group/AliceO2/pull/15398) 2026-05-27: Update ALICE3 RICH base parameters to v3b by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15403](https://github.com/AliceO2Group/AliceO2/pull/15403) 2026-05-15: Configure TPCFLPCMVSpec output accorging to the triggerPerFlp flag by [@shahor02](https://github.com/shahor02)
@@ -33,6 +33,7 @@
 - [\#15411](https://github.com/AliceO2Group/AliceO2/pull/15411) 2026-05-20: Fixes for ROFs downscaling for ITS tracking by [@shahor02](https://github.com/shahor02)
 - [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15414](https://github.com/AliceO2Group/AliceO2/pull/15414) 2026-05-21: [ALICE3] IOTOF: align geometry to specs by [@njacazio](https://github.com/njacazio)
+- [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15418](https://github.com/AliceO2Group/AliceO2/pull/15418) 2026-05-21: TPC: add option for disabling corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15420](https://github.com/AliceO2Group/AliceO2/pull/15420) 2026-05-21: ALICE3: factor GPU tracking into dynamically loaded CUDA/HIP backend by [@mpuccio](https://github.com/mpuccio)
 - [\#15422](https://github.com/AliceO2Group/AliceO2/pull/15422) 2026-05-26: ITS: adjust printing and use mask by [@f3sch](https://github.com/f3sch)
