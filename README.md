@@ -11,6 +11,7 @@
 - [\#14994](https://github.com/AliceO2Group/AliceO2/pull/14994) 2026-05-31: Add Lc resonances to physics constants by [@apalasciano](https://github.com/apalasciano)
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
+- [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
@@ -51,6 +52,7 @@
 - [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
 - [\#15458](https://github.com/AliceO2Group/AliceO2/pull/15458) 2026-06-01: Use full TrackParCov for TPC residuals TrackData.par by [@shahor02](https://github.com/shahor02)
 - [\#15460](https://github.com/AliceO2Group/AliceO2/pull/15460) 2026-06-01: Optionally store refs on ITS parts of all PV contributors by [@shahor02](https://github.com/shahor02)
+- [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
 - [\#15467](https://github.com/AliceO2Group/AliceO2/pull/15467) 2026-06-01: Optionally use direct ITS contributor refs stored with PV by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15083](https://github.com/AliceO2Group/AliceO2/pull/15083) 2026-05-15: BinningPolicy: Fix bug in getAllBinsCount by [@vkucera](https://github.com/vkucera)
