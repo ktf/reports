@@ -53,6 +53,7 @@
 - [\#15460](https://github.com/AliceO2Group/AliceO2/pull/15460) 2026-06-01: Optionally store refs on ITS parts of all PV contributors by [@shahor02](https://github.com/shahor02)
 - [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
 - [\#15467](https://github.com/AliceO2Group/AliceO2/pull/15467) 2026-06-01: Optionally use direct ITS contributor refs stored with PV by [@shahor02](https://github.com/shahor02)
+- [\#15477](https://github.com/AliceO2Group/AliceO2/pull/15477) 2026-06-03: ITS: fix vertex LUT building by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
 - [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
