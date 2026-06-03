@@ -4,96 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-29T23:19:10Z",
-            "title": "[PWGCF] Remove dynamic columns and checks of reassociated MFT tracks",
-            "number": 16464,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-30T08:02:12Z",
-            "title": "[ALICE3] Switch from McPartWithDaus to McParticles with --aod-origin-replace in otf decayer",
-            "number": 16448,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/Decayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/OTFParticle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFMCParticle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/tracksAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3DecayerQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGLF] Added pT dependent pid cuts selection also make rapidity as configurables and added some qa plots",
@@ -639,26 +549,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-01T09:22:13Z",
-            "title": "[PWGEM/Dilepton] add hTPCdEdxMC",
-            "number": 16480,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-28T09:02:26Z",
             "title": "[PWGUD] Add ptSpectraInclusiveUpc.cxx",
             "number": 16386,
@@ -1020,31 +910,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Improve performance of FulfillsITSHitRequirements",
             "number": 16397,
             "author": {
@@ -1160,26 +1025,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowDirectedFlowTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Avoid recalculating BB over and over",
-            "number": 16432,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/PID/TPCPIDResponse.h"
                   }
                 }
               ]
@@ -2630,6 +2475,121 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Avoid recalculating BB over and over",
+            "number": 16432,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/PID/TPCPIDResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add zdc-extra-table-reader task",
+            "number": 16028,
+            "author": {
+              "login": "udmitrie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-03T13:48:52Z",
+            "title": "[PWGEM/Dilepton] update taggingHFE.cxx",
+            "number": 16521,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/SemiCharmTag.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-01T09:22:13Z",
+            "title": "[PWGEM/Dilepton] add hTPCdEdxMC",
+            "number": 16480,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF] update strangenesstofpid.cxx to use primary-TOF calibration",
+            "number": 14782,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
                   }
                 }
               ]
