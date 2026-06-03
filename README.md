@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
-- [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
 - [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
@@ -27,7 +26,6 @@
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
 - [\#15398](https://github.com/AliceO2Group/AliceO2/pull/15398) 2026-05-27: Update ALICE3 RICH base parameters to v3b by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
-- [\#15405](https://github.com/AliceO2Group/AliceO2/pull/15405) 2026-05-17: Repair raw tf part counters / headers by [@shahor02](https://github.com/shahor02)
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15410](https://github.com/AliceO2Group/AliceO2/pull/15410) 2026-05-19: [MFT] Fixing number of links per RU/zone in mapping by [@mcoquet642](https://github.com/mcoquet642)
@@ -58,7 +56,6 @@
 - [\#15477](https://github.com/AliceO2Group/AliceO2/pull/15477) 2026-06-03: ITS: fix vertex LUT building by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
-- [\#15388](https://github.com/AliceO2Group/AliceO2/pull/15388) 2026-05-18: DPL: auto register CCDB path options by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 - [\#15408](https://github.com/AliceO2Group/AliceO2/pull/15408) 2026-05-19: DPL MCP: support multiple workflows by [@ktf](https://github.com/ktf)
 - [\#15428](https://github.com/AliceO2Group/AliceO2/pull/15428) 2026-05-22: DPL MCP: allow connecting to a running Hyperloop test by [@ktf](https://github.com/ktf)

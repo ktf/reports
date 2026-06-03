@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-17T19:19:36Z",
-            "title": "Repair raw tf part counters / headers",
-            "number": 15405,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/include/TFReaderDD/SubTimeFrameFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/include/TFReaderDD/SubTimeFrameFileReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/SubTimeFrameFileReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/tf-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-18T08:22:43Z",
-            "title": "DPL: auto register CCDB path options",
-            "number": 15388,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-08-12T22:07:19Z",
             "title": "MCH: improvements to the pedestal calibrator",
             "number": 14564,
@@ -4045,6 +3975,46 @@
                 {
                   "node": {
                     "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid unneeded lambda",
+            "number": 15478,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: avoid going through the slow C-locale enable tolower",
+            "number": 15479,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
                   }
                 }
               ]
