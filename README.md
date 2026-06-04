@@ -22,6 +22,7 @@
 - [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
 - [\#15460](https://github.com/AliceO2Group/AliceO2/pull/15460) 2026-06-01: Optionally store refs on ITS parts of all PV contributors by [@shahor02](https://github.com/shahor02)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
+- [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Detectors
 - [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
@@ -55,6 +56,7 @@
 - [\#15467](https://github.com/AliceO2Group/AliceO2/pull/15467) 2026-06-01: Optionally use direct ITS contributor refs stored with PV by [@shahor02](https://github.com/shahor02)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
 - [\#15477](https://github.com/AliceO2Group/AliceO2/pull/15477) 2026-06-03: ITS: fix vertex LUT building by [@f3sch](https://github.com/f3sch)
+- [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
 - [\#15482](https://github.com/AliceO2Group/AliceO2/pull/15482) 2026-06-04: Account for the DD headers convention, add TPC/CMVTrigger spec to TFReader by [@shahor02](https://github.com/shahor02)
 - [\#15483](https://github.com/AliceO2Group/AliceO2/pull/15483) 2026-06-04: Avoid casting empty buffer to ITS/MFT CTF ref. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
