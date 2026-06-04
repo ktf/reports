@@ -30,7 +30,6 @@
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
-- [\#15410](https://github.com/AliceO2Group/AliceO2/pull/15410) 2026-05-19: [MFT] Fixing number of links per RU/zone in mapping by [@mcoquet642](https://github.com/mcoquet642)
 - [\#15411](https://github.com/AliceO2Group/AliceO2/pull/15411) 2026-05-20: Fixes for ROFs downscaling for ITS tracking by [@shahor02](https://github.com/shahor02)
 - [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15414](https://github.com/AliceO2Group/AliceO2/pull/15414) 2026-05-21: [ALICE3] IOTOF: align geometry to specs by [@njacazio](https://github.com/njacazio)
