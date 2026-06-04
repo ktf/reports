@@ -59,10 +59,10 @@
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
 - [\#15482](https://github.com/AliceO2Group/AliceO2/pull/15482) 2026-06-04: Account for the DD headers convention, add TPC/CMVTrigger spec to TFReader by [@shahor02](https://github.com/shahor02)
 - [\#15483](https://github.com/AliceO2Group/AliceO2/pull/15483) 2026-06-04: Avoid casting empty buffer to ITS/MFT CTF ref. by [@shahor02](https://github.com/shahor02)
+- [\#15487](https://github.com/AliceO2Group/AliceO2/pull/15487) 2026-06-04: Please consider the following formatting changes to #15486 by [@alibuild](https://github.com/alibuild)
 ## Recent developments in O2 - Framework
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
-- [\#15408](https://github.com/AliceO2Group/AliceO2/pull/15408) 2026-05-19: DPL MCP: support multiple workflows by [@ktf](https://github.com/ktf)
 - [\#15428](https://github.com/AliceO2Group/AliceO2/pull/15428) 2026-05-22: DPL MCP: allow connecting to a running Hyperloop test by [@ktf](https://github.com/ktf)
 - [\#15433](https://github.com/AliceO2Group/AliceO2/pull/15433) 2026-05-24: DPL: add debug information for rate limiting by [@ktf](https://github.com/ktf)
 - [\#15434](https://github.com/AliceO2Group/AliceO2/pull/15434) 2026-05-25: DPL: reduce number of spurious warnings by [@ktf](https://github.com/ktf)

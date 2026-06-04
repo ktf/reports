@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-02-25T22:41:13Z",
-            "title": "MCH: introduce digit modifier in filtering workflow",
-            "number": 13924,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/include/MCHDigitFiltering/DigitModifier.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/include/MCHDigitFiltering/DigitModifierParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitFilteringSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitModifier.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitModifierParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/MCHDigitFilteringLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-19T09:39:29Z",
-            "title": "DPL MCP: support multiple workflows",
-            "number": 15408,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/scripts/dpl-mcp-server/dpl_mcp_server.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: simplify InputSpanIterator further",
@@ -3620,6 +3550,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "updated mid simulation chamber response parameters for Run 3",
+            "number": 15484,
+            "author": {
+              "login": "comrademarvin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Simulation/src/ChamberResponseParams.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Fixes for ITS seeding vertexer",
             "number": 15485,
             "author": {
@@ -3645,6 +3595,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] Add mag field visualization",
+            "number": 15486,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -3659,327 +3629,7 @@
                 },
                 {
                   "node": {
-                    "path": "Common/Utils/include/CommonUtils/NameConf.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/src/NameConf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/CMV.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingMFT.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/LookUp.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/ChipMappingMFT.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/STFDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/include/TFReaderDD/SubTimeFrameFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/include/TFReaderDD/SubTimeFrameFileReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/RawTFDumpSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/SubTimeFrameFileReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/tf-data-dump-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/tf-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CMVHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/drawCMV.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CMVHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsOptions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CMVToVectorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCAggregateCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFLPCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CMVToVectorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCScalerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-flp-cmv.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/test/test_cmv-trigger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/DCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCClusterStatistics.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCClusterStatistics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTPCExtraADC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebug.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFMCLabelFlattener.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinderDump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/kernels.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/utils/VcShim.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/CorrectionMapsHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/CorrectionMapsTypes.h"
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
                   }
                 },
                 {
@@ -3991,21 +3641,6 @@
                   "node": {
                     "path": "doc/data/2026-06-o2_releases.json"
                   }
-                },
-                {
-                  "node": {
-                    "path": "log.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
                 }
               ]
             }
@@ -4013,18 +3648,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "updated mid simulation chamber response parameters for Run 3",
-            "number": 15484,
+            "state": "MERGED",
+            "mergedAt": "2026-06-04T17:39:08Z",
+            "title": "Please consider the following formatting changes to #15486",
+            "number": 15487,
             "author": {
-              "login": "comrademarvin"
+              "login": "alibuild"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/MUON/MID/Simulation/src/ChamberResponseParams.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
                   }
                 }
               ]
