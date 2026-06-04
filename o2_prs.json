@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-02-20T21:36:30Z",
-            "title": "MUON: added option for storing nCandidates in the MFT-MCH matching",
-            "number": 13977,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2025-02-25T22:41:31Z",
             "title": "MCH: fix for the DE600 electronics mapping",
             "number": 13921,
@@ -3310,41 +3290,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU/TPC: Use qTot as marker for HIP clusters instead of qMax",
-            "number": 15481,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCClusterStatistics.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL Analysis: shortcircuit creation of empty slices",
             "number": 15480,
             "author": {
@@ -3355,46 +3300,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/GroupSlicer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add ITS stuck-pixel CCDB object output",
-            "number": 15468,
-            "author": {
-              "login": "JaehyeokRyu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/StuckPixelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/src/ITSMFTDataFormatsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DeadMapBuilderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
                   }
                 }
               ]
@@ -3680,6 +3585,106 @@
                 {
                   "node": {
                     "path": "doc/data/2026-06-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add ITS stuck-pixel CCDB object output",
+            "number": 15468,
+            "author": {
+              "login": "JaehyeokRyu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/StuckPixelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/src/ITSMFTDataFormatsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DeadMapBuilderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU/TPC: Use qTot as marker for HIP clusters instead of qMax",
+            "number": 15481,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCClusterStatistics.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCClusterStatistics.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid casting empty buffer to ITS/MFT CTF ref.",
+            "number": 15483,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/EntropyDecoderSpec.cxx"
                   }
                 }
               ]

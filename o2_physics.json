@@ -64,31 +64,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Adding file jetHadronsPID.cxx and it's workflow",
-            "number": 16012,
-            "author": {
-              "login": "llorenc-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-01T07:30:17Z",
             "title": "[PWGLF] Add explicit ROOT leaflists for tree branches",
@@ -1871,41 +1846,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fix bugs on hist manager and close triplet rejection",
-            "number": 16517,
-            "author": {
-              "login": "Roberta-Ferioli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/closeTripletRejection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackCascade.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Refactoring and bug fixes",
             "number": 16518,
             "author": {
@@ -1999,31 +1939,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-03T13:48:52Z",
             "title": "[PWGEM/Dilepton] update taggingHFE.cxx",
@@ -2106,26 +2021,6 @@
                 {
                   "node": {
                     "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add bc process function and update histograms in centralityQa.cxx",
-            "number": 16523,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
                   }
                 }
               ]
@@ -2746,26 +2641,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
-            "number": 16424,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Add track-rotation option for dielectron pair filling",
             "number": 16473,
             "author": {
@@ -3006,6 +2881,131 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-04T08:34:02Z",
+            "title": "[PWGCF] Fix bugs on hist manager and close triplet rejection",
+            "number": 16517,
+            "author": {
+              "login": "Roberta-Ferioli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/closeTripletRejection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackCascade.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add bc process function and update histograms in centralityQa.cxx",
+            "number": 16523,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding file jetHadronsPID.cxx and it's workflow",
+            "number": 16012,
+            "author": {
+              "login": "llorenc-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add zdc-extra-table-reader task",
+            "number": 16028,
+            "author": {
+              "login": "udmitrie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
+            "number": 16424,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/ML/MlResponse.h"
                   }
                 }
               ]
