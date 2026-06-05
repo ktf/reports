@@ -52,6 +52,7 @@
 - [\#15460](https://github.com/AliceO2Group/AliceO2/pull/15460) 2026-06-01: Optionally store refs on ITS parts of all PV contributors by [@shahor02](https://github.com/shahor02)
 - [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
 - [\#15467](https://github.com/AliceO2Group/AliceO2/pull/15467) 2026-06-01: Optionally use direct ITS contributor refs stored with PV by [@shahor02](https://github.com/shahor02)
+- [\#15469](https://github.com/AliceO2Group/AliceO2/pull/15469) 2026-06-05: ITS: simplifies Cluster class by [@f3sch](https://github.com/f3sch)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
 - [\#15477](https://github.com/AliceO2Group/AliceO2/pull/15477) 2026-06-03: ITS: fix vertex LUT building by [@f3sch](https://github.com/f3sch)
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
