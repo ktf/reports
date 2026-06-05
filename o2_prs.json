@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-20T10:10:44Z",
-            "title": "Fixes for ROFs downscaling for ITS tracking",
-            "number": 15411,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/FastMultEst.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-20T12:41:33Z",
-            "title": "Add token for the test CCDB instance",
-            "number": 15416,
-            "author": {
-              "login": "mrtineide"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "GPU: avoid redefinition of vector types if HIP already did it",
@@ -2921,36 +2881,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ITS: simplifies Cluster class",
-            "number": 15469,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Cluster.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Tracking Development Branch Rebased on new Transfomration Maps - DO NOT MERGE",
             "number": 15318,
             "author": {
@@ -3336,26 +3266,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "updated mid simulation chamber response parameters for Run 3",
-            "number": 15484,
-            "author": {
-              "login": "comrademarvin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Simulation/src/ChamberResponseParams.cxx"
                   }
                 }
               ]
@@ -3801,6 +3711,231 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "updated mid simulation chamber response parameters for Run 3",
+            "number": 15484,
+            "author": {
+              "login": "comrademarvin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Simulation/src/ChamberResponseParams.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: simplifies Cluster class",
+            "number": 15469,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Cluster.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw",
+            "number": 15491,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Chebyshev3DCalc.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/test/testChebyshev3D.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[IOTOF]: Updates in the TOF digitization for ALICE3",
+            "number": 15492,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/include/DataFormatsIOTOF/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/DataFormatsIOTOFLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/IOTOFBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Chip.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Chip.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/DPLDigitizerParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/IOTOFSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Segmentation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/include/IOTOFWorkflow/DigitReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/include/IOTOFWorkflow/DigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/DigitReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/DigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/iotof-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/IOTOFDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/IOTOFDigitizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
                   }
                 }
               ]
