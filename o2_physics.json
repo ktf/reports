@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-01T09:09:23Z",
-            "title": "[PWGDQ] add efficiency type for random plane test",
-            "number": 16481,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-26T23:43:23Z",
             "title": "[PWGCF] Add task for TrackTrackCascade analysis",
             "number": 16371,
@@ -2879,6 +2854,46 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-05T06:27:11Z",
+            "title": "[PWGLF] Added some event selection cuts, and TOF pid cuts for low momentum",
+            "number": 16533,
+            "author": {
+              "login": "SwatiSaha-1997"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/deltaAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-05T09:27:49Z",
+            "title": "[PWGDQ] fixes to the feature extraction in the ML response class",
+            "number": 16538,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MuonMatchingMlResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGDQ] Add track-rotation option for dielectron pair filling",
@@ -2904,46 +2919,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-05T06:27:11Z",
-            "title": "[PWGLF] Added some event selection cuts, and TOF pid cuts for low momentum",
-            "number": 16533,
-            "author": {
-              "login": "SwatiSaha-1997"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/deltaAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] fixes to the feature extraction in the ML response class",
-            "number": 16538,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MuonMatchingMlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
@@ -2956,6 +2931,66 @@
                 {
                   "node": {
                     "path": "Tools/ML/MlResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] cleanup unnecessary lines",
+            "number": 16539,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/checkMCPairTemplate.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
                   }
                 }
               ]
