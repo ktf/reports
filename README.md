@@ -79,6 +79,7 @@
 - [\#15474](https://github.com/AliceO2Group/AliceO2/pull/15474) 2026-06-02: DPL Analysis: fix new dynamic matchers breaking process(enumeration) by [@aalkin](https://github.com/aalkin)
 - [\#15475](https://github.com/AliceO2Group/AliceO2/pull/15475) 2026-06-02: DPL MCP: add ability to inspect analyses on hyperloop by [@ktf](https://github.com/ktf)
 - [\#15479](https://github.com/AliceO2Group/AliceO2/pull/15479) 2026-06-05: DPL Analysis: avoid going through the slow C-locale enable tolower by [@ktf](https://github.com/ktf)
+- [\#15480](https://github.com/AliceO2Group/AliceO2/pull/15480) 2026-06-07: DPL Analysis: shortcircuit creation of empty slices by [@ktf](https://github.com/ktf)
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
