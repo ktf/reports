@@ -13,6 +13,8 @@
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 - [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
+- [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
+- [\#15491](https://github.com/AliceO2Group/AliceO2/pull/15491) 2026-06-07: MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15406](https://github.com/AliceO2Group/AliceO2/pull/15406) 2026-05-21: ITS: add selections on tracks sharing clusters by [@fchinu](https://github.com/fchinu)
 - [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
@@ -23,6 +25,7 @@
 - [\#15460](https://github.com/AliceO2Group/AliceO2/pull/15460) 2026-06-01: Optionally store refs on ITS parts of all PV contributors by [@shahor02](https://github.com/shahor02)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
+- [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#15315](https://github.com/AliceO2Group/AliceO2/pull/15315) 2026-05-23: TPC: move nthreads to local option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15352](https://github.com/AliceO2Group/AliceO2/pull/15352) 2026-05-25: [ALICE3] TRK: fix ACTS clusterer compilation by [@njacazio](https://github.com/njacazio)
@@ -59,7 +62,9 @@
 - [\#15482](https://github.com/AliceO2Group/AliceO2/pull/15482) 2026-06-04: Account for the DD headers convention, add TPC/CMVTrigger spec to TFReader by [@shahor02](https://github.com/shahor02)
 - [\#15483](https://github.com/AliceO2Group/AliceO2/pull/15483) 2026-06-04: Avoid casting empty buffer to ITS/MFT CTF ref. by [@shahor02](https://github.com/shahor02)
 - [\#15484](https://github.com/AliceO2Group/AliceO2/pull/15484) 2026-06-06: updated mid simulation chamber response parameters for Run 3 by [@comrademarvin](https://github.com/comrademarvin)
+- [\#15485](https://github.com/AliceO2Group/AliceO2/pull/15485) 2026-06-07: Fixes for ITS seeding vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15487](https://github.com/AliceO2Group/AliceO2/pull/15487) 2026-06-04: Please consider the following formatting changes to #15486 by [@alibuild](https://github.com/alibuild)
+- [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
@@ -81,6 +86,8 @@
 - [\#15479](https://github.com/AliceO2Group/AliceO2/pull/15479) 2026-06-05: DPL Analysis: avoid going through the slow C-locale enable tolower by [@ktf](https://github.com/ktf)
 - [\#15480](https://github.com/AliceO2Group/AliceO2/pull/15480) 2026-06-07: DPL Analysis: shortcircuit creation of empty slices by [@ktf](https://github.com/ktf)
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Steer
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
