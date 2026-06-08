@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-02T11:25:24Z",
-            "title": "[PWGCF] Added new plot with different weight",
-            "number": 16502,
-            "author": {
-              "login": "huinaibing"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-02T10:22:20Z",
-            "title": "[Common] Update centralityQa task",
-            "number": 16490,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-02T11:29:11Z",
             "title": "[PWGEM] Fix includes",
             "number": 16412,
@@ -2096,26 +2056,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Fix missing McCollisions and refactor MC histograms into subdirectories in taskLcToK0sP.cxx",
-            "number": 16541,
-            "author": {
-              "login": "dongfangqingxin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] UPC Cand Tabel producer GlobalMuon changed propagate method",
             "number": 16549,
             "author": {
@@ -2695,31 +2635,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-02T13:52:41Z",
-            "title": "[PWGHF] feat(taskLcToK0sP): add THnSparse with ML scores, align with taskLc patterns",
-            "number": 16492,
-            "author": {
-              "login": "dongfangqingxin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-05T17:41:54Z",
             "title": "[PWGJE] jetCrossSectionEfficiency: cascade variants + hybrid-MC handling",
             "number": 16546,
@@ -2874,26 +2789,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] add proton selection",
-            "number": 16564,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-08T11:31:39Z",
             "title": "[PWGCF] jEPFlowAnalysis.cxx: add activity variable",
@@ -2906,6 +2801,26 @@
                 {
                   "node": {
                     "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Reserve memory upfront when creating the track propagation table",
+            "number": 16565,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
                   }
                 }
               ]
@@ -2931,6 +2846,91 @@
                 {
                   "node": {
                     "path": "Common/Core/EventPlaneHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-08T12:26:55Z",
+            "title": "[PWGCF] add proton selection",
+            "number": 16564,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix missing McCollisions and refactor MC histograms into subdirectories in taskLcToK0sP.cxx",
+            "number": 16541,
+            "author": {
+              "login": "dongfangqingxin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-02T13:52:41Z",
+            "title": "[PWGHF] feat(taskLcToK0sP): add THnSparse with ML scores, align with taskLc patterns",
+            "number": 16492,
+            "author": {
+              "login": "dongfangqingxin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Update Ds-jet-spec-subs task with MC processing",
+            "number": 16566,
+            "author": {
+              "login": "monamelop"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
                   }
                 }
               ]
