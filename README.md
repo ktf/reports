@@ -37,7 +37,6 @@
 - [\#15414](https://github.com/AliceO2Group/AliceO2/pull/15414) 2026-05-21: [ALICE3] IOTOF: align geometry to specs by [@njacazio](https://github.com/njacazio)
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15418](https://github.com/AliceO2Group/AliceO2/pull/15418) 2026-05-21: TPC: add option for disabling corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15420](https://github.com/AliceO2Group/AliceO2/pull/15420) 2026-05-21: ALICE3: factor GPU tracking into dynamically loaded CUDA/HIP backend by [@mpuccio](https://github.com/mpuccio)
 - [\#15422](https://github.com/AliceO2Group/AliceO2/pull/15422) 2026-05-26: ITS: adjust printing and use mask by [@f3sch](https://github.com/f3sch)
 - [\#15423](https://github.com/AliceO2Group/AliceO2/pull/15423) 2026-05-21: Update CorrectionMapsOptions help hints by [@shahor02](https://github.com/shahor02)
 - [\#15425](https://github.com/AliceO2Group/AliceO2/pull/15425) 2026-05-27: ITS: fix building of upc ROF mask by [@f3sch](https://github.com/f3sch)
@@ -67,6 +66,7 @@
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
+- [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 - [\#15428](https://github.com/AliceO2Group/AliceO2/pull/15428) 2026-05-22: DPL MCP: allow connecting to a running Hyperloop test by [@ktf](https://github.com/ktf)
 - [\#15433](https://github.com/AliceO2Group/AliceO2/pull/15433) 2026-05-24: DPL: add debug information for rate limiting by [@ktf](https://github.com/ktf)
