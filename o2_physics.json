@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-29T19:17:17Z",
-            "title": "[PWGCF] Added PID ITS nsigma related histograms",
-            "number": 16462,
-            "author": {
-              "login": "SwatiSaha-1997"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/v0ptHadPiKaProt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-02T12:24:49Z",
-            "title": "[PWGEM/Dilepton] reduce data size in treeCreatorElectronMLDDA.cxx",
-            "number": 16503,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-20T14:29:08Z",
-            "title": "[ALICE3] fix table filling in the otf-tracker",
-            "number": 16324,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-02T12:57:11Z",
             "title": "[PWGJE] Fix includes",
             "number": 16414,
@@ -2864,18 +2794,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix missing McCollisions and refactor MC histograms into subdirectories in taskLcToK0sP.cxx",
-            "number": 16541,
+            "state": "MERGED",
+            "mergedAt": "2026-06-08T14:27:40Z",
+            "title": "[PWGJE] Update Ds-jet-spec-subs task with MC processing",
+            "number": 16566,
             "author": {
-              "login": "dongfangqingxin"
+              "login": "monamelop"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
                   }
                 }
               ]
@@ -2904,18 +2834,83 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-08T14:27:40Z",
-            "title": "[PWGJE] Update Ds-jet-spec-subs task with MC processing",
-            "number": 16566,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix missing McCollisions and refactor MC histograms into subdirectories in taskLcToK0sP.cxx",
+            "number": 16541,
             "author": {
-              "login": "monamelop"
+              "login": "dongfangqingxin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
+                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fixes to L1405 workflow",
+            "number": 16571,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Created new task: Produce tables for diffusion wake analysis",
+            "number": 16570,
+            "author": {
+              "login": "nicola-wilson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/tableDiffWake.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] trackIndexSkimCreator: Avoid computing the pVector of bachelor1 in the inner loop",
+            "number": 16569,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
