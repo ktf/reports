@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-02T15:09:16Z",
-            "title": "[PWGHF] Apply UPC Lc ZDC timing cut online and simplify TTree",
-            "number": 16501,
-            "author": {
-              "login": "Rrantu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskUpcLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-02T16:10:34Z",
             "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.4.0 to 9.5.0",
             "number": 16506,
@@ -2549,31 +2529,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] EventPlaneHelper: avoid copying FT0 Geometry on every call",
-            "number": 16444,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/EventPlaneHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/EventPlaneHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-08T12:26:55Z",
             "title": "[PWGCF] add proton selection",
@@ -2774,26 +2729,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] trackIndexSkimCreator: Avoid computing the pVector of bachelor1 in the inner loop",
-            "number": 16569,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-08T18:31:56Z",
             "title": "[PWGLF] Fixes to L1405 workflow",
@@ -2866,6 +2801,86 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-08T20:14:29Z",
+            "title": "[PWGEM/Dilepton] update studyDCAFitter.cxx",
+            "number": 16576,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/studyDCAFitter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] trackIndexSkimCreator: Avoid computing the pVector of bachelor1 in the inner loop",
+            "number": 16569,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
+            "number": 16444,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
                   }
                 }
               ]
