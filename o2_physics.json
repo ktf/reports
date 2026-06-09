@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-22T21:42:55Z",
-            "title": "[PWGLF] Fix rapidity cut to use asymmetric range",
-            "number": 16353,
-            "author": {
-              "login": "SuJeong-Ji"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chk892LI.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-02T19:17:52Z",
-            "title": "[PWGHF] Fix trigger daughter rejection logic in MCGen of the D0-hadron correlator",
-            "number": 16509,
-            "author": {
-              "login": "swapneshkhade"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-02T20:19:28Z",
-            "title": "[PWGLF] Add histogram for centrality distribution for correction factors",
-            "number": 16512,
-            "author": {
-              "login": "SuJeong-Ji"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chk892LI.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
@@ -2625,26 +2565,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-08T18:51:13Z",
-            "title": "[PWGLF] added configurable to save the like-sign pairs",
-            "number": 16573,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-08T19:02:40Z",
             "title": "[PWGEM/Dilepton] change order of track selection",
             "number": 16575,
@@ -2689,41 +2609,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
-            "number": 16444,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/EventPlaneHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/EventPlaneHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-08T21:21:45Z",
             "title": "[PWGHF] trackIndexSkimCreator: Avoid computing the pVector of bachelor1 in the inner loop",
@@ -2736,31 +2621,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Created new task: Produce tables for diffusion wake analysis",
-            "number": 16570,
-            "author": {
-              "login": "nicola-wilson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/tableDiffWake.cxx"
                   }
                 }
               ]
@@ -2906,6 +2766,146 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowDirectedFlowTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
+            "number": 16444,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fix emcalCorrectionTask reserve calls",
+            "number": 16580,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Avoid slicing inside the inner loop",
+            "number": 16581,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Created new task: Produce tables for diffusion wake analysis",
+            "number": 16570,
+            "author": {
+              "login": "nicola-wilson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/tableDiffWake.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add PCH to more Jet tasks",
+            "number": 16334,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-08T18:51:13Z",
+            "title": "[PWGLF] added configurable to save the like-sign pairs",
+            "number": 16573,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
                   }
                 }
               ]
