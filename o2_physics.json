@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGHF] Fixing warnings task deuteronfromLb",
-            "number": 16524,
-            "author": {
-              "login": "MRazza879"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-03T18:08:58Z",
             "title": "[Common] Avoid recalculating BB over and over",
@@ -2399,26 +2379,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Reserve memory upfront when creating the track propagation table",
-            "number": 16565,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-09T11:30:06Z",
             "title": "[PWGJE] Systematic flag setup for associates and efficiency",
@@ -2841,6 +2801,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] Implement online workflow for B0->J/Psi K*0",
+            "number": 16594,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJpsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJpsiHadReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse: Fix hardcoded pion mass, add filling only primary MC pairs",
             "number": 16593,
             "author": {
@@ -2881,31 +2876,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Implement online workflow for B0->J/Psi K*0",
-            "number": 16594,
+            "title": "[PWGEM/Dilepton] add deta-dphiPosition at rxy",
+            "number": 16595,
             "author": {
-              "login": "fchinu"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                    "path": "PWGEM/Dilepton/Core/DielectronCut.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJpsiReduced.cxx"
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorJpsiHadReduced.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                    "path": "PWGEM/Dilepton/Core/DileptonMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/prefilterDielectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/studyDCAFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T20:39:11Z",
+            "title": "[Common] Reserve memory upfront when creating the track propagation table",
+            "number": 16565,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
                   }
                 }
               ]
