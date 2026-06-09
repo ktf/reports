@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-03T18:08:58Z",
-            "title": "[Common] Avoid recalculating BB over and over",
-            "number": 16432,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/PID/TPCPIDResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-03T19:37:07Z",
             "title": "[Common,PWGEM,PWGLF,PWGUD] Make sure converters invoke reserve to avoid memory churn",
             "number": 16522,
@@ -716,51 +696,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
-            "number": 16516,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
                   }
                 }
               ]
@@ -2834,6 +2769,96 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T20:39:11Z",
+            "title": "[Common] Reserve memory upfront when creating the track propagation table",
+            "number": 16565,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
+            "number": 16516,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add centrality binning histograms and configurable momentum and dedx binning",
+            "number": 16596,
+            "author": {
+              "login": "PaolaVT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/dedxPidAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/multiplicityPt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse: Fix hardcoded pion mass, add filling only primary MC pairs",
@@ -2874,8 +2899,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T21:21:50Z",
             "title": "[PWGEM/Dilepton] add deta-dphiPosition at rxy",
             "number": 16595,
             "author": {
@@ -2926,26 +2951,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-09T20:39:11Z",
-            "title": "[Common] Reserve memory upfront when creating the track propagation table",
-            "number": 16565,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
                   }
                 }
               ]
