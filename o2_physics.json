@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
-            "number": 16499,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/model.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsDependencies.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-02-25T08:07:35Z",
             "title": "[PWGHF] Adding invariant mass histograms with efficiency weights in task-correlatorD0-hadrons",
@@ -1311,26 +1276,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/MuonMatchingMlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
-            "number": 16424,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
                   }
                 }
               ]
@@ -2651,46 +2596,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Add pair randomization, fix hardcoded pion mass",
-            "number": 16577,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseFemtoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePairSHCentMultKt.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Fix missing McCollisions and refactor MC histograms into subdirectories in taskLcToK0sP.cxx",
             "number": 16541,
             "author": {
@@ -2776,61 +2681,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
-            "number": 16444,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/EventPlaneHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/EventPlaneHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Fix emcalCorrectionTask reserve calls",
-            "number": 16580,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Avoid slicing inside the inner loop",
             "number": 16581,
             "author": {
@@ -2841,31 +2691,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Created new task: Produce tables for diffusion wake analysis",
-            "number": 16570,
-            "author": {
-              "login": "nicola-wilson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/tableDiffWake.cxx"
                   }
                 }
               ]
@@ -2906,6 +2731,176 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FemtoUniverse: Add pair randomization, fix hardcoded pion mass",
+            "number": 16577,
+            "author": {
+              "login": "alicja-pp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseFemtoContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePairSHCentMultKt.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
+            "number": 16424,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/ML/MlResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T08:07:44Z",
+            "title": "[PWGJE] Fix emcalCorrectionTask reserve calls",
+            "number": 16580,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T08:13:35Z",
+            "title": "[PWGHF] Remove option to run B analysis with J/Psi -> ee and add electron PID veto",
+            "number": 16582,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJpsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJpsiHadReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Created new task: Produce tables for diffusion wake analysis",
+            "number": 16570,
+            "author": {
+              "login": "nicola-wilson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/tableDiffWake.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
+            "number": 16444,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
                   }
                 }
               ]
