@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-02-25T08:07:35Z",
-            "title": "[PWGHF] Adding invariant mass histograms with efficiency weights in task-correlatorD0-hadrons",
-            "number": 15097,
-            "author": {
-              "login": "swapneshkhade"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-05-03T07:37:40Z",
-            "title": "[PWGHF] This PR adds D0-specific derived tables for offline event mixing in the D0-hadron correlator",
-            "number": 16063,
-            "author": {
-              "login": "swapneshkhade"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-03T06:32:28Z",
             "title": "[PWGLF] Added histograms with finer binning",
             "number": 16513,
@@ -2661,26 +2616,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] flowDirectedFlowTask.cxx: add histograms",
-            "number": 16579,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowDirectedFlowTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Avoid slicing inside the inner loop",
             "number": 16581,
             "author": {
@@ -2779,26 +2714,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
-            "number": 16424,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-09T08:07:44Z",
             "title": "[PWGJE] Fix emcalCorrectionTask reserve calls",
@@ -2846,6 +2761,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
+            "number": 16444,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T08:54:13Z",
+            "title": "[PWGCF] flowDirectedFlowTask.cxx: add histograms",
+            "number": 16579,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowDirectedFlowTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Update treeCreator for Xic0 -> Xi Pi",
+            "number": 16583,
+            "author": {
+              "login": "jinhyunni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] Created new task: Produce tables for diffusion wake analysis",
             "number": 16570,
             "author": {
@@ -2874,33 +2864,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGCF] EventPlaneHelper: invoke geometry invariant helper once",
-            "number": 16444,
+            "state": "MERGED",
+            "mergedAt": "2026-06-09T09:57:13Z",
+            "title": "[Tools] MlResponse: assure equality of number of checked features to that in the .onnx file",
+            "number": 16424,
             "author": {
-              "login": "ktf"
+              "login": "lubynets"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/EventPlaneHelper.cxx"
+                    "path": "Tools/ML/MlResponse.h"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Optional weights for fraction added",
+            "number": 16584,
+            "author": {
+              "login": "MaximVirta"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/EventPlaneHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/qVectorsTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
                   }
                 }
               ]
