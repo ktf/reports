@@ -27,6 +27,7 @@
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
+- [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 ## Recent developments in O2 - Detectors
 - [\#15398](https://github.com/AliceO2Group/AliceO2/pull/15398) 2026-05-27: Update ALICE3 RICH base parameters to v3b by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
@@ -57,16 +58,15 @@
 - [\#15485](https://github.com/AliceO2Group/AliceO2/pull/15485) 2026-06-07: Fixes for ITS seeding vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15487](https://github.com/AliceO2Group/AliceO2/pull/15487) 2026-06-04: Please consider the following formatting changes to #15486 by [@alibuild](https://github.com/alibuild)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
+- [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
+- [\#15499](https://github.com/AliceO2Group/AliceO2/pull/15499) 2026-06-10: ITS: rename transition to link by [@f3sch](https://github.com/f3sch)
 - [\#15500](https://github.com/AliceO2Group/AliceO2/pull/15500) 2026-06-09: ALICE3: use track extension + allow configuring passes via JSON by [@mpuccio](https://github.com/mpuccio)
 - [\#15501](https://github.com/AliceO2Group/AliceO2/pull/15501) 2026-06-09: [ALICE3] IOTOF: Configurable radii for cylinder TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 ## Recent developments in O2 - Framework
-- [\#15251](https://github.com/AliceO2Group/AliceO2/pull/15251) 2026-05-26: DPL: add ability to get CCDB blobs without deserialization by [@ktf](https://github.com/ktf)
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
-- [\#15438](https://github.com/AliceO2Group/AliceO2/pull/15438) 2026-05-26: DPL MCP: add server to inspect the perf results by [@ktf](https://github.com/ktf)
 - [\#15439](https://github.com/AliceO2Group/AliceO2/pull/15439) 2026-05-27: DPL: recycle buffers when sending metrics by [@ktf](https://github.com/ktf)
-- [\#15441](https://github.com/AliceO2Group/AliceO2/pull/15441) 2026-05-26: Allow retries by [@ktf](https://github.com/ktf)
 - [\#15444](https://github.com/AliceO2Group/AliceO2/pull/15444) 2026-06-01: StepTHn: do a pre lookup for the bin using a uniform grid by [@ktf](https://github.com/ktf)
 - [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
@@ -85,5 +85,6 @@
 ## Recent developments in O2 - Steer
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
+- [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 ## Recent developments in O2 - Utilities
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
