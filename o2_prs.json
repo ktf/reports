@@ -1414,41 +1414,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
-            "number": 15245,
-            "author": {
-              "login": "wpierozak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/compareLUT.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/convertLUTCSVtoROOT.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/fetchLUT.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-04T08:28:03Z",
             "title": "Account for the DD headers convention, add TPC/CMVTrigger spec to TFReader",
@@ -3546,26 +3511,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Enable Alien hybrid config file fetching",
-            "number": 15448,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "fix warning final-dtor-non-final-class",
             "number": 15490,
             "author": {
@@ -4021,6 +3966,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Add method isFromRadDecay(const int id). Checks whether particle resu…",
+            "number": 15470,
+            "author": {
+              "login": "amorsch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Stack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
+            "number": 15245,
+            "author": {
+              "login": "wpierozak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/compareLUT.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/convertLUTCSVtoROOT.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/fetchLUT.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: properly reserve memory when writing",
             "number": 15510,
             "author": {
@@ -4032,6 +4032,11 @@
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
                 }
               ]
             }
@@ -4041,16 +4046,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add method isFromRadDecay(const int id). Checks whether particle resu…",
-            "number": 15470,
+            "title": "Enable Alien hybrid config file fetching",
+            "number": 15448,
             "author": {
-              "login": "amorsch"
+              "login": "jackal1-66"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Stack.h"
+                    "path": "Generators/src/GeneratorHybrid.cxx"
                   }
                 }
               ]
