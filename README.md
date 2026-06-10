@@ -18,7 +18,6 @@
 - [\#15491](https://github.com/AliceO2Group/AliceO2/pull/15491) 2026-06-07: MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
-- [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
 - [\#15454](https://github.com/AliceO2Group/AliceO2/pull/15454) 2026-05-30: Add PV-related rejections to cosmic matcher for interleaved mode by [@shahor02](https://github.com/shahor02)
 - [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
@@ -37,7 +36,6 @@
 - [\#15422](https://github.com/AliceO2Group/AliceO2/pull/15422) 2026-05-26: ITS: adjust printing and use mask by [@f3sch](https://github.com/f3sch)
 - [\#15425](https://github.com/AliceO2Group/AliceO2/pull/15425) 2026-05-27: ITS: fix building of upc ROF mask by [@f3sch](https://github.com/f3sch)
 - [\#15427](https://github.com/AliceO2Group/AliceO2/pull/15427) 2026-05-27: o2-raw-tf-reader supports remote TF reading (with --copy-cmd no-copy) by [@shahor02](https://github.com/shahor02)
-- [\#15429](https://github.com/AliceO2Group/AliceO2/pull/15429) 2026-05-26: ITS: Remove redundant 'const' from getter methods by [@f3sch](https://github.com/f3sch)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
 - [\#15440](https://github.com/AliceO2Group/AliceO2/pull/15440) 2026-05-26: Avoid filling a vector just to count the bits by [@ktf](https://github.com/ktf)
 - [\#15442](https://github.com/AliceO2Group/AliceO2/pull/15442) 2026-05-28: TOF: pre-filter hypotheses in getStartTimeInSet by [@ktf](https://github.com/ktf)
@@ -80,6 +78,7 @@
 - [\#15479](https://github.com/AliceO2Group/AliceO2/pull/15479) 2026-06-05: DPL Analysis: avoid going through the slow C-locale enable tolower by [@ktf](https://github.com/ktf)
 - [\#15480](https://github.com/AliceO2Group/AliceO2/pull/15480) 2026-06-07: DPL Analysis: shortcircuit creation of empty slices by [@ktf](https://github.com/ktf)
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
+- [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15471](https://github.com/AliceO2Group/AliceO2/pull/15471) 2026-06-08: bugfix: do not overwrite initial z-vertex position by [@amorsch](https://github.com/amorsch)
 - [\#15478](https://github.com/AliceO2Group/AliceO2/pull/15478) 2026-06-08: Avoid unneeded lambda by [@ktf](https://github.com/ktf)
