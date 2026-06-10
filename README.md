@@ -33,7 +33,6 @@
 - [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
-- [\#15422](https://github.com/AliceO2Group/AliceO2/pull/15422) 2026-05-26: ITS: adjust printing and use mask by [@f3sch](https://github.com/f3sch)
 - [\#15425](https://github.com/AliceO2Group/AliceO2/pull/15425) 2026-05-27: ITS: fix building of upc ROF mask by [@f3sch](https://github.com/f3sch)
 - [\#15427](https://github.com/AliceO2Group/AliceO2/pull/15427) 2026-05-27: o2-raw-tf-reader supports remote TF reading (with --copy-cmd no-copy) by [@shahor02](https://github.com/shahor02)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
