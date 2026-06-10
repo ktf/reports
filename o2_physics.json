@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-04T07:20:50Z",
-            "title": "[PWGCF] split v02 and v0 subevent configurations",
-            "number": 16520,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-04T07:30:06Z",
             "title": "[PWGCF] Add ITSncls min cut for V0 and casc",
             "number": 16529,
@@ -2441,51 +2421,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
-            "number": 16516,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Implement online workflow for B0->J/Psi K*0",
             "number": 16594,
             "author": {
@@ -2531,6 +2466,71 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Avoid subscription to tracks extra",
+            "number": 16601,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
+            "number": 16516,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
                   }
                 }
               ]
