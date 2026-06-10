@@ -60,6 +60,7 @@
 - [\#15499](https://github.com/AliceO2Group/AliceO2/pull/15499) 2026-06-10: ITS: rename transition to link by [@f3sch](https://github.com/f3sch)
 - [\#15500](https://github.com/AliceO2Group/AliceO2/pull/15500) 2026-06-09: ALICE3: use track extension + allow configuring passes via JSON by [@mpuccio](https://github.com/mpuccio)
 - [\#15501](https://github.com/AliceO2Group/AliceO2/pull/15501) 2026-06-09: [ALICE3] IOTOF: Configurable radii for cylinder TOF by [@Marcellocosti](https://github.com/Marcellocosti)
+- [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
@@ -76,6 +77,7 @@
 - [\#15480](https://github.com/AliceO2Group/AliceO2/pull/15480) 2026-06-07: DPL Analysis: shortcircuit creation of empty slices by [@ktf](https://github.com/ktf)
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
 - [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
+- [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15471](https://github.com/AliceO2Group/AliceO2/pull/15471) 2026-06-08: bugfix: do not overwrite initial z-vertex position by [@amorsch](https://github.com/amorsch)
 - [\#15478](https://github.com/AliceO2Group/AliceO2/pull/15478) 2026-06-08: Avoid unneeded lambda by [@ktf](https://github.com/ktf)
