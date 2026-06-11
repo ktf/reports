@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-05-27T17:17:35Z",
-            "title": "Update ALICE3 RICH base parameters to v3b",
-            "number": 15398,
-            "author": {
-              "login": "NNicassio99"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/RICH/base/include/RICHBase/RICHBaseParam.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-27T18:33:43Z",
             "title": "o2-raw-tf-reader supports remote TF reading (with --copy-cmd no-copy)",
             "number": 15427,
@@ -3149,26 +3129,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-10T17:25:10Z",
-            "title": "GPU/TPC: Clamp gain correction of raw ADCs to 1022",
-            "number": 15508,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "fix warning final-dtor-non-final-class",
@@ -3996,16 +3956,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "AOD: don't emit MC collisions borrowed from the previous timeframe",
-            "number": 15509,
+            "title": "DPL: add benchmark for memfd based message passing",
+            "number": 15421,
             "author": {
-              "login": "sawenzel"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ShmemVsMemfd.cxx"
                   }
                 }
               ]
@@ -4036,21 +4001,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add benchmark for memfd based message passing",
-            "number": 15421,
+            "title": "Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG",
+            "number": 15511,
             "author": {
-              "login": "ktf"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
+                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/test/benchmark_ShmemVsMemfd.cxx"
+                    "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
                   }
                 }
               ]
@@ -4101,6 +4071,46 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "AOD: don't emit MC collisions borrowed from the previous timeframe",
+            "number": 15509,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-10T17:25:10Z",
+            "title": "GPU/TPC: Clamp gain correction of raw ADCs to 1022",
+            "number": 15508,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
                   }
                 }
               ]
