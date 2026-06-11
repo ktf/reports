@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-05T17:36:53Z",
-            "title": "[PWGJE] jet-spectra-charged: weighted-bind fix + add gen-only spectra task",
-            "number": 16545,
-            "author": {
-              "login": "joonsukbae"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraChargedGen.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-05T19:02:52Z",
-            "title": "[PWGCF] Added calculation profiles for number of triplet weighted average",
-            "number": 16544,
-            "author": {
-              "login": "SwatiSaha-1997"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/v0ptHadPiKaProt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-05T23:29:07Z",
-            "title": "[PWGCF] Add multNTracksPV multiplicity estimator in the task",
-            "number": 16547,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-06T07:23:55Z",
             "title": "[PWGCF] Fix: define size of vector",
             "number": 16548,
@@ -1884,51 +1814,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
-            "number": 16516,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-10T18:07:41Z",
             "title": "[PWGEM/Dilepton] fix phiPosition calculation",
@@ -2566,31 +2451,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Add diffusion wake analysis",
-            "number": 16570,
-            "author": {
-              "login": "nicola-wilson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/tableDiffWake.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Implement online workflow for B0->J/Psi K*0",
             "number": 16594,
             "author": {
@@ -2636,6 +2496,136 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowGfwOmegaXi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
+            "number": 16516,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] check the different pT range Rho local and Psi2 distribution",
+            "number": 16618,
+            "author": {
+              "login": "YubiaoWang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-11T10:48:18Z",
+            "title": "[PWGJE] emcalCorrectionTask: Make Cluster and cell per DF axis config…",
+            "number": 16617,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] add 2 and 4 particle correlation and fix errors",
+            "number": 16619,
+            "author": {
+              "login": "pykuan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add diffusion wake analysis",
+            "number": 16570,
+            "author": {
+              "login": "nicola-wilson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
                   }
                 }
               ]
