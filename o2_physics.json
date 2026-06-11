@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-07T14:03:40Z",
-            "title": "[PWGEM/Dilepton] add cfg in filterEoI.cxx",
-            "number": 16556,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/filterEoI.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-07T15:35:33Z",
             "title": "[PWGCF] add phihistogram",
             "number": 16551,
@@ -2509,18 +2484,58 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fixed incorrect number of parameters when filling histogram.",
-            "number": 16624,
+            "state": "MERGED",
+            "mergedAt": "2026-06-11T14:50:58Z",
+            "title": "[Common] Add bc process function and update histograms in centralityQa.cxx",
+            "number": 16523,
             "author": {
-              "login": "gengjiabin12"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] add 2 and 4 particle correlation and fix errors",
+            "number": 16619,
+            "author": {
+              "login": "pykuan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-11T17:47:29Z",
+            "title": "[PWGCF] Update fluctuation table",
+            "number": 16625,
+            "author": {
+              "login": "fsii"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
                   }
                 }
               ]
@@ -2575,17 +2590,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-11T17:47:29Z",
-            "title": "[PWGCF] Update fluctuation table",
-            "number": 16625,
+            "mergedAt": "2026-06-11T20:14:11Z",
+            "title": "[PWGLF] hStrangeCorrelation: Fix number of parameters in histogram filling",
+            "number": 16624,
             "author": {
-              "login": "fsii"
+              "login": "gengjiabin12"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
@@ -2595,37 +2610,37 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-11T14:50:58Z",
-            "title": "[Common] Add bc process function and update histograms in centralityQa.cxx",
-            "number": 16523,
+            "mergedAt": "2026-06-11T20:24:06Z",
+            "title": "[PWGEM/Dilepton] add dilepton with SV",
+            "number": 16626,
             "author": {
-              "login": "jesgum"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] add 2 and 4 particle correlation and fix errors",
-            "number": 16619,
-            "author": {
-              "login": "pykuan"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                    "path": "PWGEM/Dilepton/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronSV.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dielectronSV.cxx"
                   }
                 }
               ]

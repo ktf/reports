@@ -8,6 +8,7 @@
 - [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
 - [\#15474](https://github.com/AliceO2Group/AliceO2/pull/15474) 2026-06-02: DPL Analysis: fix new dynamic matchers breaking process(enumeration) by [@aalkin](https://github.com/aalkin)
+- [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#14994](https://github.com/AliceO2Group/AliceO2/pull/14994) 2026-05-31: Add Lc resonances to physics constants by [@apalasciano](https://github.com/apalasciano)
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
@@ -56,6 +57,7 @@
 - [\#15501](https://github.com/AliceO2Group/AliceO2/pull/15501) 2026-06-09: [ALICE3] IOTOF: Configurable radii for cylinder TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15503](https://github.com/AliceO2Group/AliceO2/pull/15503) 2026-06-11: RICH: make local Z the radial axis for radiator and photosensor tiles by [@altsybee](https://github.com/altsybee)
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
+- [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
@@ -72,6 +74,7 @@
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
 - [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
+- [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15471](https://github.com/AliceO2Group/AliceO2/pull/15471) 2026-06-08: bugfix: do not overwrite initial z-vertex position by [@amorsch](https://github.com/amorsch)
 - [\#15478](https://github.com/AliceO2Group/AliceO2/pull/15478) 2026-06-08: Avoid unneeded lambda by [@ktf](https://github.com/ktf)
