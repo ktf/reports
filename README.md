@@ -17,7 +17,6 @@
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 - [\#15491](https://github.com/AliceO2Group/AliceO2/pull/15491) 2026-06-07: MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15454](https://github.com/AliceO2Group/AliceO2/pull/15454) 2026-05-30: Add PV-related rejections to cosmic matcher for interleaved mode by [@shahor02](https://github.com/shahor02)
 - [\#15455](https://github.com/AliceO2Group/AliceO2/pull/15455) 2026-05-31: Fix TPC-only tracks DCA calculation by [@shahor02](https://github.com/shahor02)
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
@@ -31,7 +30,6 @@
 - [\#15398](https://github.com/AliceO2Group/AliceO2/pull/15398) 2026-05-27: Update ALICE3 RICH base parameters to v3b by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
-- [\#15413](https://github.com/AliceO2Group/AliceO2/pull/15413) 2026-05-27: ITSMFT: ITS3: fix asserts in TopoDict by [@f3sch](https://github.com/f3sch)
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15427](https://github.com/AliceO2Group/AliceO2/pull/15427) 2026-05-27: o2-raw-tf-reader supports remote TF reading (with --copy-cmd no-copy) by [@shahor02](https://github.com/shahor02)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
@@ -64,7 +62,6 @@
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15402](https://github.com/AliceO2Group/AliceO2/pull/15402) 2026-05-28: DPL Analysis: Dynamic extraction matchers by [@aalkin](https://github.com/aalkin)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
-- [\#15439](https://github.com/AliceO2Group/AliceO2/pull/15439) 2026-05-27: DPL: recycle buffers when sending metrics by [@ktf](https://github.com/ktf)
 - [\#15444](https://github.com/AliceO2Group/AliceO2/pull/15444) 2026-06-01: StepTHn: do a pre lookup for the bin using a uniform grid by [@ktf](https://github.com/ktf)
 - [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
