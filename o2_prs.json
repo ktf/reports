@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Add V3 magnet map",
-            "number": 15099,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldV3Magnet.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-28T07:46:56Z",
             "title": "TOF: pre-filter hypotheses in getStartTimeInSet",
@@ -4025,17 +4005,27 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-12T00:27:31Z",
-            "title": "FT3 Staves Minor ambiguity bugfix",
-            "number": 15507,
+            "mergedAt": "2026-06-12T06:56:22Z",
+            "title": "Ctpdev: cinsistency checker fix",
+            "number": 15457,
             "author": {
-              "login": "JustusRudolph"
+              "login": "lietava"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Module.cxx"
+                    "path": "Detectors/CTP/macro/PlotPbLumi.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/reconstruction/src/RawDataDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
                   }
                 }
               ]
@@ -4060,6 +4050,71 @@
                 },
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/TPC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/src/DataFormatsTPCLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODMcProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODMcProducerHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/TPCBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/TPCFlagsMemberCustomStreamer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/gpu-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "doc/data/2026-06-o2_prs.json"
                   }
                 },
@@ -4076,26 +4131,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Ctpdev: cinsistency checker fix",
-            "number": 15457,
+            "title": "Single GPU benchmark scripts",
+            "number": 15514,
             "author": {
-              "login": "lietava"
+              "login": "ChSonnabend"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/CTP/macro/PlotPbLumi.C"
+                    "path": "prodtests/full-system-test/analyze_gpu_benchmarks.py"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/CTP/reconstruction/src/RawDataDecoder.cxx"
+                    "path": "prodtests/full-system-test/gen_single_gpu_rtc_benchmark.sh"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-12T00:27:31Z",
+            "title": "FT3 Staves Minor ambiguity bugfix",
+            "number": 15507,
+            "author": {
+              "login": "JustusRudolph"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/FT3Module.cxx"
                   }
                 }
               ]
