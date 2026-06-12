@@ -27,7 +27,6 @@
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 ## Recent developments in O2 - Detectors
-- [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
@@ -79,7 +78,6 @@
 - [\#15478](https://github.com/AliceO2Group/AliceO2/pull/15478) 2026-06-08: Avoid unneeded lambda by [@ktf](https://github.com/ktf)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Steer
-- [\#15401](https://github.com/AliceO2Group/AliceO2/pull/15401) 2026-05-28: ITS3: opt. staggering and fixes to alignment by [@f3sch](https://github.com/f3sch)
 - [\#15437](https://github.com/AliceO2Group/AliceO2/pull/15437) 2026-06-01: DPL: separate iteration over the slots vs over parts in the slots by [@ktf](https://github.com/ktf)
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 ## Recent developments in O2 - Utilities
