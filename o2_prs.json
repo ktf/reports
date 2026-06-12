@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP] DPL: replace/return desirialized CCDB objects based on etag comparison",
-            "number": 15307,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ObjectCache.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-05-29T06:57:52Z",
             "title": "DPL MCP: a server to investigate running trains on hyperloop",
@@ -3856,6 +3831,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Single GPU benchmark scripts",
+            "number": 15514,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/analyze_gpu_benchmarks.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/gen_single_gpu_rtc_benchmark.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix check name in clean-test",
+            "number": 15518,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/clean-test.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: finer grainded timestamps in logs",
             "number": 15517,
             "author": {
@@ -3863,6 +3883,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
@@ -3941,41 +3966,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Single GPU benchmark scripts",
-            "number": 15514,
+            "title": "TPC: clamp zOut to TPC length",
+            "number": 15519,
             "author": {
-              "login": "ChSonnabend"
+              "login": "matthias-kleiner"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "prodtests/full-system-test/analyze_gpu_benchmarks.py"
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "prodtests/full-system-test/gen_single_gpu_rtc_benchmark.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix check name in clean-test",
-            "number": 15518,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/clean-test.yml"
+                    "path": "Detectors/TPC/calibration/src/TPCFastSpaceChargeCorrectionHelper.cxx"
                   }
                 }
               ]
