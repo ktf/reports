@@ -56,6 +56,7 @@
 - [\#15500](https://github.com/AliceO2Group/AliceO2/pull/15500) 2026-06-09: ALICE3: use track extension + allow configuring passes via JSON by [@mpuccio](https://github.com/mpuccio)
 - [\#15501](https://github.com/AliceO2Group/AliceO2/pull/15501) 2026-06-09: [ALICE3] IOTOF: Configurable radii for cylinder TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15503](https://github.com/AliceO2Group/AliceO2/pull/15503) 2026-06-11: RICH: make local Z the radial axis for radiator and photosensor tiles by [@altsybee](https://github.com/altsybee)
+- [\#15507](https://github.com/AliceO2Group/AliceO2/pull/15507) 2026-06-12: FT3 Staves Minor ambiguity bugfix by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
