@@ -2319,26 +2319,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Added process function to understand kaon pion pair formation from ot…",
-            "number": 16629,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-12T04:43:13Z",
             "title": "[PWGCF] add kstar vs cent TH2",
@@ -2569,26 +2549,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Adding tracking. qa histo",
-            "number": 16634,
-            "author": {
-              "login": "stefanopolitano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-12T10:21:54Z",
             "title": "[PWGEM/Dilepton] remove unnecessary calculations",
@@ -2644,8 +2604,33 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-06-12T11:04:24Z",
+            "title": "[PWGEM/Dilepton] reduce dependencies of skimmerPrimaryElectronSV.cxx",
+            "number": 16636,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronSV.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-12T11:24:12Z",
             "title": "[PWGCF] add 2 and 4 particle correlation and fix errors",
             "number": 16619,
             "author": {
@@ -2665,22 +2650,37 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-12T11:04:24Z",
-            "title": "[PWGEM/Dilepton] reduce dependencies of skimmerPrimaryElectronSV.cxx",
-            "number": 16636,
+            "mergedAt": "2026-06-12T11:52:58Z",
+            "title": "[PWGLF] Added process function to understand kaon pion pair formation from ot…",
+            "number": 16629,
             "author": {
-              "login": "dsekihat"
+              "login": "5ub-Man"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronSV.cxx"
+                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-12T12:15:11Z",
+            "title": "[Common] Adding tracking. qa histo",
+            "number": 16634,
+            "author": {
+              "login": "stefanopolitano"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
+                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
                   }
                 }
               ]
