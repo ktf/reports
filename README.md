@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
-- [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
 - [\#15474](https://github.com/AliceO2Group/AliceO2/pull/15474) 2026-06-02: DPL Analysis: fix new dynamic matchers breaking process(enumeration) by [@aalkin](https://github.com/aalkin)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
@@ -56,7 +55,6 @@
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
 - [\#15444](https://github.com/AliceO2Group/AliceO2/pull/15444) 2026-06-01: StepTHn: do a pre lookup for the bin using a uniform grid by [@ktf](https://github.com/ktf)
-- [\#15449](https://github.com/AliceO2Group/AliceO2/pull/15449) 2026-06-01: DPL Analysis: fix for parent file reading by [@aalkin](https://github.com/aalkin)
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
 - [\#15465](https://github.com/AliceO2Group/AliceO2/pull/15465) 2026-06-01: Improve ability to inspect trains on hyperloop by [@ktf](https://github.com/ktf)
 - [\#15474](https://github.com/AliceO2Group/AliceO2/pull/15474) 2026-06-02: DPL Analysis: fix new dynamic matchers breaking process(enumeration) by [@aalkin](https://github.com/aalkin)
