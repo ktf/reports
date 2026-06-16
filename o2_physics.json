@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-10T12:21:49Z",
-            "title": "[PWGDQ,PWGEM] Adding missing reduced table dependence for q-vectors",
-            "number": 16592,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/tableReaderBarrel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-11T09:44:25Z",
-            "title": "[PWGCF] fix a bug in flowGfwOmegaXi.cxx",
-            "number": 16616,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwOmegaXi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-11T11:35:24Z",
             "title": "[PWGDQ] Update reserved number and add new table",
             "number": 16602,
@@ -1964,26 +1904,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] constituent pT cut fix + rhofit event plot",
-            "number": 16674,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-16T09:25:56Z",
             "title": "[ALICE3] Fix filling candidate mass histograms in a3 strangeness",
@@ -2430,26 +2350,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-15T07:25:18Z",
-            "title": "[PWGHF] taskFlow : solve efficiency correction issue, multiplicity issue",
-            "number": 16660,
-            "author": {
-              "login": "AlexianL"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-08T14:27:40Z",
             "title": "[PWGJE] Update Ds-jet-spec-subs task with MC processing",
             "number": 16566,
@@ -2490,52 +2390,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-12T16:25:00Z",
-            "title": "[PWGLF] data model for phi reconstruction for flow",
-            "number": 16644,
+            "mergedAt": "2026-06-12T21:22:59Z",
+            "title": "[PWGLF] Debug analysis",
+            "number": 16631,
             "author": {
-              "login": "prottayCMT"
+              "login": "PaolaVT"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFPhiFlowTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/phiflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-15T19:37:46Z",
-            "title": "[PWGEM/Dilepton] add createTTP",
-            "number": 16673,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/createTTP.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/multiplicityPt.cxx"
                   }
                 }
               ]
@@ -2570,17 +2435,72 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-12T21:22:59Z",
-            "title": "[PWGLF] Debug analysis",
-            "number": 16631,
+            "mergedAt": "2026-06-15T19:37:46Z",
+            "title": "[PWGEM/Dilepton] add createTTP",
+            "number": 16673,
             "author": {
-              "login": "PaolaVT"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/multiplicityPt.cxx"
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/createTTP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-12T16:25:00Z",
+            "title": "[PWGLF] data model for phi reconstruction for flow",
+            "number": 16644,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFPhiFlowTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/phiflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-15T07:25:18Z",
+            "title": "[PWGHF] taskFlow : solve efficiency correction issue, multiplicity issue",
+            "number": 16660,
+            "author": {
+              "login": "AlexianL"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
                   }
                 }
               ]
@@ -2616,6 +2536,81 @@
                 {
                   "node": {
                     "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-16T15:26:30Z",
+            "title": "[PWGJE] constituent pT cut fix + rhofit event plot",
+            "number": 16674,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add MC related infomations into the c-deuteron task",
+            "number": 16694,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added task and updated data model for resov1",
+            "number": 16695,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFPhiFlowTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/phiflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phiflowder.cxx"
                   }
                 }
               ]
