@@ -50,6 +50,7 @@
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15515](https://github.com/AliceO2Group/AliceO2/pull/15515) 2026-06-15: ITS: optionally restrict CA to a subset of layers + support inactive layers by [@mpuccio](https://github.com/mpuccio)
+- [\#15519](https://github.com/AliceO2Group/AliceO2/pull/15519) 2026-06-16: TPC: clamp zOut to TPC length by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15526](https://github.com/AliceO2Group/AliceO2/pull/15526) 2026-06-15: Add missing parameter instantiation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
