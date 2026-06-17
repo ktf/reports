@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-13T10:46:37Z",
-            "title": "[PWGCF] correct weights",
-            "number": 16647,
-            "author": {
-              "login": "pengchon"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-13T13:20:31Z",
-            "title": "[PWGEM/Dilepton] update SV analyses",
-            "number": 16648,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/studyDCAFitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-13T17:17:36Z",
             "title": "[PWGHF] Charm Baryon correlator: modified V0 selection and correlation with V0",
             "number": 16646,
@@ -2372,26 +2312,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add computation of chi2-like values from ML score",
-            "number": 16716,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-17T14:12:18Z",
             "title": "[PWGCF] Change new to unique_ptr + add shift to final common registry",
@@ -2437,18 +2357,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Implement workaround to for check in MlResponse not compatible with fixed features",
-            "number": 16719,
+            "state": "MERGED",
+            "mergedAt": "2026-06-17T14:35:55Z",
+            "title": "[PWGHF] treeCreatorOmegacSt: fix decayChannel shadowing and reset MC match variables",
+            "number": 16686,
             "author": {
-              "login": "fgrosa"
+              "login": "chengtt0406"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
                   }
                 }
               ]
@@ -2457,28 +2377,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add generated ct and resonant channel info for c-deuteron analysis",
-            "number": 16713,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-06-17T15:06:34Z",
             "title": "[PWGEM/Dilepton] update SCT",
             "number": 16720,
             "author": {
@@ -2528,17 +2428,102 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-17T14:35:55Z",
-            "title": "[PWGHF] treeCreatorOmegacSt: fix decayChannel shadowing and reset MC match variables",
-            "number": 16686,
+            "mergedAt": "2026-06-17T15:10:53Z",
+            "title": "[PWGHF] Add generated ct and resonant channel info for c-deuteron analysis",
+            "number": 16713,
             "author": {
-              "login": "chengtt0406"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
+                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Tools] MlResponse: bugfix assure equality of number of checked features to that in the .onnx file",
+            "number": 16722,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/ML/MlResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] taskMixingDstarCandTreeCreator: Adding new task for local mix candidate analysis in Dstar spin alignment measurement.",
+            "number": 16721,
+            "author": {
+              "login": "Mingze129"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskMixingDstarCandTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-17T15:34:44Z",
+            "title": "[PWGDQ] add computation of chi2-like values from ML score",
+            "number": 16716,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Implement workaround to for check in MlResponse not compatible with fixed features",
+            "number": 16719,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
