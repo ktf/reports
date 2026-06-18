@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-15T12:24:44Z",
-            "title": "[Common,PWGLF] Add outer and rct info and converter to multBC table for centrality studies",
-            "number": 16516,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/multBCsConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityExtraTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-15T12:19:26Z",
-            "title": "[Common] Improve performance of FulfillsITSHitRequirements",
-            "number": 16397,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelection.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-15T14:05:58Z",
             "title": "[PWGHF] Compute Resolution vs Reduced Q-vector",
             "number": 16667,
@@ -1273,26 +1203,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
-            "number": 16703,
-            "author": {
-              "login": "iamkoushikb-bit"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-17T08:28:46Z",
             "title": "[PWGDQ] Fix emu prefilter withassoc readers",
@@ -2332,6 +2242,26 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-18T12:56:50Z",
+            "title": "[DPG] Add process function w/o occupancy estimators",
+            "number": 16727,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] taskMixingDstarCandTreeCreator: Adding new task for local mix candidate analysis in Dstar spin alignment measurement.",
@@ -2359,16 +2289,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Add process function w/o occupancy estimators",
-            "number": 16727,
+            "title": "[Common] return ROF border cut back to sel8 for Pb-Pb 2026 runs",
+            "number": 16729,
             "author": {
-              "login": "fgrosa"
+              "login": "altsybee"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
+            "number": 16703,
+            "author": {
+              "login": "iamkoushikb-bit"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Added background computations for the k892hadronphoton",
+            "number": 16728,
+            "author": {
+              "login": "Oussama3030"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892hadronphoton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892hadronphotonBkg.cxx"
                   }
                 }
               ]
