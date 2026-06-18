@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-14T18:11:01Z",
-            "title": "[PWGCF] Add efficiency correction and FIT acceptance correction due to presence of dead channels",
-            "number": 16656,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/DataModel/LongRangeDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-14T22:12:24Z",
-            "title": "[PWGCF] Rapidity for gen deuterons in singletrackselector",
-            "number": 16657,
-            "author": {
-              "login": "AnalitikGnid"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-15T07:45:08Z",
-            "title": "[PWGCF] Update flowEventPlane.cxx",
-            "number": 16654,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-15T09:13:07Z",
             "title": "[PWGCF] Add more graph with different weight",
             "number": 16653,
@@ -476,26 +406,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add rematching task",
-            "number": 16678,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
                   }
                 }
               ]
@@ -1653,31 +1563,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Update PCMPCM ML analysis",
-            "number": 16705,
-            "author": {
-              "login": "amaringarcia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaToGammaGammaMCPCMPCMML.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-12T12:26:14Z",
             "title": "[PWGHF] Add centrality to Ds-hadron correlation tables",
@@ -2014,31 +1899,6 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskCd.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] taskMixingDstarCandTreeCreator: Adding new task for local mix candidate analysis in Dstar spin alignment measurement.",
-            "number": 16721,
-            "author": {
-              "login": "Mingze129"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskMixingDstarCandTreeCreator.cxx"
                   }
                 }
               ]
@@ -2467,6 +2327,91 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-05-27T08:24:28Z",
+            "title": "[PWGDQ] use correct momentum scaling when computing invariant mass",
+            "number": 16365,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add rematching task",
+            "number": 16678,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-18T08:06:40Z",
+            "title": "[PWGEM] Update PCMPCM ML analysis",
+            "number": 16705,
+            "author": {
+              "login": "amaringarcia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaToGammaGammaMCPCMPCMML.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Nuspex: deuteron proton correlation, add pileup and PID with quadratic cut",
+            "number": 16724,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGUD] Add new task upcVmRof.cxx",
@@ -2489,6 +2434,51 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/upcVmRof.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] taskMixingDstarCandTreeCreator: Adding new task for local mix candidate analysis in Dstar spin alignment measurement.",
+            "number": 16721,
+            "author": {
+              "login": "Mingze129"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskMixingDstarCandTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-18T08:43:36Z",
+            "title": "[PWGJE] Event selections and histograms are added",
+            "number": 16723,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
                   }
                 }
               ]

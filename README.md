@@ -9,7 +9,6 @@
 ## Recent developments in O2 - Common
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
-- [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
 - [\#15488](https://github.com/AliceO2Group/AliceO2/pull/15488) 2026-06-08: Fix memleak in ConfKeyValues by [@f3sch](https://github.com/f3sch)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 - [\#15491](https://github.com/AliceO2Group/AliceO2/pull/15491) 2026-06-07: MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw by [@ktf](https://github.com/ktf)
@@ -28,7 +27,6 @@
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
 - [\#15457](https://github.com/AliceO2Group/AliceO2/pull/15457) 2026-06-12: Ctpdev: cinsistency checker fix by [@lietava](https://github.com/lietava)
-- [\#15462](https://github.com/AliceO2Group/AliceO2/pull/15462) 2026-06-02: ITS: constexpr computePhi by [@f3sch](https://github.com/f3sch)
 - [\#15468](https://github.com/AliceO2Group/AliceO2/pull/15468) 2026-06-09: Add ITS stuck-pixel CCDB object output by [@JaehyeokRyu](https://github.com/JaehyeokRyu)
 - [\#15469](https://github.com/AliceO2Group/AliceO2/pull/15469) 2026-06-05: ITS: simplifies Cluster class by [@f3sch](https://github.com/f3sch)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
@@ -73,6 +71,7 @@
 - [\#15517](https://github.com/AliceO2Group/AliceO2/pull/15517) 2026-06-13: DPL: finer grainded timestamps in logs by [@ktf](https://github.com/ktf)
 - [\#15530](https://github.com/AliceO2Group/AliceO2/pull/15530) 2026-06-16: Allow the MCP to get the wagons of a given train by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
+- [\#15448](https://github.com/AliceO2Group/AliceO2/pull/15448) 2026-06-18: Enable Alien hybrid config file fetching by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15471](https://github.com/AliceO2Group/AliceO2/pull/15471) 2026-06-08: bugfix: do not overwrite initial z-vertex position by [@amorsch](https://github.com/amorsch)
 - [\#15478](https://github.com/AliceO2Group/AliceO2/pull/15478) 2026-06-08: Avoid unneeded lambda by [@ktf](https://github.com/ktf)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
