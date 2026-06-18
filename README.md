@@ -67,6 +67,7 @@
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15517](https://github.com/AliceO2Group/AliceO2/pull/15517) 2026-06-13: DPL: finer grainded timestamps in logs by [@ktf](https://github.com/ktf)
 - [\#15530](https://github.com/AliceO2Group/AliceO2/pull/15530) 2026-06-16: Allow the MCP to get the wagons of a given train by [@ktf](https://github.com/ktf)
+- [\#15540](https://github.com/AliceO2Group/AliceO2/pull/15540) 2026-06-18: Add IgProf support to the MCP by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15448](https://github.com/AliceO2Group/AliceO2/pull/15448) 2026-06-18: Enable Alien hybrid config file fetching by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15471](https://github.com/AliceO2Group/AliceO2/pull/15471) 2026-06-08: bugfix: do not overwrite initial z-vertex position by [@amorsch](https://github.com/amorsch)
