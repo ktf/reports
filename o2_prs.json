@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-03T06:00:39Z",
-            "title": "ITS: fix vertex LUT building",
-            "number": 15477,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ROFLookupTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL Analysis: reserve binary views to avoid arrow preallocating extra buffers",
@@ -4170,6 +4150,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/FairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add IgProf support to the MCP",
+            "number": 15540,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/scripts/hyperloop-perf-server/hl_common.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/scripts/hyperloop-perf-server/igprof_tools.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/scripts/hyperloop-perf-server/perf_mcp_server.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/scripts/hyperloop-perf-server/pyproject.toml"
                   }
                 }
               ]
