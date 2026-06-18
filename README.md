@@ -4,7 +4,6 @@
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
-- [\#15474](https://github.com/AliceO2Group/AliceO2/pull/15474) 2026-06-02: DPL Analysis: fix new dynamic matchers breaking process(enumeration) by [@aalkin](https://github.com/aalkin)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
@@ -56,12 +55,11 @@
 - [\#15526](https://github.com/AliceO2Group/AliceO2/pull/15526) 2026-06-15: Add missing parameter instantiation by [@ktf](https://github.com/ktf)
 - [\#15527](https://github.com/AliceO2Group/AliceO2/pull/15527) 2026-06-17: ITS: avoid memory shuffeling by accessing tracks via idx by [@f3sch](https://github.com/f3sch)
 - [\#15535](https://github.com/AliceO2Group/AliceO2/pull/15535) 2026-06-17: TPC: scale VDrift for every TF with TP by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Framework
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
 - [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
-- [\#15474](https://github.com/AliceO2Group/AliceO2/pull/15474) 2026-06-02: DPL Analysis: fix new dynamic matchers breaking process(enumeration) by [@aalkin](https://github.com/aalkin)
-- [\#15475](https://github.com/AliceO2Group/AliceO2/pull/15475) 2026-06-02: DPL MCP: add ability to inspect analyses on hyperloop by [@ktf](https://github.com/ktf)
 - [\#15479](https://github.com/AliceO2Group/AliceO2/pull/15479) 2026-06-05: DPL Analysis: avoid going through the slow C-locale enable tolower by [@ktf](https://github.com/ktf)
 - [\#15480](https://github.com/AliceO2Group/AliceO2/pull/15480) 2026-06-07: DPL Analysis: shortcircuit creation of empty slices by [@ktf](https://github.com/ktf)
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
@@ -77,3 +75,4 @@
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Steer
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
+- [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
