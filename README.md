@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
-- [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
@@ -58,7 +57,6 @@
 ## Recent developments in O2 - Framework
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
-- [\#15450](https://github.com/AliceO2Group/AliceO2/pull/15450) 2026-06-03: DPL Analysis: use unsafe cursor when reserving by [@ktf](https://github.com/ktf)
 - [\#15479](https://github.com/AliceO2Group/AliceO2/pull/15479) 2026-06-05: DPL Analysis: avoid going through the slow C-locale enable tolower by [@ktf](https://github.com/ktf)
 - [\#15480](https://github.com/AliceO2Group/AliceO2/pull/15480) 2026-06-07: DPL Analysis: shortcircuit creation of empty slices by [@ktf](https://github.com/ktf)
 - [\#15494](https://github.com/AliceO2Group/AliceO2/pull/15494) 2026-06-07: DPL MCP: add ability to create new wagons by [@ktf](https://github.com/ktf)
