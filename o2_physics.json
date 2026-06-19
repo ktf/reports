@@ -1849,26 +1849,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] return ROF border cut back to sel8 for Pb-Pb 2026 runs",
-            "number": 16729,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/EventSelectionModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] treeCreatorDstarSpinAlignMixing: Adding new task for local mix candidate analysis in Dstar spin alignment measurement.",
             "number": 16721,
             "author": {
@@ -2331,23 +2311,63 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add rematching task",
-            "number": 16678,
+            "state": "MERGED",
+            "mergedAt": "2026-06-19T14:25:34Z",
+            "title": "[PWGCF] Updating PID strategy for nuclei",
+            "number": 16742,
             "author": {
-              "login": "aferrero2707"
+              "login": "sustripathy"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/nucleibalance.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-19T14:27:08Z",
+            "title": "[DPG] Fix table definition for different process functions",
+            "number": 16743,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] tpcSkimsTableCreator: read IR source from CCDB, fix nclPID definition",
+            "number": 16740,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
                   }
                 }
               ]
@@ -2531,6 +2551,51 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-19T14:50:01Z",
+            "title": "[Common] return ROF border cut back to sel8 for Pb-Pb 2026 runs",
+            "number": 16729,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add rematching task",
+            "number": 16678,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Added background computations for the k892hadronphoton",
@@ -2558,71 +2623,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/k892hadronphotonBkg.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-19T14:25:34Z",
-            "title": "[PWGCF] Updating PID strategy for nuclei",
-            "number": 16742,
-            "author": {
-              "login": "sustripathy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/nucleibalance.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-19T14:27:08Z",
-            "title": "[DPG] Fix table definition for different process functions",
-            "number": 16743,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] tpcSkimsTableCreator: read IR source from CCDB, fix nclPID definition",
-            "number": 16740,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/utilsTpcSkimsTableCreator.h"
                   }
                 }
               ]
