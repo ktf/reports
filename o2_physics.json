@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-16T07:32:10Z",
-            "title": "[PWGLF] Added mass shift histograms",
-            "number": 16677,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-16T07:58:27Z",
-            "title": "[PWGCF] FemtoUniverse - Adding MCtruth and reco analysis for cascades with centrality",
-            "number": 16664,
-            "author": {
-              "login": "basiach"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-16T08:01:56Z",
             "title": "[PWGDQ] Bug fix for mixing and add BDT score table",
             "number": 16665,
@@ -1929,31 +1884,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add centrality selection and histos for re-weighting",
             "number": 16730,
             "author": {
@@ -2233,26 +2163,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] TrackIndexSkimCreator: hoist collision-invariant slices out of the 2/3-prong loops",
-            "number": 16666,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[DPG] tpcSkimsTableCreator: bugfix reserve tables size",
             "number": 16739,
             "author": {
@@ -2443,6 +2353,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] add rematching task",
+            "number": 16678,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add zdc-extra-table-reader task",
+            "number": 16028,
+            "author": {
+              "login": "udmitrie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] hStrangeCorrelation.cxx: new selection and mirroring option",
             "number": 16741,
             "author": {
@@ -2463,21 +2423,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] add rematching task",
-            "number": 16678,
+            "title": "[PWGHF] TrackIndexSkimCreator: hoist collision-invariant slices out of the 2/3-prong loops",
+            "number": 16666,
             "author": {
-              "login": "aferrero2707"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Updating PID strategy for nuclei",
+            "number": 16742,
+            "author": {
+              "login": "sustripathy"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/nucleibalance.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Fix table definition for different process functions",
+            "number": 16743,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
                   }
                 }
               ]
