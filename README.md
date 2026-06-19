@@ -29,8 +29,6 @@
 - [\#15469](https://github.com/AliceO2Group/AliceO2/pull/15469) 2026-06-05: ITS: simplifies Cluster class by [@f3sch](https://github.com/f3sch)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
-- [\#15482](https://github.com/AliceO2Group/AliceO2/pull/15482) 2026-06-04: Account for the DD headers convention, add TPC/CMVTrigger spec to TFReader by [@shahor02](https://github.com/shahor02)
-- [\#15483](https://github.com/AliceO2Group/AliceO2/pull/15483) 2026-06-04: Avoid casting empty buffer to ITS/MFT CTF ref. by [@shahor02](https://github.com/shahor02)
 - [\#15484](https://github.com/AliceO2Group/AliceO2/pull/15484) 2026-06-06: updated mid simulation chamber response parameters for Run 3 by [@comrademarvin](https://github.com/comrademarvin)
 - [\#15485](https://github.com/AliceO2Group/AliceO2/pull/15485) 2026-06-07: Fixes for ITS seeding vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15487](https://github.com/AliceO2Group/AliceO2/pull/15487) 2026-06-04: Please consider the following formatting changes to #15486 by [@alibuild](https://github.com/alibuild)
