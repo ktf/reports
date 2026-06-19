@@ -52,6 +52,7 @@
 - [\#15527](https://github.com/AliceO2Group/AliceO2/pull/15527) 2026-06-17: ITS: avoid memory shuffeling by accessing tracks via idx by [@f3sch](https://github.com/f3sch)
 - [\#15535](https://github.com/AliceO2Group/AliceO2/pull/15535) 2026-06-17: TPC: scale VDrift for every TF with TP by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
+- [\#15538](https://github.com/AliceO2Group/AliceO2/pull/15538) 2026-06-19: TPC: fix initialization of FFTW arrays in aggregator-ft by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
 - [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
