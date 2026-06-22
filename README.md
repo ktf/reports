@@ -31,7 +31,6 @@
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
 - [\#15484](https://github.com/AliceO2Group/AliceO2/pull/15484) 2026-06-06: updated mid simulation chamber response parameters for Run 3 by [@comrademarvin](https://github.com/comrademarvin)
 - [\#15485](https://github.com/AliceO2Group/AliceO2/pull/15485) 2026-06-07: Fixes for ITS seeding vertexer by [@shahor02](https://github.com/shahor02)
-- [\#15487](https://github.com/AliceO2Group/AliceO2/pull/15487) 2026-06-04: Please consider the following formatting changes to #15486 by [@alibuild](https://github.com/alibuild)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 - [\#15490](https://github.com/AliceO2Group/AliceO2/pull/15490) 2026-06-17: fix warning final-dtor-non-final-class by [@f3sch](https://github.com/f3sch)
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
