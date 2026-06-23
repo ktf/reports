@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-17T14:35:55Z",
-            "title": "[PWGHF] treeCreatorOmegacSt: fix decayChannel shadowing and reset MC match variables",
-            "number": 16686,
-            "author": {
-              "login": "chengtt0406"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-17T15:06:34Z",
             "title": "[PWGEM/Dilepton] update SCT",
             "number": 16720,
@@ -2373,26 +2353,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] correction of calculation",
-            "number": 16778,
-            "author": {
-              "login": "pengchon"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-23T15:18:37Z",
             "title": "[PWGCF] change TPC TOF nsigma selection",
@@ -2405,26 +2365,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-23T15:21:09Z",
-            "title": "[PWGLF] Fixed mass shift histograms",
-            "number": 16775,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
                   }
                 }
               ]
@@ -2473,8 +2413,83 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T16:01:37Z",
+            "title": "[PWGLF] hStrangeCorrelationFilter.cxx and hStrangeCorrelation.cxx :fill correlation hist with mass and add some cuts",
+            "number": 16779,
+            "author": {
+              "login": "gengjiabin12"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] correction of calculation",
+            "number": 16778,
+            "author": {
+              "login": "pengchon"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add centrality info in derfide data table for double phi",
+            "number": 16782,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/ReducedDoublePhiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/doublephitable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T17:26:40Z",
             "title": "[PWGLF] updated calib task with time rec. at last step",
             "number": 16781,
             "author": {
@@ -2494,22 +2509,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-23T16:01:37Z",
-            "title": "[PWGLF] hStrangeCorrelationFilter.cxx and hStrangeCorrelation.cxx :fill correlation hist with mass and add some cuts",
-            "number": 16779,
+            "mergedAt": "2026-06-23T15:21:09Z",
+            "title": "[PWGLF] Fixed mass shift histograms",
+            "number": 16775,
             "author": {
-              "login": "gengjiabin12"
+              "login": "5ub-Man"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
                   }
                 }
               ]
