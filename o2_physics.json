@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] Revert \"[PWGCF] flowSP: cleanup tasks add fitvalues multcut\"",
-            "number": 16701,
-            "author": {
-              "login": "wenyaCern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-17T14:12:18Z",
-            "title": "[PWGCF] Change new to unique_ptr + add shift to final common registry",
-            "number": 16718,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Nuspex: deuteron proton correlaion: Add pileup rejection",
-            "number": 16711,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-17T14:35:55Z",
             "title": "[PWGHF] treeCreatorOmegacSt: fix decayChannel shadowing and reset MC match variables",
@@ -1588,26 +1518,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] TrackIndexSkimCreator: hoist collision-invariant slices out of the 2/3-prong loops",
-            "number": 16666,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-22T08:12:58Z",
             "title": "[PWGJE] Fix an error when filling the centrality vs. rho distribution",
@@ -2365,26 +2275,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fixed mass shift histograms",
-            "number": 16775,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] add psi4, fix psi3 bug using Q2",
             "number": 16776,
             "author": {
@@ -2465,26 +2355,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] change TPC TOF nsigma selection",
-            "number": 16777,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Add MC gen process",
             "number": 16765,
             "author": {
@@ -2515,6 +2385,131 @@
                 {
                   "node": {
                     "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T15:18:37Z",
+            "title": "[PWGCF] change TPC TOF nsigma selection",
+            "number": 16777,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T15:21:09Z",
+            "title": "[PWGLF] Fixed mass shift histograms",
+            "number": 16775,
+            "author": {
+              "login": "5ub-Man"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Avoid doubling of the reserved size",
+            "number": 16780,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/EventSelectionModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T15:52:21Z",
+            "title": "[PWGHF] TrackIndexSkimCreator: hoist collision-invariant slices out of the 2/3-prong loops",
+            "number": 16666,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] updated calib task with time rec. at last step",
+            "number": 16781,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T16:01:37Z",
+            "title": "[PWGLF] hStrangeCorrelationFilter.cxx and hStrangeCorrelation.cxx :fill correlation hist with mass and add some cuts",
+            "number": 16779,
+            "author": {
+              "login": "gengjiabin12"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]

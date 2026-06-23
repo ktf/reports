@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-05T15:04:17Z",
-            "title": "ITS: simplifies Cluster class",
-            "number": 15469,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Cluster.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-06T08:10:47Z",
-            "title": "updated mid simulation chamber response parameters for Run 3",
-            "number": 15484,
-            "author": {
-              "login": "comrademarvin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Simulation/src/ChamberResponseParams.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-07T12:15:41Z",
             "title": "DPL MCP: add ability to create new wagons",
             "number": 15494,
@@ -4190,6 +4140,71 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/CorrectionMapsTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary",
+            "number": 15548,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Possibility to globally bias MeanVertex objects via env.var",
+            "number": 15549,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexBiasParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/DataFormatsCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/MeanVertexBiasParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/MeanVertexObject.cxx"
                   }
                 }
               ]
