@@ -11,6 +11,7 @@
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 - [\#15491](https://github.com/AliceO2Group/AliceO2/pull/15491) 2026-06-07: MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw by [@ktf](https://github.com/ktf)
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
+- [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
 - [\#15468](https://github.com/AliceO2Group/AliceO2/pull/15468) 2026-06-09: Add ITS stuck-pixel CCDB object output by [@JaehyeokRyu](https://github.com/JaehyeokRyu)
@@ -63,6 +64,7 @@
 - [\#15517](https://github.com/AliceO2Group/AliceO2/pull/15517) 2026-06-13: DPL: finer grainded timestamps in logs by [@ktf](https://github.com/ktf)
 - [\#15530](https://github.com/AliceO2Group/AliceO2/pull/15530) 2026-06-16: Allow the MCP to get the wagons of a given train by [@ktf](https://github.com/ktf)
 - [\#15540](https://github.com/AliceO2Group/AliceO2/pull/15540) 2026-06-18: Add IgProf support to the MCP by [@ktf](https://github.com/ktf)
+- [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#15448](https://github.com/AliceO2Group/AliceO2/pull/15448) 2026-06-18: Enable Alien hybrid config file fetching by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15471](https://github.com/AliceO2Group/AliceO2/pull/15471) 2026-06-08: bugfix: do not overwrite initial z-vertex position by [@amorsch](https://github.com/amorsch)
