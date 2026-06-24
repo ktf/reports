@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 - [\#15488](https://github.com/AliceO2Group/AliceO2/pull/15488) 2026-06-08: Fix memleak in ConfKeyValues by [@f3sch](https://github.com/f3sch)
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
@@ -21,7 +20,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15282](https://github.com/AliceO2Group/AliceO2/pull/15282) 2026-06-17: TRD: correction for pile-up and update of error parametrization by [@glegras](https://github.com/glegras)
 - [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
-- [\#15417](https://github.com/AliceO2Group/AliceO2/pull/15417) 2026-06-02: optional use of Geant4 fluence weighting added by [@amorsch](https://github.com/amorsch)
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
 - [\#15457](https://github.com/AliceO2Group/AliceO2/pull/15457) 2026-06-12: Ctpdev: cinsistency checker fix by [@lietava](https://github.com/lietava)
 - [\#15468](https://github.com/AliceO2Group/AliceO2/pull/15468) 2026-06-09: Add ITS stuck-pixel CCDB object output by [@JaehyeokRyu](https://github.com/JaehyeokRyu)
@@ -49,7 +47,6 @@
 - [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
 - [\#15538](https://github.com/AliceO2Group/AliceO2/pull/15538) 2026-06-19: TPC: fix initialization of FFTW arrays in aggregator-ft by [@ehellbar](https://github.com/ehellbar)
 ## Recent developments in O2 - Framework
-- [\#15377](https://github.com/AliceO2Group/AliceO2/pull/15377) 2026-06-08: DPL: add ability to turn on multithreading from the outside by [@ktf](https://github.com/ktf)
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
 - [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
