@@ -9,7 +9,6 @@
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 - [\#15488](https://github.com/AliceO2Group/AliceO2/pull/15488) 2026-06-08: Fix memleak in ConfKeyValues by [@f3sch](https://github.com/f3sch)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
-- [\#15491](https://github.com/AliceO2Group/AliceO2/pull/15491) 2026-06-07: MathUtils: speed up Chebyshev field eval via FMA-grouped Clenshaw by [@ktf](https://github.com/ktf)
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
 - [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
@@ -43,6 +42,7 @@
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15515](https://github.com/AliceO2Group/AliceO2/pull/15515) 2026-06-15: ITS: optionally restrict CA to a subset of layers + support inactive layers by [@mpuccio](https://github.com/mpuccio)
 - [\#15519](https://github.com/AliceO2Group/AliceO2/pull/15519) 2026-06-16: TPC: clamp zOut to TPC length by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15521](https://github.com/AliceO2Group/AliceO2/pull/15521) 2026-06-24: ALICE3: prepare IOTOF geometry for including TOF in tracking by [@mpuccio](https://github.com/mpuccio)
 - [\#15522](https://github.com/AliceO2Group/AliceO2/pull/15522) 2026-06-17: ITS: GPU: fix perPrimaryVertexProcessing by [@f3sch](https://github.com/f3sch)
 - [\#15524](https://github.com/AliceO2Group/AliceO2/pull/15524) 2026-06-16: Changes in TPC residuals validation by [@shahor02](https://github.com/shahor02)
 - [\#15526](https://github.com/AliceO2Group/AliceO2/pull/15526) 2026-06-15: Add missing parameter instantiation by [@ktf](https://github.com/ktf)
