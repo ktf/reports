@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-17T17:19:05Z",
-            "title": "[PWGHF] Implement workaround to for check in MlResponse not compatible with fixed features",
-            "number": 16719,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-18T05:05:15Z",
-            "title": "[Tools] MlResponse: bugfix assure equality of number of checked features to that in the .onnx file",
-            "number": 16722,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-18T06:11:35Z",
-            "title": "[PWGLF] Adding event and track level qa histograms for MFT analysis",
-            "number": 16717,
-            "author": {
-              "login": "tutripat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-17T08:28:11Z",
             "title": "[PWGDQ] add more fine-grained event sampling options",
             "number": 16696,
@@ -2065,26 +2005,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] fixed collision index for matching candidates in derived tables",
-            "number": 16769,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] add psi4, fix psi3 bug using Q2",
             "number": 16776,
             "author": {
@@ -2115,26 +2035,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/cascDiHadronCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-23T02:38:01Z",
-            "title": "[PWGLF] update of kstarInOO.cxx",
-            "number": 16760,
-            "author": {
-              "login": "JimunLee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
                   }
                 }
               ]
@@ -2495,6 +2395,121 @@
                 {
                   "node": {
                     "path": "Common/Tools/StandardCCDBLoader.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
+            "number": 16499,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/model.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsDependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-23T02:38:01Z",
+            "title": "[PWGLF] update of kstarInOO.cxx",
+            "number": 16760,
+            "author": {
+              "login": "JimunLee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] jEPFlowAnalysis.cxx: add event selection with two high pT",
+            "number": 16785,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] fixing bug in upcVmRof",
+            "number": 16786,
+            "author": {
+              "login": "jgcn"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcVmRof.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-24T07:15:20Z",
+            "title": "[PWGDQ] fixed collision index for matching candidates in derived tables",
+            "number": 16769,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
                   }
                 }
               ]
