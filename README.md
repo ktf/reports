@@ -29,7 +29,6 @@
 - [\#15468](https://github.com/AliceO2Group/AliceO2/pull/15468) 2026-06-09: Add ITS stuck-pixel CCDB object output by [@JaehyeokRyu](https://github.com/JaehyeokRyu)
 - [\#15472](https://github.com/AliceO2Group/AliceO2/pull/15472) 2026-06-03: GPU/TPC: Encode saturated qTot and tailLength in ClusterNative by [@fweig](https://github.com/fweig)
 - [\#15481](https://github.com/AliceO2Group/AliceO2/pull/15481) 2026-06-04: GPU/TPC: Use qTot as marker for HIP clusters instead of qMax by [@fweig](https://github.com/fweig)
-- [\#15485](https://github.com/AliceO2Group/AliceO2/pull/15485) 2026-06-07: Fixes for ITS seeding vertexer by [@shahor02](https://github.com/shahor02)
 - [\#15489](https://github.com/AliceO2Group/AliceO2/pull/15489) 2026-06-07: Fix memleaks due to unmanaged ExpandPathName by [@f3sch](https://github.com/f3sch)
 - [\#15490](https://github.com/AliceO2Group/AliceO2/pull/15490) 2026-06-17: fix warning final-dtor-non-final-class by [@f3sch](https://github.com/f3sch)
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
