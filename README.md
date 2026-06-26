@@ -19,7 +19,6 @@
 - [\#15549](https://github.com/AliceO2Group/AliceO2/pull/15549) 2026-06-24: Possibility to globally bias MeanVertex objects via env.var by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15282](https://github.com/AliceO2Group/AliceO2/pull/15282) 2026-06-17: TRD: correction for pile-up and update of error parametrization by [@glegras](https://github.com/glegras)
-- [\#15409](https://github.com/AliceO2Group/AliceO2/pull/15409) 2026-05-27: Ft3 tiling bugfixing & module feature update by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
 - [\#15457](https://github.com/AliceO2Group/AliceO2/pull/15457) 2026-06-12: Ctpdev: cinsistency checker fix by [@lietava](https://github.com/lietava)
 - [\#15468](https://github.com/AliceO2Group/AliceO2/pull/15468) 2026-06-09: Add ITS stuck-pixel CCDB object output by [@JaehyeokRyu](https://github.com/JaehyeokRyu)
