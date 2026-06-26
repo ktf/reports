@@ -22,6 +22,7 @@
 - [\#15282](https://github.com/AliceO2Group/AliceO2/pull/15282) 2026-06-17: TRD: correction for pile-up and update of error parametrization by [@glegras](https://github.com/glegras)
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
 - [\#15457](https://github.com/AliceO2Group/AliceO2/pull/15457) 2026-06-12: Ctpdev: cinsistency checker fix by [@lietava](https://github.com/lietava)
+- [\#15466](https://github.com/AliceO2Group/AliceO2/pull/15466) 2026-06-26: FT0 crosstalk in digitizer by [@spulawsk](https://github.com/spulawsk)
 - [\#15468](https://github.com/AliceO2Group/AliceO2/pull/15468) 2026-06-09: Add ITS stuck-pixel CCDB object output by [@JaehyeokRyu](https://github.com/JaehyeokRyu)
 - [\#15490](https://github.com/AliceO2Group/AliceO2/pull/15490) 2026-06-17: fix warning final-dtor-non-final-class by [@f3sch](https://github.com/f3sch)
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
