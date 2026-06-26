@@ -10,6 +10,7 @@
 - [\#15424](https://github.com/AliceO2Group/AliceO2/pull/15424) 2026-05-29: GPU/TPC: extend noisy pad filter with Highly Ionising Particle filter by [@fweig](https://github.com/fweig)
 - [\#15488](https://github.com/AliceO2Group/AliceO2/pull/15488) 2026-06-08: Fix memleak in ConfKeyValues by [@f3sch](https://github.com/f3sch)
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
+- [\#15525](https://github.com/AliceO2Group/AliceO2/pull/15525) 2026-06-26: Extend configurable params for std-container types by [@f3sch](https://github.com/f3sch)
 - [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#15456](https://github.com/AliceO2Group/AliceO2/pull/15456) 2026-06-08: ITS: add back the code for track following by [@mpuccio](https://github.com/mpuccio)
