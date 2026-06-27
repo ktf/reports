@@ -51,6 +51,7 @@
 - [\#15552](https://github.com/AliceO2Group/AliceO2/pull/15552) 2026-06-24: ITSMFT: add 13-layer tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15556](https://github.com/AliceO2Group/AliceO2/pull/15556) 2026-06-26: TF3: fix digit time by [@mpuccio](https://github.com/mpuccio)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
+- [\#15561](https://github.com/AliceO2Group/AliceO2/pull/15561) 2026-06-27: Fix spurious GCC-15 warning by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
 - [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
