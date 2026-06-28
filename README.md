@@ -48,6 +48,7 @@
 - [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
 - [\#15538](https://github.com/AliceO2Group/AliceO2/pull/15538) 2026-06-19: TPC: fix initialization of FFTW arrays in aggregator-ft by [@ehellbar](https://github.com/ehellbar)
 - [\#15543](https://github.com/AliceO2Group/AliceO2/pull/15543) 2026-06-25: [ALICE3] TF3: add first version of QA macro to check digitization by [@maciacco](https://github.com/maciacco)
+- [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
 - [\#15552](https://github.com/AliceO2Group/AliceO2/pull/15552) 2026-06-24: ITSMFT: add 13-layer tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15556](https://github.com/AliceO2Group/AliceO2/pull/15556) 2026-06-26: TF3: fix digit time by [@mpuccio](https://github.com/mpuccio)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
