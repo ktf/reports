@@ -62,6 +62,7 @@
 - [\#15540](https://github.com/AliceO2Group/AliceO2/pull/15540) 2026-06-18: Add IgProf support to the MCP by [@ktf](https://github.com/ktf)
 - [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 - [\#15550](https://github.com/AliceO2Group/AliceO2/pull/15550) 2026-06-23: DPL MCP: add percentile plots for trains running on the grid by [@ktf](https://github.com/ktf)
+- [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15559](https://github.com/AliceO2Group/AliceO2/pull/15559) 2026-06-25: Adapt to the new security architecture by [@ktf](https://github.com/ktf)
 - [\#15560](https://github.com/AliceO2Group/AliceO2/pull/15560) 2026-06-26: Add more tools to investigate global train load by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
