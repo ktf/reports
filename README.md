@@ -7,7 +7,6 @@
 ## Recent developments in O2 - Analysis
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#15488](https://github.com/AliceO2Group/AliceO2/pull/15488) 2026-06-08: Fix memleak in ConfKeyValues by [@f3sch](https://github.com/f3sch)
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
 - [\#15525](https://github.com/AliceO2Group/AliceO2/pull/15525) 2026-06-26: Extend configurable params for std-container types by [@f3sch](https://github.com/f3sch)
 - [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
