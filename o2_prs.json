@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2025-10-09T18:09:49Z",
-            "title": "DPL: print an error when the configuration is not parsed correctly",
-            "number": 14727,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/PropertyTreeHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "ITS: do not query GRPECS anymore",
-            "number": 15139,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/ClustererSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "ITSMFT: allow to opt. not write MC2ROF",
@@ -3985,6 +3935,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "DPL: avoid one allocation per match",
+            "number": 15563,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: add support for writing general Metadata to AO2D",
             "number": 15553,
             "author": {
@@ -4040,8 +4010,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: avoid one allocation per match",
-            "number": 15563,
+            "title": "TPCLoopers: single threaded by default",
+            "number": 15564,
             "author": {
               "login": "ktf"
             },
@@ -4049,7 +4019,27 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
+                    "path": "Generators/src/TPCLoopers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: speedup processing of piped jsons",
+            "number": 15565,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
                   }
                 }
               ]
