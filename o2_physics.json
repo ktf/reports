@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-23T16:01:37Z",
-            "title": "[PWGLF] hStrangeCorrelationFilter.cxx and hStrangeCorrelation.cxx :fill correlation hist with mass and add some cuts",
-            "number": 16779,
-            "author": {
-              "login": "gengjiabin12"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-23T17:26:40Z",
             "title": "[PWGLF] updated calib task with time rec. at last step",
             "number": 16781,
@@ -131,66 +106,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add globalBc to DQ MC data model for MC truth BC checks",
-            "number": 16398,
-            "author": {
-              "login": "sigurdnese"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/ModelConverterReducedMCEvents002.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
@@ -2374,26 +2289,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] change logic for estimation of bkgd fluctuation in events with TTsig",
-            "number": 16851,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-28T20:49:13Z",
             "title": "[PWGLF] updated code for fast check calib with v1",
@@ -2529,8 +2424,148 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-29T08:29:09Z",
+            "title": "[PWGJE] change logic for estimation of bkgd fluctuation in events with TTsig",
+            "number": 16851,
+            "author": {
+              "login": "KotliarovAr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/recoilJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Adding D0 Decay channel origin",
+            "number": 16854,
+            "author": {
+              "login": "MattOckleton"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,Tutorial,PWGDQ,PWGEM,PWGJE,PWGUD] DPl Analysis: avoid including ASoA.h in dictionary generation",
+            "number": 16823,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/fwdtrackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MixingHandler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/EMEventCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/EvSelFlags.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/DalitzEECut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/PHOSPhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/ClusterHistograms.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/TrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/decayTree.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/decayTree.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/histogramRegistry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-29T09:00:40Z",
             "title": "[PWGCF] Rework interface for MC processing in femto framework",
             "number": 16745,
             "author": {
@@ -2704,18 +2739,58 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
-            "title": "[PWGJE] Adding D0 Decay channel origin",
-            "number": 16854,
+            "title": "[PWGDQ] Add globalBc to DQ MC data model for MC truth BC checks",
+            "number": 16398,
             "author": {
-              "login": "MattOckleton"
+              "login": "sigurdnese"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/ModelConverterReducedMCEvents002.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
@@ -2726,96 +2801,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,Tutorial,PWGDQ,PWGEM,PWGJE,PWGUD] DPl Analysis: avoid including ASoA.h in dictionary generation",
-            "number": 16823,
+            "title": "[PWGJE] New code for hadronjet correlations of Jan Janis",
+            "number": 16387,
             "author": {
-              "login": "aalkin"
+              "login": "fkrizek"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/Core/fwdtrackUtilities.h"
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/MixingHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/EMEventCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/EvSelFlags.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/DalitzEECut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/PHOSPhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/ClusterHistograms.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/decayTree.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/decayTree.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/histogramRegistry.cxx"
+                    "path": "PWGJE/Tasks/trackJetSpectra.cxx"
                   }
                 }
               ]
