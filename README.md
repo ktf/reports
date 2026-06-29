@@ -63,6 +63,7 @@
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15559](https://github.com/AliceO2Group/AliceO2/pull/15559) 2026-06-25: Adapt to the new security architecture by [@ktf](https://github.com/ktf)
 - [\#15560](https://github.com/AliceO2Group/AliceO2/pull/15560) 2026-06-26: Add more tools to investigate global train load by [@ktf](https://github.com/ktf)
+- [\#15565](https://github.com/AliceO2Group/AliceO2/pull/15565) 2026-06-29: DPL: speedup processing of piped jsons by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15448](https://github.com/AliceO2Group/AliceO2/pull/15448) 2026-06-18: Enable Alien hybrid config file fetching by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
