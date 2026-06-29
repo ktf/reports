@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-24T08:11:55Z",
-            "title": "[PWGCF] Add MC gen process",
-            "number": 16765,
-            "author": {
-              "login": "wenyaCern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-23T02:38:01Z",
-            "title": "[PWGLF] update of kstarInOO.cxx",
-            "number": 16760,
-            "author": {
-              "login": "JimunLee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarInOO.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-24T11:17:00Z",
             "title": "[PWGEM/Dilepton] fix calculation of ITSob cluster size in ML",
             "number": 16795,
@@ -2804,9 +2764,29 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-29T14:36:03Z",
+            "title": "[DPG] add rec pid for tracking vs gen pt in qaEfficiency.cxx",
+            "number": 16862,
+            "author": {
+              "login": "wuctlby"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,Tutorial,PWGDQ,PWGEM,PWGJE,PWGUD] DPl Analysis: avoid including ASoA.h in dictionary generation",
+            "title": "[Common,Tutorial,PWGJE,PWGUD] DPL Analysis: avoid including ASoA.h in dictionary generation",
             "number": 16823,
             "author": {
               "login": "aalkin"
@@ -2816,61 +2796,6 @@
                 {
                   "node": {
                     "path": "Common/Core/fwdtrackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MixingHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/EMEventCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/EvSelFlags.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/DalitzEECut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/ClusterHistograms.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/TrackSelection.h"
                   }
                 },
                 {
@@ -2899,18 +2824,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-29T14:36:03Z",
-            "title": "[DPG] add rec pid for tracking vs gen pt in qaEfficiency.cxx",
-            "number": 16862,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add centrality to Ds-hadron correlation task",
+            "number": 16864,
             "author": {
-              "login": "wuctlby"
+              "login": "Sgrazz02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-29T15:39:11Z",
+            "title": "[PWGDQ] fix computation of match attempts in QA task",
+            "number": 16865,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
                   }
                 }
               ]
