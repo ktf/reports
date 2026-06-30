@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-24T20:34:50Z",
-            "title": "[PWGDQ] Bug fixes in tableReader_withAssoc",
-            "number": 16800,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGDQ] event mixing for MFT-MCH candidates",
@@ -1474,31 +1454,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-29T08:29:09Z",
             "title": "[PWGJE] change logic for estimation of bkgd fluctuation in events with TTsig",
@@ -2326,26 +2281,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add centrality to Ds-hadron correlation task",
-            "number": 16864,
-            "author": {
-              "login": "Sgrazz02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Lambda cascade correlation",
             "number": 16869,
             "author": {
@@ -2934,8 +2869,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-06-30T14:17:26Z",
+            "title": "[PWGHF] Update treeCreatorToXiPiQa",
+            "number": 16853,
+            "author": {
+              "login": "jinhyunni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-30T14:27:49Z",
             "title": "[Infrastructure] Update Clang-Tidy configuration for CI",
             "number": 16868,
             "author": {
@@ -2955,17 +2910,72 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-30T14:17:26Z",
-            "title": "[PWGHF] Update treeCreatorToXiPiQa",
-            "number": 16853,
+            "mergedAt": "2026-06-30T14:40:42Z",
+            "title": "[PWGHF] Add centrality to Ds-hadron correlation task",
+            "number": 16864,
             "author": {
-              "login": "jinhyunni"
+              "login": "Sgrazz02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorToXiPiQa.cxx"
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add zdc-extra-table-reader task",
+            "number": 16028,
+            "author": {
+              "login": "udmitrie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] PhotonChargedTriggerCorrelation: Add MC information and make adjustments",
+            "number": 16744,
+            "author": {
+              "login": "jkinner2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerProducer.cxx"
                   }
                 }
               ]
