@@ -24,7 +24,6 @@
 - [\#15497](https://github.com/AliceO2Group/AliceO2/pull/15497) 2026-06-17: ITS: add per-stage memory stat by [@f3sch](https://github.com/f3sch)
 - [\#15498](https://github.com/AliceO2Group/AliceO2/pull/15498) 2026-06-17: ITS: get cluster index only once by [@f3sch](https://github.com/f3sch)
 - [\#15499](https://github.com/AliceO2Group/AliceO2/pull/15499) 2026-06-10: ITS: rename transition to link by [@f3sch](https://github.com/f3sch)
-- [\#15500](https://github.com/AliceO2Group/AliceO2/pull/15500) 2026-06-09: ALICE3: use track extension + allow configuring passes via JSON by [@mpuccio](https://github.com/mpuccio)
 - [\#15501](https://github.com/AliceO2Group/AliceO2/pull/15501) 2026-06-09: [ALICE3] IOTOF: Configurable radii for cylinder TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15503](https://github.com/AliceO2Group/AliceO2/pull/15503) 2026-06-11: RICH: make local Z the radial axis for radiator and photosensor tiles by [@altsybee](https://github.com/altsybee)
 - [\#15507](https://github.com/AliceO2Group/AliceO2/pull/15507) 2026-06-12: FT3 Staves Minor ambiguity bugfix by [@JustusRudolph](https://github.com/JustusRudolph)
