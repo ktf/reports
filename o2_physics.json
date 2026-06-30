@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-25T07:09:42Z",
-            "title": "[PWGJE] add counting of TT for restricted phi range",
-            "number": 16809,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-24T14:57:52Z",
-            "title": "[PWGLF] check the production vertex of nuclei from material",
-            "number": 16793,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-25T07:36:25Z",
             "title": "[Common] Avoid doubling of the reserved size",
             "number": 16780,
@@ -1144,26 +1094,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
-            "number": 16842,
-            "author": {
-              "login": "wirthni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-28T12:41:38Z",
             "title": "[PWGEM/Dilepton] update studyDCAFitter.cxx",
@@ -1231,26 +1161,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Common/zdcvector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.5.0 to 9.6.0",
-            "number": 16852,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/mega-linter.yml"
                   }
                 }
               ]
@@ -2494,26 +2404,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common/Core] disentangle fwdtrackUtilities.h from ASoA.h",
-            "number": 16878,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/fwdtrackUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-06-30T10:55:46Z",
             "title": "[PWGUD/Core] out-of-line decayTree to avoid pulling in HistogramRegistry.h",
@@ -2916,26 +2806,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] fix track selection for MCH realignment",
-            "number": 16880,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure] Bump actions/checkout from 6 to 7",
             "number": 16759,
             "author": {
@@ -2976,6 +2846,141 @@
                 {
                   "node": {
                     "path": "cppcheck_suppressions"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.5.0 to 9.6.0",
+            "number": 16852,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
+            "number": 16499,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/model.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsDependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common/Core] disentangle fwdtrackUtilities.h from ASoA.h",
+            "number": 16878,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/fwdtrackUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] fix track selection for MCH realignment",
+            "number": 16880,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
+            "number": 16842,
+            "author": {
+              "login": "wirthni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added NUA fill and use",
+            "number": 16882,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
                   }
                 }
               ]
