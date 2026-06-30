@@ -3645,36 +3645,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-06-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-06-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary",
             "number": 15548,
             "author": {
@@ -3715,41 +3685,6 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Simulation/src/Materials.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix undefined symbols on macOS ARM",
-            "number": 15568,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/macro/createTPCSpaceChargeCorrection.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/macro/calculateDistortionsCorrections.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/macro/createSCHistosFromHits.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "tests/test-root-macro.sh.in"
                   }
                 }
               ]
@@ -3980,26 +3915,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
-            "number": 15380,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] Add mag field visualization",
             "number": 15486,
             "author": {
@@ -4045,6 +3960,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "DPL: split dictionary for test classes",
+            "number": 15567,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-30T18:36:40Z",
             "title": "Fix usage of the MeanVertex in PVertexer",
             "number": 15572,
             "author": {
@@ -4073,10 +4013,10 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: split dictionary for test classes",
-            "number": 15567,
+            "state": "MERGED",
+            "mergedAt": "2026-06-30T18:38:48Z",
+            "title": "Fix undefined symbols on macOS ARM",
+            "number": 15568,
             "author": {
               "login": "ktf"
             },
@@ -4084,12 +4024,72 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
+                    "path": "Detectors/TPC/reconstruction/macro/createTPCSpaceChargeCorrection.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Utils/CMakeLists.txt"
+                    "path": "Detectors/TPC/spacecharge/macro/calculateDistortionsCorrections.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/macro/createSCHistosFromHits.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "tests/test-root-macro.sh.in"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-06-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-06-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
+            "number": 15380,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
                   }
                 }
               ]

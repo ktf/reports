@@ -15,6 +15,7 @@
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
 - [\#15549](https://github.com/AliceO2Group/AliceO2/pull/15549) 2026-06-24: Possibility to globally bias MeanVertex objects via env.var by [@shahor02](https://github.com/shahor02)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
+- [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15282](https://github.com/AliceO2Group/AliceO2/pull/15282) 2026-06-17: TRD: correction for pile-up and update of error parametrization by [@glegras](https://github.com/glegras)
 - [\#15457](https://github.com/AliceO2Group/AliceO2/pull/15457) 2026-06-12: Ctpdev: cinsistency checker fix by [@lietava](https://github.com/lietava)
@@ -46,6 +47,8 @@
 - [\#15556](https://github.com/AliceO2Group/AliceO2/pull/15556) 2026-06-26: TF3: fix digit time by [@mpuccio](https://github.com/mpuccio)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 - [\#15561](https://github.com/AliceO2Group/AliceO2/pull/15561) 2026-06-27: Fix spurious GCC-15 warning by [@ktf](https://github.com/ktf)
+- [\#15568](https://github.com/AliceO2Group/AliceO2/pull/15568) 2026-06-30: Fix undefined symbols on macOS ARM by [@ktf](https://github.com/ktf)
+- [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
 - [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
