@@ -50,6 +50,7 @@
 - [\#15568](https://github.com/AliceO2Group/AliceO2/pull/15568) 2026-06-30: Fix undefined symbols on macOS ARM by [@ktf](https://github.com/ktf)
 - [\#15570](https://github.com/AliceO2Group/AliceO2/pull/15570) 2026-07-01: [TF3] Clusterizer interface for ALICE3 TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)
+- [\#15574](https://github.com/AliceO2Group/AliceO2/pull/15574) 2026-07-01: Remove unused and out of scope variables in Clusterer::updateChip  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
