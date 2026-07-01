@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-24T12:40:53Z",
-            "title": "[PWGDQ] update qa-matching added AtPlaneZ2 columns",
-            "number": 16774,
-            "author": {
-              "login": "YoshiniBailung"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-25T09:20:28Z",
-            "title": "[PWGDQ] Add optional fetching of IR per event from CCDB",
-            "number": 16811,
-            "author": {
-              "login": "sigurdnese"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Remove unused files",
-            "number": 16098,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2LutWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-25T11:11:00Z",
             "title": "[PWGCF] Add shift to flowSP",
             "number": 16812,
@@ -406,26 +331,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] do not skip runs without RCT flags",
-            "number": 16830,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
                   }
                 }
               ]
@@ -2496,31 +2401,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Add PCH to more Jet tasks",
             "number": 16334,
             "author": {
@@ -2671,31 +2551,6 @@
                 {
                   "node": {
                     "path": ".github/workflows/o2-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Enable more categories in Cppcheck",
-            "number": 13097,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".mega-linter.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cppcheck_suppressions"
                   }
                 }
               ]
@@ -2981,6 +2836,151 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] do not skip runs without RCT flags",
+            "number": 16830,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-01T08:27:51Z",
+            "title": "[Infrastructure] Enable more categories in Cppcheck",
+            "number": 13097,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cppcheck_suppressions"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add zdc-extra-table-reader task",
+            "number": 16028,
+            "author": {
+              "login": "udmitrie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Fix typo in a3 multicharm finding",
+            "number": 16887,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Pass trackparcov as reference instead of copy in a3 track utilities",
+            "number": 16886,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Lambda1405Analysis: Sigma eff vs. PV contrib + Sparse addition",
+            "number": 16885,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFLambda1405Table.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/kinkBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
                   }
                 }
               ]
