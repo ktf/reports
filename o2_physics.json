@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-25T11:11:00Z",
-            "title": "[PWGCF] Add shift to flowSP",
-            "number": 16812,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-25T12:16:33Z",
-            "title": "[PWGUD] fixing includes in PWGUD folder",
-            "number": 16813,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/fwdMuonsUpc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/ptSpectraInclusiveUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-25T12:35:19Z",
             "title": "[PWGCF] Update the cascades efficiency in cascDiHadronCorr.cxx",
             "number": 16815,
@@ -2804,26 +2759,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
-            "number": 16842,
-            "author": {
-              "login": "wirthni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-01T07:20:11Z",
             "title": "[PWGDQ] fix track selection for MCH realignment",
@@ -2916,16 +2851,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Fix typo in a3 multicharm finding",
-            "number": 16887,
+            "title": "[PWGLF] Lambda1405Analysis: Sigma eff vs. PV contrib + Sparse addition",
+            "number": 16885,
             "author": {
-              "login": "jesgum"
+              "login": "Marcellocosti"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
+                    "path": "PWGLF/DataModel/LFLambda1405Table.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/kinkBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
                   }
                 }
               ]
@@ -2961,26 +2906,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Lambda1405Analysis: Sigma eff vs. PV contrib + Sparse addition",
-            "number": 16885,
+            "title": "[ALICE3] Fix typo in a3 multicharm finding",
+            "number": 16887,
             "author": {
-              "login": "Marcellocosti"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFLambda1405Table.h"
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fix MC only processing",
+            "number": 16888,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/mcBuilder.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Common/kinkBuilder.cxx"
+                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
+            "number": 16842,
+            "author": {
+              "login": "wirthni"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
+                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
+            "number": 16703,
+            "author": {
+              "login": "iamkoushikb-bit"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 }
               ]
