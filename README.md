@@ -51,7 +51,6 @@
 - [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
-- [\#15505](https://github.com/AliceO2Group/AliceO2/pull/15505) 2026-06-10: DPL: speedup startup by [@ktf](https://github.com/ktf)
 - [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15517](https://github.com/AliceO2Group/AliceO2/pull/15517) 2026-06-13: DPL: finer grainded timestamps in logs by [@ktf](https://github.com/ktf)
