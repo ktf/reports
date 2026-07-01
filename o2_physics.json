@@ -2431,36 +2431,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] PhotonChargedTriggerCorrelation: Add MC information and make adjustments",
-            "number": 16744,
-            "author": {
-              "login": "jkinner2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/photonChargedTriggerProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Lambda cascade correlation",
             "number": 16869,
             "author": {
@@ -2511,46 +2481,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add histogram for A2",
-            "number": 16870,
-            "author": {
-              "login": "ypwangg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Change the reserve size in tableReader.cxx",
-            "number": 16884,
-            "author": {
-              "login": "ypwangg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
                   }
                 }
               ]
@@ -2869,41 +2799,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Bug fixes in DQ libraries",
-            "number": 16890,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MixingLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-01T12:03:32Z",
             "title": "[PWGEM/Dilepton] move out flags declaration to avoid including datamodel in a dictionary",
@@ -2961,6 +2856,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Fix MC only processing",
+            "number": 16888,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/mcBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-01T12:41:31Z",
             "title": "[Infrastructure] Update checkout configuration",
             "number": 16892,
             "author": {
@@ -2986,21 +2906,101 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fix MC only processing",
-            "number": 16888,
+            "title": "[PWGDQ] Bug fixes in DQ libraries",
+            "number": 16890,
             "author": {
-              "login": "ariedel-cern"
+              "login": "mcoquet642"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/mcBuilder.h"
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MixingLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] PhotonChargedTriggerCorrelation: Add MC information and make adjustments",
+            "number": 16744,
+            "author": {
+              "login": "jkinner2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add histogram for A2",
+            "number": 16870,
+            "author": {
+              "login": "ypwangg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-01T13:29:23Z",
+            "title": "[PWGDQ] Change the reserve size in tableReader.cxx",
+            "number": 16884,
+            "author": {
+              "login": "ypwangg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
                   }
                 }
               ]
