@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-25T12:35:19Z",
-            "title": "[PWGCF] Update the cascades efficiency in cascDiHadronCorr.cxx",
-            "number": 16815,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/cascDiHadronCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-25T12:37:37Z",
-            "title": "[PWGJE] add QA to random cones with rho(phi), change R_4 -> R_24",
-            "number": 16816,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-25T13:19:27Z",
-            "title": "[PWGEM/Dilepton] remove axes from outputs",
-            "number": 16819,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonSVMC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-25T14:10:25Z",
             "title": "[PWGDQ] Add Tauxy cut to select for non-prompt Jpsi in tableReader_withAssoc.cxx",
             "number": 16810,
@@ -2491,51 +2426,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure] Bump actions/checkout from 6 to 7",
-            "number": 16759,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/mega-linter.yml"
-                  }
-                },
-                {
-                  "node": {
-                    "path": ".github/workflows/o2-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.5.0 to 9.6.0",
-            "number": 16852,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/mega-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
             "number": 16499,
             "author": {
@@ -2881,31 +2771,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Pass trackparcov as reference instead of copy in a3 track utilities",
-            "number": 16886,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/TrackUtilities.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/TrackUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] Fix typo in a3 multicharm finding",
             "number": 16887,
             "author": {
@@ -2951,6 +2816,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
+            "number": 16703,
+            "author": {
+              "login": "iamkoushikb-bit"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
             "number": 16842,
             "author": {
@@ -2971,16 +2856,146 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
-            "number": 16703,
+            "title": "[PWGCF] add nested loops",
+            "number": 16889,
             "author": {
-              "login": "iamkoushikb-bit"
+              "login": "pengchon"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Pass trackparcov as reference instead of copy in a3 track utilities",
+            "number": 16886,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TrackUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-01T11:29:05Z",
+            "title": "[Infrastructure] Bump oxsecurity/megalinter from 9.5.0 to 9.6.0",
+            "number": 16852,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-01T11:29:28Z",
+            "title": "[Infrastructure] Bump actions/checkout from 6 to 7",
+            "number": 16759,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/o2-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Bug fixes in DQ libraries",
+            "number": 16890,
+            "author": {
+              "login": "mcoquet642"
             },
             "files": {
               "edges": [
                 {
                   "node": {
                     "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MixingLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] dec: adding nopileup flag to output table",
+            "number": 16891,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
                   }
                 }
               ]
