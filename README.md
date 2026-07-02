@@ -13,6 +13,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15511](https://github.com/AliceO2Group/AliceO2/pull/15511) 2026-06-15: Add c-deuteron PDG code in physics constants and add missing Lc* in O2DatabasePDG by [@fgrosa](https://github.com/fgrosa)
+- [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15549](https://github.com/AliceO2Group/AliceO2/pull/15549) 2026-06-24: Possibility to globally bias MeanVertex objects via env.var by [@shahor02](https://github.com/shahor02)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 - [\#15570](https://github.com/AliceO2Group/AliceO2/pull/15570) 2026-07-01: [TF3] Clusterizer interface for ALICE3 TOF by [@Marcellocosti](https://github.com/Marcellocosti)
@@ -32,6 +33,7 @@
 - [\#15519](https://github.com/AliceO2Group/AliceO2/pull/15519) 2026-06-16: TPC: clamp zOut to TPC length by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15521](https://github.com/AliceO2Group/AliceO2/pull/15521) 2026-06-24: ALICE3: prepare IOTOF geometry for including TOF in tracking by [@mpuccio](https://github.com/mpuccio)
 - [\#15522](https://github.com/AliceO2Group/AliceO2/pull/15522) 2026-06-17: ITS: GPU: fix perPrimaryVertexProcessing by [@f3sch](https://github.com/f3sch)
+- [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15524](https://github.com/AliceO2Group/AliceO2/pull/15524) 2026-06-16: Changes in TPC residuals validation by [@shahor02](https://github.com/shahor02)
 - [\#15526](https://github.com/AliceO2Group/AliceO2/pull/15526) 2026-06-15: Add missing parameter instantiation by [@ktf](https://github.com/ktf)
 - [\#15527](https://github.com/AliceO2Group/AliceO2/pull/15527) 2026-06-17: ITS: avoid memory shuffeling by accessing tracks via idx by [@f3sch](https://github.com/f3sch)
