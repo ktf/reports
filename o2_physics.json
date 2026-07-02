@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-26T14:59:46Z",
-            "title": "[PWGCF] add toy model to phi",
-            "number": 16833,
-            "author": {
-              "login": "pengchon"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-26T15:20:44Z",
-            "title": "[PWGCF] Update in PID strategy and QA",
-            "number": 16834,
-            "author": {
-              "login": "sustripathy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/nucleibalance.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-26T20:21:51Z",
-            "title": "[PWGEM/Dilepton] update studyDCAFitter.cxx",
-            "number": 16840,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/lmeeMLTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/studyDCAFitter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-26T21:00:50Z",
-            "title": "[PWGLF] updated code with check of fine time rec",
-            "number": 16835,
-            "author": {
-              "login": "prottayCMT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-26T22:02:09Z",
             "title": "[PWGLF] strangeness in pp: refine gen. sels; fix labels",
             "number": 16837,
@@ -3056,6 +2966,121 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-17T07:22:32Z",
+            "title": "[ALICE3] Implementation of prefilter and PID for ALICE 3",
+            "number": 16693,
+            "author": {
+              "login": "rbailhac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/prefilterDilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-12T11:04:24Z",
+            "title": "[PWGEM/Dilepton] reduce dependencies of skimmerPrimaryElectronSV.cxx",
+            "number": 16636,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronSV.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-14T09:54:36Z",
+            "title": "[PWGLF] Add pT-dependent double-phi mass parameters and CCDB residual weights for Lambda spin correlations",
+            "number": 16652,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdaspincorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Modify K* task for mixed-event v2 extraction",
+            "number": 16906,
+            "author": {
+              "login": "sarjeetagami"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstarpbpb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "git"
                   }
                 }
               ]
