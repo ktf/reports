@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-26T12:06:41Z",
-            "title": "[PWGJE] add h2 ft0c/ft0a qnred, psi44+psi42",
-            "number": 16831,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-26T12:43:16Z",
             "title": "[PWGHF] Fix sign selection and units for c-deuteron ct",
             "number": 16832,
@@ -2864,26 +2844,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] added some more efficiency histograms",
-            "number": 16900,
-            "author": {
-              "login": "nidamalikk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-02T12:08:41Z",
             "title": "[PWGEM/Dilepton] add a v1 task",
@@ -2936,16 +2896,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
-            "number": 16842,
+            "title": "[PWGJE] PhotonChargedTriggerCorrelation: Add MC information and make adjustments",
+            "number": 16744,
             "author": {
-              "login": "wirthni"
+              "login": "jkinner2"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
+                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/photonChargedTriggerProducer.cxx"
                   }
                 }
               ]
@@ -2976,26 +2946,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] PhotonChargedTriggerCorrelation: Add MC information and make adjustments",
-            "number": 16744,
+            "title": "[PWGJE] Refactor collision index handling in diffWakeTreeProducer",
+            "number": 16842,
             "author": {
-              "login": "jkinner2"
+              "login": "wirthni"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/DataModel/PhotonChargedTriggerCorrelation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/photonChargedTriggerCorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/photonChargedTriggerProducer.cxx"
+                    "path": "PWGJE/TableProducer/diffWakeTreeProducer.cxx"
                   }
                 }
               ]
@@ -3036,6 +2996,61 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/dimuonV1.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] added some more efficiency histograms",
+            "number": 16900,
+            "author": {
+              "login": "nidamalikk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Added additional MC information in k892hadronphoton to study decay chains",
+            "number": 16904,
+            "author": {
+              "login": "Oussama3030"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSigmaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892hadronphoton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892hadronphotonBkg.cxx"
                   }
                 }
               ]
