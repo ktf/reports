@@ -27,7 +27,6 @@
 - [\#15498](https://github.com/AliceO2Group/AliceO2/pull/15498) 2026-06-17: ITS: get cluster index only once by [@f3sch](https://github.com/f3sch)
 - [\#15503](https://github.com/AliceO2Group/AliceO2/pull/15503) 2026-06-11: RICH: make local Z the radial axis for radiator and photosensor tiles by [@altsybee](https://github.com/altsybee)
 - [\#15507](https://github.com/AliceO2Group/AliceO2/pull/15507) 2026-06-12: FT3 Staves Minor ambiguity bugfix by [@JustusRudolph](https://github.com/JustusRudolph)
-- [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15515](https://github.com/AliceO2Group/AliceO2/pull/15515) 2026-06-15: ITS: optionally restrict CA to a subset of layers + support inactive layers by [@mpuccio](https://github.com/mpuccio)
 - [\#15519](https://github.com/AliceO2Group/AliceO2/pull/15519) 2026-06-16: TPC: clamp zOut to TPC length by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -53,7 +52,6 @@
 - [\#15574](https://github.com/AliceO2Group/AliceO2/pull/15574) 2026-07-01: Remove unused and out of scope variables in Clusterer::updateChip  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15386](https://github.com/AliceO2Group/AliceO2/pull/15386) 2026-06-15: DPL: fixes for memory leak in CCDB object caching  by [@ehellbar](https://github.com/ehellbar)
-- [\#15510](https://github.com/AliceO2Group/AliceO2/pull/15510) 2026-06-10: DPL: properly reserve memory when writing by [@ktf](https://github.com/ktf)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15517](https://github.com/AliceO2Group/AliceO2/pull/15517) 2026-06-13: DPL: finer grainded timestamps in logs by [@ktf](https://github.com/ktf)
 - [\#15530](https://github.com/AliceO2Group/AliceO2/pull/15530) 2026-06-16: Allow the MCP to get the wagons of a given train by [@ktf](https://github.com/ktf)

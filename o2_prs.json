@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-10T21:39:24Z",
-            "title": "DPL: properly reserve memory when writing",
-            "number": 15510,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ASoA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Add method isFromRadDecay(const int id). Checks whether particle resu…",
@@ -3325,66 +3300,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Updates and bug-fixes",
-            "number": 15571,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/src/OrtInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: add support for writing general Metadata to AO2D",
             "number": 15553,
             "author": {
@@ -4025,6 +3940,116 @@
                 {
                   "node": {
                     "path": "doc/data/2026-07-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Skip invalid timeframes during ROOT input",
+            "number": 15576,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/MessageContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/MessageContext.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Updates and bug-fixes",
+            "number": 15571,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/src/OrtInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerHost.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]
