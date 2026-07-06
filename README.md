@@ -27,7 +27,6 @@
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15497](https://github.com/AliceO2Group/AliceO2/pull/15497) 2026-06-17: ITS: add per-stage memory stat by [@f3sch](https://github.com/f3sch)
 - [\#15498](https://github.com/AliceO2Group/AliceO2/pull/15498) 2026-06-17: ITS: get cluster index only once by [@f3sch](https://github.com/f3sch)
-- [\#15503](https://github.com/AliceO2Group/AliceO2/pull/15503) 2026-06-11: RICH: make local Z the radial axis for radiator and photosensor tiles by [@altsybee](https://github.com/altsybee)
 - [\#15507](https://github.com/AliceO2Group/AliceO2/pull/15507) 2026-06-12: FT3 Staves Minor ambiguity bugfix by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15512](https://github.com/AliceO2Group/AliceO2/pull/15512) 2026-06-11: AOD Writer: correct reserve for cpvClusters by [@ktf](https://github.com/ktf)
 - [\#15515](https://github.com/AliceO2Group/AliceO2/pull/15515) 2026-06-15: ITS: optionally restrict CA to a subset of layers + support inactive layers by [@mpuccio](https://github.com/mpuccio)
