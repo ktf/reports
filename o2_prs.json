@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-10T17:25:10Z",
-            "title": "GPU/TPC: Clamp gain correction of raw ADCs to 1022",
-            "number": 15508,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-11T15:16:45Z",
             "title": "RICH: make local Z the radial axis for radiator and photosensor tiles",
             "number": 15503,
@@ -4185,6 +4165,51 @@
                 {
                   "node": {
                     "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Possibility to bias magnetic field origin via env.var.",
+            "number": 15581,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Field/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/include/Field/FieldOriginBiasParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/include/Field/MagneticField.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/FieldLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/FieldOriginBiasParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/MagneticField.cxx"
                   }
                 }
               ]
