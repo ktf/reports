@@ -3041,31 +3041,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Fix MC flagging for c-deuteron",
-            "number": 16953,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsMcMatching.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Added additional histograms for correlated background in k892hadronphoton",
             "number": 16950,
             "author": {
@@ -3124,18 +3099,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
-            "title": "[PWGCF] Lambda cascade correlation",
-            "number": 16869,
+            "title": "[PWGEM] Add new event mixing logic based on photon legs",
+            "number": 16956,
             "author": {
-              "login": "Oveissheibani"
+              "login": "Steffimro"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/Lambdacascadecorrelation.cxx"
+                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
                   }
                 }
               ]
@@ -3164,18 +3139,43 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] Add new event mixing logic based on photon legs",
-            "number": 16956,
+            "title": "[PWGCF] Lambda cascade correlation",
+            "number": 16869,
             "author": {
-              "login": "Steffimro"
+              "login": "Oveissheibani"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/Lambdacascadecorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-07T20:23:40Z",
+            "title": "[PWGHF] Fix MC flagging for c-deuteron",
+            "number": 16953,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsMcMatching.h"
                   }
                 }
               ]
