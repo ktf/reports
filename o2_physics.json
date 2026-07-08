@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-02T08:14:46Z",
-            "title": "[PWGDQ] Fixing reserved size for assocs tables in tableMaker",
-            "number": 16897,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-02T11:44:31Z",
-            "title": "[PWGLF] NucleiTask - Fix rapidity cuts with shifted pT",
-            "number": 16898,
-            "author": {
-              "login": "giovannimalfattore"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/lfNucleiBATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-02T12:08:41Z",
-            "title": "[PWGEM/Dilepton] add a v1 task",
-            "number": 16899,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dimuonV1.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-02T15:12:34Z",
-            "title": "[PWGCF] added some more efficiency histograms",
-            "number": 16900,
-            "author": {
-              "login": "nidamalikk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/netchargeFluctuations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-01T20:37:44Z",
             "title": "[DPG] Move downsampling to speed up execution",
             "number": 16893,
@@ -3094,26 +3004,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] some clang-tidy fixes for VarManager.h",
-            "number": 16962,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-08T13:57:54Z",
             "title": "[Infrastructure] Update PWGDQ code owners",
@@ -3134,7 +3024,27 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "MERGED",
+            "mergedAt": "2026-07-08T14:03:24Z",
+            "title": "[PWGDQ] update qamatching AO2D Tables",
+            "number": 16919,
+            "author": {
+              "login": "YoshiniBailung"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGDQ] Update track indexing for derived tables",
             "number": 16964,
@@ -3154,10 +3064,30 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-08T14:03:24Z",
-            "title": "[PWGDQ] update qamatching AO2D Tables",
-            "number": 16919,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Speed up triplet mixing in femto framework",
+            "number": 16965,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletProcessHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Update track indexing for derived tables",
+            "number": 16968,
             "author": {
               "login": "YoshiniBailung"
             },
@@ -3166,6 +3096,81 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] PhotonMeson: Fix bug in photonconversionbuilder `v0photoncand…",
+            "number": 16966,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EmMlResponsePCM.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCandidate.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] some clang-tidy fixes for VarManager.h",
+            "number": 16962,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add mc function",
+            "number": 16967,
+            "author": {
+              "login": "huinaibing"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
                   }
                 }
               ]
