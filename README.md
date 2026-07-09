@@ -28,7 +28,6 @@
 - [\#15522](https://github.com/AliceO2Group/AliceO2/pull/15522) 2026-06-17: ITS: GPU: fix perPrimaryVertexProcessing by [@f3sch](https://github.com/f3sch)
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15524](https://github.com/AliceO2Group/AliceO2/pull/15524) 2026-06-16: Changes in TPC residuals validation by [@shahor02](https://github.com/shahor02)
-- [\#15526](https://github.com/AliceO2Group/AliceO2/pull/15526) 2026-06-15: Add missing parameter instantiation by [@ktf](https://github.com/ktf)
 - [\#15527](https://github.com/AliceO2Group/AliceO2/pull/15527) 2026-06-17: ITS: avoid memory shuffeling by accessing tracks via idx by [@f3sch](https://github.com/f3sch)
 - [\#15532](https://github.com/AliceO2Group/AliceO2/pull/15532) 2026-06-24: TPC: Add sector edge fluctuation correction infrastructure by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15535](https://github.com/AliceO2Group/AliceO2/pull/15535) 2026-06-17: TPC: scale VDrift for every TF with TP by [@matthias-kleiner](https://github.com/matthias-kleiner)
