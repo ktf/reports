@@ -25,7 +25,6 @@
 - [\#15493](https://github.com/AliceO2Group/AliceO2/pull/15493) 2026-06-10: [IOTOF] Update in the TOF digitization by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15497](https://github.com/AliceO2Group/AliceO2/pull/15497) 2026-06-17: ITS: add per-stage memory stat by [@f3sch](https://github.com/f3sch)
 - [\#15498](https://github.com/AliceO2Group/AliceO2/pull/15498) 2026-06-17: ITS: get cluster index only once by [@f3sch](https://github.com/f3sch)
-- [\#15515](https://github.com/AliceO2Group/AliceO2/pull/15515) 2026-06-15: ITS: optionally restrict CA to a subset of layers + support inactive layers by [@mpuccio](https://github.com/mpuccio)
 - [\#15519](https://github.com/AliceO2Group/AliceO2/pull/15519) 2026-06-16: TPC: clamp zOut to TPC length by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15521](https://github.com/AliceO2Group/AliceO2/pull/15521) 2026-06-24: ALICE3: prepare IOTOF geometry for including TOF in tracking by [@mpuccio](https://github.com/mpuccio)
 - [\#15522](https://github.com/AliceO2Group/AliceO2/pull/15522) 2026-06-17: ITS: GPU: fix perPrimaryVertexProcessing by [@f3sch](https://github.com/f3sch)
