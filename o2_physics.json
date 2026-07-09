@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Selects primary pions with TOF",
-            "number": 16920,
-            "author": {
-              "login": "omvazque"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-03T18:08:01Z",
-            "title": "[PWGCF] add some particle cuts and event cuts",
-            "number": 16916,
-            "author": {
-              "login": "pengchon"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiharmonicCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-03T19:01:42Z",
-            "title": "[PWGLF] Selects primary pions with TOF",
-            "number": 16921,
-            "author": {
-              "login": "omvazque"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-03T19:32:20Z",
-            "title": "[PWGLF] Fix code-checker problems in flattenictyPikp.cxx",
-            "number": 16908,
-            "author": {
-              "login": "gbencedi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-03T20:11:53Z",
             "title": "Please consider the following formatting changes to #16922",
@@ -2476,31 +2396,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] some clang-tidy fixes for VarManager.h",
-            "number": 16962,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add light ion centrality tables with anchoring at 90%",
             "number": 16939,
             "author": {
@@ -3016,8 +2911,33 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Introducing event-mixing matching in global-muon-matcher",
-            "number": 16986,
+            "title": "[PWGCF] Add spherical harmonics decomposition to unified Femto framework",
+            "number": 16978,
+            "author": {
+              "login": "IgorPtak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/femtoSpherHarMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairHistManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] some clang-tidy fixes for VarManager.h",
+            "number": 16962,
             "author": {
               "login": "mcoquet642"
             },
@@ -3025,7 +2945,32 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: use API instead of direct construction",
+            "number": 16989,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tutorials/src/compatibleBCs.cxx"
                   }
                 }
               ]
@@ -3051,6 +2996,46 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/gammaJetTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGUD] DPL Analysis: use API instead of direct construction",
+            "number": 16990,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] new output option",
+            "number": 16991,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
                   }
                 }
               ]
@@ -3101,21 +3086,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add spherical harmonics decomposition to unified Femto framework",
-            "number": 16978,
+            "title": "[PWGDQ] Introducing event-mixing matching in global-muon-matcher",
+            "number": 16986,
             "author": {
-              "login": "IgorPtak"
+              "login": "mcoquet642"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/femtoSpherHarMath.h"
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Speed-up D0 calibration derived data producer",
+            "number": 16988,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/D0CalibTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/pairHistManager.h"
+                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
                   }
                 }
               ]
