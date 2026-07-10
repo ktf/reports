@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2025-12-14T09:03:50Z",
-            "title": "[PWGCF] modified and renamed the workflow for kaon-deuteron femto",
-            "number": 14203,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/PionNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-06T21:25:58Z",
             "title": "[PWGLF] updated table producer with new recentering procedure to check v1",
             "number": 16934,
@@ -2946,6 +2911,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF/D2H] PID selections changed in taskDeuteronFromLb",
+            "number": 17013,
+            "author": {
+              "login": "MRazza879"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-10T16:55:35Z",
+            "title": "[PWGLF] kstar892LightIon: Added process function for kinematics of misidentification and optimised code",
+            "number": 17009,
+            "author": {
+              "login": "5ub-Man"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common,PWGDQ,PWGEM,PWGHF,PWGLF] Fix includes",
             "number": 17012,
             "author": {
@@ -3021,66 +3056,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF/D2H] PID selections changed in taskDeuteronFromLb",
-            "number": 17013,
+            "title": "[PWGEM/Dilepton] update DileptonSV and SVMC",
+            "number": 17014,
             "author": {
-              "login": "MRazza879"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
+                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
+                    "path": "PWGEM/Dilepton/Core/DileptonSVMC.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-10T16:55:35Z",
-            "title": "[PWGLF] kstar892LightIon: Added process function for kinematics of misidentification and optimised code",
-            "number": 17009,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
+                    "path": "PWGEM/Dilepton/Tasks/dimuonSV.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dimuonSVMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/PairUtilities.h"
                   }
                 }
               ]
