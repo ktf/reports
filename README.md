@@ -42,6 +42,7 @@
 - [\#15570](https://github.com/AliceO2Group/AliceO2/pull/15570) 2026-07-01: [TF3] Clusterizer interface for ALICE3 TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#15574](https://github.com/AliceO2Group/AliceO2/pull/15574) 2026-07-01: Remove unused and out of scope variables in Clusterer::updateChip  by [@shahor02](https://github.com/shahor02)
+- [\#15594](https://github.com/AliceO2Group/AliceO2/pull/15594) 2026-07-10: Store TPC cluster flag in UnbinnedResid::channel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15540](https://github.com/AliceO2Group/AliceO2/pull/15540) 2026-06-18: Add IgProf support to the MCP by [@ktf](https://github.com/ktf)
 - [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
