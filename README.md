@@ -18,7 +18,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15282](https://github.com/AliceO2Group/AliceO2/pull/15282) 2026-06-17: TRD: correction for pile-up and update of error parametrization by [@glegras](https://github.com/glegras)
 - [\#15466](https://github.com/AliceO2Group/AliceO2/pull/15466) 2026-06-26: FT0 crosstalk in digitizer by [@spulawsk](https://github.com/spulawsk)
-- [\#15490](https://github.com/AliceO2Group/AliceO2/pull/15490) 2026-06-17: fix warning final-dtor-non-final-class by [@f3sch](https://github.com/f3sch)
 - [\#15497](https://github.com/AliceO2Group/AliceO2/pull/15497) 2026-06-17: ITS: add per-stage memory stat by [@f3sch](https://github.com/f3sch)
 - [\#15498](https://github.com/AliceO2Group/AliceO2/pull/15498) 2026-06-17: ITS: get cluster index only once by [@f3sch](https://github.com/f3sch)
 - [\#15521](https://github.com/AliceO2Group/AliceO2/pull/15521) 2026-06-24: ALICE3: prepare IOTOF geometry for including TOF in tracking by [@mpuccio](https://github.com/mpuccio)
