@@ -1671,46 +1671,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Autoset the tables produced based on the task topology",
-            "number": 16922,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF/D2H] PID selections changed in taskDeuteronFromLb",
-            "number": 17013,
-            "author": {
-              "login": "MRazza879"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Fix fetching of centrality configuration in centrality study",
             "number": 16943,
             "author": {
@@ -2434,58 +2394,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Fix clang-tidy warnings and errors in EMCal cuts related files",
-            "number": 17045,
+            "state": "MERGED",
+            "mergedAt": "2026-07-13T15:28:38Z",
+            "title": "[PWGEM] Rewise phi-star separation cuts",
+            "number": 17040,
             "author": {
-              "login": "mhemmer-cern"
+              "login": "Steffimro"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add pair-wise kstar histograms to the triplet hist manager",
-            "number": 17044,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
+                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
                   }
                 }
               ]
@@ -2541,26 +2461,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Clang-tidy fixes in HistogramManager and HistogramsLibrary",
-            "number": 17047,
+            "title": "[PWGLF] Compile headers",
+            "number": 16996,
             "author": {
-              "login": "mcoquet642"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/HistogramManager.cxx"
+                    "path": "PWGLF/Utils/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/HistogramManager.h"
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                    "path": "PWGLF/Utils/strangenessBuilderHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.cxx"
                   }
                 }
               ]
@@ -2570,17 +2495,37 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-13T15:28:38Z",
-            "title": "[PWGEM] Rewise phi-star separation cuts",
-            "number": 17040,
+            "mergedAt": "2026-07-13T16:22:22Z",
+            "title": "[PWGHF/D2H] PID selections changed in taskDeuteronFromLb",
+            "number": 17013,
             "author": {
-              "login": "Steffimro"
+              "login": "MRazza879"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                    "path": "PWGHF/D2H/Tasks/taskDeuteronFromLb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Autoset the tables produced based on the task topology",
+            "number": 16922,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
                   }
                 }
               ]
@@ -2616,41 +2561,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Compile headers",
-            "number": 16996,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Protect TOF PID tasks against empty collision tables",
             "number": 17048,
             "author": {
@@ -2666,6 +2576,101 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTOFFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Clang-tidy fixes in HistogramManager and HistogramsLibrary",
+            "number": 17047,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-13T16:39:24Z",
+            "title": "[PWGEM] Fix clang-tidy warnings and errors in EMCal cuts related files",
+            "number": 17045,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMBitFlags.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-13T16:42:22Z",
+            "title": "[PWGCF] Add pair-wise kstar histograms to the triplet hist manager",
+            "number": 17044,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
                   }
                 }
               ]
