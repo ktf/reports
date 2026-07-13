@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add MC function for pt efficency 1D calculation",
-            "number": 16967,
-            "author": {
-              "login": "huinaibing"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Add TrackTrackCascade task in femtoDream",
@@ -2516,6 +2496,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Protect TOF PID tasks against empty collision tables",
+            "number": 17048,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-13T16:42:22Z",
+            "title": "[PWGCF] Add pair-wise kstar histograms to the triplet hist manager",
+            "number": 17044,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Autoset the tables produced based on the task topology",
             "number": 16922,
             "author": {
@@ -2561,36 +2591,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Protect TOF PID tasks against empty collision tables",
-            "number": 17048,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Clang-tidy fixes in HistogramManager and HistogramsLibrary",
             "number": 17047,
             "author": {
@@ -2611,6 +2611,26 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fix radial vertex cut and code-check issues",
+            "number": 17049,
+            "author": {
+              "login": "hernasab"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
                   }
                 }
               ]
@@ -2651,26 +2671,6 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-13T16:42:22Z",
-            "title": "[PWGCF] Add pair-wise kstar histograms to the triplet hist manager",
-            "number": 17044,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
                   }
                 }
               ]
