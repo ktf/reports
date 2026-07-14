@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-08T11:55:23Z",
-            "title": "[PWGCF] FemtoUniverse: Add 3D histogram of TOF Nsigma, pT and centrality for purity studies",
-            "number": 16960,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-08T15:57:02Z",
-            "title": "[PWGDQ] Update track indexing for derived tables",
-            "number": 16968,
-            "author": {
-              "login": "YoshiniBailung"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-08T14:03:24Z",
             "title": "[PWGDQ] update qamatching AO2D Tables",
             "number": 16919,
@@ -2310,31 +2270,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] J psi muon correlations",
-            "number": 17059,
-            "author": {
-              "login": "kaareendrup"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/taskJPsiMu.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] Adding bc-by-bc trigger info and getting info from DB",
             "number": 17058,
             "author": {
@@ -2465,46 +2400,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] add hadron-lambda correlations",
-            "number": 17056,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] change eventcounter order",
-            "number": 17051,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Clang-tidy fixes in HistogramManager and HistogramsLibrary",
             "number": 17047,
             "author": {
@@ -2560,6 +2455,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] added vzvstime and additional step of rec with updated deno of v1",
+            "number": 17060,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-14T16:14:12Z",
             "title": "[PWGHF] Add mini tree for 2-prong masses in Ds task",
             "number": 17061,
             "author": {
@@ -2585,21 +2505,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] added vzvstime and additional step of rec with updated deno of v1",
-            "number": 17060,
+            "title": "[PWGLF] add hadron-lambda correlations",
+            "number": 17056,
             "author": {
-              "login": "prottayCMT"
+              "login": "jikim1290"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Common/spvector.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] J psi muon correlations",
+            "number": 17059,
+            "author": {
+              "login": "kaareendrup"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                    "path": "PWGDQ/Tasks/taskJPsiMu.cxx"
                   }
                 }
               ]
@@ -2625,6 +2565,71 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/PID/HMPID/tableHMPID.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] change eventcounter order",
+            "number": 17051,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-14T16:35:56Z",
+            "title": "[PWGJE] add angularity histograms for MCP Ds-jets",
+            "number": 17063,
+            "author": {
+              "login": "monamelop"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] FU: fixing histos for prompt fraction; process to store only reco events in MC truth",
+            "number": 17064,
+            "author": {
+              "login": "kgwizdzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerMCTruthTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
                   }
                 }
               ]
