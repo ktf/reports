@@ -2366,26 +2366,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fix radial vertex cut and code-check issues",
-            "number": 17049,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Fix dependence of eventselection in table-reader-with-assoc",
             "number": 17050,
             "author": {
@@ -2456,26 +2436,6 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/PID/HMPID/tableHMPID.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Fix fetching of centrality configuration in centrality study",
-            "number": 16943,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityStudy.cxx"
                   }
                 }
               ]
@@ -2566,6 +2526,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] change eventcounter order",
+            "number": 17051,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fix radial vertex cut and code-check issues",
+            "number": 17049,
+            "author": {
+              "login": "hernasab"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
             "number": 17006,
             "author": {
@@ -2611,8 +2641,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
+            "title": "[Common] Fix fetching of centrality configuration in centrality study",
+            "number": 16943,
             "author": {
               "login": "jesgum"
             },
@@ -2620,37 +2650,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] change eventcounter order",
-            "number": 17051,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                    "path": "Common/Tasks/centralityStudy.cxx"
                   }
                 }
               ]
