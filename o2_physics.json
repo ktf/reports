@@ -166,46 +166,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Add strangeness tof pid to a3 cascade finding",
-            "number": 16987,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFStrangeness.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3StrangenessTofPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Utils/a3StrangenessTofPidHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Tutorial] DPL Analysis: use API instead of direct construction",
             "number": 16989,
             "author": {
@@ -2061,46 +2021,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] alice3 dilepton: machinery for study with LUTS based on ACTS",
-            "number": 17038,
-            "author": {
-              "login": "rbailhac"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/prefilterDilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Trigger,PWGUD] DPL Analysis: use API instead of direct construction",
             "number": 16990,
             "author": {
@@ -2221,36 +2141,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/Lambdacascadecorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Protect TOF PID tasks against empty collision tables",
-            "number": 17048,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
                   }
                 }
               ]
@@ -2596,6 +2486,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Infrastructure] Update CODEOWNERS to include @reygers",
+            "number": 17052,
+            "author": {
+              "login": "hscheid"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-14T07:07:06Z",
+            "title": "[Common] Protect TOF PID tasks against empty collision tables",
+            "number": 17048,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] massive fix for O2linter + minor fix for vs M calculus in Internal Va…",
             "number": 17043,
             "author": {
@@ -2639,18 +2579,78 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Update CODEOWNERS to include @reygers",
-            "number": 17052,
+            "state": "MERGED",
+            "mergedAt": "2026-07-14T07:28:41Z",
+            "title": "[ALICE3] alice3 dilepton: machinery for study with LUTS based on ACTS",
+            "number": 17038,
             "author": {
-              "login": "hscheid"
+              "login": "rbailhac"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CODEOWNERS"
+                    "path": "ALICE3/DataModel/prefilterDilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Add strangeness tof pid to a3 cascade finding",
+            "number": 16987,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/OTFStrangeness.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3StrangenessTofPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Utils/a3StrangenessTofPidHelper.h"
                   }
                 }
               ]
