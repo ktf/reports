@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-10T12:18:05Z",
-            "title": "[PWGDQ] Fix e-mu mixed-event histograms",
-            "number": 16927,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-22T21:46:53Z",
-            "title": "[PWGHF] taskFlow.cxx : solve Monte Carlo Generated to be able to calculate efficiencies",
-            "number": 16767,
-            "author": {
-              "login": "AlexianL"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-05-15T13:11:42Z",
             "title": "[PWGLF,PWGMM] mftReassociationValidation.cxx : change histogram names to be able to run 2D and 3D at the same time",
             "number": 16251,
@@ -2165,76 +2125,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGLF] Add event preselections in strangeness derived data producer",
-            "number": 17066,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationServiceRun2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationServiceV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter4.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Fix radial vertex cut and code-check issues",
             "number": 17049,
             "author": {
@@ -2600,31 +2490,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] add hadron-lambda correlations",
-            "number": 17056,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] remove unused code",
             "number": 17068,
             "author": {
@@ -2673,6 +2538,31 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-15T05:46:48Z",
+            "title": "[PWGLF] add hadron-lambda correlations",
+            "number": 17056,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] Fixed logic of multiplicity based selection in mixed events",
@@ -2690,6 +2580,116 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/corrReso.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Add event preselections in strangeness derived data producer",
+            "number": 17066,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceRun2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceV2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stradautrackstofpidconverter4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-03T09:13:30Z",
+            "title": "[PWGCF] Modify ESE selection",
+            "number": 16911,
+            "author": {
+              "login": "CyF1rmiana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Modify the way of q2 selection",
+            "number": 17070,
+            "author": {
+              "login": "CyF1rmiana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
                   }
                 }
               ]
