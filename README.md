@@ -21,7 +21,6 @@
 - [\#15497](https://github.com/AliceO2Group/AliceO2/pull/15497) 2026-06-17: ITS: add per-stage memory stat by [@f3sch](https://github.com/f3sch)
 - [\#15521](https://github.com/AliceO2Group/AliceO2/pull/15521) 2026-06-24: ALICE3: prepare IOTOF geometry for including TOF in tracking by [@mpuccio](https://github.com/mpuccio)
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
-- [\#15527](https://github.com/AliceO2Group/AliceO2/pull/15527) 2026-06-17: ITS: avoid memory shuffeling by accessing tracks via idx by [@f3sch](https://github.com/f3sch)
 - [\#15532](https://github.com/AliceO2Group/AliceO2/pull/15532) 2026-06-24: TPC: Add sector edge fluctuation correction infrastructure by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15535](https://github.com/AliceO2Group/AliceO2/pull/15535) 2026-06-17: TPC: scale VDrift for every TF with TP by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15536](https://github.com/AliceO2Group/AliceO2/pull/15536) 2026-06-27: Simple macro for ITS tracks vs BC in ROF by [@fprino](https://github.com/fprino)
