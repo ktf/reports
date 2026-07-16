@@ -24,7 +24,6 @@
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15532](https://github.com/AliceO2Group/AliceO2/pull/15532) 2026-06-24: TPC: Add sector edge fluctuation correction infrastructure by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15536](https://github.com/AliceO2Group/AliceO2/pull/15536) 2026-06-27: Simple macro for ITS tracks vs BC in ROF by [@fprino](https://github.com/fprino)
-- [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
 - [\#15538](https://github.com/AliceO2Group/AliceO2/pull/15538) 2026-06-19: TPC: fix initialization of FFTW arrays in aggregator-ft by [@ehellbar](https://github.com/ehellbar)
 - [\#15543](https://github.com/AliceO2Group/AliceO2/pull/15543) 2026-06-25: [ALICE3] TF3: add first version of QA macro to check digitization by [@maciacco](https://github.com/maciacco)
 - [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
@@ -55,7 +54,6 @@
 - [\#15564](https://github.com/AliceO2Group/AliceO2/pull/15564) 2026-07-01: TPCLoopers: single threaded by default by [@ktf](https://github.com/ktf)
 - [\#15579](https://github.com/AliceO2Group/AliceO2/pull/15579) 2026-07-06: Expand path of evtpools by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#15537](https://github.com/AliceO2Group/AliceO2/pull/15537) 2026-06-18: [ALICE3] TF3: fix labels filling in digitization by [@maciacco](https://github.com/maciacco)
 - [\#15556](https://github.com/AliceO2Group/AliceO2/pull/15556) 2026-06-26: TF3: fix digit time by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Utilities
 - [\#15554](https://github.com/AliceO2Group/AliceO2/pull/15554) 2026-06-24: Mergers: fix duplicated header guards by [@knopers8](https://github.com/knopers8)
