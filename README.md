@@ -24,7 +24,6 @@
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15532](https://github.com/AliceO2Group/AliceO2/pull/15532) 2026-06-24: TPC: Add sector edge fluctuation correction infrastructure by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15536](https://github.com/AliceO2Group/AliceO2/pull/15536) 2026-06-27: Simple macro for ITS tracks vs BC in ROF by [@fprino](https://github.com/fprino)
-- [\#15538](https://github.com/AliceO2Group/AliceO2/pull/15538) 2026-06-19: TPC: fix initialization of FFTW arrays in aggregator-ft by [@ehellbar](https://github.com/ehellbar)
 - [\#15543](https://github.com/AliceO2Group/AliceO2/pull/15543) 2026-06-25: [ALICE3] TF3: add first version of QA macro to check digitization by [@maciacco](https://github.com/maciacco)
 - [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
 - [\#15552](https://github.com/AliceO2Group/AliceO2/pull/15552) 2026-06-24: ITSMFT: add 13-layer tracking support by [@mpuccio](https://github.com/mpuccio)
