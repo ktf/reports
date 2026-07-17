@@ -39,6 +39,7 @@
 - [\#15594](https://github.com/AliceO2Group/AliceO2/pull/15594) 2026-07-10: Store TPC cluster flag in UnbinnedResid::channel by [@shahor02](https://github.com/shahor02)
 - [\#15595](https://github.com/AliceO2Group/AliceO2/pull/15595) 2026-07-11: Fix getTRDLayer and TRD chi2 assignment by [@shahor02](https://github.com/shahor02)
 - [\#15597](https://github.com/AliceO2Group/AliceO2/pull/15597) 2026-07-14: TPC VDrift: hold refVdrift constant by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15601](https://github.com/AliceO2Group/AliceO2/pull/15601) 2026-07-17: Properly discard ITS hits preceding readout start by [@shahor02](https://github.com/shahor02)
 - [\#15604](https://github.com/AliceO2Group/AliceO2/pull/15604) 2026-07-16: TPC: Make maximum number of electrons per step a configurable by [@wiechula](https://github.com/wiechula)
 - [\#15605](https://github.com/AliceO2Group/AliceO2/pull/15605) 2026-07-16: TPC addHits: remove short type limitation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
