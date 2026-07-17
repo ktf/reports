@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-13T12:18:45Z",
-            "title": "[PWGJE] jetChargedV2 task: use median rho when the integral value is <= 0",
-            "number": 16926,
-            "author": {
-              "login": "YubiaoWang"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-13T12:23:53Z",
             "title": "[PWGEM/Dilepton] add possibility to apply MB to norm info",
             "number": 17041,
@@ -2440,26 +2420,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
+            "title": "[PWGLF] Update KF cascade building in strangenessBuilderHelper",
+            "number": 17003,
             "author": {
-              "login": "jesgum"
+              "login": "creetz16"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/Centrality.h"
+                    "path": "PWGLF/Utils/strangenessBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Compile headers",
+            "number": 16994,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
+                    "path": "PWGEM/Dilepton/Utils/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                    "path": "PWGEM/Dilepton/Utils/EmDileptonMlResponse.cxx"
                   }
                 }
               ]
@@ -2500,16 +2500,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Update KF cascade building in strangenessBuilderHelper",
-            "number": 17003,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
             "author": {
-              "login": "creetz16"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderHelper.h"
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Modified secondary particles selections in deuteronInTriggeredEvents.cxx",
+            "number": 17008,
+            "author": {
+              "login": "Cristian-Moscatelli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
                   }
                 }
               ]
@@ -2530,36 +2560,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Compile headers",
-            "number": 16994,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EmDileptonMlResponse.cxx"
                   }
                 }
               ]
