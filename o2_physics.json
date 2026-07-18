@@ -1941,31 +1941,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add J/psi-muon correlations task",
-            "number": 17059,
-            "author": {
-              "login": "kaareendrup"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/taskJPsiMu.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse Producer Task -- fixed typo and added comments",
             "number": 17093,
             "author": {
@@ -2250,36 +2225,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Fix to be able to run the dielectron chain properly",
-            "number": 17115,
-            "author": {
-              "login": "rbailhac"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF,PWGMM] Add DCA Mc QA + cleanup",
             "number": 17116,
             "author": {
@@ -2388,26 +2333,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] EbyE finalized errors on moments using subsampling",
-            "number": 17018,
-            "author": {
-              "login": "baasingh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-17T21:53:27Z",
             "title": "[PWGCF] massive fix for O2linter + minor fix for vs M calculus in Internal Va…",
@@ -2460,6 +2385,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Autoset the tables produced based on the task topology",
+            "number": 16922,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] EbyE finalized errors on moments using subsampling",
+            "number": 17018,
+            "author": {
+              "login": "baasingh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common] Fix fetching of centrality configuration in centrality study",
             "number": 16943,
             "author": {
@@ -2480,16 +2445,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Autoset the tables produced based on the task topology",
-            "number": 16922,
+            "title": "[PWGDQ] Add J/psi-muon correlations task",
+            "number": 17059,
             "author": {
-              "login": "njacazio"
+              "login": "kaareendrup"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/taskJPsiMu.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Fix to be able to run the dielectron chain properly",
+            "number": 17115,
+            "author": {
+              "login": "rbailhac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
                   }
                 }
               ]
