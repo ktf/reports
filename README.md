@@ -6,7 +6,6 @@
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
 - [\#15525](https://github.com/AliceO2Group/AliceO2/pull/15525) 2026-06-26: Extend configurable params for std-container types by [@f3sch](https://github.com/f3sch)
-- [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 - [\#15571](https://github.com/AliceO2Group/AliceO2/pull/15571) 2026-07-03: [NN CF]: Updates and bug-fixes by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15581](https://github.com/AliceO2Group/AliceO2/pull/15581) 2026-07-07: Possibility to bias magnetic field origin via env.var. by [@shahor02](https://github.com/shahor02)
@@ -45,7 +44,6 @@
 - [\#15605](https://github.com/AliceO2Group/AliceO2/pull/15605) 2026-07-16: TPC addHits: remove short type limitation by [@sawenzel](https://github.com/sawenzel)
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#15541](https://github.com/AliceO2Group/AliceO2/pull/15541) 2026-06-23: DPL: adapt to FairMQ new API by [@aalkin](https://github.com/aalkin)
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
 - [\#15550](https://github.com/AliceO2Group/AliceO2/pull/15550) 2026-06-23: DPL MCP: add percentile plots for trains running on the grid by [@ktf](https://github.com/ktf)
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
