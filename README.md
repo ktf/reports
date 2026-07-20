@@ -44,6 +44,7 @@
 - [\#15601](https://github.com/AliceO2Group/AliceO2/pull/15601) 2026-07-17: Properly discard ITS hits preceding readout start by [@shahor02](https://github.com/shahor02)
 - [\#15604](https://github.com/AliceO2Group/AliceO2/pull/15604) 2026-07-16: TPC: Make maximum number of electrons per step a configurable by [@wiechula](https://github.com/wiechula)
 - [\#15605](https://github.com/AliceO2Group/AliceO2/pull/15605) 2026-07-16: TPC addHits: remove short type limitation by [@sawenzel](https://github.com/sawenzel)
+- [\#15606](https://github.com/AliceO2Group/AliceO2/pull/15606) 2026-07-20: Properly discard Alice3 TRK hits preceding RO start by [@shahor02](https://github.com/shahor02)
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
