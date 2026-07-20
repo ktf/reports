@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add track QA histograms and fix naming bug",
-            "number": 16977,
-            "author": {
-              "login": "sejeong8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-15T17:36:11Z",
-            "title": "[PWGCF] Fixes in triplet tasks",
-            "number": 17078,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/particleCleaner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/tripletProcessHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackV0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-15T18:10:07Z",
             "title": "[PWGLF,PWGMM] mftReassociationValidation.cxx : add flexibility to save memory, implement cuts for further studies",
@@ -1858,26 +1788,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Trigger,PWGUD] DPL Analysis: use API instead of direct construction",
-            "number": 16990,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] update moments and correction functions",
@@ -2310,26 +2220,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] jetHadronsPid task:Add new histograms and change underlying event definiton",
-            "number": 17096,
-            "author": {
-              "login": "llorenc-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Fix radial vertex cut and code-check issues",
             "number": 17049,
             "author": {
@@ -2428,7 +2318,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGUD] add event switch",
             "number": 17133,
@@ -2440,6 +2330,96 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-20T16:12:42Z",
+            "title": "[PWGJE] jetHadronsPid task:Add new histograms and change underlying event definiton",
+            "number": 17096,
+            "author": {
+              "login": "llorenc-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Update track selection and configuration parameters",
+            "number": 17135,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Updates to trackedHypertritonRecoTask.cxx",
+            "number": 17134,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/trackedHypertritonRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-20T16:34:53Z",
+            "title": "[Trigger,PWGUD] DPL Analysis: use API instead of direct construction",
+            "number": 16990,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
                   }
                 }
               ]
