@@ -4,6 +4,8 @@
 - [\#15554](https://github.com/AliceO2Group/AliceO2/pull/15554) 2026-06-24: Mergers: fix duplicated header guards by [@knopers8](https://github.com/knopers8)
 - [\#15555](https://github.com/AliceO2Group/AliceO2/pull/15555) 2026-06-25: Mergers: actually collect only mergeable objects belonging to TCanvas by [@knopers8](https://github.com/knopers8)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Analysis
+- [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15525](https://github.com/AliceO2Group/AliceO2/pull/15525) 2026-06-26: Extend configurable params for std-container types by [@f3sch](https://github.com/f3sch)
 - [\#15571](https://github.com/AliceO2Group/AliceO2/pull/15571) 2026-07-03: [NN CF]: Updates and bug-fixes by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -54,6 +56,7 @@
 - [\#15563](https://github.com/AliceO2Group/AliceO2/pull/15563) 2026-06-29: DPL: avoid one allocation per match by [@ktf](https://github.com/ktf)
 - [\#15565](https://github.com/AliceO2Group/AliceO2/pull/15565) 2026-06-29: DPL: speedup processing of piped jsons by [@ktf](https://github.com/ktf)
 - [\#15578](https://github.com/AliceO2Group/AliceO2/pull/15578) 2026-07-07: DPL: take ownership of a string to prevent a crash on exit by [@aalkin](https://github.com/aalkin)
+- [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#15564](https://github.com/AliceO2Group/AliceO2/pull/15564) 2026-07-01: TPCLoopers: single threaded by default by [@ktf](https://github.com/ktf)
 - [\#15579](https://github.com/AliceO2Group/AliceO2/pull/15579) 2026-07-06: Expand path of evtpools by [@jackal1-66](https://github.com/jackal1-66)
