@@ -28,7 +28,6 @@
 - [\#15536](https://github.com/AliceO2Group/AliceO2/pull/15536) 2026-06-27: Simple macro for ITS tracks vs BC in ROF by [@fprino](https://github.com/fprino)
 - [\#15543](https://github.com/AliceO2Group/AliceO2/pull/15543) 2026-06-25: [ALICE3] TF3: add first version of QA macro to check digitization by [@maciacco](https://github.com/maciacco)
 - [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
-- [\#15552](https://github.com/AliceO2Group/AliceO2/pull/15552) 2026-06-24: ITSMFT: add 13-layer tracking support by [@mpuccio](https://github.com/mpuccio)
 - [\#15556](https://github.com/AliceO2Group/AliceO2/pull/15556) 2026-06-26: TF3: fix digit time by [@mpuccio](https://github.com/mpuccio)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 - [\#15561](https://github.com/AliceO2Group/AliceO2/pull/15561) 2026-06-27: Fix spurious GCC-15 warning by [@ktf](https://github.com/ktf)
@@ -47,6 +46,7 @@
 - [\#15605](https://github.com/AliceO2Group/AliceO2/pull/15605) 2026-07-16: TPC addHits: remove short type limitation by [@sawenzel](https://github.com/sawenzel)
 - [\#15606](https://github.com/AliceO2Group/AliceO2/pull/15606) 2026-07-20: Properly discard Alice3 TRK hits preceding RO start by [@shahor02](https://github.com/shahor02)
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
+- [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 ## Recent developments in O2 - Framework
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
