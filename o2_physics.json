@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGDQ] Fix error output in code check in HistogramsLibrary.cxx",
-            "number": 17081,
-            "author": {
-              "login": "ypwangg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-16T14:43:50Z",
-            "title": "[PWGCF] Add lambda-k0short pair task",
-            "number": 17089,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/closePairRejection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairV0V0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-16T15:48:25Z",
             "title": "[PWGCF] Fixed logic of multiplicity based selection in mixed events",
@@ -2202,41 +2157,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3,PWGDQ] Update of ALICE 3 charm simulation framework",
-            "number": 17146,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] Add new histogram configurations for pair pT",
@@ -2382,8 +2302,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-07-21T15:21:11Z",
             "title": "[PWGLF] Updates to trackedHypertritonRecoTask.cxx",
             "number": 17134,
             "author": {
@@ -2409,6 +2329,136 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3,PWGDQ] Update of ALICE 3 charm simulation framework",
+            "number": 17146,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-21T15:38:17Z",
+            "title": "[Common,PWGEM/Dilepton] update muon cov",
+            "number": 17154,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/fwdtrackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/Converters/muonConverter4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EMFwdTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/EMTrackUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] cosPA cut fix in derivedcascadeanalysis.cxx",
+            "number": 17155,
+            "author": {
+              "login": "lhusova"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
                   }
                 }
               ]
