@@ -14,7 +14,6 @@
 - [\#15610](https://github.com/AliceO2Group/AliceO2/pull/15610) 2026-07-20: Fix x-axis related error treatments by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
-- [\#15549](https://github.com/AliceO2Group/AliceO2/pull/15549) 2026-06-24: Possibility to globally bias MeanVertex objects via env.var by [@shahor02](https://github.com/shahor02)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 - [\#15570](https://github.com/AliceO2Group/AliceO2/pull/15570) 2026-07-01: [TF3] Clusterizer interface for ALICE3 TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)

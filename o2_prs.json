@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-06-24T12:37:09Z",
-            "title": "Possibility to globally bias MeanVertex objects via env.var",
-            "number": 15549,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexBiasParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/src/DataFormatsCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/src/MeanVertexBiasParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/src/MeanVertexObject.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-06-24T17:06:35Z",
             "title": "ITSMFT: add 13-layer tracking support",
             "number": 15552,
@@ -3461,31 +3416,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Update and add optimal parameters for several GPU architectures",
-            "number": 15531,
-            "author": {
-              "login": "cima22"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: split dictionary for test classes",
             "number": 15567,
             "author": {
@@ -3776,36 +3706,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-07-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-07-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Bump actions/cache from 5 to 6",
             "number": 15566,
             "author": {
@@ -3984,6 +3884,61 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-21T09:21:06Z",
+            "title": "Update and add optimal parameters for several GPU architectures",
+            "number": 15531,
+            "author": {
+              "login": "cima22"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-07-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-07-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "ASoA: Fix includes",
@@ -3996,6 +3951,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations",
+            "number": 15615,
+            "author": {
+              "login": "Ankyyadav"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterDetector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
                   }
                 }
               ]
