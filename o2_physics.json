@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Efficiency studies for Sigma kink in L1405 reco",
-            "number": 17107,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFLambda1405Table.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambda1405analysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
@@ -1622,26 +1597,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
-            "number": 16955,
-            "author": {
-              "login": "JinjooSeo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-21T14:00:59Z",
             "title": "[PWGCF] Add lambda mass to cascade extras",
@@ -2174,26 +2129,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] cosPA cut fix in derivedcascadeanalysis.cxx",
-            "number": 17155,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Add UPC jet QA task",
             "number": 17161,
             "author": {
@@ -2329,31 +2264,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] add event mixing for Dalitz selection",
-            "number": 17165,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add option to apply BC selection to collisions in centrality-study",
             "number": 17163,
             "author": {
@@ -2392,6 +2302,46 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-10T11:27:07Z",
+            "title": "[PWGCF] FemtoUniverse: Fix linter and code check issues in one track-track task",
+            "number": 17001,
+            "author": {
+              "login": "alicja-pp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] cosPA cut fix in derivedcascadeanalysis.cxx",
+            "number": 17155,
+            "author": {
+              "login": "lhusova"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] fix labeled array configurable",
@@ -2417,18 +2367,68 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-10T11:27:07Z",
-            "title": "[PWGCF] FemtoUniverse: Fix linter and code check issues in one track-track task",
-            "number": 17001,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Add a3 v0 strangeness tof pid tables",
+            "number": 17167,
             "author": {
-              "login": "alicja-pp"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
+                    "path": "ALICE3/DataModel/OTFStrangeness.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3StrangenessTofPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add event mixing for Dalitz selection",
+            "number": 17165,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
+            "number": 16955,
+            "author": {
+              "login": "JinjooSeo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
                   }
                 }
               ]
