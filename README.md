@@ -44,6 +44,7 @@
 - [\#15606](https://github.com/AliceO2Group/AliceO2/pull/15606) 2026-07-20: Properly discard Alice3 TRK hits preceding RO start by [@shahor02](https://github.com/shahor02)
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
+- [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
@@ -57,6 +58,7 @@
 ## Recent developments in O2 - Generators
 - [\#15564](https://github.com/AliceO2Group/AliceO2/pull/15564) 2026-07-01: TPCLoopers: single threaded by default by [@ktf](https://github.com/ktf)
 - [\#15579](https://github.com/AliceO2Group/AliceO2/pull/15579) 2026-07-06: Expand path of evtpools by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15603](https://github.com/AliceO2Group/AliceO2/pull/15603) 2026-07-16: Fix for Loopers identified as primaries by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15556](https://github.com/AliceO2Group/AliceO2/pull/15556) 2026-06-26: TF3: fix digit time by [@mpuccio](https://github.com/mpuccio)
