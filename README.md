@@ -5,6 +5,7 @@
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Analysis
 - [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
+- [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15525](https://github.com/AliceO2Group/AliceO2/pull/15525) 2026-06-26: Extend configurable params for std-container types by [@f3sch](https://github.com/f3sch)
 - [\#15571](https://github.com/AliceO2Group/AliceO2/pull/15571) 2026-07-03: [NN CF]: Updates and bug-fixes by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -21,7 +22,6 @@
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#15466](https://github.com/AliceO2Group/AliceO2/pull/15466) 2026-06-26: FT0 crosstalk in digitizer by [@spulawsk](https://github.com/spulawsk)
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15536](https://github.com/AliceO2Group/AliceO2/pull/15536) 2026-06-27: Simple macro for ITS tracks vs BC in ROF by [@fprino](https://github.com/fprino)
 - [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
@@ -55,6 +55,7 @@
 - [\#15578](https://github.com/AliceO2Group/AliceO2/pull/15578) 2026-07-07: DPL: take ownership of a string to prevent a crash on exit by [@aalkin](https://github.com/aalkin)
 - [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 - [\#15592](https://github.com/AliceO2Group/AliceO2/pull/15592) 2026-07-22: Add discard support for LifetimeHolder by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#15564](https://github.com/AliceO2Group/AliceO2/pull/15564) 2026-07-01: TPCLoopers: single threaded by default by [@ktf](https://github.com/ktf)
 - [\#15579](https://github.com/AliceO2Group/AliceO2/pull/15579) 2026-07-06: Expand path of evtpools by [@jackal1-66](https://github.com/jackal1-66)
