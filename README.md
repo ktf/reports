@@ -47,10 +47,10 @@
 ## Recent developments in O2 - Framework
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
-- [\#15559](https://github.com/AliceO2Group/AliceO2/pull/15559) 2026-06-25: Adapt to the new security architecture by [@ktf](https://github.com/ktf)
 - [\#15560](https://github.com/AliceO2Group/AliceO2/pull/15560) 2026-06-26: Add more tools to investigate global train load by [@ktf](https://github.com/ktf)
 - [\#15563](https://github.com/AliceO2Group/AliceO2/pull/15563) 2026-06-29: DPL: avoid one allocation per match by [@ktf](https://github.com/ktf)
 - [\#15565](https://github.com/AliceO2Group/AliceO2/pull/15565) 2026-06-29: DPL: speedup processing of piped jsons by [@ktf](https://github.com/ktf)
+- [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
 - [\#15578](https://github.com/AliceO2Group/AliceO2/pull/15578) 2026-07-07: DPL: take ownership of a string to prevent a crash on exit by [@aalkin](https://github.com/aalkin)
 - [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
