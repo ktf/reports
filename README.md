@@ -46,6 +46,7 @@
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15622](https://github.com/AliceO2Group/AliceO2/pull/15622) 2026-07-22: [ALICE3] Remove ACTS tracker from CMakeLists.txt until there by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
