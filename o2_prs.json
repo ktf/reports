@@ -2409,36 +2409,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations",
-            "number": 15615,
-            "author": {
-              "login": "Ankyyadav"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/ParameterDetector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-21T10:25:46Z",
             "title": "[ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding",
@@ -3896,6 +3866,71 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations",
+            "number": 15615,
+            "author": {
+              "login": "Ankyyadav"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterDetector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/GeneratorKrDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/macro/krGenerator.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/macro/plotCluster.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/GeneratorKrDecay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/TPCSimulationLinkDef.h"
                   }
                 }
               ]

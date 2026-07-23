@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-13T13:25:44Z",
-            "title": "[PWGLF] added event selection options",
-            "number": 17036,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiFlowTree.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/QC/nucleiQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-14T22:48:41Z",
             "title": "[PWGLF] Charge-dependent analysis",
             "number": 17067,
@@ -1873,26 +1838,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add some fgVarNamesMap related to A2 analysis",
-            "number": 17127,
-            "author": {
-              "login": "ypwangg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-23T07:52:36Z",
             "title": "[PWGCF] fix labeled array configurable in twoParticleCorrelationsMPI.cxx",
@@ -2065,26 +2010,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Add selections to xi's from strangeness builder to multicharm finder",
-            "number": 17179,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM/Dilepton] update v1",
             "number": 17178,
             "author": {
@@ -2095,31 +2020,6 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/dimuonV1.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM/Dilepton] update single muon qc",
-            "number": 17180,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
                   }
                 }
               ]
@@ -2145,41 +2045,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] updated tasks to run on derived data for phi and kstar",
-            "number": 17175,
-            "author": {
-              "login": "prottayCMT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFCKSSpinalignmentTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/cksspinalignment.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/cksspinalignder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phiflowder.cxx"
                   }
                 }
               ]
@@ -2285,36 +2150,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] PM: Add new task to try and identify late conversions with EMCal",
-            "number": 17181,
+            "title": "[ALICE3] Add Xi0 and charged Sigma to otf decayer",
+            "number": 17184,
             "author": {
-              "login": "mhemmer-cern"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/GammaTablesRedux.h"
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-23T13:18:55Z",
+            "title": "[PWGJE] jetChargedV2 task: Fix random cone phi-dependent quantities after leading jet exclusion",
+            "number": 17183,
+            "author": {
+              "login": "YubiaoWang"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-23T13:26:10Z",
+            "title": "[ALICE3] Add selections to xi's from strangeness builder to multicharm finder",
+            "number": 17179,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalPhotonMcTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/NMHistograms.h"
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
                   }
                 }
               ]
@@ -2358,26 +2243,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Add Xi0 and charged Sigma to otf decayer",
-            "number": 17184,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-23T13:05:01Z",
             "title": "[PWGHF] Fix D0 ML prompt and non-prompt score ordering",
@@ -2404,17 +2269,137 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-23T13:18:55Z",
-            "title": "[PWGJE] jetChargedV2 task: Fix random cone phi-dependent quantities after leading jet exclusion",
-            "number": 17183,
+            "mergedAt": "2026-07-23T13:53:38Z",
+            "title": "[PWGEM/Dilepton] update single muon qc",
+            "number": 17180,
             "author": {
-              "login": "YubiaoWang"
+              "login": "dsekihat"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] fix bug in FillHistClass",
+            "number": 17185,
+            "author": {
+              "login": "ypwangg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add some fgVarNamesMap related to A2 analysis",
+            "number": 17127,
+            "author": {
+              "login": "ypwangg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-23T14:05:33Z",
+            "title": "[PWGLF] updated tasks to run on derived data for phi and kstar",
+            "number": 17175,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFCKSSpinalignmentTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/cksspinalignment.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/cksspinalignder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phiflowder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-23T14:01:20Z",
+            "title": "[PWGEM] PM: Add new task to try and identify late conversions with EMCal",
+            "number": 17181,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/GammaTablesRedux.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalPhotonMcTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/NMHistograms.h"
                   }
                 }
               ]
