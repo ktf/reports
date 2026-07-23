@@ -23,7 +23,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
-- [\#15561](https://github.com/AliceO2Group/AliceO2/pull/15561) 2026-06-27: Fix spurious GCC-15 warning by [@ktf](https://github.com/ktf)
 - [\#15568](https://github.com/AliceO2Group/AliceO2/pull/15568) 2026-06-30: Fix undefined symbols on macOS ARM by [@ktf](https://github.com/ktf)
 - [\#15570](https://github.com/AliceO2Group/AliceO2/pull/15570) 2026-07-01: [TF3] Clusterizer interface for ALICE3 TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15572](https://github.com/AliceO2Group/AliceO2/pull/15572) 2026-06-30: Fix usage of the MeanVertex in PVertexer by [@shahor02](https://github.com/shahor02)
