@@ -4,6 +4,7 @@
 - [\#15555](https://github.com/AliceO2Group/AliceO2/pull/15555) 2026-06-25: Mergers: actually collect only mergeable objects belonging to TCanvas by [@knopers8](https://github.com/knopers8)
 - [\#15558](https://github.com/AliceO2Group/AliceO2/pull/15558) 2026-06-26: [Algorithm] Remove unused parser and TableView utilities by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Analysis
+- [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 - [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
@@ -48,6 +49,7 @@
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15622](https://github.com/AliceO2Group/AliceO2/pull/15622) 2026-07-22: [ALICE3] Remove ACTS tracker from CMakeLists.txt until there by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Framework
+- [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
 - [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15563](https://github.com/AliceO2Group/AliceO2/pull/15563) 2026-06-29: DPL: avoid one allocation per match by [@ktf](https://github.com/ktf)
