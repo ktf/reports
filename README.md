@@ -44,7 +44,6 @@
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
-- [\#15557](https://github.com/AliceO2Group/AliceO2/pull/15557) 2026-06-28: DPL Analysis: prevent HistogramRegistry from including ASoA.h by [@aalkin](https://github.com/aalkin)
 - [\#15563](https://github.com/AliceO2Group/AliceO2/pull/15563) 2026-06-29: DPL: avoid one allocation per match by [@ktf](https://github.com/ktf)
 - [\#15565](https://github.com/AliceO2Group/AliceO2/pull/15565) 2026-06-29: DPL: speedup processing of piped jsons by [@ktf](https://github.com/ktf)
 - [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
