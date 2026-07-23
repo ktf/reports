@@ -22,7 +22,6 @@
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
-- [\#15536](https://github.com/AliceO2Group/AliceO2/pull/15536) 2026-06-27: Simple macro for ITS tracks vs BC in ROF by [@fprino](https://github.com/fprino)
 - [\#15551](https://github.com/AliceO2Group/AliceO2/pull/15551) 2026-06-28: TPC: avoid having a direct dependency on RDataFrame by [@ktf](https://github.com/ktf)
 - [\#15561](https://github.com/AliceO2Group/AliceO2/pull/15561) 2026-06-27: Fix spurious GCC-15 warning by [@ktf](https://github.com/ktf)
 - [\#15568](https://github.com/AliceO2Group/AliceO2/pull/15568) 2026-06-30: Fix undefined symbols on macOS ARM by [@ktf](https://github.com/ktf)

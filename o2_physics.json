@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-17T15:10:22Z",
-            "title": "[PWGLF] Clarify documentation of new source files",
-            "number": 17111,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-18T12:14:11Z",
             "title": "[PWGLF] reduced table size for phi",
             "number": 17118,
@@ -1833,26 +1803,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add event mixing for Dalitz selection",
-            "number": 17165,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-22T17:32:17Z",
             "title": "[DPG] Update deuteron analysis",
@@ -2083,31 +2033,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix D0 ML prompt and non-prompt score ordering",
-            "number": 17173,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseD0ToKPi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-23T07:52:36Z",
             "title": "[PWGCF] fix labeled array configurable in twoParticleCorrelationsMPI.cxx",
@@ -2180,26 +2105,6 @@
                 {
                   "node": {
                     "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Refactor lambda spin polarization histogram setup",
-            "number": 17169,
-            "author": {
-              "login": "subhadee-ali"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
                   }
                 }
               ]
@@ -2310,26 +2215,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/Dilepton] update v1",
-            "number": 17178,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dimuonV1.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[DPG] Introduce treeCreatorTpcQa workflow",
             "number": 17086,
             "author": {
@@ -2360,21 +2245,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] New PR fix previous build errors",
-            "number": 17170,
+            "title": "[PWGDQ] add event mixing for Dalitz selection",
+            "number": 17165,
             "author": {
-              "login": "cnkoster"
+              "login": "glegras"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
+                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Refactor lambda spin polarization histogram setup",
+            "number": 17169,
+            "author": {
+              "login": "subhadee-ali"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Add selections to xi's from strangeness builder to multicharm finder",
+            "number": 17179,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] update v1",
+            "number": 17178,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/dimuonV1.cxx"
                   }
                 }
               ]
@@ -2410,6 +2350,56 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/phiflowder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] New PR fix previous build errors",
+            "number": 17170,
+            "author": {
+              "login": "cnkoster"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix D0 ML prompt and non-prompt score ordering",
+            "number": 17173,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseD0ToKPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
                   }
                 }
               ]
