@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] pvalue check on rho(phi)",
-            "number": 17106,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-19T13:18:03Z",
             "title": "[Common] add a function to get chi2IP in fwdtrackUtilities.h",
@@ -2193,36 +2173,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] Introduce treeCreatorTpcQa workflow",
-            "number": 17086,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-23T21:49:27Z",
             "title": "[PWGCF] Refactor lambda spin polarization histogram setup",
@@ -2275,51 +2225,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
-            "number": 17006,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
@@ -2450,6 +2355,366 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/antitritonAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Introduce treeCreatorTpcQa workflow",
+            "number": 17086,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
+            "number": 17006,
+            "author": {
+              "login": "Shunsuke-Kurita"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-06T16:06:08Z",
+            "title": "[PWGCF] Fixes in femto framework",
+            "number": 16938,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/baseSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/closePairRejection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/closeTripletRejection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/collisionBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/collisionHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/dataTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/femtoUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/histManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/kinkBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/kinkHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/mcBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/mcParticleHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/modes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairCleaner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairProcessHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/particleCleaner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/partitions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/selectionContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/trackBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/trackHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletCleaner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletProcessHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/twoTrackResonanceBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/twoTrackResonanceHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0Builder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0HistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerDerivedToDerived.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerKinkPtConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerResonances.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoCascadeQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoKinkQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoMcParticleQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairMcParticleMcParticle.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackKink.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTwoTrackResonance.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairV0TwoTrackResonance.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairV0V0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTrackQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTwotrackresonanceQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoV0Qa.cxx"
                   }
                 }
               ]
