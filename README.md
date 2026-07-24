@@ -58,6 +58,7 @@
 - [\#15579](https://github.com/AliceO2Group/AliceO2/pull/15579) 2026-07-06: Expand path of evtpools by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15603](https://github.com/AliceO2Group/AliceO2/pull/15603) 2026-07-16: Fix for Loopers identified as primaries by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#15555](https://github.com/AliceO2Group/AliceO2/pull/15555) 2026-06-25: Mergers: actually collect only mergeable objects belonging to TCanvas by [@knopers8](https://github.com/knopers8)
