@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-15T20:28:41Z",
-            "title": "[PWGCF] FU: fixing histos for prompt fraction; process to store only reco events in MC truth",
-            "number": 17064,
-            "author": {
-              "login": "kgwizdzi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerMCTruthTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-20T10:19:15Z",
             "title": "[PWGCF] FemtoUniverse Producer Task -- fixed typo and added comments",
             "number": 17119,
@@ -2585,66 +2560,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Tools/ML] Fix code-check issues in MLResponse",
-            "number": 17192,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Set searchUpToQuark as configurable in taskMcValidation",
-            "number": 17193,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Perform different cuts for pbpb in clouretest, file hStrangeCorrelation.cxx",
-            "number": 17194,
-            "author": {
-              "login": "gengjiabin12"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] pvalue check on rho(phi)",
             "number": 17106,
             "author": {
@@ -2655,31 +2570,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] PM: Change conversion tagging task to produce derived data",
-            "number": 17195,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/ConversionMl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalPhotonMcTask.cxx"
                   }
                 }
               ]
@@ -2720,6 +2610,111 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCharmHadronsTrackFemtoDream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-24T14:35:58Z",
+            "title": "[PWGLF] Perform different cuts for pbpb in clouretest, file hStrangeCorrelation.cxx",
+            "number": 17194,
+            "author": {
+              "login": "gengjiabin12"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Tools/ML] Fix code-check issues in MLResponse",
+            "number": 17192,
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/ML/MlResponse.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] global-muon-matcher: Saving values of mixing variables in output table",
+            "number": 17196,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/global-muon-matcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-24T14:41:36Z",
+            "title": "[PWGEM] PM: Change conversion tagging task to produce derived data",
+            "number": 17195,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/ConversionMl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalPhotonMcTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Set searchUpToQuark as configurable in taskMcValidation",
+            "number": 17193,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
                   }
                 }
               ]
