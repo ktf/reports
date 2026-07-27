@@ -19,7 +19,6 @@
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
-- [\#15568](https://github.com/AliceO2Group/AliceO2/pull/15568) 2026-06-30: Fix undefined symbols on macOS ARM by [@ktf](https://github.com/ktf)
 - [\#15570](https://github.com/AliceO2Group/AliceO2/pull/15570) 2026-07-01: [TF3] Clusterizer interface for ALICE3 TOF by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15574](https://github.com/AliceO2Group/AliceO2/pull/15574) 2026-07-01: Remove unused and out of scope variables in Clusterer::updateChip  by [@shahor02](https://github.com/shahor02)
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
@@ -39,6 +38,7 @@
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
 - [\#15633](https://github.com/AliceO2Group/AliceO2/pull/15633) 2026-07-25: [ALICE3] TF3: remove overlaps in OTOF staves by [@maciacco](https://github.com/maciacco)
 - [\#15635](https://github.com/AliceO2Group/AliceO2/pull/15635) 2026-07-27: move OT barrel service 'disk' z 132 to 142 cm (space for readout cards) by [@altsybee](https://github.com/altsybee)
+- [\#15638](https://github.com/AliceO2Group/AliceO2/pull/15638) 2026-07-27: Do not request unused Propagator<double> by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
