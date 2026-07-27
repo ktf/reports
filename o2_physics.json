@@ -2105,36 +2105,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Introduce treeCreatorTpcQa workflow",
-            "number": 17086,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
             "number": 17006,
             "author": {
@@ -2545,26 +2515,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add q2-group QA histograms to flow ESE task",
-            "number": 17211,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Updated the Table producer and Task for uncertainty analysis",
             "number": 17213,
             "author": {
@@ -2705,6 +2655,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGEM] add switchable crossed-pair (leg-swap) veto with QA",
+            "number": 17215,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Add event mixing on data in correlatorDMesonPairs.cxx",
             "number": 17214,
             "author": {
@@ -2753,18 +2723,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] add switchable crossed-pair (leg-swap) veto with QA",
-            "number": 17215,
+            "state": "MERGED",
+            "mergedAt": "2026-07-27T11:08:46Z",
+            "title": "[PWGCF] Add pt getters to lite femto tables",
+            "number": 17209,
             "author": {
-              "login": "Steffimro"
+              "login": "ariedel-cern"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                    "path": "PWGCF/Femto/Core/femtoUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerLiteConverter.cxx"
                   }
                 }
               ]
@@ -2775,21 +2755,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add pt getters to lite femto tables",
-            "number": 17209,
+            "title": "[PWGCF] Add q2-group QA histograms to flow ESE task",
+            "number": 17211,
             "author": {
-              "login": "ariedel-cern"
+              "login": "CyF1rmiana"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Introduce treeCreatorTpcQa workflow",
+            "number": 17086,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducerLiteConverter.cxx"
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.h"
                   }
                 }
               ]
