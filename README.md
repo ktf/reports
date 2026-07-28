@@ -37,6 +37,7 @@
 - [\#15637](https://github.com/AliceO2Group/AliceO2/pull/15637) 2026-07-28: Fix in Propagator::initFieldFromGRP by [@shahor02](https://github.com/shahor02)
 - [\#15638](https://github.com/AliceO2Group/AliceO2/pull/15638) 2026-07-27: Do not request unused Propagator<double> by [@shahor02](https://github.com/shahor02)
 - [\#15639](https://github.com/AliceO2Group/AliceO2/pull/15639) 2026-07-28: [ALICE3] TF3: approaching TF3 ASIC: use 8-chip modules + update chip segmentation by [@maciacco](https://github.com/maciacco)
+- [\#15644](https://github.com/AliceO2Group/AliceO2/pull/15644) 2026-07-28: TPC: Adding macros to create correction maps on the Grid by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
