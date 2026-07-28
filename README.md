@@ -12,13 +12,11 @@
 - [\#15581](https://github.com/AliceO2Group/AliceO2/pull/15581) 2026-07-07: Possibility to bias magnetic field origin via env.var. by [@shahor02](https://github.com/shahor02)
 - [\#15610](https://github.com/AliceO2Group/AliceO2/pull/15610) 2026-07-20: Fix x-axis related error treatments by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15597](https://github.com/AliceO2Group/AliceO2/pull/15597) 2026-07-14: TPC VDrift: hold refVdrift constant by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#15523](https://github.com/AliceO2Group/AliceO2/pull/15523) 2026-07-02: GPU: Process dEdx with full qTot range by [@davidrohr](https://github.com/davidrohr)
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15594](https://github.com/AliceO2Group/AliceO2/pull/15594) 2026-07-10: Store TPC cluster flag in UnbinnedResid::channel by [@shahor02](https://github.com/shahor02)
