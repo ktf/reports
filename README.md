@@ -51,7 +51,6 @@
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15629](https://github.com/AliceO2Group/AliceO2/pull/15629) 2026-07-23: Drop unused / obsolete include by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#15564](https://github.com/AliceO2Group/AliceO2/pull/15564) 2026-07-01: TPCLoopers: single threaded by default by [@ktf](https://github.com/ktf)
 - [\#15579](https://github.com/AliceO2Group/AliceO2/pull/15579) 2026-07-06: Expand path of evtpools by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15603](https://github.com/AliceO2Group/AliceO2/pull/15603) 2026-07-16: Fix for Loopers identified as primaries by [@jackal1-66](https://github.com/jackal1-66)
