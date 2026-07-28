@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-22T06:11:39Z",
-            "title": "Please consider the following formatting changes to #17159",
-            "number": 17160,
-            "author": {
-              "login": "alibuild"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-22T07:37:07Z",
             "title": "[PWGJE] remove unused MC detector-level histogram",
             "number": 17158,
@@ -1503,36 +1478,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-26T21:17:22Z",
             "title": "[PWGLF] Revert \"[PWGLF] Updated the Table producer and Task for uncertainty analysis.\"",
@@ -2670,6 +2615,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] Add a workflow for (anti)triton analysis",
+            "number": 17151,
+            "author": {
+              "login": "AnalitikGnid"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/antitritonAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF] Efficiency studies for Sigma kink + Event Mixing in L1405 task",
             "number": 17107,
             "author": {
@@ -2695,21 +2665,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add a workflow for (anti)triton analysis",
-            "number": 17151,
+            "title": "[PWGDQ] Fix table reservation problem",
+            "number": 17230,
             "author": {
-              "login": "AnalitikGnid"
+              "login": "JifengDeng"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antitritonAnalysis.cxx"
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]

@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[ALICE3] Add V3 magnet map",
-            "number": 15099,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldV3Magnet.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-02T11:07:50Z",
             "title": "GPU: Process dEdx with full qTot range",
@@ -4079,26 +4059,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-28T08:00:33Z",
-            "title": "Propagate TTree bulk-read errors",
-            "number": 15624,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -4176,6 +4136,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Use fastAtan2 with protection against radial tracks",
+            "number": 15642,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Ray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MatLayerCylSet.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Multi-threaded material budget LUT creation",
             "number": 15641,
             "author": {
@@ -4241,26 +4231,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Use fastAtan2 with protection against radial tracks",
-            "number": 15642,
+            "title": "DPL Analysis: update ArrowTableSlicingCache column lookup",
+            "number": 15643,
             "author": {
-              "login": "shahor02"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
+                    "path": "Framework/Core/include/Framework/ASoA.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Ray.h"
+                    "path": "Framework/Core/src/ASoA.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Base/src/MatLayerCylSet.cxx"
+                    "path": "Framework/Core/src/ArrowTableSlicingCache.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-28T08:00:33Z",
+            "title": "Propagate TTree bulk-read errors",
+            "number": 15624,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
                   }
                 }
               ]
