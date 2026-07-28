@@ -5,6 +5,7 @@
 - [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 - [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
+- [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15571](https://github.com/AliceO2Group/AliceO2/pull/15571) 2026-07-03: [NN CF]: Updates and bug-fixes by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
@@ -47,6 +48,7 @@
 - [\#15592](https://github.com/AliceO2Group/AliceO2/pull/15592) 2026-07-22: Add discard support for LifetimeHolder by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
+- [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15629](https://github.com/AliceO2Group/AliceO2/pull/15629) 2026-07-23: Drop unused / obsolete include by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15564](https://github.com/AliceO2Group/AliceO2/pull/15564) 2026-07-01: TPCLoopers: single threaded by default by [@ktf](https://github.com/ktf)
