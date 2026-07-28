@@ -37,6 +37,7 @@
 - [\#15633](https://github.com/AliceO2Group/AliceO2/pull/15633) 2026-07-25: [ALICE3] TF3: remove overlaps in OTOF staves by [@maciacco](https://github.com/maciacco)
 - [\#15635](https://github.com/AliceO2Group/AliceO2/pull/15635) 2026-07-27: move OT barrel service 'disk' z 132 to 142 cm (space for readout cards) by [@altsybee](https://github.com/altsybee)
 - [\#15638](https://github.com/AliceO2Group/AliceO2/pull/15638) 2026-07-27: Do not request unused Propagator<double> by [@shahor02](https://github.com/shahor02)
+- [\#15639](https://github.com/AliceO2Group/AliceO2/pull/15639) 2026-07-28: [ALICE3] TF3: approaching TF3 ASIC: use 8-chip modules + update chip segmentation by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15548](https://github.com/AliceO2Group/AliceO2/pull/15548) 2026-07-02: DPL Analysis: fail with an error if ASoA.h is being included in a ROOT dictionary by [@aalkin](https://github.com/aalkin)
