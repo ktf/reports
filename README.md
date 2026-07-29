@@ -11,6 +11,7 @@
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15581](https://github.com/AliceO2Group/AliceO2/pull/15581) 2026-07-07: Possibility to bias magnetic field origin via env.var. by [@shahor02](https://github.com/shahor02)
 - [\#15610](https://github.com/AliceO2Group/AliceO2/pull/15610) 2026-07-20: Fix x-axis related error treatments by [@shahor02](https://github.com/shahor02)
+- [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15597](https://github.com/AliceO2Group/AliceO2/pull/15597) 2026-07-14: TPC VDrift: hold refVdrift constant by [@matthias-kleiner](https://github.com/matthias-kleiner)
