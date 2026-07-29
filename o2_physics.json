@@ -1575,51 +1575,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
-            "number": 17006,
-            "author": {
-              "login": "Shunsuke-Kurita"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse - Track-Phi - new PID for Phi",
             "number": 17187,
             "author": {
@@ -2730,6 +2685,106 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[DPG] Introduce treeCreatorTpcQa workflow",
+            "number": 17086,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Fix ALICE 3 DQ datamodel naming",
+            "number": 17252,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/ReducedTablesAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
+            "number": 16955,
+            "author": {
+              "login": "JinjooSeo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-29T20:33:13Z",
+            "title": "[PWGLF] Updated mixing",
+            "number": 17258,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phiflowder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] Femto: Add D0 meson support to the femto framework",
             "number": 17253,
             "author": {
@@ -2830,96 +2885,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DPG] Introduce treeCreatorTpcQa workflow",
-            "number": 17086,
+            "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
+            "number": 17006,
             "author": {
-              "login": "lubynets"
+              "login": "Shunsuke-Kurita"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/CMakeLists.txt"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.cxx"
+                    "path": "PWGDQ/Core/VarManager.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TPC/treeCreatorPidTpcQa.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Fix ALICE 3 DQ datamodel naming",
-            "number": 17252,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/ReducedTablesAlice3.h"
+                    "path": "PWGDQ/Core/VarManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
-            "number": 16955,
-            "author": {
-              "login": "JinjooSeo"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-29T20:33:13Z",
-            "title": "[PWGLF] Updated mixing",
-            "number": 17258,
-            "author": {
-              "login": "prottayCMT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phiflowder.cxx"
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
