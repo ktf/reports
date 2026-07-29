@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-23T07:52:36Z",
-            "title": "[PWGCF] fix labeled array configurable in twoParticleCorrelationsMPI.cxx",
-            "number": 17164,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwNonflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-23T08:09:42Z",
-            "title": "[PWGJE] jetChargedV2 task: add fluctuation plots of absDeltaPhi vs. DeltaPT, remove fluctuation check plots, and check jet info when rho_local < 0",
-            "number": 17168,
-            "author": {
-              "login": "YubiaoWang"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGDQ] adds single muon pTcut 1p5 1p7 and 2 GeV/c with MCH-MID matching",
@@ -2465,56 +2415,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Add event mixing on data in correlatorDMesonPairs.cxx",
-            "number": 17214,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DMesonPairsTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] adding fix for DQ jet tables",
-            "number": 17244,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataDQ.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSubstructureDielectronOutput.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
             "number": 16955,
             "author": {
@@ -2655,6 +2555,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Add kKstarVsKtVsCent histogram to pairHistManager",
+            "number": 17247,
+            "author": {
+              "login": "allesgrau"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairHistManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] Apply phi-dependent correction to track rotation",
             "number": 17245,
             "author": {
@@ -2675,6 +2595,101 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add event mixing on data in correlatorDMesonPairs.cxx",
+            "number": 17214,
+            "author": {
+              "login": "atavirag"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/DMesonPairsTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Add option to separate EMCal and DCal cluster pairing for flo…",
+            "number": 17246,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/GammaTablesRedux.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalPhotonMcTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskFlowReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/testTaskEmc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] adding fix for DQ jet tables",
+            "number": 17244,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedDataDQ.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSubstructureDielectronOutput.cxx"
                   }
                 }
               ]
