@@ -4,95 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] jetHadronsPid.cxx task: Change usage of pt thresholds in PID",
-            "number": 17186,
-            "author": {
-              "login": "llorenc-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Remove unused files",
-            "number": 16098,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2LutWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Updated the Table producer and Task for uncertainty analysis.",
-            "number": 17200,
-            "author": {
-              "login": "15071832337"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-26T13:53:41Z",
-            "title": "[PWGLF] Improve mixing buffer for kinematic mixing, best pair compatibilaty for doublephi analysis",
-            "number": 17203,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/doublephitable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/doublephimeson.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-26T14:56:22Z",
             "title": "[PWGCF] Update DCA check",
@@ -2803,31 +2714,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Add UPC jet QA task",
-            "number": 17161,
-            "author": {
-              "login": "JaehyeokRyu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetUpcQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse - Track-Phi - new PID for Phi",
@@ -2910,6 +2796,86 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-30T16:19:00Z",
+            "title": "[PWGJE] Add UPC jet QA task",
+            "number": 17161,
+            "author": {
+              "login": "JaehyeokRyu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetUpcQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Fix O2Linter issues in ALICE 3 DQ Framework",
+            "number": 17269,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3DqTableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3DqEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix filling H3L absorption point",
+            "number": 17268,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
                   }
                 }
               ]
@@ -3270,16 +3236,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix filling H3L absorption point",
-            "number": 17268,
+            "title": "[PWGLF] Add custom DCA selection + fix track selection in MC",
+            "number": 17270,
             "author": {
-              "login": "mpuccio"
+              "login": "gbencedi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] charged jet v2: Add in-plane/out-of-plane RC fluctuation checks and update angular selection in Data process",
+            "number": 17271,
+            "author": {
+              "login": "YubiaoWang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add and fix configurable tag options for optimize memory issue",
+            "number": 17272,
+            "author": {
+              "login": "dmallick2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
                   }
                 }
               ]
