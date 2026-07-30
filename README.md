@@ -10,6 +10,7 @@
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15581](https://github.com/AliceO2Group/AliceO2/pull/15581) 2026-07-07: Possibility to bias magnetic field origin via env.var. by [@shahor02](https://github.com/shahor02)
 - [\#15610](https://github.com/AliceO2Group/AliceO2/pull/15610) 2026-07-20: Fix x-axis related error treatments by [@shahor02](https://github.com/shahor02)
+- [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
@@ -42,6 +43,7 @@
 - [\#15641](https://github.com/AliceO2Group/AliceO2/pull/15641) 2026-07-28: Multi-threaded material budget LUT creation by [@trwenz](https://github.com/trwenz)
 - [\#15642](https://github.com/AliceO2Group/AliceO2/pull/15642) 2026-07-28: Use fastAtan2 with protection against radial tracks by [@shahor02](https://github.com/shahor02)
 - [\#15644](https://github.com/AliceO2Group/AliceO2/pull/15644) 2026-07-28: TPC: Adding macros to create correction maps on the Grid by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
