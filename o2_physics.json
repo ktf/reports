@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-24T19:40:10Z",
-            "title": "[PWGHF] Refactor mixed event handling for track selection in Charm Track femto task",
-            "number": 17191,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsTrackFemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-24T17:41:49Z",
             "title": "[PWGHF] taskFlow.cxx : add more cuts on MFT tracks, add centrality, add dedicated process function for efficiencies",
             "number": 17190,
@@ -2165,56 +2145,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] add some fgVarNamesMap related to A2 analysis",
-            "number": 17127,
-            "author": {
-              "login": "ypwangg"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-30T02:48:55Z",
-            "title": "[PWGDQ] Apply phi-dependent correction to track rotation",
-            "number": 17245,
-            "author": {
-              "login": "ayatsujiringo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse - Track-Phi - new PID for Phi",
             "number": 17187,
             "author": {
@@ -2818,38 +2748,68 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add pi-triton femto in HadNucleiFemto.cxx and a new workflow in Tasks for pi-d systematics",
-            "number": 17260,
+            "state": "MERGED",
+            "mergedAt": "2026-07-30T13:16:59Z",
+            "title": "[DPG] New method to select primaries",
+            "number": 17248,
             "author": {
-              "login": "blacwovie"
+              "login": "rliotino99"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/CMakeLists.txt"
+                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added bootsrapping, improved linter errors",
+            "number": 17264,
+            "author": {
+              "login": "MaximVirta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-30T02:48:55Z",
+            "title": "[PWGDQ] Apply phi-dependent correction to track rotation",
+            "number": 17245,
+            "author": {
+              "login": "ayatsujiringo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
+                    "path": "PWGDQ/Core/VarManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/Tasks/piDeFemtoSystematics.cxx"
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
                   }
                 }
               ]
@@ -2883,18 +2843,38 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-30T13:16:59Z",
-            "title": "[DPG] New method to select primaries",
-            "number": 17248,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add pi-triton femto in HadNucleiFemto.cxx and a new workflow in Tasks for pi-d systematics",
+            "number": 17260,
             "author": {
-              "login": "rliotino99"
+              "login": "blacwovie"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/HMPID/hmpidTableProducer.cxx"
+                    "path": "PWGCF/Femto/FemtoNuclei/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/Tasks/piDeFemtoSystematics.cxx"
                   }
                 }
               ]
@@ -3253,18 +3233,43 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Added bootsrapping, improved linter errors",
-            "number": 17264,
+            "state": "MERGED",
+            "mergedAt": "2026-07-30T14:52:15Z",
+            "title": "[PWGDQ] add some fgVarNamesMap related to A2 analysis",
+            "number": 17127,
             "author": {
-              "login": "MaximVirta"
+              "login": "ypwangg"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add UPC jet QA task",
+            "number": 17161,
+            "author": {
+              "login": "JaehyeokRyu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetUpcQa.cxx"
                   }
                 }
               ]
