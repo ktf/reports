@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-18T01:01:05Z",
-            "title": "[ALICE3] Fix to be able to run the dielectron chain properly",
-            "number": 17115,
-            "author": {
-              "login": "rbailhac"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-prefilterdilepton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-24T14:35:58Z",
             "title": "[PWGLF] Perform different cuts for pbpb in clouretest, file hStrangeCorrelation.cxx",
             "number": 17194,
@@ -2298,31 +2268,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FemtoUniverse: Add kaon and pion Nsigma rejection in proton selection",
-            "number": 17256,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-07-24T14:41:36Z",
             "title": "[PWGEM] PM: Change conversion tagging task to produce derived data",
@@ -2645,31 +2590,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGUD] add zdc time cut",
-            "number": 17259,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Xic0, Updated output table columns produced by treeCreatorToXiPiQa.cxx",
             "number": 17242,
             "author": {
@@ -2915,6 +2835,96 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] add zdc time cut",
+            "number": 17259,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCumulantsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-30T07:47:05Z",
+            "title": "[PWGCF] FemtoUniverse: Add kaon and pion Nsigma rejection in proton selection",
+            "number": 17256,
+            "author": {
+              "login": "alicja-pp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Extended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add pi-triton femto in HadNucleiFemto.cxx and a new workflow in Tasks for pi-d systematics",
+            "number": 17260,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/Tasks/piDeFemtoSystematics.cxx"
                   }
                 }
               ]
