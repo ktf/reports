@@ -19,8 +19,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#15594](https://github.com/AliceO2Group/AliceO2/pull/15594) 2026-07-10: Store TPC cluster flag in UnbinnedResid::channel by [@shahor02](https://github.com/shahor02)
-- [\#15595](https://github.com/AliceO2Group/AliceO2/pull/15595) 2026-07-11: Fix getTRDLayer and TRD chi2 assignment by [@shahor02](https://github.com/shahor02)
 - [\#15597](https://github.com/AliceO2Group/AliceO2/pull/15597) 2026-07-14: TPC VDrift: hold refVdrift constant by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15599](https://github.com/AliceO2Group/AliceO2/pull/15599) 2026-07-18: TPC: add ITS-TPC combined-momentum sampling trigger by [@miranov25](https://github.com/miranov25)
 - [\#15601](https://github.com/AliceO2Group/AliceO2/pull/15601) 2026-07-17: Properly discard ITS hits preceding readout start by [@shahor02](https://github.com/shahor02)
