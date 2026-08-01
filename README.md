@@ -7,16 +7,13 @@
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
-- [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15610](https://github.com/AliceO2Group/AliceO2/pull/15610) 2026-07-20: Fix x-axis related error treatments by [@shahor02](https://github.com/shahor02)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#15575](https://github.com/AliceO2Group/AliceO2/pull/15575) 2026-07-15: Align: add option to print local delta of params by [@f3sch](https://github.com/f3sch)
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15599](https://github.com/AliceO2Group/AliceO2/pull/15599) 2026-07-18: TPC: add ITS-TPC combined-momentum sampling trigger by [@miranov25](https://github.com/miranov25)
 - [\#15601](https://github.com/AliceO2Group/AliceO2/pull/15601) 2026-07-17: Properly discard ITS hits preceding readout start by [@shahor02](https://github.com/shahor02)
