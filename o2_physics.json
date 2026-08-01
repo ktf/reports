@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-23T16:02:11Z",
-            "title": "[PWGLF] added axis on nsigma histograms for purity as a function of centrality",
-            "number": 17171,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-13T13:25:44Z",
             "title": "[PWGLF] added event selection options",
             "number": 17036,
@@ -3226,41 +3206,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
-            "number": 17006,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
             "author": {
-              "login": "Shunsuke-Kurita"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                    "path": "Common/DataModel/Centrality.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
+                    "path": "Common/Tasks/centralityQa.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
@@ -3306,26 +3271,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
+            "title": "[PWGDQ] Add EMCal cluster information to the DQ skimmed data model",
+            "number": 17006,
             "author": {
-              "login": "jesgum"
+              "login": "Shunsuke-Kurita"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/Centrality.h"
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
+                    "path": "PWGDQ/Core/VarManager.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] implementing a posteriori 3D vertex shift for forward tracks",
+            "number": 17281,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
                   }
                 }
               ]
