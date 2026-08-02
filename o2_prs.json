@@ -6,31 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation",
-            "number": 15585,
-            "author": {
-              "login": "joseesquivel-hub"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/include/Alice3DetectorsPassive/PassiveBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Magnet.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[EMCAL] Modernize EMCal code",
             "number": 15600,
             "author": {
@@ -4751,6 +4726,26 @@
                 {
                   "node": {
                     "path": "Utilities/Mergers/include/Mergers/MergerBuilder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC TimeSeries: fix silent track loss from binning overflow",
+            "number": 15658,
+            "author": {
+              "login": "miranov25"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
                   }
                 }
               ]
