@@ -36,6 +36,7 @@
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15651](https://github.com/AliceO2Group/AliceO2/pull/15651) 2026-07-30: Add MCH and MID TrackerParam to configs of AOD metadata by [@shahor02](https://github.com/shahor02)
 - [\#15656](https://github.com/AliceO2Group/AliceO2/pull/15656) 2026-08-03: GeometryManager::getSensID supports up to 2^17 sensors for DetID>FOCAL by [@shahor02](https://github.com/shahor02)
+- [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
