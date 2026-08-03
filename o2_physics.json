@@ -2871,16 +2871,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] jEPFlowAnalysis.cxx: add angular selection for two leading tracks",
-            "number": 17291,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
             "author": {
-              "login": "jikim1290"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
@@ -2891,21 +2901,101 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM/PhotonMeson] Add option for fast analytical propagation of tracks",
-            "number": 17288,
+            "title": "[PWGJE] pvalue check on rho(phi)",
+            "number": 17106,
             "author": {
-              "login": "jokonig"
+              "login": "joachimckh"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-03T07:02:08Z",
+            "title": "[PWGLF] [PWGLF} lambdalambda.cxx: add rapidity selection for rotational bkg",
+            "number": 17293,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdalambda.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] update nuspex codeowners",
+            "number": 17294,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] cha01710analysis.cxx: initial commit on charged a0(1710)",
+            "number": 17292,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/PCMUtilities.h"
+                    "path": "PWGLF/Tasks/Resonances/cha01710analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-03T07:59:58Z",
+            "title": "[PWGCF] jEPFlowAnalysis.cxx: add angular selection for two leading tracks",
+            "number": 17291,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPFlowAnalysis.cxx"
                   }
                 }
               ]
@@ -3021,111 +3111,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
+            "title": "[PWGEM/PhotonMeson] Add option for fast analytical propagation of tracks",
+            "number": 17288,
             "author": {
-              "login": "jesgum"
+              "login": "jokonig"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/DataModel/Centrality.h"
+                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] cha01710analysis.cxx: initial commit on charged a0(1710)",
-            "number": 17292,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/cha01710analysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] pvalue check on rho(phi)",
-            "number": 17106,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-03T07:02:08Z",
-            "title": "[PWGLF] [PWGLF} lambdalambda.cxx: add rapidity selection for rotational bkg",
-            "number": 17293,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdalambda.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] update nuspex codeowners",
-            "number": 17294,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
+                    "path": "PWGEM/PhotonMeson/Utils/PCMUtilities.h"
                   }
                 }
               ]
