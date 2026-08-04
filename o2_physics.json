@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-21T15:38:17Z",
-            "title": "[Common,PWGEM/Dilepton] update muon cov",
-            "number": 17154,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/fwdtrackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/DataModel/dileptonTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/Converters/muonConverter4.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryMuon.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EMFwdTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EMTrackUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-26T15:38:55Z",
-            "title": "[PWGLF] add generic nuclei three-body builder",
-            "number": 17206,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/nucleiThreeBodyBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/svPoolCreator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-29T15:29:06Z",
             "title": "[PWGLF] Fix selection based on ctau of cascades",
             "number": 17249,
@@ -2865,26 +2755,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Added multiplicity axis for v02pt + linter fixes",
-            "number": 17313,
-            "author": {
-              "login": "MaximVirta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Change nsigma TOF selections to optional cuts, force bit=1 when no TOF is found",
             "number": 17315,
             "author": {
@@ -2970,26 +2840,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Adding bkg indexing to jetCorrelationD0 task",
-            "number": 17318,
-            "author": {
-              "login": "MattOckleton"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] modify mc producer & dihadron codes",
             "number": 17295,
             "author": {
@@ -3035,6 +2885,196 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/nucleiUtils.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding bkg indexing to jetCorrelationD0 task",
+            "number": 17318,
+            "author": {
+              "login": "MattOckleton"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Implement passThrough mode in femto producer for MC processing",
+            "number": 17321,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/baseSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/charmHadronBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/charmHadronHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/collisionBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/kinkBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/kinkHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/mcBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/modes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairProcessHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/trackBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/trackHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/tripletProcessHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0Builder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0HistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoCascadeQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoD0Qa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoKinkQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTrackQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoV0Qa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Update SkimmerForDalitzEE",
+            "number": 17320,
+            "author": {
+              "login": "lgansbartl"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectronFromDalitzEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added multiplicity axis for v02pt + linter fixes",
+            "number": 17313,
+            "author": {
+              "login": "MaximVirta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
                   }
                 }
               ]
