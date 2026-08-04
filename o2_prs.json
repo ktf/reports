@@ -4341,6 +4341,201 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Fix CPU accounting for external generator subprocesses",
+            "number": 15636,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHepMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorTParticle.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorTParticle.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/dpl_eventgen.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-sim: Improvements for media initialization order and strong track-seeding for Geant4",
+            "number": 15663,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/VMCSeederService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/VMCSeederService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/include/Steer/O2MCApplicationBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Skip invalid timeframes during ROOT input",
+            "number": 15576,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/MessageContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/MessageContext.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add double-omega decay information",
+            "number": 15660,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: split dictionary for test classes",
+            "number": 15567,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "New features for CAD-based simulations",
             "number": 15628,
             "author": {
@@ -4696,201 +4891,6 @@
                 {
                   "node": {
                     "path": "scripts/geometry/TODO.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix CPU accounting for external generator subprocesses",
-            "number": 15636,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHepMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorTParticle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorTParticle.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/dpl_eventgen.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "o2-sim: Improvements for media initialization order and strong track-seeding for Geant4",
-            "number": 15663,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/VMCSeederService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/VMCSeederService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/include/Steer/O2MCApplicationBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Skip invalid timeframes during ROOT input",
-            "number": 15576,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/MessageContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/MessageContext.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add double-omega decay information",
-            "number": 15660,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: split dictionary for test classes",
-            "number": 15567,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/CMakeLists.txt"
                   }
                 }
               ]
