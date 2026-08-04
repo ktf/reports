@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-01-21T13:24:40Z",
-            "title": "[ALICE3,PWGDQ] Implementation of the ALICE3 DQ data model and analysis tasks",
-            "number": 14291,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-dq-table-maker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dq-efficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedTablesAlice3.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-29T14:44:13Z",
             "title": "[PWGLF] fixed typo in histogram names",
             "number": 17250,
@@ -2330,31 +2275,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-30T16:19:00Z",
-            "title": "[PWGJE] Add UPC jet QA task",
-            "number": 17161,
-            "author": {
-              "login": "JaehyeokRyu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetUpcQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-31T06:52:34Z",
             "title": "[PWGUD] add zdc time cut",
             "number": 17259,
@@ -3014,26 +2934,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Added multiplicity axis for v02pt + linter fixes",
-            "number": 17313,
-            "author": {
-              "login": "MaximVirta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Tof selection dau bach",
@@ -3050,21 +2950,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Change nsigma TOF selections to optional cuts, force bit=1 when no TOF is found",
-            "number": 17315,
+            "title": "[PWGLF] Add event loss, event splitting, and cut-flow QA",
+            "number": 17317,
             "author": {
-              "login": "allesgrau"
+              "login": "bhattdurgesh921-sys"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                    "path": "PWGLF/Tasks/Resonances/deltaAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-07-30T16:19:00Z",
+            "title": "[PWGJE] Add UPC jet QA task",
+            "number": 17161,
+            "author": {
+              "login": "JaehyeokRyu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/v0Builder.h"
+                    "path": "PWGJE/Tasks/jetUpcQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added multiplicity axis for v02pt + linter fixes",
+            "number": 17313,
+            "author": {
+              "login": "MaximVirta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
                   }
                 }
               ]
@@ -3100,6 +3040,31 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/cha01710analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Change nsigma TOF selections to optional cuts, force bit=1 when no TOF is found",
+            "number": 17315,
+            "author": {
+              "login": "allesgrau"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0Builder.h"
                   }
                 }
               ]
