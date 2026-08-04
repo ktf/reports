@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-26T12:48:03Z",
-            "title": "[PWGCF] Add lite tables for all particles in Femto Framework",
-            "number": 17202,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/collisionBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/femtoUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/kinkBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/trackBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/v0Builder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducerLiteConverter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-21T15:38:17Z",
             "title": "[Common,PWGEM/Dilepton] update muon cov",
             "number": 17154,
@@ -2629,31 +2569,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] add MC process and fix bug in cpr",
-            "number": 17309,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-04T06:25:24Z",
             "title": "[PWGLF] Added the Mis-IDentified PID cut",
@@ -2731,31 +2646,6 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/alice3DqTableMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] modify mc producer & dihadron codes",
-            "number": 17295,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
                   }
                 }
               ]
@@ -2995,6 +2885,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Change nsigma TOF selections to optional cuts, force bit=1 when no TOF is found",
+            "number": 17315,
+            "author": {
+              "login": "allesgrau"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0Builder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-04T13:57:06Z",
             "title": "[PWGEM,PWGJE,PWGLF] Fix includes",
             "number": 17316,
             "author": {
@@ -3030,21 +2945,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Change nsigma TOF selections to optional cuts, force bit=1 when no TOF is found",
-            "number": 17315,
+            "title": "[PWGCF] add MC process and fix bug in cpr",
+            "number": 17309,
             "author": {
-              "login": "allesgrau"
+              "login": "blacwovie"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/v0Builder.h"
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
                   }
                 }
               ]
@@ -3065,6 +2980,61 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] modify mc producer & dihadron codes",
+            "number": 17295,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowMcUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] event selection flag is now stored in the multiplicity table",
+            "number": 17319,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFhe3HadronTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/he3HadronFemto.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
