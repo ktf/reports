@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-29T17:07:59Z",
-            "title": "[PWGEM] remove eta Cut + add new track distance cut",
-            "number": 17251,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-29T22:39:28Z",
-            "title": "[PWGJE] adding fix for DQ jet tables",
-            "number": 17244,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataDQ.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSubstructureDielectronOutput.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-30T07:47:05Z",
             "title": "[PWGCF] FemtoUniverse: Add kaon and pion Nsigma rejection in proton selection",
             "number": 17256,
@@ -2895,26 +2850,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Fix charm-hadron EsE filling",
-            "number": 17323,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Updated rapidity check and fixed PxPyPz Vector",
             "number": 17312,
             "author": {
@@ -3048,8 +2983,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-08-04T20:35:02Z",
+            "title": "[PWGHF] Fix charm-hadron EsE filling",
+            "number": 17323,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlowCharmHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-04T20:46:01Z",
             "title": "[PWGCF] Apply invariant mass cuts to cascade QA histograms",
             "number": 17322,
             "author": {
@@ -3060,6 +3015,51 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackCascadeExtended.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-04T21:28:16Z",
+            "title": "Please consider the following formatting changes to #17325",
+            "number": 17326,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/forwardlambdakzeroanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] First attempt at V0 reconstruction using MFT only",
+            "number": 17325,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/forwardlambdakzeroanalysis.cxx"
                   }
                 }
               ]
