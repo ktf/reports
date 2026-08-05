@@ -2391,41 +2391,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: allow --completion-policy <N>[s, m] to wait before quitting",
-            "number": 15298,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ProcessingPolicies.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Change ownership model. Now a vector of span is in general returned in place of a vector of vectors.",
             "number": 15562,
             "author": {
@@ -2571,121 +2536,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: make IDC/CMV distribute a pure forwarding device + minor improvements",
-            "number": 15583,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeCMVSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeIDCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/test/test_cmv_generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecordWalker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputSpan.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputSpan.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_InputRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_CompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_InputRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_InputRecordWalker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_InputSpan.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/RawPageTestData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/test_RootTreeWriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: allow for duplicate devices if they have an appropriate label",
             "number": 15453,
             "author": {
@@ -2721,41 +2571,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_WorkflowHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] TF3: add passive edge around each pixel",
-            "number": 15654,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/IOTOFBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Segmentation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Segmentation.cxx"
                   }
                 }
               ]
@@ -3529,51 +3344,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Evtpool merger",
-            "number": 15593,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/MergeEventPool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/MergeEventPools/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/MergeEventPools/pools.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/MergeEventPools/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-03T17:11:22Z",
             "title": "tpc-time-series equiped with internal readers and HBFUtilsInitializer",
@@ -3696,76 +3466,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix CPU accounting for external generator subprocesses",
-            "number": 15636,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHepMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorTParticle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorTParticle.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/dpl_eventgen.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "o2-sim: Improvements for media initialization order and strong track-seeding for Geant4",
             "number": 15663,
             "author": {
@@ -3791,181 +3491,6 @@
                 {
                   "node": {
                     "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "New features for CAD-based simulations",
-            "number": 15628,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".clang-format"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/CADGeometryUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/CADGeometryUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/include/ExternalDetectors/ExternalDetector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/include/ExternalDetectors/Hit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/macro/sensitiveActionExample.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/src/ExternalDetector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/src/ExternalDetectorsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/include/DetectorsPassive/ExternalModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/src/ExternalModule.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/build_geometry.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2HitMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/detectorlist.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/externalDetectors.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_innerCylinder.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_outerDisk.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/inspect_hits.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/sensitive_action.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/O2_CADtoTGeo.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/TODO.md"
                   }
                 }
               ]
@@ -4566,36 +4091,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-08-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-08-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
             "number": 15380,
             "author": {
@@ -4670,6 +4165,246 @@
         {
           "node": {
             "state": "MERGED",
+            "mergedAt": "2026-08-05T07:16:10Z",
+            "title": "New features for CAD-based simulations",
+            "number": 15628,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".clang-format"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/CADGeometryUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/CADGeometryUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/include/ExternalDetectors/ExternalDetector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/include/ExternalDetectors/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/macro/sensitiveActionExample.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/src/ExternalDetector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/src/ExternalDetectorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/include/DetectorsPassive/ExternalModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/ExternalModule.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2HitMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/detectorlist.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/externalDetectors.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_innerCylinder.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_outerDisk.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/inspect_hits.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/sensitive_action.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/O2_CADtoTGeo.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/TODO.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-08-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-08-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] TF3: add passive edge around each pixel",
+            "number": 15654,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/IOTOFBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Segmentation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Segmentation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
             "mergedAt": "2026-08-04T09:32:39Z",
             "title": "Support to use VecGeom geometry navigation in the material scan",
             "number": 15655,
@@ -4731,6 +4466,271 @@
                 {
                   "node": {
                     "path": "Detectors/Base/test/compareMatBudLUT.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: allow --completion-policy <N>[s, m] to wait before quitting",
+            "number": 15298,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ProcessingPolicies.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: make IDC/CMV distribute a pure forwarding device + minor improvements",
+            "number": 15583,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeCMVSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeIDCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/test/test_cmv_generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecordWalker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputSpan.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataAllocator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/InputRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/InputSpan.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_InputRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecordWalker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputSpan.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/RawPageTestData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/test_RootTreeWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Evtpool merger",
+            "number": 15593,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/MergeEventPool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/MergeEventPools/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/MergeEventPools/pools.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/MergeEventPools/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix CPU accounting for external generator subprocesses",
+            "number": 15636,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFileOrCmd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHepMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorTParticle.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFileOrCmd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorTParticle.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/dpl_eventgen.cxx"
                   }
                 }
               ]

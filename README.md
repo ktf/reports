@@ -8,6 +8,7 @@
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15610](https://github.com/AliceO2Group/AliceO2/pull/15610) 2026-07-20: Fix x-axis related error treatments by [@shahor02](https://github.com/shahor02)
+- [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -25,6 +26,7 @@
 - [\#15622](https://github.com/AliceO2Group/AliceO2/pull/15622) 2026-07-22: [ALICE3] Remove ACTS tracker from CMakeLists.txt until there by [@njacazio](https://github.com/njacazio)
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
+- [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15633](https://github.com/AliceO2Group/AliceO2/pull/15633) 2026-07-25: [ALICE3] TF3: remove overlaps in OTOF staves by [@maciacco](https://github.com/maciacco)
 - [\#15635](https://github.com/AliceO2Group/AliceO2/pull/15635) 2026-07-27: move OT barrel service 'disk' z 132 to 142 cm (space for readout cards) by [@altsybee](https://github.com/altsybee)
 - [\#15637](https://github.com/AliceO2Group/AliceO2/pull/15637) 2026-07-28: Fix in Propagator::initFieldFromGRP by [@shahor02](https://github.com/shahor02)
@@ -39,6 +41,8 @@
 - [\#15656](https://github.com/AliceO2Group/AliceO2/pull/15656) 2026-08-03: GeometryManager::getSensID supports up to 2^17 sensors for DetID>FOCAL by [@shahor02](https://github.com/shahor02)
 - [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)
 - [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Examples
+- [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
