@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-17T08:49:36Z",
-            "title": "Properly discard ITS hits preceding readout start",
-            "number": 15601,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-16T10:58:42Z",
             "title": "GPU/TPC: Add vectorised CPU version of tail filter",
             "number": 15589,
@@ -4646,36 +4611,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-08-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-08-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: add option to force parentFile colocation",
             "number": 15391,
             "author": {
@@ -4731,6 +4666,861 @@
                 {
                   "node": {
                     "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Split TRK and FT3",
+            "number": 15665,
+            "author": {
+              "login": "marcovanleeuwen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/macros/CheckTracksALICE3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/include/ALICE3GlobalReconstruction/TimeFrameMixin.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/include/ALICE3GlobalReconstructionWorkflow/TrackerSpecImpl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/ChipDigitsContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/ChipDigitsContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/base/include/FT3Base/FT3BaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/base/include/FT3Base/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/base/src/FT3BaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/base/src/FT3BaseParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/data/simcuts.dat"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3Layer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3Module.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3ModuleConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3SimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/AlmiraParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/SegmentationChip.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/Specs.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/TRKBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/src/AlmiraParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/src/SegmentationChip.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/src/TRKBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/src/TRKBaseParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/CheckBandwidth.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/CheckClusters.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/CheckDigitsTRK.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/CheckTracksCA.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/postClusterSizeVsEta.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/run_test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/TRKLayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/TRKServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/VDGeometryBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/VDLayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/VDSensorRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/TRKLayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/TRKServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/TRKSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/VDGeometryBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/VDLayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/reconstruction/include/TRKReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/reconstruction/include/TRKReconstruction/ClustererACTS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/reconstruction/src/ClustererACTS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/ChipDigitsContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/ChipSimResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/DigiParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/ChipDigitsContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/ChipSimResponse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/DPLDigitizerParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/DigiParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/TRKFT3SimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/include/TRKWorkflow/ClusterWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/include/TRKWorkflow/ClustererSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/include/TRKWorkflow/DigitReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/include/TRKWorkflow/DigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/include/TRKWorkflow/RecoWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/src/ClusterWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/src/ClustererSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/src/DigitReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/src/DigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/workflow/src/trk-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TRKDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TRKDigitizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2HitMerger.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamTest.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexBiasParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/DataFormatsCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/MeanVertexBiasParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/MeanVertexObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/IntegratedClusterCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/StrangenessTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/CosmicsMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/SecondaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/StrangenessTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TOFMatcherSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCResidualWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ROFLookupTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/include/MFTWorkflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Tracking/src/TrackFinderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/SpacePointCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-time-series.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/include/TRDQC/Tracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/Tracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingQCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackletWord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-08-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-08-o2_releases.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
                   }
                 }
               ]
