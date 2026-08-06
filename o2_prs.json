@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-16T10:58:42Z",
-            "title": "GPU/TPC: Add vectorised CPU version of tail filter",
-            "number": 15589,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/utils/VcShim.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-17T10:18:15Z",
             "title": "Fixes needed after distribution upgrade",
             "number": 15596,
@@ -3929,31 +3889,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: split dictionary for test classes",
-            "number": 15567,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-06T08:19:09Z",
             "title": "o2-sim: Improvements for media initialization order and strong track-seeding for Geant4",
@@ -5111,56 +5046,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Skip invalid timeframes during ROOT input",
-            "number": 15576,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingStats.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/MessageContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/MessageContext.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Fix CPU accounting for external generator subprocesses",
             "number": 15636,
             "author": {
@@ -5221,6 +5106,106 @@
                 {
                   "node": {
                     "path": "run/dpl_eventgen.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Skip invalid timeframes during ROOT input",
+            "number": 15576,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingStats.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/MessageContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/MessageContext.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: split dictionary for test classes",
+            "number": 15567,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation",
+            "number": 15585,
+            "author": {
+              "login": "joseesquivel-hub"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/include/Alice3DetectorsPassive/PassiveBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Magnet.cxx"
                   }
                 }
               ]
