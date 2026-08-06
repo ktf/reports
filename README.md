@@ -14,6 +14,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
+- [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15599](https://github.com/AliceO2Group/AliceO2/pull/15599) 2026-07-18: TPC: add ITS-TPC combined-momentum sampling trigger by [@miranov25](https://github.com/miranov25)
@@ -40,6 +41,7 @@
 - [\#15656](https://github.com/AliceO2Group/AliceO2/pull/15656) 2026-08-03: GeometryManager::getSensID supports up to 2^17 sensors for DetID>FOCAL by [@shahor02](https://github.com/shahor02)
 - [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)
 - [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
+- [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -59,3 +61,5 @@
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15653](https://github.com/AliceO2Group/AliceO2/pull/15653) 2026-08-03: Honour the CCDB time machine for the mu(bc) distribution by [@sawenzel](https://github.com/sawenzel)
+- [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
+- [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
