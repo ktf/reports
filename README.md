@@ -13,14 +13,12 @@
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15599](https://github.com/AliceO2Group/AliceO2/pull/15599) 2026-07-18: TPC: add ITS-TPC combined-momentum sampling trigger by [@miranov25](https://github.com/miranov25)
 - [\#15606](https://github.com/AliceO2Group/AliceO2/pull/15606) 2026-07-20: Properly discard Alice3 TRK hits preceding RO start by [@shahor02](https://github.com/shahor02)
-- [\#15607](https://github.com/AliceO2Group/AliceO2/pull/15607) 2026-07-17: Propagate PV MCLabel to extended PV in the trackingStudy by [@shahor02](https://github.com/shahor02)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
@@ -38,6 +36,7 @@
 - [\#15644](https://github.com/AliceO2Group/AliceO2/pull/15644) 2026-07-28: TPC: Adding macros to create correction maps on the Grid by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15651](https://github.com/AliceO2Group/AliceO2/pull/15651) 2026-07-30: Add MCH and MID TrackerParam to configs of AOD metadata by [@shahor02](https://github.com/shahor02)
+- [\#15654](https://github.com/AliceO2Group/AliceO2/pull/15654) 2026-08-07: [ALICE3] TF3: add passive edge around each pixel by [@maciacco](https://github.com/maciacco)
 - [\#15655](https://github.com/AliceO2Group/AliceO2/pull/15655) 2026-08-04: Support to use VecGeom geometry navigation in the material scan by [@sawenzel](https://github.com/sawenzel)
 - [\#15656](https://github.com/AliceO2Group/AliceO2/pull/15656) 2026-08-03: GeometryManager::getSensID supports up to 2^17 sensors for DetID>FOCAL by [@shahor02](https://github.com/shahor02)
 - [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)

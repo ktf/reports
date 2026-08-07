@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-03T07:53:50Z",
-            "title": "[Common] Add zdc-extra-table-reader task",
-            "number": 16028,
-            "author": {
-              "login": "udmitrie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcExtraTableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-03T07:53:33Z",
             "title": "[Common] zdcExtraTableProducer: Add and refactor configurables",
             "number": 16820,
@@ -835,26 +810,6 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/taskPi0FlowEMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add track QA histograms and fix naming bug",
-            "number": 16977,
-            "author": {
-              "login": "sejeong8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
                   }
                 }
               ]
@@ -1967,26 +1922,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Update reading parameters from CCDB",
-            "number": 17369,
-            "author": {
-              "login": "fsii"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-06T20:24:29Z",
             "title": "[PWGJE] Add time reclustering, plus centrality selection and event subtractio…",
@@ -2224,36 +2159,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Adding discription for analysis and adding event flow and efficiency corrections",
             "number": 17341,
             "author": {
@@ -2379,56 +2284,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Add a new task for vertex-based vdM scan analyses",
-            "number": 17361,
-            "author": {
-              "login": "mjkim525"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiVertex.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Add generator-level vs reco-level flattenicity task",
-            "number": 17353,
-            "author": {
-              "login": "PaolaVT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Add ZDC & FIT time tables and kIsBBZPA && kIsBBZPC selections to centrality study",
             "number": 17347,
             "author": {
@@ -2469,6 +2324,146 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-07T08:46:58Z",
+            "title": "[PWGLF,PWGMM] Add a new task for vertex-based vdM scan analyses",
+            "number": 17361,
+            "author": {
+              "login": "mjkim525"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/lumiVertex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add track QA histograms and fix naming bug",
+            "number": 16977,
+            "author": {
+              "login": "sejeong8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Add generator-level vs reco-level flattenicity task",
+            "number": 17353,
+            "author": {
+              "login": "PaolaVT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Update reading parameters from CCDB",
+            "number": 17369,
+            "author": {
+              "login": "fsii"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
+            "number": 16955,
+            "author": {
+              "login": "JinjooSeo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
