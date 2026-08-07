@@ -1647,36 +1647,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-06T08:07:22Z",
             "title": "[PWGJE] Reduce memory usage with conditional histogram initialization in jetDsSpecSubs",
@@ -1714,26 +1684,6 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/flowMcUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] fix zorro QA",
-            "number": 17357,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
                   }
                 }
               ]
@@ -2287,26 +2237,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] updated to study multiplicity dependence",
-            "number": 17356,
-            "author": {
-              "login": "sashingo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-06T21:50:01Z",
             "title": "[PWGCF] Add event-by-event event classifier based on number of uncorrelated seeds",
@@ -2324,31 +2254,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Add generator-level vs reco-level flattenicity task",
-            "number": 17353,
-            "author": {
-              "login": "PaolaVT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
                   }
                 }
               ]
@@ -2479,6 +2384,116 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Add a new task for vertex-based vdM scan analyses",
+            "number": 17361,
+            "author": {
+              "login": "mjkim525"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/lumiVertex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] updated to study multiplicity dependence",
+            "number": 17356,
+            "author": {
+              "login": "sashingo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskElectronWeakBoson.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] fix zorro QA",
+            "number": 17357,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Add generator-level vs reco-level flattenicity task",
+            "number": 17353,
+            "author": {
+              "login": "PaolaVT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Reduce verbosity of ctpRateFetcher when trigger classes are not found",
+            "number": 17349,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/ctpRateFetcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[DPG] Introduce treeCreatorTpcQa workflow",
             "number": 17086,
             "author": {
@@ -2509,41 +2524,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Add a new task for vertex-based vdM scan analyses",
-            "number": 17361,
+            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
+            "number": 16939,
             "author": {
-              "login": "mjkim525"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGMM/Lumi/Tasks/CMakeLists.txt"
+                    "path": "Common/DataModel/Centrality.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiVertex.cxx"
+                    "path": "Common/Tasks/centralityQa.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Reduce verbosity of ctpRateFetcher when trigger classes are not found",
-            "number": 17349,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "Common/CCDB/ctpRateFetcher.cxx"
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
