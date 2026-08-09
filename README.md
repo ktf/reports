@@ -15,7 +15,6 @@
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#15606](https://github.com/AliceO2Group/AliceO2/pull/15606) 2026-07-20: Properly discard Alice3 TRK hits preceding RO start by [@shahor02](https://github.com/shahor02)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
@@ -55,6 +54,7 @@
 - [\#15629](https://github.com/AliceO2Group/AliceO2/pull/15629) 2026-07-23: Drop unused / obsolete include by [@ktf](https://github.com/ktf)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
 - [\#15669](https://github.com/AliceO2Group/AliceO2/pull/15669) 2026-08-07: Add riscv64 support  by [@Mahsuba](https://github.com/Mahsuba)
+- [\#15671](https://github.com/AliceO2Group/AliceO2/pull/15671) 2026-08-09: DPL: avoid multiple linear searches when handling command line options by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
