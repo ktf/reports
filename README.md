@@ -44,6 +44,7 @@
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
+- [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
 - [\#15567](https://github.com/AliceO2Group/AliceO2/pull/15567) 2026-08-08: DPL: split dictionary for test classes by [@ktf](https://github.com/ktf)
 - [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
 - [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
