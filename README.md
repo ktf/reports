@@ -13,7 +13,6 @@
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#15612](https://github.com/AliceO2Group/AliceO2/pull/15612) 2026-07-20: Improve TrackParCov cov.mat conversion to&from Lab cov.mat by [@shahor02](https://github.com/shahor02)
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
