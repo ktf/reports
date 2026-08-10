@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
-- [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 - [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
@@ -16,6 +15,8 @@
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
+- [\#15128](https://github.com/AliceO2Group/AliceO2/pull/15128) 2026-08-10: Improve safety calculations in Tessellated solid by [@sawenzel](https://github.com/sawenzel)
+- [\#15470](https://github.com/AliceO2Group/AliceO2/pull/15470) 2026-08-10: Add method isFromRadDecay(const int id). Checks whether particle resu… by [@amorsch](https://github.com/amorsch)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
@@ -48,7 +49,6 @@
 - [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
 - [\#15567](https://github.com/AliceO2Group/AliceO2/pull/15567) 2026-08-08: DPL: split dictionary for test classes by [@ktf](https://github.com/ktf)
 - [\#15577](https://github.com/AliceO2Group/AliceO2/pull/15577) 2026-07-22: DPL: add allocator to forward a fair::mq::Message payload by shallow copy by [@ehellbar](https://github.com/ehellbar)
-- [\#15590](https://github.com/AliceO2Group/AliceO2/pull/15590) 2026-07-21: DPL Analysis: extract concepts definitions from headers by [@aalkin](https://github.com/aalkin)
 - [\#15592](https://github.com/AliceO2Group/AliceO2/pull/15592) 2026-07-22: Add discard support for LifetimeHolder by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
