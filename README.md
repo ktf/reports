@@ -7,12 +7,14 @@
 - [\#15613](https://github.com/AliceO2Group/AliceO2/pull/15613) 2026-07-22: DPL Analysis: avoid Arrow's Slice API by [@aalkin](https://github.com/aalkin)
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
+- [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
+- [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
@@ -39,6 +41,7 @@
 - [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)
 - [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
+- [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -53,8 +56,10 @@
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15629](https://github.com/AliceO2Group/AliceO2/pull/15629) 2026-07-23: Drop unused / obsolete include by [@ktf](https://github.com/ktf)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
+- [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
 - [\#15669](https://github.com/AliceO2Group/AliceO2/pull/15669) 2026-08-07: Add riscv64 support  by [@Mahsuba](https://github.com/Mahsuba)
 - [\#15671](https://github.com/AliceO2Group/AliceO2/pull/15671) 2026-08-09: DPL: avoid multiple linear searches when handling command line options by [@ktf](https://github.com/ktf)
+- [\#15672](https://github.com/AliceO2Group/AliceO2/pull/15672) 2026-08-10: DPL: pass forwarded inputs as spans by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
