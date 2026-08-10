@@ -16,7 +16,6 @@
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#15591](https://github.com/AliceO2Group/AliceO2/pull/15591) 2026-07-20: [ALICE3] added segmentation to the particle propagation in TOF3 by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
