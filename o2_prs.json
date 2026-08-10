@@ -5241,13 +5241,23 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: improve DataRelayer tests in preparation for moving to SlotArena",
+            "title": "DPL: preparing for SlotArena migration",
             "number": 15673,
             "author": {
               "login": "ktf"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataModelViews.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_DataRelayer.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/Core/test/test_DataRelayer.cxx"
