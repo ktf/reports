@@ -61,6 +61,7 @@
 - [\#15669](https://github.com/AliceO2Group/AliceO2/pull/15669) 2026-08-07: Add riscv64 support  by [@Mahsuba](https://github.com/Mahsuba)
 - [\#15671](https://github.com/AliceO2Group/AliceO2/pull/15671) 2026-08-09: DPL: avoid multiple linear searches when handling command line options by [@ktf](https://github.com/ktf)
 - [\#15672](https://github.com/AliceO2Group/AliceO2/pull/15672) 2026-08-10: DPL: pass forwarded inputs as spans by [@ktf](https://github.com/ktf)
+- [\#15673](https://github.com/AliceO2Group/AliceO2/pull/15673) 2026-08-10: DPL: preparing for SlotArena migration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
