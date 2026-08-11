@@ -57,6 +57,7 @@
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15629](https://github.com/AliceO2Group/AliceO2/pull/15629) 2026-07-23: Drop unused / obsolete include by [@ktf](https://github.com/ktf)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
+- [\#15643](https://github.com/AliceO2Group/AliceO2/pull/15643) 2026-08-11: DPL Analysis: update ArrowTableSlicingCache column lookup by [@aalkin](https://github.com/aalkin)
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
 - [\#15669](https://github.com/AliceO2Group/AliceO2/pull/15669) 2026-08-07: Add riscv64 support  by [@Mahsuba](https://github.com/Mahsuba)
 - [\#15671](https://github.com/AliceO2Group/AliceO2/pull/15671) 2026-08-09: DPL: avoid multiple linear searches when handling command line options by [@ktf](https://github.com/ktf)
