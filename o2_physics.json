@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-06T06:13:53Z",
-            "title": "[PWGCF] Added multiplicity axis for v02pt + linter fixes",
-            "number": 17334,
-            "author": {
-              "login": "MaximVirta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-06T08:07:22Z",
-            "title": "[PWGJE] Reduce memory usage with conditional histogram initialization in jetDsSpecSubs",
-            "number": 17333,
-            "author": {
-              "login": "monamelop"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Preserve selected resonance parents during primary selection",
-            "number": 17328,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGJE] add enum D0McCategory to jetCorrelationD0",
-            "number": 17358,
-            "author": {
-              "login": "MattOckleton"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCorrelationD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-06T02:39:24Z",
             "title": "[PWGLF] Add closure-test correlations for truth triggers with reconstructed-track matches in hStrangeCorrelation.cxx",
             "number": 17350,
@@ -2321,31 +2241,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] add new deduplication modes + MC information",
-            "number": 17407,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/PCMUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] FemtoUniverse: Add ITS PID in track track task, extend nSigma rejection options",
             "number": 17408,
             "author": {
@@ -2391,6 +2286,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] Add selection vs pt qa plots for cascades to a3 strangeness task",
+            "number": 17412,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] Add lite colshape table",
             "number": 17410,
             "author": {
@@ -2401,6 +2316,11 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/collisionBuilder.h"
                   }
                 },
                 {
@@ -2436,6 +2356,96 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/TableProducer/femtoProducerLiteConverter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Fix potential mismatches between data and MC table size",
+            "number": 17411,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/associateMCinfoPhoton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaCalo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add configurable for pt-pt correlation event weight",
+            "number": 17414,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] add new deduplication modes + MC information",
+            "number": 17407,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/PCMUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] fix ME process",
+            "number": 17413,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
                   }
                 }
               ]
