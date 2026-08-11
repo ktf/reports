@@ -44,6 +44,7 @@
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
+- [\#15675](https://github.com/AliceO2Group/AliceO2/pull/15675) 2026-08-11: Add a unit test for isFromRadDecay and fix its ancestry walk by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
