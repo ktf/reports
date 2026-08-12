@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] HFInvMassFitter: stabilize fit quality, add fit-quality status to the output",
-            "number": 17348,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-08T07:56:54Z",
-            "title": "[PWGLF] kstar892LightIon: Added additional selection checks and optimised the code",
-            "number": 17377,
-            "author": {
-              "login": "5ub-Man"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstar892LightIon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-08T09:17:41Z",
             "title": "[Infrastructure] Change of convener",
@@ -2534,26 +2484,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Fix setSingleTrackSelectionBit not setting notBadMcTrack bit",
-            "number": 17435,
-            "author": {
-              "login": "zovarga"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-12T16:13:06Z",
             "title": "[PWGCF] flowGenericFramework.cxx: remove unused configurables",
@@ -2576,6 +2506,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Fix setSingleTrackSelectionBit not setting notBadMcTrack bit",
+            "number": 17435,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-12T18:14:50Z",
             "title": "[PWGCF] Added z-vtx dependent efficiency in lambda r2 correlation",
             "number": 17437,
             "author": {
@@ -2586,6 +2536,61 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-12T18:22:46Z",
+            "title": "[PWGCF] Added TPC crossed rows selection in flow event plane",
+            "number": 17438,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEventPlane.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] twoParticleCorrelationsMpi.cxx: add MC validation for templated event-by-event MPI proxy estimator",
+            "number": 17439,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
                   }
                 }
               ]
