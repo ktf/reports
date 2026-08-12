@@ -18,6 +18,7 @@
 ## Recent developments in O2 - Detectors
 - [\#15128](https://github.com/AliceO2Group/AliceO2/pull/15128) 2026-08-10: Improve safety calculations in Tessellated solid by [@sawenzel](https://github.com/sawenzel)
 - [\#15470](https://github.com/AliceO2Group/AliceO2/pull/15470) 2026-08-10: Add method isFromRadDecay(const int id). Checks whether particle resu… by [@amorsch](https://github.com/amorsch)
+- [\#15583](https://github.com/AliceO2Group/AliceO2/pull/15583) 2026-08-12: TPC: make IDC/CMV distribute a pure forwarding device + minor improvements by [@ehellbar](https://github.com/ehellbar)
 - [\#15608](https://github.com/AliceO2Group/AliceO2/pull/15608) 2026-07-21: [ALICE3] Latest v3b.1 RICH geometry with quadrants, modules and shielding by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15619](https://github.com/AliceO2Group/AliceO2/pull/15619) 2026-07-22: Fix missing parameter injected in SimFieldUtils by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
