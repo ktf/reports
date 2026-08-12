@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-07T15:03:16Z",
-            "title": "[PWGCF] fix zorro QA",
-            "number": 17357,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-07T15:52:27Z",
-            "title": "[PWGLF] add process function to look for pe+e- findable candidates",
-            "number": 17375,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigmaplusbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Fix table reservation problem",
-            "number": 17230,
-            "author": {
-              "login": "JifengDeng"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-08T01:20:16Z",
-            "title": "[PWGLF] reduced derived table size and updated the rejection condition of tracks",
-            "number": 17378,
-            "author": {
-              "login": "prottayCMT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/cksspinalignment.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGDQ] Make direct assoc MC final state signals configurable",
@@ -2044,26 +1964,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Bump actions/stale from 10 to 11",
-            "number": 17290,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/stale.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-12T10:56:12Z",
             "title": "[PWGJE] emcalCorrectionTask: Fix clang-tidy errors and warnings",
@@ -2359,36 +2259,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix unused headers in HF tree creators",
-            "number": 17430,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-12T13:32:26Z",
             "title": "[PWGCF] FemtoUniverse: Add ITS PID in track track task, extend nSigma rejection options",
@@ -2551,6 +2421,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGEM] Add new task for sanity check of EMCal cluster during different stages",
+            "number": 17434,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalMcSanityCheck.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Fix setSingleTrackSelectionBit not setting notBadMcTrack bit",
+            "number": 17435,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] jetHadronsPid.cxx task: Adding misses and fakes implementation in processMatchJets",
+            "number": 17433,
+            "author": {
+              "login": "llorenc-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronsPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] Update code after physics forum",
             "number": 17432,
             "author": {
@@ -2561,6 +2496,96 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/recoilJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-12T15:09:59Z",
+            "title": "[PWGHF] Fix unused headers in HF tree creators",
+            "number": 17430,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump actions/stale from 10 to 11",
+            "number": 17290,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/stale.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Added mixed event v2 table for kstarpbpb task and optimize ev…",
+            "number": 17436,
+            "author": {
+              "login": "sarjeetagami"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFKaonDaughterTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/kaDaughterProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstarpbpb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phianalysisrun3pbpb.cxx"
                   }
                 }
               ]
