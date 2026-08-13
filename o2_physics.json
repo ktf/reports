@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-10T02:40:25Z",
-            "title": "[ALICE3] Fix CodeCheck errors in alice3DQTableMaker",
-            "number": 17305,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3DqTableMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-10T04:33:45Z",
             "title": "[PWGLF] reducing table size by storing only events with k0s",
             "number": 17387,
@@ -1679,36 +1659,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-12T15:09:59Z",
-            "title": "[PWGHF] Fix unused headers in HF tree creators",
-            "number": 17430,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Infrastructure] Bump actions/stale from 10 to 11",
@@ -2101,26 +2051,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] flowGenericFramework.cxx: fix missing semi-colon in ConfigurableGroup…",
-            "number": 17443,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] jetHadronsPid.cxx task: Adding misses and fakes implementation in processMatchJets",
             "number": 17433,
             "author": {
@@ -2131,26 +2061,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetHadronsPid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] add dimuon analysis in global alignment task",
-            "number": 17416,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
                   }
                 }
               ]
@@ -2496,6 +2406,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGDQ] Change: collisionID now from reducedeventinfo not track1",
+            "number": 17386,
+            "author": {
+              "login": "amikals"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add dimuon analysis in global alignment task",
+            "number": 17416,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Add task for MFT reassociation QA in Pb-Pb",
+            "number": 17445,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/qaReassocMFTPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-13T11:05:21Z",
+            "title": "[PWGCF] flowGenericFramework.cxx: fix missing semi-colon in ConfigurableGroup…",
+            "number": 17443,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-13T11:12:34Z",
             "title": "[PWGLF] add dedicated table for non-pid ebye studies in lf",
             "number": 17444,
             "author": {
@@ -2519,23 +2519,28 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Change: collisionID now from reducedeventinfo not track1",
-            "number": 17386,
+            "state": "MERGED",
+            "mergedAt": "2026-08-12T15:09:59Z",
+            "title": "[PWGHF] Fix unused headers in HF tree creators",
+            "number": 17430,
             "author": {
-              "login": "amikals"
+              "login": "fchinu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
                   }
                 }
               ]
