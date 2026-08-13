@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-10T09:40:13Z",
-            "title": "[PWGLF] Update the cosPA pt dep selection",
-            "number": 17373,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedcascadeanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-31T13:41:33Z",
-            "title": "[PWGHF] Add event mixing on data in correlatorDMesonPairs.cxx",
-            "number": 17214,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/DMesonPairsTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-10T10:56:59Z",
             "title": "[PWGCF] Adding charge balance function workflow",
             "number": 17340,
@@ -1551,26 +1506,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Change shifted vertex to cal.v",
-            "number": 17420,
-            "author": {
-              "login": "cnkoster"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add QA histograms",
             "number": 17440,
             "author": {
@@ -2259,26 +2194,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add UPC ZDC timing cut configuration to hfEvSel",
-            "number": 17447,
-            "author": {
-              "login": "Rrantu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-13T12:46:24Z",
             "title": "[PWGHF] Add track QA histograms and fix naming bug",
@@ -2421,26 +2336,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Updated with MC",
-            "number": 17450,
-            "author": {
-              "login": "subhadee-ali"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF,PWGMM] Add task for MFT reassociation QA in Pb-Pb",
             "number": 17445,
             "author": {
@@ -2481,6 +2376,91 @@
                 {
                   "node": {
                     "path": "Scripts/format_includes.awk"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-13T13:42:21Z",
+            "title": "[Tools] Add PID feature extractor and ONNX inference tasks",
+            "number": 17419,
+            "author": {
+              "login": "forynski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/pidFeatureExtractor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/pidOnnxInference.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-13T14:02:40Z",
+            "title": "[Infrastructure,Scripts] Add PID in O2Physics header pattern",
+            "number": 17452,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".clang-format"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Scripts/format_includes.awk"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add UPC ZDC timing cut configuration to hfEvSel",
+            "number": 17447,
+            "author": {
+              "login": "Rrantu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
@@ -2614,38 +2594,68 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-13T13:42:21Z",
-            "title": "[Tools] Add PID feature extractor and ONNX inference tasks",
-            "number": 17419,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] HFInvMassFitter: stabilize fit quality, add fit-quality status to the output",
+            "number": 17348,
             "author": {
-              "login": "forynski"
+              "login": "lubynets"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Tools/CMakeLists.txt"
+                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Tools/PIDFeatureExtractor/CMakeLists.txt"
+                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Tools/PIDFeatureExtractor/README.md"
+                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Change shifted vertex to cal.v",
+            "number": 17420,
+            "author": {
+              "login": "cnkoster"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Tools/PIDFeatureExtractor/pidFeatureExtractor.cxx"
+                    "path": "PWGCF/Flow/TableProducer/zdcQVectors.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Updated with MC",
+            "number": 17450,
+            "author": {
+              "login": "subhadee-ali"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Tools/PIDFeatureExtractor/pidOnnxInference.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
                   }
                 }
               ]
