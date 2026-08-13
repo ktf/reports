@@ -1421,31 +1421,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] Add new task for sanity check of EMCal cluster during different stages",
-            "number": 17434,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalMcSanityCheck.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] Adding new Angularity Task to PWGJE",
             "number": 17299,
             "author": {
@@ -1520,46 +1495,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-13T13:42:21Z",
-            "title": "[Tools] Add PID feature extractor and ONNX inference tasks",
-            "number": 17419,
-            "author": {
-              "login": "forynski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDFeatureExtractor/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDFeatureExtractor/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDFeatureExtractor/pidFeatureExtractor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDFeatureExtractor/pidOnnxInference.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-13T14:02:40Z",
             "title": "[Infrastructure,Scripts] Add PID in O2Physics header pattern",
             "number": 17452,
@@ -1596,131 +1531,6 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsEvSelHf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,DPG,PWGEM,PWGHF,PWGLF] Fix PID include paths",
-            "number": 17451,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/ParamBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFDynamic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TOF/tofOfflineCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronSV.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectronFromDalitzEE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/mcPidTof.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/pidTOFGeneric.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/hypertriton3bodyQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
@@ -3086,6 +2896,196 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-13T13:42:21Z",
+            "title": "[Tools] Add PID feature extractor and ONNX inference tasks",
+            "number": 17419,
+            "author": {
+              "login": "forynski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/pidFeatureExtractor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDFeatureExtractor/pidOnnxInference.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Add new task for sanity check of EMCal cluster during different stages",
+            "number": 17434,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalMcSanityCheck.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,DPG,PWGEM,PWGHF,PWGLF] Fix PID include paths",
+            "number": 17451,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/ParamBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFDynamic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/tofOfflineCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/skimmerPrimaryElectronSV.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/taggingHFE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Utils/ElectronModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectronFromDalitzEE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/mcPidTof.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperkinkRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/pidTOFGeneric.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/hypertriton3bodyQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/nucleiUtils.h"
                   }
                 }
               ]
