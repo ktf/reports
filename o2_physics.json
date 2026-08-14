@@ -2961,36 +2961,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure,Common] Have a default PCH for framework / infrastructure headers",
-            "number": 17456,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/analysisPCH.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] add 2D efficiency support to flowFlucGfwPp",
             "number": 17455,
             "author": {
@@ -3041,6 +3011,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Add hist to calculate v22 - deltaPt",
+            "number": 17446,
+            "author": {
+              "login": "huinaibing"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Adding Centrality Information to McRec for Lc Correlator and Correlation Task",
             "number": 17380,
             "author": {
@@ -3066,16 +3056,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add hist to calculate v22 - deltaPt",
-            "number": 17446,
+            "title": "Have a default PCH for framework / infrastructure headers",
+            "number": 17456,
             "author": {
-              "login": "huinaibing"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/analysisPCH.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
                   }
                 }
               ]
