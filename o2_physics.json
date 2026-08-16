@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-12T14:25:45Z",
-            "title": "[PWGHF] Fix hard-coded pool bin axis",
-            "number": 17392,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Bump actions/stale from 10 to 11",
-            "number": 17290,
-            "author": {
-              "login": "dependabot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/stale.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-12T16:13:06Z",
-            "title": "[PWGCF] flowGenericFramework.cxx: remove unused configurables",
-            "number": 17423,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-12T18:14:50Z",
             "title": "[PWGCF] Added z-vtx dependent efficiency in lambda r2 correlation",
             "number": 17437,
@@ -2806,31 +2746,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Adding new Angularity Task to PWGJE",
-            "number": 17299,
-            "author": {
-              "login": "Rajdeep-nandi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHFAngularity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] fix MFT momentum rescaling",
             "number": 17461,
             "author": {
@@ -3061,6 +2976,106 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/multiplicityPt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
+            "number": 16499,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/model.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsDependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGJE] Add PCH to more Jet tasks",
+            "number": 16334,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Add command to migrate away from BasicCCDBManager in Analysis",
+            "number": 16158,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding new Angularity Task to PWGJE",
+            "number": 17299,
+            "author": {
+              "login": "Rajdeep-nandi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHFAngularity.cxx"
                   }
                 }
               ]
