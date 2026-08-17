@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-12T15:56:35Z",
-            "title": "[PWGHF] Fixed mc gen of taskCharmResoDTrkReduced to mirror MC rec",
-            "number": 17425,
-            "author": {
-              "login": "Luca610"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCharmResoToDTrkReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] Add multiplicity and transverse momentum fluctuations analysis task",
@@ -2924,31 +2904,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Nch mc correlation matrix",
-            "number": 17475,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwNonflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-15T00:58:43Z",
             "title": "[PWGJE] fix weight and mcphat",
@@ -3039,6 +2994,56 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-06-01T09:35:12Z",
+            "title": "[PWGHF] add offline event mixing tables for MC reco and MC gen",
+            "number": 16479,
+            "author": {
+              "login": "swapneshkhade"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Make D0 dual-hypothesis rejection configurable",
+            "number": 17476,
+            "author": {
+              "login": "swapneshkhade"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/CorrelationTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Add QA histograms",
@@ -3059,18 +3064,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-06-01T09:35:12Z",
-            "title": "[PWGHF] add offline event mixing tables for MC reco and MC gen",
-            "number": 16479,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Nch mc correlation matrix",
+            "number": 17475,
             "author": {
-              "login": "swapneshkhade"
+              "login": "EmilGorm"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwNonflow.cxx"
                   }
                 }
               ]
