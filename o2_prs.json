@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-22T09:24:19Z",
-            "title": "Fix missing parameter injected in SimFieldUtils",
-            "number": 15619,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/SimFieldUtils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-22T09:31:15Z",
             "title": "Group labels in randMode + protection on non-integer fractions",
             "number": 15598,
@@ -5206,6 +5186,81 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Integrate geometry step killing",
+            "number": 15684,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/include/SimSetup/MCReplayParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/KeepStepCylinders.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/MCReplayConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/include/Steer/O2MCApplicationBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Geometry_StepFiltering/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Geometry_StepFiltering/checkKeepStepCylinders.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Geometry_StepFiltering/countHits.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Geometry_StepFiltering/makeKeepStepCylinders.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Geometry_StepFiltering/run.sh"
                   }
                 }
               ]
