@@ -12,6 +12,7 @@
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15682](https://github.com/AliceO2Group/AliceO2/pull/15682) 2026-08-17: Field: keep polarity on MagneticField re-initialisation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -66,7 +67,6 @@
 - [\#15673](https://github.com/AliceO2Group/AliceO2/pull/15673) 2026-08-10: DPL: preparing for SlotArena migration by [@ktf](https://github.com/ktf)
 - [\#15680](https://github.com/AliceO2Group/AliceO2/pull/15680) 2026-08-16: DPL: give each stream its own slot in the service registry by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#15598](https://github.com/AliceO2Group/AliceO2/pull/15598) 2026-07-22: Group labels in randMode + protection on non-integer fractions by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
