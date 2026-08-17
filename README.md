@@ -35,6 +35,7 @@
 - [\#15644](https://github.com/AliceO2Group/AliceO2/pull/15644) 2026-07-28: TPC: Adding macros to create correction maps on the Grid by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15651](https://github.com/AliceO2Group/AliceO2/pull/15651) 2026-07-30: Add MCH and MID TrackerParam to configs of AOD metadata by [@shahor02](https://github.com/shahor02)
+- [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15654](https://github.com/AliceO2Group/AliceO2/pull/15654) 2026-08-07: [ALICE3] TF3: add passive edge around each pixel by [@maciacco](https://github.com/maciacco)
 - [\#15655](https://github.com/AliceO2Group/AliceO2/pull/15655) 2026-08-04: Support to use VecGeom geometry navigation in the material scan by [@sawenzel](https://github.com/sawenzel)
 - [\#15656](https://github.com/AliceO2Group/AliceO2/pull/15656) 2026-08-03: GeometryManager::getSensID supports up to 2^17 sensors for DetID>FOCAL by [@shahor02](https://github.com/shahor02)
@@ -65,6 +66,7 @@
 - [\#15673](https://github.com/AliceO2Group/AliceO2/pull/15673) 2026-08-10: DPL: preparing for SlotArena migration by [@ktf](https://github.com/ktf)
 - [\#15680](https://github.com/AliceO2Group/AliceO2/pull/15680) 2026-08-16: DPL: give each stream its own slot in the service registry by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
+- [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
