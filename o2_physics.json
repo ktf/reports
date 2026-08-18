@@ -6,26 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "[Common] Change default MatLUT",
-            "number": 16608,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/StandardCCDBLoader.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "[PWGEM] Revert \"[PWGEM/Dilepton] remove unused tasks\"",
             "number": 16847,
             "author": {
@@ -3031,6 +3011,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Fix flattenicity: FT0 amplitude bug, multiplicity classes, code cleanup",
+            "number": 17472,
+            "author": {
+              "login": "PaolaVT"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-18T18:47:34Z",
             "title": "[PWGEM,Photon] Clean up code base",
             "number": 17485,
             "author": {
@@ -3411,16 +3411,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Fix flattenicity: FT0 amplitude bug, multiplicity classes, code cleanup",
-            "number": 17472,
+            "title": "[PWGHF] Implement minor changes to B2JPsi code",
+            "number": 17502,
             "author": {
-              "login": "PaolaVT"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorBToJpsiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorJpsiHadReduced.cxx"
                   }
                 }
               ]
