@@ -22,7 +22,6 @@
 - [\#15470](https://github.com/AliceO2Group/AliceO2/pull/15470) 2026-08-10: Add method isFromRadDecay(const int id). Checks whether particle resu… by [@amorsch](https://github.com/amorsch)
 - [\#15583](https://github.com/AliceO2Group/AliceO2/pull/15583) 2026-08-12: TPC: make IDC/CMV distribute a pure forwarding device + minor improvements by [@ehellbar](https://github.com/ehellbar)
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
-- [\#15622](https://github.com/AliceO2Group/AliceO2/pull/15622) 2026-07-22: [ALICE3] Remove ACTS tracker from CMakeLists.txt until there by [@njacazio](https://github.com/njacazio)
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
