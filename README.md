@@ -12,6 +12,7 @@
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15682](https://github.com/AliceO2Group/AliceO2/pull/15682) 2026-08-17: Field: keep polarity on MagneticField re-initialisation by [@sawenzel](https://github.com/sawenzel)
+- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -46,8 +47,10 @@
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15675](https://github.com/AliceO2Group/AliceO2/pull/15675) 2026-08-11: Add a unit test for isFromRadDecay and fix its ancestry walk by [@sawenzel](https://github.com/sawenzel)
+- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
+- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
@@ -76,5 +79,6 @@
 - [\#15657](https://github.com/AliceO2Group/AliceO2/pull/15657) 2026-08-08: Split ALICE3 TRK and FT3 layout by [@shahor02](https://github.com/shahor02)
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
+- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#15669](https://github.com/AliceO2Group/AliceO2/pull/15669) 2026-08-07: Add riscv64 support  by [@Mahsuba](https://github.com/Mahsuba)

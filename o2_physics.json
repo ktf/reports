@@ -2681,26 +2681,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] modify event selection and cleanup in phianalysisrun3pbpb task",
-            "number": 17483,
-            "author": {
-              "login": "sarjeetagami"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysisrun3pbpb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] made NoSameBunchPileup configurable and removed obsolete variables",
             "number": 17474,
             "author": {
@@ -2981,6 +2961,106 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGLF] generalized k892hadronphotonBkg to work for LambdaStar & bug fixes",
+            "number": 17480,
+            "author": {
+              "login": "Oussama3030"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSigmaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892hadronphoton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k892hadronphotonBkg.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Femto: add optional kT-dependent dphistar cut in CPR",
+            "number": 17488,
+            "author": {
+              "login": "IgorPtak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/closePairRejection.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-18T06:25:43Z",
+            "title": "[PWGCF] Nch mc correlation matrix",
+            "number": 17475,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwNonflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-18T07:00:33Z",
+            "title": "[PWGLF] modify event selection and cleanup in phianalysisrun3pbpb task",
+            "number": 17483,
+            "author": {
+              "login": "sarjeetagami"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phianalysisrun3pbpb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGEM,Photon] Clean up code base",
             "number": 17485,
             "author": {
@@ -3085,6 +3165,21 @@
                 },
                 {
                   "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/gammaConversions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/gammaConversions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/gammaConversionsTruthOnlyMc.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGEM/PhotonMeson/Legacy/skimmerGammaConversion.cxx"
                   }
                 },
@@ -3096,6 +3191,11 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/associateMCinfoPhoton.cxx"
                   }
                 },
                 {
@@ -3115,7 +3215,17 @@
                 },
                 {
                   "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaCalo.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectronFromDalitzEE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
                   }
                 },
                 {
@@ -3195,6 +3305,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/mcGeneratorStudies.cxx"
                   }
                 },
@@ -3225,11 +3340,6 @@
                 },
                 {
                   "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/testTaskEmc.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "PWGEM/PhotonMeson/Utils/ClusterHistograms.h"
                   }
                 },
@@ -3241,11 +3351,6 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Utils/HNMUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
                   }
                 },
                 {
@@ -3266,86 +3371,6 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Utils/TrackSelection.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-18T06:25:43Z",
-            "title": "[PWGCF] Nch mc correlation matrix",
-            "number": 17475,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwNonflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] generalized k892hadronphotonBkg to work for LambdaStar & bug fixes",
-            "number": 17480,
-            "author": {
-              "login": "Oussama3030"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSigmaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigma0builder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/k892hadronphoton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/k892hadronphotonBkg.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Femto: add optional kT-dependent dphistar cut in CPR",
-            "number": 17488,
-            "author": {
-              "login": "IgorPtak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/closePairRejection.h"
                   }
                 }
               ]
