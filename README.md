@@ -7,6 +7,7 @@
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
+- [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15648](https://github.com/AliceO2Group/AliceO2/pull/15648) 2026-07-29: Add protection for fastTAtan2(0,0) call by [@shahor02](https://github.com/shahor02)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
@@ -45,6 +46,7 @@
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15675](https://github.com/AliceO2Group/AliceO2/pull/15675) 2026-08-11: Add a unit test for isFromRadDecay and fix its ancestry walk by [@sawenzel](https://github.com/sawenzel)
+- [\#15677](https://github.com/AliceO2Group/AliceO2/pull/15677) 2026-08-18: use consumeWhenAll completion policy in ccdb-populator by [@ehellbar](https://github.com/ehellbar)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
@@ -57,6 +59,7 @@
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15629](https://github.com/AliceO2Group/AliceO2/pull/15629) 2026-07-23: Drop unused / obsolete include by [@ktf](https://github.com/ktf)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
+- [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15643](https://github.com/AliceO2Group/AliceO2/pull/15643) 2026-08-11: DPL Analysis: update ArrowTableSlicingCache column lookup by [@aalkin](https://github.com/aalkin)
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
@@ -69,6 +72,7 @@
 - [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15626](https://github.com/AliceO2Group/AliceO2/pull/15626) 2026-07-24: Fix compilation with ROOT 6.40 by [@davidrohr](https://github.com/davidrohr)
+- [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
