@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
@@ -51,7 +50,6 @@
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#15516](https://github.com/AliceO2Group/AliceO2/pull/15516) 2026-07-23: DPL Analysis: cddb tables using FairMQ side channel metadata by [@aalkin](https://github.com/aalkin)
 - [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
 - [\#15567](https://github.com/AliceO2Group/AliceO2/pull/15567) 2026-08-08: DPL: split dictionary for test classes by [@ktf](https://github.com/ktf)
 - [\#15592](https://github.com/AliceO2Group/AliceO2/pull/15592) 2026-07-22: Add discard support for LifetimeHolder by [@autumn-mck](https://github.com/autumn-mck)
