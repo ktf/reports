@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-13T14:02:40Z",
-            "title": "[Infrastructure,Scripts] Add PID in O2Physics header pattern",
-            "number": 17452,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".clang-format"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Scripts/format_includes.awk"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-12T00:19:20Z",
-            "title": "[Common] Add light ion centrality tables with anchoring at 90%",
-            "number": 16939,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Prevent undefined behaviour warning when converting from int to bool",
@@ -3371,6 +3316,46 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Utils/TrackSelection.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Use std::abs for charge comparison",
+            "number": 17489,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/inelGt.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Refactor MC condition and histogram registration",
+            "number": 17490,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
                   }
                 }
               ]
