@@ -12,11 +12,13 @@
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15682](https://github.com/AliceO2Group/AliceO2/pull/15682) 2026-08-17: Field: keep polarity on MagneticField re-initialisation by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
+- [\#15691](https://github.com/AliceO2Group/AliceO2/pull/15691) 2026-08-19: Rotation2D:  use sincos by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15689](https://github.com/AliceO2Group/AliceO2/pull/15689) 2026-08-19: Use floating-point literals in TrackUtils.h by [@f3sch](https://github.com/f3sch)
+- [\#15692](https://github.com/AliceO2Group/AliceO2/pull/15692) 2026-08-19: Change return type to value_T in getCurvature by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#15128](https://github.com/AliceO2Group/AliceO2/pull/15128) 2026-08-10: Improve safety calculations in Tessellated solid by [@sawenzel](https://github.com/sawenzel)
 - [\#15470](https://github.com/AliceO2Group/AliceO2/pull/15470) 2026-08-10: Add method isFromRadDecay(const int id). Checks whether particle resu… by [@amorsch](https://github.com/amorsch)
