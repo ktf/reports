@@ -26,7 +26,6 @@
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
-- [\#15633](https://github.com/AliceO2Group/AliceO2/pull/15633) 2026-07-25: [ALICE3] TF3: remove overlaps in OTOF staves by [@maciacco](https://github.com/maciacco)
 - [\#15635](https://github.com/AliceO2Group/AliceO2/pull/15635) 2026-07-27: move OT barrel service 'disk' z 132 to 142 cm (space for readout cards) by [@altsybee](https://github.com/altsybee)
 - [\#15637](https://github.com/AliceO2Group/AliceO2/pull/15637) 2026-07-28: Fix in Propagator::initFieldFromGRP by [@shahor02](https://github.com/shahor02)
 - [\#15638](https://github.com/AliceO2Group/AliceO2/pull/15638) 2026-07-27: Do not request unused Propagator<double> by [@shahor02](https://github.com/shahor02)
