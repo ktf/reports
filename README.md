@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
@@ -55,8 +54,6 @@
 ## Recent developments in O2 - Framework
 - [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
 - [\#15567](https://github.com/AliceO2Group/AliceO2/pull/15567) 2026-08-08: DPL: split dictionary for test classes by [@ktf](https://github.com/ktf)
-- [\#15592](https://github.com/AliceO2Group/AliceO2/pull/15592) 2026-07-22: Add discard support for LifetimeHolder by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15609](https://github.com/AliceO2Group/AliceO2/pull/15609) 2026-07-22: Data model fix: avoid classifying TPC loopers as physical primary by [@ddobrigk](https://github.com/ddobrigk)
 - [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
