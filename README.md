@@ -67,6 +67,7 @@
 - [\#15672](https://github.com/AliceO2Group/AliceO2/pull/15672) 2026-08-10: DPL: pass forwarded inputs as spans by [@ktf](https://github.com/ktf)
 - [\#15673](https://github.com/AliceO2Group/AliceO2/pull/15673) 2026-08-10: DPL: preparing for SlotArena migration by [@ktf](https://github.com/ktf)
 - [\#15680](https://github.com/AliceO2Group/AliceO2/pull/15680) 2026-08-16: DPL: give each stream its own slot in the service registry by [@ktf](https://github.com/ktf)
+- [\#15690](https://github.com/AliceO2Group/AliceO2/pull/15690) 2026-08-19: DPL Analysis: test Arrow's Gandiva handling of unsigned integers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15621](https://github.com/AliceO2Group/AliceO2/pull/15621) 2026-07-24: Add geometrical TPC protection against misfired loopers by [@jackal1-66](https://github.com/jackal1-66)
