@@ -6,46 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "[Trigger] Cascade selection improvements",
-            "number": 10822,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Trigger] feat(EventFiltering): Fix the task name for the HeavyNeutralMesonFilters",
-            "number": 11209,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "[Common] Zorro: use scalers and fix normalisation computation",
             "number": 14259,
             "author": {
@@ -2431,51 +2391,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure,Common,PWGDQ] Have a default PCH for framework / infrastructure headers",
-            "number": 17456,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/analysisPCH.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReaderWithAssocPCH.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Femto: Add optional pT-dependent CPA selection for cascades",
             "number": 17431,
             "author": {
@@ -2846,6 +2761,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] fix code-check issues in QG ML producer",
+            "number": 17505,
+            "author": {
+              "login": "mulewicz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/quarkGluonJetsProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGJE] Updated GNN b-jet analysis tasks",
             "number": 17506,
             "author": {
@@ -2869,18 +2804,88 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] fix code-check issues in QG ML producer",
-            "number": 17505,
+            "state": "MERGED",
+            "mergedAt": "2026-08-19T09:54:32Z",
+            "title": "[Infrastructure,Common,PWGDQ] Have a default PCH for framework / infrastructure headers",
+            "number": 17456,
             "author": {
-              "login": "mulewicz"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/TableProducer/quarkGluonJetsProducer.cxx"
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/analysisPCH.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReaderWithAssocPCH.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Force the update of the LUT when changing runs",
+            "number": 17197,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/StandardCCDBLoader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-19T10:09:15Z",
+            "title": "Please consider the following formatting changes to #17197",
+            "number": 17198,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
                   }
                 }
               ]
