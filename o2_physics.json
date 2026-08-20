@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-15T03:04:06Z",
-            "title": "[PWGJE] adding bit for derived data trigger tracks",
-            "number": 17458,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-14T23:44:45Z",
             "title": "[Common] Rename new centrality getters using different calibration approach",
             "number": 17463,
@@ -2621,41 +2581,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add centrality estimator using FT0C and the outer channels from FT0A",
-            "number": 17525,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Add pointing angle column+histograms to FemtoV0s and FemtoCascades",
             "number": 17527,
             "author": {
@@ -2684,31 +2609,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Updated GNN b-jet analysis tasks",
-            "number": 17506,
-            "author": {
-              "login": "choich08365"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-20T14:47:27Z",
             "title": "[PWGCF] Femto: Add optional pT-dependent CPA selection for cascades",
@@ -2721,6 +2621,91 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Muon streaming improvement",
+            "number": 17519,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Update ALICE3 centrality task",
+            "number": 17522,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3Centrality.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add centrality estimator using FT0C and the outer channels from FT0A",
+            "number": 17525,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
@@ -2776,21 +2761,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Muon streaming improvement",
-            "number": 17519,
+            "title": "[PWGJE] Updated GNN b-jet analysis tasks",
+            "number": 17506,
             "author": {
-              "login": "lucamicheletti93"
+              "login": "choich08365"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
                   }
                 }
               ]
@@ -2801,21 +2786,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Update ALICE3 centrality task",
-            "number": 17522,
+            "title": "[PWGLF] Add daughters TPC signal to decay3body output tables",
+            "number": 17529,
             "author": {
-              "login": "axti98"
+              "login": "creetz16"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3Centrality.cxx"
+                    "path": "PWGLF/TableProducer/Nuspex/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/trackedHypertritonRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/decay3bodyBuilderHelper.h"
                   }
                 }
               ]
