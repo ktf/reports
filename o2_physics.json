@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-14T21:53:58Z",
-            "title": "[PWGCF] Add hist to calculate v22 - deltaPt",
-            "number": 17446,
-            "author": {
-              "login": "huinaibing"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-14T22:58:47Z",
             "title": "[PWGLF] dev: adding measured FT0M to MC",
             "number": 17466,
@@ -2879,8 +2859,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-08-20T11:02:07Z",
             "title": "[PWGCF,PWGHF] Add MC information to table for single charm had in femto tasks",
             "number": 17523,
             "author": {
@@ -2901,6 +2881,41 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCharmHadronsV0FemtoDream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Add centrality estimator using FT0C and the outer channels from FT0A",
+            "number": 17525,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
                   }
                 }
               ]
