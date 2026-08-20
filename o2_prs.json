@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-27T07:50:01Z",
-            "title": "move OT barrel service 'disk' z 132 to 142 cm (space for readout cards)",
-            "number": 15635,
-            "author": {
-              "login": "altsybee"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/TRKServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Fix update of the magnetic field",
@@ -4901,96 +4881,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Initial setup for G4 FastSim hooks",
-            "number": 15698,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/include/FastSim/FastSimModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/include/FastSim/G4FastSimulation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/include/FastSim/ToyAbsorberFastSim.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/src/FastSimModel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/src/G4FastSimulation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FastSim/src/ToyAbsorberFastSim.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/src/Absorber.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/g4Config.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/FastSim_Absorber/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/FastSim_Absorber/countTracks.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/FastSim_Absorber/run.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
             "number": 15380,
             "author": {
@@ -5261,6 +5151,196 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Initial setup for G4 FastSim hooks",
+            "number": 15698,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/FastSimModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/G4FastSimulation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/ToyAbsorberFastSim.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/FastSimModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/G4FastSimulation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/ToyAbsorberFastSim.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/Absorber.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/g4Config.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/FastSim_Absorber/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/FastSim_Absorber/countTracks.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/FastSim_Absorber/run.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Initial setup for G4 FastSim hooks with a toy example for Absorber",
+            "number": 15699,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/FastSimModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/FastSimRegions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/G4FastSimulation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/include/FastSim/ToyAbsorberFastSim.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/FastSimModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/FastSimRegions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/G4FastSimulation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FastSim/src/ToyAbsorberFastSim.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/Absorber.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/g4Config.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/FastSim_Absorber/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/FastSim_Absorber/countTracks.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/FastSim_Absorber/run.sh"
                   }
                 }
               ]
