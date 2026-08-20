@@ -2579,36 +2579,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add pointing angle column+histograms to FemtoV0s and FemtoCascades",
-            "number": 17527,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/v0HistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-20T14:47:27Z",
             "title": "[PWGCF] Femto: Add optional pT-dependent CPA selection for cascades",
@@ -2691,6 +2661,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[ALICE3] Update ALICE3 centrality task",
+            "number": 17522,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3Centrality.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] To Activate the Kinematics cuts on the gen MC",
+            "number": 17528,
+            "author": {
+              "login": "navneetkumar231295"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGDQ] fix MFT momentum rescaling",
             "number": 17461,
             "author": {
@@ -2716,21 +2731,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Updated GNN b-jet analysis tasks",
-            "number": 17506,
+            "title": "[PWGCF] Add pointing angle column+histograms to FemtoV0s and FemtoCascades",
+            "number": 17527,
             "author": {
-              "login": "choich08365"
+              "login": "ariedel-cern"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
+                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
+                    "path": "PWGCF/Femto/Core/v0HistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
                   }
                 }
               ]
@@ -2774,43 +2794,23 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Update ALICE3 centrality task",
-            "number": 17522,
+            "state": "MERGED",
+            "mergedAt": "2026-08-20T16:38:53Z",
+            "title": "[PWGJE] Updated GNN b-jet analysis tasks",
+            "number": 17506,
             "author": {
-              "login": "axti98"
+              "login": "choich08365"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                    "path": "PWGJE/Tasks/bjetTaggingGnn.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3Centrality.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] To Activate the Kinematics cuts on the gen MC",
-            "number": 17528,
-            "author": {
-              "login": "navneetkumar231295"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
+                    "path": "PWGJE/Tasks/bjetTreeCreator.cxx"
                   }
                 }
               ]
