@@ -6,41 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "[Infrastructure,Tools,Common] Avoid having intermediary vectors for the NN-based TPC PID",
-            "number": 16499,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/model.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsDependencies.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "Add command to migrate away from BasicCCDBManager in Analysis",
             "number": 16158,
             "author": {
@@ -2764,6 +2729,71 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-20T19:21:06Z",
+            "title": "[ALICE3] Update ALICE3 centrality task",
+            "number": 17522,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3Centrality.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add more D variables to B0 reduced task and MLResponse",
+            "number": 17532,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseB0ToDPi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateCreatorB0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskB0Reduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorB0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Updates on RingPolarization spurious signal estimation",
@@ -2786,31 +2816,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdaJetPolarizationIonsDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-20T19:21:06Z",
-            "title": "[ALICE3] Update ALICE3 centrality task",
-            "number": 17522,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3Centrality.cxx"
                   }
                 }
               ]
