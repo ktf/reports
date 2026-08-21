@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] Added mixed event v2 table for kstarpbpb task and optimize ev…",
-            "number": 17436,
-            "author": {
-              "login": "sarjeetagami"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFKaonDaughterTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/kaDaughterProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarpbpb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysisrun3pbpb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-17T07:33:26Z",
             "title": "[PWGJE] Optimize track pT binning in correlations",
@@ -2606,26 +2566,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix estimator parameters",
-            "number": 17486,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Move double-cascade inspector to double-omega search analysis",
             "number": 17536,
             "author": {
@@ -2656,26 +2596,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] heavyionmultiplicity.cxx - adding new centrality getters",
-            "number": 17537,
-            "author": {
-              "login": "murioni"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
                   }
                 }
               ]
@@ -2826,6 +2746,66 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/Tasks/femtoPairTrackD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-21T11:18:10Z",
+            "title": "[PWGLF] Fix estimator parameters",
+            "number": 17486,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/mcParticlePrediction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] heavyionmultiplicity.cxx - adding new centrality getters",
+            "number": 17537,
+            "author": {
+              "login": "murioni"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/heavyionMultiplicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Unblock O2 linter by explicitly exempting legacy Strangeness workflow-name mappings",
+            "number": 17538,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
                   }
                 }
               ]
