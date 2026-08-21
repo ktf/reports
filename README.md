@@ -31,7 +31,6 @@
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15641](https://github.com/AliceO2Group/AliceO2/pull/15641) 2026-07-28: Multi-threaded material budget LUT creation by [@trwenz](https://github.com/trwenz)
-- [\#15642](https://github.com/AliceO2Group/AliceO2/pull/15642) 2026-07-28: Use fastAtan2 with protection against radial tracks by [@shahor02](https://github.com/shahor02)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15651](https://github.com/AliceO2Group/AliceO2/pull/15651) 2026-07-30: Add MCH and MID TrackerParam to configs of AOD metadata by [@shahor02](https://github.com/shahor02)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
