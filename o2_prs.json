@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-07-29T23:00:01Z",
-            "title": "[ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams",
-            "number": 15623,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/IOTOFDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-07-30T09:31:26Z",
             "title": "Print commented out O2_DPL_MVBIAS in the workflow.log",
             "number": 15649,
@@ -5281,6 +5246,51 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/macros/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CTP: luminosity workflow",
+            "number": 15708,
+            "author": {
+              "login": "Elladt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowLumi/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowLumi/include/CTPWorkflowLumi/RawDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowLumi/src/RawDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowLumi/src/ctp-raw-decoder-lumi.cxx"
                   }
                 }
               ]
