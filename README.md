@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
 - [\#15640](https://github.com/AliceO2Group/AliceO2/pull/15640) 2026-08-20: DPL Analysis: remove std::set from analysis task by [@aalkin](https://github.com/aalkin)
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
@@ -31,11 +30,8 @@
 - [\#15620](https://github.com/AliceO2Group/AliceO2/pull/15620) 2026-07-29: [ALICE3] Add digitization for the forward tracker by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
-- [\#15637](https://github.com/AliceO2Group/AliceO2/pull/15637) 2026-07-28: Fix in Propagator::initFieldFromGRP by [@shahor02](https://github.com/shahor02)
-- [\#15639](https://github.com/AliceO2Group/AliceO2/pull/15639) 2026-07-28: [ALICE3] TF3: approaching TF3 ASIC: use 8-chip modules + update chip segmentation by [@maciacco](https://github.com/maciacco)
 - [\#15641](https://github.com/AliceO2Group/AliceO2/pull/15641) 2026-07-28: Multi-threaded material budget LUT creation by [@trwenz](https://github.com/trwenz)
 - [\#15642](https://github.com/AliceO2Group/AliceO2/pull/15642) 2026-07-28: Use fastAtan2 with protection against radial tracks by [@shahor02](https://github.com/shahor02)
-- [\#15644](https://github.com/AliceO2Group/AliceO2/pull/15644) 2026-07-28: TPC: Adding macros to create correction maps on the Grid by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15645](https://github.com/AliceO2Group/AliceO2/pull/15645) 2026-07-30: Add barrel reco configParams to AOD metadata. by [@shahor02](https://github.com/shahor02)
 - [\#15651](https://github.com/AliceO2Group/AliceO2/pull/15651) 2026-07-30: Add MCH and MID TrackerParam to configs of AOD metadata by [@shahor02](https://github.com/shahor02)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
@@ -60,7 +56,6 @@
 ## Recent developments in O2 - Framework
 - [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
 - [\#15567](https://github.com/AliceO2Group/AliceO2/pull/15567) 2026-08-08: DPL: split dictionary for test classes by [@ktf](https://github.com/ktf)
-- [\#15624](https://github.com/AliceO2Group/AliceO2/pull/15624) 2026-07-28: Propagate TTree bulk-read errors by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15640](https://github.com/AliceO2Group/AliceO2/pull/15640) 2026-08-20: DPL Analysis: remove std::set from analysis task by [@aalkin](https://github.com/aalkin)
