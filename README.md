@@ -22,6 +22,7 @@
 - [\#15693](https://github.com/AliceO2Group/AliceO2/pull/15693) 2026-08-20: Change division to use float for massInv by [@f3sch](https://github.com/f3sch)
 - [\#15695](https://github.com/AliceO2Group/AliceO2/pull/15695) 2026-08-20: Fix mcstack per event indexmap by [@sawenzel](https://github.com/sawenzel)
 - [\#15696](https://github.com/AliceO2Group/AliceO2/pull/15696) 2026-08-20: TRK: add fast getPredictedChi2 by [@f3sch](https://github.com/f3sch)
+- [\#15703](https://github.com/AliceO2Group/AliceO2/pull/15703) 2026-08-21: TRK: add nELossSteps by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 - [\#15128](https://github.com/AliceO2Group/AliceO2/pull/15128) 2026-08-10: Improve safety calculations in Tessellated solid by [@sawenzel](https://github.com/sawenzel)
 - [\#15470](https://github.com/AliceO2Group/AliceO2/pull/15470) 2026-08-10: Add method isFromRadDecay(const int id). Checks whether particle resu… by [@amorsch](https://github.com/amorsch)
