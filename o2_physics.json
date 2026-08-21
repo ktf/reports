@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-16T20:35:44Z",
-            "title": "[PWGCF] twoParticleCorrelationsMpi.cxx: Add loading of acceptance corrections for e-by-e estimator",
-            "number": 17471,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-15T00:58:43Z",
-            "title": "[PWGJE] fix weight and mcphat",
-            "number": 17457,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-17T09:07:46Z",
             "title": "[PWGLF] cha01710analysis.cxx: add DCA selection",
             "number": 17465,
@@ -2451,41 +2411,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Adapt input file handling to new ACTS input format",
-            "number": 17370,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFStrangeness.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] To Activate the Kinematics cuts on the gen MC",
             "number": 17528,
             "author": {
@@ -2736,41 +2661,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] fix match type assignment in ML training data producer",
-            "number": 17535,
+            "title": "[ALICE3] Adapt input file handling to new ACTS input format",
+            "number": 17370,
             "author": {
-              "login": "aferrero2707"
+              "login": "lhusova"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] trackEfficiency: add track pT-eta-phi histogram; jetCrossSectionEfficiency review follow-up",
-            "number": 17539,
-            "author": {
-              "login": "joonsukbae"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
+                    "path": "ALICE3/DataModel/OTFStrangeness.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
+                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
                   }
                 }
               ]
@@ -2811,6 +2726,116 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateCreatorB0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] fix match type assignment in ML training data producer",
+            "number": 17535,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/mftMchMatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] add pulls distributions in matching QA task",
+            "number": 17541,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Added Multiplicity estimator task for ALICE3",
+            "number": 17540,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/collisionAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/tracksAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3Multiplicity.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-21T12:59:24Z",
+            "title": "[PWGJE] trackEfficiency: add track pT-eta-phi histogram; jetCrossSectionEfficiency review follow-up",
+            "number": 17539,
+            "author": {
+              "login": "joonsukbae"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetCrossSectionEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
                   }
                 }
               ]
