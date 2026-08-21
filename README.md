@@ -32,7 +32,6 @@
 - [\#15623](https://github.com/AliceO2Group/AliceO2/pull/15623) 2026-07-29: [ALICE3] TF3: Move hard-coded digitizer parameters to dpldigitizerparams by [@maciacco](https://github.com/maciacco)
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15637](https://github.com/AliceO2Group/AliceO2/pull/15637) 2026-07-28: Fix in Propagator::initFieldFromGRP by [@shahor02](https://github.com/shahor02)
-- [\#15638](https://github.com/AliceO2Group/AliceO2/pull/15638) 2026-07-27: Do not request unused Propagator<double> by [@shahor02](https://github.com/shahor02)
 - [\#15639](https://github.com/AliceO2Group/AliceO2/pull/15639) 2026-07-28: [ALICE3] TF3: approaching TF3 ASIC: use 8-chip modules + update chip segmentation by [@maciacco](https://github.com/maciacco)
 - [\#15641](https://github.com/AliceO2Group/AliceO2/pull/15641) 2026-07-28: Multi-threaded material budget LUT creation by [@trwenz](https://github.com/trwenz)
 - [\#15642](https://github.com/AliceO2Group/AliceO2/pull/15642) 2026-07-28: Use fastAtan2 with protection against radial tracks by [@shahor02](https://github.com/shahor02)
