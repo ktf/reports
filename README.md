@@ -4,6 +4,7 @@
 - [\#15631](https://github.com/AliceO2Group/AliceO2/pull/15631) 2026-08-06: DPL: use C++26 extension to expand packs where available by [@ktf](https://github.com/ktf)
 - [\#15640](https://github.com/AliceO2Group/AliceO2/pull/15640) 2026-08-20: DPL Analysis: remove std::set from analysis task by [@aalkin](https://github.com/aalkin)
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
+- [\#15710](https://github.com/AliceO2Group/AliceO2/pull/15710) 2026-08-23: DPL Analysis: fix false positive by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
@@ -45,6 +46,7 @@
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
 - [\#15695](https://github.com/AliceO2Group/AliceO2/pull/15695) 2026-08-20: Fix mcstack per event indexmap by [@sawenzel](https://github.com/sawenzel)
+- [\#15709](https://github.com/AliceO2Group/AliceO2/pull/15709) 2026-08-23: Force MC workflows to start from tfCounter = 1 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
@@ -63,6 +65,7 @@
 - [\#15673](https://github.com/AliceO2Group/AliceO2/pull/15673) 2026-08-10: DPL: preparing for SlotArena migration by [@ktf](https://github.com/ktf)
 - [\#15680](https://github.com/AliceO2Group/AliceO2/pull/15680) 2026-08-16: DPL: give each stream its own slot in the service registry by [@ktf](https://github.com/ktf)
 - [\#15690](https://github.com/AliceO2Group/AliceO2/pull/15690) 2026-08-19: DPL Analysis: test Arrow's Gandiva handling of unsigned integers by [@aalkin](https://github.com/aalkin)
+- [\#15710](https://github.com/AliceO2Group/AliceO2/pull/15710) 2026-08-23: DPL Analysis: fix false positive by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
