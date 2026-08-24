@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-19T13:26:54Z",
-            "title": "[PWGCF] Fix derived to derived processing of femto tracks with mass",
-            "number": 17508,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/kinkBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/trackBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/v0Builder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducerDerivedToDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-19T13:25:49Z",
             "title": "[PWGLF] Add event selection flag to the he3hadmult table",
             "number": 17319,
@@ -506,31 +466,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCharmHadronsV0FemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Force the update of the LUT when changing runs",
-            "number": 17197,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/StandardCCDBLoader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
                   }
                 }
               ]
@@ -2351,41 +2286,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Add centrality estimator using FT0C and the outer channels from FT0A",
-            "number": 17525,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Ignore mismatching workflow name for old workflows",
             "number": 17538,
             "author": {
@@ -2441,6 +2341,86 @@
                 {
                   "node": {
                     "path": "ALICE3/Core/FlatLutEntry.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-24T20:10:31Z",
+            "title": "[Common] Add centrality estimator using FT0C and the outer channels from FT0A",
+            "number": 17525,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Centrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-24T20:14:56Z",
+            "title": "[Common] Force the update of the LUT when changing runs",
+            "number": 17197,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/StandardCCDBLoader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] update event producer for ZDC",
+            "number": 17582,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/TableProducer/createEMEventDilepton.cxx"
                   }
                 }
               ]
