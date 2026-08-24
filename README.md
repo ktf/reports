@@ -13,6 +13,7 @@
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
 - [\#15691](https://github.com/AliceO2Group/AliceO2/pull/15691) 2026-08-19: Rotation2D:  use sincos by [@f3sch](https://github.com/f3sch)
+- [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15704](https://github.com/AliceO2Group/AliceO2/pull/15704) 2026-08-23: ITSGPU: further optimisations by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
@@ -47,12 +48,15 @@
 - [\#15678](https://github.com/AliceO2Group/AliceO2/pull/15678) 2026-08-20: ITS: slab allocator idea by [@f3sch](https://github.com/f3sch)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
+- [\#15694](https://github.com/AliceO2Group/AliceO2/pull/15694) 2026-08-24: Use field-free media for the L3 magnet and the compensator by [@sawenzel](https://github.com/sawenzel)
 - [\#15695](https://github.com/AliceO2Group/AliceO2/pull/15695) 2026-08-20: Fix mcstack per event indexmap by [@sawenzel](https://github.com/sawenzel)
+- [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15704](https://github.com/AliceO2Group/AliceO2/pull/15704) 2026-08-23: ITSGPU: further optimisations by [@f3sch](https://github.com/f3sch)
 - [\#15709](https://github.com/AliceO2Group/AliceO2/pull/15709) 2026-08-23: Force MC workflows to start from tfCounter = 1 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#15628](https://github.com/AliceO2Group/AliceO2/pull/15628) 2026-08-05: New features for CAD-based simulations by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
+- [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15562](https://github.com/AliceO2Group/AliceO2/pull/15562) 2026-08-09: DPL: make benchmark ready for new ownership model by [@ktf](https://github.com/ktf)
 - [\#15567](https://github.com/AliceO2Group/AliceO2/pull/15567) 2026-08-08: DPL: split dictionary for test classes by [@ktf](https://github.com/ktf)
