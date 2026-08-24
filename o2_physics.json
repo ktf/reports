@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-18T16:10:40Z",
-            "title": "[PWGHF] HFInvMassFitter: stabilize fit quality, add fit-quality status to the output",
-            "number": 17348,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/HFInvMassFitter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Macros/runMassFitter.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-18T16:37:27Z",
-            "title": "[Infrastructure] MegaLinter: Remove obsolete options",
-            "number": 17500,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".mega-linter.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-18T16:46:06Z",
             "title": "[PWGLF] fixed all O2 linter warnings and added eventcorrection histograms",
             "number": 17498,
@@ -1749,26 +1699,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Unblock O2 linter by explicitly exempting legacy Strangeness workflow-name mappings",
-            "number": 17538,
-            "author": {
-              "login": "copilot-swe-agent"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-21T12:59:24Z",
             "title": "[PWGJE] trackEfficiency: add track pT-eta-phi histogram; jetCrossSectionEfficiency review follow-up",
@@ -2856,6 +2786,66 @@
                 {
                   "node": {
                     "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF] lambdaTwoPartPolarization.cxx: add trigger particle counting",
+            "number": 17569,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] lambdaTwoPartPolarization.cxx: add trigger particle counting",
+            "number": 17570,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Ignore mismatching workflow name for old workflows",
+            "number": 17538,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
                   }
                 }
               ]
