@@ -35,7 +35,6 @@
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15654](https://github.com/AliceO2Group/AliceO2/pull/15654) 2026-08-07: [ALICE3] TF3: add passive edge around each pixel by [@maciacco](https://github.com/maciacco)
 - [\#15655](https://github.com/AliceO2Group/AliceO2/pull/15655) 2026-08-04: Support to use VecGeom geometry navigation in the material scan by [@sawenzel](https://github.com/sawenzel)
-- [\#15656](https://github.com/AliceO2Group/AliceO2/pull/15656) 2026-08-03: GeometryManager::getSensID supports up to 2^17 sensors for DetID>FOCAL by [@shahor02](https://github.com/shahor02)
 - [\#15657](https://github.com/AliceO2Group/AliceO2/pull/15657) 2026-08-08: Split ALICE3 TRK and FT3 layout by [@shahor02](https://github.com/shahor02)
 - [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)
 - [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
@@ -83,5 +82,6 @@
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
+- [\#15715](https://github.com/AliceO2Group/AliceO2/pull/15715) 2026-08-24: Wrap the QED event IDs at the number of QED events available by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#15669](https://github.com/AliceO2Group/AliceO2/pull/15669) 2026-08-07: Add riscv64 support  by [@Mahsuba](https://github.com/Mahsuba)
