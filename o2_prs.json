@@ -6,26 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix check name in clean-test",
-            "number": 15518,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/clean-test.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: allow for duplicate devices if they have an appropriate label",
             "number": 15453,
             "author": {
@@ -2774,76 +2754,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE 3] TF3: update OTOF geometry with split staves",
-            "number": 15666,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/IOTOFBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/GeometryTGeo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Segmentation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/IOTOFSimulationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Segmentation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-17T12:20:10Z",
             "title": "Field: keep polarity on MagneticField re-initialisation",
@@ -4671,36 +4581,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] MagField: add short mag field, add visualization",
-            "number": 15700,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldShortMagnet.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Fix instabilities when we have empty timeframes due low interaction rate",
             "number": 15705,
             "author": {
@@ -5294,6 +5174,141 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-24T07:11:21Z",
+            "title": "CCDB: add support for bearer token",
+            "number": 15711,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testBasicCCDBManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApiHeaders.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-24T09:24:49Z",
+            "title": "[ALICE 3] TF3: update OTOF geometry with split staves",
+            "number": 15666,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/IOTOFBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Segmentation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/IOTOFSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Segmentation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-08-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-08-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "CTP: luminosity workflow",
@@ -5339,33 +5354,28 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-24T07:11:21Z",
-            "title": "CCDB: add support for bearer token",
-            "number": 15711,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] MagField: add short mag field, add visualization",
+            "number": 15700,
             "author": {
-              "login": "ktf"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "CCDB/test/testBasicCCDBManager.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldShortMagnet.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "CCDB/test/testCcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testCcdbApiHeaders.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/macros/CMakeLists.txt"
                   }
                 }
               ]
@@ -5376,26 +5386,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "faster mat LUT",
+            "number": 15712,
             "author": {
-              "login": "github-actions"
+              "login": "f3sch"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-08-o2_prs.json"
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCylSet.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-08-o2_releases.json"
+                    "path": "Detectors/Base/src/MatLayerCylSet.cxx"
                   }
                 }
               ]

@@ -39,6 +39,7 @@
 - [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)
 - [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
+- [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15675](https://github.com/AliceO2Group/AliceO2/pull/15675) 2026-08-11: Add a unit test for isFromRadDecay and fix its ancestry walk by [@sawenzel](https://github.com/sawenzel)
