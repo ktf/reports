@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-19T07:19:54Z",
-            "title": "[PWGCF] Add hist for 3rd order ESE calculation",
-            "number": 17492,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-07-15T13:01:42Z",
-            "title": "[Tools] Modified MlResponse numInputNodes check: usage of dynamic input",
-            "number": 17069,
-            "author": {
-              "login": "choich08365"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-19T09:54:32Z",
-            "title": "[Infrastructure,Common,PWGDQ] Have a default PCH for framework / infrastructure headers",
-            "number": 17456,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/analysisPCH.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReaderWithAssocPCH.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-19T10:09:15Z",
             "title": "Please consider the following formatting changes to #17197",
             "number": 17198,
@@ -2166,71 +2081,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] lambdaTwoPartPolarization.cxx: add trigger particle counting",
-            "number": 17570,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Added Multiplicity estimator task for ALICE3",
-            "number": 17540,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/collisionAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/tracksAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3Multiplicity.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGJE] pt hat for mcp and mcd, cpp fixes",
             "number": 17574,
             "author": {
@@ -2466,6 +2316,131 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Added Multiplicity estimator task for ALICE3",
+            "number": 17540,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/collisionAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/tracksAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3Multiplicity.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-24T15:10:57Z",
+            "title": "[PWGLF] lambdaTwoPartPolarization.cxx: add trigger particle counting",
+            "number": 17570,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaTwoPartPolarization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-18T16:17:12Z",
+            "title": "[PWGLF] Add More QA hist in HStrangeCorrelation.cxx",
+            "number": 17496,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF] Add per-stage trigger counter in hStrangeCorrelation.cxx",
+            "number": 17579,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add a trigger counter in hStrangeCorrelation.cxx",
+            "number": 17580,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
