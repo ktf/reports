@@ -36,8 +36,6 @@
 - [\#15654](https://github.com/AliceO2Group/AliceO2/pull/15654) 2026-08-07: [ALICE3] TF3: add passive edge around each pixel by [@maciacco](https://github.com/maciacco)
 - [\#15655](https://github.com/AliceO2Group/AliceO2/pull/15655) 2026-08-04: Support to use VecGeom geometry navigation in the material scan by [@sawenzel](https://github.com/sawenzel)
 - [\#15657](https://github.com/AliceO2Group/AliceO2/pull/15657) 2026-08-08: Split ALICE3 TRK and FT3 layout by [@shahor02](https://github.com/shahor02)
-- [\#15658](https://github.com/AliceO2Group/AliceO2/pull/15658) 2026-08-04: TPC TimeSeries: fix silent track loss from binning overflow by [@miranov25](https://github.com/miranov25)
-- [\#15659](https://github.com/AliceO2Group/AliceO2/pull/15659) 2026-08-03: tpc-time-series equiped with internal readers and HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -77,7 +75,6 @@
 - [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#15653](https://github.com/AliceO2Group/AliceO2/pull/15653) 2026-08-03: Honour the CCDB time machine for the mu(bc) distribution by [@sawenzel](https://github.com/sawenzel)
 - [\#15657](https://github.com/AliceO2Group/AliceO2/pull/15657) 2026-08-08: Split ALICE3 TRK and FT3 layout by [@shahor02](https://github.com/shahor02)
 - [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
