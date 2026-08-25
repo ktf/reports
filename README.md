@@ -32,7 +32,6 @@
 - [\#15585](https://github.com/AliceO2Group/AliceO2/pull/15585) 2026-08-22: [MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation by [@joseesquivel-hub](https://github.com/joseesquivel-hub)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15654](https://github.com/AliceO2Group/AliceO2/pull/15654) 2026-08-07: [ALICE3] TF3: add passive edge around each pixel by [@maciacco](https://github.com/maciacco)
-- [\#15655](https://github.com/AliceO2Group/AliceO2/pull/15655) 2026-08-04: Support to use VecGeom geometry navigation in the material scan by [@sawenzel](https://github.com/sawenzel)
 - [\#15657](https://github.com/AliceO2Group/AliceO2/pull/15657) 2026-08-08: Split ALICE3 TRK and FT3 layout by [@shahor02](https://github.com/shahor02)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
