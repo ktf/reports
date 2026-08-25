@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-20T11:02:07Z",
-            "title": "[PWGCF,PWGHF] Add MC information to table for single charm had in femto tasks",
-            "number": 17523,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsTrackFemtoDream.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCharmHadronsV0FemtoDream.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-18T16:20:49Z",
             "title": "[PWGCF] twoParticleCorrelationsMpi.cxx: Added EM method to event classifier",
             "number": 17481,
@@ -2279,31 +2249,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Enhance longrangecorrDerived with MC axes and processing",
-            "number": 17593,
-            "author": {
-              "login": "S10GPhysics"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-25T19:34:53Z",
             "title": "[PWGLF] Change event selection in certain case in hStrangeCorrelation.cxx",
@@ -2376,6 +2321,81 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] add 6p correlation and outlier cut",
+            "number": 17599,
+            "author": {
+              "login": "pykuan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Update MC centrality task",
+            "number": 17601,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/mcCentrality.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/mcCentrality.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/Converters/stramccollmultconverter2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenessMcCentrality.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/mcCentralityModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGCF] flowGenericFramework.cxx: Lambda selection fix",
             "number": 17600,
             "author": {
@@ -2396,16 +2416,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] add 6p correlation and outlier cut",
-            "number": 17599,
+            "title": "[PWGCF] Enhance longrangecorrDerived with MC axes and processing",
+            "number": 17593,
             "author": {
-              "login": "pykuan"
+              "login": "S10GPhysics"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
                   }
                 }
               ]
