@@ -17,7 +17,6 @@
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15704](https://github.com/AliceO2Group/AliceO2/pull/15704) 2026-08-23: ITSGPU: further optimisations by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
-- [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15689](https://github.com/AliceO2Group/AliceO2/pull/15689) 2026-08-19: Use floating-point literals in TrackUtils.h by [@f3sch](https://github.com/f3sch)
@@ -76,7 +75,6 @@
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#15657](https://github.com/AliceO2Group/AliceO2/pull/15657) 2026-08-08: Split ALICE3 TRK and FT3 layout by [@shahor02](https://github.com/shahor02)
-- [\#15660](https://github.com/AliceO2Group/AliceO2/pull/15660) 2026-08-06: Add double-omega decay information by [@fmazzasc](https://github.com/fmazzasc)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15715](https://github.com/AliceO2Group/AliceO2/pull/15715) 2026-08-24: Wrap the QED event IDs at the number of QED events available by [@sawenzel](https://github.com/sawenzel)
