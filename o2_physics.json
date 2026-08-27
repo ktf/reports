@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-21T14:36:08Z",
-            "title": "[ALICE3] Adapt input file handling to new ACTS input format",
-            "number": 17370,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/OTFStrangeness.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3strangenessFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3Strangeness.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-21T14:41:51Z",
-            "title": "[PWGLF] To Activate the Kinematics cuts on the gen MC",
-            "number": 17528,
-            "author": {
-              "login": "navneetkumar231295"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/chargedkstaranalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-21T14:56:35Z",
             "title": "Please consider the following formatting changes to #17546",
             "number": 17551,
@@ -91,46 +36,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Move double-cascade inspector to double-omega search analysis",
-            "number": 17536,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFDoubleCascTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/doubleCascTreeCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
                   }
                 }
               ]
@@ -2004,26 +1909,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] get weff2 corrected",
-            "number": 17617,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-26T19:30:14Z",
             "title": "[PWGCF] Mc validation hist",
@@ -2076,26 +1961,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix selections, MC loops and histogramming",
-            "number": 17619,
-            "author": {
-              "login": "sprasadphy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdak0sflattenicity.cxx"
                   }
                 }
               ]
@@ -2294,8 +2159,53 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-08-26T22:37:17Z",
+            "title": "[ALICE3] Add the possibility to add the pion contamination in the background",
+            "number": 17594,
+            "author": {
+              "login": "rbailhac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-26T22:59:36Z",
+            "title": "[PWGUD] get weff2 corrected",
+            "number": 17617,
+            "author": {
+              "login": "miedema-11"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-26T23:03:08Z",
             "title": "[PWGLF] Fix typo in strangenesstofpid",
             "number": 17620,
             "author": {
@@ -2315,22 +2225,97 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-26T22:37:17Z",
-            "title": "[ALICE3] Add the possibility to add the pion contamination in the background",
-            "number": 17594,
+            "mergedAt": "2026-08-26T23:25:03Z",
+            "title": "[PWGLF] Fix selections, MC loops and histogramming",
+            "number": 17619,
             "author": {
-              "login": "rbailhac"
+              "login": "sprasadphy"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3-dileptonsmearing.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/lambdak0sflattenicity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Move double-cascade inspector to double-omega search analysis",
+            "number": 17536,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFDoubleCascTables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
+                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/doubleCascTreeCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-27T00:32:46Z",
+            "title": "[PWGLF] More histograms for corrections",
+            "number": 17622,
+            "author": {
+              "login": "omvazque"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] event weight option for mean pT",
+            "number": 17623,
+            "author": {
+              "login": "Luzhiyongg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
                   }
                 }
               ]
