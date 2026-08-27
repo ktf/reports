@@ -53,6 +53,7 @@
 - [\#15709](https://github.com/AliceO2Group/AliceO2/pull/15709) 2026-08-23: Force MC workflows to start from tfCounter = 1 by [@shahor02](https://github.com/shahor02)
 - [\#15712](https://github.com/AliceO2Group/AliceO2/pull/15712) 2026-08-25: faster mat LUT by [@f3sch](https://github.com/f3sch)
 - [\#15724](https://github.com/AliceO2Group/AliceO2/pull/15724) 2026-08-27: CCDB: handle access to CCDB via security proxy by [@ktf](https://github.com/ktf)
+- [\#15725](https://github.com/AliceO2Group/AliceO2/pull/15725) 2026-08-27: [ALICE3] TF3: switch substaves according to close gaps between staves by [@maciacco](https://github.com/maciacco)
 - [\#15728](https://github.com/AliceO2Group/AliceO2/pull/15728) 2026-08-27: ITSGPU: sort seed/cells in phi by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
