@@ -7,6 +7,7 @@
 - [\#15706](https://github.com/AliceO2Group/AliceO2/pull/15706) 2026-08-27: [EMCAL-1156] Modernize EMCal code and fix Digitizer by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15710](https://github.com/AliceO2Group/AliceO2/pull/15710) 2026-08-23: DPL Analysis: fix false positive by [@ktf](https://github.com/ktf)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
@@ -80,6 +81,7 @@
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15734](https://github.com/AliceO2Group/AliceO2/pull/15734) 2026-08-28: Get the MCP to work with the security proxy by [@ktf](https://github.com/ktf)
+- [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Generators
 - [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
