@@ -71,7 +71,6 @@
 - [\#15643](https://github.com/AliceO2Group/AliceO2/pull/15643) 2026-08-11: DPL Analysis: update ArrowTableSlicingCache column lookup by [@aalkin](https://github.com/aalkin)
 - [\#15647](https://github.com/AliceO2Group/AliceO2/pull/15647) 2026-08-10: DPL Analysis: remove compatibility with older FairMQ by [@aalkin](https://github.com/aalkin)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15672](https://github.com/AliceO2Group/AliceO2/pull/15672) 2026-08-10: DPL: pass forwarded inputs as spans by [@ktf](https://github.com/ktf)
 - [\#15673](https://github.com/AliceO2Group/AliceO2/pull/15673) 2026-08-10: DPL: preparing for SlotArena migration by [@ktf](https://github.com/ktf)
 - [\#15680](https://github.com/AliceO2Group/AliceO2/pull/15680) 2026-08-16: DPL: give each stream its own slot in the service registry by [@ktf](https://github.com/ktf)
 - [\#15690](https://github.com/AliceO2Group/AliceO2/pull/15690) 2026-08-19: DPL Analysis: test Arrow's Gandiva handling of unsigned integers by [@aalkin](https://github.com/aalkin)
