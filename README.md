@@ -19,7 +19,6 @@
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15704](https://github.com/AliceO2Group/AliceO2/pull/15704) 2026-08-23: ITSGPU: further optimisations by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
-- [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15689](https://github.com/AliceO2Group/AliceO2/pull/15689) 2026-08-19: Use floating-point literals in TrackUtils.h by [@f3sch](https://github.com/f3sch)
 - [\#15692](https://github.com/AliceO2Group/AliceO2/pull/15692) 2026-08-19: Change return type to value_T in getCurvature by [@f3sch](https://github.com/f3sch)
@@ -39,7 +38,6 @@
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
-- [\#15668](https://github.com/AliceO2Group/AliceO2/pull/15668) 2026-08-10: Pressure: Fix last smoothed pressure value by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15670](https://github.com/AliceO2Group/AliceO2/pull/15670) 2026-08-10: Protect RecoContainer TRDtracklets access in absence of the TRD by [@shahor02](https://github.com/shahor02)
 - [\#15675](https://github.com/AliceO2Group/AliceO2/pull/15675) 2026-08-11: Add a unit test for isFromRadDecay and fix its ancestry walk by [@sawenzel](https://github.com/sawenzel)
 - [\#15677](https://github.com/AliceO2Group/AliceO2/pull/15677) 2026-08-18: use consumeWhenAll completion policy in ccdb-populator by [@ehellbar](https://github.com/ehellbar)
