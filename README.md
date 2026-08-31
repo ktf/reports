@@ -30,8 +30,6 @@
 - [\#15706](https://github.com/AliceO2Group/AliceO2/pull/15706) 2026-08-27: [EMCAL-1156] Modernize EMCal code and fix Digitizer by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#15128](https://github.com/AliceO2Group/AliceO2/pull/15128) 2026-08-10: Improve safety calculations in Tessellated solid by [@sawenzel](https://github.com/sawenzel)
-- [\#15470](https://github.com/AliceO2Group/AliceO2/pull/15470) 2026-08-10: Add method isFromRadDecay(const int id). Checks whether particle resu… by [@amorsch](https://github.com/amorsch)
 - [\#15583](https://github.com/AliceO2Group/AliceO2/pull/15583) 2026-08-12: TPC: make IDC/CMV distribute a pure forwarding device + minor improvements by [@ehellbar](https://github.com/ehellbar)
 - [\#15585](https://github.com/AliceO2Group/AliceO2/pull/15585) 2026-08-22: [MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation by [@joseesquivel-hub](https://github.com/joseesquivel-hub)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
@@ -54,6 +52,7 @@
 - [\#15709](https://github.com/AliceO2Group/AliceO2/pull/15709) 2026-08-23: Force MC workflows to start from tfCounter = 1 by [@shahor02](https://github.com/shahor02)
 - [\#15712](https://github.com/AliceO2Group/AliceO2/pull/15712) 2026-08-25: faster mat LUT by [@f3sch](https://github.com/f3sch)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
+- [\#15716](https://github.com/AliceO2Group/AliceO2/pull/15716) 2026-08-31: Replace the TPC half-space cuts by bounded boxes by [@sawenzel](https://github.com/sawenzel)
 - [\#15719](https://github.com/AliceO2Group/AliceO2/pull/15719) 2026-08-28: EMCAL: only request FV0/FT0 trigger inputs in digitizer if detectors are present by [@ehellbar](https://github.com/ehellbar)
 - [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 - [\#15723](https://github.com/AliceO2Group/AliceO2/pull/15723) 2026-08-28: Deduplicate MFT capacitor/welding and X7R0402 geometry by [@sawenzel](https://github.com/sawenzel)
