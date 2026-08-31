@@ -34,7 +34,6 @@
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
-- [\#15675](https://github.com/AliceO2Group/AliceO2/pull/15675) 2026-08-11: Add a unit test for isFromRadDecay and fix its ancestry walk by [@sawenzel](https://github.com/sawenzel)
 - [\#15677](https://github.com/AliceO2Group/AliceO2/pull/15677) 2026-08-18: use consumeWhenAll completion policy in ccdb-populator by [@ehellbar](https://github.com/ehellbar)
 - [\#15678](https://github.com/AliceO2Group/AliceO2/pull/15678) 2026-08-20: ITS: slab allocator idea by [@f3sch](https://github.com/f3sch)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
@@ -57,6 +56,8 @@
 - [\#15724](https://github.com/AliceO2Group/AliceO2/pull/15724) 2026-08-27: CCDB: handle access to CCDB via security proxy by [@ktf](https://github.com/ktf)
 - [\#15725](https://github.com/AliceO2Group/AliceO2/pull/15725) 2026-08-27: [ALICE3] TF3: switch substaves according to close gaps between staves by [@maciacco](https://github.com/maciacco)
 - [\#15728](https://github.com/AliceO2Group/AliceO2/pull/15728) 2026-08-27: ITSGPU: sort seed/cells in phi by [@f3sch](https://github.com/f3sch)
+- [\#15739](https://github.com/AliceO2Group/AliceO2/pull/15739) 2026-08-31: Fix a misplaced prepreg strip in the TPC inner field cage by [@sawenzel](https://github.com/sawenzel)
+- [\#15740](https://github.com/AliceO2Group/AliceO2/pull/15740) 2026-08-31: Add more info on MC vertex by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
