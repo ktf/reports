@@ -7,6 +7,7 @@
 - [\#15710](https://github.com/AliceO2Group/AliceO2/pull/15710) 2026-08-23: DPL Analysis: fix false positive by [@ktf](https://github.com/ktf)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
@@ -29,7 +30,6 @@
 - [\#15706](https://github.com/AliceO2Group/AliceO2/pull/15706) 2026-08-27: [EMCAL-1156] Modernize EMCal code and fix Digitizer by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#15583](https://github.com/AliceO2Group/AliceO2/pull/15583) 2026-08-12: TPC: make IDC/CMV distribute a pure forwarding device + minor improvements by [@ehellbar](https://github.com/ehellbar)
 - [\#15585](https://github.com/AliceO2Group/AliceO2/pull/15585) 2026-08-22: [MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation by [@joseesquivel-hub](https://github.com/joseesquivel-hub)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
@@ -61,6 +61,7 @@
 ## Recent developments in O2 - Examples
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
+- [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
@@ -74,11 +75,13 @@
 - [\#15732](https://github.com/AliceO2Group/AliceO2/pull/15732) 2026-08-31: DPL Analysis: allow finalising callback also for CCDB columns by [@ktf](https://github.com/ktf)
 - [\#15734](https://github.com/AliceO2Group/AliceO2/pull/15734) 2026-08-28: Get the MCP to work with the security proxy by [@ktf](https://github.com/ktf)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15731](https://github.com/AliceO2Group/AliceO2/pull/15731) 2026-08-27: Reduce Pythia8 verbosity on Hyperloop by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
