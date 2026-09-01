@@ -31,6 +31,7 @@
 - [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#15585](https://github.com/AliceO2Group/AliceO2/pull/15585) 2026-08-22: [MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation by [@joseesquivel-hub](https://github.com/joseesquivel-hub)
+- [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15663](https://github.com/AliceO2Group/AliceO2/pull/15663) 2026-08-06: o2-sim: Improvements for media initialization order and strong track-seeding for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
