@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-16T13:53:34Z",
-            "title": "DPL: give each stream its own slot in the service registry",
-            "number": 15680,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Services.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-06T08:19:09Z",
-            "title": "o2-sim: Improvements for media initialization order and strong track-seeding for Geant4",
-            "number": 15663,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/VMCSeederService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/VMCSeederService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/include/Steer/O2MCApplicationBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-17T12:20:10Z",
-            "title": "Field: keep polarity on MagneticField re-initialisation",
-            "number": 15682,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Field/include/Field/MagneticField.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Field/src/MagneticField.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Field/test/testMagneticField.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-17T20:09:15Z",
             "title": "Handle list of files in alien paths",
             "number": 15580,
@@ -3959,41 +3869,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Refactor/shared lookuptable",
-            "number": 15667,
-            "author": {
-              "login": "spulawsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/PMLookupTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/src/PMLookupTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-31T14:39:58Z",
             "title": "DPL Analysis: allow finalising callback also for CCDB columns",
@@ -4306,56 +4181,6 @@
                 {
                   "node": {
                     "path": "run/SimExamples/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
-            "number": 15380,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TOF: Remove the MANY TGeo placements",
-            "number": 15738,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/prototyping/drawTOFgeometry.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
                   }
                 }
               ]
@@ -4891,6 +4716,256 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Keep the libcurl header out of CcdbApi.h",
+            "number": 15745,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Refactor/shared lookuptable",
+            "number": 15667,
+            "author": {
+              "login": "spulawsk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/PMLookupTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/PMLookupTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix out-of-range hit access in the TOF hit merging",
+            "number": 15747,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
+            "number": 15584,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[TF3] Implement cluster finder for multiple digits in same chip",
+            "number": 15748,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/include/DataFormatsIOTOF/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/Cluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/DataFormatsIOTOFLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/Segmentation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/Segmentation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckClustersIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/ClustererParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/TopologyClassifier.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/ClustererParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/IOTOFReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/TopologyClassifier.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/IOTOFSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClusterWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClustererSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-01T17:44:54Z",
+            "title": "DPL GUI: Functionality to zoom topology + Export to SVG",
+            "number": 15380,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-01T17:46:03Z",
             "title": "MFT: Fix negative capacity tori",
             "number": 15746,
             "author": {
@@ -4909,10 +4984,10 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Keep the libcurl header out of CcdbApi.h",
-            "number": 15745,
+            "state": "MERGED",
+            "mergedAt": "2026-09-01T17:49:11Z",
+            "title": "TOF: Remove the MANY TGeo placements",
+            "number": 15738,
             "author": {
               "login": "sawenzel"
             },
@@ -4920,12 +4995,17 @@
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                    "path": "Detectors/TOF/prototyping/drawTOFgeometry.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
+                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
                   }
                 }
               ]
