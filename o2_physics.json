@@ -2395,86 +2395,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Trigger,PWGCF,PWGEM,PWGLF,PWGUD] Use `const&` and `std::move` to avoid copies",
-            "number": 17705,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGCF/CFFilterAll.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGEM/HeavyNeutralMesonFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/filterdoublephi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/filterf1proton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkBCrangesSkimming.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkSkimming.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/getMenu.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/selectivityPlot.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/uploadOTSobjects.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM,Photon] Fix VDriftManager update call",
             "number": 17673,
             "author": {
@@ -2625,26 +2545,6 @@
                 {
                   "node": {
                     "path": "PWGCF/EbyEFluctuations/Tasks/meanptFluctuations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Update lambda R2 correlation and added close pair check",
-            "number": 17716,
-            "author": {
-              "login": "yashpatley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
                   }
                 }
               ]
@@ -3180,26 +3080,6 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Change useUpcZdcTimeCut default to false",
-            "number": 17724,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsEvSelHf.h"
                   }
                 }
               ]
@@ -4245,26 +4125,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix histogram naming in h-d task",
-            "number": 17719,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] Fix initialization of 3prong fitter in a3 multicharm finder",
             "number": 17736,
             "author": {
@@ -4275,36 +4135,6 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-02T16:55:58Z",
-            "title": "[ALICE3] Add smearing to shortlived particles in LUT process function in otf tracker",
-            "number": 17737,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/Decayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
                   }
                 }
               ]
@@ -4450,6 +4280,176 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/trackEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-02T16:55:58Z",
+            "title": "[ALICE3] Add smearing to shortlived particles in LUT process function in otf tracker",
+            "number": 17737,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/Decayer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyDecayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Change useUpcZdcTimeCut default to false",
+            "number": 17724,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Utils/utilsEvSelHf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-02T18:44:24Z",
+            "title": "[PWGLF] Fix histogram naming in h-d task",
+            "number": 17719,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-02T19:23:05Z",
+            "title": "[PWGCF] Update lambda R2 correlation and added close pair check",
+            "number": 17716,
+            "author": {
+              "login": "yashpatley"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaR2Correlation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGCF,PWGEM,PWGLF,PWGUD] Use `const&` and `std::move` to avoid copies",
+            "number": 17705,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGCF/CFFilterAll.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGEM/HeavyNeutralMesonFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/filterdoublephi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/filterf1proton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkBCrangesSkimming.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkSkimming.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/getMenu.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/selectivityPlot.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/uploadOTSobjects.C"
                   }
                 }
               ]
