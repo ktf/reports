@@ -4871,26 +4871,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
-            "number": 15584,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics)",
             "number": 15749,
             "author": {
@@ -4981,6 +4961,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Add a reachability check to the geometry doctor and restore the ZEM geometry",
+            "number": 15750,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/Cave.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_geometry_doctor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "TRD geometry simplification",
             "number": 15751,
             "author": {
@@ -5016,31 +5031,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add a reachability check to the geometry doctor and restore the ZEM geometry",
-            "number": 15750,
+            "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
+            "number": 15584,
             "author": {
-              "login": "sawenzel"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Passive/src/Cave.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_geometry_doctor.cxx"
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
