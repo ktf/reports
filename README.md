@@ -12,7 +12,6 @@
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
 - [\#15691](https://github.com/AliceO2Group/AliceO2/pull/15691) 2026-08-19: Rotation2D:  use sincos by [@f3sch](https://github.com/f3sch)
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
@@ -31,11 +30,9 @@
 ## Recent developments in O2 - Detectors
 - [\#15585](https://github.com/AliceO2Group/AliceO2/pull/15585) 2026-08-22: [MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation by [@joseesquivel-hub](https://github.com/joseesquivel-hub)
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
-- [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
 - [\#15677](https://github.com/AliceO2Group/AliceO2/pull/15677) 2026-08-18: use consumeWhenAll completion policy in ccdb-populator by [@ehellbar](https://github.com/ehellbar)
 - [\#15678](https://github.com/AliceO2Group/AliceO2/pull/15678) 2026-08-20: ITS: slab allocator idea by [@f3sch](https://github.com/f3sch)
-- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
 - [\#15694](https://github.com/AliceO2Group/AliceO2/pull/15694) 2026-08-24: Use field-free media for the L3 magnet and the compensator by [@sawenzel](https://github.com/sawenzel)
 - [\#15695](https://github.com/AliceO2Group/AliceO2/pull/15695) 2026-08-20: Fix mcstack per event indexmap by [@sawenzel](https://github.com/sawenzel)
@@ -55,12 +52,13 @@
 - [\#15724](https://github.com/AliceO2Group/AliceO2/pull/15724) 2026-08-27: CCDB: handle access to CCDB via security proxy by [@ktf](https://github.com/ktf)
 - [\#15725](https://github.com/AliceO2Group/AliceO2/pull/15725) 2026-08-27: [ALICE3] TF3: switch substaves according to close gaps between staves by [@maciacco](https://github.com/maciacco)
 - [\#15728](https://github.com/AliceO2Group/AliceO2/pull/15728) 2026-08-27: ITSGPU: sort seed/cells in phi by [@f3sch](https://github.com/f3sch)
+- [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15738](https://github.com/AliceO2Group/AliceO2/pull/15738) 2026-09-01: TOF: Remove the MANY TGeo placements by [@sawenzel](https://github.com/sawenzel)
 - [\#15739](https://github.com/AliceO2Group/AliceO2/pull/15739) 2026-08-31: Fix a misplaced prepreg strip in the TPC inner field cage by [@sawenzel](https://github.com/sawenzel)
 - [\#15740](https://github.com/AliceO2Group/AliceO2/pull/15740) 2026-08-31: Add more info on MC vertex by [@shahor02](https://github.com/shahor02)
 - [\#15746](https://github.com/AliceO2Group/AliceO2/pull/15746) 2026-09-01: MFT: Fix negative capacity tori by [@sawenzel](https://github.com/sawenzel)
+- [\#15747](https://github.com/AliceO2Group/AliceO2/pull/15747) 2026-09-02: Fix out-of-range hit access in the TOF hit merging by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
-- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
@@ -78,13 +76,11 @@
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#15580](https://github.com/AliceO2Group/AliceO2/pull/15580) 2026-08-17: Handle list of files in alien paths by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15731](https://github.com/AliceO2Group/AliceO2/pull/15731) 2026-08-27: Reduce Pythia8 verbosity on Hyperloop by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#15684](https://github.com/AliceO2Group/AliceO2/pull/15684) 2026-08-18: Integrate geometry step killing by [@sawenzel](https://github.com/sawenzel)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15715](https://github.com/AliceO2Group/AliceO2/pull/15715) 2026-08-24: Wrap the QED event IDs at the number of QED events available by [@sawenzel](https://github.com/sawenzel)
 - [\#15719](https://github.com/AliceO2Group/AliceO2/pull/15719) 2026-08-28: EMCAL: only request FV0/FT0 trigger inputs in digitizer if detectors are present by [@ehellbar](https://github.com/ehellbar)
