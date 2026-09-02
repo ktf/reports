@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Implement pools chaining via TChain + example and test macro",
-            "number": 15688,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFromFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/test_EventPoolChaining.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/rundpl.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-08-18T19:22:08Z",
             "title": "Fix CPU accounting for external generator subprocesses",
@@ -4191,26 +4131,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
-            "number": 15584,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[TF3] Implement cluster finder for multiple digits in same chip",
             "number": 15748,
             "author": {
@@ -4401,31 +4321,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/base/src/HeatExchanger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Keep the libcurl header out of CcdbApi.h",
-            "number": 15745,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
@@ -4976,31 +4871,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add a reachability check to the geometry doctor and restore the ZEM geometry",
-            "number": 15750,
+            "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
+            "number": 15584,
             "author": {
-              "login": "sawenzel"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Passive/src/Cave.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_geometry_doctor.cxx"
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
@@ -5046,6 +4926,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Let the ZEM calorimeters be built without the far beam line",
+            "number": 15752,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/ZDCSimParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Keep the libcurl header out of CcdbApi.h",
+            "number": 15745,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "TRD geometry simplification",
             "number": 15751,
             "author": {
@@ -5071,6 +5006,41 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add a reachability check to the geometry doctor and restore the ZEM geometry",
+            "number": 15750,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/Cave.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_geometry_doctor.cxx"
                   }
                 }
               ]
