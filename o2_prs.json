@@ -4881,101 +4881,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: move disable-IDC-scalers to CorrectionMapsOptions",
-            "number": 15754,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/barrel-alignment-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/cosmics-match-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertexing-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/tof-matcher-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/tpcits-match-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/tpc-track-study-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/trackMCStudy-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/tracking-study-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCScalerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCScalerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-calib-gainmap-tracks.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-refitter-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-scaler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Add protection against skipped loopers",
             "number": 15755,
             "author": {
@@ -5031,36 +4936,6 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-09-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-09-o2_releases.json"
                   }
                 }
               ]
@@ -5211,6 +5086,131 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/GeometryManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T20:53:05Z",
+            "title": "TPC: move disable-IDC-scalers to CorrectionMapsOptions",
+            "number": 15754,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/Workflow/src/barrel-alignment-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/cosmics-match-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertexing-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/tof-matcher-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/tpcits-match-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/tpc-track-study-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/trackMCStudy-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/tracking-study-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCScalerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCScalerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-calib-gainmap-tracks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-refitter-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-scaler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-09-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-09-o2_releases.json"
                   }
                 }
               ]
