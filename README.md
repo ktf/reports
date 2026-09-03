@@ -8,6 +8,7 @@
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
+- [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
@@ -16,7 +17,6 @@
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15704](https://github.com/AliceO2Group/AliceO2/pull/15704) 2026-08-23: ITSGPU: further optimisations by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
-- [\#15689](https://github.com/AliceO2Group/AliceO2/pull/15689) 2026-08-19: Use floating-point literals in TrackUtils.h by [@f3sch](https://github.com/f3sch)
 - [\#15692](https://github.com/AliceO2Group/AliceO2/pull/15692) 2026-08-19: Change return type to value_T in getCurvature by [@f3sch](https://github.com/f3sch)
 - [\#15693](https://github.com/AliceO2Group/AliceO2/pull/15693) 2026-08-20: Change division to use float for massInv by [@f3sch](https://github.com/f3sch)
 - [\#15695](https://github.com/AliceO2Group/AliceO2/pull/15695) 2026-08-20: Fix mcstack per event indexmap by [@sawenzel](https://github.com/sawenzel)
@@ -30,7 +30,6 @@
 - [\#15585](https://github.com/AliceO2Group/AliceO2/pull/15585) 2026-08-22: [MI3] Add superconducting magnet/cryostat geometry to ALICE3 MID simulation by [@joseesquivel-hub](https://github.com/joseesquivel-hub)
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15666](https://github.com/AliceO2Group/AliceO2/pull/15666) 2026-08-24: [ALICE 3] TF3: update OTOF geometry with split staves by [@maciacco](https://github.com/maciacco)
-- [\#15677](https://github.com/AliceO2Group/AliceO2/pull/15677) 2026-08-18: use consumeWhenAll completion policy in ccdb-populator by [@ehellbar](https://github.com/ehellbar)
 - [\#15678](https://github.com/AliceO2Group/AliceO2/pull/15678) 2026-08-20: ITS: slab allocator idea by [@f3sch](https://github.com/f3sch)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
 - [\#15694](https://github.com/AliceO2Group/AliceO2/pull/15694) 2026-08-24: Use field-free media for the L3 magnet and the compensator by [@sawenzel](https://github.com/sawenzel)
@@ -52,6 +51,7 @@
 - [\#15725](https://github.com/AliceO2Group/AliceO2/pull/15725) 2026-08-27: [ALICE3] TF3: switch substaves according to close gaps between staves by [@maciacco](https://github.com/maciacco)
 - [\#15728](https://github.com/AliceO2Group/AliceO2/pull/15728) 2026-08-27: ITSGPU: sort seed/cells in phi by [@f3sch](https://github.com/f3sch)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
+- [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
 - [\#15738](https://github.com/AliceO2Group/AliceO2/pull/15738) 2026-09-01: TOF: Remove the MANY TGeo placements by [@sawenzel](https://github.com/sawenzel)
 - [\#15739](https://github.com/AliceO2Group/AliceO2/pull/15739) 2026-08-31: Fix a misplaced prepreg strip in the TPC inner field cage by [@sawenzel](https://github.com/sawenzel)
 - [\#15740](https://github.com/AliceO2Group/AliceO2/pull/15740) 2026-08-31: Add more info on MC vertex by [@shahor02](https://github.com/shahor02)
@@ -68,7 +68,6 @@
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15640](https://github.com/AliceO2Group/AliceO2/pull/15640) 2026-08-20: DPL Analysis: remove std::set from analysis task by [@aalkin](https://github.com/aalkin)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15690](https://github.com/AliceO2Group/AliceO2/pull/15690) 2026-08-19: DPL Analysis: test Arrow's Gandiva handling of unsigned integers by [@aalkin](https://github.com/aalkin)
 - [\#15710](https://github.com/AliceO2Group/AliceO2/pull/15710) 2026-08-23: DPL Analysis: fix false positive by [@ktf](https://github.com/ktf)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
@@ -76,6 +75,7 @@
 - [\#15734](https://github.com/AliceO2Group/AliceO2/pull/15734) 2026-08-28: Get the MCP to work with the security proxy by [@ktf](https://github.com/ktf)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
+- [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15731](https://github.com/AliceO2Group/AliceO2/pull/15731) 2026-08-27: Reduce Pythia8 verbosity on Hyperloop by [@jackal1-66](https://github.com/jackal1-66)
