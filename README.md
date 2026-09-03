@@ -55,6 +55,7 @@
 - [\#15738](https://github.com/AliceO2Group/AliceO2/pull/15738) 2026-09-01: TOF: Remove the MANY TGeo placements by [@sawenzel](https://github.com/sawenzel)
 - [\#15739](https://github.com/AliceO2Group/AliceO2/pull/15739) 2026-08-31: Fix a misplaced prepreg strip in the TPC inner field cage by [@sawenzel](https://github.com/sawenzel)
 - [\#15740](https://github.com/AliceO2Group/AliceO2/pull/15740) 2026-08-31: Add more info on MC vertex by [@shahor02](https://github.com/shahor02)
+- [\#15743](https://github.com/AliceO2Group/AliceO2/pull/15743) 2026-09-03: PIPE: fix duplicated RB26/2 bellow and restore the empty RB26/3 bellow by [@sawenzel](https://github.com/sawenzel)
 - [\#15746](https://github.com/AliceO2Group/AliceO2/pull/15746) 2026-09-01: MFT: Fix negative capacity tori by [@sawenzel](https://github.com/sawenzel)
 - [\#15747](https://github.com/AliceO2Group/AliceO2/pull/15747) 2026-09-02: Fix out-of-range hit access in the TOF hit merging by [@sawenzel](https://github.com/sawenzel)
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
