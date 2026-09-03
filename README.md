@@ -10,7 +10,6 @@
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
 - [\#15691](https://github.com/AliceO2Group/AliceO2/pull/15691) 2026-08-19: Rotation2D:  use sincos by [@f3sch](https://github.com/f3sch)
@@ -66,7 +65,6 @@
 ## Recent developments in O2 - Framework
 - [\#15380](https://github.com/AliceO2Group/AliceO2/pull/15380) 2026-09-01: DPL GUI: Functionality to zoom topology + Export to SVG by [@sawenzel](https://github.com/sawenzel)
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15640](https://github.com/AliceO2Group/AliceO2/pull/15640) 2026-08-20: DPL Analysis: remove std::set from analysis task by [@aalkin](https://github.com/aalkin)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15690](https://github.com/AliceO2Group/AliceO2/pull/15690) 2026-08-19: DPL Analysis: test Arrow's Gandiva handling of unsigned integers by [@aalkin](https://github.com/aalkin)
@@ -78,7 +76,6 @@
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#15636](https://github.com/AliceO2Group/AliceO2/pull/15636) 2026-08-18: Fix CPU accounting for external generator subprocesses by [@sawenzel](https://github.com/sawenzel)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15731](https://github.com/AliceO2Group/AliceO2/pull/15731) 2026-08-27: Reduce Pythia8 verbosity on Hyperloop by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
