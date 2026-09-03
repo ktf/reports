@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-31T15:56:55Z",
-            "title": "[PWGLF] MC now has direct link between generated and reco.",
-            "number": 17682,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFNonPromptCascadeTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/nonPromptCascade.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-08-31T16:09:14Z",
-            "title": "Please consider the following formatting changes to #17685",
-            "number": 17686,
-            "author": {
-              "login": "alibuild"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] Femto: add optional kT-dependent dphistar cut in CPR",
@@ -1730,41 +1685,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/lambdak0sflattenicity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Add forward compatibility with the new propagation-service-v2",
-            "number": 17725,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
                   }
                 }
               ]
@@ -3465,86 +3385,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add re-weighting for antideuteron efficiency",
-            "number": 17688,
-            "author": {
-              "login": "alcaliva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Improve propagationServiceV2",
-            "number": 17695,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".claude/commands/migrate-ccdb.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/GloCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TpcCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationServiceV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] New flattenicity analysis",
             "number": 17739,
             "author": {
@@ -3654,6 +3494,556 @@
         {
           "node": {
             "state": "MERGED",
+            "mergedAt": "2026-08-10T21:23:02Z",
+            "title": "[PWGLF] nsigmaTPC cut for filling TOF mass histograms in PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx",
+            "number": 17390,
+            "author": {
+              "login": "Cristian-Moscatelli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T11:30:23Z",
+            "title": "[ALICE3] Remove derived data lists in ALICE3 dqEfficiency",
+            "number": 17733,
+            "author": {
+              "login": "axti98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/ReducedTablesAlice3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3DqTableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3DqEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Study EA vs centrality",
+            "number": 17728,
+            "author": {
+              "login": "KotliarovAr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/recoilJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T11:35:51Z",
+            "title": "[ALICE3] Fix initialization of 3prong fitter in a3 multicharm finder",
+            "number": 17736,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T12:30:12Z",
+            "title": "[PWGJE] Add PCH to more Jet tasks",
+            "number": 16334,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T12:58:12Z",
+            "title": "[PWGLF] Add new propagation method in forwardlambdakzeroanalysis",
+            "number": 17738,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/forwardlambdakzeroanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T13:07:58Z",
+            "title": "[PWGEM] Unify QC + MaterialBudgetTasks",
+            "number": 17731,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/MaterialBudget.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/MaterialBudgetMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Legacy/pcmQCMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/pcmQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Modified track selection criteria in deuteron analysis",
+            "number": 17742,
+            "author": {
+              "login": "Cristian-Moscatelli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/deuteronInJetsTrgPt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Add forward compatibility with the new propagation-service-v2",
+            "number": 17725,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] various improvements to the global alignment task histograms",
+            "number": 17743,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] NaN fill averted for v22 and v02 histograms",
+            "number": 17753,
+            "author": {
+              "login": "MaximVirta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Add EMCal-registered event selection for hadrons in event mixing",
+            "number": 17741,
+            "author": {
+              "login": "rashigupt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Adding reflection signal from MC and updating jet matching process",
+            "number": 17750,
+            "author": {
+              "login": "Rajdeep-nandi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHFAngularity.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T11:19:19Z",
+            "title": "[PWGLF] Add ctau information for Lambda polarization analysis",
+            "number": 17729,
+            "author": {
+              "login": "ChiaraDeMartin95"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/cascqaanalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T14:19:55Z",
+            "title": "[PWGEM] add new 2D Cfs and add mix leg similarity sparse",
+            "number": 17747,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] adjustment in the ACTS to O2 translator",
+            "number": 17751,
+            "author": {
+              "login": "lhusova"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] book 2p correlation profile with eta gap",
+            "number": 17752,
+            "author": {
+              "login": "pykuan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Improve propagationServiceV2",
+            "number": 17695,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/GloCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TpcCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceV2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add occupancy column in hypertriton tables",
+            "number": 17746,
+            "author": {
+              "login": "zhengqi-w"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/trackedHypertritonRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add alt. rotational BG and fix correction factors calculation",
+            "number": 17745,
+            "author": {
+              "login": "vbarbaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phianalysisTHnSparse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/rsnOutput.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T14:49:25Z",
+            "title": "[PWGLF] Update TOF calculation for wrong PID hypothesis in strangenesstofpid",
+            "number": 17749,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
             "mergedAt": "2026-09-03T05:35:24Z",
             "title": "[Tools] Use `const&` and `std::move` to avoid copies",
             "number": 17714,
@@ -3688,23 +4078,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] add multiplicity and pT fluctuations task",
-            "number": 17534,
+            "state": "MERGED",
+            "mergedAt": "2026-09-03T15:12:49Z",
+            "title": "[PWGUD] fix zdc gapside selection",
+            "number": 17754,
             "author": {
-              "login": "orubza"
+              "login": "miedema-11"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/multandptFluctuations.cxx"
+                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
                   }
                 }
               ]
@@ -3714,62 +4099,42 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-10T21:23:02Z",
-            "title": "[PWGLF] nsigmaTPC cut for filling TOF mass histograms in PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx",
-            "number": 17390,
+            "mergedAt": "2026-09-03T15:44:06Z",
+            "title": "[PWGUD] upcCandidateProducerQa: Fix suffix and includes",
+            "number": 17755,
             "author": {
-              "login": "Cristian-Moscatelli"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] various improvements to the global alignment task histograms",
-            "number": 17743,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM/Dilepton] update qa histograms for muon dca",
-            "number": 17744,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
+                    "path": "PWGUD/Tasks/upcCandidateProducerQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add re-weighting for antideuteron efficiency",
+            "number": 17688,
+            "author": {
+              "login": "alcaliva"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/antinucleiInJets.cxx"
                   }
                 }
               ]
@@ -3925,51 +4290,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGEM] Unify QC + MaterialBudgetTasks",
-            "number": 17731,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Legacy/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Legacy/MaterialBudget.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Legacy/MaterialBudgetMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Legacy/pcmQCMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] Only automatically set generator name if not provided in MultModule.h",
             "number": 17748,
             "author": {
@@ -3990,378 +4310,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Modified track selection criteria in deuteron analysis",
-            "number": 17742,
-            "author": {
-              "login": "Cristian-Moscatelli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/deuteronInJetsTrgPt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add occupancy column in hypertriton tables",
-            "number": 17746,
-            "author": {
-              "login": "zhengqi-w"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/hyperRecoTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/trackedHypertritonRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-03T11:19:19Z",
-            "title": "[PWGLF] Add ctau information for Lambda polarization analysis",
-            "number": 17729,
-            "author": {
-              "login": "ChiaraDeMartin95"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/cascqaanalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/cascadeflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] add new 2D Cfs and add mix leg similarity sparse",
-            "number": 17747,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-03T11:30:23Z",
-            "title": "[ALICE3] Remove derived data lists in ALICE3 dqEfficiency",
-            "number": 17733,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/ReducedTablesAlice3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3DqTableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3DqEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Study EA vs centrality",
-            "number": 17728,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-03T11:35:51Z",
-            "title": "[ALICE3] Fix initialization of 3prong fitter in a3 multicharm finder",
-            "number": 17736,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3MulticharmFinder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Update TOF calculation for wrong PID hypothesis in strangenesstofpid",
-            "number": 17749,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessPIDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenesstofpid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add alt. rotational BG and fix correction factors calculation",
-            "number": 17745,
-            "author": {
-              "login": "vbarbaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysisTHnSparse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/rsnOutput.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] adjustment in the ACTS to O2 translator",
-            "number": 17751,
-            "author": {
-              "login": "lhusova"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3TrackingTranslator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add EMCal-registered event selection for hadrons in event mixing",
-            "number": 17741,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] book 2p correlation profile with eta gap",
-            "number": 17752,
-            "author": {
-              "login": "pykuan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Adding the reflection",
-            "number": 17750,
-            "author": {
-              "login": "Rajdeep-nandi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHFAngularity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-03T12:30:12Z",
-            "title": "[PWGJE] Add PCH to more Jet tasks",
-            "number": 16334,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] fix zdc gapside selection",
-            "number": 17754,
-            "author": {
-              "login": "miedema-11"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/flowCorrelationsUpc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] NaN fill averted for v22 and v02 histograms",
-            "number": 17753,
-            "author": {
-              "login": "MaximVirta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwV02.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] upcCandidateProducerQa: Fix suffix and includes",
-            "number": 17755,
+            "title": "[PWGLF] Compile CascadeMlResponse header",
+            "number": 17757,
             "author": {
               "login": "vkucera"
             },
@@ -4369,12 +4319,62 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                    "path": "PWGLF/Utils/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGUD/Tasks/upcCandidateProducerQa.cxx"
+                    "path": "PWGLF/Utils/cascadeMlResponse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] add multiplicity and pT fluctuations task",
+            "number": 17534,
+            "author": {
+              "login": "orubza"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/multandptFluctuations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM/Dilepton] update qa histograms for muon dca",
+            "number": 17744,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/SingleTrackQCMC.h"
                   }
                 }
               ]
@@ -4384,17 +4384,22 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-03T12:58:12Z",
-            "title": "[PWGLF] Add new propagation method in forwardlambdakzeroanalysis",
-            "number": 17738,
+            "mergedAt": "2026-09-03T16:25:35Z",
+            "title": "[ALICE3] Add short-lived particle table to otf tof pid",
+            "number": 17756,
             "author": {
-              "login": "romainschotter"
+              "login": "jesgum"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/forwardlambdakzeroanalysis.cxx"
+                    "path": "ALICE3/DataModel/OTFTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTofPid.cxx"
                   }
                 }
               ]

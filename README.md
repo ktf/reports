@@ -13,11 +13,9 @@
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15687](https://github.com/AliceO2Group/AliceO2/pull/15687) 2026-08-20: GPU: propagate architecture name and LTO IR for ITS by [@f3sch](https://github.com/f3sch)
-- [\#15691](https://github.com/AliceO2Group/AliceO2/pull/15691) 2026-08-19: Rotation2D:  use sincos by [@f3sch](https://github.com/f3sch)
 - [\#15699](https://github.com/AliceO2Group/AliceO2/pull/15699) 2026-08-24: Initial setup for G4 FastSim hooks with a toy example for Absorber by [@sawenzel](https://github.com/sawenzel)
 - [\#15704](https://github.com/AliceO2Group/AliceO2/pull/15704) 2026-08-23: ITSGPU: further optimisations by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
-- [\#15692](https://github.com/AliceO2Group/AliceO2/pull/15692) 2026-08-19: Change return type to value_T in getCurvature by [@f3sch](https://github.com/f3sch)
 - [\#15693](https://github.com/AliceO2Group/AliceO2/pull/15693) 2026-08-20: Change division to use float for massInv by [@f3sch](https://github.com/f3sch)
 - [\#15695](https://github.com/AliceO2Group/AliceO2/pull/15695) 2026-08-20: Fix mcstack per event indexmap by [@sawenzel](https://github.com/sawenzel)
 - [\#15696](https://github.com/AliceO2Group/AliceO2/pull/15696) 2026-08-20: TRK: add fast getPredictedChi2 by [@f3sch](https://github.com/f3sch)
