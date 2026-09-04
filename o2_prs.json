@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-20T04:43:25Z",
-            "title": "TRK: add fast getPredictedChi2",
-            "number": 15696,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrizationWithError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-20T08:37:24Z",
             "title": "GPU: Several fixes / cleanups",
             "number": 15697,
@@ -4436,51 +4406,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
-            "number": 15245,
-            "author": {
-              "login": "wpierozak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/compareLut.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/convertLutToCsv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/createLutFromCsv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/fetchLut.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/printLut.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
             "number": 15584,
             "author": {
@@ -4966,26 +4891,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] IOTOF: update id number to current number of chips",
-            "number": 15759,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL CCDB Analysis: add ability to specify run dependent queries",
             "number": 15757,
             "author": {
@@ -5006,41 +4911,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: allow plugins to account for bytes",
-            "number": 15758,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/RootArrowFilesystem.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Plugin.cxx"
                   }
                 }
               ]
@@ -5166,6 +5036,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
+            "number": 15245,
+            "author": {
+              "login": "wpierozak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/compareLut.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/convertLutToCsv.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/createLutFromCsv.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/fetchLut.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/printLut.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Keep the libcurl header out of CcdbApi.h",
+            "number": 15745,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Fix geometry overlaps found by geometry-doctor",
             "number": 15760,
             "author": {
@@ -5206,21 +5146,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Keep the libcurl header out of CcdbApi.h",
-            "number": 15745,
+            "title": "[ALICE3] IOTOF: update id number to current number of chips",
+            "number": 15759,
             "author": {
-              "login": "sawenzel"
+              "login": "maciacco"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-04T04:59:58Z",
+            "title": "DPL: allow plugins to account for bytes",
+            "number": 15758,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/RootArrowFilesystem.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Plugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-04T05:01:24Z",
+            "title": "Fix clang 21 issue",
+            "number": 15761,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/catch2/catch_amalgamated.cxx"
                   }
                 }
               ]
