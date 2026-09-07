@@ -53,6 +53,7 @@
 - [\#15752](https://github.com/AliceO2Group/AliceO2/pull/15752) 2026-09-07: Let the ZEM calorimeters be built without the far beam line by [@sawenzel](https://github.com/sawenzel)
 - [\#15753](https://github.com/AliceO2Group/AliceO2/pull/15753) 2026-09-04: [ALICE3] FT3: fix kapton fractional Z by [@rliotino99](https://github.com/rliotino99)
 - [\#15754](https://github.com/AliceO2Group/AliceO2/pull/15754) 2026-09-03: TPC: move disable-IDC-scalers to CorrectionMapsOptions by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15759](https://github.com/AliceO2Group/AliceO2/pull/15759) 2026-09-07: [ALICE3] IOTOF: update id number to current number of chips by [@maciacco](https://github.com/maciacco)
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
 - [\#15763](https://github.com/AliceO2Group/AliceO2/pull/15763) 2026-09-04: Improve the geometry-doctor reachability audit by [@sawenzel](https://github.com/sawenzel)
 - [\#15764](https://github.com/AliceO2Group/AliceO2/pull/15764) 2026-09-04: Fix UB when constructing string by [@ktf](https://github.com/ktf)
