@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-04T13:04:55Z",
-            "title": "[PWGHF] correlatorD0Hadrons.cxx: Expand histograms for reflection correction",
-            "number": 17765,
-            "author": {
-              "login": "swapneshkhade"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-07T07:18:26Z",
             "title": "[PWGJE] add hard scattering scale to gammejettreeproducer",
             "number": 17772,
@@ -1534,31 +1514,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add Lambda and anti-Lambda spin-correlation analysis",
-            "number": 17837,
-            "author": {
-              "login": "Akash-Raj-285"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaOrAntiLambdaProducerWithSpin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-06T08:14:58Z",
             "title": "[PWGLF] Add histograms for antineutron closure test",
@@ -1616,36 +1571,6 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add efficiency-corrected multiplicity information to CF derived data",
-            "number": 17783,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
                   }
                 }
               ]
@@ -3844,26 +3769,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] PhotonMeson: Fix Preslice and indexing in Dalitz skimmer",
-            "number": 17847,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerDalitzEvents.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-09T18:59:48Z",
             "title": "[Common] Use `const&` and `std::move` to avoid copies",
@@ -4091,6 +3996,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Fix type issue in BerkeleyTree",
+            "number": 17855,
+            "author": {
+              "login": "mhwang285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/berkeleyTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] PhotonMeson: Fix Preslice and indexing in Dalitz skimmer",
+            "number": 17847,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerDalitzEvents.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add Lambda and anti-Lambda spin-correlation analysis",
+            "number": 17837,
+            "author": {
+              "login": "Akash-Raj-285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaOrAntiLambdaProducerWithSpin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGLF,PWGMM] Run-1 calibration task for FT0 flattenicity",
             "number": 17853,
             "author": {
@@ -4101,6 +4071,36 @@
                 {
                   "node": {
                     "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add efficiency-corrected multiplicity information to CF derived data",
+            "number": 17783,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
                   }
                 }
               ]
@@ -4131,16 +4131,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Fix type issue in BerkeleyTree",
-            "number": 17855,
+            "title": "[PWGEM] Implement NUA-weights for flow analysis",
+            "number": 17693,
             "author": {
-              "login": "mhwang285"
+              "login": "omassen"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/TableProducer/berkeleyTreeProducer.cxx"
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
                   }
                 }
               ]
