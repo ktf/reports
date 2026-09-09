@@ -52,6 +52,7 @@
 - [\#15763](https://github.com/AliceO2Group/AliceO2/pull/15763) 2026-09-04: Improve the geometry-doctor reachability audit by [@sawenzel](https://github.com/sawenzel)
 - [\#15764](https://github.com/AliceO2Group/AliceO2/pull/15764) 2026-09-04: Fix UB when constructing string by [@ktf](https://github.com/ktf)
 - [\#15767](https://github.com/AliceO2Group/AliceO2/pull/15767) 2026-09-07: Place the L3 coil turns explicitly instead of dividing the polyhedra by [@sawenzel](https://github.com/sawenzel)
+- [\#15773](https://github.com/AliceO2Group/AliceO2/pull/15773) 2026-09-09: [ALICE3] IOTOF: Improve propagation of hit in digitizer stepping by [@Marcellocosti](https://github.com/Marcellocosti)
 ## Recent developments in O2 - Examples
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
