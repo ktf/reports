@@ -21,6 +21,7 @@
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Detectors
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
+- [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15706](https://github.com/AliceO2Group/AliceO2/pull/15706) 2026-08-27: [EMCAL-1156] Modernize EMCal code and fix Digitizer by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15708](https://github.com/AliceO2Group/AliceO2/pull/15708) 2026-08-26: CTP: luminosity workflow by [@Elladt](https://github.com/Elladt)
@@ -74,7 +75,7 @@
 - [\#15731](https://github.com/AliceO2Group/AliceO2/pull/15731) 2026-08-27: Reduce Pythia8 verbosity on Hyperloop by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15755](https://github.com/AliceO2Group/AliceO2/pull/15755) 2026-09-04: Add protection against skipped loopers by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15774](https://github.com/AliceO2Group/AliceO2/pull/15774) 2026-09-09: Implement HepMC reading randomisation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
-- [\#15715](https://github.com/AliceO2Group/AliceO2/pull/15715) 2026-08-24: Wrap the QED event IDs at the number of QED events available by [@sawenzel](https://github.com/sawenzel)
 - [\#15719](https://github.com/AliceO2Group/AliceO2/pull/15719) 2026-08-28: EMCAL: only request FV0/FT0 trigger inputs in digitizer if detectors are present by [@ehellbar](https://github.com/ehellbar)
