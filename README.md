@@ -35,6 +35,7 @@
 - [\#15728](https://github.com/AliceO2Group/AliceO2/pull/15728) 2026-08-27: ITSGPU: sort seed/cells in phi by [@f3sch](https://github.com/f3sch)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
+- [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
 - [\#15738](https://github.com/AliceO2Group/AliceO2/pull/15738) 2026-09-01: TOF: Remove the MANY TGeo placements by [@sawenzel](https://github.com/sawenzel)
 - [\#15739](https://github.com/AliceO2Group/AliceO2/pull/15739) 2026-08-31: Fix a misplaced prepreg strip in the TPC inner field cage by [@sawenzel](https://github.com/sawenzel)
 - [\#15740](https://github.com/AliceO2Group/AliceO2/pull/15740) 2026-08-31: Add more info on MC vertex by [@shahor02](https://github.com/shahor02)
