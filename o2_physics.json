@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-09T08:34:11Z",
-            "title": "[PWGJE] Adding reflection signal from MC and updating jet matching process",
-            "number": 17750,
-            "author": {
-              "login": "Rajdeep-nandi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetHFAngularity.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-09T08:35:17Z",
-            "title": "[PWGDQ] Add and change code for the energy correlator study",
-            "number": 17830,
-            "author": {
-              "login": "YazhenLin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-08T08:09:53Z",
             "title": "[PWGEM] Fix includes",
             "number": 17790,
@@ -571,26 +521,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaOrAntiLambdaProducerWithSpin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Run-1 calibration task for FT0 flattenicity",
-            "number": 17853,
-            "author": {
-              "login": "PaolaVT"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
                   }
                 }
               ]
@@ -1446,41 +1376,6 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/eventNormalizationTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Add forward compatibility with the new propagation-service-v2",
-            "number": 17725,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
                   }
                 }
               ]
@@ -3229,26 +3124,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Fix type issue in BerkeleyTree",
-            "number": 17855,
-            "author": {
-              "login": "mhwang285"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/berkeleyTreeProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-11T15:44:26Z",
             "title": "[PWGJE] centrality estimator config selection + configurable group",
@@ -3386,6 +3261,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Fix event mixing bug in MixingHandler and tableReader",
+            "number": 17880,
+            "author": {
+              "login": "JinjooSeo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MixingHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MixingHandler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
                   }
                 }
               ]
@@ -3806,6 +3721,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common,PWGLF] Add forward compatibility with the new propagation-service-v2",
+            "number": 17725,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Common] Fix TPC side determination in VDrift correction",
             "number": 17846,
             "author": {
@@ -3826,36 +3776,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Fix event mixing bug in MixingHandler and tableReader",
-            "number": 17880,
+            "title": "[PWGLF] Split MC process + optimize histo filling",
+            "number": 17887,
             "author": {
-              "login": "JinjooSeo"
+              "login": "gbencedi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/MixingHandler.cxx"
+                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] added x and y components separately for scalar product check of lambda polarisation",
+            "number": 17886,
+            "author": {
+              "login": "prottayCMT"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/MixingHandler.h"
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-11T18:57:05Z",
+            "title": "[PWGLF,PWGMM] Run-1 calibration task for FT0 flattenicity",
+            "number": 17853,
+            "author": {
+              "login": "PaolaVT"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-11T19:27:37Z",
+            "title": "[PWGJE] Fix type issue in BerkeleyTree",
+            "number": 17855,
+            "author": {
+              "login": "mhwang285"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
+                    "path": "PWGJE/TableProducer/berkeleyTreeProducer.cxx"
                   }
                 }
               ]
