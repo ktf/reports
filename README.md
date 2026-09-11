@@ -19,6 +19,7 @@
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
 - [\#15775](https://github.com/AliceO2Group/AliceO2/pull/15775) 2026-09-08: Remove hardcoded CCDB path by [@ktf](https://github.com/ktf)
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
+- [\#15785](https://github.com/AliceO2Group/AliceO2/pull/15785) 2026-09-11: [MUON] Fix assignment of GlobalFwdTrack from base class by [@aferrero2707](https://github.com/aferrero2707)
 ## Recent developments in O2 - Detectors
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15652](https://github.com/AliceO2Group/AliceO2/pull/15652) 2026-08-17: Implementation of OB FPC Capacitors by [@mario6829](https://github.com/mario6829)
