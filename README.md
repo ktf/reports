@@ -11,6 +11,7 @@
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15784](https://github.com/AliceO2Group/AliceO2/pull/15784) 2026-09-11: Regularization fixes + switch for the pre-PR-15610 compatibility mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15706](https://github.com/AliceO2Group/AliceO2/pull/15706) 2026-08-27: [EMCAL-1156] Modernize EMCal code and fix Digitizer by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -57,6 +58,7 @@
 - [\#15778](https://github.com/AliceO2Group/AliceO2/pull/15778) 2026-09-10: small changes in handling empty TF by [@pillot](https://github.com/pillot)
 - [\#15780](https://github.com/AliceO2Group/AliceO2/pull/15780) 2026-09-10: Fix material bug in FT3 by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15782](https://github.com/AliceO2Group/AliceO2/pull/15782) 2026-09-10: Clusterer will prioritize labels with lower trackIndex by [@shahor02](https://github.com/shahor02)
+- [\#15784](https://github.com/AliceO2Group/AliceO2/pull/15784) 2026-09-11: Regularization fixes + switch for the pre-PR-15610 compatibility mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
