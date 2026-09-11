@@ -11,7 +11,6 @@
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15706](https://github.com/AliceO2Group/AliceO2/pull/15706) 2026-08-27: [EMCAL-1156] Modernize EMCal code and fix Digitizer by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -63,7 +62,6 @@
 ## Recent developments in O2 - Framework
 - [\#15380](https://github.com/AliceO2Group/AliceO2/pull/15380) 2026-09-01: DPL GUI: Functionality to zoom topology + Export to SVG by [@sawenzel](https://github.com/sawenzel)
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
-- [\#15662](https://github.com/AliceO2Group/AliceO2/pull/15662) 2026-08-12: Add MessageContext message discarding by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15732](https://github.com/AliceO2Group/AliceO2/pull/15732) 2026-08-31: DPL Analysis: allow finalising callback also for CCDB columns by [@ktf](https://github.com/ktf)
