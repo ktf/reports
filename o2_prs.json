@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-26T18:27:33Z",
-            "title": "CTP: luminosity workflow",
-            "number": 15708,
-            "author": {
-              "login": "Elladt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/include/CTPWorkflowLumi/RawDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/src/RawDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/src/ctp-raw-decoder-lumi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-27T03:57:49Z",
             "title": "[EMCAL-1156] Modernize EMCal code and fix Digitizer",
             "number": 15706,
@@ -4546,31 +4501,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-688] Update ClusterFactory",
-            "number": 15788,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4646,6 +4576,546 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-688] Improve ClusterFactory `evalDispersion` function",
+            "number": 15788,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add the CADsupport module: CAD geometries as exact TGeo solids",
+            "number": 15789,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/include/CADSupport/O2BVHAssembly.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/include/CADSupport/O2BVHSurfaceSolid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/include/CADSupport/O2FlatCSG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/include/CADSupport/O2OverlapCheck.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/include/CADSupport/O2SolidHarness.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/include/CADSupport/O2SurfaceSolidIO.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/BoundedSurface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/CADGeometryUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/CADSupportLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/O2BVHAssembly.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/O2BVHSurfaceSolid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/O2FlatCSG.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/O2OverlapCheck.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/O2SolidHarness.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/O2SurfaceSolidIO.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/RepresentationBench.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/XRayTransport.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/checkSurfaceSidecars.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/runOverlapCensus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/runSolidHarness.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/runXRayBenchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/testBVHAssembly.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/testBVHSurfaceSolid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/testFlatCSG.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/O2_CADtoTGeo.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/O2_TGeoToCAD.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/__init__.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/accept.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/analytic.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/census.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/decline_catalogue.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/decompose.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/emit.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/emit_selftest_candidates.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/flat.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/hook.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/occ_env.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/planar.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/primitives.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/recognise.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/selftest_emit.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/cadsupport/tier0.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/g4_nist_database/G4_NIST_DB.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/g4_nist_database/compile.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/g4_nist_database/nist_export_all.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/o2-cad-to-tgeo"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/tools/o2-tgeo-to-cad"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/assemblyOracle.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/cadsupport_path.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/checkKnownSource.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/check_media.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/compare_distributions.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/compare_hits.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/make_configs.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/matbudget_diff.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/measure_facet_error.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/module_anchors.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/remap_cuts.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/roundtrip_module.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/roundtrip_module.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/closure/run_closure.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/compareGateRuns.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/csgCensus.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/analyse_all.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/analyse_steps.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/check_geometry.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/convert_all.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/count_hits.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/fibonacci_geantinos.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/make_configs.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/matbudget.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/patch_exact_macro.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/run_all.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/run_sim.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/demo/summarise_runs.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/exportSourceShapes.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/makeTestPartDB.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/make_boolean_fixtures.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/occtOracle.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/overlapCensus.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/renderTGeo.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/roundTripReport.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/runOracleGate.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/runXRayBench.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/transformSamples.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/validation/xrayOracle.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/include/ExternalDetectors/ExternalDetector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/External/src/ExternalDetector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/ExternalModule.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_innerCylinder.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_outerDisk.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/O2_CADtoTGeo.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/TODO.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/g4_nist_database/compile.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/geometry/simulating_CAD_modules.md"
                   }
                 }
               ]
