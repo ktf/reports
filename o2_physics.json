@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-09T15:21:35Z",
-            "title": "[Infrastructure] Clang-Tidy: Report errors only for new and being-fixed positives",
-            "number": 17845,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".clang-tidy"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-09T16:52:50Z",
-            "title": "[Common] Allow stopping before reaching partonic level in RecoDecay::getMother",
-            "number": 17816,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-09T18:49:36Z",
             "title": "[ALICE3] fix fasttracker initialization in otf-tracker",
             "number": 17851,
@@ -3094,26 +3054,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] HadNucleiFemto: Add DCA-fit and purity processes",
-            "number": 17858,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-12T12:00:09Z",
             "title": "[PWGCF] Improvement in config options and renaming things",
@@ -3674,8 +3614,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-09-13T14:52:57Z",
             "title": "[PWGLF] include additional information on tracks / PID to output tree",
             "number": 17897,
             "author": {
@@ -3696,6 +3636,75 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Nuspex/hypKfTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGCF] HadNucleiFemto: Add DCA-fit and purity processes",
+            "number": 17858,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add DCA-fraction and purity inputs to HadNucleiFemto",
+            "number": 17899,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Removing FwdTracksDCA dependencies from tableMaker(MC)_withAssoc",
+            "number": 17898,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
                   }
                 }
               ]

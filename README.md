@@ -56,6 +56,7 @@
 - [\#15782](https://github.com/AliceO2Group/AliceO2/pull/15782) 2026-09-10: Clusterer will prioritize labels with lower trackIndex by [@shahor02](https://github.com/shahor02)
 - [\#15783](https://github.com/AliceO2Group/AliceO2/pull/15783) 2026-09-11: Upgrades: clusterer will prioritize labels with lower trackIndex by [@shahor02](https://github.com/shahor02)
 - [\#15784](https://github.com/AliceO2Group/AliceO2/pull/15784) 2026-09-11: Regularization fixes + switch for the pre-PR-15610 compatibility mode by [@shahor02](https://github.com/shahor02)
+- [\#15786](https://github.com/AliceO2Group/AliceO2/pull/15786) 2026-09-13: IOTOF: add in-pixel efficiency by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15787](https://github.com/AliceO2Group/AliceO2/pull/15787) 2026-09-11: [ALICE3] Fix magnet radius by [@njacazio](https://github.com/njacazio)
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 - [\#15790](https://github.com/AliceO2Group/AliceO2/pull/15790) 2026-09-12: CAD tutorial : MkDocs sources plus an ITS round-trip example by [@sawenzel](https://github.com/sawenzel)
@@ -64,6 +65,7 @@
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15380](https://github.com/AliceO2Group/AliceO2/pull/15380) 2026-09-01: DPL GUI: Functionality to zoom topology + Export to SVG by [@sawenzel](https://github.com/sawenzel)
+- [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
 - [\#15576](https://github.com/AliceO2Group/AliceO2/pull/15576) 2026-08-26: Skip invalid timeframes during ROOT input by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
