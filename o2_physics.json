@@ -4,121 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add Lambda and anti-Lambda spin-correlation analysis",
-            "number": 17837,
-            "author": {
-              "login": "Akash-Raj-285"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaOrAntiLambdaProducerWithSpin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure,Tools,Common,Tutorial,PWGDQ,PWGHF,PWGLF] [WIP] [ML] Fix for memory issue in ML headers",
-            "number": 17836,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/quarkoniaToHyperons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLcPidMl.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzeromlselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/model.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/model.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/ML/applyOnnxModel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-09T17:02:33Z",
-            "title": "[Common] Refactor estimators into the same process function in centralityQa",
-            "number": 17849,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tasks/centralityQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-10T08:05:06Z",
             "title": "[PWGCF] Add MC processing to derived-to-derived femto producer",
@@ -1674,521 +1559,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Use `const&` and `std::move` to avoid copies",
-            "number": 17706,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Core/femtoDreamParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerReducedTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskForSpecificAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskReso.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskTrackCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskTrackTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskTrackV0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskV0Reso.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskV0V0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrackPbPb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackV0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackV0PbPb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Tasks/femtodreamPairCascadeCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/Utils/femtoDreamCutCulator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverse3DContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseAngularContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseCutculator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseEfficiencyCorrection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseFemtoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/femtoUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerReducedTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackNucleus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack3DMultKtExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMcTruth.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtendedItsPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Helicity.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/TableProducer/femtoWorldProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskPionPion.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowAnalysisGF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowDirectedFlowTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEfficiencyCasc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEsePHe3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwEse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwOmegaXi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowGfwTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowPbpbPikp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowPidCme.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowPtEfficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowRunbyRun.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/resonancesGfwFlow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFW.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFW.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFWCumulant.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFWPowerArray.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFWPowerArray.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFWWeights.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/GFWWeights.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGfwLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/jEPDzeroFlowAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticle-correlations-ar.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptDptFilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/dptDptCorrelations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tutorial/CFTutorialTask0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tutorial/CFTutorialTask1.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tutorial/CFTutorialTask2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tutorial/CFTutorialTask3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tutorial/CFTutorialTask4.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tutorial/CFTutorialTask5.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/EventSelectionFilterAndAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/EventSelectionFilterAndAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/PIDSelectionFilterAndAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/PIDSelectionFilterAndAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/SkimmingConfigurableCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/TrackSelectionFilterAndAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/TrackSelectionFilterAndAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFiltering.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFullSkimming.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsNotStoredSkimming.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/cascDiHadronCorr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/dptDptEfficiencyAndQc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/etaDihadron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/flowDecorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangeCorrelation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/neutronProtonCorrZdc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/particleOriginAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidDiHadron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/r2p2-4-id.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationPp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-11T15:11:37Z",
             "title": "[ALICE3] fix code check in otf particle",
@@ -3036,26 +2406,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common] Fix TPC side determination in VDrift correction",
-            "number": 17846,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Add EMCal-registered event selection for hadrons in event mixing",
             "number": 17741,
             "author": {
@@ -3598,51 +2948,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add DCA-fraction and purity inputs to HadNucleiFemto",
-            "number": 17899,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Quick fix for TH3 merging issue",
-            "number": 17900,
-            "author": {
-              "login": "vbarbaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysisTHnSparse.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-13T18:54:46Z",
             "title": "[PWGDQ] Removing FwdTracksDCA dependencies from tableMaker(MC)_withAssoc",
@@ -3693,8 +2998,628 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add a ppbar pair type in tableReaderwithAssoc",
+            "number": 17241,
+            "author": {
+              "login": "JifengDeng"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Fix TPC side determination in VDrift correction",
+            "number": 17846,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-25T07:09:46Z",
+            "title": "[PWGLF] Updates on a structure of resonanceModuleInitializer",
+            "number": 17575,
+            "author": {
+              "login": "mjkim525"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure] Bump oxsecurity/megalinter from 10.0.0 to 10.1.0",
+            "number": 17902,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Use `const&` and `std::move` to avoid copies",
+            "number": 17706,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerReducedTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskForSpecificAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTaskReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskV0Reso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamPairTaskV0V0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackTrackPbPb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamTripletTaskTrackTrackV0PbPb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtodreamPairCascadeCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Utils/femtoDreamCutCulator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverse3DContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseAngularContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseCutculator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseEfficiencyCorrection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseFemtoContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/femtoUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerReducedTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackNucleus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack3DMultKtExtended.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackExtended.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMcTruth.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtended.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackSpherHarMultKtExtendedItsPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackV0Helicity.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/TableProducer/femtoWorldProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskPionPion.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowAnalysisGF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowDirectedFlowTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEfficiencyCasc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEsePHe3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowFlucGfwPp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowGfwEse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowGfwOmegaXi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowGfwTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowPbpbPikp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowPidCme.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowPtEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowRunbyRun.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowSP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/resonancesGfwFlow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFW.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFW.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWCumulant.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWPowerArray.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWPowerArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWWeights.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWWeights.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGfwLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/jEPDzeroFlowAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticle-correlations-ar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptDptFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/dptDptCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask1.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask5.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/EventSelectionFilterAndAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/EventSelectionFilterAndAnalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/PIDSelectionFilterAndAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/PIDSelectionFilterAndAnalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/SkimmingConfigurableCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/TrackSelectionFilterAndAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/TrackSelectionFilterAndAnalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFiltering.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFullSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsNotStoredSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/cascDiHadronCorr.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/dptDptEfficiencyAndQc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/etaDihadron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/flowDecorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longRangeDihadronCor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangeCorrelation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/neutronProtonCorrZdc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/particleOriginAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidDiHadron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/r2p2-4-id.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationPp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-14T04:51:04Z",
             "title": "[PWGCF] add hasTPC/ITS selection and eta-gapped 2p profile",
             "number": 17901,
             "author": {
@@ -3705,6 +3630,51 @@
                 {
                   "node": {
                     "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Quick fix for TH3 merging issue",
+            "number": 17900,
+            "author": {
+              "login": "vbarbaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/phianalysisTHnSparse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add DCA-fraction and purity inputs to HadNucleiFemto",
+            "number": 17899,
+            "author": {
+              "login": "blacwovie"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
                   }
                 }
               ]

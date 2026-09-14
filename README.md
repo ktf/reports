@@ -28,7 +28,6 @@
 - [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 - [\#15723](https://github.com/AliceO2Group/AliceO2/pull/15723) 2026-08-28: Deduplicate MFT capacitor/welding and X7R0402 geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15725](https://github.com/AliceO2Group/AliceO2/pull/15725) 2026-08-27: [ALICE3] TF3: switch substaves according to close gaps between staves by [@maciacco](https://github.com/maciacco)
-- [\#15728](https://github.com/AliceO2Group/AliceO2/pull/15728) 2026-08-27: ITSGPU: sort seed/cells in phi by [@f3sch](https://github.com/f3sch)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
 - [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
