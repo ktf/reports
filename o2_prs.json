@@ -4506,71 +4506,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations",
-            "number": 15615,
-            "author": {
-              "login": "Ankyyadav"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/ParameterDetector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/GeneratorKrDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/macro/krGenerator.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/macro/plotCluster.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/GeneratorKrDecay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/TPCSimulationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] Fix some overlaps between services and supports",
             "number": 15793,
             "author": {
@@ -4656,6 +4591,101 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Harden bulk TTree reads against corrupted baskets",
+            "number": 15795,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations",
+            "number": 15615,
+            "author": {
+              "login": "Ankyyadav"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterDetector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/GeneratorKrDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/macro/krGenerator.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/macro/plotCluster.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/GeneratorKrDecay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/TPCSimulationLinkDef.h"
                   }
                 }
               ]
@@ -5171,36 +5201,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow-ca-writer/test/testITSMFTCAWriterContract.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Harden bulk TTree reads against corrupted baskets",
-            "number": 15795,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
                   }
                 }
               ]
