@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-28T07:38:01Z",
-            "title": "Get the MCP to work with the security proxy",
-            "number": 15734,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/scripts/hyperloop-perf-server/hl_common.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/scripts/hyperloop-server/hyperloop_server.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-28T09:01:37Z",
             "title": "[CTP] Apply the ZNC cross-section ratio after the pile-up correction",
             "number": 15721,
@@ -4346,31 +4321,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-688] Improve ClusterFactory `evalDispersion` function",
-            "number": 15788,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -4636,6 +4586,76 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/TRKServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Metal branches in the common definition macros",
+            "number": 15772,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: provide the std type_traits subset used on Metal",
+            "number": 15794,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonTypeTraits.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster`",
+            "number": 15788,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
                   }
                 }
               ]
@@ -5161,41 +5181,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU: Metal branches in the common definition macros",
-            "number": 15772,
+            "title": "Harden bulk TTree reads against corrupted baskets",
+            "number": 15795,
             "author": {
-              "login": "ktf"
+              "login": "autumn-mck"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/Common/GPUCommonDef.h"
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: provide the std type_traits subset used on Metal",
-            "number": 15794,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "GPU/Common/GPUCommonTypeTraits.h"
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
                   }
                 }
               ]

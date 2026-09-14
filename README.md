@@ -65,7 +65,6 @@
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15732](https://github.com/AliceO2Group/AliceO2/pull/15732) 2026-08-31: DPL Analysis: allow finalising callback also for CCDB columns by [@ktf](https://github.com/ktf)
-- [\#15734](https://github.com/AliceO2Group/AliceO2/pull/15734) 2026-08-28: Get the MCP to work with the security proxy by [@ktf](https://github.com/ktf)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 - [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
