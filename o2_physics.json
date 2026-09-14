@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-10T08:05:06Z",
-            "title": "[PWGCF] Add MC processing to derived-to-derived femto producer",
-            "number": 17852,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/mcBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/trackBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducerDerivedToDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-10T08:13:30Z",
-            "title": "[PWGDQ] Using info from dalitz selected tracks  in dqEfficiency_withAssoc_direct.cxx",
-            "number": 17629,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-10T08:34:24Z",
-            "title": "[PWGCF] Modified the Efficiency and the Purity correction.",
-            "number": 17841,
-            "author": {
-              "login": "S10GPhysics"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-10T08:50:46Z",
-            "title": "[PWGHF] Add PID selections to Xic trigger cuts",
-            "number": 17842,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-10T09:10:25Z",
             "title": "[Tools] [PIDML] Add event-level features to PIDMLProducer",
             "number": 17680,
@@ -1179,31 +1069,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding D0/Lc analysis task",
-            "number": 17808,
-            "author": {
-              "login": "laszlogyulai"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-11T10:16:43Z",
             "title": "[PWGLF] Fix linter warnings in decay3bodybuilder and trackedHypertritonRecoTask",
@@ -1314,131 +1179,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Trigger,PWGCF,PWGEM,PWGLF,PWGUD] Use `const&` and `std::move` to avoid copies",
-            "number": 17705,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGCF/CFFilterAll.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGEM/HeavyNeutralMesonFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/filterdoublephi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/filterf1proton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkBCrangesSkimming.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkSkimming.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/getMenu.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/selectivityPlot.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/uploadOTSobjects.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Add trento to NBDFitter",
-            "number": 17812,
-            "author": {
-              "login": "jesgum"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/multGlauberNBDFitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/multGlauberNBDFitter.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Implement NUA-weights for flow analysis",
-            "number": 17693,
-            "author": {
-              "login": "omassen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-11T13:12:04Z",
             "title": "[ALICE3] Fix check warnings",
@@ -1471,36 +1211,6 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/derivedDataCreatorDstarToD0Pi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Add 3-prong combinatorics with ML-based single-track selection",
-            "number": 17878,
-            "author": {
-              "login": "fchinu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HfMlResponseHfTracks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/mlBasedTrackSelector.cxx"
                   }
                 }
               ]
@@ -2511,26 +2221,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] ft0a ch id amplitude in centrality cuts",
-            "number": 17890,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGEM] Use `const&` and `std::move` to avoid copies",
             "number": 17708,
             "author": {
@@ -2714,51 +2404,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] PhotonMeson: Add task for event normalization on derived data",
-            "number": 17875,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/eventNormalizationTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add systematics",
-            "number": 17896,
-            "author": {
-              "login": "fsii"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-13T12:44:05Z",
             "title": "[PWGDQ] Code cleanup and logic improvements for muon processing in tableMaker(MC)_withAssoc",
@@ -2801,41 +2446,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Common/zdc2stagecalibration.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add efficiency-corrected multiplicity information to CF derived data",
-            "number": 17783,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
                   }
                 }
               ]
@@ -3030,26 +2640,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Fix TPC side determination in VDrift correction",
-            "number": 17846,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
                   }
                 }
               ]
@@ -3638,6 +3228,61 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-14T07:09:12Z",
+            "title": "[PWGHF] Add 3-prong combinatorics with ML-based single-track selection",
+            "number": 17878,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HfMlResponseHfTracks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/mlBasedTrackSelector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] PhotonMeson: Add task for event normalization on derived data",
+            "number": 17875,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/eventNormalizationTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Quick fix for TH3 merging issue",
@@ -3650,6 +3295,116 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/phianalysisTHnSparse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-14T07:44:11Z",
+            "title": "[PWGCF] Add efficiency-corrected multiplicity information to CF derived data",
+            "number": 17783,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/CorrelationsDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Implement NUA-weights for flow analysis",
+            "number": 17693,
+            "author": {
+              "login": "omassen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-14T09:01:44Z",
+            "title": "[PWGJE] ft0a ch id amplitude in centrality cuts",
+            "number": 17890,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Bugfixes in JE tasks",
+            "number": 17903,
+            "author": {
+              "login": "mhwang285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetFinderQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraChargedGen.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetTutorial.cxx"
                   }
                 }
               ]
@@ -3675,6 +3430,236 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Enhance MC processing with new parameters and histograms",
+            "number": 17904,
+            "author": {
+              "login": "jtanwar2212"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/nucleitpcPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Fix PID trigger cut condition",
+            "number": 17905,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-14T11:26:54Z",
+            "title": "[PWGCF] Add systematics",
+            "number": 17896,
+            "author": {
+              "login": "fsii"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-14T08:00:25Z",
+            "title": "[Common] Add trento to NBDFitter",
+            "number": 17812,
+            "author": {
+              "login": "jesgum"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/multGlauberNBDFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/multGlauberNBDFitter.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding D0/Lc analysis task",
+            "number": 17808,
+            "author": {
+              "login": "laszlogyulai"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Cache prongs propagation in trackIndexSkimCreator",
+            "number": 17906,
+            "author": {
+              "login": "fchinu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGCF,PWGEM,PWGLF,PWGUD] Use `const&` and `std::move` to avoid copies",
+            "number": 17705,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGCF/CFFilterAll.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGEM/HeavyNeutralMesonFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/filterdoublephi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/filterf1proton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkBCrangesSkimming.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkSkimming.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/getMenu.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/selectivityPlot.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/uploadOTSobjects.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Fix TPC side determination in VDrift correction",
+            "number": 17846,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
                   }
                 }
               ]
