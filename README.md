@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 - [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
@@ -35,6 +34,7 @@
 - [\#15743](https://github.com/AliceO2Group/AliceO2/pull/15743) 2026-09-03: PIPE: fix duplicated RB26/2 bellow and restore the empty RB26/3 bellow by [@sawenzel](https://github.com/sawenzel)
 - [\#15746](https://github.com/AliceO2Group/AliceO2/pull/15746) 2026-09-01: MFT: Fix negative capacity tori by [@sawenzel](https://github.com/sawenzel)
 - [\#15747](https://github.com/AliceO2Group/AliceO2/pull/15747) 2026-09-02: Fix out-of-range hit access in the TOF hit merging by [@sawenzel](https://github.com/sawenzel)
+- [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15751](https://github.com/AliceO2Group/AliceO2/pull/15751) 2026-09-02: TRD geometry simplification by [@sawenzel](https://github.com/sawenzel)
 - [\#15752](https://github.com/AliceO2Group/AliceO2/pull/15752) 2026-09-07: Let the ZEM calorimeters be built without the far beam line by [@sawenzel](https://github.com/sawenzel)
@@ -66,7 +66,6 @@
 - [\#15380](https://github.com/AliceO2Group/AliceO2/pull/15380) 2026-09-01: DPL GUI: Functionality to zoom topology + Export to SVG by [@sawenzel](https://github.com/sawenzel)
 - [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
-- [\#15726](https://github.com/AliceO2Group/AliceO2/pull/15726) 2026-08-27: Add signposts for AOD reader state transitions by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15732](https://github.com/AliceO2Group/AliceO2/pull/15732) 2026-08-31: DPL Analysis: allow finalising callback also for CCDB columns by [@ktf](https://github.com/ktf)
 - [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
