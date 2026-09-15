@@ -23,7 +23,6 @@
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15716](https://github.com/AliceO2Group/AliceO2/pull/15716) 2026-08-31: Replace the TPC half-space cuts by bounded boxes by [@sawenzel](https://github.com/sawenzel)
-- [\#15719](https://github.com/AliceO2Group/AliceO2/pull/15719) 2026-08-28: EMCAL: only request FV0/FT0 trigger inputs in digitizer if detectors are present by [@ehellbar](https://github.com/ehellbar)
 - [\#15723](https://github.com/AliceO2Group/AliceO2/pull/15723) 2026-08-28: Deduplicate MFT capacitor/welding and X7R0402 geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
@@ -80,5 +79,4 @@
 - [\#15774](https://github.com/AliceO2Group/AliceO2/pull/15774) 2026-09-09: Implement HepMC reading randomisation by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
-- [\#15719](https://github.com/AliceO2Group/AliceO2/pull/15719) 2026-08-28: EMCAL: only request FV0/FT0 trigger inputs in digitizer if detectors are present by [@ehellbar](https://github.com/ehellbar)
 - [\#15778](https://github.com/AliceO2Group/AliceO2/pull/15778) 2026-09-10: small changes in handling empty TF by [@pillot](https://github.com/pillot)
