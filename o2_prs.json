@@ -4174,31 +4174,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: provide the std type_traits subset used on Metal",
-            "number": 15794,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonTypeTraits.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-15T11:59:58Z",
             "title": "TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics)",
@@ -4441,36 +4416,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/MathUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Support skipping invalid timeframes across parent files",
-            "number": 15797,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
                   }
                 }
               ]
@@ -4746,6 +4691,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "GPU: provide the std type_traits subset used on Metal",
+            "number": 15794,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonTypeTraits.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Support skipping invalid timeframes across parent files",
+            "number": 15797,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "ITSMFT: unify cellular automaton tracking for ITS and MFT",
             "number": 15781,
             "author": {
@@ -4753,6 +4753,16 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/mft-ca-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/mft-ca-tracker-workflow.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/mft-cluster-writer-workflow.cxx"
@@ -4816,11 +4826,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/GenericTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/GenericTrackOutputAdapter.h"
                   }
                 },
                 {
@@ -4925,6 +4930,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/TrackPublicationHelpers.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Tracker.h"
                   }
                 },
@@ -4965,17 +4975,7 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/detail/ITSSharedClusterCompatibility.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/detail/SurfaceStateOperations.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/detail/SurfaceTrackStateLegacyAdapters.h"
                   }
                 },
                 {
