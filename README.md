@@ -8,13 +8,15 @@
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#15772](https://github.com/AliceO2Group/AliceO2/pull/15772) 2026-09-15: GPU: Metal branches in the common definition macros by [@ktf](https://github.com/ktf)
+- [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15784](https://github.com/AliceO2Group/AliceO2/pull/15784) 2026-09-11: Regularization fixes + switch for the pre-PR-15610 compatibility mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
-- [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
 - [\#15775](https://github.com/AliceO2Group/AliceO2/pull/15775) 2026-09-08: Remove hardcoded CCDB path by [@ktf](https://github.com/ktf)
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
+- [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15785](https://github.com/AliceO2Group/AliceO2/pull/15785) 2026-09-11: [MUON] Fix assignment of GlobalFwdTrack from base class by [@aferrero2707](https://github.com/aferrero2707)
 ## Recent developments in O2 - Detectors
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
@@ -23,7 +25,6 @@
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15716](https://github.com/AliceO2Group/AliceO2/pull/15716) 2026-08-31: Replace the TPC half-space cuts by bounded boxes by [@sawenzel](https://github.com/sawenzel)
 - [\#15719](https://github.com/AliceO2Group/AliceO2/pull/15719) 2026-08-28: EMCAL: only request FV0/FT0 trigger inputs in digitizer if detectors are present by [@ehellbar](https://github.com/ehellbar)
-- [\#15721](https://github.com/AliceO2Group/AliceO2/pull/15721) 2026-08-28: [CTP] Apply the ZNC cross-section ratio after the pile-up correction by [@sawenzel](https://github.com/sawenzel)
 - [\#15723](https://github.com/AliceO2Group/AliceO2/pull/15723) 2026-08-28: Deduplicate MFT capacitor/welding and X7R0402 geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
@@ -48,6 +49,7 @@
 - [\#15773](https://github.com/AliceO2Group/AliceO2/pull/15773) 2026-09-09: [ALICE3] IOTOF: Improve propagation of hit in digitizer stepping by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
 - [\#15778](https://github.com/AliceO2Group/AliceO2/pull/15778) 2026-09-10: small changes in handling empty TF by [@pillot](https://github.com/pillot)
+- [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15780](https://github.com/AliceO2Group/AliceO2/pull/15780) 2026-09-10: Fix material bug in FT3 by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15782](https://github.com/AliceO2Group/AliceO2/pull/15782) 2026-09-10: Clusterer will prioritize labels with lower trackIndex by [@shahor02](https://github.com/shahor02)
 - [\#15783](https://github.com/AliceO2Group/AliceO2/pull/15783) 2026-09-11: Upgrades: clusterer will prioritize labels with lower trackIndex by [@shahor02](https://github.com/shahor02)
@@ -56,6 +58,7 @@
 - [\#15787](https://github.com/AliceO2Group/AliceO2/pull/15787) 2026-09-11: [ALICE3] Fix magnet radius by [@njacazio](https://github.com/njacazio)
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 - [\#15790](https://github.com/AliceO2Group/AliceO2/pull/15790) 2026-09-12: CAD tutorial : MkDocs sources plus an ITS round-trip example by [@sawenzel](https://github.com/sawenzel)
+- [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 ## Recent developments in O2 - Examples
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
