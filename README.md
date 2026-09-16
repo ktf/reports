@@ -10,6 +10,7 @@
 - [\#15772](https://github.com/AliceO2Group/AliceO2/pull/15772) 2026-09-15: GPU: Metal branches in the common definition macros by [@ktf](https://github.com/ktf)
 - [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15784](https://github.com/AliceO2Group/AliceO2/pull/15784) 2026-09-11: Regularization fixes + switch for the pre-PR-15610 compatibility mode by [@shahor02](https://github.com/shahor02)
+- [\#15794](https://github.com/AliceO2Group/AliceO2/pull/15794) 2026-09-16: GPU: provide the std type_traits subset used on Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
@@ -22,7 +23,6 @@
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15716](https://github.com/AliceO2Group/AliceO2/pull/15716) 2026-08-31: Replace the TPC half-space cuts by bounded boxes by [@sawenzel](https://github.com/sawenzel)
-- [\#15723](https://github.com/AliceO2Group/AliceO2/pull/15723) 2026-08-28: Deduplicate MFT capacitor/welding and X7R0402 geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
 - [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
@@ -57,6 +57,7 @@
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 - [\#15790](https://github.com/AliceO2Group/AliceO2/pull/15790) 2026-09-12: CAD tutorial : MkDocs sources plus an ITS round-trip example by [@sawenzel](https://github.com/sawenzel)
 - [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
+- [\#15800](https://github.com/AliceO2Group/AliceO2/pull/15800) 2026-09-16: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#15741](https://github.com/AliceO2Group/AliceO2/pull/15741) 2026-09-01: Simple event pool merger by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)

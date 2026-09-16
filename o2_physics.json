@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-29T10:45:17Z",
-            "title": "Rework UPC skimmer, part 1",
-            "number": 3707,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-30T17:33:16Z",
             "title": "Fix globalBC fetching from FT0 and FV0A tables",
             "number": 3727,
@@ -2748,66 +2728,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,PWGLF] Improve propagationServiceV2",
-            "number": 17695,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".claude/commands/migrate-ccdb.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/GloCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TpcCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationServiceV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-15T00:57:08Z",
             "title": "[PWGUD] Introduce MC tables to upcCandProducerBarrel",
@@ -3398,31 +3318,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] implement event-mixing approach for 3 prong creator and cd task",
-            "number": 17926,
-            "author": {
-              "login": "zhangbiao-phy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-12T22:23:00Z",
             "title": "[ALICE3] fix linter and code-check for fasttracker",
@@ -3450,26 +3345,6 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add event mixing in forwardlambdakzeroanalysis.cxx",
-            "number": 17927,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/forwardlambdakzeroanalysis.cxx"
                   }
                 }
               ]
@@ -3579,26 +3454,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-15T22:54:01Z",
-            "title": "[PWGLF] Add EventQualityStudy in hStrangeCorrelation.cxx",
-            "number": 17921,
-            "author": {
-              "login": "kcui1"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-15T23:46:53Z",
             "title": "[PWGCF] Fix configurable descriptions in femto framework",
             "number": 17924,
@@ -3660,6 +3515,156 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add Lambda-proton balance function analysis task",
+            "number": 17838,
+            "author": {
+              "login": "Anoop1379"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Improve propagationServiceV2",
+            "number": 17695,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/GloCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TpcCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceV2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add event mixing in forwardlambdakzeroanalysis.cxx",
+            "number": 17927,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/forwardlambdakzeroanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] implement event-mixing approach for 3 prong creator and cd task",
+            "number": 17926,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskCd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-15T22:54:01Z",
+            "title": "[PWGLF] Add EventQualityStudy in hStrangeCorrelation.cxx",
+            "number": 17921,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
