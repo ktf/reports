@@ -18,6 +18,7 @@
 - [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15785](https://github.com/AliceO2Group/AliceO2/pull/15785) 2026-09-11: [MUON] Fix assignment of GlobalFwdTrack from base class by [@aferrero2707](https://github.com/aferrero2707)
 ## Recent developments in O2 - Detectors
+- [\#15615](https://github.com/AliceO2Group/AliceO2/pull/15615) 2026-09-16: TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations by [@Ankyyadav](https://github.com/Ankyyadav)
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)

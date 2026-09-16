@@ -5,111 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-11T15:43:39Z",
-            "title": "[PWGJE] Apply filter to tracks in processQcCheck",
-            "number": 17857,
-            "author": {
-              "login": "y-song"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/trackEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-11T15:44:26Z",
-            "title": "[PWGJE] centrality estimator config selection + configurable group",
-            "number": 17854,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-11T15:31:41Z",
-            "title": "[PWGEM,Photon] Add new task: task-photon-flow",
-            "number": 17877,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/V0PhotonCandidate.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaCalo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/taskPhotonFlow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/PCMUtilities.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-11T16:16:03Z",
-            "title": "[PWGJE] Update Ds-tagged jet analysis",
-            "number": 17885,
-            "author": {
-              "login": "monamelop"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetDsSpecSubs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-11T16:46:10Z",
             "title": "[PWGLF] Use `const&` and `std::move` to avoid copies",
             "number": 17711,
@@ -2732,26 +2627,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] New event and track selection cuts",
-            "number": 17939,
-            "author": {
-              "login": "tutripat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Addition of PID specific long-range correlations",
             "number": 17940,
             "author": {
@@ -3465,26 +3340,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix quadratic PID cut and improve Gen process performance",
-            "number": 17935,
-            "author": {
-              "login": "ercolessi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-16T18:58:50Z",
             "title": "[Common] Fix TPC side determination in VDrift correction",
@@ -3497,6 +3352,26 @@
                 {
                   "node": {
                     "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-16T19:44:42Z",
+            "title": "[PWGCF] Update PID QA function for TOF and TPC",
+            "number": 17934,
+            "author": {
+              "login": "huinaibing"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
                   }
                 }
               ]
@@ -3522,6 +3397,86 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/eventNormalizationTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] New event and track selection cuts",
+            "number": 17939,
+            "author": {
+              "login": "tutripat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Reduce number of histograms in MC",
+            "number": 17941,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add Nch-dependent rebinning of radial-flow correction maps",
+            "number": 17943,
+            "author": {
+              "login": "somabhatta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Add configurable to enable/disable side-based TPC drift correction",
+            "number": 17944,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.h"
                   }
                 }
               ]
@@ -3562,16 +3517,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Reduce number of histograms in MC",
-            "number": 17941,
+            "title": "[PWGLF] Add configurable to enable/disable side-based TPC drift correction",
+            "number": 17942,
             "author": {
-              "login": "gbencedi"
+              "login": "romainschotter"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] flowGenericFramework.cxx: MC process fixes",
+            "number": 17945,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
                   }
                 }
               ]
@@ -3581,17 +3566,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-16T19:44:42Z",
-            "title": "[PWGCF] Update PID QA function for TOF and TPC",
-            "number": 17934,
+            "mergedAt": "2026-09-16T22:02:46Z",
+            "title": "[PWGLF] Fix quadratic PID cut and improve Gen process performance",
+            "number": 17935,
             "author": {
-              "login": "huinaibing"
+              "login": "ercolessi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Flow/Tasks/pidFlowPtCorr.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
                   }
                 }
               ]
