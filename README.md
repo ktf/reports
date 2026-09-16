@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 - [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
@@ -11,6 +10,7 @@
 - [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15784](https://github.com/AliceO2Group/AliceO2/pull/15784) 2026-09-11: Regularization fixes + switch for the pre-PR-15610 compatibility mode by [@shahor02](https://github.com/shahor02)
 - [\#15794](https://github.com/AliceO2Group/AliceO2/pull/15794) 2026-09-16: GPU: provide the std type_traits subset used on Metal by [@ktf](https://github.com/ktf)
+- [\#15801](https://github.com/AliceO2Group/AliceO2/pull/15801) 2026-09-16: GPU: Metal branches in the common array and math helpers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
@@ -21,7 +21,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15646](https://github.com/AliceO2Group/AliceO2/pull/15646) 2026-09-01: ALICE3 TRK add the simplified-realistic OT barrel layout by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
-- [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15716](https://github.com/AliceO2Group/AliceO2/pull/15716) 2026-08-31: Replace the TPC half-space cuts by bounded boxes by [@sawenzel](https://github.com/sawenzel)
 - [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
@@ -64,9 +63,7 @@
 ## Recent developments in O2 - Framework
 - [\#15380](https://github.com/AliceO2Group/AliceO2/pull/15380) 2026-09-01: DPL GUI: Functionality to zoom topology + Export to SVG by [@sawenzel](https://github.com/sawenzel)
 - [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
-- [\#15714](https://github.com/AliceO2Group/AliceO2/pull/15714) 2026-08-29: MC-RECO: Ability to process empty timeframes (Part 2) by [@sawenzel](https://github.com/sawenzel)
 - [\#15732](https://github.com/AliceO2Group/AliceO2/pull/15732) 2026-08-31: DPL Analysis: allow finalising callback also for CCDB columns by [@ktf](https://github.com/ktf)
-- [\#15735](https://github.com/AliceO2Group/AliceO2/pull/15735) 2026-08-29: Track skipped read timeframes in file statistics & dumping by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15742](https://github.com/AliceO2Group/AliceO2/pull/15742) 2026-09-01: Analysis CCDB: add ability to have a uniformity column in a CCDB table by [@ktf](https://github.com/ktf)
 - [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
