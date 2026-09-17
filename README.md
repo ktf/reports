@@ -4,6 +4,7 @@
 - [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
+- [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15772](https://github.com/AliceO2Group/AliceO2/pull/15772) 2026-09-15: GPU: Metal branches in the common definition macros by [@ktf](https://github.com/ktf)
 - [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
@@ -56,6 +57,8 @@
 - [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15800](https://github.com/AliceO2Group/AliceO2/pull/15800) 2026-09-16: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
+- [\#15804](https://github.com/AliceO2Group/AliceO2/pull/15804) 2026-09-17: [TF3] Improve digit efficiency in stepping by [@Marcellocosti](https://github.com/Marcellocosti)
+- [\#15809](https://github.com/AliceO2Group/AliceO2/pull/15809) 2026-09-17: Place the space-frame sectors explicitly instead of dividing BBMO by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -65,6 +68,7 @@
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
 - [\#15761](https://github.com/AliceO2Group/AliceO2/pull/15761) 2026-09-04: Fix clang 21 issue by [@ktf](https://github.com/ktf)
+- [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Generators
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15755](https://github.com/AliceO2Group/AliceO2/pull/15755) 2026-09-04: Add protection against skipped loopers by [@jackal1-66](https://github.com/jackal1-66)
