@@ -2562,31 +2562,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Addition of PID specific long-range correlations",
-            "number": 17940,
-            "author": {
-              "login": "Preet-Bhanjan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Tutorial,PWGCF,PWGEM,PWGLF,PWGUD] Use `const&` and `std::move` to avoid copies",
             "number": 17715,
             "author": {
@@ -3342,86 +3317,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] New event and track selection cuts",
-            "number": 17939,
-            "author": {
-              "login": "tutripat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Reduce number of histograms in MC",
-            "number": 17941,
-            "author": {
-              "login": "gbencedi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add Nch-dependent rebinning of radial-flow correction maps",
-            "number": 17943,
-            "author": {
-              "login": "somabhatta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Add configurable to enable/disable side-based TPC drift correction",
-            "number": 17944,
-            "author": {
-              "login": "Steffimro"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add configurable to enable/disable side-based TPC drift correction",
             "number": 17942,
             "author": {
@@ -3432,71 +3327,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] flowGenericFramework.cxx: MC process fixes",
-            "number": 17945,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-16T22:58:42Z",
-            "title": "[PWGJE] adding fixes for derived data",
-            "number": 17938,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetV0Utilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataV0.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
                   }
                 }
               ]
@@ -3577,6 +3407,176 @@
                 {
                   "node": {
                     "path": "ALICE3/Macros/testFastTracker.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-16T22:58:42Z",
+            "title": "[PWGJE] adding fixes for derived data",
+            "number": 17938,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetV0Utilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedDataV0.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T02:18:22Z",
+            "title": "[PWGLF] Reduce number of histograms in MC",
+            "number": 17941,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/flattenictyPikp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add Nch-dependent rebinning of radial-flow correction maps",
+            "number": 17943,
+            "author": {
+              "login": "somabhatta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] Add configurable to enable/disable side-based TPC drift correction",
+            "number": 17944,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] flowGenericFramework.cxx: MC process fixes",
+            "number": 17945,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T04:34:17Z",
+            "title": "[PWGLF] New event and track selection cuts",
+            "number": 17939,
+            "author": {
+              "login": "tutripat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/GlobalEventProperties/PseudorapidityDensityMFT.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Addition of PID specific long-range correlations",
+            "number": 17940,
+            "author": {
+              "login": "Preet-Bhanjan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
                   }
                 }
               ]
