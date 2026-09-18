@@ -12,6 +12,7 @@
 - [\#15794](https://github.com/AliceO2Group/AliceO2/pull/15794) 2026-09-16: GPU: provide the std type_traits subset used on Metal by [@ktf](https://github.com/ktf)
 - [\#15801](https://github.com/AliceO2Group/AliceO2/pull/15801) 2026-09-16: GPU: Metal branches in the common array and math helpers by [@ktf](https://github.com/ktf)
 - [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
+- [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
@@ -27,10 +28,8 @@
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
 - [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
 - [\#15743](https://github.com/AliceO2Group/AliceO2/pull/15743) 2026-09-03: PIPE: fix duplicated RB26/2 bellow and restore the empty RB26/3 bellow by [@sawenzel](https://github.com/sawenzel)
-- [\#15747](https://github.com/AliceO2Group/AliceO2/pull/15747) 2026-09-02: Fix out-of-range hit access in the TOF hit merging by [@sawenzel](https://github.com/sawenzel)
 - [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
-- [\#15751](https://github.com/AliceO2Group/AliceO2/pull/15751) 2026-09-02: TRD geometry simplification by [@sawenzel](https://github.com/sawenzel)
 - [\#15752](https://github.com/AliceO2Group/AliceO2/pull/15752) 2026-09-07: Let the ZEM calorimeters be built without the far beam line by [@sawenzel](https://github.com/sawenzel)
 - [\#15753](https://github.com/AliceO2Group/AliceO2/pull/15753) 2026-09-04: [ALICE3] FT3: fix kapton fractional Z by [@rliotino99](https://github.com/rliotino99)
 - [\#15754](https://github.com/AliceO2Group/AliceO2/pull/15754) 2026-09-03: TPC: move disable-IDC-scalers to CorrectionMapsOptions by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -58,6 +57,7 @@
 - [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
 - [\#15804](https://github.com/AliceO2Group/AliceO2/pull/15804) 2026-09-17: [TF3] Improve digit efficiency in stepping by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15809](https://github.com/AliceO2Group/AliceO2/pull/15809) 2026-09-17: Place the space-frame sectors explicitly instead of dividing BBMO by [@sawenzel](https://github.com/sawenzel)
+- [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework

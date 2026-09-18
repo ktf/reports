@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-02T08:46:32Z",
-            "title": "Fix out-of-range hit access in the TOF hit merging",
-            "number": 15747,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-02T19:17:05Z",
-            "title": "TRD geometry simplification",
-            "number": 15751,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-08-26T10:27:36Z",
             "title": "Follow redirects when truncating/deleting",
             "number": 15722,
@@ -1581,61 +1526,6 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/simulation/src/V3Layer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: Improve standalone dEdx calculation class",
-            "number": 15650,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/calculatedEdx.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
                   }
                 }
               ]
@@ -3814,6 +3704,321 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T09:32:58Z",
+            "title": "TPC: place shared constants in the Metal constant address space",
+            "number": 15802,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Isolate Clang-only CMake flags",
+            "number": 15811,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2CompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T10:47:02Z",
+            "title": "Harden bulk TTree reads against corrupted baskets",
+            "number": 15795,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T13:33:57Z",
+            "title": "[TF3] Improve digit efficiency in stepping",
+            "number": 15804,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T14:18:17Z",
+            "title": "Place the space-frame sectors explicitly instead of dividing BBMO",
+            "number": 15809,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/FrameStructure.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T14:58:35Z",
+            "title": "GPU: launch bound helpers for Metal",
+            "number": 15810,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUDefParametersWrapper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T15:21:35Z",
+            "title": "[EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster`",
+            "number": 15788,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T20:50:07Z",
+            "title": "GPU: register the Metal reconstruction library",
+            "number": 15813,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionAvailableBackends.template.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-08-24T14:09:47Z",
+            "title": "[ALICE3] MagField: add short mag field, add visualization",
+            "number": 15700,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldShortMagnet.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[ALICE3] Add V3 magnet map",
+            "number": 15099,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldV3Magnet.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Implement pools chaining via TChain + example and test macro",
+            "number": 15688,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/test/test_EventPoolChaining.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/EventPool_Chaining/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/EventPool_Chaining/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/EventPool_Chaining/rundpl.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "ITSMFT: unify cellular automaton tracking for ITS and MFT",
@@ -4329,140 +4534,10 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T09:32:58Z",
-            "title": "TPC: place shared constants in the Metal constant address space",
-            "number": 15802,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Isolate Clang-only CMake flags",
-            "number": 15811,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2CompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T10:47:02Z",
-            "title": "Harden bulk TTree reads against corrupted baskets",
-            "number": 15795,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/TTreePlugin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T13:33:57Z",
-            "title": "[TF3] Improve digit efficiency in stepping",
-            "number": 15804,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T14:18:17Z",
-            "title": "Place the space-frame sectors explicitly instead of dividing BBMO",
-            "number": 15809,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Passive/src/FrameStructure.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T14:58:35Z",
-            "title": "GPU: launch bound helpers for Metal",
-            "number": 15810,
+            "title": "GPU: stop considering OpenCL on macOS",
+            "number": 15815,
             "author": {
               "login": "ktf"
             },
@@ -4470,62 +4545,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUDefParametersWrapper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T15:21:35Z",
-            "title": "[EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster`",
-            "number": 15788,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T20:50:07Z",
-            "title": "GPU: register the Metal reconstruction library",
-            "number": 15813,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionAvailableBackends.template.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionLibrary.cxx"
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
@@ -4610,27 +4635,62 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-08-24T14:09:47Z",
-            "title": "[ALICE3] MagField: add short mag field, add visualization",
-            "number": 15700,
+            "mergedAt": "2026-09-18T08:23:53Z",
+            "title": "Parallel Geant4 scoring and NIEL clamp",
+            "number": 15812,
             "author": {
-              "login": "njacazio"
+              "login": "sawenzel"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3Field.C"
+                    "path": "Common/SimConfig/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldShortMagnet.C"
+                    "path": "Common/SimConfig/include/SimConfig/FluenceWeightCalculator.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/CMakeLists.txt"
+                    "path": "Common/SimConfig/include/SimConfig/G4ScoringMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/FluenceWeightCalculator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/G4ScoringMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/g4Config.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2SimDeviceRunner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mergeg4scoring.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
                   }
                 }
               ]
@@ -4639,18 +4699,28 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] Add V3 magnet map",
-            "number": 15099,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
             "author": {
-              "login": "njacazio"
+              "login": "github-actions"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/ALICE3FieldV3Magnet.C"
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-09-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-09-o2_releases.json"
                   }
                 }
               ]
@@ -4716,56 +4786,76 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Implement pools chaining via TChain + example and test macro",
-            "number": 15688,
+            "title": "TPC: Improve standalone dEdx calculation class",
+            "number": 15650,
             "author": {
-              "login": "jackal1-66"
+              "login": "tubagundem"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Generators/CMakeLists.txt"
+                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                    "path": "Detectors/TPC/calibration/macro/calculatedEdx.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/src/GeneratorFromFile.cxx"
+                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/test/test_EventPoolChaining.cxx"
+                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/README.md"
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/run.sh"
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/rundpl.sh"
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "run/SimExamples/README.md"
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
                   }
                 }
               ]
@@ -4776,91 +4866,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "Prepare for new ROOT",
+            "number": 15816,
             "author": {
-              "login": "github-actions"
+              "login": "aalkin"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Detectors/Upgrades/ALICE3/AOD/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-09-o2_prs.json"
+                    "path": "Detectors/Upgrades/ALICE3/AOD/src/UpgradesAODUtilsLinkDef.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-09-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Parallel Geant4 scoring and NIEL clamp",
-            "number": 15812,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/CMakeLists.txt"
+                    "path": "cmake/AddRootDictionary.cmake"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/SimConfig/include/SimConfig/FluenceWeightCalculator.h"
+                    "path": "cmake/RunRootcling.cmake"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/SimConfig/include/SimConfig/G4ScoringMerger.h"
+                    "path": "cmake/rootcling_wrapper.sh.in"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/SimConfig/src/FluenceWeightCalculator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/G4ScoringMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/g4Config.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDeviceRunner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_mergeg4scoring.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
+                    "path": "packaging/CMakeLists.txt"
                   }
                 }
               ]
