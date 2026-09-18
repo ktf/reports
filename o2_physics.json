@@ -3046,76 +3046,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure,Tools,Common,Tutorial,PWGDQ,PWGHF,PWGLF] [WIP] [ML] Fix for memory issue in ML headers",
-            "number": 17836,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/quarkoniaToHyperons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLcPidMl.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/lambdakzeromlselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/MlResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/model.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/ML/model.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/ML/applyOnnxModel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-18T20:08:45Z",
             "title": "[PWGLF] Added pT-dependent DCAxy,z cut and deleted unused variables",
@@ -3136,6 +3066,61 @@
         },
         {
           "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add lambdastar-deuteron and f0-phi proxy tasks for coalescence studies",
+            "number": 17959,
+            "author": {
+              "login": "sustripathy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/f0phiproxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/lambdastarproxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Update on the `resonanceModuleInitializer`",
+            "number": 17961,
+            "author": {
+              "login": "mjkim525"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFResonanceTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-18T19:38:53Z",
             "title": "[Common] Avoid deprecated TF1 constructor",
@@ -3148,6 +3133,31 @@
                 {
                   "node": {
                     "path": "Common/Tools/Multiplicity/multGlauberNBDFitter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding D0/Lc analysis task",
+            "number": 17808,
+            "author": {
+              "login": "laszlogyulai"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
                   }
                 }
               ]
@@ -3222,6 +3232,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoDndetaPair.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/Femto/Tasks/femtoDndetaTriplet.cxx"
                   }
                 },
@@ -3238,26 +3253,66 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add lambdastar-deuteron and f0-phi proxy tasks for coalescence studies",
-            "number": 17959,
+            "title": "[Infrastructure,Tools,Common,Tutorial,PWGDQ,PWGHF,PWGLF] [WIP] [ML] Fix for memory issue in ML headers",
+            "number": 17836,
             "author": {
-              "login": "sustripathy"
+              "login": "ChSonnabend"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                    "path": "CODEOWNERS"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/f0phiproxy.cxx"
+                    "path": "Common/Tools/PID/pidTPCModule.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Resonances/lambdastarproxy.cxx"
+                    "path": "PWGDQ/Tasks/quarkoniaToHyperons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLcPidMl.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/lambdakzeromlselection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/strangenessbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/MlResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/model.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/ML/model.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/ML/applyOnnxModel.cxx"
                   }
                 }
               ]
@@ -3283,56 +3338,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding D0/Lc analysis task",
-            "number": 17808,
-            "author": {
-              "login": "laszlogyulai"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Update on the `resonanceModuleInitializer`",
-            "number": 17961,
-            "author": {
-              "login": "mjkim525"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
                   }
                 }
               ]
