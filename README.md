@@ -24,7 +24,6 @@
 - [\#15615](https://github.com/AliceO2Group/AliceO2/pull/15615) 2026-09-16: TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations by [@Ankyyadav](https://github.com/Ankyyadav)
 - [\#15700](https://github.com/AliceO2Group/AliceO2/pull/15700) 2026-08-24: [ALICE3] MagField: add short mag field, add visualization by [@njacazio](https://github.com/njacazio)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
-- [\#15730](https://github.com/AliceO2Group/AliceO2/pull/15730) 2026-09-02: ITSMFT: share tracking slab allocation primitives by [@mpuccio](https://github.com/mpuccio)
 - [\#15736](https://github.com/AliceO2Group/AliceO2/pull/15736) 2026-09-03: Deduplicate the MFT flex and the shared ALPIDE metal stack by [@sawenzel](https://github.com/sawenzel)
 - [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
 - [\#15743](https://github.com/AliceO2Group/AliceO2/pull/15743) 2026-09-03: PIPE: fix duplicated RB26/2 bellow and restore the empty RB26/3 bellow by [@sawenzel](https://github.com/sawenzel)
