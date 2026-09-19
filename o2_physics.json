@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF] SigmaPlus improved selections and tables",
-            "number": 17909,
-            "author": {
-              "login": "hfribert"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFKinkDecayTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigmaHadCorr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigmaplusbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-14T18:33:15Z",
-            "title": "[PWGLF] Enhance MC processing with new parameters and histograms",
-            "number": 17904,
-            "author": {
-              "login": "jtanwar2212"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/nucleitpcPbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-14T18:53:56Z",
             "title": "[PWGHF] Cache prongs propagation in trackIndexSkimCreator",
@@ -3128,6 +3078,121 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Addition of PID specific long-range correlations",
+            "number": 17940,
+            "author": {
+              "login": "Preet-Bhanjan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-17T19:18:22Z",
+            "title": "[PWGCF] Add Lambda-proton balance function analysis task",
+            "number": 17838,
+            "author": {
+              "login": "Anoop1379"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] TOF-veto selection fixed",
+            "number": 17971,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-19T14:10:41Z",
+            "title": "[PWGCF] Add QA histogram Nch vs Centrality",
+            "number": 17973,
+            "author": {
+              "login": "abmodak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add close pair QA for spin correlation and fine centrality calibration of ZDC SP",
+            "number": 17972,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/zdc2stagecalibration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Adding D0/Lc analysis task",
             "number": 17808,
             "author": {
@@ -3151,8 +3216,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-09-19T15:10:51Z",
             "title": "[PWGCF] Fix bugs for RecSim mode and add multiparticle correlation calculation",
             "number": 17970,
             "author": {
@@ -3163,6 +3228,26 @@
                 {
                   "node": {
                     "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCorrelationsMei.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] fix a few errors. introduced dcaxy cut. added event counter for subsamples",
+            "number": 17974,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
                   }
                 }
               ]
@@ -3233,111 +3318,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Addition of PID specific long-range correlations",
-            "number": 17940,
+            "title": "[PWGCF] DptDpt - Incorporating deuterons",
+            "number": 17975,
             "author": {
-              "login": "Preet-Bhanjan"
+              "login": "victor-gonzalez"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/TableProducer/dptDptFilter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add close pair QA for spin correlation and fine centrality calibration of ZDC SP",
-            "number": 17972,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/zdc2stagecalibration.cxx"
+                    "path": "PWGCF/TableProducer/dptDptFilter.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdaspincorrderived.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-17T19:18:22Z",
-            "title": "[PWGCF] Add Lambda-proton balance function analysis task",
-            "number": 17838,
-            "author": {
-              "login": "Anoop1379"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                    "path": "PWGCF/Tasks/dptDptCorrelations.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/dptDptEfficiencyAndQc.cxx"
                   }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Add QA histogram Nch vs Centrality",
-            "number": 17973,
-            "author": {
-              "login": "abmodak"
-            },
-            "files": {
-              "edges": [
+                },
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/longrangeMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] TOF-veto selection fixed",
-            "number": 17971,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/particleOriginAnalysis.cxx"
                   }
                 }
               ]
