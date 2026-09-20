@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
 - [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
@@ -62,7 +61,6 @@
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
-- [\#15744](https://github.com/AliceO2Group/AliceO2/pull/15744) 2026-09-03: DPL Analysis: allow lookup of paths based on the run / uniformity by [@ktf](https://github.com/ktf)
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
 - [\#15758](https://github.com/AliceO2Group/AliceO2/pull/15758) 2026-09-04: DPL: allow plugins to account for bytes by [@ktf](https://github.com/ktf)
 - [\#15761](https://github.com/AliceO2Group/AliceO2/pull/15761) 2026-09-04: Fix clang 21 issue by [@ktf](https://github.com/ktf)

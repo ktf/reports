@@ -5,121 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-15T07:58:39Z",
-            "title": "[PWGLF] SigmaPlus improved selections and tables",
-            "number": 17910,
-            "author": {
-              "login": "hfribert"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFKinkDecayTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigmaHadCorr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/sigmaplusbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-15T00:57:08Z",
-            "title": "[PWGUD] Introduce MC tables to upcCandProducerBarrel",
-            "number": 17907,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/upcCandProducerBarrel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] pT dependent DCAxy cut for DiHadron",
-            "number": 17914,
-            "author": {
-              "login": "lcernusa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/flowDecorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-07T07:56:28Z",
-            "title": "[PWGJE] Study EA vs centrality",
-            "number": 17728,
-            "author": {
-              "login": "KotliarovAr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/recoilJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-15T09:10:41Z",
-            "title": "[PWGHF] Add EMCal-registered event selection for hadrons in event mixing",
-            "number": 17741,
-            "author": {
-              "login": "rashigupt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorHfeHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-15T11:43:02Z",
             "title": "[PWGEM] Implement NUA-weights for flow analysis",
             "number": 17693,
@@ -3098,6 +2983,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGJE] Charm hadronisation: MC task now cleaner and more robust in terms of event selection monitoring",
+            "number": 17976,
+            "author": {
+              "login": "christianreckziegel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] TOF-veto selection fixed",
+            "number": 17971,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-20T10:52:29Z",
             "title": "[PWGLF] Fix case for neutron in histogram filling",
             "number": 17977,
             "author": {
@@ -3116,18 +3041,233 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Charm hadronisation: MC task now cleaner and more robust in terms of event selection monitoring",
-            "number": 17976,
+            "state": "MERGED",
+            "mergedAt": "2026-09-20T11:14:36Z",
+            "title": "[PWGHF] Templetise Jpsi type in HF helper functions for B2JPsi",
+            "number": 17980,
             "author": {
-              "login": "christianreckziegel"
+              "login": "fgrosa"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
+                    "path": "PWGHF/Core/HfHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskB0ToJpsiK0StarReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBplusToJpsiKReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskBsToJpsiPhiReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] upgraded Lambda-Proton Balance Function Code",
+            "number": 17981,
+            "author": {
+              "login": "Anoop1379"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] Track rotation ep preserving",
+            "number": 17982,
+            "author": {
+              "login": "ayatsujiringo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM] add new pairQC Task + clean up photonhbt",
+            "number": 17984,
+            "author": {
+              "login": "Steffimro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/pairQcTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/AnalyticV0.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/MCUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/PairUtilities.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
+            "number": 17978,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common,PWGLF] Improve propagationServiceV2",
+            "number": 17695,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".claude/commands/migrate-ccdb.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TPCVDriftManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/GloCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TpcCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/propagationServiceV2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackTuner.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding D0/Lc analysis task",
+            "number": 17808,
+            "author": {
+              "login": "laszlogyulai"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
                   }
                 }
               ]
@@ -3206,33 +3346,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding D0/Lc analysis task",
-            "number": 17808,
-            "author": {
-              "login": "laszlogyulai"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-09-20T13:27:20Z",
             "title": "[PWGLF] doubleomegatask: fix dca calculation and update data model",
             "number": 17979,
             "author": {
@@ -3258,106 +3373,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Common,PWGLF] Improve propagationServiceV2",
-            "number": 17695,
+            "title": "[PWGDQ] Track rotation ep preserving mepm rotated legs",
+            "number": 17983,
             "author": {
-              "login": "ktf"
+              "login": "ayatsujiringo"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": ".claude/commands/migrate-ccdb.md"
+                    "path": "PWGDQ/Core/VarManager.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/Core/TPCVDriftManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/GloCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TpcCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/propagationServiceV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackTuner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/strangenessBuilderModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] TOF-veto selection fixed",
-            "number": 17971,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
-            "number": 17978,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
                   }
                 }
               ]
