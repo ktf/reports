@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-15T11:43:02Z",
-            "title": "[PWGEM] Implement NUA-weights for flow analysis",
-            "number": 17693,
-            "author": {
-              "login": "omassen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-03T12:58:12Z",
             "title": "[PWGLF] Add new propagation method in forwardlambdakzeroanalysis",
             "number": 17738,
@@ -3022,26 +3002,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-20T10:52:29Z",
-            "title": "[PWGLF] Fix case for neutron in histogram filling",
-            "number": 17977,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-20T11:14:36Z",
             "title": "[PWGHF] Templetise Jpsi type in HF helper functions for B2JPsi",
             "number": 17980,
@@ -3076,26 +3036,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] upgraded Lambda-Proton Balance Function Code",
-            "number": 17981,
-            "author": {
-              "login": "Anoop1379"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGDQ] Track rotation ep preserving",
@@ -3113,6 +3053,76 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader_withAssoc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-20T10:52:29Z",
+            "title": "[PWGLF] Fix case for neutron in histogram filling",
+            "number": 17977,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-20T13:27:20Z",
+            "title": "[PWGLF] doubleomegatask: fix dca calculation and update data model",
+            "number": 17979,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Track rotation ep preserving mepm rotated legs",
+            "number": 17983,
+            "author": {
+              "login": "ayatsujiringo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
                   }
                 }
               ]
@@ -3163,26 +3173,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
-            "number": 17978,
+            "title": "[PWGLF] Fix code check warnings in previous PR",
+            "number": 17985,
             "author": {
-              "login": "BongHwi"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
                   }
                 }
               ]
@@ -3253,21 +3253,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Adding D0/Lc analysis task",
-            "number": 17808,
+            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
+            "number": 17978,
             "author": {
-              "login": "laszlogyulai"
+              "login": "BongHwi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
+                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
                   }
                 }
               ]
@@ -3346,23 +3351,23 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-20T13:27:20Z",
-            "title": "[PWGLF] doubleomegatask: fix dca calculation and update data model",
-            "number": 17979,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] upgraded Lambda-Proton Balance Function Code",
+            "number": 17981,
             "author": {
-              "login": "fmazzasc"
+              "login": "Anoop1379"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
+                    "path": "cppcheck_suppressions"
                   }
                 }
               ]
@@ -3373,21 +3378,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Track rotation ep preserving mepm rotated legs",
-            "number": 17983,
+            "title": "[PWGHF] Adding D0/Lc analysis task",
+            "number": 17808,
             "author": {
-              "login": "ayatsujiringo"
+              "login": "laszlogyulai"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
+                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
                   }
                 }
               ]
