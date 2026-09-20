@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-15T06:30:30Z",
-            "title": "[PWGCF] Add DCA-fraction and purity inputs to HadNucleiFemto",
-            "number": 17899,
-            "author": {
-              "login": "blacwovie"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/DataModel/HadronNucleiTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/FemtoNuclei/TableProducer/HadNucleiFemto.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-15T06:56:38Z",
-            "title": "[PWGHF] Fix PID trigger cut condition in Xic+ creator",
-            "number": 17905,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-15T07:13:38Z",
-            "title": "[PWGLF] Quick fix for TH3 merging issue",
-            "number": 17900,
-            "author": {
-              "login": "vbarbaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/phianalysisTHnSparse.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-15T07:58:39Z",
             "title": "[PWGLF] SigmaPlus improved selections and tables",
             "number": 17910,
@@ -2991,26 +2926,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] TOF-veto selection fixed",
-            "number": 17971,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-19T14:10:41Z",
             "title": "[PWGCF] Add QA histogram Nch vs Centrality",
@@ -3183,21 +3098,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Adding D0/Lc analysis task",
-            "number": 17808,
+            "title": "[PWGLF] Fix case for neutron in histogram filling",
+            "number": 17977,
             "author": {
-              "login": "laszlogyulai"
+              "login": "njacazio"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Charm hadronisation: MC task now cleaner and more robust in terms of event selection monitoring",
+            "number": 17976,
+            "author": {
+              "login": "christianreckziegel"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
+                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
                   }
                 }
               ]
@@ -3278,16 +3208,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Charm hadronisation: MC task now cleaner and more robust in terms of event selection monitoring",
-            "number": 17976,
+            "title": "[PWGHF] Adding D0/Lc analysis task",
+            "number": 17808,
             "author": {
-              "login": "christianreckziegel"
+              "login": "laszlogyulai"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskFlattenicityD0Lc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] doubleomegatask: fix dca calculation and update data model",
+            "number": 17979,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
                   }
                 }
               ]
@@ -3348,6 +3308,56 @@
                 {
                   "node": {
                     "path": "PWGLF/Utils/strangenessBuilderModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] TOF-veto selection fixed",
+            "number": 17971,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
+            "number": 17978,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
                   }
                 }
               ]
