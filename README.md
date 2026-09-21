@@ -52,6 +52,7 @@
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 - [\#15790](https://github.com/AliceO2Group/AliceO2/pull/15790) 2026-09-12: CAD tutorial : MkDocs sources plus an ITS round-trip example by [@sawenzel](https://github.com/sawenzel)
 - [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
+- [\#15796](https://github.com/AliceO2Group/AliceO2/pull/15796) 2026-09-21: [MUON] fix computation of delta phi in MFT-MCH matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#15800](https://github.com/AliceO2Group/AliceO2/pull/15800) 2026-09-16: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
 - [\#15804](https://github.com/AliceO2Group/AliceO2/pull/15804) 2026-09-17: [TF3] Improve digit efficiency in stepping by [@Marcellocosti](https://github.com/Marcellocosti)
@@ -67,7 +68,6 @@
 - [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Generators
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
-- [\#15755](https://github.com/AliceO2Group/AliceO2/pull/15755) 2026-09-04: Add protection against skipped loopers by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15774](https://github.com/AliceO2Group/AliceO2/pull/15774) 2026-09-09: Implement HepMC reading randomisation by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15808](https://github.com/AliceO2Group/AliceO2/pull/15808) 2026-09-17: Give box-gun primaries weight 1 in o2-sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
