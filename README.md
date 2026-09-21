@@ -31,7 +31,6 @@
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15752](https://github.com/AliceO2Group/AliceO2/pull/15752) 2026-09-07: Let the ZEM calorimeters be built without the far beam line by [@sawenzel](https://github.com/sawenzel)
 - [\#15753](https://github.com/AliceO2Group/AliceO2/pull/15753) 2026-09-04: [ALICE3] FT3: fix kapton fractional Z by [@rliotino99](https://github.com/rliotino99)
-- [\#15754](https://github.com/AliceO2Group/AliceO2/pull/15754) 2026-09-03: TPC: move disable-IDC-scalers to CorrectionMapsOptions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15759](https://github.com/AliceO2Group/AliceO2/pull/15759) 2026-09-07: [ALICE3] IOTOF: update id number to current number of chips by [@maciacco](https://github.com/maciacco)
 - [\#15760](https://github.com/AliceO2Group/AliceO2/pull/15760) 2026-09-10: Fix geometry overlaps found by geometry-doctor by [@sawenzel](https://github.com/sawenzel)
 - [\#15762](https://github.com/AliceO2Group/AliceO2/pull/15762) 2026-09-04: Fix final so that new clang does not complain by [@ktf](https://github.com/ktf)
