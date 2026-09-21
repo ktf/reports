@@ -58,6 +58,7 @@
 - [\#15809](https://github.com/AliceO2Group/AliceO2/pull/15809) 2026-09-17: Place the space-frame sectors explicitly instead of dividing BBMO by [@sawenzel](https://github.com/sawenzel)
 - [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
+- [\#15821](https://github.com/AliceO2Group/AliceO2/pull/15821) 2026-09-21: More VecGeom v2.x compatibility by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
