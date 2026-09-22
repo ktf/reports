@@ -4,45 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] Flow decorr PR test",
-            "number": 17930,
-            "author": {
-              "login": "lcernusa"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGCF] Flow-decorr fix1, diHadron error test",
-            "number": 17932,
-            "author": {
-              "login": "lcernusa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/diHadronCor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/flowDecorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-16T12:04:12Z",
             "title": "[Common] Autodetect apass when fetching qVector corrections",
@@ -2671,26 +2632,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Charm hadronisation: MC task now cleaner and more robust in terms of event selection monitoring",
-            "number": 17976,
-            "author": {
-              "login": "christianreckziegel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-21T12:44:50Z",
             "title": "[PWGJE,EMCAL] Add new clusterizer definitions, add new dispersion tables and QA p…",
@@ -3261,6 +3202,46 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-21T21:40:46Z",
+            "title": "[PWGLF] Fix code check warnings in previous PR",
+            "number": 17985,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] pidTPCModule::createNetworkPrediction(): refactor and add NN version 5",
+            "number": 17912,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/pidTPCModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGDQ] Improvements tableReader_withAssoc and dqEfficiency_withAssoc, and simplifying FillPairVertexing",
@@ -3308,46 +3289,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-21T21:40:46Z",
-            "title": "[PWGLF] Fix code check warnings in previous PR",
-            "number": 17985,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] pidTPCModule::createNetworkPrediction(): refactor and add NN version 5",
-            "number": 17912,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/pidTPCModule.h"
                   }
                 }
               ]
@@ -3448,6 +3389,66 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-04-27T06:34:31Z",
+            "title": "[PWGJE] hfFragmentationFunction: MC truth decay classification fix and cleanup",
+            "number": 15970,
+            "author": {
+              "login": "christianreckziegel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Charm hadronisation: MC task now cleaner and more robust in terms of event selection monitoring",
+            "number": 17976,
+            "author": {
+              "login": "christianreckziegel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Added process functions for MC closure",
+            "number": 18003,
+            "author": {
+              "login": "5ub-Man"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/sginclusivePhiKstarSD.cxx"
                   }
                 }
               ]
