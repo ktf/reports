@@ -32,10 +32,8 @@
 - [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15752](https://github.com/AliceO2Group/AliceO2/pull/15752) 2026-09-07: Let the ZEM calorimeters be built without the far beam line by [@sawenzel](https://github.com/sawenzel)
-- [\#15753](https://github.com/AliceO2Group/AliceO2/pull/15753) 2026-09-04: [ALICE3] FT3: fix kapton fractional Z by [@rliotino99](https://github.com/rliotino99)
 - [\#15759](https://github.com/AliceO2Group/AliceO2/pull/15759) 2026-09-07: [ALICE3] IOTOF: update id number to current number of chips by [@maciacco](https://github.com/maciacco)
 - [\#15760](https://github.com/AliceO2Group/AliceO2/pull/15760) 2026-09-10: Fix geometry overlaps found by geometry-doctor by [@sawenzel](https://github.com/sawenzel)
-- [\#15763](https://github.com/AliceO2Group/AliceO2/pull/15763) 2026-09-04: Improve the geometry-doctor reachability audit by [@sawenzel](https://github.com/sawenzel)
 - [\#15767](https://github.com/AliceO2Group/AliceO2/pull/15767) 2026-09-07: Place the L3 coil turns explicitly instead of dividing the polyhedra by [@sawenzel](https://github.com/sawenzel)
 - [\#15773](https://github.com/AliceO2Group/AliceO2/pull/15773) 2026-09-09: [ALICE3] IOTOF: Improve propagation of hit in digitizer stepping by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
@@ -61,12 +59,14 @@
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15821](https://github.com/AliceO2Group/AliceO2/pull/15821) 2026-09-21: More VecGeom v2.x compatibility by [@ktf](https://github.com/ktf)
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
+- [\#15830](https://github.com/AliceO2Group/AliceO2/pull/15830) 2026-09-22: GPU: more constexpr cleanups to support Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
 - [\#15757](https://github.com/AliceO2Group/AliceO2/pull/15757) 2026-09-04: DPL CCDB Analysis: add ability to specify run dependent queries by [@ktf](https://github.com/ktf)
 - [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15829](https://github.com/AliceO2Group/AliceO2/pull/15829) 2026-09-22: Improve ability to sync analysis wagons options with the current release values by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15774](https://github.com/AliceO2Group/AliceO2/pull/15774) 2026-09-09: Implement HepMC reading randomisation by [@jackal1-66](https://github.com/jackal1-66)
