@@ -25,7 +25,6 @@
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#15615](https://github.com/AliceO2Group/AliceO2/pull/15615) 2026-09-16: TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations by [@Ankyyadav](https://github.com/Ankyyadav)
-- [\#15700](https://github.com/AliceO2Group/AliceO2/pull/15700) 2026-08-24: [ALICE3] MagField: add short mag field, add visualization by [@njacazio](https://github.com/njacazio)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
 - [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
