@@ -15,6 +15,7 @@
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
+- [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15775](https://github.com/AliceO2Group/AliceO2/pull/15775) 2026-09-08: Remove hardcoded CCDB path by [@ktf](https://github.com/ktf)
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
 - [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
@@ -27,6 +28,7 @@
 - [\#15615](https://github.com/AliceO2Group/AliceO2/pull/15615) 2026-09-16: TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations by [@Ankyyadav](https://github.com/Ankyyadav)
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15737](https://github.com/AliceO2Group/AliceO2/pull/15737) 2026-09-10: Add support for VecGeom v2 by [@ktf](https://github.com/ktf)
+- [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15752](https://github.com/AliceO2Group/AliceO2/pull/15752) 2026-09-07: Let the ZEM calorimeters be built without the far beam line by [@sawenzel](https://github.com/sawenzel)
