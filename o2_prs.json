@@ -3601,91 +3601,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD: using slope to correct y position and reject more fakes",
-            "number": 15799,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/PadPlane.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/PadPlane.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibrationParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/qc/src/Tracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDGeometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Implement pools chaining via TChain + example and test macro",
             "number": 15688,
             "author": {
@@ -3851,31 +3766,6 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE 3] FT3 digitization: Change axis convention in disc sensors",
-            "number": 15827,
-            "author": {
-              "login": "marcovanleeuwen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3Module.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
                   }
                 }
               ]
@@ -4449,26 +4339,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "MathUtils: make SMatrixGPU compile as MSL",
-            "number": 15826,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-22T15:15:44Z",
             "title": "Improve ability to sync analysis wagons options with the current release values",
@@ -4711,6 +4581,331 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Fix DECLARE_SOA_CCDB_COLUMN_FULL's default construcor w…",
+            "number": 15679,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-23T04:01:31Z",
+            "title": "[TF3] Implement cluster finder for multiple digits in same chip",
+            "number": 15748,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/include/DataFormatsIOTOF/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/Cluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/DataFormatsIOTOFLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/Segmentation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/Segmentation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckClustersIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckTopologiesIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/ClustererParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/TopologyClassifier.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/ClustererParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/IOTOFReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/TopologyClassifier.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/IOTOFSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClusterWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClustererSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE 3] FT3 digitization: Change axis convention in disc sensors",
+            "number": 15827,
+            "author": {
+              "login": "marcovanleeuwen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3Module.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-23T07:56:51Z",
+            "title": "TRD: using slope to correct y position and reject more fakes",
+            "number": 15799,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/PadPlane.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/PadPlane.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibrationParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/Tracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDGeometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-23T09:10:42Z",
+            "title": "MathUtils: make SMatrixGPU compile as MSL",
+            "number": 15826,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: stop considering OpenCL on macOS",
+            "number": 15815,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
@@ -5234,168 +5429,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: Fix DECLARE_SOA_CCDB_COLUMN_FULL's default construcor w…",
-            "number": 15679,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-23T04:01:31Z",
-            "title": "[TF3] Implement cluster finder for multiple digits in same chip",
-            "number": 15748,
+            "mergedAt": "2026-09-23T12:06:03Z",
+            "title": "[ALICE 3] FT3 fix magnetic field silently disabled when FT3 is active",
+            "number": 15828,
             "author": {
-              "login": "Marcellocosti"
+              "login": "bulukutlu"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/include/DataFormatsIOTOF/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/Cluster.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/DataFormatsIOTOF/src/DataFormatsIOTOFLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/include/IOTOFBase/Segmentation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/GeometryTGeo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/IOTOFBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/base/src/Segmentation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckClustersIOTOF.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckDigitsIOTOF.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckTopologiesIOTOF.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/ClustererParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/include/IOTOFReconstruction/TopologyClassifier.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/ClustererParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/IOTOFReconstructionLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/TopologyClassifier.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/IOTOFSimulationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClusterWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClustererSpec.cxx"
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
                   }
                 }
               ]
@@ -5426,51 +5471,6 @@
                 {
                   "node": {
                     "path": "doc/data/2026-09-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE 3] FT3 fix magnetic field silently disabled when FT3 is active",
-            "number": 15828,
-            "author": {
-              "login": "bulukutlu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: stop considering OpenCL on macOS",
-            "number": 15815,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]

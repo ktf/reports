@@ -13,6 +13,7 @@
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15819](https://github.com/AliceO2Group/AliceO2/pull/15819) 2026-09-19: fix int/uint comparison by [@shahor02](https://github.com/shahor02)
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
+- [\#15826](https://github.com/AliceO2Group/AliceO2/pull/15826) 2026-09-23: MathUtils: make SMatrixGPU compile as MSL by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
@@ -50,6 +51,7 @@
 - [\#15790](https://github.com/AliceO2Group/AliceO2/pull/15790) 2026-09-12: CAD tutorial : MkDocs sources plus an ITS round-trip example by [@sawenzel](https://github.com/sawenzel)
 - [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15796](https://github.com/AliceO2Group/AliceO2/pull/15796) 2026-09-21: [MUON] fix computation of delta phi in MFT-MCH matching by [@aferrero2707](https://github.com/aferrero2707)
+- [\#15799](https://github.com/AliceO2Group/AliceO2/pull/15799) 2026-09-23: TRD: using slope to correct y position and reject more fakes by [@glegras](https://github.com/glegras)
 - [\#15800](https://github.com/AliceO2Group/AliceO2/pull/15800) 2026-09-16: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
 - [\#15804](https://github.com/AliceO2Group/AliceO2/pull/15804) 2026-09-17: [TF3] Improve digit efficiency in stepping by [@Marcellocosti](https://github.com/Marcellocosti)
@@ -59,6 +61,7 @@
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15821](https://github.com/AliceO2Group/AliceO2/pull/15821) 2026-09-21: More VecGeom v2.x compatibility by [@ktf](https://github.com/ktf)
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
+- [\#15828](https://github.com/AliceO2Group/AliceO2/pull/15828) 2026-09-23: [ALICE 3] FT3 fix magnetic field silently disabled when FT3 is active by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15830](https://github.com/AliceO2Group/AliceO2/pull/15830) 2026-09-22: GPU: more constexpr cleanups to support Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
