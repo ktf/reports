@@ -36,7 +36,6 @@
 - [\#15750](https://github.com/AliceO2Group/AliceO2/pull/15750) 2026-09-02: Add a reachability check to the geometry doctor and restore the ZEM geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#15759](https://github.com/AliceO2Group/AliceO2/pull/15759) 2026-09-07: [ALICE3] IOTOF: update id number to current number of chips by [@maciacco](https://github.com/maciacco)
 - [\#15760](https://github.com/AliceO2Group/AliceO2/pull/15760) 2026-09-10: Fix geometry overlaps found by geometry-doctor by [@sawenzel](https://github.com/sawenzel)
-- [\#15767](https://github.com/AliceO2Group/AliceO2/pull/15767) 2026-09-07: Place the L3 coil turns explicitly instead of dividing the polyhedra by [@sawenzel](https://github.com/sawenzel)
 - [\#15773](https://github.com/AliceO2Group/AliceO2/pull/15773) 2026-09-09: [ALICE3] IOTOF: Improve propagation of hit in digitizer stepping by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15777](https://github.com/AliceO2Group/AliceO2/pull/15777) 2026-09-09: [ALICE3] TF3: store BC and TDC in digits by [@maciacco](https://github.com/maciacco)
 - [\#15778](https://github.com/AliceO2Group/AliceO2/pull/15778) 2026-09-10: small changes in handling empty TF by [@pillot](https://github.com/pillot)
