@@ -14,6 +14,7 @@
 - [\#15819](https://github.com/AliceO2Group/AliceO2/pull/15819) 2026-09-19: fix int/uint comparison by [@shahor02](https://github.com/shahor02)
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15826](https://github.com/AliceO2Group/AliceO2/pull/15826) 2026-09-23: MathUtils: make SMatrixGPU compile as MSL by [@ktf](https://github.com/ktf)
+- [\#15833](https://github.com/AliceO2Group/AliceO2/pull/15833) 2026-09-24: GPU: keep the constant memory block out of Metal's constant address space by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15705](https://github.com/AliceO2Group/AliceO2/pull/15705) 2026-08-29: MC: Ability to process empty timeframes (Part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
