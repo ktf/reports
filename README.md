@@ -62,6 +62,7 @@
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15821](https://github.com/AliceO2Group/AliceO2/pull/15821) 2026-09-21: More VecGeom v2.x compatibility by [@ktf](https://github.com/ktf)
 - [\#15825](https://github.com/AliceO2Group/AliceO2/pull/15825) 2026-09-22: Common: put the namespace-scope constants in the constant address space by [@ktf](https://github.com/ktf)
+- [\#15827](https://github.com/AliceO2Group/AliceO2/pull/15827) 2026-09-24: [ALICE 3] FT3 digitization: Change axis convention in disc sensors by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15828](https://github.com/AliceO2Group/AliceO2/pull/15828) 2026-09-23: [ALICE 3] FT3 fix magnetic field silently disabled when FT3 is active by [@bulukutlu](https://github.com/bulukutlu)
 - [\#15830](https://github.com/AliceO2Group/AliceO2/pull/15830) 2026-09-22: GPU: more constexpr cleanups to support Metal by [@ktf](https://github.com/ktf)
 - [\#15831](https://github.com/AliceO2Group/AliceO2/pull/15831) 2026-09-23: Use the LHC orbit duration for CTP scaler rates by [@sawenzel](https://github.com/sawenzel)
