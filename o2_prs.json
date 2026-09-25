@@ -4266,46 +4266,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp",
-            "number": 15839,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/macro/staticMapCreator.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: add support for writing general Metadata to AO2D",
             "number": 15553,
             "author": {
@@ -5666,76 +5626,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ORT CI tests",
-            "number": 15792,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/net.onnx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-ci-onnxruntime-inference-test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-local-onnxruntime-inference-test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-all-eps.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cpu.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cuda.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-migraphx.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-tensorrt.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU: Minor improvements",
             "number": 15851,
             "author": {
@@ -5811,6 +5701,116 @@
                 {
                   "node": {
                     "path": "Detectors/gconfig/src/G4RunConfiguration.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp",
+            "number": 15839,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/macro/staticMapCreator.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ORT CI tests",
+            "number": 15792,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/net.onnx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-ci-onnxruntime-inference-test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-local-onnxruntime-inference-test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-all-eps.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cpu.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cuda.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-migraphx.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-tensorrt.sh"
                   }
                 }
               ]
