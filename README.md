@@ -76,6 +76,7 @@
 - [\#15844](https://github.com/AliceO2Group/AliceO2/pull/15844) 2026-09-25: Fix compiler warnings and errors related to dictionaries by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15789](https://github.com/AliceO2Group/AliceO2/pull/15789) 2026-09-12: Add the CADsupport module: CAD geometries as exact TGeo solids by [@sawenzel](https://github.com/sawenzel)
+- [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
 - [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
