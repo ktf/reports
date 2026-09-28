@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-21T19:49:39Z",
-            "title": "[PWGCF] add number of track cuts and histograms",
-            "number": 18002,
-            "author": {
-              "login": "pykuan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-21T20:20:04Z",
-            "title": "[PWGCF] reduce ccdb calls and remove redundant histogram bookings in flowGenericFramework.cxx",
-            "number": 17993,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-04-27T06:34:31Z",
-            "title": "[PWGJE] hfFragmentationFunction: MC truth decay classification fix and cleanup",
-            "number": 15970,
-            "author": {
-              "login": "christianreckziegel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/hfFragmentationFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-18T15:21:02Z",
             "title": "[PWGLF] Add event mixing in forwardlambdakzeroanalysis.cxx",
             "number": 17927,
@@ -2065,26 +2005,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] added pZDC correlations with ft0c and glb tracks as cent estimators",
-            "number": 17928,
-            "author": {
-              "login": "hernasab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Addition of PID specific long-range correlations",
             "number": 17940,
             "author": {
@@ -2183,26 +2103,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] updated lambda-proton balance function",
-            "number": 18073,
-            "author": {
-              "login": "Anoop1379"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-22T17:55:15Z",
             "title": "[PWGLF] Add doClosureTestPureMC Configurable in hStrangeCorrelation.cxx",
@@ -2215,26 +2115,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FU D0 task: adding y histogram and non-prompt cut for reco D0s",
-            "number": 18074,
-            "author": {
-              "login": "kgwizdzi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
                   }
                 }
               ]
@@ -2355,6 +2235,176 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] Fix ClassDef compilation warning",
+            "number": 18076,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Core/AnalysisConfigurableCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/EventSelectionFilterAndAnalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/PIDSelectionFilterAndAnalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Core/SkimmingConfigurableCuts.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] derivedDataProducer: Add guard to collision size",
+            "number": 18064,
+            "author": {
+              "login": "mhwang285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-28T15:59:34Z",
+            "title": "[PWGCF] added pZDC correlations with ft0c and glb tracks as cent estimators",
+            "number": 17928,
+            "author": {
+              "login": "hernasab"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] berkeleyTreeProducer: add run number to events",
+            "number": 18078,
+            "author": {
+              "login": "mhwang285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/berkeleyTreeProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-28T17:53:01Z",
+            "title": "[PWGCF] FU D0 task: adding y histogram and non-prompt cut for reco D0s",
+            "number": 18074,
+            "author": {
+              "login": "kgwizdzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Use the real Omega(2012) PDG code in the resonance analysis",
+            "number": 18077,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
+            "number": 17978,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[Infrastructure,Tools,Common,Tutorial,PWGDQ,PWGHF,PWGLF] [WIP] [ML] Fix for memory issue in ML headers",
             "number": 17836,
             "author": {
@@ -2425,36 +2475,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fix ClassDef compilation warning",
-            "number": 18076,
+            "title": "[PWGCF] updated lambda-proton balance function",
+            "number": 18073,
             "author": {
-              "login": "vkucera"
+              "login": "Anoop1379"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Core/AnalysisConfigurableCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/Core/FlowPtContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/EventSelectionFilterAndAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/PIDSelectionFilterAndAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Core/SkimmingConfigurableCuts.h"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
                   }
                 }
               ]
@@ -2465,46 +2495,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] derivedDataProducer: Add guard to collision size",
-            "number": 18064,
+            "title": "[PWGCF] Add QA histograms",
+            "number": 18079,
             "author": {
-              "login": "mhwang285"
+              "login": "fsii"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGJE/TableProducer/derivedDataProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Resonance: Add constraint PDG values and MC functionalities in Omega2012",
-            "number": 17978,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/resonanceModuleInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/omega2012Analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/xi1820Analysis.cxx"
+                    "path": "PWGCF/EbyEFluctuations/Tasks/partNumFluc.cxx"
                   }
                 }
               ]
