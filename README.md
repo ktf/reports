@@ -46,9 +46,7 @@
 - [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
-- [\#15786](https://github.com/AliceO2Group/AliceO2/pull/15786) 2026-09-13: IOTOF: add in-pixel efficiency by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15788](https://github.com/AliceO2Group/AliceO2/pull/15788) 2026-09-17: [EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster` by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#15790](https://github.com/AliceO2Group/AliceO2/pull/15790) 2026-09-12: CAD tutorial : MkDocs sources plus an ITS round-trip example by [@sawenzel](https://github.com/sawenzel)
 - [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15796](https://github.com/AliceO2Group/AliceO2/pull/15796) 2026-09-21: [MUON] fix computation of delta phi in MFT-MCH matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#15799](https://github.com/AliceO2Group/AliceO2/pull/15799) 2026-09-23: TRD: using slope to correct y position and reject more fakes by [@glegras](https://github.com/glegras)
@@ -68,6 +66,7 @@
 - [\#15831](https://github.com/AliceO2Group/AliceO2/pull/15831) 2026-09-23: Use the LHC orbit duration for CTP scaler rates by [@sawenzel](https://github.com/sawenzel)
 - [\#15832](https://github.com/AliceO2Group/AliceO2/pull/15832) 2026-09-23: Fix out-of-range BC slice for ambiguous tracks past the last BC by [@sawenzel](https://github.com/sawenzel)
 - [\#15838](https://github.com/AliceO2Group/AliceO2/pull/15838) 2026-09-24: Write tracked V0s, cascades and 3-bodies in collision order by [@sawenzel](https://github.com/sawenzel)
+- [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15840](https://github.com/AliceO2Group/AliceO2/pull/15840) 2026-09-25: Give the MFT support volume a name of its own by [@sawenzel](https://github.com/sawenzel)
 - [\#15841](https://github.com/AliceO2Group/AliceO2/pull/15841) 2026-09-24: Ship the NIEL damage weights as CSV by [@sawenzel](https://github.com/sawenzel)
 - [\#15843](https://github.com/AliceO2Group/AliceO2/pull/15843) 2026-09-25: o2-sim: Fixes, code refactor, simplification and performance enhancement by [@sawenzel](https://github.com/sawenzel)
@@ -81,7 +80,6 @@
 ## Recent developments in O2 - Examples
 - [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#15421](https://github.com/AliceO2Group/AliceO2/pull/15421) 2026-09-13: DPL: add benchmark for memfd based message passing by [@ktf](https://github.com/ktf)
 - [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15829](https://github.com/AliceO2Group/AliceO2/pull/15829) 2026-09-22: Improve ability to sync analysis wagons options with the current release values by [@ktf](https://github.com/ktf)
