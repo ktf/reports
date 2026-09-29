@@ -5,611 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-11T13:50:33Z",
-            "title": "[MUON] Fix assignment of GlobalFwdTrack from base class",
-            "number": 15785,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/GlobalFwdTrack.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-11T19:05:24Z",
-            "title": "Upgrades: clusterer will prioritize labels with lower trackIndex",
-            "number": 15783,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/reconstruction/include/ITS3Reconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/Clusterer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-11T17:13:06Z",
-            "title": "[ALICE3] Fix magnet radius",
-            "number": 15787,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/include/Alice3DetectorsPassive/Magnet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/include/Alice3DetectorsPassive/PassiveBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Absorber.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Magnet.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-12T18:12:10Z",
-            "title": "Add the CADsupport module: CAD geometries as exact TGeo solids",
-            "number": 15789,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/include/CADSupport/O2FlatCSG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/include/CADSupport/O2OverlapCheck.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/include/CADSupport/O2SolidHarness.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/include/CADSupport/O2SurfaceSolidIO.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/BoundedSurface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/CADGeometryUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/CADSupportLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/O2BVHAssembly.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/O2BVHSurfaceSolid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/O2FlatCSG.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/O2OverlapCheck.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/O2SolidHarness.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/src/O2SurfaceSolidIO.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/RepresentationBench.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/XRayTransport.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/checkSurfaceSidecars.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/runOverlapCensus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/runSolidHarness.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/runXRayBenchmark.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/testBVHAssembly.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/testBVHSurfaceSolid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/test/testFlatCSG.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/O2_CADtoTGeo.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/O2_TGeoToCAD.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/__init__.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/accept.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/analytic.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/census.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/decline_catalogue.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/decompose.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/emit.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/emit_selftest_candidates.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/flat.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/hook.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/occ_env.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/planar.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/primitives.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/recognise.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/selftest_emit.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/tier0.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/compat/O2_CADtoTGeo.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/compat/O2_TGeoToCAD.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/g4_nist_database/G4_NIST_DB.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/g4_nist_database/compile.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/g4_nist_database/nist_export_all.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/o2-cad-to-tgeo"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/o2-tgeo-to-cad"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/assemblyOracle.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/cadsupport_path.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/checkKnownSource.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/check_media.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/compare_distributions.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/compare_hits.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/make_configs.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/matbudget_diff.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/measure_facet_error.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/module_anchors.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/remap_cuts.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/roundtrip_module.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/roundtrip_module.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/closure/run_closure.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/compareGateRuns.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/csgCensus.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/analyse_all.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/analyse_steps.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/check_geometry.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/convert_all.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/count_hits.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/fibonacci_geantinos.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/make_configs.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/matbudget.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/patch_exact_macro.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/run_all.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/run_sim.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/demo/summarise_runs.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/exportSourceShapes.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/makeTestPartDB.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/make_boolean_fixtures.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/occtOracle.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/overlapCensus.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/renderTGeo.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/roundTripReport.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/runOracleGate.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/runXRayBench.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/transformSamples.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/validation/xrayOracle.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/include/ExternalDetectors/ExternalDetector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/External/src/ExternalDetector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/src/ExternalModule.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_innerCylinder.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/External_Sensitive_Detectors/geometry_outerDisk.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/O2_CADtoTGeo.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/TODO.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/g4_nist_database/compile.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/geometry/simulating_CAD_modules.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-12T18:56:06Z",
             "title": "CAD tutorial : MkDocs sources plus an ITS round-trip example",
             "number": 15790,
@@ -3324,31 +2719,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: stop considering OpenCL on macOS",
-            "number": 15815,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-17T08:52:48Z",
             "title": "Give box-gun primaries weight 1 in o2-sim",
@@ -5491,31 +4861,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Align Omega(2012) PDG code between database and transport",
-            "number": 15857,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "FT3 New Optimised OT Tiling & Clean up material writing",
             "number": 15858,
             "author": {
@@ -5579,68 +4924,78 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ORT CI tests",
-            "number": 15792,
+            "state": "MERGED",
+            "mergedAt": "2026-09-28T20:36:24Z",
+            "title": "Fix ClassDef compilation warning",
+            "number": 15856,
             "author": {
-              "login": "ChSonnabend"
+              "login": "vkucera"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Common/ML/CMakeLists.txt"
+                    "path": "Framework/Core/include/Framework/StepTHn.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-29T05:00:38Z",
+            "title": "GPU: Apple Metal backend, off by default",
+            "number": 15859,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/metal/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/CMakeLists.txt"
+                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMETAL.metal"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/net.onnx"
+                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetal.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
+                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetal.mm"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-ci-onnxruntime-inference-test.sh"
+                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalIncludesHost.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-local-onnxruntime-inference-test.sh"
+                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalKernels.mm"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-all-eps.sh"
+                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalKernelsSpecialize.inc"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cpu.sh"
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cuda.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-migraphx.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-tensorrt.sh"
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
@@ -5670,7 +5025,52 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/TrackTransportUtils.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/Base/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/test/testStack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "GPU: stop considering OpenCL on macOS",
+            "number": 15815,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
@@ -5680,17 +5080,22 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-28T20:36:24Z",
-            "title": "Fix ClassDef compilation warning",
-            "number": 15856,
+            "mergedAt": "2026-09-29T09:05:52Z",
+            "title": "Add the electron NIEL damage weights",
+            "number": 15862,
             "author": {
-              "login": "vkucera"
+              "login": "sawenzel"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/StepTHn.h"
+                    "path": "Detectors/gconfig/data/rd50_niel.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/data/rd50_niel.root"
                   }
                 }
               ]
@@ -5699,8 +5104,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-09-29T09:42:41Z",
             "title": "GPUTracking: declare the resolve kernel's shared memory as shared",
             "number": 15860,
             "author": {
@@ -5719,8 +5124,243 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-29T09:46:03Z",
+            "title": "Align Omega(2012) PDG code between database and transport",
+            "number": 15857,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "o2-sim: VecGeom navigation mode for Geant4",
+            "number": 15865,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/GeometryManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GeometryManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/g4Config.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/include/SimSetup/VecGeomNavigation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomChecks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomChecks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Map.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Map.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding",
+            "number": 15864,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/include/CPVSimulation/GeometryParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Geometry/Creator/src/Station1Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/include/PHOSSimulation/GeometryParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/src/GeometryParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/include/DetectorsPassive/FrameStructure.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/FrameStructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/Geo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/Geo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/GeometryBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-29T10:09:20Z",
             "title": "Extend RecoContainer to support ITS and MFT cluster access per layer",
             "number": 15861,
             "author": {
@@ -5751,6 +5391,26 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restrict the TRD PAI model to 14 particle species",
+            "number": 15863,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/g4config.in"
                   }
                 }
               ]
@@ -5815,57 +5475,67 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-29T05:00:38Z",
-            "title": "GPU: Apple Metal backend, off by default",
-            "number": 15859,
+            "mergedAt": "2026-09-29T12:59:26Z",
+            "title": "ORT CI tests",
+            "number": 15792,
             "author": {
-              "login": "ktf"
+              "login": "ChSonnabend"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/CMakeLists.txt"
+                    "path": "Common/ML/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMETAL.metal"
+                    "path": "Common/ML/test/onnxruntime-inference/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetal.h"
+                    "path": "Common/ML/test/onnxruntime-inference/net.onnx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetal.mm"
+                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalIncludesHost.h"
+                    "path": "Common/ML/test/onnxruntime-inference/run-ci-onnxruntime-inference-test.sh"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalKernels.mm"
+                    "path": "Common/ML/test/onnxruntime-inference/run-local-onnxruntime-inference-test.sh"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalKernelsSpecialize.inc"
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-all-eps.sh"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cpu.sh"
                   }
                 },
                 {
                   "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cuda.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-migraphx.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-tensorrt.sh"
                   }
                 }
               ]
