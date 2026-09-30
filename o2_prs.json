@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-15T08:40:40Z",
-            "title": "Handle new CCDB setup by avoiding hardcoding the CCDB url",
-            "number": 15779,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/src/NameConf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPTool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/getRunParameters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/create-grp-ecs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-15T09:00:07Z",
             "title": "[ALICE3] Fix some overlaps between services and supports",
             "number": 15793,
@@ -4824,216 +4779,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "o2-sim: VecGeom navigation mode for Geant4",
-            "number": 15865,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/GeometryManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/GeometryManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/g4Config.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/include/SimSetup/VecGeomNavigation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomChecks.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomChecks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Map.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Map.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding",
-            "number": 15864,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/include/CPVSimulation/GeometryParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Creator/src/Station1Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/simulation/include/PHOSSimulation/GeometryParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/simulation/src/GeometryParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/include/DetectorsPassive/FrameStructure.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Passive/src/FrameStructure.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/Geo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Geo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/GeometryBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-29T10:09:20Z",
             "title": "Extend RecoContainer to support ITS and MFT cluster access per layer",
@@ -5066,111 +4811,6 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-29T12:59:26Z",
-            "title": "ORT CI tests",
-            "number": 15792,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/ML/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/net.onnx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-ci-onnxruntime-inference-test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-local-onnxruntime-inference-test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-all-eps.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cpu.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cuda.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-migraphx.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-tensorrt.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: give Metal an IEEE-754 binary64 in software",
-            "number": 15866,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDouble.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDoubleBinary64.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]
@@ -5389,26 +5029,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix the MFT half-disk 3 support pockets to match the technical drawing",
-            "number": 15868,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/src/Support.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-29T19:34:25Z",
             "title": "Restrict the TRD PAI model to 14 particle species",
@@ -5476,36 +5096,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-09-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-09-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: add support for writing general Metadata to AO2D",
             "number": 15553,
             "author": {
@@ -5551,6 +5141,391 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-sim: VecGeom navigation mode for Geant4",
+            "number": 15865,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/GeometryManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GeometryManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/g4Config.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/include/SimSetup/VecGeomNavigation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomChecks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomChecks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Map.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Map.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-30T06:56:49Z",
+            "title": "Fix the MFT half-disk 3 support pockets to match the technical drawing",
+            "number": 15868,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/base/src/Support.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-30T06:57:29Z",
+            "title": "Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding",
+            "number": 15864,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/include/CPVSimulation/GeometryParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Geometry/Creator/src/Station1Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/include/PHOSSimulation/GeometryParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/src/GeometryParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/include/DetectorsPassive/FrameStructure.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Passive/src/FrameStructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/Geo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/Geo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/GeometryBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-09-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-09-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-29T12:59:26Z",
+            "title": "ORT CI tests",
+            "number": 15792,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/net.onnx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-ci-onnxruntime-inference-test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-local-onnxruntime-inference-test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-all-eps.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cpu.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-cuda.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-migraphx.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/run-onnxruntime-tensorrt.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix CI test script",
+            "number": 15870,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/ML/test/onnxruntime-inference/onnxruntime_ep_inference.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: give Metal an IEEE-754 binary64 in software",
+            "number": 15866,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDouble.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDoubleBinary64.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]

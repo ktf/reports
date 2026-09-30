@@ -8,7 +8,6 @@
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15772](https://github.com/AliceO2Group/AliceO2/pull/15772) 2026-09-15: GPU: Metal branches in the common definition macros by [@ktf](https://github.com/ktf)
-- [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#15794](https://github.com/AliceO2Group/AliceO2/pull/15794) 2026-09-16: GPU: provide the std type_traits subset used on Metal by [@ktf](https://github.com/ktf)
@@ -28,7 +27,6 @@
 - [\#15855](https://github.com/AliceO2Group/AliceO2/pull/15855) 2026-09-28: Fix memory deletion for bufferptr in SerializedInfo/RootSerializableK… by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - DataFormats
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
-- [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15819](https://github.com/AliceO2Group/AliceO2/pull/15819) 2026-09-19: fix int/uint comparison by [@shahor02](https://github.com/shahor02)
@@ -44,7 +42,6 @@
 - [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15749](https://github.com/AliceO2Group/AliceO2/pull/15749) 2026-09-15: TPC VDrift: make VDriftHelper usable outside DPL (e.g. O2Physics) by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15779](https://github.com/AliceO2Group/AliceO2/pull/15779) 2026-09-15: Handle new CCDB setup by avoiding hardcoding the CCDB url by [@ktf](https://github.com/ktf)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15788](https://github.com/AliceO2Group/AliceO2/pull/15788) 2026-09-17: [EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster` by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15793](https://github.com/AliceO2Group/AliceO2/pull/15793) 2026-09-15: [ALICE3] Fix some overlaps between services and supports by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
@@ -78,6 +75,8 @@
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
 - [\#15862](https://github.com/AliceO2Group/AliceO2/pull/15862) 2026-09-29: Add the electron NIEL damage weights by [@sawenzel](https://github.com/sawenzel)
 - [\#15863](https://github.com/AliceO2Group/AliceO2/pull/15863) 2026-09-29: Restrict the TRD PAI model to 14 particle species by [@sawenzel](https://github.com/sawenzel)
+- [\#15864](https://github.com/AliceO2Group/AliceO2/pull/15864) 2026-09-30: Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding by [@sawenzel](https://github.com/sawenzel)
+- [\#15868](https://github.com/AliceO2Group/AliceO2/pull/15868) 2026-09-30: Fix the MFT half-disk 3 support pockets to match the technical drawing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
