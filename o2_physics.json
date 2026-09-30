@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGEM] Revert using ccdb column to get magnetic field",
-            "number": 18059,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGammaMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-25T15:57:00Z",
             "title": "[PWGCF] Add efficiency corrections and rename and redesign some features",
@@ -3501,26 +3471,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Refactor recoed V0 analysis in derivedlambdakzeroanalysis",
-            "number": 18128,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Restore slicing on tracked cascades in strangederivedbuilder",
             "number": 18127,
             "author": {
@@ -3531,51 +3481,6 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/Strangeness/strangederivedbuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Improvements on efficiency correction",
-            "number": 18120,
-            "author": {
-              "login": "meiALICE"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCorrelationsMei.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] update upcRhoPrimeAnalysis - RD and MC",
-            "number": 18115,
-            "author": {
-              "login": "CesarOmarRA"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcRhoPrimeAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcVmRof.cxx"
                   }
                 }
               ]
@@ -3601,46 +3506,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TableProducer/filterCorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] JCorran: Add nonflow SPC correlators and a smaller Q-vector f…",
-            "number": 18116,
-            "author": {
-              "login": "nmallick19"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/FlowJSPCAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/FlowJSPCAnalysis.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/FlowJSPCObservables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Core/JQVectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/JCorran/Tasks/flowJSPCAnalysis.cxx"
                   }
                 }
               ]
@@ -3716,16 +3581,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Add selectINELgtN in hStrangeCorrelation.cxx",
-            "number": 18123,
+            "title": "[PWGHF] First draft of Omegac0 to OmegaPi QA workflow",
+            "number": 18126,
             "author": {
-              "login": "kcui1"
+              "login": "mtorresc15"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "PWGHF/Core/HfMlResponseOmegacToOmegaPiQa.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskOmegac0ToOmegaPiQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPiQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegac0ToOmegaPiQa.cxx"
                   }
                 }
               ]
@@ -3821,31 +3701,141 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] First draft of Omegac0 to OmegaPi QA workflow",
-            "number": 18126,
+            "title": "[PWGCF] Improvements on efficiency correction",
+            "number": 18120,
             "author": {
-              "login": "mtorresc15"
+              "login": "meiALICE"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/Core/HfMlResponseOmegacToOmegaPiQa.h"
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCorrelationsMei.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] JCorran: Add nonflow SPC correlators and a smaller Q-vector f…",
+            "number": 18116,
+            "author": {
+              "login": "nmallick19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Core/FlowJSPCAnalysis.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/D2H/Tasks/taskOmegac0ToOmegaPiQa.cxx"
+                    "path": "PWGCF/JCorran/Core/FlowJSPCAnalysis.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorOmegac0ToOmegaPiQa.cxx"
+                    "path": "PWGCF/JCorran/Core/FlowJSPCObservables.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegac0ToOmegaPiQa.cxx"
+                    "path": "PWGCF/JCorran/Core/JQVectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/JCorran/Tasks/flowJSPCAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Refactor recoed V0 analysis in derivedlambdakzeroanalysis",
+            "number": 18128,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-09-30T21:52:30Z",
+            "title": "[PWGLF] Add selectINELgtN in hStrangeCorrelation.cxx",
+            "number": 18123,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] update upcRhoPrimeAnalysis - RD and MC",
+            "number": 18115,
+            "author": {
+              "login": "CesarOmarRA"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcRhoPrimeAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcVmRof.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] radialFlowDecorr: remove FT0 and Nch-[pT] covariance, clarify C3 pair/single maps, fix cfgSystType help",
+            "number": 18130,
+            "author": {
+              "login": "somabhatta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
                   }
                 }
               ]
