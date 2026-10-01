@@ -4,12 +4,10 @@
 - [\#15835](https://github.com/AliceO2Group/AliceO2/pull/15835) 2026-09-25: GPU: three additional Metal adaptations by [@ktf](https://github.com/ktf)
 - [\#15837](https://github.com/AliceO2Group/AliceO2/pull/15837) 2026-09-24: GPU: route noexcept through GPUnoexcept() for Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
 - [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15819](https://github.com/AliceO2Group/AliceO2/pull/15819) 2026-09-19: fix int/uint comparison by [@shahor02](https://github.com/shahor02)
@@ -22,10 +20,10 @@
 - [\#15843](https://github.com/AliceO2Group/AliceO2/pull/15843) 2026-09-25: o2-sim: Fixes, code refactor, simplification and performance enhancement by [@sawenzel](https://github.com/sawenzel)
 - [\#15850](https://github.com/AliceO2Group/AliceO2/pull/15850) 2026-09-25: GPU: extend two existing OpenCL device workarounds to Metal by [@ktf](https://github.com/ktf)
 - [\#15855](https://github.com/AliceO2Group/AliceO2/pull/15855) 2026-09-28: Fix memory deletion for bufferptr in SerializedInfo/RootSerializableK… by [@f3sch](https://github.com/f3sch)
+- [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15870](https://github.com/AliceO2Group/AliceO2/pull/15870) 2026-09-30: Fix ORT CI test script by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
-- [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
 - [\#15819](https://github.com/AliceO2Group/AliceO2/pull/15819) 2026-09-19: fix int/uint comparison by [@shahor02](https://github.com/shahor02)
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
@@ -36,15 +34,12 @@
 - [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#15615](https://github.com/AliceO2Group/AliceO2/pull/15615) 2026-09-16: TPC: add UseGeant4Edep ionisation-fluctuation flag for Kr-83m calibration simulations by [@Ankyyadav](https://github.com/Ankyyadav)
 - [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15788](https://github.com/AliceO2Group/AliceO2/pull/15788) 2026-09-17: [EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster` by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15796](https://github.com/AliceO2Group/AliceO2/pull/15796) 2026-09-21: [MUON] fix computation of delta phi in MFT-MCH matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#15799](https://github.com/AliceO2Group/AliceO2/pull/15799) 2026-09-23: TRD: using slope to correct y position and reject more fakes by [@glegras](https://github.com/glegras)
-- [\#15802](https://github.com/AliceO2Group/AliceO2/pull/15802) 2026-09-17: TPC: place shared constants in the Metal constant address space by [@ktf](https://github.com/ktf)
-- [\#15804](https://github.com/AliceO2Group/AliceO2/pull/15804) 2026-09-17: [TF3] Improve digit efficiency in stepping by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15809](https://github.com/AliceO2Group/AliceO2/pull/15809) 2026-09-17: Place the space-frame sectors explicitly instead of dividing BBMO by [@sawenzel](https://github.com/sawenzel)
 - [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15816](https://github.com/AliceO2Group/AliceO2/pull/15816) 2026-09-22: Prepare for new ROOT by [@aalkin](https://github.com/aalkin)
@@ -71,6 +66,7 @@
 - [\#15862](https://github.com/AliceO2Group/AliceO2/pull/15862) 2026-09-29: Add the electron NIEL damage weights by [@sawenzel](https://github.com/sawenzel)
 - [\#15863](https://github.com/AliceO2Group/AliceO2/pull/15863) 2026-09-29: Restrict the TRD PAI model to 14 particle species by [@sawenzel](https://github.com/sawenzel)
 - [\#15864](https://github.com/AliceO2Group/AliceO2/pull/15864) 2026-09-30: Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding by [@sawenzel](https://github.com/sawenzel)
+- [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15868](https://github.com/AliceO2Group/AliceO2/pull/15868) 2026-09-30: Fix the MFT half-disk 3 support pockets to match the technical drawing by [@sawenzel](https://github.com/sawenzel)
 - [\#15873](https://github.com/AliceO2Group/AliceO2/pull/15873) 2026-09-30: Resolve the TRD chamber by name when chamber assemblies have no volume id by [@sawenzel](https://github.com/sawenzel)
 - [\#15874](https://github.com/AliceO2Group/AliceO2/pull/15874) 2026-09-30: Use std::abs for floating-point values in TRD and ITS studies by [@sawenzel](https://github.com/sawenzel)
@@ -78,7 +74,6 @@
 ## Recent developments in O2 - Examples
 - [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
-- [\#15795](https://github.com/AliceO2Group/AliceO2/pull/15795) 2026-09-17: Harden bulk TTree reads against corrupted baskets by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15829](https://github.com/AliceO2Group/AliceO2/pull/15829) 2026-09-22: Improve ability to sync analysis wagons options with the current release values by [@ktf](https://github.com/ktf)
 - [\#15856](https://github.com/AliceO2Group/AliceO2/pull/15856) 2026-09-28: Fix ClassDef compilation warning by [@vkucera](https://github.com/vkucera)
