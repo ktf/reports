@@ -21,6 +21,7 @@
 - [\#15850](https://github.com/AliceO2Group/AliceO2/pull/15850) 2026-09-25: GPU: extend two existing OpenCL device workarounds to Metal by [@ktf](https://github.com/ktf)
 - [\#15855](https://github.com/AliceO2Group/AliceO2/pull/15855) 2026-09-28: Fix memory deletion for bufferptr in SerializedInfo/RootSerializableK… by [@f3sch](https://github.com/f3sch)
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
+- [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 - [\#15870](https://github.com/AliceO2Group/AliceO2/pull/15870) 2026-09-30: Fix ORT CI test script by [@ChSonnabend](https://github.com/ChSonnabend)
 ## Recent developments in O2 - DataFormats
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
@@ -33,6 +34,7 @@
 - [\#15853](https://github.com/AliceO2Group/AliceO2/pull/15853) 2026-09-26: Fix couple of invalid debug print arguments by [@davidrohr](https://github.com/davidrohr)
 - [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
+- [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
@@ -40,7 +42,6 @@
 - [\#15788](https://github.com/AliceO2Group/AliceO2/pull/15788) 2026-09-17: [EMCAL-688] Improve ClusterFactory `evalDispersion` function and fix bug in `buildCluster` by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#15796](https://github.com/AliceO2Group/AliceO2/pull/15796) 2026-09-21: [MUON] fix computation of delta phi in MFT-MCH matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#15799](https://github.com/AliceO2Group/AliceO2/pull/15799) 2026-09-23: TRD: using slope to correct y position and reject more fakes by [@glegras](https://github.com/glegras)
-- [\#15809](https://github.com/AliceO2Group/AliceO2/pull/15809) 2026-09-17: Place the space-frame sectors explicitly instead of dividing BBMO by [@sawenzel](https://github.com/sawenzel)
 - [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15816](https://github.com/AliceO2Group/AliceO2/pull/15816) 2026-09-22: Prepare for new ROOT by [@aalkin](https://github.com/aalkin)
 - [\#15818](https://github.com/AliceO2Group/AliceO2/pull/15818) 2026-09-21: GPUTracking: place the remaining cluster-finder constants in the constant address space by [@ktf](https://github.com/ktf)
@@ -71,6 +72,7 @@
 - [\#15873](https://github.com/AliceO2Group/AliceO2/pull/15873) 2026-09-30: Resolve the TRD chamber by name when chamber assemblies have no volume id by [@sawenzel](https://github.com/sawenzel)
 - [\#15874](https://github.com/AliceO2Group/AliceO2/pull/15874) 2026-09-30: Use std::abs for floating-point values in TRD and ITS studies by [@sawenzel](https://github.com/sawenzel)
 - [\#15876](https://github.com/AliceO2Group/AliceO2/pull/15876) 2026-10-01: Fix the vertical position of IB FPC resistors by [@mario6829](https://github.com/mario6829)
+- [\#15885](https://github.com/AliceO2Group/AliceO2/pull/15885) 2026-10-01: Cosmetic fix for FT3 GeometryTGeo to pass codechecker by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
