@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-29T08:55:56Z",
-            "title": "[PWGHF] Add centrality axis for secondary track contamination",
-            "number": 18082,
-            "author": {
-              "login": "ayankrmanna"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-29T11:08:45Z",
             "title": "[PWGCF] Add Fox-Wolfram correlation analysis task",
             "number": 18085,
@@ -2434,51 +2409,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common,Tutorial,PWGEM] Include headers needed by `DECLARE_SOA_CCDB_COLUMN...`",
-            "number": 18129,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/GloCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TpcCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/EventTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/bcWiseTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/ccdbtableaccess.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-09-30T17:33:40Z",
             "title": "[PWGUD] fix zdc gapside selection",
@@ -3846,6 +3776,101 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Common] Updated chain to analyze ZDC in light ion systems",
+            "number": 18131,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/ZDCLightIons.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/zdcTableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Lambda spin analysis",
+            "number": 18159,
+            "author": {
+              "login": "Akash-Raj-285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaOrAntiLambdaProducerWithSpin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-03T00:53:41Z",
+            "title": "[Common,Tutorial,PWGEM] Include headers needed by `DECLARE_SOA_CCDB_COLUMN...`",
+            "number": 18129,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/GloCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TpcCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/TrackTunerCCDBObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/EventTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/bcWiseTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/ccdbtableaccess.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[PWGHF] Adding : ML and skimming in correlator + other minor change",
             "number": 18125,
             "author": {
@@ -3871,36 +3896,6 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationDplusDplusReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Updated chain to analyze ZDC in light ion systems",
-            "number": 18131,
-            "author": {
-              "login": "coppedis"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/ZDCLightIons.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/zdcTableReader.cxx"
                   }
                 }
               ]
