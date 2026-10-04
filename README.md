@@ -36,7 +36,6 @@
 - [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
-- [\#15796](https://github.com/AliceO2Group/AliceO2/pull/15796) 2026-09-21: [MUON] fix computation of delta phi in MFT-MCH matching by [@aferrero2707](https://github.com/aferrero2707)
 - [\#15799](https://github.com/AliceO2Group/AliceO2/pull/15799) 2026-09-23: TRD: using slope to correct y position and reject more fakes by [@glegras](https://github.com/glegras)
 - [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15816](https://github.com/AliceO2Group/AliceO2/pull/15816) 2026-09-22: Prepare for new ROOT by [@aalkin](https://github.com/aalkin)
