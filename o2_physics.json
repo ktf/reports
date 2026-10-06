@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-01T02:18:15Z",
-            "title": "[Infrastructure] Update CODEOWNERS of UD code",
-            "number": 18119,
-            "author": {
-              "login": "rolavick"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-01T02:31:52Z",
             "title": "[PWGLF] Refactor recoed V0 analysis in derivedlambdakzeroanalysis",
             "number": 18128,
@@ -3244,36 +3224,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add K0s to the He3 correlation analysis",
-            "number": 18192,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFSlimHeLambda.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/he3LambdaAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/he3LambdaDerivedAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-06T14:58:37Z",
             "title": "[PWGLF] Fix MC association check in derivedlambdakzeroanalysis",
@@ -3401,31 +3351,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Hadron Associated Particle Correlation Task added",
-            "number": 18190,
-            "author": {
-              "login": "rahulverma012"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/hParticleCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] update dqeff direct",
             "number": 18191,
             "author": {
@@ -3456,21 +3381,21 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix derived UPC analysis and add Lambda feeddown histograms",
-            "number": 18181,
+            "title": "[PWGCF] Hadron Associated Particle Correlation Task added",
+            "number": 18190,
             "author": {
-              "login": "nepeivodaRS"
+              "login": "rahulverma012"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascpostprocessing.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Strangeness/derivedupcanalysis.cxx"
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/hParticleCorrelation.cxx"
                   }
                 }
               ]
@@ -3479,8 +3404,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2026-10-06T20:18:32Z",
             "title": "[PWGCF] Updates in femto framework",
             "number": 18194,
             "author": {
@@ -3591,6 +3516,96 @@
                 {
                   "node": {
                     "path": "PWGCF/Femto/TableProducer/femtoProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fixed pT handling and minor fixes for Sigma-/+ in Femto framework",
+            "number": 18197,
+            "author": {
+              "login": "hfribert"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/femtoUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/kinkBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/kinkHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerKinkPtConverter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-06T20:28:41Z",
+            "title": "[PWGLF] Add K0s to the He3 correlation analysis",
+            "number": 18192,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimHeLambda.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/he3LambdaAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/he3LambdaDerivedAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-06T21:05:10Z",
+            "title": "[PWGLF] Fix derived UPC analysis and add Lambda feeddown histograms",
+            "number": 18181,
+            "author": {
+              "login": "nepeivodaRS"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascpostprocessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedupcanalysis.cxx"
                   }
                 }
               ]

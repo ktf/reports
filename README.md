@@ -42,7 +42,6 @@
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15827](https://github.com/AliceO2Group/AliceO2/pull/15827) 2026-09-24: [ALICE 3] FT3 digitization: Change axis convention in disc sensors by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15831](https://github.com/AliceO2Group/AliceO2/pull/15831) 2026-09-23: Use the LHC orbit duration for CTP scaler rates by [@sawenzel](https://github.com/sawenzel)
-- [\#15832](https://github.com/AliceO2Group/AliceO2/pull/15832) 2026-09-23: Fix out-of-range BC slice for ambiguous tracks past the last BC by [@sawenzel](https://github.com/sawenzel)
 - [\#15838](https://github.com/AliceO2Group/AliceO2/pull/15838) 2026-09-24: Write tracked V0s, cascades and 3-bodies in collision order by [@sawenzel](https://github.com/sawenzel)
 - [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15840](https://github.com/AliceO2Group/AliceO2/pull/15840) 2026-09-25: Give the MFT support volume a name of its own by [@sawenzel](https://github.com/sawenzel)
