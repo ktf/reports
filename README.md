@@ -5,6 +5,7 @@
 - [\#15837](https://github.com/AliceO2Group/AliceO2/pull/15837) 2026-09-24: GPU: route noexcept through GPUnoexcept() for Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -20,10 +21,10 @@
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 - [\#15870](https://github.com/AliceO2Group/AliceO2/pull/15870) 2026-09-30: Fix ORT CI test script by [@ChSonnabend](https://github.com/ChSonnabend)
+- [\#15887](https://github.com/AliceO2Group/AliceO2/pull/15887) 2026-10-06: Make the VecGeom navigation mode of o2-sim faster with safety bounds and MultiUnions by [@sawenzel](https://github.com/sawenzel)
 - [\#15891](https://github.com/AliceO2Group/AliceO2/pull/15891) 2026-10-05: GPU: refuse deterministic mode on Metal by [@ktf](https://github.com/ktf)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15831](https://github.com/AliceO2Group/AliceO2/pull/15831) 2026-09-23: Use the LHC orbit duration for CTP scaler rates by [@sawenzel](https://github.com/sawenzel)
 - [\#15844](https://github.com/AliceO2Group/AliceO2/pull/15844) 2026-09-25: Fix compiler warnings and errors related to dictionaries by [@sawenzel](https://github.com/sawenzel)
@@ -37,14 +38,12 @@
 ## Recent developments in O2 - Detectors
 - [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
-- [\#15748](https://github.com/AliceO2Group/AliceO2/pull/15748) 2026-09-23: [TF3] Implement cluster finder for multiple digits in same chip by [@Marcellocosti](https://github.com/Marcellocosti)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15799](https://github.com/AliceO2Group/AliceO2/pull/15799) 2026-09-23: TRD: using slope to correct y position and reject more fakes by [@glegras](https://github.com/glegras)
 - [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15827](https://github.com/AliceO2Group/AliceO2/pull/15827) 2026-09-24: [ALICE 3] FT3 digitization: Change axis convention in disc sensors by [@marcovanleeuwen](https://github.com/marcovanleeuwen)
 - [\#15828](https://github.com/AliceO2Group/AliceO2/pull/15828) 2026-09-23: [ALICE 3] FT3 fix magnetic field silently disabled when FT3 is active by [@bulukutlu](https://github.com/bulukutlu)
-- [\#15830](https://github.com/AliceO2Group/AliceO2/pull/15830) 2026-09-22: GPU: more constexpr cleanups to support Metal by [@ktf](https://github.com/ktf)
 - [\#15831](https://github.com/AliceO2Group/AliceO2/pull/15831) 2026-09-23: Use the LHC orbit duration for CTP scaler rates by [@sawenzel](https://github.com/sawenzel)
 - [\#15832](https://github.com/AliceO2Group/AliceO2/pull/15832) 2026-09-23: Fix out-of-range BC slice for ambiguous tracks past the last BC by [@sawenzel](https://github.com/sawenzel)
 - [\#15838](https://github.com/AliceO2Group/AliceO2/pull/15838) 2026-09-24: Write tracked V0s, cascades and 3-bodies in collision order by [@sawenzel](https://github.com/sawenzel)
@@ -70,6 +69,7 @@
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 - [\#15884](https://github.com/AliceO2Group/AliceO2/pull/15884) 2026-10-02: [ALICE3] IOTOF: Make timing response independent for different pixels by [@maciacco](https://github.com/maciacco)
 - [\#15885](https://github.com/AliceO2Group/AliceO2/pull/15885) 2026-10-01: Cosmetic fix for FT3 GeometryTGeo to pass codechecker by [@shahor02](https://github.com/shahor02)
+- [\#15887](https://github.com/AliceO2Group/AliceO2/pull/15887) 2026-10-06: Make the VecGeom navigation mode of o2-sim faster with safety bounds and MultiUnions by [@sawenzel](https://github.com/sawenzel)
 - [\#15889](https://github.com/AliceO2Group/AliceO2/pull/15889) 2026-10-02: Document how to combine a CAD module with built-in detectors by [@sawenzel](https://github.com/sawenzel)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
@@ -78,6 +78,7 @@
 - [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
+- [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 - [\#15856](https://github.com/AliceO2Group/AliceO2/pull/15856) 2026-09-28: Fix ClassDef compilation warning by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Generators
 - [\#15808](https://github.com/AliceO2Group/AliceO2/pull/15808) 2026-09-17: Give box-gun primaries weight 1 in o2-sim by [@sawenzel](https://github.com/sawenzel)
