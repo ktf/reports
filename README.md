@@ -70,6 +70,7 @@
 - [\#15894](https://github.com/AliceO2Group/AliceO2/pull/15894) 2026-10-06: MatchCosmics: propagate the seed covariance to the DCA by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 - [\#15902](https://github.com/AliceO2Group/AliceO2/pull/15902) 2026-10-06: simple end-of-stave cards for ML barrel by [@altsybee](https://github.com/altsybee)
+- [\#15905](https://github.com/AliceO2Group/AliceO2/pull/15905) 2026-10-07: simple EoS cards for disks by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
