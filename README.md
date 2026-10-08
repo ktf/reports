@@ -1,16 +1,12 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#15835](https://github.com/AliceO2Group/AliceO2/pull/15835) 2026-09-25: GPU: three additional Metal adaptations by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
 - [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
-- [\#15835](https://github.com/AliceO2Group/AliceO2/pull/15835) 2026-09-25: GPU: three additional Metal adaptations by [@ktf](https://github.com/ktf)
 - [\#15843](https://github.com/AliceO2Group/AliceO2/pull/15843) 2026-09-25: o2-sim: Fixes, code refactor, simplification and performance enhancement by [@sawenzel](https://github.com/sawenzel)
 - [\#15850](https://github.com/AliceO2Group/AliceO2/pull/15850) 2026-09-25: GPU: extend two existing OpenCL device workarounds to Metal by [@ktf](https://github.com/ktf)
 - [\#15855](https://github.com/AliceO2Group/AliceO2/pull/15855) 2026-09-28: Fix memory deletion for bufferptr in SerializedInfo/RootSerializableK… by [@f3sch](https://github.com/f3sch)
@@ -34,7 +30,6 @@
 - [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
 - [\#15781](https://github.com/AliceO2Group/AliceO2/pull/15781) 2026-09-25: ITSMFT: unify cellular automaton tracking for ITS and MFT by [@mpuccio](https://github.com/mpuccio)
-- [\#15812](https://github.com/AliceO2Group/AliceO2/pull/15812) 2026-09-18: Parallel Geant4 scoring and NIEL clamp by [@sawenzel](https://github.com/sawenzel)
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15840](https://github.com/AliceO2Group/AliceO2/pull/15840) 2026-09-25: Give the MFT support volume a name of its own by [@sawenzel](https://github.com/sawenzel)

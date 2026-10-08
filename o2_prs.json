@@ -5,136 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-18T08:23:53Z",
-            "title": "Parallel Geant4 scoring and NIEL clamp",
-            "number": 15812,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/FluenceWeightCalculator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/G4ScoringMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/FluenceWeightCalculator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/G4ScoringMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/g4Config.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDeviceRunner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_mergeg4scoring.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Stability fixes for o2-sim",
-            "number": 15842,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/include/Steer/O2MCApplication.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2HitMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-25T08:31:26Z",
-            "title": "GPU: three additional Metal adaptations",
-            "number": 15835,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SectorTracker/GPUTPCTrackParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-25T06:18:14Z",
             "title": "Give the MFT support volume a name of its own",
             "number": 15840,
@@ -5054,41 +4924,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD: improve anchoring using CCDB objects",
-            "number": 15890,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Implement pools chaining via TChain + example and test macro",
             "number": 15688,
             "author": {
@@ -5457,56 +5292,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPU: give Metal a column in the tuning parameter table",
-            "number": 15886,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC track reader: do not accumulate MC labels over entries",
-            "number": 15910,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/readers/src/TrackReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-07T21:27:09Z",
             "title": "Avoid noise from misc-include-cleaner",
@@ -5569,6 +5354,141 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "TPC track reader: do not accumulate MC labels over entries",
+            "number": 15910,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/readers/src/TrackReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: improve anchoring using CCDB objects",
+            "number": 15890,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: explicitly mark lambdas as constexpr/consteval",
+            "number": 15625,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/cache from 5 to 6",
+            "number": 15566,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/reports.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bump actions/checkout from 5 to 7",
+            "number": 15546,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/doxygen.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/release.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/reports.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -5589,6 +5509,36 @@
                 {
                   "node": {
                     "path": "doc/data/2026-10-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: give Metal a column in the tuning parameter table",
+            "number": 15886,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
