@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-05T13:53:55Z",
-            "title": "[PWGLF] Refactor track selection and update rapidity cuts, commented long LOGF entries",
-            "number": 18172,
-            "author": {
-              "login": "hkoley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Resonances/hResonanceCorrelationFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/hResonanceCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-05T16:58:18Z",
             "title": "[PWGHF] Add bdt information in 2pc sparse",
             "number": 18178,
@@ -2876,26 +2851,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGUD] Resolving PID issues",
-            "number": 18209,
-            "author": {
-              "login": "JosueMtzGar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcPhotonuclearAnalysisJMG.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] TwoParticleCorrelationsMultSpher",
             "number": 18137,
             "author": {
@@ -2996,31 +2951,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] store signed pt of the candidate, swap hardcoded pdg codes for PDG_t",
-            "number": 18235,
-            "author": {
-              "login": "GiorgioAlbertoLucia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
                   }
                 }
               ]
@@ -3356,41 +3286,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Adding : ML and skimming in correlator + other minor change",
-            "number": 18125,
-            "author": {
-              "login": "VDiBella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/ReducedDMesonPairsTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDplusDplusReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusDplusReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Scripts] Remove deprecated formatting script",
             "number": 18239,
             "author": {
@@ -3436,26 +3331,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fixed the issue of histograms not being found",
-            "number": 18240,
-            "author": {
-              "login": "Preet-Bhanjan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Infrastructure,Scripts] Add more pre-commit hooks",
             "number": 18232,
             "author": {
@@ -3481,6 +3356,126 @@
                 {
                   "node": {
                     "path": "Scripts/o2_linter.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fixed the issue of histograms not being found",
+            "number": 18240,
+            "author": {
+              "login": "Preet-Bhanjan"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidLongRange.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] treeCreatorPidTpcDiagnostics: reduce output tree size",
+            "number": 18241,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/treeCreatorPidTpcDiagnostics.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding : ML and skimming in correlator + other minor change",
+            "number": 18125,
+            "author": {
+              "login": "VDiBella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/ReducedDMesonPairsTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusDplusReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusDplusReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] store signed pt of the candidate, swap hardcoded pdg codes for PDG_t",
+            "number": 18235,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFDoubleOmegaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Strangeness/doubleOmegaTreeCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGUD] Resolving PID issues",
+            "number": 18209,
+            "author": {
+              "login": "JosueMtzGar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/upcPhotonuclearAnalysisJMG.cxx"
                   }
                 }
               ]
