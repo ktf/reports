@@ -15,7 +15,6 @@
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
-- [\#15853](https://github.com/AliceO2Group/AliceO2/pull/15853) 2026-09-26: Fix couple of invalid debug print arguments by [@davidrohr](https://github.com/davidrohr)
 - [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
 - [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
@@ -61,8 +60,6 @@
 - [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Examples
-- [\#15847](https://github.com/AliceO2Group/AliceO2/pull/15847) 2026-09-27: Fix Hybrid example including new HepMC parameters by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Framework
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)

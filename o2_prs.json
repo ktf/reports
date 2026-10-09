@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-26T06:28:27Z",
-            "title": "GPU: Minor improvements",
-            "number": 15851,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-26T10:30:04Z",
-            "title": "Fix couple of invalid debug print arguments",
-            "number": 15853,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Vertex.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionDeviceBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionIO.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxTrackTopologyPol.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-27T07:04:06Z",
-            "title": "Fix Hybrid example including new HepMC parameters",
-            "number": 15847,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/SimExamples/Hybrid/hybridconfig.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-28T07:11:47Z",
             "title": "[ALICE3] IOTOF: make sensor thickness configurable in geometry definition",
             "number": 15848,
@@ -3879,51 +3794,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GPU/Standalone: Compute checksum of dumped data",
-            "number": 15908,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/utils/HashStreamBuf.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[WIP] Implementation for TMVA SOFIE running on GPUs",
             "number": 15913,
             "author": {
@@ -4219,61 +4089,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add support for writing general Metadata to AO2D",
-            "number": 15553,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TPC: Improve standalone dEdx calculation class",
             "number": 15650,
             "author": {
@@ -4324,41 +4139,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TRD: improve anchoring using CCDB objects",
-            "number": 15890,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
                   }
                 }
               ]
@@ -4427,26 +4207,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-08T23:06:09Z",
-            "title": "GPU: Fix parameters for RDNA",
-            "number": 15917,
-            "author": {
-              "login": "fweig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[O2-7038] DPL Analysis: correction for tpcNClsFindable overflow",
@@ -4459,121 +4219,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "MatchCosmics: cosmics in collision data + raw-cluster writer with TOF",
-            "number": 15915,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/TrackCosmicsExtended.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/DataFormatsGlobalTrackingLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchCosmics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchCosmicsParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchCosmics.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchCosmicsParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/CosmicsClusterCollectorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/CosmicsMatchingSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/TrackCosmicsWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/CosmicsClusterCollectorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/CosmicsMatchingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TrackCosmicsWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/cosmics-match-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
                   }
                 }
               ]
@@ -4634,26 +4279,171 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings",
+            "number": 15916,
             "author": {
-              "login": "github-actions"
+              "login": "jackal1-66"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
+                    "path": "Detectors/gconfig/data/extra_ions_pdg_table.dat"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/o2sim.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline",
+            "number": 15918,
+            "author": {
+              "login": "cima22"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ClusterLines.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ITSTrackingConfigParam.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adjustments for orbit shifts for other MCs done with MC-prod-v12",
+            "number": 15919,
+            "author": {
+              "login": "altsybee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-08T23:06:09Z",
+            "title": "GPU: Fix parameters for RDNA",
+            "number": 15917,
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/Parameters/GPUParameters.csv"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: improve anchoring using CCDB objects",
+            "number": 15890,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
                   }
                 }
               ]
@@ -4784,31 +4574,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings",
-            "number": 15916,
+            "title": "DPL: add support for writing general Metadata to AO2D",
+            "number": 15553,
             "author": {
-              "login": "jackal1-66"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/gconfig/data/extra_ions_pdg_table.dat"
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "macro/o2sim.C"
+                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
                   }
                 }
               ]
@@ -4833,32 +4643,17 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/Common/GPUCommonAlgorithmThrust.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/Common/GPUCommonDefAPI.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/Common/test/testGPUsortCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUReconstructionKernelMacros.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionThreading.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/test/testGPUsortHIP.hip"
                   }
                 },
                 {
@@ -4873,57 +4668,12 @@
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCDecompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Definitions/GPUDef.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SectorTracker/GPUTPCExtrapolationTracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SectorTracker/GPUTPCTrackletConstructor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFChargeMapFiller.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.cxx"
                   }
                 },
                 {
@@ -4934,21 +4684,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.inc"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDeconvolution.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFMCLabelFlattener.cxx"
                   }
                 },
                 {
@@ -4973,17 +4708,7 @@
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFStreamCompaction.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
                   }
                 },
                 {
@@ -4999,41 +4724,371 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline",
-            "number": 15918,
+            "title": "GPU/Standalone: Compute checksum of dumped data",
+            "number": 15908,
             "author": {
-              "login": "cima22"
+              "login": "fweig"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ClusterLines.h"
+                    "path": "GPU/GPUTracking/utils/HashStreamBuf.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: pass the work-item indices to the helpers that lack them",
+            "number": 15920,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonAlgorithm.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
+                    "path": "GPU/Common/GPUCommonAlgorithmThrust.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexUtils.h"
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFNoiseSuppression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFNoiseSuppression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFPeakFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFPeakFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MatchCosmics: cosmics in collision data + raw-cluster writer with TOF",
+            "number": 15915,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/TrackCosmicsExtended.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/DataFormatsGlobalTrackingLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackCosmics.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchCosmics.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchCosmicsParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchCosmics.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchCosmicsParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/CosmicsClusterCollectorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/CosmicsMatchingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/TrackCosmicsWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/CosmicsClusterCollectorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/CosmicsMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TrackCosmicsWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/cosmics-match-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamTest.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexBiasParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/DataFormatsCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/MeanVertexBiasParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/src/MeanVertexObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/StrangenessTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/CosmicsMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/SecondaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/StrangenessTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TOFMatcherSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCResidualWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ROFLookupTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
                   }
                 },
                 {
@@ -5043,17 +5098,177 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Constants.h"
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/TrackerSpec.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ITSTrackingConfigParam.h"
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/include/MFTWorkflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Tracking/src/TrackFinderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/SpacePointCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/include/TRDQC/Tracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/Tracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingQCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDRecoParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackletWord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
                   }
                 }
               ]
@@ -5099,6 +5314,36 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/IOTOFDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Option to provide marker/color per histo in residuals plot",
+            "number": 15921,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/CheckResidConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/check-resid-workflow.cxx"
                   }
                 }
               ]
