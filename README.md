@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -16,6 +15,7 @@
 - [\#15891](https://github.com/AliceO2Group/AliceO2/pull/15891) 2026-10-05: GPU: refuse deterministic mode on Metal by [@ktf](https://github.com/ktf)
 - [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
+- [\#15923](https://github.com/AliceO2Group/AliceO2/pull/15923) 2026-10-10: MathUtils: extend the OpenCL sincos workaround to Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
@@ -27,12 +27,10 @@
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Detectors
-- [\#15729](https://github.com/AliceO2Group/AliceO2/pull/15729) 2026-09-28: ITS3: fix inextensional model + opt. radial by [@f3sch](https://github.com/f3sch)
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15846](https://github.com/AliceO2Group/AliceO2/pull/15846) 2026-09-28: Fix minor reproducibility issues in TPC hit creation by [@sawenzel](https://github.com/sawenzel)
-- [\#15849](https://github.com/AliceO2Group/AliceO2/pull/15849) 2026-09-28: CAD simulation: Parallelize meshing and solid recognition; feedback fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#15852](https://github.com/AliceO2Group/AliceO2/pull/15852) 2026-09-28: Relax the Geant4 field epsilons outside the muon spectrometer and support local field parameters by [@sawenzel](https://github.com/sawenzel)
 - [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
@@ -65,7 +63,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 - [\#15856](https://github.com/AliceO2Group/AliceO2/pull/15856) 2026-09-28: Fix ClassDef compilation warning by [@vkucera](https://github.com/vkucera)
 - [\#15911](https://github.com/AliceO2Group/AliceO2/pull/15911) 2026-10-07: Avoid noise from misc-include-cleaner by [@ktf](https://github.com/ktf)

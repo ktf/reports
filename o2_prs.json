@@ -5,136 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-09-28T08:23:11Z",
-            "title": "ITS3: fix inextensional model + opt. radial",
-            "number": 15729,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/AlignmentDOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/AlignmentLabel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/AlignmentMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/MisalignmentUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/src/AlignmentDOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/src/AlignmentHierarchy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/src/AlignmentMath.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/alignment/src/MisalignmentUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/study/macros/PlotMisalignment.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/study/src/TrackingStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-28T11:37:01Z",
-            "title": "CAD simulation: Parallelize meshing and solid recognition; feedback fixes",
-            "number": 15849,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/O2_CADtoTGeo.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CADSupport/tools/cadsupport/hook.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-09-28T13:52:13Z",
-            "title": "Support skipping invalid timeframes across parent files",
-            "number": 15797,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-09-28T13:52:29Z",
             "title": "Fix memory deletion for bufferptr in SerializedInfo/RootSerializableK…",
             "number": 15855,
@@ -4674,36 +4544,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: add support for writing general Metadata to AO2D",
             "number": 15553,
             "author": {
@@ -4749,6 +4589,256 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline",
+            "number": 15918,
+            "author": {
+              "login": "cima22"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ClusterLines.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ITSTrackingConfigParam.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-09T18:59:32Z",
+            "title": "[TF3] Add efficiency, time resolution and ToA maps from ccdb",
+            "number": 15883,
+            "author": {
+              "login": "GiorgioAlbertoLucia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckTimeResolutionIOTOF.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/IOTOFDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ALICE3 Forward Detector update",
+            "number": 15791,
+            "author": {
+              "login": "pkurash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/ALICE3/FD3/include/DataFormatsFD3/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/FD3BaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/include/FD3Simulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Implement pools chaining + example and test macros",
+            "number": 15688,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/test/EventPoolTestUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/test/test_EventPoolChaining.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/test/test_GeneratorHybridEventPool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/EventPool_Chaining/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/EventPool_Chaining/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/EventPool_Chaining/rundpl.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
                   }
                 }
               ]
@@ -4879,61 +4969,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline",
-            "number": 15918,
+            "title": "DPL: fix DataDescriptorMatcher and the associated query builder",
+            "number": 15922,
             "author": {
-              "login": "cima22"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
+                    "path": "Framework/Core/src/DataDescriptorQueryBuilder.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                    "path": "Framework/Core/src/InputSpec.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/ClusterLines.h"
+                    "path": "Framework/Core/test/test_DataDescriptorMatcher.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-10T15:20:31Z",
+            "title": "MathUtils: extend the OpenCL sincos workaround to Metal",
+            "number": 15923,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Configuration.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ITSTrackingConfigParam.h"
+                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
                   }
                 }
               ]
@@ -4944,86 +5024,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Implement pools chaining + example and test macros",
-            "number": 15688,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
             "author": {
-              "login": "jackal1-66"
+              "login": "github-actions"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Generators/CMakeLists.txt"
+                    "path": "CHANGELOG.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/include/Generators/Generator.h"
+                    "path": "doc/data/2026-10-o2_prs.json"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFromFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/EventPoolTestUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/test_EventPoolChaining.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/test_GeneratorHybridEventPool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/rundpl.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/README.md"
+                    "path": "doc/data/2026-10-o2_releases.json"
                   }
                 }
               ]
@@ -5032,43 +5052,63 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-09T18:59:32Z",
-            "title": "[TF3] Add efficiency, time resolution and ToA maps from ccdb",
-            "number": 15883,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPUTracking: rename the cluster finder's fragment to frag",
+            "number": 15924,
             "author": {
-              "login": "GiorgioAlbertoLucia"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CMakeLists.txt"
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/macros/CheckTimeResolutionIOTOF.C"
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFChargeMapFiller.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Digitizer.h"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Steer/DigitizerWorkflow/src/IOTOFDigitizerSpec.cxx"
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinderDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
                   }
                 }
               ]
@@ -5104,56 +5144,6 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ALICE3 Forward Detector update",
-            "number": 15791,
-            "author": {
-              "login": "pkurash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Upgrades/ALICE3/FD3/include/DataFormatsFD3/Hit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/FD3BaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/include/FD3Simulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/src/Detector.cxx"
                   }
                 }
               ]
