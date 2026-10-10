@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#15797](https://github.com/AliceO2Group/AliceO2/pull/15797) 2026-09-28: Support skipping invalid timeframes across parent files by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
@@ -12,6 +14,7 @@
 - [\#15870](https://github.com/AliceO2Group/AliceO2/pull/15870) 2026-09-30: Fix ORT CI test script by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#15887](https://github.com/AliceO2Group/AliceO2/pull/15887) 2026-10-06: Make the VecGeom navigation mode of o2-sim faster with safety bounds and MultiUnions by [@sawenzel](https://github.com/sawenzel)
 - [\#15891](https://github.com/AliceO2Group/AliceO2/pull/15891) 2026-10-05: GPU: refuse deterministic mode on Metal by [@ktf](https://github.com/ktf)
+- [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
@@ -29,7 +32,6 @@
 - [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15846](https://github.com/AliceO2Group/AliceO2/pull/15846) 2026-09-28: Fix minor reproducibility issues in TPC hit creation by [@sawenzel](https://github.com/sawenzel)
-- [\#15848](https://github.com/AliceO2Group/AliceO2/pull/15848) 2026-09-28: [ALICE3] IOTOF: make sensor thickness configurable in geometry definition by [@maciacco](https://github.com/maciacco)
 - [\#15849](https://github.com/AliceO2Group/AliceO2/pull/15849) 2026-09-28: CAD simulation: Parallelize meshing and solid recognition; feedback fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#15852](https://github.com/AliceO2Group/AliceO2/pull/15852) 2026-09-28: Relax the Geant4 field epsilons outside the muon spectrometer and support local field parameters by [@sawenzel](https://github.com/sawenzel)
 - [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
