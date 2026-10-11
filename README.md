@@ -25,12 +25,12 @@
 - [\#15897](https://github.com/AliceO2Group/AliceO2/pull/15897) 2026-10-05: SOR adjustment for some MC productions with ITS ramp-up offset by [@altsybee](https://github.com/altsybee)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
+- [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
 - [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
-- [\#15862](https://github.com/AliceO2Group/AliceO2/pull/15862) 2026-09-29: Add the electron NIEL damage weights by [@sawenzel](https://github.com/sawenzel)
 - [\#15863](https://github.com/AliceO2Group/AliceO2/pull/15863) 2026-09-29: Restrict the TRD PAI model to 14 particle species by [@sawenzel](https://github.com/sawenzel)
 - [\#15864](https://github.com/AliceO2Group/AliceO2/pull/15864) 2026-09-30: Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding by [@sawenzel](https://github.com/sawenzel)
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
@@ -55,6 +55,7 @@
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
 - [\#15910](https://github.com/AliceO2Group/AliceO2/pull/15910) 2026-10-08: TPC track reader: do not accumulate MC labels over entries by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
+- [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15921](https://github.com/AliceO2Group/AliceO2/pull/15921) 2026-10-09: Option to provide marker/color per histo in residuals plot by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
