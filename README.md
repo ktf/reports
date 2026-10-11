@@ -7,7 +7,6 @@
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
-- [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 - [\#15870](https://github.com/AliceO2Group/AliceO2/pull/15870) 2026-09-30: Fix ORT CI test script by [@ChSonnabend](https://github.com/ChSonnabend)
@@ -18,7 +17,6 @@
 - [\#15920](https://github.com/AliceO2Group/AliceO2/pull/15920) 2026-10-10: GPU: pass the work-item indices to the helpers that lack them by [@ktf](https://github.com/ktf)
 - [\#15923](https://github.com/AliceO2Group/AliceO2/pull/15923) 2026-10-10: MathUtils: extend the OpenCL sincos workaround to Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
 - [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
@@ -29,10 +27,7 @@
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Detectors
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
-- [\#15820](https://github.com/AliceO2Group/AliceO2/pull/15820) 2026-09-28: Add missing resonances PDG codes in the contraints files by [@BongHwi](https://github.com/BongHwi)
 - [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15846](https://github.com/AliceO2Group/AliceO2/pull/15846) 2026-09-28: Fix minor reproducibility issues in TPC hit creation by [@sawenzel](https://github.com/sawenzel)
-- [\#15852](https://github.com/AliceO2Group/AliceO2/pull/15852) 2026-09-28: Relax the Geant4 field epsilons outside the muon spectrometer and support local field parameters by [@sawenzel](https://github.com/sawenzel)
 - [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
 - [\#15862](https://github.com/AliceO2Group/AliceO2/pull/15862) 2026-09-29: Add the electron NIEL damage weights by [@sawenzel](https://github.com/sawenzel)
@@ -65,7 +60,6 @@
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
-- [\#15856](https://github.com/AliceO2Group/AliceO2/pull/15856) 2026-09-28: Fix ClassDef compilation warning by [@vkucera](https://github.com/vkucera)
 - [\#15911](https://github.com/AliceO2Group/AliceO2/pull/15911) 2026-10-07: Avoid noise from misc-include-cleaner by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15798](https://github.com/AliceO2Group/AliceO2/pull/15798) 2026-10-08: Implemented automatic parallelisation for external generator on HY by [@jackal1-66](https://github.com/jackal1-66)
