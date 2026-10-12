@@ -6,6 +6,7 @@
 - [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
 - [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
+- [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
@@ -30,13 +31,12 @@
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15919](https://github.com/AliceO2Group/AliceO2/pull/15919) 2026-10-12: adjustments for orbit shifts for other MCs done with MC-prod-v12 by [@altsybee](https://github.com/altsybee)
 ## Recent developments in O2 - Detectors
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
 - [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
-- [\#15873](https://github.com/AliceO2Group/AliceO2/pull/15873) 2026-09-30: Resolve the TRD chamber by name when chamber assemblies have no volume id by [@sawenzel](https://github.com/sawenzel)
-- [\#15874](https://github.com/AliceO2Group/AliceO2/pull/15874) 2026-09-30: Use std::abs for floating-point values in TRD and ITS studies by [@sawenzel](https://github.com/sawenzel)
 - [\#15876](https://github.com/AliceO2Group/AliceO2/pull/15876) 2026-10-01: Fix the vertical position of IB FPC resistors by [@mario6829](https://github.com/mario6829)
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 - [\#15879](https://github.com/AliceO2Group/AliceO2/pull/15879) 2026-10-07: Remove air pockets from the beampipe by [@sawenzel](https://github.com/sawenzel)
@@ -61,6 +61,7 @@
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
+- [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15625](https://github.com/AliceO2Group/AliceO2/pull/15625) 2026-10-12: DPL Analysis: explicitly mark lambdas as constexpr/consteval by [@aalkin](https://github.com/aalkin)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 - [\#15911](https://github.com/AliceO2Group/AliceO2/pull/15911) 2026-10-07: Avoid noise from misc-include-cleaner by [@ktf](https://github.com/ktf)
