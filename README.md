@@ -3,25 +3,26 @@
 ## Recent developments in O2 - Algorithm
 - [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
 - [\#15920](https://github.com/AliceO2Group/AliceO2/pull/15920) 2026-10-10: GPU: pass the work-item indices to the helpers that lack them by [@ktf](https://github.com/ktf)
+- [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
 - [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
-- [\#15792](https://github.com/AliceO2Group/AliceO2/pull/15792) 2026-09-29: ORT CI tests by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
 - [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
-- [\#15870](https://github.com/AliceO2Group/AliceO2/pull/15870) 2026-09-30: Fix ORT CI test script by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#15887](https://github.com/AliceO2Group/AliceO2/pull/15887) 2026-10-06: Make the VecGeom navigation mode of o2-sim faster with safety bounds and MultiUnions by [@sawenzel](https://github.com/sawenzel)
 - [\#15891](https://github.com/AliceO2Group/AliceO2/pull/15891) 2026-10-05: GPU: refuse deterministic mode on Metal by [@ktf](https://github.com/ktf)
 - [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
 - [\#15920](https://github.com/AliceO2Group/AliceO2/pull/15920) 2026-10-10: GPU: pass the work-item indices to the helpers that lack them by [@ktf](https://github.com/ktf)
 - [\#15923](https://github.com/AliceO2Group/AliceO2/pull/15923) 2026-10-10: MathUtils: extend the OpenCL sincos workaround to Metal by [@ktf](https://github.com/ktf)
+- [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
 - [\#15932](https://github.com/AliceO2Group/AliceO2/pull/15932) 2026-10-11: GPU: give Metal its own spellings for two math helpers by [@ktf](https://github.com/ktf)
 - [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
+- [\#15934](https://github.com/AliceO2Group/AliceO2/pull/15934) 2026-10-12: Fix missing include by [@davidrohr](https://github.com/davidrohr)
+- [\#15936](https://github.com/AliceO2Group/AliceO2/pull/15936) 2026-10-12: GPU: reach global memory through the generic address space on Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
-- [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
+- [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 - [\#15882](https://github.com/AliceO2Group/AliceO2/pull/15882) 2026-10-08: AFIT-81: Implementation of configurable parameters in FDD reco by [@wpierozak](https://github.com/wpierozak)
@@ -30,14 +31,10 @@
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
+- [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
-- [\#15839](https://github.com/AliceO2Group/AliceO2/pull/15839) 2026-09-29: TPC SCD: add clampTgSlp to keep residuals beyond MaxTgSlp by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
-- [\#15861](https://github.com/AliceO2Group/AliceO2/pull/15861) 2026-09-29: Extend RecoContainer to support ITS and MFT cluster access per layer by [@shahor02](https://github.com/shahor02)
-- [\#15863](https://github.com/AliceO2Group/AliceO2/pull/15863) 2026-09-29: Restrict the TRD PAI model to 14 particle species by [@sawenzel](https://github.com/sawenzel)
-- [\#15864](https://github.com/AliceO2Group/AliceO2/pull/15864) 2026-09-30: Geometry stability fixes: remove nanometre gaps and overlaps caused by float rounding by [@sawenzel](https://github.com/sawenzel)
 - [\#15865](https://github.com/AliceO2Group/AliceO2/pull/15865) 2026-10-01: o2-sim: VecGeom navigation mode for Geant4 by [@sawenzel](https://github.com/sawenzel)
-- [\#15868](https://github.com/AliceO2Group/AliceO2/pull/15868) 2026-09-30: Fix the MFT half-disk 3 support pockets to match the technical drawing by [@sawenzel](https://github.com/sawenzel)
 - [\#15873](https://github.com/AliceO2Group/AliceO2/pull/15873) 2026-09-30: Resolve the TRD chamber by name when chamber assemblies have no volume id by [@sawenzel](https://github.com/sawenzel)
 - [\#15874](https://github.com/AliceO2Group/AliceO2/pull/15874) 2026-09-30: Use std::abs for floating-point values in TRD and ITS studies by [@sawenzel](https://github.com/sawenzel)
 - [\#15876](https://github.com/AliceO2Group/AliceO2/pull/15876) 2026-10-01: Fix the vertical position of IB FPC resistors by [@mario6829](https://github.com/mario6829)
@@ -63,14 +60,17 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
+- [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
+- [\#15625](https://github.com/AliceO2Group/AliceO2/pull/15625) 2026-10-12: DPL Analysis: explicitly mark lambdas as constexpr/consteval by [@aalkin](https://github.com/aalkin)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 - [\#15911](https://github.com/AliceO2Group/AliceO2/pull/15911) 2026-10-07: Avoid noise from misc-include-cleaner by [@ktf](https://github.com/ktf)
+- [\#15922](https://github.com/AliceO2Group/AliceO2/pull/15922) 2026-10-12: DPL: fix DataDescriptorMatcher and the associated query builder by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15798](https://github.com/AliceO2Group/AliceO2/pull/15798) 2026-10-08: Implemented automatic parallelisation for external generator on HY by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
-- [\#15857](https://github.com/AliceO2Group/AliceO2/pull/15857) 2026-09-29: Align Omega(2012) PDG code between database and transport by [@sawenzel](https://github.com/sawenzel)
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15893](https://github.com/AliceO2Group/AliceO2/pull/15893) 2026-10-07: TPC SCD: add option to keep all cluster and add MC to unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
+- [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
