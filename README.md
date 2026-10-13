@@ -8,8 +8,8 @@
 ## Recent developments in O2 - Analysis
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
+- [\#15952](https://github.com/AliceO2Group/AliceO2/pull/15952) 2026-10-13: DPL Analysis: keep reading after a skipped timeframe by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
-- [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 - [\#15887](https://github.com/AliceO2Group/AliceO2/pull/15887) 2026-10-06: Make the VecGeom navigation mode of o2-sim faster with safety bounds and MultiUnions by [@sawenzel](https://github.com/sawenzel)
 - [\#15891](https://github.com/AliceO2Group/AliceO2/pull/15891) 2026-10-05: GPU: refuse deterministic mode on Metal by [@ktf](https://github.com/ktf)
 - [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
@@ -25,7 +25,6 @@
 - [\#15947](https://github.com/AliceO2Group/AliceO2/pull/15947) 2026-10-12: MathUtils: make getMean()'s ternary unambiguous for an emulated double by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
-- [\#15866](https://github.com/AliceO2Group/AliceO2/pull/15866) 2026-10-01: GPU: give Metal an IEEE-754 binary64 in software by [@ktf](https://github.com/ktf)
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 - [\#15882](https://github.com/AliceO2Group/AliceO2/pull/15882) 2026-10-08: AFIT-81: Implementation of configurable parameters in FDD reco by [@wpierozak](https://github.com/wpierozak)
 - [\#15897](https://github.com/AliceO2Group/AliceO2/pull/15897) 2026-10-05: SOR adjustment for some MC productions with ITS ramp-up offset by [@altsybee](https://github.com/altsybee)
@@ -56,6 +55,8 @@
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15918](https://github.com/AliceO2Group/AliceO2/pull/15918) 2026-10-13: ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline by [@cima22](https://github.com/cima22)
 - [\#15921](https://github.com/AliceO2Group/AliceO2/pull/15921) 2026-10-09: Option to provide marker/color per histo in residuals plot by [@shahor02](https://github.com/shahor02)
+- [\#15943](https://github.com/AliceO2Group/AliceO2/pull/15943) 2026-10-13: TPC SCD: write and read the MC truth of the residual tracks by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15948](https://github.com/AliceO2Group/AliceO2/pull/15948) 2026-10-13: Add per HB histos with 1 channel/chip by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -67,6 +68,9 @@
 - [\#15922](https://github.com/AliceO2Group/AliceO2/pull/15922) 2026-10-12: DPL: fix DataDescriptorMatcher and the associated query builder by [@ktf](https://github.com/ktf)
 - [\#15938](https://github.com/AliceO2Group/AliceO2/pull/15938) 2026-10-13: DPL: Fix leaks and self-assignment in Array2D by [@aalkin](https://github.com/aalkin)
 - [\#15940](https://github.com/AliceO2Group/AliceO2/pull/15940) 2026-10-13: [Framework] Add `is_not_filtered_iterator` concept by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#15941](https://github.com/AliceO2Group/AliceO2/pull/15941) 2026-10-13: DPL: reduce verbosity of the missing resources warning by [@ktf](https://github.com/ktf)
+- [\#15942](https://github.com/AliceO2Group/AliceO2/pull/15942) 2026-10-13: DPL Analysis: fix incompatible Join check by [@aalkin](https://github.com/aalkin)
+- [\#15952](https://github.com/AliceO2Group/AliceO2/pull/15952) 2026-10-13: DPL Analysis: keep reading after a skipped timeframe by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Generators
 - [\#15798](https://github.com/AliceO2Group/AliceO2/pull/15798) 2026-10-08: Implemented automatic parallelisation for external generator on HY by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer

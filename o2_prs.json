@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-01T18:12:46Z",
-            "title": "GPU: give Metal an IEEE-754 binary64 in software",
-            "number": 15866,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDoubleBinary64.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMETAL.metal"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
@@ -3304,61 +3264,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add support for writing general Metadata to AO2D",
-            "number": 15553,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL: Allow passing labeled arrays through command line ",
             "number": 15926,
             "author": {
@@ -4069,41 +3974,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD: improve anchoring using CCDB objects",
-            "number": 15890,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Skip combined device creation for empty spec list in DigitizerWorkflow",
             "number": 15935,
             "author": {
@@ -4354,36 +4224,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: Fix ownership of the content of Variant",
-            "number": 15939,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Variant.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Variant.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Variants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "DPL Analysis: detach table slicing from the analysis tasks",
             "number": 15867,
             "author": {
@@ -4577,36 +4417,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: fix incompatible Join check",
-            "number": 15942,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ArrowTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ASoA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ASoA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-12T12:44:13Z",
             "title": "adjustments for orbit shifts for other MCs done with MC-prod-v12",
@@ -4619,26 +4429,6 @@
                 {
                   "node": {
                     "path": "DataFormats/Parameters/src/AggregatedRunInfo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: reduce verbosity of the missing resources warning",
-            "number": 15941,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
@@ -4714,76 +4504,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC SCD: write and read the MC truth of the residual tracks",
-            "number": 15943,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCUnbinnedResidualReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCResidualWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCUnbinnedResidualReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-interpolation-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-residual-aggregator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add per HB histos with 1 channel/chip",
-            "number": 15948,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
                   }
                 }
               ]
@@ -5142,26 +4862,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix Float16_t compatibility",
-            "number": 15950,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Bump actions/cache from 5 to 6",
@@ -5302,6 +5002,386 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T07:52:43Z",
+            "title": "DPL: Fix leaks and self-assignment in Array2D",
+            "number": 15938,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Array2D.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Variants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T07:50:12Z",
+            "title": "[Framework] Add `is_not_filtered_iterator` concept",
+            "number": 15940,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Concepts.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T09:53:20Z",
+            "title": "Add per HB histos with 1 channel/chip",
+            "number": 15948,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T09:53:45Z",
+            "title": "TPC SCD: write and read the MC truth of the residual tracks",
+            "number": 15943,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCUnbinnedResidualReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCResidualWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCUnbinnedResidualReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-interpolation-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-residual-aggregator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Fix ownership of the content of Variant",
+            "number": 15939,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Variant.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Variant.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Variants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T10:57:54Z",
+            "title": "DPL Analysis: fix incompatible Join check",
+            "number": 15942,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ArrowTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T11:26:30Z",
+            "title": "DPL Analysis: keep reading after a skipped timeframe",
+            "number": 15952,
+            "author": {
+              "login": "autumn-mck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix Float16_t compatibility",
+            "number": 15950,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: improve anchoring using CCDB objects",
+            "number": 15890,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ALICE3 Forward Detector update",
+            "number": 15791,
+            "author": {
+              "login": "pkurash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/ALICE3/FD3/include/DataFormatsFD3/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/FD3BaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/include/FD3Simulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add support for writing general Metadata to AO2D",
+            "number": 15553,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GRPGeomHelper optionally provides aligned geom + alignments",
+            "number": 15953,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/GRPGeomHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GRPGeomHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "GPU Display: Improvements and modernization, mostly for the Wayland frontend",
@@ -5329,6 +5409,11 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/display/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
                   }
                 },
                 {
@@ -5448,6 +5533,11 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/display/render/GPUDisplayDraw.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "dependencies/FindO2GPUWayland.cmake"
                   }
                 }
@@ -5458,22 +5548,17 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-13T07:52:43Z",
-            "title": "DPL: Fix leaks and self-assignment in Array2D",
-            "number": 15938,
+            "mergedAt": "2026-10-13T16:03:18Z",
+            "title": "DPL: reduce verbosity of the missing resources warning",
+            "number": 15941,
             "author": {
-              "login": "aalkin"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/Array2D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Variants.cxx"
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
@@ -5504,96 +5589,6 @@
                 {
                   "node": {
                     "path": "doc/data/2026-10-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ALICE3 Forward Detector update",
-            "number": 15791,
-            "author": {
-              "login": "pkurash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Upgrades/ALICE3/FD3/include/DataFormatsFD3/Hit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/FD3BaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/include/FD3Simulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-13T07:50:12Z",
-            "title": "[Framework] Add `is_not_filtered_iterator` concept",
-            "number": 15940,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Concepts.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: keep reading after a skipped timeframe",
-            "number": 15952,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
                   }
                 }
               ]
