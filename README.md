@@ -57,6 +57,7 @@
 - [\#15921](https://github.com/AliceO2Group/AliceO2/pull/15921) 2026-10-09: Option to provide marker/color per histo in residuals plot by [@shahor02](https://github.com/shahor02)
 - [\#15943](https://github.com/AliceO2Group/AliceO2/pull/15943) 2026-10-13: TPC SCD: write and read the MC truth of the residual tracks by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15948](https://github.com/AliceO2Group/AliceO2/pull/15948) 2026-10-13: Add per HB histos with 1 channel/chip by [@shahor02](https://github.com/shahor02)
+- [\#15953](https://github.com/AliceO2Group/AliceO2/pull/15953) 2026-10-13: GRPGeomHelper optionally provides aligned geom + alignments by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#15878](https://github.com/AliceO2Group/AliceO2/pull/15878) 2026-10-02: Support (staggered) per-layer cluster input in all ITS-dependent workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework

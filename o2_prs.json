@@ -6,51 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
-            "number": 15245,
-            "author": {
-              "login": "wpierozak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/compareLut.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/convertLutToCsv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/createLutFromCsv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/fetchLut.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/printLut.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Simplify BinningBasePolicy and support more than 3 axis",
             "number": 15872,
             "author": {
@@ -5359,31 +5314,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "GRPGeomHelper optionally provides aligned geom + alignments",
-            "number": 15953,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/GRPGeomHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/GRPGeomHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPU Display: Improvements and modernization, mostly for the Wayland frontend",
             "number": 15951,
             "author": {
@@ -5559,6 +5489,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T17:17:41Z",
+            "title": "GRPGeomHelper optionally provides aligned geom + alignments",
+            "number": 15953,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/GRPGeomHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GRPGeomHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add mean res. and sigmas histo per h-barrel",
+            "number": 15954,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
                   }
                 }
               ]
