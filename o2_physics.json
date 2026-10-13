@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-07T07:42:38Z",
-            "title": "[PWGCF] Fixed pT handling and minor fixes for Sigma-/+ in Femto framework",
-            "number": 18197,
-            "author": {
-              "login": "hfribert"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/femtoUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/kinkBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Core/kinkHistManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducerKinkPtConverter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-07T07:43:55Z",
             "title": "[PWGCF] Add configurable pT-dependent material budget efficiency systematic for Radial Decorrelation Analysis",
             "number": 18198,
@@ -621,26 +586,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Adding part to process jpsi-Dplus",
-            "number": 18213,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/taskJpsiHf.cxx"
                   }
                 }
               ]
@@ -2491,26 +2436,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] Added process function to check phi alignment in data in different pTbin",
-            "number": 18257,
-            "author": {
-              "login": "joachimckh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[Common] improvements to the muon QA task",
             "number": 18024,
             "author": {
@@ -2521,31 +2446,6 @@
                 {
                   "node": {
                     "path": "Common/Tasks/qaMuon.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Add baryon pair correlations in charged jets",
-            "number": 18256,
-            "author": {
-              "login": "hanseopark"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/baryonPairInJets.cxx"
                   }
                 }
               ]
@@ -2666,41 +2566,6 @@
                 {
                   "node": {
                     "path": "PWGCF/Flow/Tasks/flowZdcTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Adding : ML and skimming in double Dplus correlator + other minor change",
-            "number": 18125,
-            "author": {
-              "login": "VDiBella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/DataModel/ReducedDMesonPairsTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDplusDplusReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusDplusReduced.cxx"
                   }
                 }
               ]
@@ -2966,6 +2831,126 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/upcTestFitBitMapping.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] jetChargedV2: fix the memory consumption issue problem",
+            "number": 18267,
+            "author": {
+              "login": "YubiaoWang"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetChargedV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] Adding : ML and skimming in double Dplus correlator + other minor change",
+            "number": 18125,
+            "author": {
+              "login": "VDiBella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/DataModel/ReducedDMesonPairsTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusDplusReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusDplusReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T01:38:56Z",
+            "title": "[PWGDQ] Adding part to process jpsi-Dplus",
+            "number": 18213,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/taskJpsiHf.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T01:40:05Z",
+            "title": "[PWGJE] Added process function to check phi alignment in data in different pTbin",
+            "number": 18257,
+            "author": {
+              "login": "joachimckh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetSpectraEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-13T01:42:10Z",
+            "title": "[PWGJE] Add baryon pair correlations in charged jets",
+            "number": 18256,
+            "author": {
+              "login": "hanseopark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/baryonPairInJets.cxx"
                   }
                 }
               ]
