@@ -35,13 +35,10 @@
 ## Recent developments in O2 - Detectors
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15733](https://github.com/AliceO2Group/AliceO2/pull/15733) 2026-10-05: ITS: new CPU + GPU seeding vertexer by [@cima22](https://github.com/cima22)
-- [\#15858](https://github.com/AliceO2Group/AliceO2/pull/15858) 2026-10-03: FT3 New Optimised OT Tiling & Clean up material writing by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#15879](https://github.com/AliceO2Group/AliceO2/pull/15879) 2026-10-07: Remove air pockets from the beampipe by [@sawenzel](https://github.com/sawenzel)
 - [\#15882](https://github.com/AliceO2Group/AliceO2/pull/15882) 2026-10-08: AFIT-81: Implementation of configurable parameters in FDD reco by [@wpierozak](https://github.com/wpierozak)
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#15884](https://github.com/AliceO2Group/AliceO2/pull/15884) 2026-10-02: [ALICE3] IOTOF: Make timing response independent for different pixels by [@maciacco](https://github.com/maciacco)
 - [\#15887](https://github.com/AliceO2Group/AliceO2/pull/15887) 2026-10-06: Make the VecGeom navigation mode of o2-sim faster with safety bounds and MultiUnions by [@sawenzel](https://github.com/sawenzel)
-- [\#15889](https://github.com/AliceO2Group/AliceO2/pull/15889) 2026-10-02: Document how to combine a CAD module with built-in detectors by [@sawenzel](https://github.com/sawenzel)
 - [\#15893](https://github.com/AliceO2Group/AliceO2/pull/15893) 2026-10-07: TPC SCD: add option to keep all cluster and add MC to unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15894](https://github.com/AliceO2Group/AliceO2/pull/15894) 2026-10-06: MatchCosmics: propagate the seed covariance to the DCA by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15899](https://github.com/AliceO2Group/AliceO2/pull/15899) 2026-10-06: Prevent broken tests related statements when BUILD_TESTING is OFF by [@ktf](https://github.com/ktf)
