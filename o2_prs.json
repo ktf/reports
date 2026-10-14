@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Geant base fluence studies for ALICE 3",
-            "number": 15892,
-            "author": {
-              "login": "NNicassio99"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/00_prepare.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/01_run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/02_check.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/02_make_g4config.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/03_clean.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/ALICE3Field.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/README_LOCAL.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/SetupFluenceStudyGeant.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/analyze_geant.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/geometry_points.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/make_geometry_csv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/scoring_g4_alice3.in"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/macros/Fluence/simulation.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-05T08:20:11Z",
             "title": "GPU: refuse deterministic mode on Metal",
@@ -4639,6 +4559,156 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[DO NOT MERGE] DPL: run framework test through leaks on macos",
+            "number": 15955,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/entitlements.plist"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ServiceRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataRefUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecord.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS2 - anomalous cluster task improvement ",
+            "number": 15957,
+            "author": {
+              "login": "nicolovalle"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/Efficiency.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/ITSStudiesConfigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/Efficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSBeamBackgroundStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesConfigParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/standalone-postprocessing-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Add common mode per pad saturation",
+            "number": 15961,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/ParameterElectronics.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitGlobalPad.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitTime.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/DigitContainer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "GPU Display: Improvements and modernization, mostly for the Wayland frontend",
             "number": 15951,
             "author": {
@@ -4919,56 +4989,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[DO NOT MERGE] DPL: run framework test through leaks on macos",
-            "number": 15955,
+            "title": "[ALICE3] Track Follower: use getPhiPos() for the phi search window",
+            "number": 15959,
             "author": {
-              "login": "aalkin"
+              "login": "AizatDaribayeva"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/entitlements.plist"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ServiceRegistry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataRefUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_InputRecord.cxx"
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackFollower.h"
                   }
                 }
               ]
@@ -5004,81 +5034,6 @@
                 {
                   "node": {
                     "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Track Follower: use getPhiPos() for the phi search window",
-            "number": 15959,
-            "author": {
-              "login": "AizatDaribayeva"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackFollower.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS2 - anomalous cluster task improvement ",
-            "number": 15957,
-            "author": {
-              "login": "nicolovalle"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/Efficiency.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/ITSStudiesConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/Efficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSBeamBackgroundStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesConfigParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/standalone-postprocessing-workflow.cxx"
                   }
                 }
               ]
