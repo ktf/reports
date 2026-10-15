@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-10T09:36:39Z",
-            "title": "[PWGEM] reduce memory usage in EMH",
-            "number": 18242,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/Dilepton.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonHadronMPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Core/DileptonSV.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Utils/EventMixingHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/Pi0EtaToGammaGamma.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/TaggingPi0.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/photonhbt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] correlatorFlowCharmHadronsReduced: add multiplicity selections",
@@ -1371,26 +1321,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add extendable mult-axis for control hists for HM pp in twoParticleCorrelationsMpi.cxx",
-            "number": 18287,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add f0(980) scalar-product flow analysis",
             "number": 18274,
             "author": {
@@ -2609,31 +2539,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Add K0S-K0S flow analysis task",
-            "number": 18316,
-            "author": {
-              "login": "syano0822"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/k0sK0sFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-15T18:56:40Z",
             "title": "[Common] Improve Common PCH",
@@ -2711,26 +2616,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Resonances/kstarInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-15T19:09:05Z",
-            "title": "[PWGCF] Simplify QVector table calculation and fix fetching data from CCDB related bugs",
-            "number": 18298,
-            "author": {
-              "login": "meiALICE"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCorrelationsMei.cxx"
                   }
                 }
               ]
@@ -2971,6 +2856,91 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] radialFlowDecorr: add pT-dependent efficiency systematic check.",
+            "number": 18319,
+            "author": {
+              "login": "somabhatta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-15T19:09:05Z",
+            "title": "[PWGCF] Simplify QVector table calculation and fix fetching data from CCDB related bugs",
+            "number": 18298,
+            "author": {
+              "login": "meiALICE"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCorrelationsMei.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add K0S-K0S flow analysis task",
+            "number": 18316,
+            "author": {
+              "login": "syano0822"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/k0sK0sFlow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-15T23:40:14Z",
+            "title": "[PWGCF] Add extendable mult-axis for control hists for HM pp in twoParticleCorrelationsMpi.cxx",
+            "number": 18287,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
                   }
                 }
               ]
