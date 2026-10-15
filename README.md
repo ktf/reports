@@ -7,7 +7,6 @@
 - [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
-- [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 - [\#15952](https://github.com/AliceO2Group/AliceO2/pull/15952) 2026-10-13: DPL Analysis: keep reading after a skipped timeframe by [@autumn-mck](https://github.com/autumn-mck)
 ## Recent developments in O2 - Common
 - [\#15895](https://github.com/AliceO2Group/AliceO2/pull/15895) 2026-10-10: GPU: make the kernel entry-point signature work on Metal by [@ktf](https://github.com/ktf)
@@ -56,7 +55,6 @@
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15625](https://github.com/AliceO2Group/AliceO2/pull/15625) 2026-10-12: DPL Analysis: explicitly mark lambdas as constexpr/consteval by [@aalkin](https://github.com/aalkin)
-- [\#15836](https://github.com/AliceO2Group/AliceO2/pull/15836) 2026-10-06: additions for embedding by [@nzardosh](https://github.com/nzardosh)
 - [\#15911](https://github.com/AliceO2Group/AliceO2/pull/15911) 2026-10-07: Avoid noise from misc-include-cleaner by [@ktf](https://github.com/ktf)
 - [\#15922](https://github.com/AliceO2Group/AliceO2/pull/15922) 2026-10-12: DPL: fix DataDescriptorMatcher and the associated query builder by [@ktf](https://github.com/ktf)
 - [\#15938](https://github.com/AliceO2Group/AliceO2/pull/15938) 2026-10-13: DPL: Fix leaks and self-assignment in Array2D by [@aalkin](https://github.com/aalkin)
