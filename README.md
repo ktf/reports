@@ -37,7 +37,6 @@
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15893](https://github.com/AliceO2Group/AliceO2/pull/15893) 2026-10-07: TPC SCD: add option to keep all cluster and add MC to unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15894](https://github.com/AliceO2Group/AliceO2/pull/15894) 2026-10-06: MatchCosmics: propagate the seed covariance to the DCA by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15902](https://github.com/AliceO2Group/AliceO2/pull/15902) 2026-10-06: simple end-of-stave cards for ML barrel by [@altsybee](https://github.com/altsybee)
 - [\#15905](https://github.com/AliceO2Group/AliceO2/pull/15905) 2026-10-07: simple EoS cards for disks by [@altsybee](https://github.com/altsybee)
 - [\#15906](https://github.com/AliceO2Group/AliceO2/pull/15906) 2026-10-07: [ALICE3] TF3: fix conversion factor in absolute time computation by [@maciacco](https://github.com/maciacco)
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
