@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-12T07:14:33Z",
-            "title": "[DPG] treeCreatorPidTpcDiagnostics: reduce output tree size",
-            "number": 18241,
-            "author": {
-              "login": "lubynets"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/treeCreatorPidTpcDiagnostics.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-09T04:33:06Z",
-            "title": "[PWGCF] lambdaSpinPolarization.cxx: fix clang-tidy code-check errors from the previous version",
-            "number": 18229,
-            "author": {
-              "login": "subhadee-ali"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaSpinPolarization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGCF] remove duplicate histogram name",
@@ -2469,26 +2429,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] Fix centrality estimator in charm-baryon Qa creator",
-            "number": 18331,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0Qa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-16T10:13:08Z",
             "title": "[PWGLF] nonPromptCascade: cascade dca",
@@ -2531,26 +2471,6 @@
                 {
                   "node": {
                     "path": "PWGHF/D2H/Tasks/taskLbReduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] Properly adapt flags in case of ENABLE_ASSERT",
-            "number": 18329,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
                   }
                 }
               ]
@@ -2656,26 +2576,6 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/Nuspex/hadronnucleicorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] bug fix in taskD0 - swap D0 prompt and D0 non-prompt ML scores.",
-            "number": 18335,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
                   }
                 }
               ]
@@ -2936,16 +2836,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGHF] Adding d0xd0 for beauty in derived data creator to match triggers",
-            "number": 18337,
+            "title": "[PWGCF] FactorialMoments: replace subsampling error calculation with merge-safe slot pooling",
+            "number": 18327,
             "author": {
-              "login": "apalasciano"
+              "login": "baasingh"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-16T19:05:32Z",
+            "title": "[Infrastructure] Properly adapt flags in case of ENABLE_ASSERT",
+            "number": 18329,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add Lambda jackknife sampling and daughter PID QA",
+            "number": 18338,
+            "author": {
+              "login": "Akash-Raj-285"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaOrAntiLambdaProducerWithSpin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Hist to get Event/Signal loss based on Fwd Nch",
+            "number": 18339,
+            "author": {
+              "login": "omvazque"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-16T20:26:40Z",
+            "title": "[PWGLF,PWGMM] Update phi selection for data and mc",
+            "number": 18296,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
                   }
                 }
               ]
@@ -2974,18 +2954,18 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Update phi selection for data and mc",
-            "number": 18296,
+            "state": "MERGED",
+            "mergedAt": "2026-10-16T21:05:32Z",
+            "title": "[PWGHF] Fix centrality estimator in charm-baryon Qa creator",
+            "number": 18331,
             "author": {
-              "login": "gbencedi"
+              "login": "fcatalan92"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
+                    "path": "PWGHF/TableProducer/candidateCreatorXic0Omegac0Qa.cxx"
                   }
                 }
               ]
@@ -2994,18 +2974,38 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] FactorialMoments: replace subsampling error calculation with merge-safe slot pooling",
-            "number": 18327,
+            "state": "MERGED",
+            "mergedAt": "2026-10-16T21:12:14Z",
+            "title": "[PWGHF] Adding d0xd0 for beauty in derived data creator to match triggers",
+            "number": 18337,
             "author": {
-              "login": "baasingh"
+              "login": "apalasciano"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorCharmHadPiReduced.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-16T21:41:39Z",
+            "title": "[PWGHF] bug fix in taskD0 - swap D0 prompt and D0 non-prompt ML scores.",
+            "number": 18335,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
                   }
                 }
               ]
