@@ -35,12 +35,9 @@
 - [\#15879](https://github.com/AliceO2Group/AliceO2/pull/15879) 2026-10-07: Remove air pockets from the beampipe by [@sawenzel](https://github.com/sawenzel)
 - [\#15882](https://github.com/AliceO2Group/AliceO2/pull/15882) 2026-10-08: AFIT-81: Implementation of configurable parameters in FDD reco by [@wpierozak](https://github.com/wpierozak)
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#15893](https://github.com/AliceO2Group/AliceO2/pull/15893) 2026-10-07: TPC SCD: add option to keep all cluster and add MC to unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15894](https://github.com/AliceO2Group/AliceO2/pull/15894) 2026-10-06: MatchCosmics: propagate the seed covariance to the DCA by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#15905](https://github.com/AliceO2Group/AliceO2/pull/15905) 2026-10-07: simple EoS cards for disks by [@altsybee](https://github.com/altsybee)
-- [\#15906](https://github.com/AliceO2Group/AliceO2/pull/15906) 2026-10-07: [ALICE3] TF3: fix conversion factor in absolute time computation by [@maciacco](https://github.com/maciacco)
 - [\#15907](https://github.com/AliceO2Group/AliceO2/pull/15907) 2026-10-08: [ALICE3] TF3: group pixel columns into readout columns in digitizer by [@maciacco](https://github.com/maciacco)
 - [\#15910](https://github.com/AliceO2Group/AliceO2/pull/15910) 2026-10-08: TPC track reader: do not accumulate MC labels over entries by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15912](https://github.com/AliceO2Group/AliceO2/pull/15912) 2026-10-16: TRK: IRIS service aluminium from the MaterialManager by [@f3sch](https://github.com/f3sch)
 - [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15918](https://github.com/AliceO2Group/AliceO2/pull/15918) 2026-10-13: ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline by [@cima22](https://github.com/cima22)
@@ -66,7 +63,6 @@
 - [\#15798](https://github.com/AliceO2Group/AliceO2/pull/15798) 2026-10-08: Implemented automatic parallelisation for external generator on HY by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#15893](https://github.com/AliceO2Group/AliceO2/pull/15893) 2026-10-07: TPC SCD: add option to keep all cluster and add MC to unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
