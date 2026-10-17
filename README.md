@@ -5,6 +5,7 @@
 - [\#15920](https://github.com/AliceO2Group/AliceO2/pull/15920) 2026-10-10: GPU: pass the work-item indices to the helpers that lack them by [@ktf](https://github.com/ktf)
 - [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
 - [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
+- [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 ## Recent developments in O2 - Analysis
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15952](https://github.com/AliceO2Group/AliceO2/pull/15952) 2026-10-13: DPL Analysis: keep reading after a skipped timeframe by [@autumn-mck](https://github.com/autumn-mck)
@@ -21,6 +22,7 @@
 - [\#15946](https://github.com/AliceO2Group/AliceO2/pull/15946) 2026-10-12: MathUtils: let bringTo* deduce the type of the call they forward to by [@ktf](https://github.com/ktf)
 - [\#15947](https://github.com/AliceO2Group/AliceO2/pull/15947) 2026-10-12: MathUtils: make getMean()'s ternary unambiguous for an emulated double by [@ktf](https://github.com/ktf)
 - [\#15949](https://github.com/AliceO2Group/AliceO2/pull/15949) 2026-10-14: MathUtils: declare fastATan2's Pi where its lambdas can use it by [@ktf](https://github.com/ktf)
+- [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15962](https://github.com/AliceO2Group/AliceO2/pull/15962) 2026-10-15: GPU: make std::is_pointer address-space aware on Metal by [@ktf](https://github.com/ktf)
 - [\#15963](https://github.com/AliceO2Group/AliceO2/pull/15963) 2026-10-15: GPU: let the constant-address-space constants be built on Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -41,7 +43,9 @@
 - [\#15953](https://github.com/AliceO2Group/AliceO2/pull/15953) 2026-10-13: GRPGeomHelper optionally provides aligned geom + alignments by [@shahor02](https://github.com/shahor02)
 - [\#15954](https://github.com/AliceO2Group/AliceO2/pull/15954) 2026-10-13: Add mean res. and sigmas histo per h-barrel by [@shahor02](https://github.com/shahor02)
 - [\#15956](https://github.com/AliceO2Group/AliceO2/pull/15956) 2026-10-14: Fix misplaced default in the function by [@shahor02](https://github.com/shahor02)
+- [\#15957](https://github.com/AliceO2Group/AliceO2/pull/15957) 2026-10-17: ITS2 - anomalous cluster task improvement  by [@nicolovalle](https://github.com/nicolovalle)
 - [\#15959](https://github.com/AliceO2Group/AliceO2/pull/15959) 2026-10-17: [ITS] Track Follower: use getPhiPos() for the phi search window by [@AizatDaribayeva](https://github.com/AizatDaribayeva)
+- [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 ## Recent developments in O2 - Framework
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
@@ -54,6 +58,7 @@
 - [\#15942](https://github.com/AliceO2Group/AliceO2/pull/15942) 2026-10-13: DPL Analysis: fix incompatible Join check by [@aalkin](https://github.com/aalkin)
 - [\#15952](https://github.com/AliceO2Group/AliceO2/pull/15952) 2026-10-13: DPL Analysis: keep reading after a skipped timeframe by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15975](https://github.com/AliceO2Group/AliceO2/pull/15975) 2026-10-16: DPL Analysis: out-of-line HistogramSpec related construction by [@ktf](https://github.com/ktf)
+- [\#15980](https://github.com/AliceO2Group/AliceO2/pull/15980) 2026-10-17: DPL: out of line HistogramSpec related destructors by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15798](https://github.com/AliceO2Group/AliceO2/pull/15798) 2026-10-08: Implemented automatic parallelisation for external generator on HY by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
