@@ -4,81 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-08T09:37:32Z",
-            "title": "Implemented automatic parallelisation for external generator on HY",
-            "number": 15798,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorPythia8.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Refactor/shared lookuptable",
-            "number": 15667,
-            "author": {
-              "login": "spulawsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/PMLookupTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/src/PMLookupTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "TPC: Improve standalone dEdx calculation class",
@@ -5056,6 +4981,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Reuse same instances in hybrid generator",
+            "number": 15983,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "TRD: improve anchoring using CCDB objects",
             "number": 15890,
             "author": {
@@ -5081,6 +5036,316 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "AFIT-11 - Implementation of FEE configuration object",
+            "number": 15888,
+            "author": {
+              "login": "wpierozak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/FeeConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/HvConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/src/DataFormatsFDDLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/FeeConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/HvConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/DataFormatsFT0LinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/FeeConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/HvConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/DataFormatsFV0LinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/src/DataFormatsFITLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/include/FDDDCSMonitoring/FDDDCSConfigProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/include/FDDDCSMonitoring/FDDFEEConfigurationReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/macros/fetchFddFeeConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/src/FDDDCSConfigProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/src/FDDFEEConfigurationReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/dcsmonitoring/workflow/FDDDCSConfigProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/include/FT0DCSMonitoring/FT0DCSConfigProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/include/FT0DCSMonitoring/FT0FEEConfigurationReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/macros/fetchFt0FeeConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/src/FT0DCSConfigProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/src/FT0DCSMonitoringLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/src/FT0FEEConfigurationReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/dcsmonitoring/workflow/FT0DCSConfigProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/include/FV0DCSMonitoring/FV0DCSConfigProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/include/FV0DCSMonitoring/FV0FEEConfigurationReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/macros/fetchFv0FeeConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/src/FV0DCSConfigProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/src/FV0FEEConfigurationReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/dcsmonitoring/workflow/FV0DCSConfigProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/DcsCcdbInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITDCSBaseConfigReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITDCSConfigProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITDCSConfigProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITDCSConfigurationDataParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITDeadChannelMapReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITFEEConfigurationReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITHvConfigurationReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/src/FITDCSBaseConfigReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/src/FITDCSConfigProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/src/FITDCSConfigReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/src/FITDCSMonitoringLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/src/FITDeadChannelMapReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/tests/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/tests/dcsmonitoring/FITFEEConfigurationReaderTest.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/tests/dcsmonitoring/FITHvConfigurationReaderTest.cxx"
                   }
                 }
               ]

@@ -64,8 +64,6 @@
 - [\#15975](https://github.com/AliceO2Group/AliceO2/pull/15975) 2026-10-16: DPL Analysis: out-of-line HistogramSpec related construction by [@ktf](https://github.com/ktf)
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 - [\#15980](https://github.com/AliceO2Group/AliceO2/pull/15980) 2026-10-17: DPL: out of line HistogramSpec related destructors by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#15798](https://github.com/AliceO2Group/AliceO2/pull/15798) 2026-10-08: Implemented automatic parallelisation for external generator on HY by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
