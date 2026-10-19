@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: Improve standalone dEdx calculation class",
-            "number": 15650,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/calculatedEdx.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-08T20:54:02Z",
             "title": "Read MC kinematics per event in MatchITSTPCQC and fix a reader leak",
@@ -5291,41 +5231,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD: improve anchoring using CCDB objects",
-            "number": 15890,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -5346,6 +5251,76 @@
                 {
                   "node": {
                     "path": "doc/data/2026-10-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable Metal if available",
+            "number": 15982,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/documentation/build-standalone.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Display: require GLFW >= 3.4",
+            "number": 15984,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindGLFW.cmake"
                   }
                 }
               ]
@@ -5411,41 +5386,31 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Enable Metal if available",
-            "number": 15982,
+            "title": "TRD: improve anchoring using CCDB objects",
+            "number": 15890,
             "author": {
-              "login": "ktf"
+              "login": "glegras"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/build-standalone.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
                   }
                 }
               ]
