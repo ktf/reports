@@ -31,14 +31,15 @@
 ## Recent developments in O2 - DataFormats
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15919](https://github.com/AliceO2Group/AliceO2/pull/15919) 2026-10-12: adjustments for orbit shifts for other MCs done with MC-prod-v12 by [@altsybee](https://github.com/altsybee)
 - [\#15963](https://github.com/AliceO2Group/AliceO2/pull/15963) 2026-10-15: GPU: let the constant-address-space constants be built on Metal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
 - [\#15912](https://github.com/AliceO2Group/AliceO2/pull/15912) 2026-10-16: TRK: IRIS service aluminium from the MaterialManager by [@f3sch](https://github.com/f3sch)
-- [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15918](https://github.com/AliceO2Group/AliceO2/pull/15918) 2026-10-13: ITS GPU seeding vertexer: add clamps to adaptive low mult threshold, and propate cells towards beamline by [@cima22](https://github.com/cima22)
 - [\#15921](https://github.com/AliceO2Group/AliceO2/pull/15921) 2026-10-09: Option to provide marker/color per histo in residuals plot by [@shahor02](https://github.com/shahor02)
 - [\#15943](https://github.com/AliceO2Group/AliceO2/pull/15943) 2026-10-13: TPC SCD: write and read the MC truth of the residual tracks by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -64,8 +65,11 @@
 - [\#15975](https://github.com/AliceO2Group/AliceO2/pull/15975) 2026-10-16: DPL Analysis: out-of-line HistogramSpec related construction by [@ktf](https://github.com/ktf)
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 - [\#15980](https://github.com/AliceO2Group/AliceO2/pull/15980) 2026-10-17: DPL: out of line HistogramSpec related destructors by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
+- [\#15977](https://github.com/AliceO2Group/AliceO2/pull/15977) 2026-10-19: Silence importing task line on hyperloop by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15883](https://github.com/AliceO2Group/AliceO2/pull/15883) 2026-10-09: [TF3] Add efficiency, time resolution and ToA maps from ccdb by [@GiorgioAlbertoLucia](https://github.com/GiorgioAlbertoLucia)
-- [\#15914](https://github.com/AliceO2Group/AliceO2/pull/15914) 2026-10-08: Read MC kinematics per event in MatchITSTPCQC and fix a reader leak by [@sawenzel](https://github.com/sawenzel)
+- [\#15935](https://github.com/AliceO2Group/AliceO2/pull/15935) 2026-10-19: Skip combined device creation for empty spec list in DigitizerWorkflow by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Utilities
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
