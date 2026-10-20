@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-09T22:14:54Z",
-            "title": "Option to provide marker/color per histo in residuals plot",
-            "number": 15921,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/CheckResidConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/check-resid-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-10T01:23:09Z",
             "title": "GPU: make the kernel entry-point signature work on Metal",
             "number": 15895,
@@ -4749,56 +4719,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPUCommonAlgorithm: partitionPoint",
-            "number": 15985,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonAlgorithm.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GPUCommonMath: double functions, 64-bit bit counts, atomic load/store…",
-            "number": 15986,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/detail/basicMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-19T11:26:28Z",
             "title": "GPU Display: require GLFW >= 3.4",
@@ -5161,51 +5081,46 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add support for writing general Metadata to AO2D",
-            "number": 15553,
+            "title": "GPUCommonMath: double functions, 64-bit bit counts, atomic load/store…",
+            "number": 15986,
             "author": {
-              "login": "ktf"
+              "login": "f3sch"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
+                    "path": "Common/MathUtils/include/MathUtils/detail/basicMath.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
+                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-20T01:40:20Z",
+            "title": "GPUCommonAlgorithm: partitionPoint",
+            "number": 15985,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                    "path": "GPU/Common/GPUCommonAlgorithm.h"
                   }
                 }
               ]
@@ -5241,6 +5156,36 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
                   }
                 }
               ]
@@ -5296,26 +5241,71 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "DPL: add support for writing general Metadata to AO2D",
+            "number": 15553,
             "author": {
-              "login": "github-actions"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "BaseCluster: initialise errors to 0 by default",
+            "number": 15988,
+            "author": {
+              "login": "hyungjun-lee"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/BaseCluster.h"
                   }
                 }
               ]
