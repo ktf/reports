@@ -36,6 +36,7 @@
 - [\#15988](https://github.com/AliceO2Group/AliceO2/pull/15988) 2026-10-20: BaseCluster: initialise errors to 0 by default by [@hyungjun-lee](https://github.com/hyungjun-lee)
 ## Recent developments in O2 - Detectors
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
+- [\#15892](https://github.com/AliceO2Group/AliceO2/pull/15892) 2026-10-21: Geant base fluence studies for ALICE 3 by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15912](https://github.com/AliceO2Group/AliceO2/pull/15912) 2026-10-16: TRK: IRIS service aluminium from the MaterialManager by [@f3sch](https://github.com/f3sch)
 - [\#15915](https://github.com/AliceO2Group/AliceO2/pull/15915) 2026-10-11: MatchCosmics: cosmics in collision data + raw-cluster writer with TOF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
@@ -50,6 +51,7 @@
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15979](https://github.com/AliceO2Group/AliceO2/pull/15979) 2026-10-20: [ALICE3] TRK: modified macros to check digits and clusters.  by [@atriolo](https://github.com/atriolo)
 - [\#15987](https://github.com/AliceO2Group/AliceO2/pull/15987) 2026-10-20: Cosmics cluster collector: store TPC occupancy per cosmic and per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15989](https://github.com/AliceO2Group/AliceO2/pull/15989) 2026-10-21: TPC: store run and time range in the voxRes UserInfo by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
