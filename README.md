@@ -34,6 +34,7 @@
 - [\#15987](https://github.com/AliceO2Group/AliceO2/pull/15987) 2026-10-20: Cosmics cluster collector: store TPC occupancy per cosmic and per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15988](https://github.com/AliceO2Group/AliceO2/pull/15988) 2026-10-20: BaseCluster: initialise errors to 0 by default by [@hyungjun-lee](https://github.com/hyungjun-lee)
 - [\#15990](https://github.com/AliceO2Group/AliceO2/pull/15990) 2026-10-21: TrackParametrization: use double math functions for TrackParD by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15805](https://github.com/AliceO2Group/AliceO2/pull/15805) 2026-10-22: [ALICE3] ACTS tracking geometry provider by [@pbutti](https://github.com/pbutti)
@@ -56,6 +57,7 @@
 - [\#15989](https://github.com/AliceO2Group/AliceO2/pull/15989) 2026-10-21: TPC: store run and time range in the voxRes UserInfo by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15992](https://github.com/AliceO2Group/AliceO2/pull/15992) 2026-10-22: [ALICE3] TRK: rInnRow column for staggered ML layers in the config file by [@lorber98](https://github.com/lorber98)
 - [\#15994](https://github.com/AliceO2Group/AliceO2/pull/15994) 2026-10-21: TPC: fix the weight and grid scaling of the spline derivatives in addCorrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
