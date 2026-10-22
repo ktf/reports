@@ -2819,31 +2819,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Tools] Fix casts",
-            "number": 18393,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tools/KFparticle/qaKFEventTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/KFparticle/qaKFParticleLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-21T17:44:33Z",
             "title": "[PWGCF] Simplify daughter selections in femto framework",
@@ -2951,86 +2926,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Tutorial,PWGCF,PWGEM,PWGLF,PWGUD] Fix casts",
-            "number": 18394,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tutorials/ML/applyMlSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/OpenData/flowAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/EventPlane/src/spectatorPlaneTutorial.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask4.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask5.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGCF/FlowGenericFramework/src/flowGFWTutorial.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGEM/Cocktail/plotLFCocktail.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGLF/Resonance/resonancesCombine.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGUD/UDTutorial_02b.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/configurableObjects.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/extendedTables.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/reweighting.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGCF] Add additional MC response histograms in twoParticleCorrelationsMpi.cxx",
             "number": 18396,
             "author": {
@@ -3041,6 +2936,566 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-21T18:38:29Z",
+            "title": "[PWGHF] Add information to get generated signals with daughters in acceptance",
+            "number": 18377,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-21T19:47:06Z",
+            "title": "[PWGLF] Add `Best Collision` Cut in Response Hist in hStrangeCorrelation.cxx",
+            "number": 18378,
+            "author": {
+              "login": "kcui1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-21T22:22:44Z",
+            "title": "[PWGLF,PWGMM] Remove particle filtering for MC efficiencies",
+            "number": 18399,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Add GJ axis definition and fill histograms",
+            "number": 18271,
+            "author": {
+              "login": "dmallick2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Fix casts",
+            "number": 18386,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Macros/evalMchTrackingEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMuonMchTrkEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/MIDefficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/TagAndProbe.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/taskMuonMchTrkEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/v0selector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-21T23:14:42Z",
+            "title": "[PWGLF] Fixed bug:Using isBestCollIndex instead of bestCollisionIndex",
+            "number": 18398,
+            "author": {
+              "login": "omvazque"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Common] Fix casts",
+            "number": 18382,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/FFitWeights.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/Zorro.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/ZorroSummary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/macros/testMetadataHelper.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/match-mft-ft0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/match-mft-mch-data-mc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/match-mft-mch-data.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/muonRealignment.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackselection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/checkDataModelMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/multiplicityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qaMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/MultModule.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/macros/runCalibration.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/macros/runGlauberFit.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/macros/saveCorrelation.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/multCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/Multiplicity/multMCCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/PID/checkPidPacking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/TrackPropagationModule.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-21T23:25:01Z",
+            "title": "[Infrastructure] updating code ownership for DQ",
+            "number": 18397,
+            "author": {
+              "login": "mguilbau"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Fix casts",
+            "number": 18383,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/lumiQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTEvent/timeDependentQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/MonitorFilterBit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/V0Cascades/qaEfficiencyV0s.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLite.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaTrackSplitting.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/Monitor/MC/taskMcSimpleQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcTreeCreatorLight.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Trigger,PWGHF,PWGJE,PWGUD] Fix casts",
+            "number": 18384,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGJE/jetFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/cefpOutputChecker.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkBCrangesSkimming.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkSkimming.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/getMenu.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/selectivityPlot.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/uploadOTSobjects.C"
                   }
                 }
               ]
@@ -3339,206 +3794,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-21T18:38:29Z",
-            "title": "[PWGHF] Add information to get generated signals with daughters in acceptance",
-            "number": 18377,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Common] Fix casts",
-            "number": 18382,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/FFitWeights.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTOFParamService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/Zorro.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/ZorroSummary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/macros/testMetadataHelper.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFMerge.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/match-mft-ft0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/match-mft-mch-data-mc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/match-mft-mch-data.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/muonRealignment.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/zdcTaskLightIons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/checkDataModelMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/multiplicityQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/qaMuon.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/MultModule.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/macros/runCalibration.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/macros/runGlauberFit.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/macros/saveCorrelation.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/multCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/multMCCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/PID/checkPidPacking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/TrackPropagationModule.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure] updating code ownership for DQ",
-            "number": 18397,
-            "author": {
-              "login": "mguilbau"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-21T19:47:06Z",
-            "title": "[PWGLF] Add `Best Collision` Cut in Response Hist in hStrangeCorrelation.cxx",
-            "number": 18378,
-            "author": {
-              "login": "kcui1"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF] Fix casts",
@@ -3796,291 +4051,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Add GJ axis definition and fill histograms",
-            "number": 18271,
-            "author": {
-              "login": "dmallick2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Trigger,PWGHF,PWGJE,PWGUD] Fix casts",
-            "number": 18384,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/jetFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionBCFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/cefpOutputChecker.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkBCrangesSkimming.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkSkimming.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/getMenu.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/selectivityPlot.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/uploadOTSobjects.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGDQ] Remove reinterpret_cast and add extra protections in MCH tracking eff macro",
-            "number": 18379,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Macros/evalMchTrackingEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DPG] Fix casts",
-            "number": 18383,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/detectorOccupancyQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/lumiQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTEvent/timeDependentQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/MonitorFilterBit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/TOF/qaPIDTOFEvTime.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/V0Cascades/qaEfficiencyV0s.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/derivedDataCreatorD0Calibration.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLite.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaTrackSplitting.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/Monitor/MC/taskMcSimpleQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcTreeCreatorLight.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Fix casts",
-            "number": 18391,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiStability.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/macros/merger.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/macros/non_fac.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/TableProducer/ambiguousTrackPropagation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/TableProducer/reducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndeta-mft.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndeta.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/effpt-mft.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/heavy-ion-mult.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/mftReassociationValidation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/pseudoEffMFT.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/qaReassocMFTPbPb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/run2dndeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGUD] Fix casts",
             "number": 18392,
             "author": {
@@ -4196,8 +4166,8 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] Fix casts",
-            "number": 18386,
+            "title": "[Tools] Fix casts",
+            "number": 18393,
             "author": {
               "login": "vkucera"
             },
@@ -4205,127 +4175,177 @@
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
+                    "path": "Tools/KFparticle/qaKFEventTrack.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
+                    "path": "Tools/KFparticle/qaKFParticleLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Tutorial,PWGCF,PWGEM,PWGLF,PWGUD] Fix casts",
+            "number": 18394,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tutorials/ML/applyMlSelection.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
+                    "path": "Tutorials/OpenData/flowAnalysis.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
+                    "path": "Tutorials/PWGCF/EventPlane/src/spectatorPlaneTutorial.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Macros/evalMchTrackingEfficiency.cxx"
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask3.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask4.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
+                    "path": "Tutorials/PWGCF/FemtoFramework/src/CFTutorialTask5.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC_withAssoc.cxx"
+                    "path": "Tutorials/PWGCF/FlowGenericFramework/src/flowGFWTutorial.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMuonMchTrkEfficiency.cxx"
+                    "path": "Tutorials/PWGEM/Cocktail/plotLFCocktail.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
+                    "path": "Tutorials/PWGLF/Resonance/resonancesCombine.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/DalitzSelection.cxx"
+                    "path": "Tutorials/PWGUD/UDTutorial_02b.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/MIDefficiency.cxx"
+                    "path": "Tutorials/src/configurableObjects.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/TagAndProbe.cxx"
+                    "path": "Tutorials/src/extendedTables.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
+                    "path": "Tutorials/src/reweighting.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Fix casts",
+            "number": 18391,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/lumiStability.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc.cxx"
+                    "path": "PWGMM/Lumi/macros/merger.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                    "path": "PWGMM/Lumi/macros/non_fac.C"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEnergyCorrelator_direct.cxx"
+                    "path": "PWGMM/Mult/TableProducer/ambiguousTrackPropagation.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqFlow.cxx"
+                    "path": "PWGMM/Mult/TableProducer/reducer.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/muonGlobalAlignment.cxx"
+                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/qaMatching.cxx"
+                    "path": "PWGMM/Mult/Tasks/dndeta-mft.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                    "path": "PWGMM/Mult/Tasks/dndeta.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
+                    "path": "PWGMM/Mult/Tasks/effpt-mft.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
+                    "path": "PWGMM/Mult/Tasks/heavy-ion-mult.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/taskMuonMchTrkEfficiency.cxx"
+                    "path": "PWGMM/Mult/Tasks/mftReassociationValidation.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/v0selector.cxx"
+                    "path": "PWGMM/Mult/Tasks/pseudoEffMFT.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/qaReassocMFTPbPb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/run2dndeta.cxx"
                   }
                 }
               ]
@@ -4541,36 +4561,16 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fixed bug:Using isBestCollIndex instead of bestCollisionIndex",
-            "number": 18398,
+            "title": "[PWGDQ] Remove reinterpret_cast and add extra protections in MCH tracking eff macro",
+            "number": 18379,
             "author": {
-              "login": "omvazque"
+              "login": "atavirag"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/Tasks/Nuspex/piKpRAA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Remove particle filtering for MC efficiencies",
-            "number": 18399,
-            "author": {
-              "login": "gbencedi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
+                    "path": "PWGDQ/Macros/evalMchTrackingEfficiency.cxx"
                   }
                 }
               ]
