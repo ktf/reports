@@ -2,7 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
-- [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15985](https://github.com/AliceO2Group/AliceO2/pull/15985) 2026-10-20: GPUCommonAlgorithm: partitionPoint by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Analysis
@@ -12,8 +11,6 @@
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
-- [\#15932](https://github.com/AliceO2Group/AliceO2/pull/15932) 2026-10-11: GPU: give Metal its own spellings for two math helpers by [@ktf](https://github.com/ktf)
-- [\#15933](https://github.com/AliceO2Group/AliceO2/pull/15933) 2026-10-11: GPU: Faster QuickSort implementation for large data, and some cleanup of option names and help / debug messages by [@davidrohr](https://github.com/davidrohr)
 - [\#15934](https://github.com/AliceO2Group/AliceO2/pull/15934) 2026-10-12: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#15936](https://github.com/AliceO2Group/AliceO2/pull/15936) 2026-10-12: GPU: reach global memory through the generic address space on Metal by [@ktf](https://github.com/ktf)
 - [\#15944](https://github.com/AliceO2Group/AliceO2/pull/15944) 2026-10-14: GPU: make the Metal atomics operate on plain counters by [@ktf](https://github.com/ktf)
@@ -39,6 +36,7 @@
 - [\#15990](https://github.com/AliceO2Group/AliceO2/pull/15990) 2026-10-21: TrackParametrization: use double math functions for TrackParD by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
+- [\#15805](https://github.com/AliceO2Group/AliceO2/pull/15805) 2026-10-22: [ALICE3] ACTS tracking geometry provider by [@pbutti](https://github.com/pbutti)
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
 - [\#15892](https://github.com/AliceO2Group/AliceO2/pull/15892) 2026-10-21: Geant base fluence studies for ALICE 3 by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15912](https://github.com/AliceO2Group/AliceO2/pull/15912) 2026-10-16: TRK: IRIS service aluminium from the MaterialManager by [@f3sch](https://github.com/f3sch)
