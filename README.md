@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-- [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15985](https://github.com/AliceO2Group/AliceO2/pull/15985) 2026-10-20: GPUCommonAlgorithm: partitionPoint by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Analysis
@@ -10,7 +9,6 @@
 - [\#15965](https://github.com/AliceO2Group/AliceO2/pull/15965) 2026-10-17: DPL Analysis: skip input files which cannot be opened by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#15929](https://github.com/AliceO2Group/AliceO2/pull/15929) 2026-10-12: GPU: Add CPUDevice backend to emulate device-like processing on host by [@davidrohr](https://github.com/davidrohr)
 - [\#15934](https://github.com/AliceO2Group/AliceO2/pull/15934) 2026-10-12: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#15936](https://github.com/AliceO2Group/AliceO2/pull/15936) 2026-10-12: GPU: reach global memory through the generic address space on Metal by [@ktf](https://github.com/ktf)
 - [\#15944](https://github.com/AliceO2Group/AliceO2/pull/15944) 2026-10-14: GPU: make the Metal atomics operate on plain counters by [@ktf](https://github.com/ktf)
