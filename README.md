@@ -58,6 +58,7 @@
 - [\#15992](https://github.com/AliceO2Group/AliceO2/pull/15992) 2026-10-22: [ALICE3] TRK: rInnRow column for staggered ML layers in the config file by [@lorber98](https://github.com/lorber98)
 - [\#15994](https://github.com/AliceO2Group/AliceO2/pull/15994) 2026-10-21: TPC: fix the weight and grid scaling of the spline derivatives in addCorrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
+- [\#15997](https://github.com/AliceO2Group/AliceO2/pull/15997) 2026-10-23: Extending track references to other detectors by [@tubagundem](https://github.com/tubagundem)
 ## Recent developments in O2 - Framework
 - [\#15387](https://github.com/AliceO2Group/AliceO2/pull/15387) 2026-10-12: Modernize Descriptor runtimeInit() by [@aalkin](https://github.com/aalkin)
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
