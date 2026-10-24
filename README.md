@@ -66,6 +66,7 @@
 - [\#15975](https://github.com/AliceO2Group/AliceO2/pull/15975) 2026-10-16: DPL Analysis: out-of-line HistogramSpec related construction by [@ktf](https://github.com/ktf)
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 - [\#15980](https://github.com/AliceO2Group/AliceO2/pull/15980) 2026-10-17: DPL: out of line HistogramSpec related destructors by [@ktf](https://github.com/ktf)
+- [\#16001](https://github.com/AliceO2Group/AliceO2/pull/16001) 2026-10-24: DPL CCDB fetcher was ignorint condition-timestamp option by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15977](https://github.com/AliceO2Group/AliceO2/pull/15977) 2026-10-19: Silence importing task line on hyperloop by [@jackal1-66](https://github.com/jackal1-66)
