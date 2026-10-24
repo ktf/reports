@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-12T09:23:26Z",
-            "title": "DPL: fix DataDescriptorMatcher and the associated query builder",
-            "number": 15922,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataDescriptorQueryBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataDescriptorMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-12T09:36:38Z",
             "title": "GPU: reach global memory through the generic address space on Metal",
             "number": 15936,
@@ -5006,36 +4971,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[ALICE3] TF3: geometry update steered by the definition of the final chip size and module architecture",
             "number": 15998,
             "author": {
@@ -5186,21 +5121,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "CheckResid stores cl.size and track snp for points",
-            "number": 16000,
+            "title": "TrackTools: shared TrackGeometry utilities for track acceptance and PID studies\"",
+            "number": 15999,
             "author": {
-              "login": "shahor02"
+              "login": "miranov25"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/CheckResidTypes.h"
+                    "path": "Common/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
+                    "path": "Common/TrackTools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/docs/figures/trackgeometry_synthetic_5d_available_rows.png"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/include/TrackTools/TrackGeometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/README_TESTS.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/python/conftest.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/python/test_full_state_radius.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/python/test_sector_rows_primary_baseline.py"
                   }
                 }
               ]
@@ -5236,6 +5206,56 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-23T23:18:20Z",
+            "title": "CheckResid stores cl.size and track snp for points",
+            "number": 16000,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/CheckResidTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL CCDB fetcher was ignorint condition-timestamp option",
+            "number": 16001,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
@@ -5301,6 +5321,36 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Enable Metal if available",
             "number": 15982,
             "author": {
@@ -5336,66 +5386,6 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TrackTools: shared TrackGeometry utilities for track acceptance and PID studies\"",
-            "number": 15999,
-            "author": {
-              "login": "miranov25"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/docs/figures/trackgeometry_synthetic_5d_available_rows.png"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/include/TrackTools/TrackGeometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/README_TESTS.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/python/conftest.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/python/test_full_state_radius.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/python/test_sector_rows_primary_baseline.py"
                   }
                 }
               ]
