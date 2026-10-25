@@ -4,96 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Implement pools chaining + example and test macros",
-            "number": 15688,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFromFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/EventPoolTestUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/test_EventPoolChaining.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/test/test_GeneratorHybridEventPool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/EventPool_Chaining/rundpl.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-12T12:44:13Z",
             "title": "adjustments for orbit shifts for other MCs done with MC-prod-v12",
@@ -5189,41 +5099,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TRD: improve anchoring using CCDB objects",
-            "number": 15890,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-24T23:03:50Z",
             "title": "Add optional residuals from IB/OB tracks extrapolations to OB/IB clusters",
@@ -5266,6 +5141,36 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/study/src/HistoManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
                   }
                 }
               ]
@@ -5331,26 +5236,61 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "[Framework] Add opt-in skipping of empty associated slices in grouped combinations",
+            "number": 16005,
             "author": {
-              "login": "github-actions"
+              "login": "BongHwi"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Framework/Core/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
+                    "path": "Framework/Core/test/test_GroupedCombinations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: improve anchoring using CCDB objects",
+            "number": 15890,
+            "author": {
+              "login": "glegras"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/SimParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
                   }
                 }
               ]
