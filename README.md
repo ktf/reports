@@ -25,7 +25,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
-- [\#15919](https://github.com/AliceO2Group/AliceO2/pull/15919) 2026-10-12: adjustments for orbit shifts for other MCs done with MC-prod-v12 by [@altsybee](https://github.com/altsybee)
 - [\#15963](https://github.com/AliceO2Group/AliceO2/pull/15963) 2026-10-15: GPU: let the constant-address-space constants be built on Metal by [@ktf](https://github.com/ktf)
 - [\#15987](https://github.com/AliceO2Group/AliceO2/pull/15987) 2026-10-20: Cosmics cluster collector: store TPC occupancy per cosmic and per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15988](https://github.com/AliceO2Group/AliceO2/pull/15988) 2026-10-20: BaseCluster: initialise errors to 0 by default by [@hyungjun-lee](https://github.com/hyungjun-lee)
@@ -57,6 +56,7 @@
 - [\#16000](https://github.com/AliceO2Group/AliceO2/pull/16000) 2026-10-23: CheckResid stores cl.size and track snp for points by [@shahor02](https://github.com/shahor02)
 - [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)
 - [\#16003](https://github.com/AliceO2Group/AliceO2/pull/16003) 2026-10-24: Add optional residuals from IB/OB tracks extrapolations to OB/IB clusters by [@shahor02](https://github.com/shahor02)
+- [\#16004](https://github.com/AliceO2Group/AliceO2/pull/16004) 2026-10-25: Protect HistoManager from OOB access by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15938](https://github.com/AliceO2Group/AliceO2/pull/15938) 2026-10-13: DPL: Fix leaks and self-assignment in Array2D by [@aalkin](https://github.com/aalkin)
