@@ -4541,36 +4541,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[ALICE3] TF3: double number of TDC pairs + add RO column masking",
-            "number": 15981,
-            "author": {
-              "login": "maciacco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Chip.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "TPC: Improve standalone dEdx calculation class",
             "number": 15650,
             "author": {
@@ -5040,66 +5010,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-24T21:47:49Z",
-            "title": "TrackTools: shared TrackGeometry utilities for track acceptance and PID studies\"",
-            "number": 15999,
-            "author": {
-              "login": "miranov25"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/docs/figures/trackgeometry_synthetic_5d_available_rows.png"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/include/TrackTools/TrackGeometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/README_TESTS.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/python/conftest.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/python/test_full_state_radius.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TrackTools/test/python/test_sector_rows_primary_baseline.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-24T23:03:50Z",
             "title": "Add optional residuals from IB/OB tracks extrapolations to OB/IB clusters",
             "number": 16003,
@@ -5181,6 +5091,96 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[Framework] Add opt-in skipping of empty associated slices in grouped combinations",
+            "number": 16005,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupedCombinations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-24T21:47:49Z",
+            "title": "TrackTools: shared TrackGeometry utilities for track acceptance and PID studies\"",
+            "number": 15999,
+            "author": {
+              "login": "miranov25"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/docs/figures/trackgeometry_synthetic_5d_available_rows.png"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/include/TrackTools/TrackGeometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/README_TESTS.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/python/conftest.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/python/test_full_state_radius.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TrackTools/test/python/test_sector_rows_primary_baseline.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL: add support for writing general Metadata to AO2D",
             "number": 15553,
             "author": {
@@ -5226,36 +5226,6 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Framework] Add opt-in skipping of empty associated slices in grouped combinations",
-            "number": 16005,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_GroupedCombinations.cxx"
                   }
                 }
               ]
@@ -5336,6 +5306,36 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] TF3: double number of TDC pairs + add RO column masking",
+            "number": 15981,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/Chip.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/include/IOTOFSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/simulation/src/Digitizer.cxx"
                   }
                 }
               ]
