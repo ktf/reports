@@ -57,6 +57,7 @@
 - [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)
 - [\#16003](https://github.com/AliceO2Group/AliceO2/pull/16003) 2026-10-24: Add optional residuals from IB/OB tracks extrapolations to OB/IB clusters by [@shahor02](https://github.com/shahor02)
 - [\#16004](https://github.com/AliceO2Group/AliceO2/pull/16004) 2026-10-25: Protect HistoManager from OOB access by [@shahor02](https://github.com/shahor02)
+- [\#16006](https://github.com/AliceO2Group/AliceO2/pull/16006) 2026-10-25: CheckResid: add per layer chip residuals and pulls by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15938](https://github.com/AliceO2Group/AliceO2/pull/15938) 2026-10-13: DPL: Fix leaks and self-assignment in Array2D by [@aalkin](https://github.com/aalkin)
