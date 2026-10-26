@@ -4,14 +4,12 @@
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15985](https://github.com/AliceO2Group/AliceO2/pull/15985) 2026-10-20: GPUCommonAlgorithm: partitionPoint by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Analysis
-- [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15952](https://github.com/AliceO2Group/AliceO2/pull/15952) 2026-10-13: DPL Analysis: keep reading after a skipped timeframe by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15965](https://github.com/AliceO2Group/AliceO2/pull/15965) 2026-10-17: DPL Analysis: skip input files which cannot be opened by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15944](https://github.com/AliceO2Group/AliceO2/pull/15944) 2026-10-14: GPU: make the Metal atomics operate on plain counters by [@ktf](https://github.com/ktf)
-- [\#15946](https://github.com/AliceO2Group/AliceO2/pull/15946) 2026-10-12: MathUtils: let bringTo* deduce the type of the call they forward to by [@ktf](https://github.com/ktf)
-- [\#15947](https://github.com/AliceO2Group/AliceO2/pull/15947) 2026-10-12: MathUtils: make getMean()'s ternary unambiguous for an emulated double by [@ktf](https://github.com/ktf)
 - [\#15949](https://github.com/AliceO2Group/AliceO2/pull/15949) 2026-10-14: MathUtils: declare fastATan2's Pi where its lambdas can use it by [@ktf](https://github.com/ktf)
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15962](https://github.com/AliceO2Group/AliceO2/pull/15962) 2026-10-15: GPU: make std::is_pointer address-space aware on Metal by [@ktf](https://github.com/ktf)
@@ -23,6 +21,7 @@
 - [\#15991](https://github.com/AliceO2Group/AliceO2/pull/15991) 2026-10-22: GPUCommonDefAPI: add GPUhdii() by [@f3sch](https://github.com/f3sch)
 - [\#15999](https://github.com/AliceO2Group/AliceO2/pull/15999) 2026-10-24: TrackTools: shared TrackGeometry utilities for track acceptance and PID studies" by [@miranov25](https://github.com/miranov25)
 ## Recent developments in O2 - DataFormats
+- [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15963](https://github.com/AliceO2Group/AliceO2/pull/15963) 2026-10-15: GPU: let the constant-address-space constants be built on Metal by [@ktf](https://github.com/ktf)
@@ -31,6 +30,7 @@
 - [\#15990](https://github.com/AliceO2Group/AliceO2/pull/15990) 2026-10-21: TrackParametrization: use double math functions for TrackParD by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
+- [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15805](https://github.com/AliceO2Group/AliceO2/pull/15805) 2026-10-22: [ALICE3] ACTS tracking geometry provider by [@pbutti](https://github.com/pbutti)
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
 - [\#15892](https://github.com/AliceO2Group/AliceO2/pull/15892) 2026-10-21: Geant base fluence studies for ALICE 3 by [@NNicassio99](https://github.com/NNicassio99)
@@ -47,6 +47,7 @@
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
 - [\#15972](https://github.com/AliceO2Group/AliceO2/pull/15972) 2026-10-21: ALICE3: add FT3 clusters, reader and writer by [@f3sch](https://github.com/f3sch)
 - [\#15979](https://github.com/AliceO2Group/AliceO2/pull/15979) 2026-10-20: [ALICE3] TRK: modified macros to check digits and clusters.  by [@atriolo](https://github.com/atriolo)
+- [\#15981](https://github.com/AliceO2Group/AliceO2/pull/15981) 2026-10-26: [ALICE3] TF3: double number of TDC pairs + add RO column masking by [@maciacco](https://github.com/maciacco)
 - [\#15987](https://github.com/AliceO2Group/AliceO2/pull/15987) 2026-10-20: Cosmics cluster collector: store TPC occupancy per cosmic and per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15989](https://github.com/AliceO2Group/AliceO2/pull/15989) 2026-10-21: TPC: store run and time range in the voxRes UserInfo by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15992](https://github.com/AliceO2Group/AliceO2/pull/15992) 2026-10-22: [ALICE3] TRK: rInnRow column for staggered ML layers in the config file by [@lorber98](https://github.com/lorber98)
@@ -59,7 +60,6 @@
 - [\#16004](https://github.com/AliceO2Group/AliceO2/pull/16004) 2026-10-25: Protect HistoManager from OOB access by [@shahor02](https://github.com/shahor02)
 - [\#16006](https://github.com/AliceO2Group/AliceO2/pull/16006) 2026-10-25: CheckResid: add per layer chip residuals and pulls by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#15584](https://github.com/AliceO2Group/AliceO2/pull/15584) 2026-10-12: [O2-7038] DPL Analysis: correction for tpcNClsFindable overflow by [@aalkin](https://github.com/aalkin)
 - [\#15938](https://github.com/AliceO2Group/AliceO2/pull/15938) 2026-10-13: DPL: Fix leaks and self-assignment in Array2D by [@aalkin](https://github.com/aalkin)
 - [\#15939](https://github.com/AliceO2Group/AliceO2/pull/15939) 2026-10-14: DPL: Fix ownership of the content of Variant by [@aalkin](https://github.com/aalkin)
 - [\#15940](https://github.com/AliceO2Group/AliceO2/pull/15940) 2026-10-13: [Framework] Add `is_not_filtered_iterator` concept by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -72,10 +72,12 @@
 - [\#15980](https://github.com/AliceO2Group/AliceO2/pull/15980) 2026-10-17: DPL: out of line HistogramSpec related destructors by [@ktf](https://github.com/ktf)
 - [\#16001](https://github.com/AliceO2Group/AliceO2/pull/16001) 2026-10-24: DPL CCDB fetcher was ignorint condition-timestamp option by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
+- [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15977](https://github.com/AliceO2Group/AliceO2/pull/15977) 2026-10-19: Silence importing task line on hyperloop by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15995](https://github.com/AliceO2Group/AliceO2/pull/15995) 2026-10-22: Decay generator particles before transport by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
+- [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15935](https://github.com/AliceO2Group/AliceO2/pull/15935) 2026-10-19: Skip combined device creation for empty spec list in DigitizerWorkflow by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15972](https://github.com/AliceO2Group/AliceO2/pull/15972) 2026-10-21: ALICE3: add FT3 clusters, reader and writer by [@f3sch](https://github.com/f3sch)
 - [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)
