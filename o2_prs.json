@@ -4594,51 +4594,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Enable Metal if available",
-            "number": 15982,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/build-standalone.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-22T19:07:27Z",
             "title": "Decay generator particles before transport",
@@ -4711,6 +4666,231 @@
                 {
                   "node": {
                     "path": "run/o2sim_g4_particle_table.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Apply correct TBB shutdown mechanism",
+            "number": 16008,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHybrid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-26T15:33:49Z",
+            "title": "[ALICE3] TRK update: New radii for the simplified-realistic OT paving",
+            "number": 16009,
+            "author": {
+              "login": "bulukutlu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/Specs.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/TRKServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/TRKLayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] TRKFT3: first implementation to store Time of Arrival into digits",
+            "number": 16012,
+            "author": {
+              "login": "atriolo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/ALICE3/TRKFT3/common/include/DataFormatsTRKFT3/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/ALICE3/TRKFT3/common/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/ChipDigitsContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/PreDigit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/ChipDigitsContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/TRKFT3SimulationLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS/MFT digi: fix for late hits seen by the next ROF",
+            "number": 16011,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ALICE3 Forward Detector update - #15791",
+            "number": 15967,
+            "author": {
+              "login": "pkurash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/ALICE3/FD3/include/DataFormatsFD3/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/FD3BaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/include/FD3Simulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-26T19:17:26Z",
+            "title": "Fix display fans across wire-trimmed quadric patches",
+            "number": 16010,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/src/BoundedSurface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CADSupport/test/testBVHSurfaceSolid.cxx"
                   }
                 }
               ]
@@ -4811,46 +4991,41 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Fix display fans across wire-trimmed quadric patches",
-            "number": 16010,
+            "title": "Enable Metal if available",
+            "number": 15982,
             "author": {
-              "login": "sawenzel"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/CADSupport/src/BoundedSurface.h"
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/CADSupport/test/testBVHSurfaceSolid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Apply correct TBB shutdown mechanism",
-            "number": 16008,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/documentation/build-standalone.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
@@ -4860,187 +5035,7 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-26T15:33:49Z",
-            "title": "[ALICE3] TRK update: New radii for the simplified-realistic OT paving",
-            "number": 16009,
-            "author": {
-              "login": "bulukutlu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/Specs.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/include/TRKSimulation/TRKServices.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/TRKLayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ALICE3 Forward Detector update - #15791",
-            "number": 15967,
-            "author": {
-              "login": "pkurash"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Upgrades/ALICE3/FD3/include/DataFormatsFD3/Hit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/FD3BaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/base/include/FD3Base/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/include/FD3Simulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FD3/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] TRKFT3: first implementation to store Time of Arrival into digits",
-            "number": 16012,
-            "author": {
-              "login": "atriolo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Upgrades/ALICE3/TRKFT3/common/include/DataFormatsTRKFT3/Digit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Upgrades/ALICE3/TRKFT3/common/src/Digit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/ChipDigitsContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/PreDigit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/ChipDigitsContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/TRKFT3SimulationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "mergedAt": "2026-10-26T22:48:08Z",
             "title": "[ALICE3] TF3: geometry update steered by the final definition of the chip size and module architecture",
             "number": 15998,
             "author": {
@@ -5101,21 +5096,26 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "ITS/MFT digi: fix for late hits seen by the next ROF",
-            "number": 16011,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
             "author": {
-              "login": "shahor02"
+              "login": "github-actions"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
+                    "path": "CHANGELOG.md"
                   }
                 },
                 {
                   "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
                   }
                 }
               ]
