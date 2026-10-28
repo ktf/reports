@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-14T08:47:50Z",
-            "title": "MathUtils: declare fastATan2's Pi where its lambdas can use it",
-            "number": 15949,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-14T08:57:26Z",
-            "title": "Fix Float16_t compatibility",
-            "number": 15950,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCNNClusterizerKernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-14T09:21:28Z",
             "title": "Fix misplaced default in the function",
             "number": 15956,
@@ -4471,41 +4431,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: Allow overriding array values in ConfigParamRegistry",
-            "number": 15927,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ConfigParamRegistry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ConfigParamRegistry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Detect failed reads when a tree is missing from a DF",
             "number": 15978,
             "author": {
@@ -4731,26 +4656,51 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
+            "title": "DPL: add support for writing general Metadata to AO2D",
+            "number": 15553,
             "author": {
-              "login": "github-actions"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CHANGELOG.md"
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
                   }
                 }
               ]
@@ -5039,6 +4989,41 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-28T20:45:52Z",
+            "title": "DPL: Allow overriding array values in ConfigParamRegistry",
+            "number": 15927,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ConfigParamRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ConfigParamRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "TRD: improve anchoring using CCDB objects",
@@ -5066,6 +5051,36 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
                   }
                 }
               ]
@@ -5121,51 +5136,56 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add support for writing general Metadata to AO2D",
-            "number": 15553,
+            "title": "Temporarily disable ITS3 alignment-related stuff",
+            "number": 16020,
             "author": {
-              "login": "ktf"
+              "login": "shahor02"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
+                    "path": "Detectors/Upgrades/ITS3/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
+                    "path": "Detectors/Upgrades/ITS3/macros/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                    "path": "cmake/O2RootMacroExclusionList.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Switch to new GBL API in ITS3 alignment",
+            "number": 16021,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                    "path": "Detectors/Upgrades/ITS3/alignment/src/AlignmentSpec.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
