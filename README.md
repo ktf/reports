@@ -37,7 +37,6 @@
 - [\#15892](https://github.com/AliceO2Group/AliceO2/pull/15892) 2026-10-21: Geant base fluence studies for ALICE 3 by [@NNicassio99](https://github.com/NNicassio99)
 - [\#15912](https://github.com/AliceO2Group/AliceO2/pull/15912) 2026-10-16: TRK: IRIS service aluminium from the MaterialManager by [@f3sch](https://github.com/f3sch)
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
-- [\#15953](https://github.com/AliceO2Group/AliceO2/pull/15953) 2026-10-13: GRPGeomHelper optionally provides aligned geom + alignments by [@shahor02](https://github.com/shahor02)
 - [\#15954](https://github.com/AliceO2Group/AliceO2/pull/15954) 2026-10-13: Add mean res. and sigmas histo per h-barrel by [@shahor02](https://github.com/shahor02)
 - [\#15956](https://github.com/AliceO2Group/AliceO2/pull/15956) 2026-10-14: Fix misplaced default in the function by [@shahor02](https://github.com/shahor02)
 - [\#15957](https://github.com/AliceO2Group/AliceO2/pull/15957) 2026-10-17: ITS2 - anomalous cluster task improvement  by [@nicolovalle](https://github.com/nicolovalle)
