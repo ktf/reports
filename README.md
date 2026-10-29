@@ -62,6 +62,7 @@
 - [\#16011](https://github.com/AliceO2Group/AliceO2/pull/16011) 2026-10-27: ITS/MFT digi: fix for late hits seen by the next ROF by [@shahor02](https://github.com/shahor02)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16013](https://github.com/AliceO2Group/AliceO2/pull/16013) 2026-10-27: Leave holes open in the CADSupport display mesh by [@sawenzel](https://github.com/sawenzel)
+- [\#16016](https://github.com/AliceO2Group/AliceO2/pull/16016) 2026-10-29: ITS/MFT digi: account BC reassignment in time wrt BC by [@shahor02](https://github.com/shahor02)
 - [\#16017](https://github.com/AliceO2Group/AliceO2/pull/16017) 2026-10-28: TrackCosmicExtended reader, attach to InputHelper and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#16018](https://github.com/AliceO2Group/AliceO2/pull/16018) 2026-10-28: TPC TimeSeries: TRD − TPC residuals at a common plane, optional track parameters, TRD readout flag by [@miranov25](https://github.com/miranov25)
 - [\#16020](https://github.com/AliceO2Group/AliceO2/pull/16020) 2026-10-28: Temporarily disable ITS3 alignment-related stuff by [@shahor02](https://github.com/shahor02)
