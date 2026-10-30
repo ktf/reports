@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-14T20:12:05Z",
-            "title": "GPU: make the Metal atomics operate on plain counters",
-            "number": 15944,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-15T04:50:08Z",
             "title": "GPU: make std::is_pointer address-space aware on Metal",
             "number": 15962,
@@ -4254,36 +4219,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Avoid multi-loopers generation when using embedding",
-            "number": 16015,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/TPCLoopers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/TPCLoopers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-29T12:34:09Z",
             "title": "ITS/MFT digi: account BC reassignment in time wrt BC",
@@ -4481,36 +4416,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL: add support to retrieve smaps of running processes",
-            "number": 16023,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/scripts/dpl-mcp-server/dpl_mcp_server.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/StatusWebSocketHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/StatusWebSocketHandler.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Drop CCDBDownloader.h from the CCDB dictionary",
             "number": 16025,
             "author": {
@@ -4541,6 +4446,531 @@
                 {
                   "node": {
                     "path": ".skills/dpl-mcp/SKILL.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable Metal if available",
+            "number": 15982,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/documentation/build-standalone.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-10-30T07:43:42Z",
+            "title": "DPL: add support to retrieve smaps of running processes",
+            "number": 16023,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/scripts/dpl-mcp-server/dpl_mcp_server.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StatusWebSocketHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StatusWebSocketHandler.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-10-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: standalone AOD reader which by-passes root",
+            "number": 16019,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AODNative/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/DEVELOPMENT.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/ArrowTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/ByteSource.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/Codecs.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/Container.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/Decoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/Errors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/Objects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/include/AODNative/ReadPlan.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/ArrowTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/ByteSource.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/Codecs.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/Container.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/Cursor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/Decoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/Endian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/HttpByteSource.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/HttpByteSource.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/LocalByteSource.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/LocalByteSource.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/Objects.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/ReadPlan.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/XRootDByteSource.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/src/XRootDByteSource.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/RootFraming.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/fuzz/fuzz_RootFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/standalone/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/test_Codecs.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/test_Decoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/test_Memory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/test_Objects.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/test_ReadPlan.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/tools/check_corpus.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/tools/make_corpus.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/test/tools/reference_inspect.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/tools/dump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODNative/tools/inspect.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODInputFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODInputFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/NativeAOD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/NativeAOD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/NativeAODPlugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/test/compareNativeToRoot.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ONNX track pruning with machine learning models",
+            "number": 15824,
+            "author": {
+              "login": "ChSonnabend"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/StackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/README-track-pruning.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/TrackTransportUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/test/testStack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add support for writing general Metadata to AO2D",
+            "number": 15553,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid multi-loopers generation when using embedding",
+            "number": 16015,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TPCLoopers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TPCLoopers.cxx"
                   }
                 }
               ]
@@ -4851,416 +5281,6 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/common/tests/dcsmonitoring/FITHvConfigurationReaderTest.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Enable Metal if available",
-            "number": 15982,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/build-standalone.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: add support for writing general Metadata to AO2D",
-            "number": 15553,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODWriterHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisSupportHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2TestHistograms.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: standalone AOD reader which by-passes root",
-            "number": 16019,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AODNative/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/DEVELOPMENT.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/ArrowTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/ByteSource.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/Codecs.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/Container.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/Decoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/Errors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/Objects.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/include/AODNative/ReadPlan.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/ArrowTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/ByteSource.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/Codecs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/Container.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/Cursor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/Decoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/Endian.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/HttpByteSource.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/HttpByteSource.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/LocalByteSource.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/LocalByteSource.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/Objects.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/ReadPlan.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/XRootDByteSource.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/src/XRootDByteSource.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/RootFraming.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/fuzz/fuzz_RootFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/standalone/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/test_Codecs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/test_Decoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/test_Memory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/test_Objects.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/test_ReadPlan.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/tools/check_corpus.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/tools/make_corpus.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/test/tools/reference_inspect.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/tools/dump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AODNative/tools/inspect.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODInputFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODInputFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/DataInputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/NativeAOD.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/NativeAOD.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/NativeAODPlugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/test/compareNativeToRoot.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2Dependencies.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-10-o2_releases.json"
                   }
                 }
               ]
