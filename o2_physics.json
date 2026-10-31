@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-27T07:55:14Z",
-            "title": "[PWGDQ] Update CCDB path to general EventFiltering path",
-            "number": 18429,
-            "author": {
-              "login": "axti98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker_withAssoc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader_withAssoc_direct.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-27T08:01:19Z",
-            "title": "[PWGDQ] Add mult variables to the varNames map",
-            "number": 18351,
-            "author": {
-              "login": "sigurdnese"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-27T10:54:13Z",
             "title": "[PWGHF] Fix casts",
             "number": 18388,
@@ -4033,26 +3983,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] bug fix in histogram name",
-            "number": 18535,
-            "author": {
-              "login": "sawankumawat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-10-31T06:21:24Z",
             "title": "[PWGCF] add particle histograms and 2p correlation 2D profile",
@@ -4425,6 +4355,156 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add FitVars table/processing for tracks, v0s and cascade in femto framework",
+            "number": 18537,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/cascadeHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/charmHadronHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/mcBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/modes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/pairProcessHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/photonHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/trackHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/twoPhotonResonanceHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/twoTrackResonanceHistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0Builder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/v0HistManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerDerivedToDerived.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoCascadeQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTrackQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoV0Qa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] bug fix in histogram name",
+            "number": 18535,
+            "author": {
+              "login": "sawankumawat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Resonances/kstarqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGHF] candidateCreator3Prong: refine logic of KF reconstruction",
+            "number": 18538,
+            "author": {
+              "login": "lubynets"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
                   }
                 }
               ]
