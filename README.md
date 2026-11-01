@@ -7,6 +7,7 @@
 - [\#15965](https://github.com/AliceO2Group/AliceO2/pull/15965) 2026-10-17: DPL Analysis: skip input files which cannot be opened by [@autumn-mck](https://github.com/autumn-mck)
 - [\#15971](https://github.com/AliceO2Group/AliceO2/pull/15971) 2026-10-27: DPL Analysis: distinct ccdb path configurables by [@aalkin](https://github.com/aalkin)
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
+- [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15960](https://github.com/AliceO2Group/AliceO2/pull/15960) 2026-10-17: ITS GPU Seeding vertexer: use warp reductions for fit peak kernel by [@cima22](https://github.com/cima22)
@@ -62,6 +63,7 @@
 - [\#16018](https://github.com/AliceO2Group/AliceO2/pull/16018) 2026-10-28: TPC TimeSeries: TRD − TPC residuals at a common plane, optional track parameters, TRD readout flag by [@miranov25](https://github.com/miranov25)
 - [\#16020](https://github.com/AliceO2Group/AliceO2/pull/16020) 2026-10-28: Temporarily disable ITS3 alignment-related stuff by [@shahor02](https://github.com/shahor02)
 - [\#16029](https://github.com/AliceO2Group/AliceO2/pull/16029) 2026-11-01: CheckResidSpec prints its config from 1st lane by [@shahor02](https://github.com/shahor02)
+- [\#16030](https://github.com/AliceO2Group/AliceO2/pull/16030) 2026-11-01: TPC SCD: fix getDXI off-by-one for row 127 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
 - [\#15926](https://github.com/AliceO2Group/AliceO2/pull/15926) 2026-10-27: DPL: Allow passing labeled arrays through command line  by [@aalkin](https://github.com/aalkin)
 - [\#15927](https://github.com/AliceO2Group/AliceO2/pull/15927) 2026-10-28: DPL: Allow overriding array values in ConfigParamRegistry by [@aalkin](https://github.com/aalkin)
@@ -72,6 +74,7 @@
 - [\#15976](https://github.com/AliceO2Group/AliceO2/pull/15976) 2026-10-17: DPL: hoist std::views::filter to speedup compilation by [@ktf](https://github.com/ktf)
 - [\#15980](https://github.com/AliceO2Group/AliceO2/pull/15980) 2026-10-17: DPL: out of line HistogramSpec related destructors by [@ktf](https://github.com/ktf)
 - [\#16001](https://github.com/AliceO2Group/AliceO2/pull/16001) 2026-10-24: DPL CCDB fetcher was ignorint condition-timestamp option by [@shahor02](https://github.com/shahor02)
+- [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
 - [\#16023](https://github.com/AliceO2Group/AliceO2/pull/16023) 2026-10-30: DPL: add support to retrieve smaps of running processes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
