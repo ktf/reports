@@ -65,6 +65,7 @@
 - [\#16029](https://github.com/AliceO2Group/AliceO2/pull/16029) 2026-11-01: CheckResidSpec prints its config from 1st lane by [@shahor02](https://github.com/shahor02)
 - [\#16030](https://github.com/AliceO2Group/AliceO2/pull/16030) 2026-11-01: TPC SCD: fix getDXI off-by-one for row 127 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16035](https://github.com/AliceO2Group/AliceO2/pull/16035) 2026-11-03: TrackCosmicsExt.Reader pushes TF ID info only if explicitly requested by [@shahor02](https://github.com/shahor02)
+- [\#16039](https://github.com/AliceO2Group/AliceO2/pull/16039) 2026-11-03: ALICE3: TRK and FT3 topology dictionaries per layer, their builder an… by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 - [\#15926](https://github.com/AliceO2Group/AliceO2/pull/15926) 2026-10-27: DPL: Allow passing labeled arrays through command line  by [@aalkin](https://github.com/aalkin)
 - [\#15927](https://github.com/AliceO2Group/AliceO2/pull/15927) 2026-10-28: DPL: Allow overriding array values in ConfigParamRegistry by [@aalkin](https://github.com/aalkin)
