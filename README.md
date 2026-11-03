@@ -28,6 +28,7 @@
 - [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16017](https://github.com/AliceO2Group/AliceO2/pull/16017) 2026-10-28: TrackCosmicExtended reader, attach to InputHelper and RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#16035](https://github.com/AliceO2Group/AliceO2/pull/16035) 2026-11-03: TrackCosmicsExt.Reader pushes TF ID info only if explicitly requested by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15805](https://github.com/AliceO2Group/AliceO2/pull/15805) 2026-10-22: [ALICE3] ACTS tracking geometry provider by [@pbutti](https://github.com/pbutti)
@@ -63,6 +64,7 @@
 - [\#16020](https://github.com/AliceO2Group/AliceO2/pull/16020) 2026-10-28: Temporarily disable ITS3 alignment-related stuff by [@shahor02](https://github.com/shahor02)
 - [\#16029](https://github.com/AliceO2Group/AliceO2/pull/16029) 2026-11-01: CheckResidSpec prints its config from 1st lane by [@shahor02](https://github.com/shahor02)
 - [\#16030](https://github.com/AliceO2Group/AliceO2/pull/16030) 2026-11-01: TPC SCD: fix getDXI off-by-one for row 127 by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#16035](https://github.com/AliceO2Group/AliceO2/pull/16035) 2026-11-03: TrackCosmicsExt.Reader pushes TF ID info only if explicitly requested by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15926](https://github.com/AliceO2Group/AliceO2/pull/15926) 2026-10-27: DPL: Allow passing labeled arrays through command line  by [@aalkin](https://github.com/aalkin)
 - [\#15927](https://github.com/AliceO2Group/AliceO2/pull/15927) 2026-10-28: DPL: Allow overriding array values in ConfigParamRegistry by [@aalkin](https://github.com/aalkin)
