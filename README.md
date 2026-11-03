@@ -7,6 +7,7 @@
 - [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
 - [\#16031](https://github.com/AliceO2Group/AliceO2/pull/16031) 2026-11-02: DPL Analysis: harden the native AOD reader against corrupt input by [@ktf](https://github.com/ktf)
 - [\#16032](https://github.com/AliceO2Group/AliceO2/pull/16032) 2026-11-03: DPL Analysis: cap the read buffers of the native AOD reader by [@ktf](https://github.com/ktf)
+- [\#16036](https://github.com/AliceO2Group/AliceO2/pull/16036) 2026-11-03: DPL Analysis: do not build the tasks a device does not run by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15985](https://github.com/AliceO2Group/AliceO2/pull/15985) 2026-10-20: GPUCommonAlgorithm: partitionPoint by [@f3sch](https://github.com/f3sch)
@@ -63,6 +64,7 @@
 - [\#16035](https://github.com/AliceO2Group/AliceO2/pull/16035) 2026-11-03: TrackCosmicsExt.Reader pushes TF ID info only if explicitly requested by [@shahor02](https://github.com/shahor02)
 - [\#16039](https://github.com/AliceO2Group/AliceO2/pull/16039) 2026-11-03: ALICE3: TRK and FT3 topology dictionaries per layer, their builder an… by [@f3sch](https://github.com/f3sch)
 - [\#16040](https://github.com/AliceO2Group/AliceO2/pull/16040) 2026-11-03: TPC SCD: TrackResiduals y/x grid edge from the pad plane by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#16041](https://github.com/AliceO2Group/AliceO2/pull/16041) 2026-11-03: [ALICE3] TRKFT3 digitizer: compensate for the shift of the reference BC when mCollisionTimeWrtROF < 0 by [@atriolo](https://github.com/atriolo)
 - [\#16043](https://github.com/AliceO2Group/AliceO2/pull/16043) 2026-11-03: suppress completely tfidinfo from TrackCosmicsExtendedReaderSpec by [@shahor02](https://github.com/shahor02)
 - [\#16044](https://github.com/AliceO2Group/AliceO2/pull/16044) 2026-11-03: Remove TPC-only tracks from allowed sources of CheckResid by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -76,6 +78,7 @@
 - [\#16031](https://github.com/AliceO2Group/AliceO2/pull/16031) 2026-11-02: DPL Analysis: harden the native AOD reader against corrupt input by [@ktf](https://github.com/ktf)
 - [\#16032](https://github.com/AliceO2Group/AliceO2/pull/16032) 2026-11-03: DPL Analysis: cap the read buffers of the native AOD reader by [@ktf](https://github.com/ktf)
 - [\#16034](https://github.com/AliceO2Group/AliceO2/pull/16034) 2026-11-02: AODNative: link Threads::Threads publicly by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#16036](https://github.com/AliceO2Group/AliceO2/pull/16036) 2026-11-03: DPL Analysis: do not build the tasks a device does not run by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
