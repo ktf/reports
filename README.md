@@ -18,7 +18,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
-- [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15987](https://github.com/AliceO2Group/AliceO2/pull/15987) 2026-10-20: Cosmics cluster collector: store TPC occupancy per cosmic and per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15988](https://github.com/AliceO2Group/AliceO2/pull/15988) 2026-10-20: BaseCluster: initialise errors to 0 by default by [@hyungjun-lee](https://github.com/hyungjun-lee)
 - [\#15990](https://github.com/AliceO2Group/AliceO2/pull/15990) 2026-10-21: TrackParametrization: use double math functions for TrackParD by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -33,7 +32,6 @@
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
 - [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
 - [\#15892](https://github.com/AliceO2Group/AliceO2/pull/15892) 2026-10-21: Geant base fluence studies for ALICE 3 by [@NNicassio99](https://github.com/NNicassio99)
-- [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15972](https://github.com/AliceO2Group/AliceO2/pull/15972) 2026-10-21: ALICE3: add FT3 clusters, reader and writer by [@f3sch](https://github.com/f3sch)
 - [\#15979](https://github.com/AliceO2Group/AliceO2/pull/15979) 2026-10-20: [ALICE3] TRK: modified macros to check digits and clusters.  by [@atriolo](https://github.com/atriolo)
 - [\#15981](https://github.com/AliceO2Group/AliceO2/pull/15981) 2026-10-26: [ALICE3] TF3: double number of TDC pairs + add RO column masking by [@maciacco](https://github.com/maciacco)
@@ -61,7 +59,9 @@
 - [\#16020](https://github.com/AliceO2Group/AliceO2/pull/16020) 2026-10-28: Temporarily disable ITS3 alignment-related stuff by [@shahor02](https://github.com/shahor02)
 - [\#16029](https://github.com/AliceO2Group/AliceO2/pull/16029) 2026-11-01: CheckResidSpec prints its config from 1st lane by [@shahor02](https://github.com/shahor02)
 - [\#16030](https://github.com/AliceO2Group/AliceO2/pull/16030) 2026-11-01: TPC SCD: fix getDXI off-by-one for row 127 by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#16033](https://github.com/AliceO2Group/AliceO2/pull/16033) 2026-11-04: ALICE3: TRK/FT3 digitizer response matrix on the heap, not the stack by [@f3sch](https://github.com/f3sch)
 - [\#16035](https://github.com/AliceO2Group/AliceO2/pull/16035) 2026-11-03: TrackCosmicsExt.Reader pushes TF ID info only if explicitly requested by [@shahor02](https://github.com/shahor02)
+- [\#16037](https://github.com/AliceO2Group/AliceO2/pull/16037) 2026-11-04: GenericTracking: start and import BoundedAllocator by [@mpuccio](https://github.com/mpuccio)
 - [\#16039](https://github.com/AliceO2Group/AliceO2/pull/16039) 2026-11-03: ALICE3: TRK and FT3 topology dictionaries per layer, their builder an… by [@f3sch](https://github.com/f3sch)
 - [\#16040](https://github.com/AliceO2Group/AliceO2/pull/16040) 2026-11-03: TPC SCD: TrackResiduals y/x grid edge from the pad plane by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16041](https://github.com/AliceO2Group/AliceO2/pull/16041) 2026-11-03: [ALICE3] TRKFT3 digitizer: compensate for the shift of the reference BC when mCollisionTimeWrtROF < 0 by [@atriolo](https://github.com/atriolo)
@@ -81,12 +81,10 @@
 - [\#16036](https://github.com/AliceO2Group/AliceO2/pull/16036) 2026-11-03: DPL Analysis: do not build the tasks a device does not run by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
-- [\#15916](https://github.com/AliceO2Group/AliceO2/pull/15916) 2026-10-19: Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15995](https://github.com/AliceO2Group/AliceO2/pull/15995) 2026-10-22: Decay generator particles before transport by [@sawenzel](https://github.com/sawenzel)
 - [\#16008](https://github.com/AliceO2Group/AliceO2/pull/16008) 2026-10-27: Apply correct TBB shutdown mechanism by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16015](https://github.com/AliceO2Group/AliceO2/pull/16015) 2026-10-30: Avoid multi-loopers generation when using embedding by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
-- [\#15935](https://github.com/AliceO2Group/AliceO2/pull/15935) 2026-10-19: Skip combined device creation for empty spec list in DigitizerWorkflow by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15972](https://github.com/AliceO2Group/AliceO2/pull/15972) 2026-10-21: ALICE3: add FT3 clusters, reader and writer by [@f3sch](https://github.com/f3sch)
 - [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)

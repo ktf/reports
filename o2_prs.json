@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-10-19T11:59:57Z",
-            "title": "Make O2DatabasePDG::Instance() thread-safe and remove few PDG warnings",
-            "number": 15916,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/data/extra_ions_pdg_table.dat"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/o2sim.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-19T12:02:24Z",
-            "title": "Skip combined device creation for empty spec list in DigitizerWorkflow",
-            "number": 15935,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Reuse same instances in hybrid generator",
-            "number": 15983,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybrid.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorHybridParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorHybrid.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-10-19T11:26:28Z",
-            "title": "GPU Display: require GLFW >= 3.4",
-            "number": 15984,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindGLFW.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-10-20T01:40:20Z",
             "title": "GPUCommonAlgorithm: partitionPoint",
             "number": 15985,
@@ -1266,191 +1156,6 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/study/src/CheckResidSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP] Allow ACTS tracker in O2",
-            "number": 15854,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/include/ACTSInterface/ITrackingGeometryBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/include/ACTSInterface/MagneticFieldAdapter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/include/ACTSInterface/SurfaceIndexMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/include/ACTSInterface/TrackingGeometryManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/src/MagneticFieldAdapter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/src/SurfaceIndexMap.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/interface/src/TrackingGeometryManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/workflow/include/ACTSWorkflow/ActsGeometryService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ACTS/workflow/src/ActsGeometryService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/interface/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/interface/include/ALICE3ACTS/TrkTGeoBlueprintBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/interface/src/ALICE3ACTSLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/interface/src/TrkTGeoBlueprintBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/macros/CheckActsTrackingGeometry.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/ACTS/macros/run_test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/include/ALICE3GlobalReconstruction/TimeFrameMixin.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/include/ALICE3GlobalReconstruction/TrackerACTS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/src/TrackerACTS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/include/ALICE3GlobalReconstructionWorkflow/TrackerSpecImpl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/src/alice3-global-reconstruction-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Magnet.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/macros/test/CheckClusters.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2RootMacroExclusionList.cmake"
                   }
                 }
               ]
@@ -4009,51 +3714,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ALICE3: TRK/FT3 digitizer response matrix on the heap, not the stack",
-            "number": 16033,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-03T08:59:30Z",
             "title": "ALICE3: TRK and FT3 topology dictionaries per layer, their builder an…",
@@ -4151,146 +3811,6 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GenericTracking: start and import BoundedAllocator",
-            "number": 16037,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GenericTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GenericTracking/include/GenericTracking/BoundedAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GenericTracking/src/BoundedAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GenericTracking/test/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GenericTracking/test/testBoundedAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TimeFrameGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/LineVertexerHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackerTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Vertexer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexerTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Vertexer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/BoundedAllocator.h"
                   }
                 }
               ]
@@ -4646,36 +4166,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-11-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-11-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "GPUDisplay: Cleanup and improvements (DO NOT MERGE)",
             "number": 16022,
             "author": {
@@ -5001,6 +4491,391 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/macros/printLut.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-11-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-11-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Framework: key HIST() names by a fixed-string template argument",
+            "number": 16045,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StringHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_StringHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-04T15:02:16Z",
+            "title": "ALICE3: TRK/FT3 digitizer response matrix on the heap, not the stack",
+            "number": 16033,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/include/TRKFT3Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid having OpenMP as a dependency of the whole O2",
+            "number": 16047,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/rANS/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/DenseHistogram.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Allow ACTS tracker in O2",
+            "number": 15854,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/include/ALICE3GlobalReconstruction/TimeFrameMixin.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/include/ALICE3GlobalReconstruction/TrackerACTS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/include/ALICE3GlobalReconstruction/TrackerACTS2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/src/TrackerACTS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/reconstruction/src/TrackerACTS2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/include/ALICE3GlobalReconstructionWorkflow/TrackerSpecImpl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/GlobalReconstruction/workflow/src/alice3-global-reconstruction-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Magnet.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC SCD: round instead of truncate when packing the unbinned residuals",
+            "number": 16046,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-04T12:50:43Z",
+            "title": "GenericTracking: start and import BoundedAllocator",
+            "number": 16037,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GenericTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GenericTracking/include/GenericTracking/BoundedAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GenericTracking/src/BoundedAllocator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GenericTracking/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GenericTracking/test/testBoundedAllocator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TimeFrameGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/LineVertexerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackerTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Vertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexerTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Vertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/BoundedAllocator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Keep o2-sim workers alive until the driver terminates them",
+            "number": 16048,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/O2SimDeviceRunner.cxx"
                   }
                 }
               ]
