@@ -9,13 +9,11 @@
 - [\#16051](https://github.com/AliceO2Group/AliceO2/pull/16051) 2026-11-05: DPL Analysis: retry remote reads and fail over to other replicas in the native AOD reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
-- [\#15990](https://github.com/AliceO2Group/AliceO2/pull/15990) 2026-10-21: TrackParametrization: use double math functions for TrackParD by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15991](https://github.com/AliceO2Group/AliceO2/pull/15991) 2026-10-22: GPUCommonDefAPI: add GPUhdii() by [@f3sch](https://github.com/f3sch)
 - [\#15999](https://github.com/AliceO2Group/AliceO2/pull/15999) 2026-10-24: TrackTools: shared TrackGeometry utilities for track acceptance and PID studies" by [@miranov25](https://github.com/miranov25)
 ## Recent developments in O2 - DataFormats
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
-- [\#15990](https://github.com/AliceO2Group/AliceO2/pull/15990) 2026-10-21: TrackParametrization: use double math functions for TrackParD by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16017](https://github.com/AliceO2Group/AliceO2/pull/16017) 2026-10-28: TrackCosmicExtended reader, attach to InputHelper and RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -26,10 +24,7 @@
 - [\#15805](https://github.com/AliceO2Group/AliceO2/pull/15805) 2026-10-22: [ALICE3] ACTS tracking geometry provider by [@pbutti](https://github.com/pbutti)
 - [\#15881](https://github.com/AliceO2Group/AliceO2/pull/15881) 2026-10-21:  AFIT-80 - Implementation of configurable parameters for FV0 reconstruction  by [@wpierozak](https://github.com/wpierozak)
 - [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
-- [\#15892](https://github.com/AliceO2Group/AliceO2/pull/15892) 2026-10-21: Geant base fluence studies for ALICE 3 by [@NNicassio99](https://github.com/NNicassio99)
-- [\#15972](https://github.com/AliceO2Group/AliceO2/pull/15972) 2026-10-21: ALICE3: add FT3 clusters, reader and writer by [@f3sch](https://github.com/f3sch)
 - [\#15981](https://github.com/AliceO2Group/AliceO2/pull/15981) 2026-10-26: [ALICE3] TF3: double number of TDC pairs + add RO column masking by [@maciacco](https://github.com/maciacco)
-- [\#15989](https://github.com/AliceO2Group/AliceO2/pull/15989) 2026-10-21: TPC: store run and time range in the voxRes UserInfo by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15992](https://github.com/AliceO2Group/AliceO2/pull/15992) 2026-10-22: [ALICE3] TRK: rInnRow column for staggered ML layers in the config file by [@lorber98](https://github.com/lorber98)
 - [\#15994](https://github.com/AliceO2Group/AliceO2/pull/15994) 2026-10-21: TPC: fix the weight and grid scaling of the spline derivatives in addCorrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#15996](https://github.com/AliceO2Group/AliceO2/pull/15996) 2026-10-22: Add contributesToAHit flag to MCTrack by [@sawenzel](https://github.com/sawenzel)
@@ -83,7 +78,6 @@
 - [\#16015](https://github.com/AliceO2Group/AliceO2/pull/16015) 2026-10-30: Avoid multi-loopers generation when using embedding by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
-- [\#15972](https://github.com/AliceO2Group/AliceO2/pull/15972) 2026-10-21: ALICE3: add FT3 clusters, reader and writer by [@f3sch](https://github.com/f3sch)
 - [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Utilities

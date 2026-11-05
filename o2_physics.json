@@ -3304,26 +3304,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGJE] add truth-level jet tables and reco-truth matching",
-            "number": 18593,
-            "author": {
-              "login": "mulewicz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/quarkGluonJetsProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Dstar spin alignment: Add rotation and extend the MC derived data",
             "number": 18591,
             "author": {
@@ -3452,46 +3432,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGHF] D+-h task: Decouple pT limits in ML cuts and in correl.",
-            "number": 18365,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusHadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix IsITSAfterburner dynamic column in LFStrangenessTables",
-            "number": 18611,
-            "author": {
-              "login": "romainschotter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-05T16:59:11Z",
             "title": "[PWGUD] Control histograms added",
@@ -3513,97 +3453,22 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-11-05T17:03:14Z",
-            "title": "[PWGCF] Implement collision tagger in femto framework",
-            "number": 18607,
+            "mergedAt": "2026-11-05T17:34:14Z",
+            "title": "[PWGLF] Add TPC explicitly in hStrangeCorrelation.cxx",
+            "number": 18609,
             "author": {
-              "login": "ariedel-cern"
+              "login": "kcui1"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/collisionTagger.h"
+                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/TableProducer/femtoProducerCollisionTagger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairD0D0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackCharmHadron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackKink.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTwoPhotonResonance.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTwoTrackResonance.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairTrackV0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairV0TwoTrackResonance.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoPairV0V0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackV0.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
                   }
                 }
               ]
@@ -3862,23 +3727,18 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-05T17:34:14Z",
-            "title": "[PWGLF] Add TPC explicitly in hStrangeCorrelation.cxx",
-            "number": 18609,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix IsITSAfterburner dynamic column in LFStrangenessTables",
+            "number": 18611,
             "author": {
-              "login": "kcui1"
+              "login": "romainschotter"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGLF/TableProducer/Strangeness/hStrangeCorrelationFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/hStrangeCorrelation.cxx"
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
                   }
                 }
               ]
@@ -3889,6 +3749,146 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGHF] D+-h task: Decouple pT limits in ML cuts and in correl.",
+            "number": 18365,
+            "author": {
+              "login": "apalasciano"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationDplusHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-05T18:34:14Z",
+            "title": "[PWGJE] add truth-level jet tables and reco-truth matching",
+            "number": 18593,
+            "author": {
+              "login": "mulewicz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/quarkGluonJetsProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-05T17:03:14Z",
+            "title": "[PWGCF] Implement collision tagger in femto framework",
+            "number": 18607,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/collisionTagger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/DataModel/FemtoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/TableProducer/femtoProducerCollisionTagger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairD0D0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackCharmHadron.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackKink.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTwoPhotonResonance.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackTwoTrackResonance.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairV0TwoTrackResonance.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoPairV0V0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Tasks/femtoTripletTrackTrackV0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-05T18:37:46Z",
             "title": "[PWGHF] Implement MC closure and efficiency reweight for 2PC",
             "number": 18610,
             "author": {
