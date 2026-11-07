@@ -8,10 +8,12 @@
 - [\#16032](https://github.com/AliceO2Group/AliceO2/pull/16032) 2026-11-03: DPL Analysis: cap the read buffers of the native AOD reader by [@ktf](https://github.com/ktf)
 - [\#16036](https://github.com/AliceO2Group/AliceO2/pull/16036) 2026-11-03: DPL Analysis: do not build the tasks a device does not run by [@ktf](https://github.com/ktf)
 - [\#16051](https://github.com/AliceO2Group/AliceO2/pull/16051) 2026-11-05: DPL Analysis: retry remote reads and fail over to other replicas in the native AOD reader by [@ktf](https://github.com/ktf)
+- [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 - [\#16061](https://github.com/AliceO2Group/AliceO2/pull/16061) 2026-11-06: DPL Analysis: look for AOD metadata up to the allowed parent level by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#15999](https://github.com/AliceO2Group/AliceO2/pull/15999) 2026-10-24: TrackTools: shared TrackGeometry utilities for track acceptance and PID studies" by [@miranov25](https://github.com/miranov25)
+- [\#16057](https://github.com/AliceO2Group/AliceO2/pull/16057) 2026-11-07: Make the magnetic field evaluation reentrant by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
@@ -22,10 +24,7 @@
 - [\#15650](https://github.com/AliceO2Group/AliceO2/pull/15650) 2026-11-03: TPC: Improve standalone dEdx calculation class by [@tubagundem](https://github.com/tubagundem)
 - [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
 - [\#15981](https://github.com/AliceO2Group/AliceO2/pull/15981) 2026-10-26: [ALICE3] TF3: double number of TDC pairs + add RO column masking by [@maciacco](https://github.com/maciacco)
-- [\#15997](https://github.com/AliceO2Group/AliceO2/pull/15997) 2026-10-23: Extending track references to other detectors by [@tubagundem](https://github.com/tubagundem)
 - [\#15998](https://github.com/AliceO2Group/AliceO2/pull/15998) 2026-10-26: [ALICE3] TF3: geometry update steered by the final definition of the chip size and module architecture by [@maciacco](https://github.com/maciacco)
-- [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)
-- [\#16003](https://github.com/AliceO2Group/AliceO2/pull/16003) 2026-10-24: Add optional residuals from IB/OB tracks extrapolations to OB/IB clusters by [@shahor02](https://github.com/shahor02)
 - [\#16004](https://github.com/AliceO2Group/AliceO2/pull/16004) 2026-10-25: Protect HistoManager from OOB access by [@shahor02](https://github.com/shahor02)
 - [\#16006](https://github.com/AliceO2Group/AliceO2/pull/16006) 2026-10-25: CheckResid: add per layer chip residuals and pulls by [@shahor02](https://github.com/shahor02)
 - [\#16007](https://github.com/AliceO2Group/AliceO2/pull/16007) 2026-10-27: Allow use of CA on limited amount of layers by [@mpuccio](https://github.com/mpuccio)
@@ -51,6 +50,9 @@
 - [\#16046](https://github.com/AliceO2Group/AliceO2/pull/16046) 2026-11-04: TPC SCD: round instead of truncate when packing the unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
 - [\#16053](https://github.com/AliceO2Group/AliceO2/pull/16053) 2026-11-05: HBFUtilsInitializer throws if tfidinfo vector is empty by [@shahor02](https://github.com/shahor02)
+- [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
+- [\#16056](https://github.com/AliceO2Group/AliceO2/pull/16056) 2026-11-07: Keep stepping state in detector members instead of statics by [@sawenzel](https://github.com/sawenzel)
+- [\#16063](https://github.com/AliceO2Group/AliceO2/pull/16063) 2026-11-07: [ALICE3] VD: fixed digitization for the kIRIS4a and kIRISFullCyl geometries by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Framework
 - [\#15926](https://github.com/AliceO2Group/AliceO2/pull/15926) 2026-10-27: DPL: Allow passing labeled arrays through command line  by [@aalkin](https://github.com/aalkin)
 - [\#15927](https://github.com/AliceO2Group/AliceO2/pull/15927) 2026-10-28: DPL: Allow overriding array values in ConfigParamRegistry by [@aalkin](https://github.com/aalkin)
@@ -70,9 +72,11 @@
 - [\#15995](https://github.com/AliceO2Group/AliceO2/pull/15995) 2026-10-22: Decay generator particles before transport by [@sawenzel](https://github.com/sawenzel)
 - [\#16008](https://github.com/AliceO2Group/AliceO2/pull/16008) 2026-10-27: Apply correct TBB shutdown mechanism by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16015](https://github.com/AliceO2Group/AliceO2/pull/16015) 2026-10-30: Avoid multi-loopers generation when using embedding by [@jackal1-66](https://github.com/jackal1-66)
+- [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#15602](https://github.com/AliceO2Group/AliceO2/pull/15602) 2026-10-26: Integration of monopoles in O2 framework by [@jackal1-66](https://github.com/jackal1-66)
-- [\#16002](https://github.com/AliceO2Group/AliceO2/pull/16002) 2026-10-24: [ALICE3] TF3: fetch pixel maps inside digitizer workflow by [@maciacco](https://github.com/maciacco)
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
+- [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
+- [\#16056](https://github.com/AliceO2Group/AliceO2/pull/16056) 2026-11-07: Keep stepping state in detector members instead of statics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#16047](https://github.com/AliceO2Group/AliceO2/pull/16047) 2026-11-04: Avoid having OpenMP as a dependency of the whole O2 by [@ktf](https://github.com/ktf)
