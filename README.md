@@ -45,6 +45,7 @@
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
 - [\#16053](https://github.com/AliceO2Group/AliceO2/pull/16053) 2026-11-05: HBFUtilsInitializer throws if tfidinfo vector is empty by [@shahor02](https://github.com/shahor02)
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
+- [\#16055](https://github.com/AliceO2Group/AliceO2/pull/16055) 2026-11-07: Draw transport random numbers from a per-thread generator by [@sawenzel](https://github.com/sawenzel)
 - [\#16056](https://github.com/AliceO2Group/AliceO2/pull/16056) 2026-11-07: Keep stepping state in detector members instead of statics by [@sawenzel](https://github.com/sawenzel)
 - [\#16060](https://github.com/AliceO2Group/AliceO2/pull/16060) 2026-11-07: MFT: track writer by [@f3sch](https://github.com/f3sch)
 - [\#16063](https://github.com/AliceO2Group/AliceO2/pull/16063) 2026-11-07: [ALICE3] VD: fixed digitization for the kIRIS4a and kIRISFullCyl geometries by [@atriolo](https://github.com/atriolo)
@@ -71,6 +72,7 @@
 ## Recent developments in O2 - Steer
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
+- [\#16055](https://github.com/AliceO2Group/AliceO2/pull/16055) 2026-11-07: Draw transport random numbers from a per-thread generator by [@sawenzel](https://github.com/sawenzel)
 - [\#16056](https://github.com/AliceO2Group/AliceO2/pull/16056) 2026-11-07: Keep stepping state in detector members instead of statics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#16047](https://github.com/AliceO2Group/AliceO2/pull/16047) 2026-11-04: Avoid having OpenMP as a dependency of the whole O2 by [@ktf](https://github.com/ktf)
