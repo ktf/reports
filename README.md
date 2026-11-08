@@ -19,7 +19,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15650](https://github.com/AliceO2Group/AliceO2/pull/15650) 2026-11-03: TPC: Improve standalone dEdx calculation class by [@tubagundem](https://github.com/tubagundem)
 - [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
-- [\#15981](https://github.com/AliceO2Group/AliceO2/pull/15981) 2026-10-26: [ALICE3] TF3: double number of TDC pairs + add RO column masking by [@maciacco](https://github.com/maciacco)
 - [\#15998](https://github.com/AliceO2Group/AliceO2/pull/15998) 2026-10-26: [ALICE3] TF3: geometry update steered by the final definition of the chip size and module architecture by [@maciacco](https://github.com/maciacco)
 - [\#16007](https://github.com/AliceO2Group/AliceO2/pull/16007) 2026-10-27: Allow use of CA on limited amount of layers by [@mpuccio](https://github.com/mpuccio)
 - [\#16009](https://github.com/AliceO2Group/AliceO2/pull/16009) 2026-10-26: [ALICE3] TRK update: New radii for the simplified-realistic OT paving by [@bulukutlu](https://github.com/bulukutlu)
