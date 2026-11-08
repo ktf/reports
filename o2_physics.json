@@ -2821,46 +2821,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Fix unused variables, parameters, values",
-            "number": 18641,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Core/CorrelationContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/RobustFluctuationObservables.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/kaonIsospinFluctuations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Femto3D/Tasks/multEstimator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackNucleus.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGHF] Fix unused variables, parameters, values",
             "number": 18643,
             "author": {
@@ -2931,6 +2891,386 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/longrangecorrDerived.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] New folder for ALICE 3 fluence studies",
+            "number": 18161,
+            "author": {
+              "login": "NNicassio99"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/00_prepare.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/01_run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/02_check.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/02_make_g4config.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/03_clean.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/ALICE3Field.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/README_LOCAL.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/SetupFluenceStudyGeant.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/analyze_geant.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/geometry_points.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/make_geometry_csv.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/scoring_g4_alice3.in"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Macros/Fluence/simulation.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T09:25:22Z",
+            "title": "[PWGCF] LP Balance Function Update 11: Refactor MC composition checks and add unweighted counts",
+            "number": 18636,
+            "author": {
+              "login": "Anoop1379"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Fix unused variables, parameters, values",
+            "number": 18646,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/Tasks/lumiStability.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/macros/merger.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Lumi/macros/non_fac.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/TableProducer/ambiguousTrackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/vertexing-fwd.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T09:32:51Z",
+            "title": "[PWGCF] Extend the Fox–Wolfram analysis with associated-particle pT spectra and mean-pT profiles vs multip",
+            "number": 18650,
+            "author": {
+              "login": "iulianflorinandreicovici-144"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/FoxWolframCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Add ITS PID veto and pO rapidity QA to nuclei-in-jets analysis",
+            "number": 18649,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Update track selection in FactorialMomentsTask",
+            "number": 18651,
+            "author": {
+              "login": "baasingh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Fix unused variables, parameters, values",
+            "number": 18645,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/zdcvector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Nuspex/pidTOFGeneric.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/NucleiEfficiencyTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/QAHistTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/cascpolsp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T13:28:03Z",
+            "title": "[PWGHF] taskCorrelationsEfficiencies: apply selections on generated tracks and collisions",
+            "number": 18633,
+            "author": {
+              "login": "Marcellocosti"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationsEfficiencies.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Utils/utilsFlow.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T14:29:23Z",
+            "title": "[PWGLF] Add additional QA plot for zdc calibration",
+            "number": 18653,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/zdc2stagecalibration.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Added centrality classification of trigger particles.",
+            "number": 18637,
+            "author": {
+              "login": "rahulverma012"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/hParticleCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T17:00:20Z",
+            "title": "[PWGUD] MUON efficiency producer: add simple luminosity counters",
+            "number": 18652,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/muonEfficiencyProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Fix unused variables, parameters, values",
+            "number": 18641,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Core/CorrelationContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/RobustFluctuationObservables.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/kaonIsospinFluctuations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/Tasks/multEstimator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackNucleus.cxx"
                   }
                 }
               ]
@@ -3446,346 +3786,6 @@
                 {
                   "node": {
                     "path": "PWGCF/TwoParticleCorrelations/Tasks/twoParticleCorrelationsMpi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] New folder for ALICE 3 fluence studies",
-            "number": 18161,
-            "author": {
-              "login": "NNicassio99"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/00_prepare.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/01_run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/02_check.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/02_make_g4config.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/03_clean.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/ALICE3Field.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/README_LOCAL.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/SetupFluenceStudyGeant.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/analyze_geant.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/geometry_points.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/make_geometry_csv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/scoring_g4_alice3.in"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Macros/Fluence/simulation.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-08T09:25:22Z",
-            "title": "[PWGCF] LP Balance Function Update 11: Refactor MC composition checks and add unweighted counts",
-            "number": 18636,
-            "author": {
-              "login": "Anoop1379"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/lambdaProtonBalanceFunction.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Fix unused variables, parameters, values",
-            "number": 18646,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/Tasks/lumiStability.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/macros/merger.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Lumi/macros/non_fac.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/TableProducer/ambiguousTrackPropagation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/vertexing-fwd.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-08T09:32:51Z",
-            "title": "[PWGCF] Extend the Fox–Wolfram analysis with associated-particle pT spectra and mean-pT profiles vs multip",
-            "number": 18650,
-            "author": {
-              "login": "iulianflorinandreicovici-144"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/FoxWolframCorrelation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGJE] Add ITS PID veto and pO rapidity QA to nuclei-in-jets analysis",
-            "number": 18649,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/nucleiInJets.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGUD] MUON efficiency producer: add simple luminosity counters",
-            "number": 18652,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/muonEfficiencyProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Update track selection in FactorialMomentsTask",
-            "number": 18651,
-            "author": {
-              "login": "baasingh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/FactorialMomentsTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix unused variables, parameters, values",
-            "number": 18645,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/zdcvector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/pidTOFGeneric.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/NucleiEfficiencyTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/QAHistTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/cascpolsp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/lambdapolsp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-08T13:28:03Z",
-            "title": "[PWGHF] taskCorrelationsEfficiencies: apply selections on generated tracks and collisions",
-            "number": 18633,
-            "author": {
-              "login": "Marcellocosti"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/derivedDataCreatorCorrelationsReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationsEfficiencies.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Utils/utilsFlow.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-08T14:29:23Z",
-            "title": "[PWGLF] Add additional QA plot for zdc calibration",
-            "number": 18653,
-            "author": {
-              "login": "skundu692"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Common/zdc2stagecalibration.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Added centrality classification of trigger particles.",
-            "number": 18637,
-            "author": {
-              "login": "rahulverma012"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/hParticleCorrelation.cxx"
                   }
                 }
               ]
