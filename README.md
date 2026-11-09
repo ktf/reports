@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#15971](https://github.com/AliceO2Group/AliceO2/pull/15971) 2026-10-27: DPL Analysis: distinct ccdb path configurables by [@aalkin](https://github.com/aalkin)
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
 - [\#16031](https://github.com/AliceO2Group/AliceO2/pull/16031) 2026-11-02: DPL Analysis: harden the native AOD reader against corrupt input by [@ktf](https://github.com/ktf)
@@ -24,9 +23,7 @@
 - [\#15650](https://github.com/AliceO2Group/AliceO2/pull/15650) 2026-11-03: TPC: Improve standalone dEdx calculation class by [@tubagundem](https://github.com/tubagundem)
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
 - [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
-- [\#16007](https://github.com/AliceO2Group/AliceO2/pull/16007) 2026-10-27: Allow use of CA on limited amount of layers by [@mpuccio](https://github.com/mpuccio)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
-- [\#16013](https://github.com/AliceO2Group/AliceO2/pull/16013) 2026-10-27: Leave holes open in the CADSupport display mesh by [@sawenzel](https://github.com/sawenzel)
 - [\#16016](https://github.com/AliceO2Group/AliceO2/pull/16016) 2026-10-29: ITS/MFT digi: account BC reassignment in time wrt BC by [@shahor02](https://github.com/shahor02)
 - [\#16017](https://github.com/AliceO2Group/AliceO2/pull/16017) 2026-10-28: TrackCosmicExtended reader, attach to InputHelper and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#16018](https://github.com/AliceO2Group/AliceO2/pull/16018) 2026-10-28: TPC TimeSeries: TRD − TPC residuals at a common plane, optional track parameters, TRD readout flag by [@miranov25](https://github.com/miranov25)
@@ -50,10 +47,11 @@
 - [\#16060](https://github.com/AliceO2Group/AliceO2/pull/16060) 2026-11-07: MFT: track writer by [@f3sch](https://github.com/f3sch)
 - [\#16063](https://github.com/AliceO2Group/AliceO2/pull/16063) 2026-11-07: [ALICE3] VD: fixed digitization for the kIRIS4a and kIRISFullCyl geometries by [@atriolo](https://github.com/atriolo)
 - [\#16073](https://github.com/AliceO2Group/AliceO2/pull/16073) 2026-11-07: EMCAL: initialise the MC kinematics reader pointer in the digitizer by [@ktf](https://github.com/ktf)
+- [\#16081](https://github.com/AliceO2Group/AliceO2/pull/16081) 2026-11-09: Fix MC labels carried over between sectors in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
+- [\#16083](https://github.com/AliceO2Group/AliceO2/pull/16083) 2026-11-09: Resolve TPC digitizer calibration objects once per sector by [@sawenzel](https://github.com/sawenzel)
+- [\#16089](https://github.com/AliceO2Group/AliceO2/pull/16089) 2026-11-09: Report why a simulation setup library cannot be loaded by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#15926](https://github.com/AliceO2Group/AliceO2/pull/15926) 2026-10-27: DPL: Allow passing labeled arrays through command line  by [@aalkin](https://github.com/aalkin)
 - [\#15927](https://github.com/AliceO2Group/AliceO2/pull/15927) 2026-10-28: DPL: Allow overriding array values in ConfigParamRegistry by [@aalkin](https://github.com/aalkin)
-- [\#15971](https://github.com/AliceO2Group/AliceO2/pull/15971) 2026-10-27: DPL Analysis: distinct ccdb path configurables by [@aalkin](https://github.com/aalkin)
 - [\#15974](https://github.com/AliceO2Group/AliceO2/pull/15974) 2026-10-28: DPL Analysis: update the ccdb paths options from configuration by [@aalkin](https://github.com/aalkin)
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
@@ -68,7 +66,6 @@
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
 - [\#16080](https://github.com/AliceO2Group/AliceO2/pull/16080) 2026-11-08: DPL Analysis: query the CCDB once per run of equal timestamps by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#16008](https://github.com/AliceO2Group/AliceO2/pull/16008) 2026-10-27: Apply correct TBB shutdown mechanism by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16015](https://github.com/AliceO2Group/AliceO2/pull/16015) 2026-10-30: Avoid multi-loopers generation when using embedding by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
