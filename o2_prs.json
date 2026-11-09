@@ -4564,71 +4564,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "FileFetcher acknowledges suppression of processed files",
-            "number": 16078,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/src/FileFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Enable Metal if available",
-            "number": 15982,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/documentation/build-standalone.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-08T21:32:41Z",
             "title": "CCDB: read std::array objects written by libstdc++ on libc++ builds",
@@ -4651,6 +4586,106 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataRefUtils.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T22:41:37Z",
+            "title": "DPL Analysis: query the CCDB once per run of equal timestamps",
+            "number": 16080,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix MC labels carried over between sectors in the TPC digitizer",
+            "number": 16081,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/test/testTPCDigitContainerReset.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-08T22:43:09Z",
+            "title": "DPL Analysis: send CCDB tables together with the objects they refer to",
+            "number": 16079,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataRelayer.cxx"
                   }
                 }
               ]
@@ -5029,106 +5064,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-08T22:41:37Z",
-            "title": "DPL Analysis: query the CCDB once per run of equal timestamps",
-            "number": 16080,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix MC labels carried over between sectors in the TPC digitizer",
-            "number": 16081,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/test/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/test/testTPCDigitContainerReset.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-08T22:43:09Z",
-            "title": "DPL Analysis: send CCDB tables together with the objects they refer to",
-            "number": 16079,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/AnalysisCCDBHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBFetcherHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/CCDBSupport/src/CCDBHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataRelayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -5151,6 +5086,71 @@
                 {
                   "node": {
                     "path": "doc/data/2026-11-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable Metal if available",
+            "number": 15982,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/genEvents.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/documentation/build-standalone.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-09T00:51:47Z",
+            "title": "FileFetcher acknowledges suppression of processed files",
+            "number": 16078,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/src/FileFetcher.cxx"
                   }
                 }
               ]

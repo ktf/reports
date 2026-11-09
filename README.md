@@ -14,6 +14,7 @@
 - [\#16080](https://github.com/AliceO2Group/AliceO2/pull/16080) 2026-11-08: DPL Analysis: query the CCDB once per run of equal timestamps by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#16057](https://github.com/AliceO2Group/AliceO2/pull/16057) 2026-11-07: Make the magnetic field evaluation reentrant by [@sawenzel](https://github.com/sawenzel)
+- [\#16078](https://github.com/AliceO2Group/AliceO2/pull/16078) 2026-11-09: FileFetcher acknowledges suppression of processed files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16017](https://github.com/AliceO2Group/AliceO2/pull/16017) 2026-10-28: TrackCosmicExtended reader, attach to InputHelper and RecoContainer by [@shahor02](https://github.com/shahor02)
