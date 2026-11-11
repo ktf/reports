@@ -27,6 +27,8 @@
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
 - [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
+- [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16029](https://github.com/AliceO2Group/AliceO2/pull/16029) 2026-11-01: CheckResidSpec prints its config from 1st lane by [@shahor02](https://github.com/shahor02)
 - [\#16030](https://github.com/AliceO2Group/AliceO2/pull/16030) 2026-11-01: TPC SCD: fix getDXI off-by-one for row 127 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16033](https://github.com/AliceO2Group/AliceO2/pull/16033) 2026-11-04: ALICE3: TRK/FT3 digitizer response matrix on the heap, not the stack by [@f3sch](https://github.com/f3sch)
@@ -67,7 +69,6 @@
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
 - [\#16080](https://github.com/AliceO2Group/AliceO2/pull/16080) 2026-11-08: DPL Analysis: query the CCDB once per run of equal timestamps by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#16015](https://github.com/AliceO2Group/AliceO2/pull/16015) 2026-10-30: Avoid multi-loopers generation when using embedding by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
