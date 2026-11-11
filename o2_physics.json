@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-06T08:23:23Z",
-            "title": "[PWGLF] Applied new track cuts in deuteronInTriggeredEvents.cxx",
-            "number": 18604,
-            "author": {
-              "login": "Cristian-Moscatelli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/Nuspex/deuteronInTriggeredEvents.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGHF] candidateCreator3Prong: refine logic of KF reconstruction",
@@ -1791,56 +1771,6 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[Infrastructure,Common,Tutorial,PWGCF,PWGLF] Build the Run 2 integration test tasks as workflow plugins",
-            "number": 18629,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
                   }
                 }
               ]
@@ -3761,56 +3691,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Add a new file for pid v2 in events with at least 1 cascades",
-            "number": 18681,
-            "author": {
-              "login": "fuchuncui"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/cascDiHadronCorr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidDiHadronWithCasc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Net charge fluctuations3",
-            "number": 18676,
-            "author": {
-              "login": "pravatp98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/nchCumulantsId.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] Implement DQ Global Track Estimator",
             "number": 18684,
             "author": {
@@ -3876,26 +3756,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGCF] Apply charged-track corrections to EP flow and add correction QA",
-            "number": 18683,
-            "author": {
-              "login": "CyF1rmiana"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGLF] Add ML-based track index skim creator for tracks from double omega",
             "number": 18656,
             "author": {
@@ -3934,8 +3794,48 @@
         },
         {
           "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-10T21:59:07Z",
+            "title": "[PWGCF] Add kinematic cuts on mother particles in femto framework",
+            "number": 18685,
+            "author": {
+              "login": "ariedel-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto/Core/particleCleaner.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "[PWGCF] radialFlowDecorr: azimuthal-region C_TA maps, Q-vector recentring, vertex and time-split systematics",
+            "number": 18686,
+            "author": {
+              "login": "somabhatta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-10T23:57:06Z",
             "title": "[PWGCF] Added option of poissonian sampling of efficiency to corrected multiplicity estimate in filterCorrelations.cxx",
             "number": 18672,
             "author": {
@@ -3954,18 +3854,118 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-10T21:59:07Z",
-            "title": "[PWGCF] Add kinematic cuts on mother particles in femto framework",
-            "number": 18685,
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Infrastructure,Common,Tutorial,PWGCF,PWGLF] Build the Run 2 integration test tasks as workflow plugins",
+            "number": 18629,
             "author": {
-              "login": "ariedel-cern"
+              "login": "ktf"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGCF/Femto/Core/particleCleaner.h"
+                    "path": "Common/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/Converters/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Apply charged-track corrections to EP flow and add correction QA",
+            "number": 18683,
+            "author": {
+              "login": "CyF1rmiana"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Flow/Tasks/flowEseTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Add a new file for pid v2 in events with at least 1 cascades",
+            "number": 18681,
+            "author": {
+              "login": "fuchuncui"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/cascDiHadronCorr.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/Tasks/pidDiHadronWithCasc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Net charge fluctuations3",
+            "number": 18676,
+            "author": {
+              "login": "pravatp98"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/nchCumulantsId.cxx"
                   }
                 }
               ]
