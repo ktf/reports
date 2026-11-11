@@ -15,6 +15,7 @@
 - [\#16057](https://github.com/AliceO2Group/AliceO2/pull/16057) 2026-11-07: Make the magnetic field evaluation reentrant by [@sawenzel](https://github.com/sawenzel)
 - [\#16078](https://github.com/AliceO2Group/AliceO2/pull/16078) 2026-11-09: FileFetcher acknowledges suppression of processed files by [@shahor02](https://github.com/shahor02)
 - [\#16085](https://github.com/AliceO2Group/AliceO2/pull/16085) 2026-11-10: Add optional per-sector seeding to the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
+- [\#16088](https://github.com/AliceO2Group/AliceO2/pull/16088) 2026-11-11: DPL: when updating params provenance, check if the iterator is not at the end by [@aalkin](https://github.com/aalkin)
 - [\#16094](https://github.com/AliceO2Group/AliceO2/pull/16094) 2026-11-10: Fix deprecated use of localtime by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
@@ -55,7 +56,6 @@
 ## Recent developments in O2 - Framework
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
-- [\#16023](https://github.com/AliceO2Group/AliceO2/pull/16023) 2026-10-30: DPL: add support to retrieve smaps of running processes by [@ktf](https://github.com/ktf)
 - [\#16031](https://github.com/AliceO2Group/AliceO2/pull/16031) 2026-11-02: DPL Analysis: harden the native AOD reader against corrupt input by [@ktf](https://github.com/ktf)
 - [\#16032](https://github.com/AliceO2Group/AliceO2/pull/16032) 2026-11-03: DPL Analysis: cap the read buffers of the native AOD reader by [@ktf](https://github.com/ktf)
 - [\#16034](https://github.com/AliceO2Group/AliceO2/pull/16034) 2026-11-02: AODNative: link Threads::Threads publicly by [@mhemmer-cern](https://github.com/mhemmer-cern)
