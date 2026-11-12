@@ -2,8 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
-- [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
-- [\#16031](https://github.com/AliceO2Group/AliceO2/pull/16031) 2026-11-02: DPL Analysis: harden the native AOD reader against corrupt input by [@ktf](https://github.com/ktf)
 - [\#16032](https://github.com/AliceO2Group/AliceO2/pull/16032) 2026-11-03: DPL Analysis: cap the read buffers of the native AOD reader by [@ktf](https://github.com/ktf)
 - [\#16036](https://github.com/AliceO2Group/AliceO2/pull/16036) 2026-11-03: DPL Analysis: do not build the tasks a device does not run by [@ktf](https://github.com/ktf)
 - [\#16051](https://github.com/AliceO2Group/AliceO2/pull/16051) 2026-11-05: DPL Analysis: retry remote reads and fail over to other replicas in the native AOD reader by [@ktf](https://github.com/ktf)
@@ -14,6 +12,7 @@
 ## Recent developments in O2 - Common
 - [\#16057](https://github.com/AliceO2Group/AliceO2/pull/16057) 2026-11-07: Make the magnetic field evaluation reentrant by [@sawenzel](https://github.com/sawenzel)
 - [\#16078](https://github.com/AliceO2Group/AliceO2/pull/16078) 2026-11-09: FileFetcher acknowledges suppression of processed files by [@shahor02](https://github.com/shahor02)
+- [\#16084](https://github.com/AliceO2Group/AliceO2/pull/16084) 2026-11-12: Add a multithreaded Geant4 mode to o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [\#16085](https://github.com/AliceO2Group/AliceO2/pull/16085) 2026-11-10: Add optional per-sector seeding to the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16088](https://github.com/AliceO2Group/AliceO2/pull/16088) 2026-11-11: DPL: when updating params provenance, check if the iterator is not at the end by [@aalkin](https://github.com/aalkin)
 - [\#16094](https://github.com/AliceO2Group/AliceO2/pull/16094) 2026-11-10: Fix deprecated use of localtime by [@davidrohr](https://github.com/davidrohr)
@@ -29,8 +28,6 @@
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16029](https://github.com/AliceO2Group/AliceO2/pull/16029) 2026-11-01: CheckResidSpec prints its config from 1st lane by [@shahor02](https://github.com/shahor02)
-- [\#16030](https://github.com/AliceO2Group/AliceO2/pull/16030) 2026-11-01: TPC SCD: fix getDXI off-by-one for row 127 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16033](https://github.com/AliceO2Group/AliceO2/pull/16033) 2026-11-04: ALICE3: TRK/FT3 digitizer response matrix on the heap, not the stack by [@f3sch](https://github.com/f3sch)
 - [\#16035](https://github.com/AliceO2Group/AliceO2/pull/16035) 2026-11-03: TrackCosmicsExt.Reader pushes TF ID info only if explicitly requested by [@shahor02](https://github.com/shahor02)
 - [\#16037](https://github.com/AliceO2Group/AliceO2/pull/16037) 2026-11-04: GenericTracking: start and import BoundedAllocator by [@mpuccio](https://github.com/mpuccio)
@@ -51,6 +48,7 @@
 - [\#16081](https://github.com/AliceO2Group/AliceO2/pull/16081) 2026-11-09: Fix MC labels carried over between sectors in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16082](https://github.com/AliceO2Group/AliceO2/pull/16082) 2026-11-10: Do not take ownership of CCDB distortion maps in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16083](https://github.com/AliceO2Group/AliceO2/pull/16083) 2026-11-09: Resolve TPC digitizer calibration objects once per sector by [@sawenzel](https://github.com/sawenzel)
+- [\#16084](https://github.com/AliceO2Group/AliceO2/pull/16084) 2026-11-12: Add a multithreaded Geant4 mode to o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [\#16085](https://github.com/AliceO2Group/AliceO2/pull/16085) 2026-11-10: Add optional per-sector seeding to the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16089](https://github.com/AliceO2Group/AliceO2/pull/16089) 2026-11-09: Report why a simulation setup library cannot be loaded by [@sawenzel](https://github.com/sawenzel)
 - [\#16092](https://github.com/AliceO2Group/AliceO2/pull/16092) 2026-11-10: Fix the inverted and the external primary transport selection in the Stack by [@sawenzel](https://github.com/sawenzel)
@@ -60,8 +58,6 @@
 - [\#16106](https://github.com/AliceO2Group/AliceO2/pull/16106) 2026-11-11: Clear mTriggeredBCFT0 container at TF start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
-- [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
-- [\#16031](https://github.com/AliceO2Group/AliceO2/pull/16031) 2026-11-02: DPL Analysis: harden the native AOD reader against corrupt input by [@ktf](https://github.com/ktf)
 - [\#16032](https://github.com/AliceO2Group/AliceO2/pull/16032) 2026-11-03: DPL Analysis: cap the read buffers of the native AOD reader by [@ktf](https://github.com/ktf)
 - [\#16034](https://github.com/AliceO2Group/AliceO2/pull/16034) 2026-11-02: AODNative: link Threads::Threads publicly by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#16036](https://github.com/AliceO2Group/AliceO2/pull/16036) 2026-11-03: DPL Analysis: do not build the tasks a device does not run by [@ktf](https://github.com/ktf)
@@ -70,6 +66,7 @@
 - [\#16072](https://github.com/AliceO2Group/AliceO2/pull/16072) 2026-11-08: CCDB: read std::array objects written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
 - [\#16080](https://github.com/AliceO2Group/AliceO2/pull/16080) 2026-11-08: DPL Analysis: query the CCDB once per run of equal timestamps by [@ktf](https://github.com/ktf)
+- [\#16111](https://github.com/AliceO2Group/AliceO2/pull/16111) 2026-11-12: Hyperloop MCP: support inspecting train outputs by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Generators
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
@@ -77,6 +74,7 @@
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 - [\#16055](https://github.com/AliceO2Group/AliceO2/pull/16055) 2026-11-07: Draw transport random numbers from a per-thread generator by [@sawenzel](https://github.com/sawenzel)
 - [\#16056](https://github.com/AliceO2Group/AliceO2/pull/16056) 2026-11-07: Keep stepping state in detector members instead of statics by [@sawenzel](https://github.com/sawenzel)
+- [\#16084](https://github.com/AliceO2Group/AliceO2/pull/16084) 2026-11-12: Add a multithreaded Geant4 mode to o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [\#16085](https://github.com/AliceO2Group/AliceO2/pull/16085) 2026-11-10: Add optional per-sector seeding to the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#16047](https://github.com/AliceO2Group/AliceO2/pull/16047) 2026-11-04: Avoid having OpenMP as a dependency of the whole O2 by [@ktf](https://github.com/ktf)
