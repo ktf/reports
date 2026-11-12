@@ -55,7 +55,9 @@
 - [\#16089](https://github.com/AliceO2Group/AliceO2/pull/16089) 2026-11-09: Report why a simulation setup library cannot be loaded by [@sawenzel](https://github.com/sawenzel)
 - [\#16092](https://github.com/AliceO2Group/AliceO2/pull/16092) 2026-11-10: Fix the inverted and the external primary transport selection in the Stack by [@sawenzel](https://github.com/sawenzel)
 - [\#16095](https://github.com/AliceO2Group/AliceO2/pull/16095) 2026-11-10: Fix missing include and library for GCC 16 by [@davidrohr](https://github.com/davidrohr)
+- [\#16104](https://github.com/AliceO2Group/AliceO2/pull/16104) 2026-11-11: TRD: update of T0 value and possibility to disable shift in the tracklet transformer by [@glegras](https://github.com/glegras)
 - [\#16105](https://github.com/AliceO2Group/AliceO2/pull/16105) 2026-11-11: Set the static TLS reserve for Geant4 inside the sim executables by [@sawenzel](https://github.com/sawenzel)
+- [\#16106](https://github.com/AliceO2Group/AliceO2/pull/16106) 2026-11-11: Clear mTriggeredBCFT0 container at TF start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16019](https://github.com/AliceO2Group/AliceO2/pull/16019) 2026-11-01: DPL Analysis: standalone AOD reader which by-passes root by [@ktf](https://github.com/ktf)
