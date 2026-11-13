@@ -26,7 +26,6 @@
 ## Recent developments in O2 - Detectors
 - [\#15650](https://github.com/AliceO2Group/AliceO2/pull/15650) 2026-11-03: TPC: Improve standalone dEdx calculation class by [@tubagundem](https://github.com/tubagundem)
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
-- [\#15890](https://github.com/AliceO2Group/AliceO2/pull/15890) 2026-11-03: TRD: improve anchoring using CCDB objects by [@glegras](https://github.com/glegras)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
