@@ -24,6 +24,7 @@
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16095](https://github.com/AliceO2Group/AliceO2/pull/16095) 2026-11-10: Fix missing include and library for GCC 16 by [@davidrohr](https://github.com/davidrohr)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
+- [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Detectors
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
@@ -31,8 +32,6 @@
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16033](https://github.com/AliceO2Group/AliceO2/pull/16033) 2026-11-04: ALICE3: TRK/FT3 digitizer response matrix on the heap, not the stack by [@f3sch](https://github.com/f3sch)
-- [\#16037](https://github.com/AliceO2Group/AliceO2/pull/16037) 2026-11-04: GenericTracking: start and import BoundedAllocator by [@mpuccio](https://github.com/mpuccio)
 - [\#16041](https://github.com/AliceO2Group/AliceO2/pull/16041) 2026-11-03: [ALICE3] TRKFT3 digitizer: compensate for the shift of the reference BC when mCollisionTimeWrtROF < 0 by [@atriolo](https://github.com/atriolo)
 - [\#16046](https://github.com/AliceO2Group/AliceO2/pull/16046) 2026-11-04: TPC SCD: round instead of truncate when packing the unbinned residuals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16050](https://github.com/AliceO2Group/AliceO2/pull/16050) 2026-11-05: [ALICE3] TRK/FT3 digitizer: noise rate set in hits/px/s instead of hits/px/ROF + uniform ToA for noise digits within ROF  by [@atriolo](https://github.com/atriolo)
@@ -56,6 +55,7 @@
 - [\#16105](https://github.com/AliceO2Group/AliceO2/pull/16105) 2026-11-11: Set the static TLS reserve for Geant4 inside the sim executables by [@sawenzel](https://github.com/sawenzel)
 - [\#16106](https://github.com/AliceO2Group/AliceO2/pull/16106) 2026-11-11: Clear mTriggeredBCFT0 container at TF start by [@shahor02](https://github.com/shahor02)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
+- [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
 ## Recent developments in O2 - Framework
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16051](https://github.com/AliceO2Group/AliceO2/pull/16051) 2026-11-05: DPL Analysis: retry remote reads and fail over to other replicas in the native AOD reader by [@ktf](https://github.com/ktf)
