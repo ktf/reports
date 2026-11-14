@@ -3918,26 +3918,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGLF] Fix process MC reco: remove cascades block in particle loop",
-            "number": 18746,
-            "author": {
-              "login": "lorber98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-14T09:18:30Z",
             "title": "[DPG] add mc event validation qa task",
@@ -3973,8 +3953,118 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "MERGED",
+            "mergedAt": "2026-11-14T11:23:26Z",
+            "title": "[PWGLF,PWGMM] dndetaMFTPbPb.cxx: Fix azimuthal angle selection for MC particles",
+            "number": 18747,
+            "author": {
+              "login": "gbencedi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-14T11:42:31Z",
+            "title": "[PWGHF] Add candidate flag and run information to UPC Lc task",
+            "number": 18748,
+            "author": {
+              "login": "Rrantu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskUpcLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
             "mergedAt": null,
+            "title": "[Infrastructure,PWGLF,PWGMM] Rework flattenicity task: MC truth vs reco, FT0 module geometry, pT vs flattenicity",
+            "number": 18736,
+            "author": {
+              "login": "eishahranipinstech-spec"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CPPLINT.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGLF,PWGMM] Add CPPLINT.cfg",
+            "number": 18741,
+            "author": {
+              "login": "eishahranipinstech-spec"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/UE/Tasks/CPPLINT.cfg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-14T14:24:19Z",
+            "title": "[PWGCF] radialFlowDecorr: fixed pT ranges, common weight-map binning.eta axes, memory",
+            "number": 18742,
+            "author": {
+              "login": "somabhatta"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-14T16:09:04Z",
             "title": "[Tutorial,PWGLF] Add StrangenessV0s hands-on tutorial",
             "number": 18740,
             "author": {
@@ -4103,51 +4193,6 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-14T11:23:26Z",
-            "title": "[PWGLF,PWGMM] dndetaMFTPbPb.cxx: Fix azimuthal angle selection for MC particles",
-            "number": 18747,
-            "author": {
-              "login": "gbencedi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndetaMFTPbPb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-14T11:42:31Z",
-            "title": "[PWGHF] Add candidate flag and run information to UPC Lc task",
-            "number": 18748,
-            "author": {
-              "login": "Rrantu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskUpcLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[PWGLF,PWGMM] Rework flattenicity task: MC truth vs reco, FT0 module geometry, pT vs flattenicity",
@@ -4168,63 +4213,18 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[Infrastructure,PWGLF,PWGMM] Rework flattenicity task: MC truth vs reco, FT0 module geometry, pT vs flattenicity",
-            "number": 18736,
+            "title": "[PWGLF] Fix process MC reco: remove cascades block in particle loop",
+            "number": 18746,
             "author": {
-              "login": "eishahranipinstech-spec"
+              "login": "lorber98"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "CPPLINT.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/flattenicityTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[PWGLF,PWGMM] Add CPPLINT.cfg",
-            "number": 18741,
-            "author": {
-              "login": "eishahranipinstech-spec"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/UE/Tasks/CPPLINT.cfg"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-14T14:24:19Z",
-            "title": "[PWGCF] radialFlowDecorr: fixed pT ranges, common weight-map binning.eta axes, memory",
-            "number": 18742,
-            "author": {
-              "login": "somabhatta"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/radialFlowDecorr.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
                   }
                 }
               ]
