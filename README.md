@@ -20,13 +20,14 @@
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - DataFormats
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
+- [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16095](https://github.com/AliceO2Group/AliceO2/pull/16095) 2026-11-10: Fix missing include and library for GCC 16 by [@davidrohr](https://github.com/davidrohr)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Detectors
-- [\#15650](https://github.com/AliceO2Group/AliceO2/pull/15650) 2026-11-03: TPC: Improve standalone dEdx calculation class by [@tubagundem](https://github.com/tubagundem)
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
+- [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
