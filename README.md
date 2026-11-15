@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
+- [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
@@ -17,6 +18,7 @@
 - [\#16094](https://github.com/AliceO2Group/AliceO2/pull/16094) 2026-11-10: Fix deprecated use of localtime by [@davidrohr](https://github.com/davidrohr)
 - [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
+- [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
@@ -64,6 +66,7 @@
 - [\#16101](https://github.com/AliceO2Group/AliceO2/pull/16101) 2026-11-12: DPL: do not use an attribute value the query parser failed to read by [@ktf](https://github.com/ktf)
 - [\#16111](https://github.com/AliceO2Group/AliceO2/pull/16111) 2026-11-12: Hyperloop MCP: support inspecting train outputs by [@mpuccio](https://github.com/mpuccio)
 - [\#16116](https://github.com/AliceO2Group/AliceO2/pull/16116) 2026-11-13: DPL: avoid InheritsFrom call by [@ktf](https://github.com/ktf)
+- [\#16127](https://github.com/AliceO2Group/AliceO2/pull/16127) 2026-11-15: CCDB: also read std::array members written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
