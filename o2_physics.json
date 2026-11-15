@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-11-09T09:16:49Z",
-            "title": "[PWGHF] Fix the unit mismatch in QA histogram filling",
-            "number": 18577,
-            "author": {
-              "login": "hero-seo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicToXiPiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorXicToXiPiPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-11-09T14:20:44Z",
             "title": "[PWGHF] candidateCreatorXicToXiPiPi, candidateSelectorXicToXiPiPi: fixed bug caused by missing condition",
             "number": 18657,
@@ -4120,26 +4095,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGLF] Fix process MC reco: remove cascades block in particle loop",
-            "number": 18746,
-            "author": {
-              "login": "lorber98"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[PWGDQ] optimize collision storage in global alignment task",
             "number": 18749,
             "author": {
@@ -4178,6 +4133,26 @@
         },
         {
           "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[PWGDQ] add a process for track_centrality QA",
+            "number": 18751,
+            "author": {
+              "login": "zjxiongOvO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[Common] improvements to the muon QA task",
@@ -4198,18 +4173,18 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
-            "title": "[PWGDQ] add a process for track_centrality QA",
-            "number": 18751,
+            "title": "[PWGLF] strangenessInJetsIons: include cascades in gen particles loop of processMCreconstructed",
+            "number": 18746,
             "author": {
-              "login": "zjxiongOvO"
+              "login": "lorber98"
             },
             "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Tasks/dqEfficiency_withAssoc_direct.cxx"
+                    "path": "PWGLF/Tasks/Strangeness/strangenessInJetsIons.cxx"
                   }
                 }
               ]
@@ -4260,6 +4235,26 @@
                 {
                   "node": {
                     "path": "cmake/O2PhysicsAddWorkflow.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGLF] Add correlation with TPC to estimate transverse response",
+            "number": 18752,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/Common/zdc2stagecalibration.cxx"
                   }
                 }
               ]
