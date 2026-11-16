@@ -5,7 +5,6 @@
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
-- [\#16061](https://github.com/AliceO2Group/AliceO2/pull/16061) 2026-11-06: DPL Analysis: look for AOD metadata up to the allowed parent level by [@ktf](https://github.com/ktf)
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
 - [\#16080](https://github.com/AliceO2Group/AliceO2/pull/16080) 2026-11-08: DPL Analysis: query the CCDB once per run of equal timestamps by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -23,6 +22,7 @@
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16095](https://github.com/AliceO2Group/AliceO2/pull/16095) 2026-11-10: Fix missing include and library for GCC 16 by [@davidrohr](https://github.com/davidrohr)
+- [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
 - [\#16129](https://github.com/AliceO2Group/AliceO2/pull/16129) 2026-11-16: Stronger protection for NaN (e<m) in e-loss correction + optimization by [@shahor02](https://github.com/shahor02)
@@ -54,15 +54,17 @@
 - [\#16104](https://github.com/AliceO2Group/AliceO2/pull/16104) 2026-11-11: TRD: update of T0 value and possibility to disable shift in the tracklet transformer by [@glegras](https://github.com/glegras)
 - [\#16105](https://github.com/AliceO2Group/AliceO2/pull/16105) 2026-11-11: Set the static TLS reserve for Geant4 inside the sim executables by [@sawenzel](https://github.com/sawenzel)
 - [\#16106](https://github.com/AliceO2Group/AliceO2/pull/16106) 2026-11-11: Clear mTriggeredBCFT0 container at TF start by [@shahor02](https://github.com/shahor02)
+- [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16119](https://github.com/AliceO2Group/AliceO2/pull/16119) 2026-11-15: Do not keep physical nodes when aligning the o2-sim geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
+- [\#16124](https://github.com/AliceO2Group/AliceO2/pull/16124) 2026-11-16: TPC: fix pair swap when reading CalArray<PadFlags> written by the cus… by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16125](https://github.com/AliceO2Group/AliceO2/pull/16125) 2026-11-14: Fix possible OOB access in PV refitter by [@shahor02](https://github.com/shahor02)
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
+- [\#16133](https://github.com/AliceO2Group/AliceO2/pull/16133) 2026-11-16: o2-sim: Fix event aborts and the exit block in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#16061](https://github.com/AliceO2Group/AliceO2/pull/16061) 2026-11-06: DPL Analysis: look for AOD metadata up to the allowed parent level by [@ktf](https://github.com/ktf)
 - [\#16072](https://github.com/AliceO2Group/AliceO2/pull/16072) 2026-11-08: CCDB: read std::array objects written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
 - [\#16080](https://github.com/AliceO2Group/AliceO2/pull/16080) 2026-11-08: DPL Analysis: query the CCDB once per run of equal timestamps by [@ktf](https://github.com/ktf)
