@@ -4,7 +4,6 @@
 - [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16054](https://github.com/AliceO2Group/AliceO2/pull/16054) 2026-11-07: Move the FairRoot simulation base into O2 by [@sawenzel](https://github.com/sawenzel)
 - [\#16061](https://github.com/AliceO2Group/AliceO2/pull/16061) 2026-11-06: DPL Analysis: look for AOD metadata up to the allowed parent level by [@ktf](https://github.com/ktf)
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
@@ -27,6 +26,7 @@
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
 - [\#16129](https://github.com/AliceO2Group/AliceO2/pull/16129) 2026-11-16: Stronger protection for NaN (e<m) in e-loss correction + optimization by [@shahor02](https://github.com/shahor02)
+- [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#15667](https://github.com/AliceO2Group/AliceO2/pull/15667) 2026-11-09: Refactor/shared lookuptable by [@spulawsk](https://github.com/spulawsk)
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
@@ -58,8 +58,10 @@
 - [\#16119](https://github.com/AliceO2Group/AliceO2/pull/16119) 2026-11-15: Do not keep physical nodes when aligning the o2-sim geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
 - [\#16125](https://github.com/AliceO2Group/AliceO2/pull/16125) 2026-11-14: Fix possible OOB access in PV refitter by [@shahor02](https://github.com/shahor02)
+- [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - EventVisualisation
+- [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#15978](https://github.com/AliceO2Group/AliceO2/pull/15978) 2026-11-06: Detect failed reads when a tree is missing from a DF by [@autumn-mck](https://github.com/autumn-mck)
 - [\#16061](https://github.com/AliceO2Group/AliceO2/pull/16061) 2026-11-06: DPL Analysis: look for AOD metadata up to the allowed parent level by [@ktf](https://github.com/ktf)
 - [\#16072](https://github.com/AliceO2Group/AliceO2/pull/16072) 2026-11-08: CCDB: read std::array objects written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 - [\#16079](https://github.com/AliceO2Group/AliceO2/pull/16079) 2026-11-08: DPL Analysis: send CCDB tables together with the objects they refer to by [@ktf](https://github.com/ktf)
