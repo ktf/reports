@@ -60,6 +60,7 @@
 - [\#16122](https://github.com/AliceO2Group/AliceO2/pull/16122) 2026-11-14: [ALICE3] TF3: Store BC and relative time in cluster by [@maciacco](https://github.com/maciacco)
 - [\#16124](https://github.com/AliceO2Group/AliceO2/pull/16124) 2026-11-16: TPC: fix pair swap when reading CalArray<PadFlags> written by the cus… by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16125](https://github.com/AliceO2Group/AliceO2/pull/16125) 2026-11-14: Fix possible OOB access in PV refitter by [@shahor02](https://github.com/shahor02)
+- [\#16128](https://github.com/AliceO2Group/AliceO2/pull/16128) 2026-11-16: TRD ionisation model independent of the Geant4 energy loss by [@sawenzel](https://github.com/sawenzel)
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 - [\#16133](https://github.com/AliceO2Group/AliceO2/pull/16133) 2026-11-16: o2-sim: Fix event aborts and the exit block in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
