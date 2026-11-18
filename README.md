@@ -13,7 +13,6 @@
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
-- [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16095](https://github.com/AliceO2Group/AliceO2/pull/16095) 2026-11-10: Fix missing include and library for GCC 16 by [@davidrohr](https://github.com/davidrohr)
 - [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
@@ -26,11 +25,9 @@
 ## Recent developments in O2 - Detectors
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
-- [\#16012](https://github.com/AliceO2Group/AliceO2/pull/16012) 2026-10-27: [ALICE3] TRKFT3: first implementation to store Time of Arrival into digits by [@atriolo](https://github.com/atriolo)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16041](https://github.com/AliceO2Group/AliceO2/pull/16041) 2026-11-03: [ALICE3] TRKFT3 digitizer: compensate for the shift of the reference BC when mCollisionTimeWrtROF < 0 by [@atriolo](https://github.com/atriolo)
-- [\#16063](https://github.com/AliceO2Group/AliceO2/pull/16063) 2026-11-07: [ALICE3] VD: fixed digitization for the kIRIS4a and kIRISFullCyl geometries by [@atriolo](https://github.com/atriolo)
 - [\#16081](https://github.com/AliceO2Group/AliceO2/pull/16081) 2026-11-09: Fix MC labels carried over between sectors in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16082](https://github.com/AliceO2Group/AliceO2/pull/16082) 2026-11-10: Do not take ownership of CCDB distortion maps in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16083](https://github.com/AliceO2Group/AliceO2/pull/16083) 2026-11-09: Resolve TPC digitizer calibration objects once per sector by [@sawenzel](https://github.com/sawenzel)
@@ -61,6 +58,8 @@
 - [\#16146](https://github.com/AliceO2Group/AliceO2/pull/16146) 2026-11-17: Mutex-free TGeo material budget in Propagator for multithreaded users by [@shahor02](https://github.com/shahor02)
 - [\#16148](https://github.com/AliceO2Group/AliceO2/pull/16148) 2026-11-18: [ALICE3] postClusterSizeVsEta.C: Fix missing include by [@vkucera](https://github.com/vkucera)
 - [\#16150](https://github.com/AliceO2Group/AliceO2/pull/16150) 2026-11-18: [ALICE3] TF3: update default sensor parameters by [@maciacco](https://github.com/maciacco)
+- [\#16151](https://github.com/AliceO2Group/AliceO2/pull/16151) 2026-11-18: o2-sim: Fix zero-step kills and event aborts in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
+- [\#16152](https://github.com/AliceO2Group/AliceO2/pull/16152) 2026-11-18: MCH: Carry the slat geometry in double by [@sawenzel](https://github.com/sawenzel)
 - [\#16153](https://github.com/AliceO2Group/AliceO2/pull/16153) 2026-11-18: Avoid hiding of base Print method in HistoManager by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
