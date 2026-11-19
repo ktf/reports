@@ -11,6 +11,7 @@
 - [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
+- [\#16149](https://github.com/AliceO2Group/AliceO2/pull/16149) 2026-11-19: GPU: Unify usage of half precision float into half_t typedef in GPUCommonMath.h by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16095](https://github.com/AliceO2Group/AliceO2/pull/16095) 2026-11-10: Fix missing include and library for GCC 16 by [@davidrohr](https://github.com/davidrohr)
@@ -22,12 +23,12 @@
 - [\#16137](https://github.com/AliceO2Group/AliceO2/pull/16137) 2026-11-18: [ALICE3] TRK/FT3 digitizer:  introduced discretization of the timestamp into digits with the ALMIRA ToA timestamp format by [@atriolo](https://github.com/atriolo)
 - [\#16138](https://github.com/AliceO2Group/AliceO2/pull/16138) 2026-11-17: adjustments for TF shifts for productions done with MC-prod-2026-v13 by [@altsybee](https://github.com/altsybee)
 - [\#16141](https://github.com/AliceO2Group/AliceO2/pull/16141) 2026-11-17: fix sor calculation issue for some MC tags, also consider special cases by [@altsybee](https://github.com/altsybee)
+- [\#16154](https://github.com/AliceO2Group/AliceO2/pull/16154) 2026-11-19: Align MC timeframes using FirstOrbitMC from MCProdInfo by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16041](https://github.com/AliceO2Group/AliceO2/pull/16041) 2026-11-03: [ALICE3] TRKFT3 digitizer: compensate for the shift of the reference BC when mCollisionTimeWrtROF < 0 by [@atriolo](https://github.com/atriolo)
 - [\#16081](https://github.com/AliceO2Group/AliceO2/pull/16081) 2026-11-09: Fix MC labels carried over between sectors in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16082](https://github.com/AliceO2Group/AliceO2/pull/16082) 2026-11-10: Do not take ownership of CCDB distortion maps in the TPC digitizer by [@sawenzel](https://github.com/sawenzel)
 - [\#16083](https://github.com/AliceO2Group/AliceO2/pull/16083) 2026-11-09: Resolve TPC digitizer calibration objects once per sector by [@sawenzel](https://github.com/sawenzel)
