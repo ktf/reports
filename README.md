@@ -62,6 +62,7 @@
 - [\#16151](https://github.com/AliceO2Group/AliceO2/pull/16151) 2026-11-18: o2-sim: Fix zero-step kills and event aborts in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#16152](https://github.com/AliceO2Group/AliceO2/pull/16152) 2026-11-18: MCH: Carry the slat geometry in double by [@sawenzel](https://github.com/sawenzel)
 - [\#16153](https://github.com/AliceO2Group/AliceO2/pull/16153) 2026-11-18: Avoid hiding of base Print method in HistoManager by [@shahor02](https://github.com/shahor02)
+- [\#16156](https://github.com/AliceO2Group/AliceO2/pull/16156) 2026-11-19: Extend checkResid w-flow to TRD and TOF residuals extraction by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
