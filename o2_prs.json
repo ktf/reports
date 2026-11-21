@@ -1784,66 +1784,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[DO NOT MERGE] DPL: run framework test through leaks on macos",
-            "number": 15955,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/entitlements.plist"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ServiceRegistry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataRefUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_InputRecord.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-16T08:18:17Z",
             "title": "MUON: Fix missing include for libfmt12 and GCC 16",
@@ -4221,6 +4161,306 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "fix BC jump offset for NonUniformMuInteractionSampler",
+            "number": 16158,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: apply vertex multiplicity cuts to ROF masks",
+            "number": 16162,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/FastMultEst.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-20T20:17:31Z",
+            "title": "IOTOF: Add a TF3 cluster reader",
+            "number": 16161,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/include/IOTOFWorkflow/ClusterReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClusterReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Set hybrid expansion to num_workers in HY",
+            "number": 16164,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
+            "number": 15245,
+            "author": {
+              "login": "wpierozak"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/compareLut.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/convertLutToCsv.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/createLutFromCsv.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/fetchLut.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/printLut.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not transport Angantyr nucleus remnants, and give them a mass",
+            "number": 16160,
+            "author": {
+              "login": "jackal1-66"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/testO2DatabasePDG.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-11-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-11-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[DO NOT MERGE] DPL: run framework test through leaks on macos",
+            "number": 15955,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/entitlements.plist"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ServiceRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataRefUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecord.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE3] Open, partially open modes for VD",
+            "number": 16163,
+            "author": {
+              "login": "plariono"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/TRKBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/VDGeometryBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3",
             "number": 15318,
             "author": {
@@ -4541,246 +4781,6 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "fix BC jump offset for NonUniformMuInteractionSampler",
-            "number": 16158,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS: apply vertex multiplicity cuts to ROF masks",
-            "number": 16162,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/FastMultEst.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[ALICE3] Open, partially open modes for VD",
-            "number": 16163,
-            "author": {
-              "login": "plariono"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/base/include/TRKBase/TRKBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/TRK/simulation/src/VDGeometryBuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-20T20:17:31Z",
-            "title": "IOTOF: Add a TF3 cluster reader",
-            "number": 16161,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/include/IOTOFWorkflow/ClusterReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/IOTOF/workflow/src/ClusterReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Set hybrid expansion to num_workers in HY",
-            "number": 16164,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Implementation of macros for fetching and conversion of FIT LUT [AFIT-126]",
-            "number": 15245,
-            "author": {
-              "login": "wpierozak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/compareLut.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/convertLutToCsv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/createLutFromCsv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/fetchLut.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/printLut.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Do not transport Angantyr nucleus remnants, and give them a mass",
-            "number": 16160,
-            "author": {
-              "login": "jackal1-66"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/test/testO2DatabasePDG.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-11-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-11-o2_releases.json"
                   }
                 }
               ]

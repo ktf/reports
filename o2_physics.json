@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-11-17T06:23:09Z",
-            "title": "[PWGCF] load phi weight from MC and real data separately",
-            "number": 18782,
-            "author": {
-              "login": "pykuan"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/MultiparticleCorrelations/Tasks/multiparticleCumulants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-17T06:40:30Z",
-            "title": "[PWGEM] Photon/Meson: Add task to obtain meson form factor",
-            "number": 18772,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/associateMCinfoPhoton.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaMesonDalitzFormFactor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Utils/DalitzBinning.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-11-16T21:11:01Z",
             "title": "[PWGCF] Refactor V0s slicing to use perColV0Data",
             "number": 18778,
@@ -2110,31 +2050,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-11-19T16:35:39Z",
-            "title": "[PWGHF] Add signed-DCA histograms and PV refit in taskSingleElectron",
-            "number": 18800,
-            "author": {
-              "login": "sejeong8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-11-19T16:37:22Z",
             "title": "[PWGHF] add derived data support to taskElectronWeakBoson",
             "number": 18802,
@@ -3114,26 +3029,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[PWGCF] Update multiplicity and transverse momentum task",
-            "number": 18840,
-            "author": {
-              "login": "orubza"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/EbyEFluctuations/Tasks/multAndPtFluctuations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-20T20:19:36Z",
             "title": "[ALICE3] Update multicharm histograms",
@@ -3266,6 +3161,101 @@
                 {
                   "node": {
                     "path": "PWGCF/GenericFramework/Tasks/energyFlowGfw.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF] Update multiplicity and transverse momentum task",
+            "number": 18840,
+            "author": {
+              "login": "orubza"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/EbyEFluctuations/Tasks/multAndPtFluctuations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGDQ] Update a2 analysis",
+            "number": 18302,
+            "author": {
+              "login": "ypwangg"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader_withAssoc.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-19T16:35:39Z",
+            "title": "[PWGHF] Add signed-DCA histograms and PV refit in taskSingleElectron",
+            "number": 18800,
+            "author": {
+              "login": "sejeong8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFL/Tasks/taskSingleElectron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGJE] Organising and including the correlated background channels in the code and making the angularity exponent as configurable",
+            "number": 18844,
+            "author": {
+              "login": "Rajdeep-nandi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHFAngularity.cxx"
                   }
                 }
               ]
