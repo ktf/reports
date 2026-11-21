@@ -5,156 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2026-11-10T09:44:00Z",
-            "title": "GPU: --recreateTrivialCalibObjects shall write all files when compiled within O2",
-            "number": 16093,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsListStandalone.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-10T09:49:29Z",
-            "title": "Do not take ownership of CCDB distortion maps in the TPC digitizer",
-            "number": 16082,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-10T10:29:07Z",
-            "title": "Fix the inverted and the external primary transport selection in the Stack",
-            "number": 16092,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Stack.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Remove dead remote files from gROOT's list of files",
-            "number": 16097,
-            "author": {
-              "login": "autumn-mck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/RootArrowFilesystem.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-10T16:23:26Z",
-            "title": "GPU Metal: optionally limit the GPU work in flight",
-            "number": 16096,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetal.mm"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalIncludesHost.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/metal/GPUReconstructionMetalKernels.mm"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2026-11-10T18:49:07Z",
-            "title": "Fix missing include and library for GCC 16",
-            "number": 16095,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/GRPObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2026-11-10T18:49:20Z",
             "title": "Fix deprecated use of localtime",
             "number": 16094,
@@ -1236,36 +1086,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/qa/GPUQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITSMFT/ITS3: fix MC labels for clusters after digit squashing",
-            "number": 16098,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/PixelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/Clusterer.cxx"
                   }
                 }
               ]
@@ -3291,66 +3111,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "o2-sim: VecGeom parallel world for a misaligned ITS",
-            "number": 16134,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Map.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomParallelWorld.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/VecGeomParallelWorld.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/test/testVecGeomParallelWorld.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "ZDC: replace legacy fast simulation with an ONNX channel-response model",
             "number": 16147,
             "author": {
@@ -4159,46 +3919,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "fix BC jump offset for NonUniformMuInteractionSampler",
-            "number": 16158,
-            "author": {
-              "login": "ehellbar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS: apply vertex multiplicity cuts to ROF masks",
-            "number": 16162,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/FastMultEst.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-20T20:17:31Z",
             "title": "IOTOF: Add a TF3 cluster reader",
@@ -4326,36 +4046,6 @@
                 {
                   "node": {
                     "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "The following changelog has been automatically generated.",
-            "number": 8674,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-11-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2026-11-o2_releases.json"
                   }
                 }
               ]
@@ -4781,6 +4471,391 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-21T08:26:45Z",
+            "title": "ITS: apply vertex multiplicity cuts to ROF masks",
+            "number": 16162,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/FastMultEst.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-21T10:53:59Z",
+            "title": "o2-sim: VecGeom parallel world for a misaligned ITS",
+            "number": 16134,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Map.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomParallelWorld.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomParallelWorld.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/test/testVecGeomParallelWorld.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-sim: Lean crossing locate for VecGeom navigation, and fixes",
+            "number": 16165,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/test/testVecGeomG4Navigator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-21T11:44:51Z",
+            "title": "fix BC jump offset for NonUniformMuInteractionSampler",
+            "number": 16158,
+            "author": {
+              "login": "ehellbar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Clusterizer: synchronize the cluster transfer to the host before sorting the clusters",
+            "number": 16168,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-sim: Make the lean crossing locate the VecGeom default",
+            "number": 16166,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/G4Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/GeometryManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GeometryManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4Navigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4NavigatorBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomG4PropagatingNavigator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/VecGeomNavigation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/test/testVecGeomG4Navigator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Keep the workflow printout in run-workflow-on-inputlist.sh",
+            "number": 16169,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/run-workflow-on-inputlist.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Framework] Add opt-in skipping of empty associated slices in grouped combinations",
+            "number": 16005,
+            "author": {
+              "login": "BongHwi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupedCombinations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-21T15:36:20Z",
+            "title": "ITSMFT/ITS3: fix MC labels for clusters after digit squashing",
+            "number": 16098,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/PixelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/Clusterer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 8674,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-11-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2026-11-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2026-11-21T16:12:51Z",
+            "title": "Add Poisson unit tests for NonUniformMuInteractionSampler",
+            "number": 16167,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/testInteractionSampler.cxx"
                   }
                 }
               ]
