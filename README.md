@@ -6,7 +6,6 @@
 ## Recent developments in O2 - Common
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
 - [\#16084](https://github.com/AliceO2Group/AliceO2/pull/16084) 2026-11-12: Add a multithreaded Geant4 mode to o2-sim by [@sawenzel](https://github.com/sawenzel)
-- [\#16088](https://github.com/AliceO2Group/AliceO2/pull/16088) 2026-11-11: DPL: when updating params provenance, check if the iterator is not at the end by [@aalkin](https://github.com/aalkin)
 - [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
