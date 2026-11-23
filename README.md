@@ -10,6 +10,7 @@
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 - [\#16149](https://github.com/AliceO2Group/AliceO2/pull/16149) 2026-11-19: GPU: Unify usage of half precision float into half_t typedef in GPUCommonMath.h by [@davidrohr](https://github.com/davidrohr)
+- [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -23,12 +24,14 @@
 - [\#16154](https://github.com/AliceO2Group/AliceO2/pull/16154) 2026-11-19: Align MC timeframes using FirstOrbitMC from MCProdInfo by [@sawenzel](https://github.com/sawenzel)
 - [\#16158](https://github.com/AliceO2Group/AliceO2/pull/16158) 2026-11-21: fix BC jump offset for NonUniformMuInteractionSampler by [@ehellbar](https://github.com/ehellbar)
 - [\#16167](https://github.com/AliceO2Group/AliceO2/pull/16167) 2026-11-21: Add Poisson unit tests for NonUniformMuInteractionSampler by [@sawenzel](https://github.com/sawenzel)
+- [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16027](https://github.com/AliceO2Group/AliceO2/pull/16027) 2026-11-11: TPC: rate-limit TPCScaler weight errors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16028](https://github.com/AliceO2Group/AliceO2/pull/16028) 2026-11-11: TPC: createFromLocalCorrection with irregular spline knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#16070](https://github.com/AliceO2Group/AliceO2/pull/16070) 2026-11-23: TPC SC: faster and more robust space-charge distortion calculation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16084](https://github.com/AliceO2Group/AliceO2/pull/16084) 2026-11-12: Add a multithreaded Geant4 mode to o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [\#16090](https://github.com/AliceO2Group/AliceO2/pull/16090) 2026-11-12: Add a multithreaded TPC digitizer device by [@sawenzel](https://github.com/sawenzel)
 - [\#16098](https://github.com/AliceO2Group/AliceO2/pull/16098) 2026-11-21: ITSMFT/ITS3: fix MC labels for clusters after digit squashing by [@mpuccio](https://github.com/mpuccio)
@@ -60,6 +63,8 @@
 - [\#16156](https://github.com/AliceO2Group/AliceO2/pull/16156) 2026-11-19: Extend checkResid w-flow to TRD and TOF residuals extraction by [@shahor02](https://github.com/shahor02)
 - [\#16161](https://github.com/AliceO2Group/AliceO2/pull/16161) 2026-11-20: IOTOF: Add a TF3 cluster reader by [@mpuccio](https://github.com/mpuccio)
 - [\#16162](https://github.com/AliceO2Group/AliceO2/pull/16162) 2026-11-21: ITS: apply vertex multiplicity cuts to ROF masks by [@mpuccio](https://github.com/mpuccio)
+- [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
+- [\#16174](https://github.com/AliceO2Group/AliceO2/pull/16174) 2026-11-23: Allow pipelinining in readers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
@@ -68,6 +73,7 @@
 - [\#16116](https://github.com/AliceO2Group/AliceO2/pull/16116) 2026-11-13: DPL: avoid InheritsFrom call by [@ktf](https://github.com/ktf)
 - [\#16127](https://github.com/AliceO2Group/AliceO2/pull/16127) 2026-11-15: CCDB: also read std::array members written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
+- [\#16070](https://github.com/AliceO2Group/AliceO2/pull/16070) 2026-11-23: TPC SC: faster and more robust space-charge distortion calculation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16084](https://github.com/AliceO2Group/AliceO2/pull/16084) 2026-11-12: Add a multithreaded Geant4 mode to o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [\#16090](https://github.com/AliceO2Group/AliceO2/pull/16090) 2026-11-12: Add a multithreaded TPC digitizer device by [@sawenzel](https://github.com/sawenzel)
 - [\#16119](https://github.com/AliceO2Group/AliceO2/pull/16119) 2026-11-15: Do not keep physical nodes when aligning the o2-sim geometry by [@sawenzel](https://github.com/sawenzel)
