@@ -1,13 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-- [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#16176](https://github.com/AliceO2Group/AliceO2/pull/16176) 2026-11-23: AODNative: read the directory records and key lists of the next DFs ahead by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
-- [\#16110](https://github.com/AliceO2Group/AliceO2/pull/16110) 2026-11-12: GPU: implement the work-group and warp collectives for Metal by [@ktf](https://github.com/ktf)
 - [\#16118](https://github.com/AliceO2Group/AliceO2/pull/16118) 2026-11-13: [ALICE3]: Add FD3 hit by [@njacazio](https://github.com/njacazio)
 - [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 - [\#16149](https://github.com/AliceO2Group/AliceO2/pull/16149) 2026-11-19: GPU: Unify usage of half precision float into half_t typedef in GPUCommonMath.h by [@davidrohr](https://github.com/davidrohr)
@@ -15,6 +13,7 @@
 - [\#16166](https://github.com/AliceO2Group/AliceO2/pull/16166) 2026-11-23: o2-sim: Make the lean crossing locate the VecGeom default by [@sawenzel](https://github.com/sawenzel)
 - [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
 - [\#16181](https://github.com/AliceO2Group/AliceO2/pull/16181) 2026-11-24: GPU: provide the layout type traits on all device backends, numeric_limits for Metal by [@ktf](https://github.com/ktf)
+- [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -30,6 +29,7 @@
 - [\#16160](https://github.com/AliceO2Group/AliceO2/pull/16160) 2026-11-23: Do not transport Angantyr nucleus remnants, and give them a mass by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16167](https://github.com/AliceO2Group/AliceO2/pull/16167) 2026-11-21: Add Poisson unit tests for NonUniformMuInteractionSampler by [@sawenzel](https://github.com/sawenzel)
 - [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
+- [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
 - [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
@@ -63,6 +63,7 @@
 - [\#16159](https://github.com/AliceO2Group/AliceO2/pull/16159) 2026-11-23: TPC: add option to load a dedicated MC gain map in the digitizer by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16161](https://github.com/AliceO2Group/AliceO2/pull/16161) 2026-11-20: IOTOF: Add a TF3 cluster reader by [@mpuccio](https://github.com/mpuccio)
 - [\#16162](https://github.com/AliceO2Group/AliceO2/pull/16162) 2026-11-21: ITS: apply vertex multiplicity cuts to ROF masks by [@mpuccio](https://github.com/mpuccio)
+- [\#16163](https://github.com/AliceO2Group/AliceO2/pull/16163) 2026-11-25: [ALICE3] Open, partially open modes for VD by [@plariono](https://github.com/plariono)
 - [\#16165](https://github.com/AliceO2Group/AliceO2/pull/16165) 2026-11-23: o2-sim: Lean crossing locate for VecGeom navigation, and fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#16166](https://github.com/AliceO2Group/AliceO2/pull/16166) 2026-11-23: o2-sim: Make the lean crossing locate the VecGeom default by [@sawenzel](https://github.com/sawenzel)
 - [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
@@ -70,6 +71,7 @@
 - [\#16177](https://github.com/AliceO2Group/AliceO2/pull/16177) 2026-11-23: Fix in ITS/MFT/ITS3 predigits labeling by [@shahor02](https://github.com/shahor02)
 - [\#16180](https://github.com/AliceO2Group/AliceO2/pull/16180) 2026-11-23: TOF: initialise the compressor's summary counters by [@ktf](https://github.com/ktf)
 - [\#16183](https://github.com/AliceO2Group/AliceO2/pull/16183) 2026-11-23: Give every Geant4 worker thread its own VecGeom navigator by [@sawenzel](https://github.com/sawenzel)
+- [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
