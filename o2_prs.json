@@ -3854,71 +3854,6 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ITS: let the tracklet-finding device headers compile as Metal code",
-            "number": 16182,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/TimeEstBC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/Vertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/IndexTableUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/LayerMask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingTopology.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ROFLookupTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ROFViews.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonTypeTraits.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2026-11-23T15:19:30Z",
             "title": "AODNative: read the directory records and key lists of the next DFs ahead",
@@ -4921,6 +4856,131 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
+            "title": "Draw InteractionSampler random numbers directly instead of from fixed rings",
+            "number": 16189,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/InteractionSampler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/testInteractionSampler.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT3 OT Stave width and tiling update",
+            "number": 16190,
+            "author": {
+              "login": "JustusRudolph"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3Module.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3ModuleConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: let the tracklet-finding device headers compile as Metal code",
+            "number": 16182,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/TimeEstBC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/Vertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/IndexTableUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/LayerMask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingTopology.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ROFLookupTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/tracking/include/ITSMFTTracking/ROFViews.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
             "number": 8674,
             "author": {
@@ -5160,6 +5220,11 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTPCGeometry.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.h"
                   }
                 },
@@ -5280,7 +5345,22 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.h"
                   }
                 },
                 {
@@ -5291,6 +5371,21 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMPhysicalTrackModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGlobalDebugSortKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGlobalDebugSortKernels.h"
                   }
                 },
                 {
@@ -5380,6 +5475,11 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/utils/qconfig.cxx"
                   }
                 },
@@ -5411,71 +5511,6 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Draw InteractionSampler random numbers directly instead of from fixed rings",
-            "number": 16189,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/InteractionSampler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/InteractionSampler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/test/testInteractionSampler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "FT3 OT Stave width and tiling update",
-            "number": 16190,
-            "author": {
-              "login": "JustusRudolph"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3Module.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/include/FT3Simulation/FT3ModuleConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Layer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/TRKFT3/FT3/simulation/src/FT3Module.cxx"
                   }
                 }
               ]
