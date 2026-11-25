@@ -29,6 +29,7 @@
 - [\#16160](https://github.com/AliceO2Group/AliceO2/pull/16160) 2026-11-23: Do not transport Angantyr nucleus remnants, and give them a mass by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16167](https://github.com/AliceO2Group/AliceO2/pull/16167) 2026-11-21: Add Poisson unit tests for NonUniformMuInteractionSampler by [@sawenzel](https://github.com/sawenzel)
 - [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
+- [\#16182](https://github.com/AliceO2Group/AliceO2/pull/16182) 2026-11-25: ITS: let the tracklet-finding device headers compile as Metal code by [@ktf](https://github.com/ktf)
 - [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
@@ -70,13 +71,13 @@
 - [\#16174](https://github.com/AliceO2Group/AliceO2/pull/16174) 2026-11-23: Allow pipelinining in readers by [@shahor02](https://github.com/shahor02)
 - [\#16177](https://github.com/AliceO2Group/AliceO2/pull/16177) 2026-11-23: Fix in ITS/MFT/ITS3 predigits labeling by [@shahor02](https://github.com/shahor02)
 - [\#16180](https://github.com/AliceO2Group/AliceO2/pull/16180) 2026-11-23: TOF: initialise the compressor's summary counters by [@ktf](https://github.com/ktf)
+- [\#16182](https://github.com/AliceO2Group/AliceO2/pull/16182) 2026-11-25: ITS: let the tracklet-finding device headers compile as Metal code by [@ktf](https://github.com/ktf)
 - [\#16183](https://github.com/AliceO2Group/AliceO2/pull/16183) 2026-11-23: Give every Geant4 worker thread its own VecGeom navigator by [@sawenzel](https://github.com/sawenzel)
 - [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
+- [\#16194](https://github.com/AliceO2Group/AliceO2/pull/16194) 2026-11-25: ITS: mask overflow pixels only with a preceding ROF by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#16101](https://github.com/AliceO2Group/AliceO2/pull/16101) 2026-11-12: DPL: do not use an attribute value the query parser failed to read by [@ktf](https://github.com/ktf)
-- [\#16116](https://github.com/AliceO2Group/AliceO2/pull/16116) 2026-11-13: DPL: avoid InheritsFrom call by [@ktf](https://github.com/ktf)
 - [\#16127](https://github.com/AliceO2Group/AliceO2/pull/16127) 2026-11-15: CCDB: also read std::array members written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 - [\#16157](https://github.com/AliceO2Group/AliceO2/pull/16157) 2026-11-24: DPL: First step in making inputs/outputs optional by [@aalkin](https://github.com/aalkin)
 - [\#16176](https://github.com/AliceO2Group/AliceO2/pull/16176) 2026-11-23: AODNative: read the directory records and key lists of the next DFs ahead by [@ktf](https://github.com/ktf)
