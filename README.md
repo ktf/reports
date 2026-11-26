@@ -33,7 +33,6 @@
 - [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
-- [\#15854](https://github.com/AliceO2Group/AliceO2/pull/15854) 2026-11-13: [ALICE3] Allow ACTS tracker in O2 by [@njacazio](https://github.com/njacazio)
 - [\#15967](https://github.com/AliceO2Group/AliceO2/pull/15967) 2026-11-13: ALICE3 Forward Detector update - #15791 by [@pkurash](https://github.com/pkurash)
 - [\#16070](https://github.com/AliceO2Group/AliceO2/pull/16070) 2026-11-23: TPC SC: faster and more robust space-charge distortion calculation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16098](https://github.com/AliceO2Group/AliceO2/pull/16098) 2026-11-21: ITSMFT/ITS3: fix MC labels for clusters after digit squashing by [@mpuccio](https://github.com/mpuccio)
