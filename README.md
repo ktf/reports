@@ -1,13 +1,10 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#16176](https://github.com/AliceO2Group/AliceO2/pull/16176) 2026-11-23: AODNative: read the directory records and key lists of the next DFs ahead by [@ktf](https://github.com/ktf)
 - [\#16198](https://github.com/AliceO2Group/AliceO2/pull/16198) 2026-11-26: DPL Analysis: add CompactTHnSparse, a THnSparse with compact bin storage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
-- [\#16126](https://github.com/AliceO2Group/AliceO2/pull/16126) 2026-11-15: GPU Metal: fence only threadgroup memory in the work-group collectives by [@ktf](https://github.com/ktf)
 - [\#16149](https://github.com/AliceO2Group/AliceO2/pull/16149) 2026-11-19: GPU: Unify usage of half precision float into half_t typedef in GPUCommonMath.h by [@davidrohr](https://github.com/davidrohr)
 - [\#16165](https://github.com/AliceO2Group/AliceO2/pull/16165) 2026-11-23: o2-sim: Lean crossing locate for VecGeom navigation, and fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#16166](https://github.com/AliceO2Group/AliceO2/pull/16166) 2026-11-23: o2-sim: Make the lean crossing locate the VecGeom default by [@sawenzel](https://github.com/sawenzel)
@@ -15,9 +12,6 @@
 - [\#16181](https://github.com/AliceO2Group/AliceO2/pull/16181) 2026-11-24: GPU: provide the layout type traits on all device backends, numeric_limits for Metal by [@ktf](https://github.com/ktf)
 - [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16129](https://github.com/AliceO2Group/AliceO2/pull/16129) 2026-11-16: Stronger protection for NaN (e<m) in e-loss correction + optimization by [@shahor02](https://github.com/shahor02)
-- [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
 - [\#16137](https://github.com/AliceO2Group/AliceO2/pull/16137) 2026-11-18: [ALICE3] TRK/FT3 digitizer:  introduced discretization of the timestamp into digits with the ALMIRA ToA timestamp format by [@atriolo](https://github.com/atriolo)
 - [\#16138](https://github.com/AliceO2Group/AliceO2/pull/16138) 2026-11-17: adjustments for TF shifts for productions done with MC-prod-2026-v13 by [@altsybee](https://github.com/altsybee)
 - [\#16141](https://github.com/AliceO2Group/AliceO2/pull/16141) 2026-11-17: fix sor calculation issue for some MC tags, also consider special cases by [@altsybee](https://github.com/altsybee)
@@ -33,14 +27,8 @@
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
 - [\#16070](https://github.com/AliceO2Group/AliceO2/pull/16070) 2026-11-23: TPC SC: faster and more robust space-charge distortion calculation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16098](https://github.com/AliceO2Group/AliceO2/pull/16098) 2026-11-21: ITSMFT/ITS3: fix MC labels for clusters after digit squashing by [@mpuccio](https://github.com/mpuccio)
-- [\#16107](https://github.com/AliceO2Group/AliceO2/pull/16107) 2026-11-16: TPC: read rule for the old ClusterNative::qTot by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16114](https://github.com/AliceO2Group/AliceO2/pull/16114) 2026-11-17: TPC SCD: explicit spline knots for createFromTrackResiduals by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16119](https://github.com/AliceO2Group/AliceO2/pull/16119) 2026-11-15: Do not keep physical nodes when aligning the o2-sim geometry by [@sawenzel](https://github.com/sawenzel)
-- [\#16124](https://github.com/AliceO2Group/AliceO2/pull/16124) 2026-11-16: TPC: fix pair swap when reading CalArray<PadFlags> written by the cus… by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16128](https://github.com/AliceO2Group/AliceO2/pull/16128) 2026-11-16: TRD ionisation model independent of the Geant4 energy loss by [@sawenzel](https://github.com/sawenzel)
 - [\#16131](https://github.com/AliceO2Group/AliceO2/pull/16131) 2026-11-23: TPC: take the charge of a stopping step from the energy deposit by [@sawenzel](https://github.com/sawenzel)
-- [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
-- [\#16133](https://github.com/AliceO2Group/AliceO2/pull/16133) 2026-11-16: o2-sim: Fix event aborts and the exit block in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#16134](https://github.com/AliceO2Group/AliceO2/pull/16134) 2026-11-21: o2-sim: VecGeom parallel world for a misaligned ITS by [@sawenzel](https://github.com/sawenzel)
 - [\#16137](https://github.com/AliceO2Group/AliceO2/pull/16137) 2026-11-18: [ALICE3] TRK/FT3 digitizer:  introduced discretization of the timestamp into digits with the ALMIRA ToA timestamp format by [@atriolo](https://github.com/atriolo)
 - [\#16142](https://github.com/AliceO2Group/AliceO2/pull/16142) 2026-11-17: Close the nanometre gaps between EMCAL modules by [@sawenzel](https://github.com/sawenzel)
@@ -70,21 +58,24 @@
 - [\#16190](https://github.com/AliceO2Group/AliceO2/pull/16190) 2026-11-26: FT3 OT Stave width and tiling update by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#16194](https://github.com/AliceO2Group/AliceO2/pull/16194) 2026-11-25: ITS: mask overflow pixels only with a preceding ROF by [@ktf](https://github.com/ktf)
 - [\#16195](https://github.com/AliceO2Group/AliceO2/pull/16195) 2026-11-26: DPL / MC: Add std::span support, switch some things from gsl::span to std::span by [@davidrohr](https://github.com/davidrohr)
-## Recent developments in O2 - EventVisualisation
-- [\#16132](https://github.com/AliceO2Group/AliceO2/pull/16132) 2026-11-16: MUON: Fix missing include for libfmt12 and GCC 16 by [@davidrohr](https://github.com/davidrohr)
+- [\#16197](https://github.com/AliceO2Group/AliceO2/pull/16197) 2026-11-26: FT0: Restore crosstalk in digitizer by [@spulawsk](https://github.com/spulawsk)
+- [\#16199](https://github.com/AliceO2Group/AliceO2/pull/16199) 2026-11-26: Use the BVH and safety caching for the TGeo parallel world by default by [@sawenzel](https://github.com/sawenzel)
+- [\#16207](https://github.com/AliceO2Group/AliceO2/pull/16207) 2026-11-26: Make o2-create-aligned-geometry-workflow respect align-geom.mDetectors by [@sawenzel](https://github.com/sawenzel)
+- [\#16214](https://github.com/AliceO2Group/AliceO2/pull/16214) 2026-11-26: Count afterburner matches in the MC TPC-normalised ITS-TPC matching QC by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#16127](https://github.com/AliceO2Group/AliceO2/pull/16127) 2026-11-15: CCDB: also read std::array members written by libstdc++ on libc++ builds by [@ktf](https://github.com/ktf)
 - [\#16157](https://github.com/AliceO2Group/AliceO2/pull/16157) 2026-11-24: DPL: First step in making inputs/outputs optional by [@aalkin](https://github.com/aalkin)
 - [\#16176](https://github.com/AliceO2Group/AliceO2/pull/16176) 2026-11-23: AODNative: read the directory records and key lists of the next DFs ahead by [@ktf](https://github.com/ktf)
 - [\#16195](https://github.com/AliceO2Group/AliceO2/pull/16195) 2026-11-26: DPL / MC: Add std::span support, switch some things from gsl::span to std::span by [@davidrohr](https://github.com/davidrohr)
 - [\#16198](https://github.com/AliceO2Group/AliceO2/pull/16198) 2026-11-26: DPL Analysis: add CompactTHnSparse, a THnSparse with compact bin storage by [@ktf](https://github.com/ktf)
+- [\#16200](https://github.com/AliceO2Group/AliceO2/pull/16200) 2026-11-26: AOD: add o2-aod-validator to find what interrupted writes leave behind by [@ktf](https://github.com/ktf)
+- [\#16204](https://github.com/AliceO2Group/AliceO2/pull/16204) 2026-11-26: Default constructor for ASoA by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#16160](https://github.com/AliceO2Group/AliceO2/pull/16160) 2026-11-23: Do not transport Angantyr nucleus remnants, and give them a mass by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16164](https://github.com/AliceO2Group/AliceO2/pull/16164) 2026-11-23: Set hybrid expansion to num_workers in HY by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16171](https://github.com/AliceO2Group/AliceO2/pull/16171) 2026-11-23: Cap hybrid workers to configured generators by [@jackal1-66](https://github.com/jackal1-66)
+- [\#16179](https://github.com/AliceO2Group/AliceO2/pull/16179) 2026-11-26: Apply the -t trigger to the Hyperloop hybrid expansion by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#16070](https://github.com/AliceO2Group/AliceO2/pull/16070) 2026-11-23: TPC SC: faster and more robust space-charge distortion calculation by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#16119](https://github.com/AliceO2Group/AliceO2/pull/16119) 2026-11-15: Do not keep physical nodes when aligning the o2-sim geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#16137](https://github.com/AliceO2Group/AliceO2/pull/16137) 2026-11-18: [ALICE3] TRK/FT3 digitizer:  introduced discretization of the timestamp into digits with the ALMIRA ToA timestamp format by [@atriolo](https://github.com/atriolo)
 - [\#16159](https://github.com/AliceO2Group/AliceO2/pull/16159) 2026-11-23: TPC: add option to load a dedicated MC gain map in the digitizer by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16183](https://github.com/AliceO2Group/AliceO2/pull/16183) 2026-11-23: Give every Geant4 worker thread its own VecGeom navigator by [@sawenzel](https://github.com/sawenzel)
