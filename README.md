@@ -11,6 +11,7 @@
 - [\#16172](https://github.com/AliceO2Group/AliceO2/pull/16172) 2026-11-23: CTF: fill an existing branch from the object passed now, not the first one by [@ktf](https://github.com/ktf)
 - [\#16181](https://github.com/AliceO2Group/AliceO2/pull/16181) 2026-11-24: GPU: provide the layout type traits on all device backends, numeric_limits for Metal by [@ktf](https://github.com/ktf)
 - [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
+- [\#16203](https://github.com/AliceO2Group/AliceO2/pull/16203) 2026-11-26: Another batch of GPU TODOs by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#16137](https://github.com/AliceO2Group/AliceO2/pull/16137) 2026-11-18: [ALICE3] TRK/FT3 digitizer:  introduced discretization of the timestamp into digits with the ALMIRA ToA timestamp format by [@atriolo](https://github.com/atriolo)
 - [\#16138](https://github.com/AliceO2Group/AliceO2/pull/16138) 2026-11-17: adjustments for TF shifts for productions done with MC-prod-2026-v13 by [@altsybee](https://github.com/altsybee)
@@ -32,7 +33,6 @@
 - [\#16134](https://github.com/AliceO2Group/AliceO2/pull/16134) 2026-11-21: o2-sim: VecGeom parallel world for a misaligned ITS by [@sawenzel](https://github.com/sawenzel)
 - [\#16137](https://github.com/AliceO2Group/AliceO2/pull/16137) 2026-11-18: [ALICE3] TRK/FT3 digitizer:  introduced discretization of the timestamp into digits with the ALMIRA ToA timestamp format by [@atriolo](https://github.com/atriolo)
 - [\#16142](https://github.com/AliceO2Group/AliceO2/pull/16142) 2026-11-17: Close the nanometre gaps between EMCAL modules by [@sawenzel](https://github.com/sawenzel)
-- [\#16143](https://github.com/AliceO2Group/AliceO2/pull/16143) 2026-11-17: Fix invalid iterator dereference in MaterialManager debug log by [@sawenzel](https://github.com/sawenzel)
 - [\#16144](https://github.com/AliceO2Group/AliceO2/pull/16144) 2026-11-17: o2-sim: Tell the exited volume by its path in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
 - [\#16145](https://github.com/AliceO2Group/AliceO2/pull/16145) 2026-11-17: declare trigger output in ITS/MFT digit reader only when running with triggers by [@ehellbar](https://github.com/ehellbar)
 - [\#16146](https://github.com/AliceO2Group/AliceO2/pull/16146) 2026-11-17: Mutex-free TGeo material budget in Propagator for multithreaded users by [@shahor02](https://github.com/shahor02)
