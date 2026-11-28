@@ -23,6 +23,7 @@
 - [\#16182](https://github.com/AliceO2Group/AliceO2/pull/16182) 2026-11-25: ITS: let the tracklet-finding device headers compile as Metal code by [@ktf](https://github.com/ktf)
 - [\#16184](https://github.com/AliceO2Group/AliceO2/pull/16184) 2026-11-25: GPU: Solve plenty of TODOs and FIXMEs in the code by [@davidrohr](https://github.com/davidrohr)
 - [\#16195](https://github.com/AliceO2Group/AliceO2/pull/16195) 2026-11-26: DPL / MC: Add std::span support, switch some things from gsl::span to std::span by [@davidrohr](https://github.com/davidrohr)
+- [\#16206](https://github.com/AliceO2Group/AliceO2/pull/16206) 2026-11-27: Complete dictionary rootmaps with all public headers to fix generator macro crashes by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16218](https://github.com/AliceO2Group/AliceO2/pull/16218) 2026-11-27: SVertexer records pools entry rejections (currently #ifdef-ed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#15318](https://github.com/AliceO2Group/AliceO2/pull/15318) 2026-11-21: Tracking Developments: Phase 2 fully implemented and Extrapolation of Phase 3 by [@davidrohr](https://github.com/davidrohr)
@@ -50,8 +51,10 @@
 - [\#16190](https://github.com/AliceO2Group/AliceO2/pull/16190) 2026-11-26: FT3 OT Stave width and tiling update by [@JustusRudolph](https://github.com/JustusRudolph)
 - [\#16194](https://github.com/AliceO2Group/AliceO2/pull/16194) 2026-11-25: ITS: mask overflow pixels only with a preceding ROF by [@ktf](https://github.com/ktf)
 - [\#16195](https://github.com/AliceO2Group/AliceO2/pull/16195) 2026-11-26: DPL / MC: Add std::span support, switch some things from gsl::span to std::span by [@davidrohr](https://github.com/davidrohr)
+- [\#16196](https://github.com/AliceO2Group/AliceO2/pull/16196) 2026-11-27: SVertexer: fix V0 causality check for prongs without ITS by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16197](https://github.com/AliceO2Group/AliceO2/pull/16197) 2026-11-26: FT0: Restore crosstalk in digitizer by [@spulawsk](https://github.com/spulawsk)
 - [\#16199](https://github.com/AliceO2Group/AliceO2/pull/16199) 2026-11-26: Use the BVH and safety caching for the TGeo parallel world by default by [@sawenzel](https://github.com/sawenzel)
+- [\#16206](https://github.com/AliceO2Group/AliceO2/pull/16206) 2026-11-27: Complete dictionary rootmaps with all public headers to fix generator macro crashes by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16207](https://github.com/AliceO2Group/AliceO2/pull/16207) 2026-11-26: Make o2-create-aligned-geometry-workflow respect align-geom.mDetectors by [@sawenzel](https://github.com/sawenzel)
 - [\#16212](https://github.com/AliceO2Group/AliceO2/pull/16212) 2026-11-27: FT0: Restore previous digitizer pulse shape by [@spulawsk](https://github.com/spulawsk)
 - [\#16214](https://github.com/AliceO2Group/AliceO2/pull/16214) 2026-11-26: Count afterburner matches in the MC TPC-normalised ITS-TPC matching QC by [@sawenzel](https://github.com/sawenzel)
@@ -72,6 +75,7 @@
 - [\#16164](https://github.com/AliceO2Group/AliceO2/pull/16164) 2026-11-23: Set hybrid expansion to num_workers in HY by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16171](https://github.com/AliceO2Group/AliceO2/pull/16171) 2026-11-23: Cap hybrid workers to configured generators by [@jackal1-66](https://github.com/jackal1-66)
 - [\#16179](https://github.com/AliceO2Group/AliceO2/pull/16179) 2026-11-26: Apply the -t trigger to the Hyperloop hybrid expansion by [@sawenzel](https://github.com/sawenzel)
+- [\#16206](https://github.com/AliceO2Group/AliceO2/pull/16206) 2026-11-27: Complete dictionary rootmaps with all public headers to fix generator macro crashes by [@jackal1-66](https://github.com/jackal1-66)
 ## Recent developments in O2 - Steer
 - [\#16070](https://github.com/AliceO2Group/AliceO2/pull/16070) 2026-11-23: TPC SC: faster and more robust space-charge distortion calculation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16159](https://github.com/AliceO2Group/AliceO2/pull/16159) 2026-11-23: TPC: add option to load a dedicated MC gain map in the digitizer by [@matthias-kleiner](https://github.com/matthias-kleiner)
