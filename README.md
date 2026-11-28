@@ -32,7 +32,6 @@
 - [\#16131](https://github.com/AliceO2Group/AliceO2/pull/16131) 2026-11-23: TPC: take the charge of a stopping step from the energy deposit by [@sawenzel](https://github.com/sawenzel)
 - [\#16134](https://github.com/AliceO2Group/AliceO2/pull/16134) 2026-11-21: o2-sim: VecGeom parallel world for a misaligned ITS by [@sawenzel](https://github.com/sawenzel)
 - [\#16151](https://github.com/AliceO2Group/AliceO2/pull/16151) 2026-11-18: o2-sim: Fix zero-step kills and event aborts in VecGeom navigation by [@sawenzel](https://github.com/sawenzel)
-- [\#16152](https://github.com/AliceO2Group/AliceO2/pull/16152) 2026-11-18: MCH: Carry the slat geometry in double by [@sawenzel](https://github.com/sawenzel)
 - [\#16156](https://github.com/AliceO2Group/AliceO2/pull/16156) 2026-11-19: Extend checkResid w-flow to TRD and TOF residuals extraction by [@shahor02](https://github.com/shahor02)
 - [\#16159](https://github.com/AliceO2Group/AliceO2/pull/16159) 2026-11-23: TPC: add option to load a dedicated MC gain map in the digitizer by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#16161](https://github.com/AliceO2Group/AliceO2/pull/16161) 2026-11-20: IOTOF: Add a TF3 cluster reader by [@mpuccio](https://github.com/mpuccio)
